@@ -42,6 +42,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 
 from zotero_rdf import from_bibtex, to_bibtex
@@ -70,13 +71,33 @@ def _year_of(entry_text: str) -> str:
     return m.group(1) if m else _UNDATED
 
 
-def _read_meta(meta_path: Path) -> dict:
+def _load_store_sidecar(meta_path: Path) -> tuple[dict, dict]:
+    """Read a stored ``{zotero, custom}`` sidecar, failing loudly on a wrong shape.
+
+    Returns ``(zotero, custom)``. Content may be empty (``{}`` → both empty), but a
+    *present, non-empty* sidecar must already be the canonical wrapped form. A flat
+    / legacy sidecar is **rejected, not migrated**: silently reading it as
+    ``.get("zotero", {})`` would drop the whole overlay (invariant #4 / the
+    ``test/pr3`` data-loss path). We refuse to normalize it instead — the fix is a
+    human one (wrap it, or empty it), never a silent rewrite.
+    """
     if not meta_path.exists():
-        return {}
-    try:
-        return json.loads(meta_path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return {}
+        return {}, {}
+    data = json.loads(meta_path.read_text(encoding="utf-8"))  # JSONDecodeError propagates → fail
+    if data == {}:
+        return {}, {}
+    if not isinstance(data, dict) or set(data) != {"zotero", "custom"}:
+        found = sorted(data) if isinstance(data, dict) else type(data).__name__
+        raise ValueError(
+            f"{meta_path} is not a canonical sidecar: expected top-level "
+            f"{{'zotero', 'custom'}}, found {found or 'empty object'}. Refusing to "
+            f"normalize — a flat/legacy sidecar must be wrapped (or emptied) by a human "
+            f"first, never silently dropped."
+        )
+    zotero, custom = data["zotero"], data["custom"]
+    if not isinstance(zotero, dict) or not isinstance(custom, dict):
+        raise ValueError(f"{meta_path}: 'zotero' and 'custom' must both be objects")
+    return zotero, custom
 
 
 def _in_store_meta(repo_root: Path, bib_path: Path) -> Path | None:
@@ -104,10 +125,9 @@ def _plan_file(repo_root: Path, bib_path: Path):
     # from the filename); raw drops take a sibling {citekey: sidecar} map.
     extra_sources: list[Path] = []
     if in_store_meta is not None:
+        zotero, carried_custom = _load_store_sidecar(in_store_meta)
         ck = (_CITEKEY_RE.search(text) or [None, None])[1] if in_store_meta.exists() else None
-        zotero = _read_meta(in_store_meta).get("zotero", {})
         sidecar_map = {ck: zotero} if ck else None
-        carried_custom = _read_meta(in_store_meta).get("custom", {})
     else:
         sibling = bib_path.with_suffix(".json")
         sidecar_map = json.loads(sibling.read_text(encoding="utf-8")) if sibling.exists() else None
@@ -167,7 +187,8 @@ def normalize_changed(repo_root: Path, changed_bibs: list[Path]):
                     f"(possible duplicate of {citekey} — needs dedup/human review)"
                 )
 
-            custom = _read_meta(meta_path).get("custom") or carried
+            _, existing_custom = _load_store_sidecar(meta_path)
+            custom = existing_custom or carried
             bib_path.parent.mkdir(parents=True, exist_ok=True)
             meta_path.parent.mkdir(parents=True, exist_ok=True)
             bib_path.write_text(entry_text, encoding="utf-8")
@@ -199,7 +220,11 @@ def main() -> None:
     ap.add_argument("paths", nargs="+", type=Path, help="changed .bib files (from git diff)")
     ap.add_argument("--root", type=Path, default=Path.cwd(), help="repo root (default: cwd)")
     args = ap.parse_args()
-    written, removed, warnings = normalize_changed(args.root, args.paths)
+    try:
+        written, removed, warnings = normalize_changed(args.root, args.paths)
+    except (ValueError, json.JSONDecodeError) as exc:
+        print(f"::error::normalize aborted (malformed input, nothing written): {exc}")
+        sys.exit(1)
     print(f"wrote {len(written)} files ({len(written) // 2} entries); removed {len(removed)} raw source(s)")
     for w in warnings:
         print(f"  ::warning:: {w}")
