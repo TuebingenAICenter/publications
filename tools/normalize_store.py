@@ -28,6 +28,12 @@ Other mechanics:
 - **relocation carries data** — an edit that changes an entry's year moves the
   pair into the new year directory and transfers the existing ``custom`` report
   data, deleting the old pair (no orphan, no data loss).
+- **rename-aware sidecar heal** — if a contributor moves a ``.bib`` themselves but
+  forgets its sidecar, the PR's diff reports the bib as a rename; we mirror the
+  *same* rename onto the sidecar first, so the in-store logic finds the overlay at
+  the bib's new location and carries it (instead of stranding an orphan + writing a
+  fresh empty sidecar). Best-effort: git rename detection is heuristic, so the
+  bijection CI check remains the backstop when a move can't be inferred.
 - **custom-half preservation** — re-normalizing keeps any existing ``custom``
   report data and only refreshes the ``zotero`` half.
 - **collision seam** — writing onto a *different* pre-existing entry is the
@@ -128,13 +134,32 @@ def _plan_file(repo_root: Path, bib_path: Path):
     return targets, extra_sources, (carried_custom if single else {})
 
 
-def normalize_changed(repo_root: Path, changed_bibs: list[Path]):
+def normalize_changed(repo_root: Path, changed_bibs: list[Path], renames=None):
     """Normalize the ``.bib`` files changed in a PR; relocate + delete raw sources.
+
+    ``renames`` is an optional list of ``(old_bib, new_bib)`` pairs (the PR's
+    detected ``.bib`` renames). For each, the sidecar is moved to mirror the bib's
+    move before planning, so a contributor who relocated a ``.bib`` without its
+    sidecar doesn't strand the overlay (see *rename-aware sidecar heal*).
 
     Returns ``(written, removed, warnings)``.
     """
     repo_root = Path(repo_root)
     changed_set = {Path(b).resolve() for b in changed_bibs}
+
+    # Rename-aware sidecar heal (invariant #6): mirror each detected .bib rename
+    # onto its sidecar, so the in-store logic below reads the overlay from the
+    # bib's *new* mirror path. Only fires when the old sidecar is present and the
+    # new one is absent — i.e. the contributor moved the bib but not the json.
+    for old_bib, new_bib in renames or []:
+        new_meta = _in_store_meta(repo_root, Path(new_bib))
+        old_meta = _in_store_meta(repo_root, Path(old_bib))
+        if (
+            new_meta is not None and old_meta is not None
+            and old_meta.exists() and not new_meta.exists()
+        ):
+            new_meta.parent.mkdir(parents=True, exist_ok=True)
+            old_meta.rename(new_meta)
 
     plans = []  # (source_bib, targets, extra_sources, carried_custom)
     for bib in changed_bibs:
@@ -198,8 +223,12 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Normalize changed .bib files into the store layout.")
     ap.add_argument("paths", nargs="+", type=Path, help="changed .bib files (from git diff)")
     ap.add_argument("--root", type=Path, default=Path.cwd(), help="repo root (default: cwd)")
+    ap.add_argument(
+        "--rename", nargs=2, action="append", metavar=("OLD", "NEW"), type=Path, default=[],
+        help="a renamed .bib as 'OLD NEW'; mirrors the rename onto its sidecar (repeatable)",
+    )
     args = ap.parse_args()
-    written, removed, warnings = normalize_changed(args.root, args.paths)
+    written, removed, warnings = normalize_changed(args.root, args.paths, renames=args.rename)
     print(f"wrote {len(written)} files ({len(written) // 2} entries); removed {len(removed)} raw source(s)")
     for w in warnings:
         print(f"  ::warning:: {w}")

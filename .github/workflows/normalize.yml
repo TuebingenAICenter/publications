@@ -36,17 +36,23 @@ jobs:
         #   git+https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git
         run: pip install "git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git"
 
-      - name: Find changed .bib files
+      - name: Find changed .bib files (and renames)
         id: changed
         run: |
-          git diff --name-only --diff-filter=ACMR \
-            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > changed.txt
-          echo "Changed .bib files:"; cat changed.txt
+          base="origin/${{ github.base_ref }}"
+          # -M turns a move into a single R line: "R<score><TAB>old<TAB>new".
+          git diff --name-status -M --diff-filter=ACMR "$base...HEAD" -- '*.bib' > status.txt
+          echo "Changed .bib (name-status):"; cat status.txt
+          # Files to normalize = the current (new) path, i.e. the last column.
+          awk -F'\t' '{ print $NF }' status.txt > changed.txt
+          # Renames → "--rename OLD NEW" so the engine can mirror the move onto the sidecar.
+          awk -F'\t' '$1 ~ /^R/ { printf "--rename %s %s\n", $2, $3 }' status.txt > renames.txt
+          echo "Renames:"; cat renames.txt
           [ -s changed.txt ] && echo "any=true" >> "$GITHUB_OUTPUT" || echo "any=false" >> "$GITHUB_OUTPUT"
 
       - name: Normalize
         if: steps.changed.outputs.any == 'true'
-        run: python tools/normalize_store.py --root . $(cat changed.txt)
+        run: python tools/normalize_store.py --root . $(cat renames.txt) $(cat changed.txt)
 
       - name: Commit normalized result back to the PR branch
         if: steps.changed.outputs.any == 'true'
