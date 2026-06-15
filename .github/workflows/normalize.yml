@@ -1,0 +1,64 @@
+name: Normalize entries
+
+# PoC: on every PR, find the .bib files it changed (anywhere in the repo),
+# rewrite them into the canonical store layout (entries/<year>/<key>.bib +
+# meta/<year>/<key>.json), relocate/delete raw drops, and commit the result
+# back to the PR branch. The same path serves the initial big-data PR and every
+# future one-entry PR. Dedup and the compiled all.bib are deliberately out of
+# scope here.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+# Needed so the job can push the normalized result back to the PR branch.
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          # Check out the PR's own branch (not a detached merge ref) so we can
+          # push back to it. fetch-depth: 0 gives us the base branch for the diff.
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install zotero-rdf-python
+        # Public GitLab → anonymous HTTPS works. If that repo is private, swap to:
+        #   git+https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git
+        run: pip install "git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git"
+
+      - name: Find changed .bib files
+        id: changed
+        run: |
+          git diff --name-only --diff-filter=ACMR \
+            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > changed.txt
+          echo "Changed .bib files:"; cat changed.txt
+          [ -s changed.txt ] && echo "any=true" >> "$GITHUB_OUTPUT" || echo "any=false" >> "$GITHUB_OUTPUT"
+
+      - name: Normalize
+        if: steps.changed.outputs.any == 'true'
+        run: python tools/normalize_store.py --root . $(cat changed.txt)
+
+      - name: Commit normalized result back to the PR branch
+        if: steps.changed.outputs.any == 'true'
+        run: |
+          git config user.name  "tueai-publications-bot"
+          git config user.email "bot@tuebingen.ai"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Already canonical — nothing to commit."
+          else
+            # [skip ci] is belt-and-suspenders: a GITHUB_TOKEN push does not
+            # re-trigger workflows anyway, and the normalizer is idempotent.
+            git commit -m "chore: normalize entries to canonical store layout [skip ci]"
+            git push origin "HEAD:${{ github.head_ref }}"
+          fi
