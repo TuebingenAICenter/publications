@@ -5,11 +5,11 @@ Enforces two invariants on the committed store:
 - **Bijection by existence (#1):** every ``entries/<year>/<stem>.bib`` has exactly
   one ``meta/<year>/<stem>.json`` at the same year + stem, and vice versa. The
   *content* of a sidecar may be empty (``{}``), but the file must exist.
-- **Sidecar shape (#4):** every ``meta/**/*.json`` is valid JSON with exactly the
-  two top-level keys ``zotero`` and ``custom``, both objects (possibly empty). A
-  flat / legacy sidecar is **rejected, not migrated** — content can be omitted
-  (an empty ``{}`` half is fine), but anything actually committed must already be
-  in the canonical wrapped shape.
+- **Sidecar shape (#4):** every ``meta/**/*.json`` validates against
+  ``schema/sidecar.schema.json`` — a bare ``{}`` or any combination of the two
+  optional object halves ``zotero`` / ``custom``, and nothing else at top level. A
+  flat / legacy sidecar (top-level fields like ``abstractNote``) is **rejected, not
+  migrated** — we never silently reshape committed content.
 
 Run after the normalizer and before committing: a broken store fails the job
 (non-zero exit + ``::error::`` annotations) so it is never committed. This is the
@@ -24,6 +24,8 @@ import argparse
 import json
 import sys
 from pathlib import Path
+
+from sidecar_schema import validation_error
 
 
 def bijection_orphans(repo_root: Path) -> tuple[list[str], list[str]]:
@@ -42,7 +44,7 @@ def bijection_orphans(repo_root: Path) -> tuple[list[str], list[str]]:
 
 
 def sidecar_shape_errors(repo_root: Path) -> list[str]:
-    """Return one message per ``meta/**`` sidecar not in canonical ``{zotero, custom}`` shape."""
+    """Return one message per ``meta/**`` sidecar that fails ``schema/sidecar.schema.json``."""
     repo_root = Path(repo_root)
     meta_dir = repo_root / "meta"
     errors: list[str] = []
@@ -53,17 +55,9 @@ def sidecar_shape_errors(repo_root: Path) -> list[str]:
         except (json.JSONDecodeError, OSError) as exc:
             errors.append(f"{rel} is not valid JSON ({exc})")
             continue
-        if not isinstance(data, dict) or set(data) != {"zotero", "custom"}:
-            found = sorted(data) if isinstance(data, dict) else type(data).__name__
-            errors.append(
-                f"{rel} must have exactly the top-level keys 'zotero' and 'custom' "
-                f"(found: {found or 'empty object'}) — a flat/legacy sidecar is rejected, "
-                f"not migrated; wrap it as {{\"zotero\": {{...}}, \"custom\": {{...}}}}"
-            )
-            continue
-        for key in ("zotero", "custom"):
-            if not isinstance(data[key], dict):
-                errors.append(f"{rel}: '{key}' must be an object (possibly empty)")
+        message = validation_error(data, str(rel))
+        if message is not None:
+            errors.append(message)
     return errors
 
 
@@ -93,7 +87,7 @@ def main() -> None:
             f"{len(shape_errors)} malformed sidecar(s)"
         )
         sys.exit(1)
-    print("OK: bijection holds and every sidecar is canonical {zotero, custom}")
+    print("OK: bijection holds and every sidecar validates against the schema")
 
 
 if __name__ == "__main__":

@@ -31,10 +31,11 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install zotero-rdf-python
+      - name: Install dependencies
         # Public GitLab → anonymous HTTPS works. If that repo is private, swap to:
         #   git+https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git
-        run: pip install "git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git"
+        # jsonschema validates sidecars against schema/sidecar.schema.json.
+        run: pip install "git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git" jsonschema
 
       - name: Find changed .bib files
         id: changed

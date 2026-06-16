@@ -47,6 +47,8 @@ from pathlib import Path
 
 from zotero_rdf import from_bibtex, to_bibtex
 
+from sidecar_schema import split_sidecar
+
 _CITEKEY_RE = re.compile(r"^@\w+\{([^,]+),", re.MULTILINE)
 _YEAR_RE = re.compile(r"^\s*year\s*=\s*\{?(\d{4})", re.MULTILINE)
 _UNDATED = "undated"
@@ -72,32 +74,18 @@ def _year_of(entry_text: str) -> str:
 
 
 def _load_store_sidecar(meta_path: Path) -> tuple[dict, dict]:
-    """Read a stored ``{zotero, custom}`` sidecar, failing loudly on a wrong shape.
+    """Read a stored sidecar's ``(zotero, custom)`` halves, failing loudly on bad shape.
 
-    Returns ``(zotero, custom)``. Content may be empty (``{}`` → both empty), but a
-    *present, non-empty* sidecar must already be the canonical wrapped form. A flat
-    / legacy sidecar is **rejected, not migrated**: silently reading it as
-    ``.get("zotero", {})`` would drop the whole overlay (invariant #4 / the
-    ``test/pr3`` data-loss path). We refuse to normalize it instead — the fix is a
-    human one (wrap it, or empty it), never a silent rewrite.
+    Validates against ``schema/sidecar.schema.json`` (see ``sidecar_schema``): a
+    bare ``{}`` or a missing half defaults to ``{}``, but a flat / legacy sidecar is
+    **rejected, not migrated** — silently reading it as ``.get("zotero", {})`` would
+    drop the whole overlay (invariant #4 / the ``test/pr3`` data-loss path). The fix
+    is a human one (wrap it, or empty it), never a silent rewrite.
     """
     if not meta_path.exists():
         return {}, {}
     data = json.loads(meta_path.read_text(encoding="utf-8"))  # JSONDecodeError propagates → fail
-    if data == {}:
-        return {}, {}
-    if not isinstance(data, dict) or set(data) != {"zotero", "custom"}:
-        found = sorted(data) if isinstance(data, dict) else type(data).__name__
-        raise ValueError(
-            f"{meta_path} is not a canonical sidecar: expected top-level "
-            f"{{'zotero', 'custom'}}, found {found or 'empty object'}. Refusing to "
-            f"normalize — a flat/legacy sidecar must be wrapped (or emptied) by a human "
-            f"first, never silently dropped."
-        )
-    zotero, custom = data["zotero"], data["custom"]
-    if not isinstance(zotero, dict) or not isinstance(custom, dict):
-        raise ValueError(f"{meta_path}: 'zotero' and 'custom' must both be objects")
-    return zotero, custom
+    return split_sidecar(data, str(meta_path))
 
 
 def _in_store_meta(repo_root: Path, bib_path: Path) -> Path | None:
