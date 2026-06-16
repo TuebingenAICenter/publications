@@ -1,11 +1,16 @@
 name: Normalize entries
 
-# PoC: on every PR, find the .bib files it changed (anywhere in the repo),
-# rewrite them into the canonical store layout (entries/<year>/<key>.bib +
-# meta/<year>/<key>.json), relocate/delete raw drops, and commit the result
-# back to the PR branch. The same path serves the initial big-data PR and every
-# future one-entry PR. Dedup and the compiled all.bib are deliberately out of
-# scope here.
+# Role 1 of 2 — the MUTATING diff job. On every PR, find the .bib files it
+# changed (anywhere in the repo), rewrite them into the canonical store layout
+# (entries/<year>/<key>.bib + meta/<year>/<key>.json), relocate/delete raw
+# drops, and commit the result back to the PR branch.
+#
+# This job REPAIRS; it does NOT gate. The merge gate is the read-only required
+# status in check.yml (pubstore-check), kept in a separate workflow so it can be
+# a required status independently of this contents:write job. "Merge when green"
+# — no merge queue, no require-branches-up-to-date (decided): the only extra
+# thing those would catch is the rare concurrent cross-shard citekey dup, which
+# we accept as a transient duplicate reconciled by check-scheduled.yml.
 
 on:
   pull_request:
@@ -33,10 +38,16 @@ jobs:
 
       - name: Install dependencies
         # Installs the tools/ package (publication-store) and its pinned deps —
-        # zotero-rdf (from public GitLab over anonymous HTTPS) + jsonschema. If that
-        # GitLab repo becomes private, override the URL with a token; jsonschema
-        # validates sidecars against schema/sidecar.schema.json.
-        run: pip install ./tools
+        # zotero-rdf + jsonschema (validates sidecars against
+        # schema/sidecar.schema.json). zotero-rdf is pinned by a git URL; the
+        # insteadOf rewrite lets an anonymous runner (no SSH keys) fetch it over
+        # public HTTPS regardless of whether pyproject pins the ssh:// or the
+        # https:// form. If that GitLab repo ever goes private, swap in a token.
+        run: |
+          git config --global \
+            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
+            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
+          pip install ./tools
 
       - name: Find changed .bib files
         id: changed
@@ -44,26 +55,29 @@ jobs:
           git diff --name-only --diff-filter=ACMR \
             "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > changed.txt
           echo "Changed .bib files:"; cat changed.txt
-          [ -s changed.txt ] && echo "any=true" >> "$GITHUB_OUTPUT" || echo "any=false" >> "$GITHUB_OUTPUT"
+          if [ -s changed.txt ]; then
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Normalize
+      - name: Normalize changed entries
         if: steps.changed.outputs.any == 'true'
+        # Per-entry: canonicalize the bib (S4), place it at its derived path
+        # (S1), create/wrap the sidecar (S3/S4), relocate+delete on a year/key
+        # change (S1/S3/S5), and run the idempotency self-check. The full-store
+        # S1–S5 gate is check.yml's job, not this one.
         run: pubstore-normalize --root . $(cat changed.txt)
-
-      # Fail loudly on a broken store. Runs the full-store gate on EVERY PR (not only
-      # when a .bib changed) so it is a true backstop: all of S1–S5 — placement
-      # (S1), citekey uniqueness (S2), pairing (S3), well-formed bib + sidecar (S4),
-      # and closure (S5). Runs before the commit, so a broken tree is never pushed;
-      # the ::error:: annotations tell the contributor how to fix it. We deliberately
-      # do not auto-heal (e.g. a .bib moved without its sidecar) — that is surfaced
-      # for a human. Semantic dedup is NOT gated here (it is the out-of-band sweep).
-      # Pure-Python, secret-free → free on hosted runners. (The CI split into a
-      # mutating diff job + a read-only required checker is a later task.)
-      - name: Check store invariants
-        run: pubstore-check --root .
 
       - name: Commit normalized result back to the PR branch
         if: steps.changed.outputs.any == 'true'
+        # Two operational requirements (set in repo settings — see Task 4 README):
+        #  - "Dismiss stale reviews on push" must be OFF (or this bot exempted),
+        #    so a reformat never wipes a human approval.
+        #  - This default-token push does NOT re-trigger CI. That is fine: the
+        #    normalizer is idempotent, so there is nothing to re-run, and the
+        #    required status (check.yml) already passed the human-pushed tree.
+        #    ([skip ci] below is belt-and-suspenders.)
         run: |
           git config user.name  "tueai-publications-bot"
           git config user.email "bot@tuebingen.ai"
@@ -71,8 +85,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Already canonical — nothing to commit."
           else
-            # [skip ci] is belt-and-suspenders: a GITHUB_TOKEN push does not
-            # re-trigger workflows anyway, and the normalizer is idempotent.
             git commit -m "chore: normalize entries to canonical store layout [skip ci]"
             git push origin "HEAD:${{ github.head_ref }}"
           fi
