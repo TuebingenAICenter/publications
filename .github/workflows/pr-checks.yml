@@ -13,6 +13,13 @@ name: PR store checks
 #    on any violation. This is the required status check in branch protection.
 #    It GATES; it never mutates.
 #
+# Both jobs run INSIDE the prebuilt CI image (built by build-ci-image.yml), which
+# bakes the deps (zotero-rdf + jsonschema + hatchling). Each job therefore only
+# installs the local package from PR source — fast and offline:
+#   uv pip install --system --no-deps --no-build-isolation ./tools
+# The image must be public on GHCR (or these jobs need registry credentials);
+# making the repo public makes that free and lets fork PRs pull it too.
+#
 # Why a GitHub App token (not the default GITHUB_TOKEN): a push made with
 # GITHUB_TOKEN does NOT re-trigger workflows, so a normalized commit-back would
 # leave the PR head on a commit no CI ever evaluated -> the required status is
@@ -20,8 +27,7 @@ name: PR store checks
 # installation token re-triggers CI, so the normalized commit earns its own
 # green status on the new head with no human nudge. pubstore-normalize is
 # idempotent, so the re-triggered run normalizes to a no-op and stops — exactly
-# one extra run, no loop (the normalizer's idempotency self-check is the
-# backstop that guarantees this terminates).
+# one extra run, no loop (the normalizer's idempotency self-check guarantees it).
 #
 # "Merge when green" — no merge queue, no require-branches-up-to-date (decided):
 # the only extra thing those would catch is the rare CONCURRENT cross-shard
@@ -39,6 +45,8 @@ on:
 jobs:
   normalize:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tuebingenaicenter/publications-ci:latest
     permissions:
       contents: write
     steps:
@@ -64,22 +72,11 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-
-      - name: Install dependencies
-        # Installs the tools/ package (publication-store) and its pinned deps —
-        # zotero-rdf + jsonschema (validates sidecars against
-        # schema/sidecar.schema.json). zotero-rdf is pinned by a git URL; the
-        # insteadOf rewrite lets an anonymous runner (no SSH keys) fetch it over
-        # public HTTPS regardless of whether pyproject pins the ssh:// or the
-        # https:// form. If that GitLab repo ever goes private, swap in a token.
-        run: |
-          git config --global \
-            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
-            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
-          pip install ./tools
+      - name: Install the tools package from PR source
+        # Deps + hatchling are baked into the CI image; install ONLY the local
+        # package (offline, no build isolation) to point the pubstore-* entry
+        # points at this PR's code.
+        run: uv pip install --system --no-deps --no-build-isolation ./tools
 
       - name: Find changed .bib files
         id: changed
@@ -123,6 +120,8 @@ jobs:
 
   check:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tuebingenaicenter/publications-ci:latest
     needs: normalize
     # needs: normalize ORDERS this after the mutate job so it sees the
     # post-normalize tree (no transient red on an un-normalized intermediate
@@ -140,17 +139,8 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-
-      - name: Install dependencies
-        # See the normalize job for the insteadOf rationale.
-        run: |
-          git config --global \
-            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
-            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
-          pip install ./tools
+      - name: Install the tools package from PR source
+        run: uv pip install --system --no-deps --no-build-isolation ./tools
 
       - name: Check store invariants (S1–S5)
         # Full-store gate: placement (S1), citekey uniqueness (S2), pairing (S3),

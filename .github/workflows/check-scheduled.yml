@@ -1,8 +1,8 @@
 name: Check store invariants (scheduled backstop)
 
-# Backstop run of the read-only checker against main. The per-PR check.yml gates
-# every merge, but two things are deliberately NOT gated at merge time and need a
-# background sweep to catch:
+# Backstop run of the read-only checker against main. The per-PR check job
+# (pr-checks.yml) gates every merge, but two things are deliberately NOT gated at
+# merge time and need a background sweep to catch:
 #  - the rare CONCURRENT cross-shard citekey duplicate — two PRs adding the same
 #    new citekey in different year shards, merged before either sees the other
 #    (no merge queue / no require-up-to-date, decided); and
@@ -10,9 +10,12 @@ name: Check store invariants (scheduled backstop)
 # This is what eventually catches them. On failure the run goes red; a louder
 # alert (issue / Slack) is a separate notification system, out of scope for v1.
 #
-# Read-only, like check.yml — it reports, it never mutates. (A machine-proposed
-# --fix PR is a deferred follow-up: check-fix.yml, blocked on the checker's
-# --fix flag, which was deferred in Task 1.)
+# Read-only, like the check job — it reports, it never mutates. (A
+# machine-proposed --fix PR is a deferred follow-up: check-fix.yml, blocked on
+# the checker's --fix flag, which was deferred in Task 1.)
+#
+# Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
+# local package, same as the PR jobs.
 
 on:
   schedule:
@@ -26,21 +29,16 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tuebingenaicenter/publications-ci:latest
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-
-      - name: Install dependencies
-        # See normalize.yml for the insteadOf rationale.
-        run: |
-          git config --global \
-            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
-            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
-          pip install ./tools
+      - name: Install the tools package
+        # Deps + hatchling are baked into the CI image; install only the local
+        # package (offline, no build isolation).
+        run: uv pip install --system --no-deps --no-build-isolation ./tools
 
       - name: Check store invariants (S1–S5)
         run: pubstore-check --root .

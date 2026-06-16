@@ -1,0 +1,55 @@
+name: Build CI image
+
+# Builds and pushes the publication-store CI dependency image to GHCR. The PR
+# jobs (pr-checks.yml) and the scheduled backstop (check-scheduled.yml) run
+# INSIDE this image so they skip the slow clone+resolve of zotero-rdf +
+# jsonschema and only install the local package from PR source.
+#
+# Triggers:
+#  - push to main that touches the deps or the image recipe (tools/pyproject.toml,
+#    tools/Dockerfile.ci);
+#  - a weekly schedule + manual dispatch — because the zotero-rdf dependency is
+#    pinned to a MOVING branch HEAD (no tag/commit), the schedule is how CI
+#    eventually picks up upstream zotero-rdf changes. Pin to a commit/tag and you
+#    can drop the schedule.
+#
+# The image ref is hardcoded lowercase (GHCR requires lowercase path segments;
+# the org is TuebingenAICenter). Keep it in sync with the `container:` refs in
+# pr-checks.yml and check-scheduled.yml.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/pyproject.toml
+      - tools/Dockerfile.ci
+  schedule:
+    - cron: "0 4 * * 1"   # Mondays 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: ./tools
+          file: ./tools/Dockerfile.ci
+          push: true
+          tags: |
+            ghcr.io/tuebingenaicenter/publications-ci:latest
+            ghcr.io/tuebingenaicenter/publications-ci:${{ github.sha }}
