@@ -1,0 +1,30 @@
+[project]
+name = "publication-store"
+version = "0.1.0"
+description = "Deterministic, secret-free CLIs that keep the publication store in canonical form (S1–S5)."
+requires-python = ">=3.13"
+dependencies = [
+    # The round-trip the jobs are built on (from_bibtex / to_bibtex). The
+    # distribution name is `zotero-rdf`; the repo is `zotero-rdf-python`.
+    # Pin to a tag/commit once the upstream repo carries one.
+    "zotero-rdf @ git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git",
+    # Validates sidecars against schema/sidecar.schema.json (the public contract).
+    "jsonschema>=4",
+]
+
+[project.scripts]
+# Per-MR diff job (mutating): normalize the changed .bib files into the store.
+pubstore-normalize = "publication_store.diff_job:main"
+# Full-store gate (read-only): verify S1–S5 across the whole store.
+pubstore-check = "publication_store.checker:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+# zotero-rdf is pinned by a direct git reference (no PyPI release yet).
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["publication_store"]

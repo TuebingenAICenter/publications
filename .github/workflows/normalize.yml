@@ -32,10 +32,11 @@ jobs:
           python-version: "3.13"
 
       - name: Install dependencies
-        # Public GitLab → anonymous HTTPS works. If that repo is private, swap to:
-        #   git+https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git
-        # jsonschema validates sidecars against schema/sidecar.schema.json.
-        run: pip install "git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git" jsonschema
+        # Installs the tools/ package (publication-store) and its pinned deps —
+        # zotero-rdf (from public GitLab over anonymous HTTPS) + jsonschema. If that
+        # GitLab repo becomes private, override the URL with a token; jsonschema
+        # validates sidecars against schema/sidecar.schema.json.
+        run: pip install ./tools
 
       - name: Find changed .bib files
         id: changed
@@ -47,18 +48,19 @@ jobs:
 
       - name: Normalize
         if: steps.changed.outputs.any == 'true'
-        run: python tools/normalize_store.py --root . $(cat changed.txt)
+        run: pubstore-normalize --root . $(cat changed.txt)
 
-      # Fail loudly on a broken store. Runs the full-store gate on EVERY PR (not
-      # only when a .bib changed) so it is a true backstop: bijection (#1), sidecar
-      # shape (#4), canonical bib form (#3) + year-shard (#2), and compile-ability /
-      # global citekey uniqueness (#10). Runs before the commit, so a broken tree is
-      # never pushed; the ::error:: annotations tell the contributor how to fix it.
-      # We deliberately do not auto-heal (e.g. a .bib moved without its sidecar) —
-      # that is surfaced for a human. Semantic dedup (#11) is NOT gated here (it is
-      # the out-of-band sweep). Pure-Python, secret-free → free on hosted runners.
+      # Fail loudly on a broken store. Runs the full-store gate on EVERY PR (not only
+      # when a .bib changed) so it is a true backstop: all of S1–S5 — placement
+      # (S1), citekey uniqueness (S2), pairing (S3), well-formed bib + sidecar (S4),
+      # and closure (S5). Runs before the commit, so a broken tree is never pushed;
+      # the ::error:: annotations tell the contributor how to fix it. We deliberately
+      # do not auto-heal (e.g. a .bib moved without its sidecar) — that is surfaced
+      # for a human. Semantic dedup is NOT gated here (it is the out-of-band sweep).
+      # Pure-Python, secret-free → free on hosted runners. (The CI split into a
+      # mutating diff job + a read-only required checker is a later task.)
       - name: Check store invariants
-        run: python tools/check_store.py --root .
+        run: pubstore-check --root .
 
       - name: Commit normalized result back to the PR branch
         if: steps.changed.outputs.any == 'true'
