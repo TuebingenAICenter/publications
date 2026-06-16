@@ -49,12 +49,15 @@ jobs:
         if: steps.changed.outputs.any == 'true'
         run: python tools/normalize_store.py --root . $(cat changed.txt)
 
-      # Fail loudly on a broken store (e.g. a .bib moved without its sidecar →
-      # orphan). Runs before the commit, so a broken tree is never pushed; the
-      # ::error:: annotation tells the contributor how to fix it. We deliberately
-      # do not auto-heal such moves.
-      - name: Check store invariants (bijection)
-        if: steps.changed.outputs.any == 'true'
+      # Fail loudly on a broken store. Runs the full-store gate on EVERY PR (not
+      # only when a .bib changed) so it is a true backstop: bijection (#1), sidecar
+      # shape (#4), canonical bib form (#3) + year-shard (#2), and compile-ability /
+      # global citekey uniqueness (#10). Runs before the commit, so a broken tree is
+      # never pushed; the ::error:: annotations tell the contributor how to fix it.
+      # We deliberately do not auto-heal (e.g. a .bib moved without its sidecar) —
+      # that is surfaced for a human. Semantic dedup (#11) is NOT gated here (it is
+      # the out-of-band sweep). Pure-Python, secret-free → free on hosted runners.
+      - name: Check store invariants
         run: python tools/check_store.py --root .
 
       - name: Commit normalized result back to the PR branch

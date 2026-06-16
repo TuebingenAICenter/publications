@@ -11,17 +11,23 @@ and removes the raw source files (a paste dropped anywhere, or the legacy
 monolith). The *same* path serves the initial big-data PR and every future
 one-entry PR — there is no separate migration tool.
 
-Naming policy (the filename scheme is a convenience, not an identity):
+Naming policy — **the filename stem IS the citekey** (invariant #12):
 
-- **single-item file → keep its filename.** Contributors may name files however
-  they like; we only canonicalize the bib, place it in ``entries/<year>/``, and
-  keep a matching ``meta/<year>/<stem>.json``.
-- **multi-item file → split, name each part by the citekey scheme** (the
-  fallback namer) and delete the original multi-item file.
+The citekey is the entry's single identity, and the path is *derived* from it:
+every entry is written to ``entries/<year>/<citekey>.bib`` regardless of what the
+contributor named the file. The citekey is **prioritized over the filename** — a
+single drop named ``my_paper.bib`` whose entry is ``@article{smith_2025,…}`` is
+placed at ``entries/<year>/smith_2025.bib`` and the original is deleted. This is
+what lets the filesystem enforce global citekey uniqueness for free (two adds of
+the same key collide on the same path) and makes ``entries/<year>/<citekey>.bib``
+a pure function of the key.
 
-Hard requirements: the year-sharded directory structure and a strict 1:1
-``.bib`` ↔ ``.json`` mapping (same stem). Filenames are otherwise free, so a
-filename may differ from the entry's internal citekey.
+We do **not** enforce any *scheme* on the citekey itself: the generator produces
+``lastnameYEARword`` + a disambiguation suffix, but a human-pasted key may be
+anything — the only rule is that the filename matches whatever the key is.
+
+Hard requirements: the year-sharded directory structure, ``stem == citekey``, and a
+strict 1:1 ``.bib`` ↔ ``.json`` mapping (same stem).
 
 Other mechanics:
 
@@ -131,8 +137,8 @@ def _plan_file(repo_root: Path, bib_path: Path):
     targets = []
     for citekey, entry_text in entries:
         year = _year_of(entry_text)
-        stem = bib_path.stem if single else citekey  # keep filename if single, else citekey
-        targets.append((year, stem, citekey, entry_text, spill.get(citekey, {})))
+        # Invariant #12: the stem IS the citekey — never the contributor's filename.
+        targets.append((year, citekey, citekey, entry_text, spill.get(citekey, {})))
     return targets, extra_sources, (carried_custom if single else {})
 
 
