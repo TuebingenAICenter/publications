@@ -1,0 +1,159 @@
+name: PR store checks
+
+# Two jobs on every PR, folded into one workflow:
+#
+#  - normalize (contents: write) — the MUTATING diff job. Finds the .bib files
+#    this PR changed (anywhere in the repo), rewrites them into the canonical
+#    store layout (entries/<year>/<key>.bib + meta/<year>/<key>.json), relocates
+#    /deletes raw drops, and commits the result back to the PR branch. It REPAIRS;
+#    it does NOT gate.
+#
+#  - check (contents: read) — the READ-ONLY authoritative gate. Verifies all of
+#    S1–S5 across the whole store and exits non-zero (fail loudly, no auto-heal)
+#    on any violation. This is the required status check in branch protection.
+#    It GATES; it never mutates.
+#
+# Why a GitHub App token (not the default GITHUB_TOKEN): a push made with
+# GITHUB_TOKEN does NOT re-trigger workflows, so a normalized commit-back would
+# leave the PR head on a commit no CI ever evaluated -> the required status is
+# "missing" on the head -> merge blocked until a human pushes again. An App
+# installation token re-triggers CI, so the normalized commit earns its own
+# green status on the new head with no human nudge. pubstore-normalize is
+# idempotent, so the re-triggered run normalizes to a no-op and stops — exactly
+# one extra run, no loop (the normalizer's idempotency self-check is the
+# backstop that guarantees this terminates).
+#
+# "Merge when green" — no merge queue, no require-branches-up-to-date (decided):
+# the only extra thing those would catch is the rare CONCURRENT cross-shard
+# citekey dup, which we accept as a transient duplicate reconciled by the
+# scheduled backstop (check-scheduled.yml).
+#
+# The pytest suite under tools/tests/ is a MANUAL developer harness and is
+# deliberately NOT run here — CI gates the store's S1–S5 state, never the
+# tooling's unit tests.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Mint a GitHub App token
+        # Short-lived (1-hour, auto-rotating) installation token for the
+        # tueai-publications-bot App. Used to auth the checkout's origin remote so
+        # the later push is made AS THE APP and therefore RE-TRIGGERS CI (see the
+        # header). Requires the App installed on this repo with contents:write and
+        # two repo secrets: APP_ID and APP_PRIVATE_KEY.
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          # App token so the push at the end is authed as the App (re-triggers CI).
+          token: ${{ steps.app-token.outputs.token }}
+          # Check out the PR's own branch (not a detached merge ref) so we can
+          # push back to it. fetch-depth: 0 gives us the base branch for the diff.
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        # Installs the tools/ package (publication-store) and its pinned deps —
+        # zotero-rdf + jsonschema (validates sidecars against
+        # schema/sidecar.schema.json). zotero-rdf is pinned by a git URL; the
+        # insteadOf rewrite lets an anonymous runner (no SSH keys) fetch it over
+        # public HTTPS regardless of whether pyproject pins the ssh:// or the
+        # https:// form. If that GitLab repo ever goes private, swap in a token.
+        run: |
+          git config --global \
+            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
+            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
+          pip install ./tools
+
+      - name: Find changed .bib files
+        id: changed
+        run: |
+          git diff --name-only --diff-filter=ACMR \
+            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > changed.txt
+          echo "Changed .bib files:"; cat changed.txt
+          if [ -s changed.txt ]; then
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Normalize changed entries
+        if: steps.changed.outputs.any == 'true'
+        # Per-entry: canonicalize the bib (S4), place it at its derived path
+        # (S1), create/wrap the sidecar (S3/S4), relocate+delete on a year/key
+        # change (S1/S3/S5), and run the idempotency self-check. The full-store
+        # S1–S5 gate is the check job, not this one.
+        run: pubstore-normalize --root . $(cat changed.txt)
+
+      - name: Commit normalized result back to the PR branch
+        if: steps.changed.outputs.any == 'true'
+        # NOTE: no [skip ci] — we WANT this push to re-trigger CI so the new head
+        # commit gets its own green required status (see header). Idempotency
+        # makes the re-triggered run a no-op, so there is no loop.
+        #
+        # Operational requirement (repo setting): "Dismiss stale reviews on push"
+        # must be OFF (or this App exempted), so a reformat never wipes a human
+        # approval.
+        run: |
+          git config user.name  "tueai-publications-bot"
+          git config user.email "bot@tuebingen.ai"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Already canonical — nothing to commit."
+          else
+            git commit -m "chore: normalize entries to canonical store layout"
+            git push origin "HEAD:${{ github.head_ref }}"
+          fi
+
+  check:
+    runs-on: ubuntu-latest
+    needs: normalize
+    # needs: normalize ORDERS this after the mutate job so it sees the
+    # post-normalize tree (no transient red on an un-normalized intermediate
+    # commit). if: always() keeps the two failure domains independent: an infra
+    # failure in normalize (push rejected, token hiccup) must NOT silently skip
+    # the gate — the required status has to reflect the actual store state, going
+    # red only for real S1–S5 violations.
+    if: ${{ always() }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        # See the normalize job for the insteadOf rationale.
+        run: |
+          git config --global \
+            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
+            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
+          pip install ./tools
+
+      - name: Check store invariants (S1–S5)
+        # Full-store gate: placement (S1), citekey uniqueness (S2), pairing (S3),
+        # well-formed bib + sidecar (S4), closure (S5). No all.bib. Exit non-zero
+        # => merge blocked; ::error:: annotations tell the contributor how to fix.
+        run: pubstore-check --root .
