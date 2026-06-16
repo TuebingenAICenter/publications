@@ -80,11 +80,15 @@ jobs:
 
       - name: Find changed .bib files
         id: changed
+        # Write the list to $RUNNER_TEMP, NOT the working tree: a file at the repo
+        # root would be staged by the commit step's `git add -A` and committed
+        # into the PR branch (and would even force a spurious commit on an
+        # already-canonical PR).
         run: |
           git diff --name-only --diff-filter=ACMR \
-            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > changed.txt
-          echo "Changed .bib files:"; cat changed.txt
-          if [ -s changed.txt ]; then
+            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > "$RUNNER_TEMP/changed.txt"
+          echo "Changed .bib files:"; cat "$RUNNER_TEMP/changed.txt"
+          if [ -s "$RUNNER_TEMP/changed.txt" ]; then
             echo "any=true" >> "$GITHUB_OUTPUT"
           else
             echo "any=false" >> "$GITHUB_OUTPUT"
@@ -96,7 +100,7 @@ jobs:
         # (S1), create/wrap the sidecar (S3/S4), relocate+delete on a year/key
         # change (S1/S3/S5), and run the idempotency self-check. The full-store
         # S1–S5 gate is the check job, not this one.
-        run: pubstore-normalize --root . $(cat changed.txt)
+        run: pubstore-normalize --root . $(cat "$RUNNER_TEMP/changed.txt")
 
       - name: Commit normalized result back to the PR branch
         if: steps.changed.outputs.any == 'true'
