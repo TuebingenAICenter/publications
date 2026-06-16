@@ -12,6 +12,11 @@ dependencies = [
     "jsonschema>=4",
 ]
 
+[project.optional-dependencies]
+# Manual-only developer harness: `pip install -e tools/[test]` then `pytest tools/tests`.
+# Deliberately not wired into any CI — the store gate that runs in CI is pubstore-check.
+test = ["pytest>=8"]
+
 [project.scripts]
 # Per-MR diff job (mutating): normalize the changed .bib files into the store.
 pubstore-normalize = "publication_store.diff_job:main"
