@@ -1,0 +1,48 @@
+# syntax=docker/dockerfile:1
+#
+# CI dependency image for the publication-store tooling. It bakes the
+# third-party deps (zotero-rdf @ git + jsonschema + transitive + the hatchling
+# build backend) so each CI job skips the slow clone+resolve and only installs
+# the *local* publication_store package from PR source at job time:
+#
+#   uv pip install --system --no-deps --no-build-isolation ./tools
+#
+# glibc base (bookworm-slim), NOT alpine: GitHub runs JS actions (checkout,
+# create-github-app-token) with a glibc node binary it mounts into the
+# container; a musl base could not execute it.
+#
+# Built + pushed by .github/workflows/build-ci-image.yml. The zotero-rdf pin is
+# a moving branch HEAD (no tag/commit), so that workflow also rebuilds on a
+# weekly schedule to eventually pick up upstream changes.
+
+FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+
+# git: clones the git-pinned zotero-rdf at build time, and is used by the
+# normalize CI job (diff + commit + push) at run time.
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends git \
+ && rm -rf /var/lib/apt/lists/*
+
+# System-level (not --global) git config so it is read regardless of the HOME a
+# container job happens to run with. safe.directory '*' stops git's
+# dubious-ownership guard from firing when a container job (root) operates on a
+# workspace owned by the runner uid.
+#
+# No URL rewrite / credential is needed to fetch zotero-rdf: it is pinned as
+# git+https and the GitLab project is anonymously readable, so an unauthenticated
+# clone succeeds. If it ever goes private, inject a token into that https URL —
+# don't reintroduce an ssh rewrite.
+RUN git config --system --add safe.directory '*'
+
+ENV UV_SYSTEM_PYTHON=1
+
+# Install the project to pull in its deps, then drop the package itself so the
+# image is a pure, reusable dependency cache (the package is reinstalled from PR
+# source at job time). Keep hatchling installed so that job-time install can
+# build the wheel with --no-build-isolation, i.e. fully offline.
+WORKDIR /src
+COPY . /src
+RUN uv pip install --system . \
+ && uv pip uninstall --system publication-store \
+ && uv pip install --system hatchling \
+ && rm -rf /src
