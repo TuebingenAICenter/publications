@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "mentions_ai_center": "unknown",
+    "provenance": {
+      "arxiv": "2503.01234",
+      "openalex_id": "W4391234567",
+      "scrape_date": "2025-04-01",
+      "source": "openalex"
+    },
+    "status": "preprint"
+  },
+  "zotero": {
+    "collections": [
+      "#collection_scholkopf"
+    ],
+    "notes": [
+      {
+        "note": "<p>preprint tracked from arXiv</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

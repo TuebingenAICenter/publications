@@ -1,0 +1,46 @@
+name: Check store invariants (scheduled backstop)
+
+# Backstop run of the read-only checker against main. The per-PR check.yml gates
+# every merge, but two things are deliberately NOT gated at merge time and need a
+# background sweep to catch:
+#  - the rare CONCURRENT cross-shard citekey duplicate — two PRs adding the same
+#    new citekey in different year shards, merged before either sees the other
+#    (no merge queue / no require-up-to-date, decided); and
+#  - any drift that lands on main outside the normal PR path.
+# This is what eventually catches them. On failure the run goes red; a louder
+# alert (issue / Slack) is a separate notification system, out of scope for v1.
+#
+# Read-only, like check.yml — it reports, it never mutates. (A machine-proposed
+# --fix PR is a deferred follow-up: check-fix.yml, blocked on the checker's
+# --fix flag, which was deferred in Task 1.)
+
+on:
+  schedule:
+    # Nightly at 03:00 UTC.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        # See normalize.yml for the insteadOf rationale.
+        run: |
+          git config --global \
+            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
+            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
+          pip install ./tools
+
+      - name: Check store invariants (S1–S5)
+        run: pubstore-check --root .

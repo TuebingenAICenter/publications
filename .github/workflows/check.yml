@@ -1,0 +1,60 @@
+name: Check store invariants
+
+# Role 2 of 2 — the READ-ONLY required status. This is the authoritative merge
+# gate: on every PR it verifies all of S1–S5 across the whole store and exits
+# non-zero (fail loudly, no auto-heal) if anything is wrong. Kept in its own
+# workflow so it can be marked a required status check in branch protection
+# independently of the contents:write normalize job.
+#
+# It gates; it never mutates. The repair is normalize.yml's job. The pytest
+# suite under tools/tests/ is a MANUAL developer harness and is deliberately NOT
+# run here — CI gates only the store's S1–S5 state, never the tooling's unit
+# tests.
+#
+# Sequencing note: normalize.yml and this workflow fire on the same PR event.
+# normalize.yml's commit-back uses the default token, which does NOT re-trigger
+# workflows, so on the first run this required status reflects the
+# PRE-normalization tree. That is sound because the checker is the read-only
+# counterpart of the normalizer's idempotency self-check: a tree the checker
+# passes is already canonical; a tree it fails gets normalized, and the human's
+# next push (or a manual re-run) re-evaluates the status against the normalized
+# tree. (Fallback if this ever confuses contributors: fold the check into the
+# diff job after normalize AND keep this read-only job as the required status —
+# settle once live.)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+# Read-only: no commit-back, no token beyond read.
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        # See normalize.yml for the insteadOf rationale (anonymous runner fetches
+        # the git-pinned zotero-rdf over public HTTPS).
+        run: |
+          git config --global \
+            url."https://gitlab.mlcloud.uni-tuebingen.de/".insteadOf \
+            "ssh://gitlab.mlcloud.uni-tuebingen.de/"
+          pip install ./tools
+
+      - name: Check store invariants (S1–S5)
+        # Full-store gate: placement (S1), citekey uniqueness (S2), pairing (S3),
+        # well-formed bib + sidecar (S4), closure (S5). No all.bib. Exit non-zero
+        # => merge blocked; ::error:: annotations tell the contributor how to fix.
+        run: pubstore-check --root .

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tuebingen.ai/publications/sidecar.schema.json",
+  "title": "Publication sidecar",
+  "description": "Per-entry sidecar (meta/<year>/<citekey>.json). Two optional halves; no other top-level keys. A bare {} is the empty sidecar (treated as both halves empty).",
+  "type": "object",
+  "properties": {
+    "zotero": {
+      "type": "object",
+      "description": "Lossless ZoteroItem overlay: the fields BibTeX can't carry (abstractNote, notes, attachments, collections, relations, leftover extra). The .bib plus this half reconstruct the ZoteroItem. Its internal schema is the Zotero schema; extend it there, not here."
+    },
+    "custom": {
+      "type": "object",
+      "description": "Institute report overlay: open/extensible facts that are not Zotero data (status, mentions_ai_center, provenance, review). Deliberately not given a fixed sub-schema."
+    }
+  },
+  "additionalProperties": false
+}
