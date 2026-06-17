@@ -3,7 +3,7 @@ name: PR store checks
 # Two jobs on every PR, folded into one workflow:
 #
 #  - normalize (contents: write) — the MUTATING diff job. Finds the .bib files
-#    this PR changed (anywhere in the repo), rewrites them into the canonical
+#    this PR changed (anywhere except tools/), rewrites them into the canonical
 #    store layout (entries/<year>/<key>.bib + meta/<year>/<key>.json), relocates
 #    /deletes raw drops, and commits the result back to the PR branch. It REPAIRS;
 #    it does NOT gate.
@@ -85,8 +85,12 @@ jobs:
         # into the PR branch (and would even force a spurious commit on an
         # already-canonical PR).
         run: |
+          # Exclude tools/** so the pytest fixtures under tools/tests/fixtures/
+          # are never mistaken for store drops and fed to the normalizer. The
+          # store lives at the repo root (entries/, groups/, raw drops); tools/
+          # is the tooling and is off-limits to the Route/Normalize path.
           git diff --name-only --diff-filter=ACMR \
-            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' > "$RUNNER_TEMP/changed.txt"
+            "origin/${{ github.base_ref }}...HEAD" -- '*.bib' ':(exclude)tools/**' > "$RUNNER_TEMP/changed.txt"
           echo "Changed .bib files:"; cat "$RUNNER_TEMP/changed.txt"
           if [ -s "$RUNNER_TEMP/changed.txt" ]; then
             echo "any=true" >> "$GITHUB_OUTPUT"
