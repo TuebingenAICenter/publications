@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Annote": "https://neurips.cc/virtual/2025/123852https://arxiv.org/abs/2510.17776https://post-forget.github.io/",
+      "Note": "Reporter: arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper"
+  }
+}
