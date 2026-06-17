@@ -22,9 +22,16 @@ name: Regenerate group mirror
 # entries/-side sidecar edit (a scraper/agent MR touching custom.groups) alike —
 # because it keys off the merged main state, not a diff.
 #
-# Commit with the DEFAULT GITHUB_TOKEN: a push made with it does NOT re-trigger
-# workflows, so there is no loop and no App token is needed (rebuild-mirror is
-# idempotent, so a push that didn't change membership commits nothing anyway).
+# Commit AS THE tueai-publications-bot App, not the default GITHUB_TOKEN: main is
+# a PROTECTED branch ("changes must be made through a PR" + required "check"
+# status), so a direct push with GITHUB_TOKEN is rejected (GH006). The App is on
+# the branch-protection BYPASS list, so its push lands directly on main. (The same
+# App already backs the normalize commit-back in pr-checks.yml.)
+#
+# This does re-trigger this very workflow (an App push, unlike GITHUB_TOKEN, fires
+# workflows), but rebuild-mirror is idempotent: the re-triggered run rebuilds the
+# same tree, stages no change, commits nothing, and stops. Exactly one extra
+# no-op run, no loop.
 #
 # Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
 # local package, same as the other jobs.
@@ -47,7 +54,22 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Mint a GitHub App token
+        # Short-lived installation token for tueai-publications-bot. The push at
+        # the end is authed as the App, which is on main's branch-protection
+        # bypass list — so the commit-back to the protected branch is accepted.
+        # Requires the App installed with contents:write and the APP_ID /
+        # APP_PRIVATE_KEY repo secrets (same App as pr-checks.yml).
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Checkout
+        with:
+          # App token so the final push is made AS THE APP (bypasses protection).
+          token: ${{ steps.app-token.outputs.token }}
         uses: actions/checkout@v4
 
       - name: Install the tools package
@@ -62,9 +84,10 @@ jobs:
         run: pubstore-groups rebuild-mirror --root .
 
       - name: Commit the mirror to main
-        # Default GITHUB_TOKEN (set up by checkout@v4) — does NOT re-trigger this
-        # push workflow, so no loop. Stage only groups/ so a stray write elsewhere
-        # could never ride along; commit only when the tree actually changed.
+        # Pushes via the App-authed origin set up by checkout@v4 (token above), so
+        # it bypasses branch protection. Idempotency makes the re-triggered run a
+        # no-op (see header) — no loop. Stage only groups/ so a stray write
+        # elsewhere could never ride along; commit only when the tree changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
