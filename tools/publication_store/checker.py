@@ -27,9 +27,11 @@ Invariants (full statements in the publication store plan; old long-form ``#1–
   under ``entries/``/``meta/`` are the canonical ``<year>/<stem>`` pairs — no stray
   ``.bib``/``.json``, no leftover monolith.
 
-The compiled ``all.bib`` is an **add-on behind ``--write-all-bib``**, never a gate:
-a plain run does S1–S5 and never compiles. Semantic deduplication is deliberately
-**not** a gate — it is the out-of-band, human-reviewed sweep (see the plan).
+Compiling the joined ``all.bib`` / ``<group>.bib`` / ``meta.json`` views is a
+**separate add-on** (``pubstore-compile`` in :mod:`publication_store.artifacts`),
+never part of this gate: a ``pubstore-check`` run does S1–S5 only. Semantic
+deduplication is likewise deliberately **not** a gate — it is the out-of-band,
+human-reviewed sweep (see the plan).
 """
 
 from __future__ import annotations
@@ -38,8 +40,6 @@ import argparse
 import json
 import sys
 from pathlib import Path
-
-from zotero_rdf import BibtexParseError, from_bibtex, to_bibtex
 
 from . import entry, sidecar
 
@@ -152,35 +152,6 @@ def closure_errors(repo_root: Path) -> list[str]:
     return errors
 
 
-def compile_all_bib(repo_root: Path) -> tuple[str, list[str]]:
-    """Add-on — compile every entry into one deterministic ``all.bib`` (not a gate).
-
-    Returns ``(all_bib_text, warnings)``. Entries are sorted by citekey for a
-    reproducible artifact. ``warnings`` lists anything that would mar the join (a file
-    that does not parse); on a store that already passed S1–S5 it is empty. The
-    compiled text is a build artifact, never committed.
-    """
-    repo_root = Path(repo_root)
-    warnings: list[str] = []
-    by_key: dict[str, object] = {}
-    for path in bib_paths(repo_root):
-        rel = str(path.relative_to(repo_root))
-        text = path.read_text(encoding="utf-8")
-        try:
-            items = from_bibtex(text)
-        except BibtexParseError as exc:
-            warnings.append(f"{rel} does not parse as BibTeX ({exc})")
-            continue
-        if len(items) != 1:
-            warnings.append(f"{rel} holds {len(items)} entries — skipped")
-            continue
-        key = entry.citekey_of(text) or path.stem
-        by_key[key] = items[0]
-    ordered = [by_key[k] for k in sorted(by_key)]
-    all_bib, _ = to_bibtex(ordered) if ordered else ("", {})
-    return all_bib, warnings
-
-
 def check_store(repo_root: Path) -> list[str]:
     """Run all of S1–S5 over the store; return the flat list of error messages."""
     return [
@@ -196,12 +167,6 @@ def main() -> None:
         description="Check the publication store invariants S1–S5 (the authoritative gate)."
     )
     ap.add_argument("--root", type=Path, default=Path.cwd(), help="repo root (default: cwd)")
-    ap.add_argument(
-        "--write-all-bib",
-        type=Path,
-        default=None,
-        help="add-on: also write the compiled all.bib to this path (build artifact; not a gate)",
-    )
     args = ap.parse_args()
 
     errors = check_store(args.root)
@@ -210,13 +175,6 @@ def main() -> None:
     if errors:
         print(f"FAIL: {len(errors)} store invariant violation(s) (S1–S5)")
         sys.exit(1)
-
-    if args.write_all_bib is not None:
-        all_bib, warnings = compile_all_bib(args.root)
-        for warning in warnings:
-            print(f"  ::warning:: {warning}")
-        args.write_all_bib.write_text(all_bib, encoding="utf-8")
-        print(f"wrote compiled all.bib → {args.write_all_bib}")
 
     print("OK: store satisfies S1–S5 (placement, uniqueness, pairing, well-formed, closure)")
 
