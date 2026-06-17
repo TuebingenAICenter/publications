@@ -17,8 +17,9 @@ the same way a human does: **by opening a merge request.**
 ```
 entries/<year>/<citekey>.bib    # SOURCE OF TRUTH: one publication per file, canonical
 meta/<year>/<citekey>.json      # one sidecar per entry; {} | {zotero} | {custom}
+groups/<slug>/                  # group inbox: drop a .bib here to assign it to a group
 schema/sidecar.schema.json      # the sidecar contract (single source of truth for its shape)
-tools/                          # installable package: the two CLIs + pinned deps
+tools/                          # installable package: the CLIs + pinned deps
 .github/workflows/              # CI: the diff job (normalize) + the read-only checker (gate)
 ```
 
@@ -46,9 +47,35 @@ places it there, creates the matching sidecar, removes the stray drop, and commi
 result back to your MR branch. A reviewer then **accepts and merges** into `main` —
 merging is the approval.
 
+### Assign a paper to a group
+
+Drop a `.bib` into **`groups/<slug>/`** (e.g. `groups/bethge/`) and the bot files the
+paper *and* records the group for you: it places the entry canonically under
+`entries/<year>/<citekey>.bib` exactly as above, **unions** `<slug>` into the entry's
+`custom.groups`, and deletes your drop. No JSON, no git layout, no citekey scheme — just
+the directory name. The committed `groups/<slug>/` folders are the menu of known slugs;
+pick from them (creating a brand-new folder is a more visible act a reviewer will catch).
+
+Three outcomes, by what your drop contains:
+
+- **A new paper** → a fresh entry is created and added to the group.
+- **An existing paper, unchanged** (drop a copy of one already in the store) → it is just
+  **added to the group** — the stored entry is left untouched. This is how you move an
+  existing paper into another group: drop it again under the new folder.
+- **An existing paper with edits** → the drop is **rejected**. A group drop is never a
+  backdoor edit: to change a stored entry, edit `entries/<year>/<citekey>.bib` directly;
+  to only add a group, drop the paper unchanged.
+
+Dropping the *same* paper into several `groups/<slug>/` folders in one MR assigns it to
+all of them at once (a bulk paste into one folder assigns that group to every entry in it).
+
+`custom.groups` in the sidecar is the **single source of truth** for membership; the
+`groups/` folders are an input convenience. To *remove* a group, edit the sidecar — don't
+expect deleting a file to do it.
+
 ### Check it locally first (optional)
 
-The same logic ships as two plain CLIs, so you can run them before opening the MR:
+The same logic ships as plain CLIs, so you can run them before opening the MR:
 
 ```bash
 pip install ./tools

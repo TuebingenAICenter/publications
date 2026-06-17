@@ -24,6 +24,9 @@ pubstore-normalize = "publication_store.diff_job:main"
 pubstore-check = "publication_store.checker:main"
 # Add-on (read-only): compile joined build artifacts (all.bib / <group>.bib / meta.json).
 pubstore-compile = "publication_store.artifacts:main"
+# Add-on (mutating): implicit group association — a groups/<slug>/ drop unions the slug
+# into the entry's custom.groups (the source of truth). Runs in the per-MR diff job.
+pubstore-groups = "publication_store.groups:main"
 
 [build-system]
 requires = ["hatchling"]

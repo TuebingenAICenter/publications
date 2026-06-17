@@ -20,7 +20,7 @@ from pathlib import Path
 
 import pytest
 
-from publication_store import checker, diff_job, entry
+from publication_store import checker, diff_job, entry, groups
 
 # tools/tests/conftest.py -> tools/tests -> tools -> <repo root>
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -86,6 +86,32 @@ def run_check(root: Path) -> list[str]:
     return checker.check_store(root)
 
 
+def drop_into_group(root: Path, slug: str, filename: str, text: str) -> Path:
+    """Write a raw ``groups/<slug>/<filename>`` drop (the Part A inbox); returns its path."""
+    drop = root / "groups" / slug / filename
+    drop.parent.mkdir(parents=True, exist_ok=True)
+    drop.write_text(text, encoding="utf-8")
+    return drop
+
+
+def groups_of(root: Path, year: str, citekey: str) -> list[str]:
+    """Read ``custom.groups`` from a stored entry's sidecar (``[]`` if absent)."""
+    _, meta_rel = entry.derive_path(year, citekey)
+    data = json.loads((root / meta_rel).read_text(encoding="utf-8"))
+    return data.get("custom", {}).get("groups", [])
+
+
+def run_associate(root: Path, paths: list[Path]):
+    """Run the group add-on's pure core; returns ``(written, removed, messages)``."""
+    return groups.associate(root, [Path(p) for p in paths])
+
+
+def run_groups_main(root: Path, paths: list[Path], monkeypatch, capsys) -> tuple[int, str]:
+    """Drive ``pubstore-groups associate`` via ``main()``; return ``(exit_code, stdout)``."""
+    argv = ["pubstore-groups", "associate", *[str(p) for p in paths], "--root", str(root)]
+    return _run_main(groups, argv, monkeypatch, capsys)
+
+
 def _run_main(module, argv: list[str], monkeypatch, capsys) -> tuple[int, str]:
     """Drive a console-script ``main()`` in-process; return ``(exit_code, stdout)``."""
     monkeypatch.setattr(sys, "argv", argv)
@@ -124,3 +150,7 @@ class _Helpers:
     run_check = staticmethod(run_check)
     run_diff_main = staticmethod(run_diff_main)
     run_check_main = staticmethod(run_check_main)
+    drop_into_group = staticmethod(drop_into_group)
+    groups_of = staticmethod(groups_of)
+    run_associate = staticmethod(run_associate)
+    run_groups_main = staticmethod(run_groups_main)

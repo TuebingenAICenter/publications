@@ -94,13 +94,55 @@ jobs:
             echo "any=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Normalize changed entries
+      - name: Route changed .bib files (group drops vs core)
+        id: route
         if: steps.changed.outputs.any == 'true'
+        # Group-directories add-on (Part A): split the changed .bib list. A regular
+        # file under groups/<slug>/ is a group drop — it goes to `pubstore-groups
+        # associate` (which places the entry via the core and unions <slug> into the
+        # sidecar's custom.groups). Everything else (root drops, entries/ edits) goes
+        # to the core `pubstore-normalize`. Symlinks under groups/ are the derived
+        # browse-mirror (owned by a separate workflow) and are dropped from BOTH lists
+        # — a defensive guard for a hand-edited symlink, not load-bearing.
+        #
+        # Each CLI is then gated on its own non-empty list (has_groups / has_core), so
+        # an all-group-drops MR runs only `associate` and never starts the core process
+        # (and vice versa). Lists live in $RUNNER_TEMP, never the working tree.
+        run: |
+          : > "$RUNNER_TEMP/groups.txt"
+          : > "$RUNNER_TEMP/core.txt"
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            if [ -L "$f" ]; then
+              echo "ignoring symlink (derived mirror): $f"
+              continue
+            fi
+            case "$f" in
+              groups/*/*) echo "$f" >> "$RUNNER_TEMP/groups.txt" ;;
+              *)          echo "$f" >> "$RUNNER_TEMP/core.txt" ;;
+            esac
+          done < "$RUNNER_TEMP/changed.txt"
+          echo "Group drops:";   cat "$RUNNER_TEMP/groups.txt"
+          echo "Core entries:";  cat "$RUNNER_TEMP/core.txt"
+          if [ -s "$RUNNER_TEMP/groups.txt" ]; then echo "has_groups=true" >> "$GITHUB_OUTPUT"; else echo "has_groups=false" >> "$GITHUB_OUTPUT"; fi
+          if [ -s "$RUNNER_TEMP/core.txt" ];   then echo "has_core=true"   >> "$GITHUB_OUTPUT"; else echo "has_core=false"   >> "$GITHUB_OUTPUT"; fi
+
+      - name: Associate group drops
+        if: steps.route.outputs.has_groups == 'true'
+        # Part A: place each groups/<slug>/ drop canonically (reusing the untouched
+        # core) and union <slug> into its sidecar's custom.groups; the drop is consumed
+        # (deleted). Same-paper-into-two-folders in one MR collapses to one entry with
+        # both slugs; a drop that would change a stored entry fails loudly.
+        run: pubstore-groups associate --root . $(cat "$RUNNER_TEMP/groups.txt")
+
+      - name: Normalize changed entries
+        if: steps.route.outputs.has_core == 'true'
         # Per-entry: canonicalize the bib (S4), place it at its derived path
         # (S1), create/wrap the sidecar (S3/S4), relocate+delete on a year/key
         # change (S1/S3/S5), and run the idempotency self-check. The full-store
-        # S1–S5 gate is the check job, not this one.
-        run: pubstore-normalize --root . $(cat "$RUNNER_TEMP/changed.txt")
+        # S1–S5 gate is the check job, not this one. Runs only when there are
+        # non-group files (an all-group-drops MR skips it entirely).
+        run: pubstore-normalize --root . $(cat "$RUNNER_TEMP/core.txt")
 
       - name: Commit normalized result back to the PR branch
         if: steps.changed.outputs.any == 'true'
