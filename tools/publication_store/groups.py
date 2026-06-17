@@ -1,10 +1,23 @@
-"""Add-on — implicit group association on drop (``pubstore-groups``).
+"""Add-on — group directories (``pubstore-groups``): drop association + browse mirror.
 
 A **separable** add-on that sits *beside* the core (the two existing CLIs and the
-S1–S5 logic are not touched). It turns a contributor's ``groups/<slug>/<file>.bib``
-drop into a normal stored entry **plus** a group-membership fact: the slug is
-**unioned** into that entry's sidecar ``custom.groups``. No form, no JSON, no need
-to know the citekey scheme beyond the directory name.
+S1–S5 logic are not touched). Two deliberately independent parts that share only
+the ``groups/`` namespace, both treating the sidecar's ``custom.groups`` set as the
+**single source of truth** for membership:
+
+- **Part A — implicit association on drop** (``associate``): a ``groups/<slug>/``
+  drop becomes a stored entry **plus** the slug unioned into ``custom.groups``;
+  ``groups/`` is a transient inbox (the drop is consumed). The per-MR diff job.
+- **Part B — symlink browse mirror** (``rebuild_mirror`` /
+  ``mirror_consistency_errors``): the ``groups/`` tree as relative symlinks into the
+  real entries, a *derived view* rebuilt from ``custom.groups``, owned by its own
+  push-to-main workflow. Independent of A — it reads ``custom.groups`` however it was
+  populated. See the Part B section below.
+
+Part A turns a contributor's ``groups/<slug>/<file>.bib`` drop into a normal stored
+entry **plus** a group-membership fact: the slug is **unioned** into that entry's
+sidecar ``custom.groups``. No form, no JSON, no need to know the citekey scheme
+beyond the directory name.
 
 ``custom.groups`` (pinned in ``schema/sidecar.schema.json``) is the **single source
 of truth** for membership; the ``groups/`` directory is a *transient inbox* — a drop
@@ -46,6 +59,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -238,6 +252,152 @@ def associate(root: Path, changed_group_bibs: list[Path]):
     return written, removed, messages
 
 
+# --------------------------------------------------------------------------- #
+# Part B — symlink browse mirror (derived view, owned by its own workflow)
+#
+# `groups/<slug>/<citekey>.bib` as a *relative symlink* into the real
+# `entries/<year>/<citekey>.bib`, so the repo UI shows each group's papers as a
+# folder. Strictly **derived** from `custom.groups` (the single source of truth)
+# and rebuilt wholesale on every run — a manual edit to the tree is reverted on
+# the next rebuild. The mirror is **never** part of the S1–S5 gate: the closure
+# check (S5) is blind to `groups/`, so the tree is a view like the compiled
+# artifacts. Its own consistency is surfaced by `mirror_consistency_errors`
+# (via the `--check` flag), never folded into `pubstore-check`.
+#
+# Independent of Part A: these read `custom.groups` however it was populated (a
+# Part A drop *or* a scraper/agent sidecar edit) and own the whole `groups/`
+# tree as symlinks — built only once Part A is in use and browse-by-group is
+# wanted. The committed `.gitkeep` skeleton (one per known PI slug) is never
+# touched here; only symlinks are wiped and recreated.
+# --------------------------------------------------------------------------- #
+
+_GROUPS = "groups"
+
+
+def _entry_memberships(root: Path) -> list[tuple[str, str, list[str]]]:
+    """``(citekey, year, sorted-unique groups)`` for every entry with a non-empty ``custom.groups``.
+
+    Keyed off the merged store state, not a diff: walks ``entries/`` and reads
+    each entry's sidecar ``custom.groups``. Defensive (the mirror runs post-merge
+    on an already-green store, and must never fail the workflow): a missing or
+    unparseable sidecar is skipped rather than raised on.
+    """
+    root = Path(root)
+    out: list[tuple[str, str, list[str]]] = []
+    for bib_path in sorted((root / "entries").rglob("*.bib")):
+        year, citekey = bib_path.parent.name, bib_path.stem
+        meta_path = root / "meta" / year / f"{citekey}.json"
+        if not meta_path.exists():
+            continue
+        try:
+            data = json.loads(meta_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        groups = data.get("custom", {}).get("groups", []) if isinstance(data, dict) else []
+        if groups:
+            out.append((citekey, year, sorted(set(groups))))
+    return out
+
+
+def _mirror_symlinks(root: Path) -> list[Path]:
+    """Every symlink currently under ``groups/`` — the mirror, *never* the ``.gitkeep`` skeleton.
+
+    Only symlinks are the mirror; regular files (a transient Part A drop, the
+    committed ``.gitkeep`` placeholders, ``README.md``) are left untouched.
+    """
+    groups_dir = Path(root) / _GROUPS
+    if not groups_dir.is_dir():
+        return []
+    return sorted(p for p in groups_dir.rglob("*") if p.is_symlink())
+
+
+def rebuild_mirror(root: Path) -> tuple[list[Path], list[Path]]:
+    """Rebuild the ``groups/`` symlink mirror from ``custom.groups``. Returns ``(created, removed)``.
+
+    Wipe the existing mirror **symlinks only** (the ``.gitkeep`` skeleton and any
+    other regular file are left in place), then for every entry, for every slug in
+    its ``custom.groups``, recreate ``groups/<slug>/<citekey>.bib`` as a
+    **relative** symlink to ``entries/<year>/<citekey>.bib`` (relative so it
+    survives clone/checkout — every ``groups/<slug>/`` sits at the same depth, so
+    the link is always ``../../entries/<year>/<citekey>.bib``). Idempotent: a clean
+    rebuild each run, so re-running on an unchanged store reproduces byte-identical
+    links and git sees no change.
+    """
+    root = Path(root)
+    removed: list[Path] = []
+    for link in _mirror_symlinks(root):
+        link.unlink()
+        removed.append(link)
+
+    created: list[Path] = []
+    for citekey, year, groups in _entry_memberships(root):
+        bib_abs = root / "entries" / year / f"{citekey}.bib"
+        for slug in groups:
+            link = root / _GROUPS / slug / f"{citekey}.bib"
+            link.parent.mkdir(parents=True, exist_ok=True)
+            if link.is_symlink() or link.exists():
+                link.unlink()  # a stale same-named regular drop, or a just-made link
+            link.symlink_to(os.path.relpath(bib_abs, start=link.parent))
+            created.append(link)
+    return created, removed
+
+
+def mirror_consistency_errors(root: Path) -> list[str]:
+    """Mirror drift vs ``custom.groups`` (the source of truth). Empty list == consistent.
+
+    Surfaced via ``pubstore-groups rebuild-mirror --check`` — **never** folded into
+    the S1–S5 gate (``pubstore-check``). Flags, with repo-root-relative messages:
+
+    - a mirror symlink at the wrong depth / suffix (not ``groups/<slug>/<key>.bib``);
+    - a **broken** symlink (target does not resolve — the hand-broken case);
+    - a symlink pointing somewhere other than ``entries/<year>/<key>.bib``;
+    - a **stale** link whose entry's ``custom.groups`` no longer lists ``<slug>``;
+    - a **missing** link for an ``(entry, slug)`` membership that should be mirrored.
+    """
+    root = Path(root)
+    errors: list[str] = []
+
+    expected: set[tuple[str, str]] = set()  # (slug, citekey)
+    year_of: dict[str, str] = {}
+    for citekey, year, groups in _entry_memberships(root):
+        year_of[citekey] = year
+        for slug in groups:
+            expected.add((slug, citekey))
+
+    actual: set[tuple[str, str]] = set()
+    for link in _mirror_symlinks(root):
+        rrel = link.relative_to(root)
+        rel = link.relative_to(root / _GROUPS)
+        if len(rel.parts) != 2 or link.suffix != ".bib":
+            errors.append(f"{rrel}: stray mirror symlink (expected groups/<slug>/<citekey>.bib)")
+            continue
+        slug, citekey = rel.parts[0], link.stem
+        try:
+            resolved = link.resolve(strict=True)
+        except (OSError, RuntimeError):
+            errors.append(f"{rrel}: broken symlink (target does not resolve)")
+            continue
+        want_year = year_of.get(citekey)
+        want = (root / "entries" / want_year / f"{citekey}.bib").resolve() if want_year else None
+        if want is None or resolved != want:
+            errors.append(
+                f"{rrel}: symlink does not point at entries/<year>/{citekey}.bib"
+            )
+            continue
+        if (slug, citekey) not in expected:
+            errors.append(
+                f"{rrel}: entry {citekey} is not in group '{slug}' (custom.groups) — stale mirror link"
+            )
+            continue
+        actual.add((slug, citekey))
+
+    for slug, citekey in sorted(expected - actual):
+        errors.append(
+            f"groups/{slug}/{citekey}.bib: missing mirror symlink for entry {citekey} in group '{slug}'"
+        )
+    return errors
+
+
 def _associate_main(args) -> None:
     try:
         written, removed, messages = associate(args.root, args.paths)
@@ -256,6 +416,23 @@ def _associate_main(args) -> None:
         print(f"  {m}")
 
 
+def _rebuild_mirror_main(args) -> None:
+    if args.check:
+        errors = mirror_consistency_errors(args.root)
+        for message in errors:
+            print(f"::error::{message}")
+        if errors:
+            print(f"FAIL: {len(errors)} groups/ mirror inconsistency(ies)")
+            sys.exit(1)
+        print("OK: groups/ mirror is consistent with custom.groups")
+        return
+    created, removed = rebuild_mirror(args.root)
+    print(
+        f"rebuilt groups/ mirror: {len(created)} symlink(s) from custom.groups, "
+        f"{len(removed)} pre-existing symlink(s) cleared"
+    )
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         prog="pubstore-groups",
@@ -271,6 +448,20 @@ def main() -> None:
     p_assoc.add_argument("paths", nargs="+", type=Path, help="changed groups/<slug>/*.bib drops")
     p_assoc.add_argument("--root", type=Path, default=Path.cwd(), help="repo root (default: cwd)")
     p_assoc.set_defaults(func=_associate_main)
+
+    p_mirror = sub.add_parser(
+        "rebuild-mirror",
+        help="rebuild the groups/<slug>/ symlink browse mirror from custom.groups "
+        "(the source of truth); a derived view, owned by its own push-to-main workflow",
+    )
+    p_mirror.add_argument(
+        "--check",
+        action="store_true",
+        help="read-only: report mirror drift vs custom.groups and exit 1 on any "
+        "(never rebuilds, never part of pubstore-check)",
+    )
+    p_mirror.add_argument("--root", type=Path, default=Path.cwd(), help="repo root (default: cwd)")
+    p_mirror.set_defaults(func=_rebuild_mirror_main)
 
     args = ap.parse_args()
     args.func(args)

@@ -24,8 +24,9 @@ pubstore-normalize = "publication_store.diff_job:main"
 pubstore-check = "publication_store.checker:main"
 # Add-on (read-only): compile joined build artifacts (all.bib / <group>.bib / meta.json).
 pubstore-compile = "publication_store.artifacts:main"
-# Add-on (mutating): implicit group association — a groups/<slug>/ drop unions the slug
-# into the entry's custom.groups (the source of truth). Runs in the per-MR diff job.
+# Add-on: group directories. `associate` (per-MR diff job) unions a groups/<slug>/ drop's
+# slug into the entry's custom.groups (the source of truth); `rebuild-mirror` (its own
+# push-to-main workflow) regenerates the groups/<slug>/ symlink browse mirror from it.
 pubstore-groups = "publication_store.groups:main"
 
 [build-system]

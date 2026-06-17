@@ -112,6 +112,25 @@ def run_groups_main(root: Path, paths: list[Path], monkeypatch, capsys) -> tuple
     return _run_main(groups, argv, monkeypatch, capsys)
 
 
+def rebuild_mirror(root: Path):
+    """Run the Part B mirror builder's pure core; returns ``(created, removed)``."""
+    return groups.rebuild_mirror(root)
+
+
+def mirror_consistency_errors(root: Path) -> list[str]:
+    """Run the Part B mirror consistency check's pure core; returns the error list ([] == OK)."""
+    return groups.mirror_consistency_errors(root)
+
+
+def run_mirror_main(root: Path, monkeypatch, capsys, check: bool = False) -> tuple[int, str]:
+    """Drive ``pubstore-groups rebuild-mirror [--check]`` via ``main()``; return ``(exit_code, stdout)``."""
+    argv = ["pubstore-groups", "rebuild-mirror"]
+    if check:
+        argv.append("--check")
+    argv += ["--root", str(root)]
+    return _run_main(groups, argv, monkeypatch, capsys)
+
+
 def _run_main(module, argv: list[str], monkeypatch, capsys) -> tuple[int, str]:
     """Drive a console-script ``main()`` in-process; return ``(exit_code, stdout)``."""
     monkeypatch.setattr(sys, "argv", argv)
@@ -154,3 +173,6 @@ class _Helpers:
     groups_of = staticmethod(groups_of)
     run_associate = staticmethod(run_associate)
     run_groups_main = staticmethod(run_groups_main)
+    rebuild_mirror = staticmethod(rebuild_mirror)
+    mirror_consistency_errors = staticmethod(mirror_consistency_errors)
+    run_mirror_main = staticmethod(run_mirror_main)

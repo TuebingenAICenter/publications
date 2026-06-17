@@ -1,0 +1,77 @@
+name: Regenerate group mirror
+
+# Add-on (separable): rebuild the groups/<slug>/ symlink BROWSE MIRROR from each
+# entry's custom.groups (the single source of truth) and commit it to main. The
+# mirror lets the GitHub UI show each PI group's papers as a folder; it is a
+# DERIVED VIEW, not a source — rebuilt wholesale on every run, so a manual edit to
+# the tree is reverted on the next rebuild.
+#
+# This workflow is INDEPENDENT of the PR gate (pr-checks.yml) and the scheduled
+# backstop (check-scheduled.yml): deleting this one file (and the committed
+# groups/**/*.bib symlinks) disables Part B with no effect on any S1–S5 check.
+# That is viable because the S5 closure check is BLIND to groups/ — the mirror is
+# never part of correctness, exactly like the compiled-artifacts add-on. It is NOT
+# a gate. Any mirror-consistency check is the separate `pubstore-groups
+# rebuild-mirror --check`, never folded into pubstore-check.
+#
+# Triggers:
+#  - push to main      -> membership is settled post-merge; regenerate + commit.
+#  - workflow_dispatch -> manual regenerate.
+#
+# This catches EVERY membership change — a groups/ drop (Part A) and an
+# entries/-side sidecar edit (a scraper/agent MR touching custom.groups) alike —
+# because it keys off the merged main state, not a diff.
+#
+# Commit with the DEFAULT GITHUB_TOKEN: a push made with it does NOT re-trigger
+# workflows, so there is no loop and no App token is needed (rebuild-mirror is
+# idempotent, so a push that didn't change membership commits nothing anyway).
+#
+# Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
+# local package, same as the other jobs.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tuebingenaicenter/publications-ci:latest
+    # contents: write so the commit-back lands on main. The rebuild only ever
+    # writes symlinks under groups/ — never entries/ or meta/.
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install the tools package
+        # Deps + hatchling are baked into the CI image; install only the local
+        # package (offline, no build isolation).
+        run: uv pip install --system --no-deps --no-build-isolation ./tools
+
+      - name: Rebuild the group mirror
+        # Wipe the groups/ symlinks (never the committed .gitkeep skeleton) and
+        # recreate groups/<slug>/<key>.bib -> ../../entries/<year>/<key>.bib from
+        # every entry's custom.groups. Idempotent.
+        run: pubstore-groups rebuild-mirror --root .
+
+      - name: Commit the mirror to main
+        # Default GITHUB_TOKEN (set up by checkout@v4) — does NOT re-trigger this
+        # push workflow, so no loop. Stage only groups/ so a stray write elsewhere
+        # could never ride along; commit only when the tree actually changed.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add groups/
+          if git diff --cached --quiet; then
+            echo "Mirror unchanged — nothing to commit."
+          else
+            git commit -m "chore: regenerate groups/ browse mirror"
+            git push
+          fi
