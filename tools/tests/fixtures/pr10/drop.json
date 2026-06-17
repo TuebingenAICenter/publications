@@ -1,0 +1,14 @@
+{
+  "smith_overlay_2025": {
+    "collections": [
+      "#collection_demo"
+    ],
+    "notes": [
+      {
+        "note": "<p>scraped overlay carried losslessly</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
