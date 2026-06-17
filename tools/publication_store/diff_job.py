@@ -25,9 +25,12 @@ store plan):
 - **S2 — Uniqueness (diff-scoped).** For each new/changed citekey, a cheap
   filename lookup across the year shards (no parse of the store) fails loudly if a
   *different* path already holds that key — the cross-shard duplicate the
-  filesystem can't catch on its own (the ``pr6`` sequential case). Same-year
-  re-adds collide earlier as a git add/add conflict; the *concurrent* cross-shard
-  case is deliberately ungated (a transient duplicate — see the plan).
+  filesystem can't catch on its own (the ``pr6`` sequential case). A stray drop that
+  would land on an existing *same-path* entry with different content (same citekey +
+  year, from a filename git's add/add conflict didn't catch — the ``pr8`` case) fails
+  loudly too rather than overwrite it, as do two entries in one change that collide on
+  one derived path (the ``pr9`` case). The *concurrent* cross-shard case is
+  deliberately ungated (a transient duplicate — see the plan).
 - **S3 — Pairing.** Every written ``.bib`` gets its ``.json`` sidecar at the same
   stem (created as ``{"zotero": …, "custom": …}``, possibly both ``{}``).
 - **S4 — Well-formed.** Each entry is re-emitted via ``to_bibtex`` (the formatter
@@ -47,9 +50,10 @@ Other mechanics:
 - **multi-entry paste** — a paste of N entries is split **per parsed item**
   (``from_bibtex`` → ``to_bibtex`` → per-entry), not by splitting text on blank
   lines, then each item is placed as above (the ``pr2`` case).
-- **collision seam (soft)** — writing onto a *different* pre-existing entry at the
-  same path (a same-shard overwrite git did not catch) is surfaced as a warning,
-  never a silent overwrite.
+- **collision seam (hard)** — writing onto a *different* pre-existing entry at the
+  same path (a same-shard overwrite git did not catch — the ``pr8`` case) fails
+  loudly before any write, never a silent overwrite; a human renames the key or
+  reconciles. An *identical* re-drop is a no-op (nothing to resolve).
 
 This tool is deterministic, secret-free, and pure-Python; "find changed ``.bib``"
 is the workflow's job (it takes an explicit file list), and pushing the result
@@ -174,6 +178,69 @@ def _collision_errors(repo_root: Path, plans, changed_set: set[Path]) -> list[st
     return errors
 
 
+def _overwrite_errors(repo_root: Path, plans, changed_set: set[Path]) -> list[str]:
+    """S2 — a planned target would overwrite a *different* entry already at its path.
+
+    Same citekey **and** same year as a stored entry, but arriving from a *different*
+    source (a stray drop, not the entry's own in-place edit), so the two derive the
+    identical path. A literal same-path add is caught earlier by git's add/add
+    conflict, but a drop placed elsewhere (``incoming.bib``) slips past git — and
+    silently clobbering the stored entry would lose a publication. So we **fail
+    loudly before any write** (the same disposition as the cross-shard ``pr6`` case,
+    just caught at the same path) and let a human rename the key or reconcile.
+
+    Two writes onto an existing path are *not* collisions: the entry's own
+    re-normalization / in-place edit (source path == target, in ``changed_set``), and
+    an *identical* re-drop (byte-for-byte the stored canonical text — nothing to
+    resolve, a harmless no-op).
+    """
+    errors: list[str] = []
+    for _, targets, _, _ in plans:
+        for citekey, year, entry_text, _ in targets:
+            bib_rel, _ = entry.derive_path(year, citekey)
+            bib_path = repo_root / bib_rel
+            if not bib_path.exists():
+                continue
+            if bib_path.resolve() in changed_set:
+                continue  # the entry's own re-normalization / in-place edit (pr3)
+            if bib_path.read_text(encoding="utf-8") == entry_text:
+                continue  # identical re-drop — a harmless no-op, nothing to resolve
+            errors.append(
+                f"citekey {citekey!r} already exists at {bib_rel} with different "
+                f"content; this change would overwrite it (same-shard duplicate — S2 "
+                f"uniqueness; rename the key or reconcile with the existing entry)"
+            )
+    return errors
+
+
+def _batch_collision_errors(plans) -> list[str]:
+    """S2 — two entries in the *same* change that derive the *same* path.
+
+    The within-MR analogue of :func:`_overwrite_errors`: two distinct source files
+    whose canonical (year, citekey) land on one derived path. Neither is on disk yet,
+    so the on-disk checks can't see it — and left unchecked the second write silently
+    clobbers the first while *both* raw sources are deleted, a lost publication with no
+    signal (git doesn't catch it either: two source filenames, no add/add conflict). A
+    single file's duplicate keys are already rejected upstream by the BibTeX parser;
+    this catches the cross-file case. Fail loudly so a human renames a key.
+    """
+    by_path: dict[Path, list[str]] = {}
+    for _, targets, _, _ in plans:
+        for citekey, year, _, _ in targets:
+            bib_rel, _ = entry.derive_path(year, citekey)
+            by_path.setdefault(bib_rel, []).append(citekey)
+    errors: list[str] = []
+    for bib_rel in sorted(by_path, key=str):
+        keys = by_path[bib_rel]
+        if len(keys) > 1:
+            errors.append(
+                f"this change produces {len(keys)} entries that collide on one path "
+                f"{bib_rel} (citekey {keys[0]!r} — S2 uniqueness; rename one key or "
+                f"drop the duplicate)"
+            )
+    return errors
+
+
 def _idempotency_errors(repo_root: Path, written_bibs: list[Path]) -> list[str]:
     """S4 — re-run canonicalization on the just-written output; it must be a fixpoint.
 
@@ -221,10 +288,14 @@ def normalize_changed(repo_root: Path, changed_bibs: list[Path]):
         targets, extra, carried = _plan_file(repo_root, bib)
         plans.append((bib, targets, extra, carried))
 
-    # S2 (plan step 4): block a cross-shard duplicate before writing anything.
+    # S2 (plan step 4): block a duplicate before writing anything — a cross-shard
+    # re-add (different path, same key), a same-path overwrite of a different entry,
+    # or two entries in this same change that collide on one derived path.
     collisions = _collision_errors(repo_root, plans, changed_set)
-    if collisions:
-        raise NormalizeError("\n".join(collisions))
+    overwrites = _overwrite_errors(repo_root, plans, changed_set)
+    batch = _batch_collision_errors(plans)
+    if collisions or overwrites or batch:
+        raise NormalizeError("\n".join(collisions + overwrites + batch))
 
     target_bibs = {
         (repo_root / entry.derive_path(year, citekey)[0]).resolve()
@@ -240,16 +311,9 @@ def normalize_changed(repo_root: Path, changed_bibs: list[Path]):
             bib_path = repo_root / bib_rel
             meta_path = repo_root / meta_rel
 
-            if (
-                bib_path.exists()
-                and bib_path.resolve() not in changed_set
-                and bib_path.read_text(encoding="utf-8") != entry_text
-            ):
-                warnings.append(
-                    f"{bib_path} already exists with different content "
-                    f"(possible duplicate of {citekey} — needs dedup/human review)"
-                )
-
+            # A same-path overwrite of a *different* entry was already rejected
+            # pre-write by ``_overwrite_errors``; reaching here means this write is a
+            # legitimate (re-)normalization or a brand-new placement.
             _, existing_custom = _load_store_sidecar(meta_path, repo_root)
             custom = existing_custom or carried
             bib_path.parent.mkdir(parents=True, exist_ok=True)
