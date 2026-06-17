@@ -1,6 +1,6 @@
 {
   "custom": {
-    "mentions_ai_center": "yes",
+    "mentions_ai_center": true,
     "status": "published"
   },
   "zotero": {

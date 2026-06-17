@@ -11,7 +11,25 @@
     },
     "custom": {
       "type": "object",
-      "description": "Institute report overlay: open/extensible facts that are not Zotero data (status, mentions_ai_center, provenance, review). Deliberately not given a fixed sub-schema."
+      "description": "Institute report overlay: open/extensible facts that are not Zotero data. Open by design — only the fields below carry a pinned shape; other report keys (status, provenance, review, …) are allowed and unconstrained. Every recognized field is optional; an absent field means unresolved/unchecked and is never fabricated on normalize.",
+      "properties": {
+        "groups": {
+          "description": "Owning PI groups, recorded as PI-table key slugs (e.g. \"bethge\"). A set: order is not significant and entries are unique. The slug vocabulary is NOT enforced here — the agents own it (same stance as the citekey scheme).",
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "mentions_ai_center": {
+          "description": "Whether the publication's text credits the Tuebingen AI Center. Tri-state by presence: absent = not yet checked; true/false are reviewed outcomes.",
+          "type": "boolean"
+        },
+        "member_institutes": {
+          "description": "Founding member institutes represented as stated in the publication (recommended slugs: ellis, mpi-is, uni-tuebingen; vocabulary not enforced). A set. Absent = unchecked; [] = checked, none represented.",
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        }
+      }
     }
   },
   "additionalProperties": false
