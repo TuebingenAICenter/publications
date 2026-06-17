@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Annote": "https://openaccess.thecvf.com/content/ICCV2025/html/Zverev_VGGSounder_Audio-Visual_Evaluations_for_Foundation_Models_ICCV_2025_paper.htmlhttps://vggsounder.github.io/https://iccv.thecvf.com/virtual/2025/poster/1484https://arxiv.org/abs/2508.08237",
+      "Note": "Reporter: arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper"
+  }
+}
