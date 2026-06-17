@@ -1,0 +1,72 @@
+name: Publish compiled artifacts
+
+# Add-on (separable): compile the per-entry store into the consumer-facing joined
+# views — all.bib, one <group>.bib per PI group, and meta.json — and publish them.
+# These are BUILD ARTIFACTS, never committed; they are always reproducible from
+# entries/** + meta/** by `pubstore-compile`.
+#
+# This workflow is INDEPENDENT of the PR gate (pr-checks.yml) and the scheduled
+# backstop (check-scheduled.yml): deleting this one file disables the add-on with
+# no effect on any S1–S5 check. It is NOT a gate — pubstore-compile assumes the
+# store is already green (it runs post-merge, on main), warns + skips anything that
+# won't parse, and never fails.
+#
+# Triggers:
+#  - push to main      -> recompile and upload as a workflow artifact (on-demand pull)
+#  - release published -> additionally attach the files as release assets
+#  - workflow_dispatch -> manual recompile
+#
+# Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
+# local package, same as the other jobs.
+
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tuebingenaicenter/publications-ci:latest
+    # contents: write only so the release-asset step can attach files; the compile
+    # itself and the workflow-artifact upload are read-only.
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install the tools package
+        # Deps + hatchling are baked into the CI image; install only the local
+        # package (offline, no build isolation).
+        run: uv pip install --system --no-deps --no-build-isolation ./tools
+
+      - name: Compile artifacts
+        # all.bib + groups/<slug>.bib + meta.json into build/. Read-only: it never
+        # writes into entries/ or meta/ and never commits. Warnings (a non-parsing
+        # file) do not fail the run.
+        run: pubstore-compile --root . --out build/
+
+      - name: Upload as a workflow artifact
+        # On-demand pull of the latest main build (90-day default retention).
+        uses: actions/upload-artifact@v4
+        with:
+          name: publication-store-artifacts
+          path: build/
+
+      - name: Attach to the release
+        # Only on a published release: the same files become durable release assets.
+        if: ${{ github.event_name == 'release' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s globstar nullglob
+          gh release upload "${{ github.event.release.tag_name }}" \
+            build/all.bib build/meta.json build/groups/**/*.bib \
+            --clobber

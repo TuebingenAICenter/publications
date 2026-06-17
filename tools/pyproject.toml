@@ -22,6 +22,8 @@ test = ["pytest>=8"]
 pubstore-normalize = "publication_store.diff_job:main"
 # Full-store gate (read-only): verify S1–S5 across the whole store.
 pubstore-check = "publication_store.checker:main"
+# Add-on (read-only): compile joined build artifacts (all.bib / <group>.bib / meta.json).
+pubstore-compile = "publication_store.artifacts:main"
 
 [build-system]
 requires = ["hatchling"]

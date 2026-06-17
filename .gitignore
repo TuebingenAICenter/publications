@@ -4,3 +4,6 @@ __pycache__/
 # Local tooling artifacts (CI installs tools/ with pip, not uv).
 .venv/
 uv.lock
+
+# Compiled artifacts (pubstore-compile build outputs; never committed).
+build/
