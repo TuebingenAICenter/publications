@@ -1,23 +1,67 @@
 # Publications
 
-The Tübingen AI Center's publication **ground-truth store**: the institute's
-publications held as data, in a canonical form, plus the tooling to submit and view
-them. The source of truth is **one BibTeX file per publication**
-(`entries/<year>/<citekey>.bib`) with a **per-entry JSON sidecar**
-(`meta/<year>/<citekey>.json`) for the metadata BibTeX can't carry.
+The Tübingen AI Center's publication **ground-truth store** — the institute's
+publications held as canonical data, plus the tooling to submit and view them. Source of
+truth is **one BibTeX file per publication** (`entries/<year>/<citekey>.bib`) with a
+**per-entry JSON sidecar** (`meta/<year>/<citekey>.json`) for what BibTeX can't carry.
 
-This repo's job is exactly to **keep the data in the correct form and provide tooling
-around submitting and viewing it.** It is *not* a deduplication, scraping, or enrichment
-system — it never reasons about whether two entries are the same publication, fetches
-sources, or fills in fields. Those are external agents, and they interact with the store
-the same way a human does: **by opening a merge request.**
+Its only job is to **[keep the data in the correct form](#the-store-contract-s1s5)** — it
+does *not* deduplicate, scrape, or enrich. That curation is supported by separate tooling
+(an automatic publication-scraper agent, Slack reminder bots, …); human contributors take
+part directly. Everyone interacts with the store the same way: **by opening a merge
+request.**
+
+## Contributing
+
+Everything lands through a merge request; **merging is the approval.** A bot normalizes
+your input on the MR, so you don't need to know the layout, the citekey scheme, or JSON —
+just do one of:
+
+- **Merge a bot's MR.** The scraper and dedup agents open MRs already in canonical form.
+  Review and merge (or close) — that's it.
+- **Drop your `.bib` into your group's folder** — [`groups/<slug>/`](groups/) (e.g.
+  `groups/bethge/`). The bot files the paper canonically *and* records the group. Pick an
+  existing folder from the list; if you have no group, drop the `.bib` at the repo root
+  instead.
+- **Edit a file directly** (if you must). Change a `.bib` in `entries/` or a sidecar in
+  `meta/` — the bot re-canonicalizes and relocates as needed.
+
+Then open the MR and merge it once the check is green.
+
+If the bot **can't** auto-fix it (malformed BibTeX, a duplicate citekey, a half-moved pair,
+a legacy sidecar), the check goes red with a clear message — fix the input and push again.
+It never guesses silently.
+
+<details>
+<summary>Group-drop details</summary>
+
+A drop into `groups/<slug>/` **unions** `<slug>` into the entry's `custom.groups`
+(the single source of truth — folders are just an input convenience). Three outcomes:
+**new paper** → created and added; **existing paper, unchanged** → just added to the group
+(this is how you move a paper into another group); **existing paper with edits** →
+rejected (a group drop is never a backdoor edit — edit `entries/` directly instead).
+Dropping into several folders in one MR assigns all those groups at once. To *remove* a
+group, edit the sidecar — deleting a folder won't do it.
+</details>
+
+<details>
+<summary>Check it locally first (optional)</summary>
+
+The same logic ships as plain CLIs:
+
+```bash
+pip install ./tools
+pubstore-normalize --root . <your.bib>   # canonicalize + place your .bib in the store
+pubstore-check --root .                  # verify the store satisfies S1–S5
+```
+</details>
 
 ## Where the data lives
 
 ```
 entries/<year>/<citekey>.bib    # SOURCE OF TRUTH: one publication per file, canonical
 meta/<year>/<citekey>.json      # one sidecar per entry; {} | {zotero} | {custom}
-groups/<slug>/                  # group inbox: drop a .bib here to assign it to a group
+groups/<slug>/                  # group inbox (drop a .bib here) + browse mirror (symlinks)
 schema/sidecar.schema.json      # the sidecar contract (single source of truth for its shape)
 tools/                          # installable package: the CLIs + pinned deps
 .github/workflows/              # CI: the diff job (normalize) + the read-only checker (gate)
@@ -30,73 +74,10 @@ reconstruct the original item) and **`custom`** (the open report layer: status,
 provenance, review, group ownership, …). A bare `{}` is the valid empty sidecar. See
 [`schema/sidecar.schema.json`](schema/sidecar.schema.json) for the exact contract.
 
-A compiled `all.bib` and per-group `<group>.bib` views are **optional build artifacts** —
-emitted on demand, **never committed**. The per-file `entries/`/`meta/` pairs are the only
-source.
-
-## How to contribute (manual)
-
-Open a merge request with a `.bib` — in **any** form. It can be raw, loosely placed at the
-repo root, with a filename that doesn't match the citekey, or even several entries pasted
-into one file. **You do not need to know the directory layout, the citekey scheme, or
-JSON.**
-
-The **diff job** runs on your MR and puts the contribution in canonical form for you:
-it canonicalizes the BibTeX, derives the correct `entries/<year>/<citekey>.bib` path and
-places it there, creates the matching sidecar, removes the stray drop, and commits the
-result back to your MR branch. A reviewer then **accepts and merges** into `main` —
-merging is the approval.
-
-### Assign a paper to a group
-
-Drop a `.bib` into **`groups/<slug>/`** (e.g. `groups/bethge/`) and the bot files the
-paper *and* records the group for you: it places the entry canonically under
-`entries/<year>/<citekey>.bib` exactly as above, **unions** `<slug>` into the entry's
-`custom.groups`, and deletes your drop. No JSON, no git layout, no citekey scheme — just
-the directory name. The committed `groups/<slug>/` folders are the menu of known slugs;
-pick from them (creating a brand-new folder is a more visible act a reviewer will catch).
-
-Three outcomes, by what your drop contains:
-
-- **A new paper** → a fresh entry is created and added to the group.
-- **An existing paper, unchanged** (drop a copy of one already in the store) → it is just
-  **added to the group** — the stored entry is left untouched. This is how you move an
-  existing paper into another group: drop it again under the new folder.
-- **An existing paper with edits** → the drop is **rejected**. A group drop is never a
-  backdoor edit: to change a stored entry, edit `entries/<year>/<citekey>.bib` directly;
-  to only add a group, drop the paper unchanged.
-
-Dropping the *same* paper into several `groups/<slug>/` folders in one MR assigns it to
-all of them at once (a bulk paste into one folder assigns that group to every entry in it).
-
-`custom.groups` in the sidecar is the **single source of truth** for membership; the
-`groups/` folders are an input convenience. To *remove* a group, edit the sidecar — don't
-expect deleting a file to do it.
-
-### Check it locally first (optional)
-
-The same logic ships as plain CLIs, so you can run them before opening the MR:
-
-```bash
-pip install ./tools
-pubstore-normalize --root . <your.bib>   # put your .bib in canonical form, placed in the store
-pubstore-check --root .                  # verify the store satisfies S1–S5
-```
-
-Both are deterministic, secret-free, and pure-Python.
-
-## How the agents interact
-
-External agents use the **same merge-request interface** as a human — there is no special
-path:
-
-- The **scraper agent** opens MRs with newly found publications (normally already canonical,
-  since it runs the same conversion locally).
-- The **deduplication agent** finds likely duplicates and opens MRs proposing a merged entry
-  plus deletion of the redundant ones.
-
-In both cases the diff job normalizes/verifies as usual and **a human merges (or closes)**
-the MR. Machine proposes, human disposes.
+A compiled `all.bib`, per-group `<group>.bib` views, and a consumer-facing `meta.json`
+are **optional build artifacts** — emitted on demand (`pubstore-compile`), **never
+committed**. The `groups/` symlink tree is likewise a derived browse view, rebuilt from
+`custom.groups`. The per-file `entries/`/`meta/` pairs are the only source of truth.
 
 ## The store contract (S1–S5)
 
@@ -129,3 +110,41 @@ whether a `status` or group field is *correct* is human review, never gated here
   checker (and the dedup agent).
 - **Dismiss-stale-reviews-on-push is off**, so the normalizer's commit-back to your branch
   never wipes an existing approval.
+
+## Maintaining the tooling
+
+For contributors working on the store's tooling rather than its data.
+
+`tools/` is a single installable package (`publication-store`, see
+[`tools/pyproject.toml`](tools/pyproject.toml)) pinning `zotero-rdf-python` + `jsonschema`
+and exposing the CLIs as `console_scripts`:
+
+| CLI | Role |
+|---|---|
+| `pubstore-normalize` | Per-MR diff job (mutating): normalize the changed `.bib` files into the store. |
+| `pubstore-check` | Full-store gate (read-only): verify S1–S5. The required status check. |
+| `pubstore-compile` | Add-on (read-only): emit `all.bib` / `<group>.bib` / `meta.json` artifacts. |
+| `pubstore-groups` | Add-on: `associate` (per-MR group drop → `custom.groups`) and `rebuild-mirror` (regenerate the `groups/` symlink view). |
+
+The shared per-entry logic lives in `publication_store/entry.py` (S1/S4 for one entry);
+the two drivers `diff_job.py` and `checker.py` build on it. Each module's docstring is the
+authoritative reference for its invariants.
+
+```bash
+pip install -e "tools/[test]"
+pytest tools/tests           # the pr1–pr14 fixtures; run manually — deliberately not in CI
+```
+
+The workflows under `.github/workflows/`:
+
+- **`pr-checks.yml`** — on every PR: the diff job (normalize, commit-back) routed between
+  `pubstore-normalize` and `pubstore-groups associate`, then the required `check` gate.
+- **`check-scheduled.yml`** — nightly `pubstore-check` backstop (catches landed cross-shard
+  duplicates).
+- **`regenerate-mirror.yml`** — on push to `main`: rebuild the `groups/` symlink mirror.
+- **`publish-artifacts.yml`** / **`release.yml`** — compile and publish the build artifacts
+  on release.
+- **`build-ci-image.yml`** — rebuild the prebuilt CI image when `tools/` deps change.
+
+Add-ons (compiled artifacts, group directories) sit *beside* the core and can be toggled
+without touching the S1–S5 logic or the gate.
