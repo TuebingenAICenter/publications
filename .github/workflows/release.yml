@@ -1,0 +1,77 @@
+name: Auto-release on merge to main
+
+# Add-on (separable): cut a durable, date-stamped RELEASE for every real content
+# merge to main. This repo is a data store, not versioned software, so a "release"
+# is simply a permanent, downloadable SNAPSHOT of the store at a point in time.
+#
+# This workflow only CREATES the (empty) release. It deliberately does NOT build
+# or attach anything: publish-artifacts.yml already listens for `release:
+# published` and attaches the compiled views (all.bib, groups/<slug>.bib,
+# meta.json) as release assets. Keeping the two apart preserves the single
+# responsibility of each file — delete this one and merges simply stop minting
+# snapshots, with no effect on any S1-S5 check or on the on-demand artifact pull.
+#
+# Create the release AS THE tueai-publications-bot App, not the default
+# GITHUB_TOKEN. This is load-bearing: a release created with GITHUB_TOKEN does
+# NOT fire `release: published` (GitHub suppresses token-triggered events to
+# prevent recursion), so publish-artifacts would never run and the release would
+# have no assets. An App-authed release DOES fire downstream workflows — the same
+# property regenerate-mirror.yml relies on. Requires the APP_ID / APP_PRIVATE_KEY
+# repo secrets (the same App already used by pr-checks.yml and regenerate-mirror).
+#
+# Triggers:
+#  - push to main -> mint one snapshot release per content merge.
+#
+# The `if` below skips the bot's OWN mirror-regeneration push
+# ("chore: regenerate groups/ browse mirror", committed straight to main by
+# regenerate-mirror.yml). That commit only ever rewrites the derived groups/
+# browse view, which is not part of the compiled artifacts, so releasing on it
+# would mint a second, content-identical snapshot. Every genuine content merge
+# still releases; membership-only changes do not produce a redundant one.
+
+on:
+  push:
+    branches: [main]
+
+# Least privilege for the default GITHUB_TOKEN: this job never uses it to write.
+# The release is created with the short-lived App token minted below, which
+# carries its own contents:write via the App installation.
+permissions:
+  contents: read
+
+jobs:
+  release:
+    if: "${{ !startsWith(github.event.head_commit.message, 'chore: regenerate groups/ browse mirror') }}"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mint a GitHub App token
+        # Short-lived installation token for tueai-publications-bot. Creating the
+        # release as the App (not GITHUB_TOKEN) is what lets `release: published`
+        # reach publish-artifacts.yml so it can attach the compiled assets.
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Compute a date-time tag
+        # The store has no semver, so tag by UTC instant: unique, monotonically
+        # sortable, and needs no committed state. e.g. v2026.06.18-143052.
+        id: tag
+        run: |
+          echo "tag=v$(date -u +'%Y.%m.%d-%H%M%S')" >> "$GITHUB_OUTPUT"
+          echo "title=Publication store $(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
+
+      - name: Create the release
+        # gh resolves the repo from GH_REPO (no checkout needed); the release
+        # points at the just-merged commit. --generate-notes builds a changelog
+        # from the PRs since the previous tag. Publishing fires `release:
+        # published`, which triggers publish-artifacts.yml to attach the assets.
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create "${{ steps.tag.outputs.tag }}" \
+            --target "${{ github.sha }}" \
+            --title "${{ steps.tag.outputs.title }}" \
+            --generate-notes

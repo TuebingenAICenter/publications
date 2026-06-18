@@ -12,16 +12,15 @@ name: Publish compiled artifacts
 # won't parse, and never fails.
 #
 # Triggers:
-#  - push to main      -> recompile and upload as a workflow artifact (on-demand pull)
-#  - release published -> additionally attach the files as release assets
-#  - workflow_dispatch -> manual recompile
+#  - release published -> compile and attach the files as durable release assets.
+#                         release.yml publishes one release per content merge to
+#                         main, so this is the per-merge snapshot path.
+#  - workflow_dispatch -> manual recompile, uploaded as a workflow artifact.
 #
 # Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
 # local package, same as the other jobs.
 
 on:
-  push:
-    branches: [main]
   release:
     types: [published]
   workflow_dispatch: {}
@@ -54,7 +53,9 @@ jobs:
         run: pubstore-compile --root . --out build/
 
       - name: Upload as a workflow artifact
-        # On-demand pull of the latest main build (90-day default retention).
+        # Workflow-artifact copy (90-day default retention). On a release this is
+        # an ephemeral mirror of the attached assets; on workflow_dispatch it is
+        # the only output, since there is no release to attach to.
         uses: actions/upload-artifact@v4
         with:
           name: publication-store-artifacts
