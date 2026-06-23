@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2102.08474",
+    "extra": {
+      "Archive ID": "arXiv:2102.08474",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3182348021",
+      "Pages": "4972--4994",
+      "Scholar": "DZ-fHPgAAAAJ:NJdIkVacNvsC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "151"
+    }
+  }
+}

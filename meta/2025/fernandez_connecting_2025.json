@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:14:46",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2504.14701v1"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "UeG5w08AAAAJ:GtLg2Ama23sC"
+    }
+  }
+}

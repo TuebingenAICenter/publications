@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2507.00006",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.00006"
+      }
+    ],
+    "conferenceName": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7160084382",
+      "Scholar": "OpXMNnMAAAAJ:WZBGuue-350C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Xie_MVGBench_a_Comprehensive_Benchmark_for_Multi-view_Generation_Models_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Xie_MVGBench_a_Comprehensive_Benchmark_for_Multi-view_Generation_Models_ICCV_2025_paper.html</a><br><a href='https://virtualhumans.mpi-inf.mpg.de/MVGBench/'>https://virtualhumans.mpi-inf.mpg.de/MVGBench/</a><br><a href='https://arxiv.org/abs/2507.00006'>https://arxiv.org/abs/2507.00006</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

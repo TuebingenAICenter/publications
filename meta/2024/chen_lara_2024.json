@@ -1,0 +1,58 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:54",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2407.04699v2"
+      },
+      {
+        "accessDate": "2025-06-17 19:46:54",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2407.04699v2"
+      }
+    ],
+    "extra": {
+      "Book Title": "Lecture notes in computer science",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4400435290",
+      "Publication Title": "arXiv (Cornell University)",
+      "Publisher": "University of T'ubingen",
+      "Scholar": "SrVnrPcAAAAJ:0sTkTiv_uMkC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 36</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 36</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

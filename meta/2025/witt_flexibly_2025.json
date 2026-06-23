@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "47th Annual Conference of the Cognitive Science Society",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4411454986",
+      "Scholar": "1O2hcVgAAAAJ:BrmTIyaxlBUC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 47th Annual Conference of the Cognitive Science Society"
+  }
+}

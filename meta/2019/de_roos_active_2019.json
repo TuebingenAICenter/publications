@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1902.07557",
+    "conferenceName": "22nd International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "Kamalika Chaudhuri and Masashi Sugiyama",
+      "OpenAlex": "W4288570993",
+      "Scholar": "UeG5w08AAAAJ:UxriW0iASnsC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics"
+  }
+}

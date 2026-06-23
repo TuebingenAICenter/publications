@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "42nd International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2506.06895"
+    },
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

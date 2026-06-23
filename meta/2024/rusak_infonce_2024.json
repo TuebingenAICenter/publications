@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.00143",
+    "conferenceName": "AISTATS",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4400267098",
+      "Scholar": "v-JL-hsAAAAJ:EUQCXRtRnyEC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics"
+  }
+}

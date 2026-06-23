@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2410.13821",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2410.13821"
+      }
+    ],
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403580139",
+      "Publication Title": "arXiv (Cornell University)",
+      "Scholar": "SrVnrPcAAAAJ:q0uBw5dMOAkC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2105.02343",
+    "extra": {
+      "Archive ID": "2105.02343",
+      "Citations@2026-06-01": "12",
+      "OpenAlex": "W3159096064",
+      "Pages": "8443--8453",
+      "Scholar": "b-JF-UIAAAAJ:geHnlv5EZngC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "139"
+    }
+  }
+}

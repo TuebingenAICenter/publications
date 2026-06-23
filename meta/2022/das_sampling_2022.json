@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2206.02953",
+    "extra": {
+      "Archive ID": "2206.02953",
+      "Citations@2026-06-01": "0",
+      "Event Place": "New Orleans Convention Center",
+      "OpenAlex": "W4281634348",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:DpVJvavgj6gC"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

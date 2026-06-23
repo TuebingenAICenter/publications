@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2407.04358",
+    "extra": {
+      "Archive ID": "2407.04358",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4400434714",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:bEWYMUwI8FkC",
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2407.04358"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

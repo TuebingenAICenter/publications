@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "0z0fNxUAAAAJ:lbI08cpqPnQC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.20643'>https://arxiv.org/abs/2511.20643</a><br><a href='https://huggingface.co/papers/2511.20643'>https://huggingface.co/papers/2511.20643</a><br><a href='https://adhirajghosh.github.io/'>https://adhirajghosh.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

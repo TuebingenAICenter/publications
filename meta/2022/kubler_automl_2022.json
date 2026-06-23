@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2206.08843",
+    "extra": {
+      "Archive ID": "2206.08843",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4283217623",
+      "Pages": "15929--15941",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:KOBL7IRazD8C",
+      "Volume": "35"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

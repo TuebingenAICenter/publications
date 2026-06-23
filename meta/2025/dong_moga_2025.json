@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "black",
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416174560",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "SrVnrPcAAAAJ:u3T1itk59dMC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Dong_MoGA_3D_Generative_Avatar_Prior_for_Monocular_Gaussian_Avatar_Reconstruction_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Dong_MoGA_3D_Generative_Avatar_Prior_for_Monocular_Gaussian_Avatar_Reconstruction_ICCV_2025_paper.html</a><br><a href='https://zj-dong.github.io/MoGA/'>https://zj-dong.github.io/MoGA/</a><br><a href='https://arxiv.org/abs/2507.23597'>https://arxiv.org/abs/2507.23597</a><br><a href='https://iccv.thecvf.com/virtual/2025/poster/228'>https://iccv.thecvf.com/virtual/2025/poster/228</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

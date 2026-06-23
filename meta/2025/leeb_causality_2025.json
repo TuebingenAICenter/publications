@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407310252",
+      "Scholar": "DZ-fHPgAAAAJ:tNmn4cwa0ScC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.05085'>https://arxiv.org/abs/2502.05085</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-05085'>https://dblp.org/rec/journals/corr/abs-2502-05085</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2402.05371",
+    "conferenceName": "10th International Conference on Biomedical Robotics and Biomechatronics (BioRob)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403677069",
+      "Scholar": "b-JF-UIAAAAJ:WZBGuue-350C",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2402.05371"
+    },
+    "libraryCatalog": "IEEE Xplore",
+    "proceedingsTitle": "Proceedings 10th International Conference on Biomedical Robotics and Biomechatronics (BioRob)"
+  }
+}

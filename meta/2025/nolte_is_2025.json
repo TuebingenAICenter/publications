@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2505.17966",
+    "extra": {
+      "Archive ID": "2505.17966",
+      "Citations@2026-06-01": "4",
+      "Scholar": "SrVnrPcAAAAJ:tBlTYpvFGQIC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2505.17966'>https://arxiv.org/abs/2505.17966</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-17966.html'>https://dblp.org/rec/journals/corr/abs-2505-17966.html</a><br><a href='https://paperswithcode.com/paper/is-single-view-mesh-reconstruction-ready-for'>https://paperswithcode.com/paper/is-single-view-mesh-reconstruction-ready-for</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

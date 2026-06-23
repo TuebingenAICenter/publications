@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2203.04913",
+    "extra": {
+      "Archive ID": "2203.04913",
+      "Citations@2026-06-01": "7",
+      "Conference Name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "OpenAlex": "W4221153496",
+      "Pages": "10410--10421",
+      "Proceedings Title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:Nv9DoYhWvucC",
+      "Source": "group_webpage (martius)",
+      "arXiv": "2203.04913"
+    }
+  }
+}

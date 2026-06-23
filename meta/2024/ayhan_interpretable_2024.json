@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:24",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.nature.com/articles/s41598-024-57798-1.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4310289701",
+      "Publisher": "University of Tübingen",
+      "Scholar": "lPQLk3QAAAAJ:eJXPG6dFmWUC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

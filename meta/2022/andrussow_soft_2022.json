@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IROS Workshop on Large-Scale Robotic Skin: Perception, Interaction and Control",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "Workshop paper (1 page) presented at the IROS Workshop on Large-Scale Robotic Skin": "Perception, Interaction and Control"
+    },
+    "proceedingsTitle": "IROS Workshop on Large-Scale Robotic Skin: Perception, Interaction and Control"
+  }
+}

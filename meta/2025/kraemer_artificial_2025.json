@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "127",
+      "OpenAlex": "W4407722258",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:nELodgEtCAkC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 25</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 14</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

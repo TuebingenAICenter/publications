@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2105.09240",
+    "conferenceName": "International Joint Conference on Artificial Intelligence",
+    "extra": {
+      "Editor": "Zhi-Hua Zhou",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI)"
+  }
+}

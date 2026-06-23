@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2402.19460",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Citations@2026-06-01": "118",
+      "Scholar": "kmXOOdsAAAAJ:2P1L_qKh6hAC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 30</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 30</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024"
+  }
+}

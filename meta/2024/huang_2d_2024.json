@@ -1,0 +1,53 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:03:22",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3641519.3657428"
+      },
+      {
+        "accessDate": "2025-06-17 16:03:22",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3641519.3657428"
+      },
+      {
+        "accessDate": "2025-06-17 16:03:22",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3641519.3657428"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "438",
+      "OpenAlex": "W4393248012",
+      "Scholar": "SrVnrPcAAAAJ:XDrR66g3YHsC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 470</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

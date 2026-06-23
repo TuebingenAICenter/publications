@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "liu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2510.22228",
+    "extra": {
+      "Archive ID": "2510.22228",
+      "Citations@2026-06-01": "3",
+      "Scholar": "73IbXtsAAAAJ:hkOj_22Ku90C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.22228'>https://arxiv.org/abs/2510.22228</a><br><a href='https://mcanini.github.io/publications/'>https://mcanini.github.io/publications/</a><br><a href='https://repository.kaust.edu.sa/items/ffe2df7e-f202-4f58-b022-3cb6e648f515'>https://repository.kaust.edu.sa/items/ffe2df7e-f202-4f58-b022-3cb6e648f515</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

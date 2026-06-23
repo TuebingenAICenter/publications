@@ -1,0 +1,45 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:22",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007%2Fs11263-024-01984-1.pdf"
+      }
+    ],
+    "extra": {
+      "Book Title": "Lecture notes in computer science",
+      "Citations@2026-06-01": "14",
+      "Conference Name": "GCPR",
+      "OpenAlex": "W4391563152",
+      "Proceedings Title": "Pattern Recognition",
+      "Publisher": "MPI-IS",
+      "Scholar": "6NjbexEAAAAJ:0nST21YUXoUC",
+      "Source": "group_webpage (black)",
+      "aword_paper": "Honorable Mention for Best Paper",
+      "month_numeric": "9"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 51</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

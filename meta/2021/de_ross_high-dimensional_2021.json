@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "38th International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Editors": "Meila, Marina and Zhang, Tong",
+      "OpenAlex": "W3131856909",
+      "Scholar": "UeG5w08AAAAJ:mvPsJ3kp5DgC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of 38th International Conference on Machine Learning (ICML)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "ACL Anthology",
+    "archiveLocation": "2024.findings-acl.497",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:12:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.findings-acl.497.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 16:12:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.findings-acl.497.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+      "Event Place": "Bangkok, Thailand",
+      "OpenAlex": "W4402670003",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:T_frEdlQoi4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

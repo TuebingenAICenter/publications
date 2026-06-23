@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2110.11812",
+    "conferenceName": "39th International Conference on Machine Learning",
+    "extra": {
+      "Archive ID": "2110.11812",
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W3209144475",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:LjlpjdlvIbIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the 39th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

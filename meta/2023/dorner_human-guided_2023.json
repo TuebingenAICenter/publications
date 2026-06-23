@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2212.10154",
+    "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR 2023)",
+    "extra": {
+      "Source": "group_webpage (hardt)",
+      "arXiv": "2212.10154"
+    },
+    "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR 2023)"
+  }
+}

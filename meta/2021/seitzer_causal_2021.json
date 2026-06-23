@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2106.03443",
+    "extra": {
+      "Archive ID": "2106.03443",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W3173555766",
+      "Pages": "22905--22918",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:LPZeul_q3PIC",
+      "Volume": "34"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

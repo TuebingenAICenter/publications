@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2403.17933",
+    "extra": {
+      "Archive ID": "2403.17933",
+      "Book Title": "Lecture notes in computer science",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4393248302",
+      "Pages": "57-74",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:QaSi33NTfwYC"
+    },
+    "libraryCatalog": "CVPR/ECCV Publications"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2505.20162",
+      "Conference Name": "ICML (Workshop)",
+      "Repository": "arXiv",
+      "arXiv": "2505.20162"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://icml.cc/virtual/2025/50884'>https://icml.cc/virtual/2025/50884</a><br><a href='https://arxiv.org/abs/2505.20162'>https://arxiv.org/abs/2505.20162</a><br><a href='https://kotekjedi.github.io/'>https://kotekjedi.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

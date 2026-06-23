@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2206.13991",
+    "extra": {
+      "Archive ID": "2206.13991",
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W4283733745",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:ns9cj8rnVeAC"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1911.11082",
+    "extra": {
+      "Archive ID": "1911.11082",
+      "Citations@2026-06-01": "4",
+      "Issue": "2",
+      "OpenAlex": "W2989583000",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:XKD4hAGUp1wC",
+      "Volume": "53"
+    },
+    "libraryCatalog": "IFAC-PapersOnLine"
+  }
+}

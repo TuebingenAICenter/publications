@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2504.21087",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4416082990",
+      "Scholar": "VRBv6mEAAAAJ:R3hNpaxXUhUC",
+      "arXiv": "2504.21087"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

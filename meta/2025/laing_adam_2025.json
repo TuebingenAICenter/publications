@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "arXiv:2511.20516",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416776614",
+      "Scholar": "xkuLyHoAAAAJ:a0OBvERweLwC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.20516'>https://arxiv.org/abs/2511.20516</a><br><a href='https://www.aimodels.fyi/papers/arxiv/adam-simplified-bias-correction-simplified'>https://www.aimodels.fyi/papers/arxiv/adam-simplified-bias-correction-simplified</a><br><a href='https://jglobal.jst.go.jp/public/202502212155205311'>https://jglobal.jst.go.jp/public/202502212155205311</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

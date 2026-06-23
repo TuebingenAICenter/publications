@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415202861",
+      "Scholar": "v-JL-hsAAAAJ:l7t_Zn2s7bgC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Note": "This is the original article, not the correction.",
+      "OpenAlex": "W3215255322",
+      "Scholar": "lPQLk3QAAAAJ:bnK-pcrLprsC",
+      "Source": "group_webpage (schoelkopf)",
+      "Type": "journalArticle",
+      "month_numeric": "8"
+    }
+  }
+}

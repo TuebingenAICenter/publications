@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414633068",
+      "Scholar": "0ZAb3tsAAAAJ:X9ykpCP0fEIC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2504.15707'>https://arxiv.org/abs/2504.15707</a><br><a href='https://github.com/YanNeu/RePOPE'>https://github.com/YanNeu/RePOPE</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

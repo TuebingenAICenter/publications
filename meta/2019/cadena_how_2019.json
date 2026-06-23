@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1902.01416",
+    "extra": {
+      "Citations@2026-06-01": "23",
+      "Conference": "ICLR 2019",
+      "OpenAlex": "W2978664050",
+      "Scholar": "0z0fNxUAAAAJ:EPG8bYD4jVwC"
+    }
+  }
+}

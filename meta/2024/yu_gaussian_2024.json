@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:42:34",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3687937"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "127",
+      "Conference": "SIGGRAPH Asia 2024",
+      "OpenAlex": "W4404524486",
+      "Publisher": "University of Tübingen",
+      "Scholar": "SrVnrPcAAAAJ:eH23hyXCXa4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 128</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 128</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

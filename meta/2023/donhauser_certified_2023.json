@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2302.09680",
+    "conferenceName": "Theory and Practice of Differential Privacy",
+    "extra": {
+      "Event Place": "València, Spain",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2302.09680"
+    },
+    "proceedingsTitle": "TPDP 2023 - Theory and Practice of Differential Privacy",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

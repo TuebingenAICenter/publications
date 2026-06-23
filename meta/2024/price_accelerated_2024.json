@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Intelligent Autonomous Systems 18",
+    "extra": {
+      "Project": "https://github.com/robot-perception-group/smarter-labelme",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "Intelligent Autonomous Systems 18",
+    "seriesTitle": "Lecture Notes in Networks and Systems"
+  }
+}

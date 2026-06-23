@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2310.04900",
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "46",
+      "Scholar": "pxhCcH0AAAAJ:l7t_Zn2s7bgC",
+      "Source": "group_webpage (kuehne)",
+      "arXiv": "2310.04900"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the European Conference on Computer Vision (ECCV)"
+  }
+}

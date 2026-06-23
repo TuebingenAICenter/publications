@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2506.15674",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.15674"
+      }
+    ],
+    "conferenceName": "EMNLP",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Code": "https://github.com/parameterlab/leaky_thoughts",
+      "Dataset": "https://huggingface.co/datasets/parameterlab/leaky_thoughts",
+      "Scholar": "kmXOOdsAAAAJ:f2IySw72cVMC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://aclanthology.org/2025.emnlp-main.1347/'>https://aclanthology.org/2025.emnlp-main.1347/</a><br><a href='https://arxiv.org/abs/2506.15674'>https://arxiv.org/abs/2506.15674</a><br><a href='https://gubri.eu/publication/leaky_thoughts/'>https://gubri.eu/publication/leaky_thoughts/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)"
+  }
+}

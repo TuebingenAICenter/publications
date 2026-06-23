@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Editors": "Avidan, Shai and Brostow, Gabriel and Cissé, Moustapha and Farinella, Giovanni Maria and Hassner, Tal",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "Computer Vision – ECCV 2022",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

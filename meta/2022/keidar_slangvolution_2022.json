@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "ACL Anthology",
+    "archiveLocation": "2022.acl-long.101",
+    "conferenceName": "60th Annual Meeting of the Association for Computational Linguistics",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)"
+  }
+}

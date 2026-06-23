@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1902.09948",
+    "extra": {
+      "Archive ID": "1902.09948",
+      "Citations@2026-06-01": "1",
+      "Issue": "2",
+      "OpenAlex": "W4285052092",
+      "Pages": "298-311",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:ZHo1McVdvXMC",
+      "Volume": "13"
+    },
+    "libraryCatalog": "IEEE Xplore"
+  }
+}

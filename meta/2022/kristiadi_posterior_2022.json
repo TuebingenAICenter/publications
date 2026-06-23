@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2205.10041",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh",
+      "Journal Abbreviation": "NeurIPS",
+      "OpenAlex": "W7133213984",
+      "Scholar": "UeG5w08AAAAJ:NJ774b8OgUMC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
+  }
+}

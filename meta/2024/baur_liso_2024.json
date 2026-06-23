@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Book Title": "Lecture notes in computer science",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4403757557",
+      "Publication Title": "Lecture notes in computer science",
+      "Scholar": "SrVnrPcAAAAJ:BAanoTsO0WEC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 12</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 12</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Computer Vision – ECCV 2024",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

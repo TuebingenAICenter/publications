@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Second Conference on Causal Learning and Reasoning (CLeaR)",
+    "extra": {
+      "Editors": "van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the Second Conference on Causal Learning and Reasoning (CLeaR)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

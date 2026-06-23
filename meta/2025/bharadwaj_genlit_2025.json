@@ -1,0 +1,56 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:44:16",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2412.11224v2"
+      },
+      {
+        "accessDate": "2025-06-17 19:44:16",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2412.11224v2"
+      }
+    ],
+    "conferenceName": "SIGGRAPH Asia",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417124956",
+      "Scholar": "6NjbexEAAAAJ:wxMeWMEqLDMC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://genlit.is.tue.mpg.de/'>https://genlit.is.tue.mpg.de/</a><br><a href='https://arxiv.org/abs/2412.11224'>https://arxiv.org/abs/2412.11224</a><br><a href='https://colab.ws/articles/10.1145/3757377.3763970'>https://colab.ws/articles/10.1145/3757377.3763970</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "SIGGRAPH Asia Conference Papers '25"
+  }
+}

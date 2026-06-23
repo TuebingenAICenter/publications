@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "OpenReview",
+    "conferenceName": "8th International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Event Place": "Virtual Conference",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "8th International Conference on Learning Representations (ICLR)"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "black",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "21",
+      "Conference Name": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+      "Editors": "A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+      "Note": "*equal contribution",
+      "OpenAlex": "W4380559233",
+      "Pages": "79320--79362",
+      "Proceedings Title": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+      "Scholar": "DZ-fHPgAAAAJ:MIRdOSOK3M0C",
+      "Source": "group_webpage (black)",
+      "Volume": "36"
+    }
+  }
+}

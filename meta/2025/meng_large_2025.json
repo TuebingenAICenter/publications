@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2507.11228",
+      "Repository": "arXiv",
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2507.11228"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

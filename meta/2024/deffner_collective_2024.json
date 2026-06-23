@@ -1,0 +1,56 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:57",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.nature.com/articles/s41467-024-47010-3.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:57",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.nature.com/articles/s41467-024-47010-3.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W4386140952",
+      "Publisher": "University of Tübingen",
+      "Scholar": "1O2hcVgAAAAJ:4OULZ7Gr8RgC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

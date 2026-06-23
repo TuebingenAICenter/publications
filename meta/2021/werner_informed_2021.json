@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2105.06331",
+    "extra": {
+      "Archive ID": "2105.06331",
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W3162815236",
+      "Scholar": "b-JF-UIAAAAJ:8AbLer7MMksC",
+      "arXiv": "2105.06331"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "black",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2408.08313",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2408.08313"
+      }
+    ],
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Journal Abbreviation": "ICLR",
+      "OpenAlex": "W4403321691",
+      "Publication Title": "arXiv (Cornell University)",
+      "Scholar": "6NjbexEAAAAJ:xEWuX1mE_FUC",
+      "arXiv": "2408.08313"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 13</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

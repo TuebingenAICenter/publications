@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2405.18380",
+    "conferenceName": "ICLR 2025",
+    "extra": {
+      "Source": "group_webpage (liu)",
+      "arXiv": "2405.18380"
+    },
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations"
+  }
+}

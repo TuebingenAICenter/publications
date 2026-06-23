@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Source": "group_webpage (black)",
+      "arXiv": "https://arxiv.org/pdf/2303.09095.pdf",
+      "codebase": "https://github.com/climbingdaily/SLOPER4D",
+      "dataset": "http://www.lidarhumanmotion.net/data-sloper4d/",
+      "project": "http://www.lidarhumanmotion.net/sloper4d/"
+    },
+    "proceedingsTitle": "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

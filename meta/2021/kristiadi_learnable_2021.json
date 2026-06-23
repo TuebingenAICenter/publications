@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "hein",
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2010.02720",
+    "conferenceName": "37th International Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "extra": {
+      "Archive ID": "2010.02720",
+      "Citations@2026-06-01": "68",
+      "Editors": "Cassio P. de Campos and Marloes H. Maathuis and Erik Quaeghebeur",
+      "OpenAlex": "W3092612693",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:ruyezt5ZtCIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "37th International Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

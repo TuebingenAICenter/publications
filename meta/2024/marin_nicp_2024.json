@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.14024",
+    "extra": {
+      "Book Title": "Lecture notes in computer science",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4404025004",
+      "Publication Title": "Lecture notes in computer science",
+      "Scholar": "OpXMNnMAAAAJ:e_rmSamDkqQC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

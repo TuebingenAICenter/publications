@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:49:00",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=axl3FAkpik"
+      },
+      {
+        "accessDate": "2025-06-17 19:49:00",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=axl3FAkpik"
+      }
+    ],
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W4391158973",
+      "Scholar": "206vNCEAAAAJ:70eg2SAEIzsC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 111</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 111</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Forty-first International Conference on Machine Learning"
+  }
+}

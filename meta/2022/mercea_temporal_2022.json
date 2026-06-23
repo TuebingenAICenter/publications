@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "17th European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Editors": "Shai Avidan and Gabriel J. Brostow and Moustapha Cissé and Giovanni Maria Farinella and Tal Hassner",
+      "OpenAlex": "W4286588192",
+      "Scholar": "jQl9RtkAAAAJ:NJ774b8OgUMC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Computer Vision - ECCV 2022 - 17th European Conference, Tel Aviv, Israel, October 23–27, 2022, Proceedings, Part XX",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

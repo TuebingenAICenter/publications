@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.05852"
+      }
+    ],
+    "conferenceName": "MICCAI 2025",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416061376",
+      "Scholar": "lPQLk3QAAAAJ:epqYDVWIO7EC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://link.springer.com/chapter/10.1007/978-3-032-04981-0_44'>https://link.springer.com/chapter/10.1007/978-3-032-04981-0_44</a><br><a href='https://papers.miccai.org/miccai-2025/0732-Paper3955.html'>https://papers.miccai.org/miccai-2025/0732-Paper3955.html</a><br><a href='https://arxiv.org/abs/2507.05852'>https://arxiv.org/abs/2507.05852</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2025"
+  }
+}

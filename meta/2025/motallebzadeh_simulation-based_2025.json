@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.nature.com/articles/s41598-025-22164-2"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4415788087",
+      "Scholar": "FKOqtF8AAAAJ:polMJLZb0X8C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41598-025-22164-2'>https://www.nature.com/articles/s41598-025-22164-2</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41184342/'>https://pubmed.ncbi.nlm.nih.gov/41184342/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

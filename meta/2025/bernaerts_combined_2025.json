@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41142913/"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4412992953",
+      "Scholar": "FKOqtF8AAAAJ:DOLguN9Lh8sC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/41142913/'>https://pubmed.ncbi.nlm.nih.gov/41142913/</a><br><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12546760/'>https://pmc.ncbi.nlm.nih.gov/articles/PMC12546760/</a><br><a href='https://www.sciencedirect.com/science/article/pii/S2666389925001710'>https://www.sciencedirect.com/science/article/pii/S2666389925001710</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

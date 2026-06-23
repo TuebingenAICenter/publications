@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2404.01758",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:42:38",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2404.01758"
+      }
+    ],
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4393929770",
+      "Scholar": "OpXMNnMAAAAJ:0KyAp5RtaNEC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 12</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

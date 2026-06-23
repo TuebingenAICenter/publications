@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.22255",
+    "conferenceName": "Reinforcement Learning Conference: Finding the Frame Workshop",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Journal Abbreviation": "RLJ",
+      "Scholar": "1O2hcVgAAAAJ:1qzjygNMrQYC"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Reinforcement Learning Conference: Finding the Frame Workshop"
+  }
+}

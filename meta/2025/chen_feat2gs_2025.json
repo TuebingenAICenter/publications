@@ -1,0 +1,68 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2412.09606",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2412.09606"
+      }
+    ],
+    "conferenceName": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "ArXiv": "2412.09606",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4405355464",
+      "Reporter": "Proceedings of the Computer Vision and Pattern Recognition Conference, 6348-6361, 2025",
+      "Scholar": "OpXMNnMAAAAJ:gsN89kCJA0AC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2412.09606'>https://arxiv.org/abs/2412.09606</a><br><a href='https://cvpr.thecvf.com/virtual/2025/poster/34387'>https://cvpr.thecvf.com/virtual/2025/poster/34387</a><br><a href='https://fanegg.github.io/Feat2GS/'>https://fanegg.github.io/Feat2GS/</a><br><a href='https://github.com/fanegg/Feat2GS'>https://github.com/fanegg/Feat2GS</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

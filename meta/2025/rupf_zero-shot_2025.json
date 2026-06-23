@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2410.08751",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:02:02",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2410.08751v3"
+      },
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://openreview.net/pdf/beb537f055ac7fae4b7f25bf31760ca57de98dbd.pdf"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403444501",
+      "Scholar": "b-JF-UIAAAAJ:M7yex6snE4oC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2410.08751"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

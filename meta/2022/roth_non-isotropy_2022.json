@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2203.08547",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4226398589",
+      "Scholar": "jQl9RtkAAAAJ:WqliGbK-hY8C",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2203.08547"
+    },
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.07102",
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "Scholar": "kmXOOdsAAAAJ:bFI3QPDXJZMC"
+    },
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning"
+  }
+}

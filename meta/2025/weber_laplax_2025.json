@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2507.17013",
+    "conferenceName": "ICML 2025 Workshop on Championing Open-Source Development in Machine Learning (CODEML '25)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414877958",
+      "Scholar": "UeG5w08AAAAJ:NXb4pA-qfm4C",
+      "arXiv": "2507.17013"
+    },
+    "proceedingsTitle": "ICML 2025 Workshop on Championing Open-Source Development in Machine Learning (CODEML '25)"
+  }
+}

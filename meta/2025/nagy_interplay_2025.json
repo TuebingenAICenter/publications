@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s44159-025-00458-6'>https://www.nature.com/articles/s44159-025-00458-6</a><br><a href='https://osf.io/emky9'>https://osf.io/emky9</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: PsyArXiv, 2025 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416338790",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "s8xc2K4AAAAJ:4DMP91E08xMC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.15374'>https://arxiv.org/abs/2508.15374</a><br><a href='https://nips.cc/virtual/2025/129447'>https://nips.cc/virtual/2025/129447</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2504.05891",
+    "conferenceName": "28th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Source": "group_webpage (hardt)",
+      "arXiv": "2504.05891"
+    },
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics"
+  }
+}

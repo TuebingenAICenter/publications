@@ -1,0 +1,56 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2411.00154",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:48:39",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2411.00154v2"
+      },
+      {
+        "accessDate": "2025-07-07 09:39:36",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2411.00154v2"
+      },
+      {
+        "accessDate": "2025-07-07 09:39:36",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2411.00154v2"
+      }
+    ],
+    "conferenceName": "NAACL",
+    "extra": {
+      "Citations@2026-06-01": "35",
+      "Scholar": "kmXOOdsAAAAJ:zA6iFVUQeVQC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Findings of the Association for Computational Linguistics: NAACL 2025"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "ludwig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4408427003",
+      "Publisher": "University of Tübingen",
+      "Scholar": "UeG5w08AAAAJ:rmuvC79q63oC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41612-025-01157-y'>https://www.nature.com/articles/s41612-025-01157-y</a><br><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12270901/'>https://pmc.ncbi.nlm.nih.gov/articles/PMC12270901/</a><br><a href='https://arxiv.org/abs/2412.15361'>https://arxiv.org/abs/2412.15361</a><br><a href='https://meetingorganizer.copernicus.org/EGU25/EGU25-11083.html'>https://meetingorganizer.copernicus.org/EGU25/EGU25-11083.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2305.15208",
+    "conferenceName": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+    "extra": {
+      "Archive ID": "2305.15208",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4378474157",
+      "Scholar": "FKOqtF8AAAAJ:Qh5Z_vBjo80C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
+  }
+}

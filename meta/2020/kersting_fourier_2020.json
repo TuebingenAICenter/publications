@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Workshop on Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models, ICML",
+    "extra": {
+      "Source": "group_webpage (hennig)"
+    },
+    "proceedingsTitle": "Workshop on Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models, ICML"
+  }
+}

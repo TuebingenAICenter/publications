@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.09788",
+    "conferenceName": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "extra": {
+      "Citations@2026-06-01": "19",
+      "Scholar": "6NjbexEAAAAJ:MZHH0dlIDt0C"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}

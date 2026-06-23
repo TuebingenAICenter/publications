@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4385722218",
+      "Publisher": "University of Tübingen",
+      "Scholar": "1O2hcVgAAAAJ:fPk4N6BV_jEC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Publisher: University of Tübingen</p>\n</div>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

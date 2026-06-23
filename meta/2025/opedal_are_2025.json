@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.25626",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Reporter": "arXiv preprint arXiv:2510.25626, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:kHf6Y_keyIwC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.25626'>https://arxiv.org/abs/2510.25626</a><br><a href='https://neurips.cc/virtual/2025/poster/119215'>https://neurips.cc/virtual/2025/poster/119215</a><br><a href='https://www.research-collection.ethz.ch/entities/publication/5ade2a61-04ea-4d87-9b22-00f59b69313f'>https://www.research-collection.ethz.ch/entities/publication/5ade2a61-04ea-4d87-9b22-00f59b69313f</a><br><a href='https://openreview.net/forum?id=DV5z7VcaUA'>https://openreview.net/forum?id=DV5z7VcaUA</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  }
+}

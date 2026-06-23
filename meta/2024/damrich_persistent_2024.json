@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4388482005",
+      "Scholar": "lPQLk3QAAAAJ:HE397vMXCloC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

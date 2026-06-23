@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2205.07972",
+    "extra": {
+      "Archive ID": "2205.07972",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4280629580",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:Bg7qf7VwUHIC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

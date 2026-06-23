@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:41:31",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://academic.oup.com/pnasnexus/article-pdf/4/1/pgaf005/61397943/pgaf005.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Number": "1",
+      "OpenAlex": "W4399379360",
+      "Publication Title": "arXiv (Cornell University)",
+      "Publisher": "University of Tübingen",
+      "Scholar": "UeG5w08AAAAJ:oNZyr7d5Mn4C",
+      "addittional_DOI": "https://doi.org/10.48550/arxiv.2405.20918"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen addittional_DOI: https://doi.org/10.48550/arxiv.2405.20918</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

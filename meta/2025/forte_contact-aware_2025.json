@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417087062",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "6NjbexEAAAAJ:B9zx5l6rxUEC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Forte_Contact-Aware_Refinement_of_Human_Pose_Pseudo-Ground_Truth_via_Bioimpedance_Sensing_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Forte_Contact-Aware_Refinement_of_Human_Pose_Pseudo-Ground_Truth_via_Bioimpedance_Sensing_ICCV_2025_paper.html</a><br><a href='https://is.mpg.de/publications/forte25-iccv-biotuch'>https://is.mpg.de/publications/forte25-iccv-biotuch</a><br><a href='https://biotuch.is.tue.mpg.de/'>https://biotuch.is.tue.mpg.de/</a><br><a href='https://iccv.thecvf.com/virtual/2025/poster/1436'>https://iccv.thecvf.com/virtual/2025/poster/1436</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

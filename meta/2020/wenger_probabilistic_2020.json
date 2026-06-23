@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Advances in Neural Information Processing Systems 33",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Code": "https://github.com/JonathanWenger/probabilistic-linear-solvers-for-ml",
+      "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "OpenAlex": "W3093357505",
+      "Scholar": "UeG5w08AAAAJ:eJXPG6dFmWUC",
+      "Source": "group_webpage (schoelkopf)",
+      "Video": "https://www.youtube.com/watch?v=3_1JE91g_3E&feature=youtu.be"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 33"
+  }
+}

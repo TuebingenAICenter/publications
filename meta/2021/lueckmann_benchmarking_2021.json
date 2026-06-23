@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2101.04653",
+    "conferenceName": "International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Archive ID": "2101.04653",
+      "Citations@2026-06-01": "21",
+      "Editors": "Arindam Banerjee and Kenji Fukumizu",
+      "OpenAlex": "W3118581558",
+      "Scholar": "FKOqtF8AAAAJ:RgMnzfD6kpIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the 24th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS 2025: 5th Workshop on Mathematical Reasoning and AI (Math-AI) and CauScien Workshop",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Reporter": "NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:SCyikjQ18VQC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/pdf?id=EO8mTLqDuT'>https://openreview.net/pdf?id=EO8mTLqDuT</a><br><a href='https://neurips.cc/virtual/2025/124112'>https://neurips.cc/virtual/2025/124112</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "NeurIPS 2025: 5th Workshop on Mathematical Reasoning and AI (Math-AI) and CauScien Workshop"
+  }
+}

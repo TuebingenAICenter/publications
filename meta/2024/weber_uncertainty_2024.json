@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:29",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openreview.net/pdf?id=knSgoNJcnV"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "Publisher": "University of Tübingen",
+      "Scholar": "UeG5w08AAAAJ:tYavs44e6CUC"
+    },
+    "notes": [
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

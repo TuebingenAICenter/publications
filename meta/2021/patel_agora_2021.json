@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021)",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W3157933456",
+      "Scholar": "6NjbexEAAAAJ:wRp7bqO99tsC",
+      "Source": "group_webpage (black)",
+      "dataset": "https://agora.is.tue.mpg.de/",
+      "video": "https://youtu.be/Q_43QXR1pzY"
+    },
+    "proceedingsTitle": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021)"
+  }
+}

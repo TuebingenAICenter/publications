@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "AAAI Conference on Artificial Intelligence",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414808525",
+      "Scholar": "s8xc2K4AAAAJ:qxL8FJ1GzNcC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the AAAI Conference on Artificial Intelligence"
+  }
+}

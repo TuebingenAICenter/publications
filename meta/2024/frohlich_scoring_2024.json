@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.23001",
+    "callNumber": "arXiv:2410.23001",
+    "extra": {
+      "Archive ID": "2410.23001",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4404342962",
+      "Repository": "arXiv",
+      "Scholar": "G4MBruQAAAAJ:m1aD9PlKDecC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

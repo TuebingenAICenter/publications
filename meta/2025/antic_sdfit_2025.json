@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Code": "https://github.com/anticdimi/SDFit",
+      "Poster": "https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/2093.png",
+      "Project": "https://anticdimi.github.io/sdfit/",
+      "Source": "group_webpage (black)",
+      "Video": "https://youtu.be/27wXYvtl9DI",
+      "arXiv": "https://arxiv.org/abs/2409.16178"
+    },
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

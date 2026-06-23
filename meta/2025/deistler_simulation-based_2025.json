@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2508.12939",
+    "extra": {
+      "Archive ID": "2508.12939",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4414493651",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:ipvhVhH6zQ8C"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.12939'>https://arxiv.org/abs/2508.12939</a><br><a href='https://research.google/pubs/simulation-based-inference-a-practical-guide/'>https://research.google/pubs/simulation-based-inference-a-practical-guide/</a><br><a href='https://github.com/sbi-dev/sbi-practical-guide'>https://github.com/sbi-dev/sbi-practical-guide</a><br><a href='https://dblp.uni-trier.de/rec/journals/corr/abs-2508-12939.html'>https://dblp.uni-trier.de/rec/journals/corr/abs-2508-12939.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

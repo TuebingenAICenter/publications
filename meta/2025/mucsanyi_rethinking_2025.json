@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4407231478",
+      "Scholar": "UeG5w08AAAAJ:Ri6SYOTghG4C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=xPQyRmZ8hz'>https://openreview.net/forum?id=xPQyRmZ8hz</a><br><a href='https://neurips.cc/virtual/2025/poster/115244'>https://neurips.cc/virtual/2025/poster/115244</a><br><a href='https://arxiv.org/abs/2502.03366'>https://arxiv.org/abs/2502.03366</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

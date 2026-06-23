@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "math.NA",
+    "extra": {
+      "Archive ID": "2002.02447",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4287870572",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:ML0RJ9NH7IQC",
+      "arXiv": "2002.02447"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

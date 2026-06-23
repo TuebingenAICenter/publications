@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0960982225008796"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4412790518",
+      "Scholar": "FKOqtF8AAAAJ:7CU1mCQUTf4C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.sciencedirect.com/science/article/pii/S0960982225008796'>https://www.sciencedirect.com/science/article/pii/S0960982225008796</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/40749678/'>https://pubmed.ncbi.nlm.nih.gov/40749678/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

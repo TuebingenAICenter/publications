@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415059607",
+      "Publisher": "University of Tübingen",
+      "Scholar": "b-JF-UIAAAAJ:Dip1O2bNi0gC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://rlj.cs.umass.edu/2025/papers/Paper42.html'>https://rlj.cs.umass.edu/2025/papers/Paper42.html</a><br><a href='https://arxiv.org/abs/2509.05735'>https://arxiv.org/abs/2509.05735</a><br><a href='https://github.com/swsychen/Offline_vs_Online_in_MBRL'>https://github.com/swsychen/Offline_vs_Online_in_MBRL</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

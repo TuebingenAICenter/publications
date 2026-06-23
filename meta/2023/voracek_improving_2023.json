@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "18",
+      "Code": "https://github.com/vvoracek/L1-smoothing",
+      "Scholar": "0ZAb3tsAAAAJ:CdxZDUztZiMC",
+      "Source": "group_webpage (hein)"
+    },
+    "proceedingsTitle": "Proceedings of the 40th International Conference on Machine Learning"
+  }
+}

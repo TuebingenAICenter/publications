@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2505.17955",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://generative-vision.github.io/workshop-CVPR-25/papers/3.pdf"
+      }
+    ],
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Scholar": "kmXOOdsAAAAJ:yD5IFk8b50cC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=c2F2dUx01R'>https://openreview.net/forum?id=c2F2dUx01R</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/121551'>https://neurips.cc/virtual/2025/loc/san-diego/poster/121551</a><br><a href='https://arxiv.org/abs/2505.17955'>https://arxiv.org/abs/2505.17955</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

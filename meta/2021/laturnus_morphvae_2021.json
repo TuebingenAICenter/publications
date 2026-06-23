@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2106.07468",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Format": "PDF",
+      "Identifier": "10.48550/arXiv.2106.07468",
+      "OpenAlex": "W4393657538",
+      "Publication Title": "bioRxiv, 2021.06. 14.448271, 2021",
+      "Repository": "arXiv",
+      "Repository Location": "2106.07468",
+      "Scholar": "lPQLk3QAAAAJ:yD5IFk8b50cC"
+    },
+    "libraryCatalog": "ICML"
+  }
+}

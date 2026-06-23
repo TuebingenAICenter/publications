@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4408537724",
+      "Publisher": "University of Tübingen",
+      "Scholar": "UeG5w08AAAAJ:4fGpz3EwCPoC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://soil.copernicus.org/articles/11/833/2025/'>https://soil.copernicus.org/articles/11/833/2025/</a><br><a href='https://egusphere.copernicus.org/preprints/2025/egusphere-2025-166/'>https://egusphere.copernicus.org/preprints/2025/egusphere-2025-166/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: EGUsphere 2025, 1-22, 2025 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

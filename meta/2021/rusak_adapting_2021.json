@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2104.12928",
+    "callNumber": "arXiv:2104.12928",
+    "extra": {
+      "Archive ID": "2104.12928",
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4287200447",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:GnPB-g6toBAC"
+    },
+    "libraryCatalog": "IEEE Xplore"
+  }
+}

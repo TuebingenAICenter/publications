@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.naacl-long.209.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.naacl-long.209.pdf"
+      }
+    ],
+    "conferenceName": "Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4396651322",
+      "Scholar": "DZ-fHPgAAAAJ:n1YQmkHDcs0C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+  }
+}

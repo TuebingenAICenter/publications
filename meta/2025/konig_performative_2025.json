@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2506.15366",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.15366"
+      }
+    ],
+    "conferenceName": "Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416120121",
+      "Scholar": "UqtDdZUAAAAJ:ns9cj8rnVeAC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.15366'>https://arxiv.org/abs/2506.15366</a><br><a href='https://neurips.cc/virtual/2025/poster/118195'>https://neurips.cc/virtual/2025/poster/118195</a><br><a href='https://mcml.ai/publications/kff%2B25/'>https://mcml.ai/publications/kff%2B25/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

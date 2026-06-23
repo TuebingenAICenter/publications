@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:00",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openreview.net/pdf?id=roehAtQlGX"
+      }
+    ],
+    "conferenceName": "ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Scholar": "DZ-fHPgAAAAJ:VdMmGtrFzgEC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "35th Conference on Uncertainty in Artificial Intelligence",
+    "extra": {
+      "Editors": "Adams, Ryan P. and Gogate, Vibhav",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 35th Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

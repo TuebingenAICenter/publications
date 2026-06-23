@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417078365",
+      "Scholar": "DZ-fHPgAAAAJ:h8Z0oieY4pgC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.06214'>https://arxiv.org/abs/2506.06214</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/125830'>https://neurips.cc/virtual/2025/loc/san-diego/125830</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

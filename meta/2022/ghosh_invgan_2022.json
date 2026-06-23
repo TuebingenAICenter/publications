@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "black",
+      "martius"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "GCPR",
+    "extra": {
+      "Book Title": "Pattern Recognition",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4226145073",
+      "Scholar": "6NjbexEAAAAJ:WrvHtiK_1SgC",
+      "Source": "group_webpage (martius)",
+      "aword_paper": "Best Paper Award",
+      "editors": "Andres, Björn and Bernard, Florian and Cremers, Daniel and Frintrop, Simone and Goldlücke, Bastian and Ihrke, Ivo"
+    },
+    "proceedingsTitle": "Pattern Recognition",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

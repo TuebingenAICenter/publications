@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "Conference on Robot Learning",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416075228",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "SrVnrPcAAAAJ:yIeBiWEAh44C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v305/cao25a.html'>https://proceedings.mlr.press/v305/cao25a.html</a><br><a href='https://arxiv.org/abs/2506.04218'>https://arxiv.org/abs/2506.04218</a><br><a href='https://research.nvidia.com/labs/avg/publication/cao.hallgarten.etal.corl2025/'>https://research.nvidia.com/labs/avg/publication/cao.hallgarten.etal.corl2025/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Conference on Robot Learning"
+  }
+}

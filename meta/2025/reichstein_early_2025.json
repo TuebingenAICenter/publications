@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.scienceopen.com/document_file/ad307ee4-4c8a-4890-9ca1-62d91d0f0ce0/PubMedCentral/ad307ee4-4c8a-4890-9ca1-62d91d0f0ce0.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "OpenAlex": "W4408503131",
+      "Scholar": "DZ-fHPgAAAAJ:cD5VUFgRq_UC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 18</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

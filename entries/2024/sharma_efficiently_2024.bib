@@ -1,0 +1,11 @@
+@inproceedings{sharma_efficiently_2024,
+	title = {Efficiently {Dispatching} {Flash} {Attention} {For} {Partially} {Filled} {Attention} {Masks}},
+	url = {https://jonasgeiping.github.io/publications/},
+	abstract = {Transformers are widely used across various applications, many of which yield sparse or partially filled attention matrices. Examples include attention masks designed to reduce the quadratic complexity of attention, sequence packing techniques, and recent innovations like tree masking for fast validation in MEDUSA. Despite the inherent sparsity in these matrices, the state-of-the-art algorithm Flash Attention still processes them with quadratic complexity as though they were dense. In this paper, we introduce Binary Block Masking, a highly efficient modification that enhances Flash Attention by making it mask-aware. We further propose two optimizations: one tailored for masks with contiguous non-zero patterns and another for extremely sparse masks. Our experiments on attention masks derived from real-world scenarios demonstrate up to a 9x runtime improvement. The implementation will be publicly released to foster further research and application.},
+	booktitle = {Proceedings of {The} 4th {NeurIPS} {Efficient} {Natural} {Language} and {Speech} {Processing} {Workshop}},
+	publisher = {PMLR},
+	author = {Sharma, Agniv and Geiping, Jonas},
+	month = sep,
+	year = {2024},
+	keywords = {processed, University of Tübingen, MPI-IS, ELLIS Institute Tübingen, NEURIPS},
+}

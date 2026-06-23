@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Machine Learning for Medical Image Reconstruction (MLMIR 2022)",
+    "extra": {
+      "Book Title": "Machine Learning for Medical Image Reconstruction",
+      "Citations@2026-06-01": "13",
+      "Editors": "Haq, Nandinee and Johnson, Patricia and Maier, Andreas and Qin, Chen and W{\"u}rfl, Tobias and Yoo, Jaejun",
+      "OpenAlex": "W4296966010",
+      "Scholar": "0ZAb3tsAAAAJ:otzGkya1bYkC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Machine Learning for Medical Image Reconstruction",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

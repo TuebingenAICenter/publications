@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2404.16032",
+    "conferenceName": "Conference on Language Modeling",
+    "extra": {
+      "Source": "group_webpage (joon)",
+      "arXiv": "2404.16032"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the First Conference on Language Modeling"
+  }
+}

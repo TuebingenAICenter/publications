@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Publication Title": "Lecture notes on data engineering and communications technologies"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes on data engineering and communications technologies</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

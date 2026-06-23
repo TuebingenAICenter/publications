@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2509.09677",
+    "callNumber": "arXiv:2509.09677",
+    "extra": {
+      "Archive ID": "2509.09677",
+      "Citations@2026-06-01": "40",
+      "Conference Name": "NeurIPS (Workshop)",
+      "Reporter": "arXiv preprint arXiv:2509.09677, 2025",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:ILKRHgRFtOwC",
+      "arxiv": "2509.09677 [cs]"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.09677'>https://arxiv.org/abs/2509.09677</a><br><a href='https://neurips.cc/virtual/2025/127973'>https://neurips.cc/virtual/2025/127973</a><br><a href='https://github.com/long-horizon-execution/measuring-execution/'>https://github.com/long-horizon-execution/measuring-execution/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

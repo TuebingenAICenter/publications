@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1910.05103",
+    "extra": {
+      "Archive ID": "1910.05103",
+      "ISSN": "1099-4300",
+      "Issue": "8",
+      "Journal Abbreviation": "Entropy",
+      "Pages": "961",
+      "Repository": "arXiv",
+      "Source": "group_webpage (schoelkopf)",
+      "Volume": "23",
+      "arXiv": "1910.05103",
+      "doi": "10.3390/e23080961"
+    }
+  }
+}

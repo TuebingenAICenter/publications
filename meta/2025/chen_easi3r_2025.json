@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2503.24391"
+      }
+    ],
+    "conferenceName": "International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W7160182465",
+      "Scholar": "SrVnrPcAAAAJ:i_7YvbSbtFEC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Easi3R_Estimating_Disentangled_Motion_from_DUSt3R_Without_Training_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Easi3R_Estimating_Disentangled_Motion_from_DUSt3R_Without_Training_ICCV_2025_paper.html</a><br><a href='https://arxiv.org/abs/2503.24391'>https://arxiv.org/abs/2503.24391</a><br><a href='https://easi3r.github.io/'>https://easi3r.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

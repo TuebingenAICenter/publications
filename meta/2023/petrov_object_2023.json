@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.00777",
+    "extra": {
+      "Archive ID": "2306.00777",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4379258907",
+      "Repository": "arXiv",
+      "Scholar": "OpXMNnMAAAAJ:1yQoGdGgb4wC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

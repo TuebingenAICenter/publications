@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2011.12100",
+    "extra": {
+      "Archive ID": "2011.12100",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4287589418",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:Ic1VZgkJnDsC"
+    },
+    "libraryCatalog": "CVPR"
+  }
+}

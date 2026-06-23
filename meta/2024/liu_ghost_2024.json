@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "black",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:44:21",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=Ad87VjRqUw"
+      }
+    ],
+    "conferenceName": "Twelfth International Conference on Learning Representations",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4387946929",
+      "Scholar": "6NjbexEAAAAJ:zZdEpRDacf4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 16</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Twelfth International Conference on Learning Representations (ICLR)"
+  }
+}

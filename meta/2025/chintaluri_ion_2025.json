@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "bioRxiv",
+    "archiveLocation": "2025.10.03.680368v1",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://sciety.org/articles/activity/10.1101/2025.10.03.680368"
+      }
+    ],
+    "extra": {
+      "Archive ID": "2025.10.03.680368",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414870856",
+      "Repository": "bioRxiv",
+      "Scholar": "FKOqtF8AAAAJ:ZppSRAJs3i8C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.10.03.680368'>https://sciety.org/articles/activity/10.1101/2025.10.03.680368</a><br><a href='https://ppjgoncalves.github.io/'>https://ppjgoncalves.github.io/</a><br><a href='https://connect.biorxiv.org/qr/2025.10.03.680368'>https://connect.biorxiv.org/qr/2025.10.03.680368</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

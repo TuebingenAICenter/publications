@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Conference on Learning for Dynamics and Control",
+    "extra": {
+      "Editors": "Alexandre M. Bayen and Ali Jadbabaie and George Pappas and Pablo A. Parrilo and Benjamin Recht and Claire Tomlin and Melanie Zeilinger",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 2nd Conference on Learning for Dynamics and Control",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

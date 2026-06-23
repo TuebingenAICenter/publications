@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2506.06039",
+    "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
+    "extra": {
+      "Citations@2026-06-01": "17",
+      "Scholar": "DZ-fHPgAAAAJ:3S28UbO8kNMC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  }
+}

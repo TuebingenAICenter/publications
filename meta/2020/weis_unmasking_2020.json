@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel",
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2006.07034",
+    "extra": {
+      "Archive ID": "2006.07034",
+      "Citations@2026-06-01": "50",
+      "OpenAlex": "W3132010254",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:s85pQhAUCrAC"
+    }
+  }
+}

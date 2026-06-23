@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2406.03337",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:14",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2406.03337v2"
+      }
+    ],
+    "conferenceName": "International Conference on Learning Representations",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399453713",
+      "Publication Title": "arXiv (Cornell University)",
+      "Scholar": "0z0fNxUAAAAJ:orDZ08hpP44C"
+    },
+    "notes": [
+      {
+        "note": "<div data-schema-version=\"9\"><p>ICLR 2025 poster</p>\n</div>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>ICLR 2025 poster ”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "EMNLP",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416035271",
+      "Scholar": "DZ-fHPgAAAAJ:tENBw-I8_u0C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://aclanthology.org/2025.emnlp-main.1627/'>https://aclanthology.org/2025.emnlp-main.1627/</a><br><a href='https://arxiv.org/abs/2506.19847'>https://arxiv.org/abs/2506.19847</a><br><a href='https://spherelab.ai/oftv2/'>https://spherelab.ai/oftv2/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

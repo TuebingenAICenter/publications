@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.07951",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "154",
+      "OpenAlex": "W4380715567",
+      "Scholar": "UqtDdZUAAAAJ:maZDTaKrznsC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 69</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 69</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

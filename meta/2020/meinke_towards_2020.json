@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1909.12180",
+    "extra": {
+      "Archive ID": "1909.12180",
+      "Citations@2026-06-01": "9",
+      "Conference": "ICLR 2020",
+      "OpenAlex": "W2975438322",
+      "Repository": "GitHub",
+      "Scholar": "0ZAb3tsAAAAJ:uc_IGeMz5qoC"
+    },
+    "libraryCatalog": "OpenReview"
+  }
+}

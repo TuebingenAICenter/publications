@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2206.02416",
+    "extra": {
+      "Archive ID": "2206.02416",
+      "Citations@2026-06-01": "5",
+      "Note": "equal first authorship",
+      "OpenAlex": "W4281619463",
+      "Pages": "12040--12057",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:PELIpwtuRlgC",
+      "Volume": "35"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

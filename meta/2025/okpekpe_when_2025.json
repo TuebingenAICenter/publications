@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2508.19029"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.19029'>https://arxiv.org/abs/2508.19029</a><br><a href='https://dblp.org/rec/journals/corr/abs-2508-19029'>https://dblp.org/rec/journals/corr/abs-2508-19029</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

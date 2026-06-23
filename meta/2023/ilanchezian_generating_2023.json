@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2311.11629",
+    "extra": {
+      "Archive ID": "2311.11629",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4388926596",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:mKu_rENv82IC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

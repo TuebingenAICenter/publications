@@ -1,0 +1,59 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "ACL Anthology",
+    "archiveLocation": "2024.acl-long.437",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:15",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.acl-long.437.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:15",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.acl-long.437.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "23",
+      "Editors": "Lun-Wei Ku and Andre Martins and Vivek Srikumar",
+      "OpenAlex": "W4402671601",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:Mjvec00rDE4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 166</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 166</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

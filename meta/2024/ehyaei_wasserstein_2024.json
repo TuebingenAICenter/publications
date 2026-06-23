@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:58",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4ae5cdacb9152d95661bc3c620b75aba-Paper-Conference.pdf"
+      }
+    ],
+    "conferenceName": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415338498",
+      "Scholar": "s8xc2K4AAAAJ:_kc_bZDykSQC"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

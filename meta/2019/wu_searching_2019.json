@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Conference on Cognitive Computational Neuroscience",
+    "extra": {
+      "Code+data": "https://github.com/charleywu/graphInference",
+      "Source": "group_webpage (wu)"
+    },
+    "proceedingsTitle": "Proceedings of the 2019 Conference on Cognitive Computational Neuroscience"
+  }
+}

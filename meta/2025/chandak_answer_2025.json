@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2507.02856",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.02856"
+      }
+    ],
+    "callNumber": "arXiv:2507.02856",
+    "extra": {
+      "Archive ID": "2507.02856",
+      "Citations@2026-06-01": "35",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:fEOibwPWpKIC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2507.02856'>https://arxiv.org/abs/2507.02856</a><br><a href='https://dblp.uni-trier.de/rec/journals/corr/abs-2507-02856.html'>https://dblp.uni-trier.de/rec/journals/corr/abs-2507-02856.html</a><br><a href='https://huggingface.co/papers/2507.02856'>https://huggingface.co/papers/2507.02856</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

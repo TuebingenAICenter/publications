@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414384861",
+      "Scholar": "0z0fNxUAAAAJ:rLGzs9wiiwIC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2507.15887'>https://arxiv.org/abs/2507.15887</a><br><a href='https://nips.cc/virtual/2025/loc/san-diego/poster/121543'>https://nips.cc/virtual/2025/loc/san-diego/poster/121543</a><br><a href='https://openreview.net/forum?id=dF1tD9hjvn'>https://openreview.net/forum?id=dF1tD9hjvn</a><br><a href='https://algotune.io/'>https://algotune.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

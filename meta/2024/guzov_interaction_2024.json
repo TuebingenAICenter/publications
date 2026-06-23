@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2205.02830",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Source": "group_webpage (pons-moll)",
+      "arXiv": "2205.02830"
+    },
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}

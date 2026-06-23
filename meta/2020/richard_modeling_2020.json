@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+    "extra": {
+      "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
+  }
+}

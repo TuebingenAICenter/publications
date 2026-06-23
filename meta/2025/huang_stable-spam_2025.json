@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Conference Name": "International Conference on Machine Learning",
+      "Proceedings Title": "Proceedings of the International Conference on Machine Learning",
+      "Scholar": "73IbXtsAAAAJ:VOx2b1Wkg3QC",
+      "Source": "group_webpage (liu)",
+      "arXiv": "2502.17055"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

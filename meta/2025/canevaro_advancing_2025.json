@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2502.15833",
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414834777",
+      "Scholar": "b-JF-UIAAAAJ:HbR8gkJAVGIC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2502.15833"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

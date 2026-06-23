@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417262081",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "xkuLyHoAAAAJ:dfsIfKJdRG4C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=KT8y9pFgJE'>https://openreview.net/forum?id=KT8y9pFgJE</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/118641'>https://neurips.cc/virtual/2025/loc/san-diego/poster/118641</a><br><a href='https://arxiv.org/abs/2503.10799'>https://arxiv.org/abs/2503.10799</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.01809",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399405976",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:BgA9TAIr_78C"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

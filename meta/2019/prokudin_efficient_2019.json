@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Computer Vision",
+    "extra": {
+      "Code": "https://github.com/sergeyprokudin/bps",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "International Conference on Computer Vision"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Thirty-Ninth Conference on Uncertainty in Artificial Intelligence",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Evans, Robin J. and Shpitser, Ilya",
+      "OpenAlex": "W4378765398",
+      "Scholar": "jQl9RtkAAAAJ:tYavs44e6CUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the Thirty-Ninth Conference on Uncertainty in Artificial Intelligence",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

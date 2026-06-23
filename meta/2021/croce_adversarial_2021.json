@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2105.12508",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4299063590",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:6yz0xqPARnAC",
+      "Source": "group_webpage (hein)",
+      "arXiv": "2105.12508"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

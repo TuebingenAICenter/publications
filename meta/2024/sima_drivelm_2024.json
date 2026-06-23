@@ -1,0 +1,67 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-25 07:49:39",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://arxiv.org/pdf/2312.14150"
+      },
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2312.14150"
+      }
+    ],
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4390137328",
+      "Scholar": "SrVnrPcAAAAJ:rOcdG6UcVlcC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 235</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 235</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 235</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)",
+    "extra": {
+      "Source": "group_webpage (black)",
+      "code": "https://github.com/christsa/dgrasp",
+      "paper": "https://arxiv.org/pdf/2112.03028.pdf",
+      "project": "https://eth-ait.github.io/d-grasp/",
+      "video": "https://youtu.be/5OqbDq-pgLc"
+    },
+    "proceedingsTitle": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2005.08543",
+    "extra": {
+      "Archive ID": "2005.08543",
+      "Citations@2026-06-01": "11",
+      "OpenAlex": "W3025657394",
+      "Pages": "7502--7511",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:RXVP-JhfB5kC",
+      "Volume": "139"
+    },
+    "libraryCatalog": "PMLR"
+  }
+}

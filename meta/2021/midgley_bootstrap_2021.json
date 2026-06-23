@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2111.11510",
+    "conferenceName": "1st ELLIS Machine Learning for Molecule Discovery Workshop",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2111.11510"
+    },
+    "proceedingsTitle": "1st ELLIS Machine Learning for Molecule Discovery Workshop"
+  }
+}

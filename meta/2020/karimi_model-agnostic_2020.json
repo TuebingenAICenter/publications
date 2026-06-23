@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "23rd International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Silvia Chiappa and Roberto Calandra",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1905.11190"
+    },
+    "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

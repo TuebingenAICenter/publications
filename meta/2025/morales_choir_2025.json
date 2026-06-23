@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Winter Conference on Applications of Computer Vision (WACV)",
+    "extra": {
+      "GitHub": "https://github.com/DubiousCactus/CHOIR",
+      "Page": "https://is.mpg.de/ps/publications/choir2025wacv",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}

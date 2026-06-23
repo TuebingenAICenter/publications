@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2302.13262",
+    "extra": {
+      "Archive ID": "2302.13262",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4322716775",
+      "Repository": "GitHub",
+      "Scholar": "0z0fNxUAAAAJ:z8nqeaKD1nsC"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

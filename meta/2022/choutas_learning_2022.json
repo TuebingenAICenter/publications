@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ECCV 2022",
+    "extra": {
+      "Project page": "https://vchoutas.github.io/learning_to_fit/",
+      "Source": "group_webpage (black)",
+      "Video": "https://www.dropbox.com/s/4cksaq8h4royt9r/Learning%20To%20Fit%20Morphable%20Models%20FHD%20HB.mp4?raw=1"
+    },
+    "proceedingsTitle": "Computer Vision – ECCV 2022",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2503.23111",
+    "conferenceName": "COLT",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417068779",
+      "Scholar": "mMifMdoAAAAJ:4X0JR2_MtJMC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v291/bhattacharjee25a.html'>https://proceedings.mlr.press/v291/bhattacharjee25a.html</a><br><a href='https://arxiv.org/abs/2503.23111'>https://arxiv.org/abs/2503.23111</a><br><a href='https://dblp.org/rec/journals/corr/abs-2503-23111'>https://dblp.org/rec/journals/corr/abs-2503-23111</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 38th Conference on Learning Theory"
+  }
+}

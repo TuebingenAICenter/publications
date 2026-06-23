@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2306.03962",
+    "conferenceName": "TPDP 2023 - Theory and Practice of Differential Privacy",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2306.03962"
+    },
+    "proceedingsTitle": "TPDP 2023 - Theory and Practice of Differential Privacy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "37",
+      "OpenAlex": "W4378718176",
+      "Scholar": "kmXOOdsAAAAJ:GnPB-g6toBAC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41562-025-02172-y'>https://www.nature.com/articles/s41562-025-02172-y</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/40341716/'>https://pubmed.ncbi.nlm.nih.gov/40341716/</a><br><a href='https://arxiv.org/abs/2305.16867'>https://arxiv.org/abs/2305.16867</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

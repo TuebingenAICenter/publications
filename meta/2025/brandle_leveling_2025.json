@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://osf.io/vg8dz_v3/download/"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414706194",
+      "Scholar": "1O2hcVgAAAAJ:dshw04ExmUIC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41598-025-14628-2'>https://www.nature.com/articles/s41598-025-14628-2</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41034230/'>https://pubmed.ncbi.nlm.nih.gov/41034230/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Publisher: University of Tübingen</p>\n</div>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

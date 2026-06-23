@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2405.20318",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:39",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.20318v3"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:39",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.20318v3"
+      }
+    ],
+    "extra": {
+      "arXiv": "2405.20318"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "ludwig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.nature.com/articles/s41612-025-01157-y.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4412555364",
+      "Scholar": "by3EWqIAAAAJ:WA5NYHcadZ8C"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

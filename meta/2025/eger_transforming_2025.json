@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2502.05151",
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4407310674",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:sbeIDTyQOFgC",
+      "Source": "group_webpage (geiger)",
+      "arXiv": "2501.00000"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.05151'>https://arxiv.org/abs/2502.05151</a><br><a href='https://doi.org/10.48550/arXiv.2502.05151'>https://doi.org/10.48550/arXiv.2502.05151</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-05151.html'>https://dblp.org/rec/journals/corr/abs-2502-05151.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

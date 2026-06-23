@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.16511",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.16511"
+      }
+    ],
+    "conferenceName": "Reinforcement Learning Conference: Finding the Frame Workshop",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414423018",
+      "Scholar": "1O2hcVgAAAAJ:kRWSkSYxWN8C"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Reinforcement Learning Conference: Finding the Frame Workshop"
+  }
+}

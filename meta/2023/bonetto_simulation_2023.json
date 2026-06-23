@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICRA 2023 Workshop on the Active Methods in Autonomous Navigation",
+    "extra": {
+      "Code": "https://github.com/eliabntt/GRADE-RR",
+      "Data": "https://github.com/eliabntt/GRADE_data",
+      "Evaluation code": "https://github.com/robot-perception-group/GRADE_tools",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "ICRA 2023 Workshop on the Active Methods in Autonomous Navigation"
+  }
+}

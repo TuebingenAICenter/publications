@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2589004225007424/pdfft?md5=0f1af3bc12fd23612edd5ee44c361318&pid=1-s2.0-S2589004225007424-main.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4410300561",
+      "Scholar": "lPQLk3QAAAAJ:VLnqNzywnoUC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

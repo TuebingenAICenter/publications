@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.16731",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4390437544",
+      "Scholar": "0z0fNxUAAAAJ:QsKbpXNoaWkC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

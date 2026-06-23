@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "22",
+      "OpenAlex": "W4312115573",
+      "Publisher": "University of Tübingen",
+      "Scholar": "lPQLk3QAAAAJ:nrtMV_XWKgEC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41592-025-02895-w'>https://www.nature.com/articles/s41592-025-02895-w</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41233544/'>https://pubmed.ncbi.nlm.nih.gov/41233544/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

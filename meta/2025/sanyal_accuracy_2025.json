@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2406.19049",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:30",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://arxiv.org/pdf/2411.15958"
+      }
+    ],
+    "conferenceName": "28th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4400163273",
+      "Scholar": "DZ-fHPgAAAAJ:SZM63MrTTgUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

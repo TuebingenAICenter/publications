@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "bioRxiv",
+    "archiveLocation": "8e5f7e1e12058f33d42bfd325af54466",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/20/2025.10.20.683356.full.pdf"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "San Diego Convention Center and Mexico City",
+      "OpenAlex": "W4415387672",
+      "Reporter": "Thirty-Ninth Conference on Neural Information Processing Systems (NeurIPS), 2025",
+      "Scholar": "FKOqtF8AAAAJ:SyxJh60XUSQC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://nips.cc/virtual/2025/session/128335'>https://nips.cc/virtual/2025/session/128335</a><br><a href='https://is.mpg.de/publications/kadhimetal25'>https://is.mpg.de/publications/kadhimetal25</a><br><a href='https://sciety.org/articles/activity/10.1101/2025.10.20.683356'>https://sciety.org/articles/activity/10.1101/2025.10.20.683356</a><br><a href='https://connect.biorxiv.org/qr/2025.10.20.683356'>https://connect.biorxiv.org/qr/2025.10.20.683356</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

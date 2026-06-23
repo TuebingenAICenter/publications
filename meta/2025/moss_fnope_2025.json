@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2505.22573",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2505.22573?"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416338493",
+      "Scholar": "FKOqtF8AAAAJ:SoGhKUJvMTQC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2505.22573'>https://arxiv.org/abs/2505.22573</a><br><a href='https://nips.cc/virtual/2025/poster/115175'>https://nips.cc/virtual/2025/poster/115175</a><br><a href='https://is.mpg.de/publications/mossetal25'>https://is.mpg.de/publications/mossetal25</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:12:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2502.21123v4"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416455388",
+      "Scholar": "DZ-fHPgAAAAJ:urTNpwCjgKkC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.21123'>https://arxiv.org/abs/2502.21123</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-21123.html'>https://dblp.org/rec/journals/corr/abs-2502-21123.html</a><br><a href='https://rutabinkyte.com/publications/43213-causality-is-key-to-understand-and-balance-multiple-goals-in-trustworthy-ml-and-foundation-models?_x_tr_sl=auto&_x_tr_tl=la'>https://rutabinkyte.com/publications/43213-causality-is-key-to-understand-and-balance-multiple-goals-in-trustworthy-ml-and-foundation-models?_x_tr_sl=auto&_x_tr_tl=la</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

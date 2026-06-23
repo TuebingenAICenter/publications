@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:35",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://osf.io/6uz9q/download"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4391969656",
+      "Scholar": "1O2hcVgAAAAJ:CHSYGLWDkRkC",
+      "additional_DOI": "https://doi.org/10.31234/osf.io/6uz9q"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Annual Review of Psychology 76, 2025 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

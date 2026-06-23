@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "International Conference on 3D Vision (3DV 2024)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4386114426",
+      "Publisher": "MPI-IS",
+      "Scholar": "6NjbexEAAAAJ:tVg3zZbtnc0C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on 3D Vision (3DV 2024)"
+  }
+}

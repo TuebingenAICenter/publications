@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2504.05461",
+    "callNumber": "arXiv:2504.05461",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416527091",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "kmXOOdsAAAAJ:q3oQSFYPqjQC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.iclr.cc/paper_files/paper/2025/hash/71c3451f6cd6a4f82bb822db25cea4fd-Abstract-Conference.html'>https://proceedings.iclr.cc/paper_files/paper/2025/hash/71c3451f6cd6a4f82bb822db25cea4fd-Abstract-Conference.html</a><br><a href='https://arxiv.org/abs/2504.05461'>https://arxiv.org/abs/2504.05461</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1911.09214",
+    "conferenceName": "21rst IFAC World Congress",
+    "extra": {
+      "Archive ID": "1911.09214",
+      "Citations@2026-06-01": "3",
+      "Issue": "2",
+      "OpenAlex": "W2991158323",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:_xSYboBqXhAC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1911.09214"
+    },
+    "libraryCatalog": "ScienceDirect",
+    "proceedingsTitle": "21rst IFAC World Congress"
+  }
+}

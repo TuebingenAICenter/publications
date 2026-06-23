@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "bamler",
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2407.13711",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415798877",
+      "Scholar": "LwvdNAgAAAAJ:IWHjjKOFINEC",
+      "arXiv": "2407.13711"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

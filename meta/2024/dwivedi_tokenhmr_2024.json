@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:41:51",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2404.16752"
+      },
+      {
+        "accessDate": "2025-06-17 19:41:51",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2404.16752"
+      }
+    ],
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4395687391",
+      "Scholar": "6NjbexEAAAAJ:aUOtug7Ojf8C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 40</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 40</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

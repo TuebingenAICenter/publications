@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "bioRxiv",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://sciety.org/articles/activity/10.1101/2025.10.26.683064"
+      }
+    ],
+    "extra": {
+      "Archive ID": "bioRxiv: 2025.10.26.683064",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415560109",
+      "Scholar": "FKOqtF8AAAAJ:uqZYSrDi9MMC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.10.26.683064'>https://sciety.org/articles/activity/10.1101/2025.10.26.683064</a><br><a href='https://jglobal.jst.go.jp/en/public/202502206599844809'>https://jglobal.jst.go.jp/en/public/202502206599844809</a><br><a href='https://pypi.org/project/velotest/'>https://pypi.org/project/velotest/</a><br><a href='https://pavlinpolicar.com/publications/'>https://pavlinpolicar.com/publications/</a><br><a href='https://cdn.sciencecast.org/casts/awzo2s84pv30'>https://cdn.sciencecast.org/casts/awzo2s84pv30</a><br><a href='https://www.piwheels.org/project/velotest/'>https://www.piwheels.org/project/velotest/</a><br><a href='https://www.biorxiv.org/content/10.1101/2025.10.26.683064'>https://www.biorxiv.org/content/10.1101/2025.10.26.683064</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

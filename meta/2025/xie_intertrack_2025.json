@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2408.13953",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2408.13953"
+      }
+    ],
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4402701829",
+      "Reporter": "2025 International Conference on 3D Vision (3DV), 1427-1439, 2025",
+      "Scholar": "OpXMNnMAAAAJ:p__nRnzSRKYC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2408.13953'>https://arxiv.org/abs/2408.13953</a><br><a href='https://xiexh20.github.io/'>https://xiexh20.github.io/</a><br><a href='https://pure.mpg.de/pubman/item/item_3633982'>https://pure.mpg.de/pubman/item/item_3633982</a><br><a href='https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/171031'>https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/171031</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "2025 International Conference on 3D Vision (3DV)"
+  }
+}

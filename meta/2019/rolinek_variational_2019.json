@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1812.06775",
+    "extra": {
+      "Archive ID": "1812.06775",
+      "Citations@2026-06-01": "15",
+      "OpenAlex": "W2905266595",
+      "Scholar": "b-JF-UIAAAAJ:HoB7MX3m0LUC",
+      "pages": "12406-12415"
+    }
+  }
+}

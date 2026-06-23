@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2405.15731",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2405.15731"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Algorithmic Learning Theory",
+    "extra": {
+      "Editors": "Agrawal, Shipra and Orabona, Francesco",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 34th International Conference on Algorithmic Learning Theory",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

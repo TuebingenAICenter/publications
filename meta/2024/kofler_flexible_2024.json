@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2512.02968"
+      }
+    ],
+    "extra": {
+      "Archive ID": "arXiv:2412.02968",
+      "Repository": "arXiv"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.02968'>https://arxiv.org/abs/2512.02968</a><br><a href='https://pure.mpg.de/pubman/item/item_3684247'>https://pure.mpg.de/pubman/item/item_3684247</a><br><a href='https://doi.org/10.5281/zenodo.17726076'>https://doi.org/10.5281/zenodo.17726076</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

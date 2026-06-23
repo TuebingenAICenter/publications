@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Journal Abbreviation": "Nat. Commun.",
+      "OpenAlex": "W4401627132",
+      "Scholar": "b-JF-UIAAAAJ:lmc2jWPfTJgC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41467-025-63230-7'>https://www.nature.com/articles/s41467-025-63230-7</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/40877290/'>https://pubmed.ncbi.nlm.nih.gov/40877290/</a><br><a href='https://is.mpg.de/dlg/publications/huanboadam2024-sensing'>https://is.mpg.de/dlg/publications/huanboadam2024-sensing</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

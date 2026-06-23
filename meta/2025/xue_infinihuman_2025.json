@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2510.11650",
+    "conferenceName": "SIGGRAPH Asia 2025",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4417125861",
+      "Reporter": "Proceedings of the SIGGRAPH Asia 2025 Conference Papers, 1-12, 2025",
+      "Scholar": "OpXMNnMAAAAJ:xtoqd-5pKcoC",
+      "arXiv": "2510.11650"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://yuxuan-xue.com/infini-human/'>https://yuxuan-xue.com/infini-human/</a><br><a href='https://arxiv.org/abs/2510.11650'>https://arxiv.org/abs/2510.11650</a><br><a href='https://www.realtimerendering.com/kesen/siga2025Papers.htm'>https://www.realtimerendering.com/kesen/siga2025Papers.htm</a><br><a href='https://pressroom.asia.siggraph.org/'>https://pressroom.asia.siggraph.org/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "SIGGRAPH Asia 2025 Conference Papers (SA '25)"
+  }
+}

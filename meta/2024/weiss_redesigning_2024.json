@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2403.14443",
+    "conferenceName": "First Conference on Language Modeling (COLM)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2403.14443"
+    },
+    "proceedingsTitle": "First Conference on Language Modeling (COLM)"
+  }
+}

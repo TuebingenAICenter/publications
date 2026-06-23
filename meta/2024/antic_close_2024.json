@@ -1,0 +1,59 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2401.12051",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:13:17",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2401.12051"
+      },
+      {
+        "accessDate": "2025-06-17 16:13:17",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2401.12051"
+      }
+    ],
+    "conferenceName": "3DV",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4391158917",
+      "Scholar": "OpXMNnMAAAAJ:VLnqNzywnoUC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 10</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 10</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "2024 International Conference on 3D Vision (3DV)"
+  }
+}

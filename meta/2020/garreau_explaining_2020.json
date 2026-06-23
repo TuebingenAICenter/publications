@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2001.03447",
+    "extra": {
+      "Archive ID": "2001.03447",
+      "Citations@2026-06-01": "51",
+      "OpenAlex": "W3000208741",
+      "Repository": "arXiv",
+      "Scholar": "mMifMdoAAAAJ:VLnqNzywnoUC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE International Conference on Robotics and Automation",
+    "extra": {
+      "Source": "group_webpage (martius)",
+      "month_numeric": "5"
+    },
+    "proceedingsTitle": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)"
+  }
+}

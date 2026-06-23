@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:00:08",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012403&type=printable"
+      }
+    ],
+    "extra": {
+      "Additional_DOI": "https://doi.org/10.1101/2024.03.26.586728",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4393280563",
+      "Scholar": "lPQLk3QAAAAJ:LjlpjdlvIbIC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: bioRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: bioRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

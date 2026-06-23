@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2512.23707",
+    "extra": {
+      "Archive ID": "2512.23707",
+      "Citations@2026-06-01": "13",
+      "Scholar": "206vNCEAAAAJ:foquWX3nUaYC",
+      "arXiv": "2512.23707"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.23707'>https://arxiv.org/abs/2512.23707</a><br><a href='https://dblp.org/rec/journals/corr/abs-2512-25070'>https://dblp.org/rec/journals/corr/abs-2512-25070</a><br><a href='https://www.catalyzex.com/paper/training-ai-co-scientists-using-rubric'>https://www.catalyzex.com/paper/training-ai-co-scientists-using-rubric</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

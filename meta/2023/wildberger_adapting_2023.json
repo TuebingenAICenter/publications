@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2211.08801",
+    "extra": {
+      "Archive ID": "2211.08801",
+      "Citations@2026-06-01": "20",
+      "Issue": "8",
+      "OpenAlex": "W4367042456",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:CmbFvBriOyMC",
+      "Volume": "107"
+    },
+    "libraryCatalog": "APS Journals"
+  }
+}

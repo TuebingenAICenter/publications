@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2506.20233",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.20233"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "San Diego Convention Center and Mexico City",
+      "OpenAlex": "W4414624896",
+      "Scholar": "FKOqtF8AAAAJ:-TLX1-BxFiYC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.20233'>https://arxiv.org/abs/2506.20233</a><br><a href='https://neurips.cc/virtual/2025/poster/120188'>https://neurips.cc/virtual/2025/poster/120188</a><br><a href='https://is.mpg.de/ei/publications/tandeimaclin25'>https://is.mpg.de/ei/publications/tandeimaclin25</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41019202/'>https://pubmed.ncbi.nlm.nih.gov/41019202/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

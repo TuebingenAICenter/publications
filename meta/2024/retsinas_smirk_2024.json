@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Event Place": "Seattle, USA",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

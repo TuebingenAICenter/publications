@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "archive": "NeurIPS Proceedings",
+    "archiveLocation": "https://proceedings.neurips.cc/paper/9446-accurate-reliable-and-fast-robustness-evaluation",
+    "extra": {
+      "Archive ID": "9446",
+      "Citations@2026-06-01": "31",
+      "OpenAlex": "W2953911539",
+      "Repository": "NeurIPS",
+      "Scholar": "v-JL-hsAAAAJ:YOwf2qJgpHMC"
+    },
+    "libraryCatalog": "NeurIPS"
+  }
+}

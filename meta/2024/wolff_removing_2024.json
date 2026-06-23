@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:58:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openreview.net/pdf?id=Ho0x9DgdZw"
+      }
+    ],
+    "extra": {
+      "Publisher": "MPI-IS",
+      "Scholar": "v-JL-hsAAAAJ:cFHS6HbyZ2cC"
+    },
+    "notes": [
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

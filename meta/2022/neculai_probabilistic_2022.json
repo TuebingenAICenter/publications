@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4224078534",
+      "Scholar": "jQl9RtkAAAAJ:N5tVd3kTz84C",
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "6"
+    },
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+  }
+}

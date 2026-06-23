@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1910.13951",
+    "extra": {
+      "Archive ID": "1910.13951",
+      "Citations@2026-06-01": "24",
+      "OpenAlex": "W2982395388",
+      "Pages": "14848-14857",
+      "Repository": "GitHub",
+      "Scholar": "0ZAb3tsAAAAJ:zLWjf1WUPmwC",
+      "Volume": "32"
+    },
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

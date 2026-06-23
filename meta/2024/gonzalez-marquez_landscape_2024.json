@@ -1,0 +1,58 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:41:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.cell.com/action/showPdf?pii=S266638992400076X"
+      },
+      {
+        "accessDate": "2025-06-17 19:41:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.cell.com/action/showPdf?pii=S266638992400076X"
+      }
+    ],
+    "extra": {
+      "Article Number": "100968",
+      "Citations@2026-06-01": "18",
+      "Number": "6",
+      "OpenAlex": "W4364377241",
+      "Publisher": "University of T'ubingen",
+      "Scholar": "lPQLk3QAAAAJ:wbdj-CoPYUoC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 46</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 46</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

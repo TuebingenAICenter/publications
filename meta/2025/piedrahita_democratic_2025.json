@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415112542",
+      "Scholar": "DZ-fHPgAAAAJ:86o5xOGsEc8C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.12758'>https://arxiv.org/abs/2506.12758</a><br><a href='https://dblp.dagstuhl.de/rec/journals/corr/abs-2506-12758.html'>https://dblp.dagstuhl.de/rec/journals/corr/abs-2506-12758.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

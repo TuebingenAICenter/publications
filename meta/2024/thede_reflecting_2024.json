@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.09384",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2406.09384v1"
+      }
+    ],
+    "conferenceName": "CoLLAs",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399695919",
+      "Scholar": "0z0fNxUAAAAJ:n3vGvpFsckwC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Third Conference on Lifelong Learning Agents"
+  }
+}

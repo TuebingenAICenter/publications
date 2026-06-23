@@ -1,0 +1,13 @@
+@inproceedings{antic_sdfit_2025,
+	title = {{SDFit}: 3D {Object} {Pose} and {Shape} by {Fitting} a {Morphable} {SDF} to a {Single} {Image}},
+	shorttitle = {{SDFit}},
+	url = {https://is.mpg.de/ps/publications/antic2025sdfit},
+	abstract = {Recovering 3D object pose and shape from a single image is a challenging and ill-posed problem. This is due to strong (self-)occlusions, depth ambiguities, the vast intra- and inter-class shape variance, and the lack of 3D ground truth for natural images. Existing deep-network methods are trained on synthetic datasets to predict 3D shapes, so they often struggle generalizing to real-world images. Moreover, they lack an explicit feedback loop for refining noisy estimates, and primarily focus on geometry without directly considering pixel alignment. To tackle these limitations, we develop a novel render-and-compare optimization framework, called SDFit. This has three key innovations: First, it uses a learned category-specific and morphable signed-distance-function (mSDF) model, and fits this to an image by iteratively refining both 3D pose and shape. The mSDF robustifies inference by constraining the search on the manifold of valid shapes, while allowing for arbitrary shape topologies. Second, SDFit retrieves an initial 3D shape that likely matches the image, by exploiting foundational models for efficient look-up into 3D shape databases. Third, SDFit initializes pose by establishing rich 2D-3D correspondences between the image and the mSDF through foundational features. We evaluate SDFit on three image datasets, i.e., Pix3D, Pascal3D+, and COMIC. SDFit performs on par with SotA feed-forward networks for unoccluded images and common poses, but is uniquely robust to occlusions and uncommon poses. Moreover, it requires no retraining for unseen images. Thus, SDFit contributes new insights for generalizing in the wild.},
+	language = {en},
+	booktitle = {Proceedings of the {IEEE}/{CVF} {International} {Conference} on {Computer} {Vision} ({ICCV})},
+	publisher = {IEEE/CVF},
+	author = {Antić, Dimitrije and Paschalidis, Georgios and Tripathi, Shashank and Gevers, Theo and Dwivedi, Sai Kumar and Tzionas, Dimitrios},
+	month = oct,
+	year = {2025},
+	keywords = {ICCV},
+}

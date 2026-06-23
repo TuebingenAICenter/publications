@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICRA 2023 Pretraining for Robotics (PT4R) Workshop",
+    "extra": {
+      "Code": "https://github.com/eliabntt/GRADE-RR",
+      "Data and network models": "https://github.com/eliabntt/GRADE_data",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "ICRA 2023 Pretraining for Robotics (PT4R) Workshop"
+  }
+}

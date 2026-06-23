@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2409.15904",
+    "extra": {
+      "Archive ID": "2409.15904",
+      "Citations@2026-06-01": "0",
+      "Note": "oral",
+      "OpenAlex": "W4403808826",
+      "Pages": "240-249",
+      "Repository": "arXiv",
+      "Scholar": "OpXMNnMAAAAJ:ILKRHgRFtOwC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

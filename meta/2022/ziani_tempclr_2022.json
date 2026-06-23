@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "2022 International Conference on 3D Vision (3DV 2022)",
+    "extra": {
+      "Arxiv": "http://arxiv.org/abs/2209.00489",
+      "Code": "https://github.com/eth-ait/tempclr",
+      "Source": "group_webpage (black)",
+      "Video": "https://youtu.be/VSsKx8SnFio"
+    },
+    "proceedingsTitle": "2022 International Conference on 3D Vision (3DV 2022)"
+  }
+}

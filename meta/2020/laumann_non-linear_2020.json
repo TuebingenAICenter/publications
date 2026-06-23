@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2004.09318",
+    "conferenceName": "ICLR 2020 Workshop \"Tackling Climate Change with Machine Learning\"",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2004.09318"
+    },
+    "proceedingsTitle": "ICLR 2020 Workshop \"Tackling Climate Change with Machine Learning\""
+  }
+}

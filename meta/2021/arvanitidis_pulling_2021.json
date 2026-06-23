@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2106.05367",
+    "extra": {
+      "Archive ID": "2106.05367",
+      "Conference Name": "International Conference on Artificial Intelligence and Statistics",
+      "Editors": "Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel",
+      "Pages": "4872--4894",
+      "Proceedings Title": "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics",
+      "Series": "Proceedings of Machine Learning Research",
+      "Series Title": "Proceedings of Machine Learning Research",
+      "Source": "group_webpage (schoelkopf)",
+      "Volume": "151",
+      "arXiv": "2106.05367"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

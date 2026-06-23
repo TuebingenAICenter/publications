@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Event Place": "Milan, Italy",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV 2024)",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

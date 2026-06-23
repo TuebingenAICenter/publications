@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.04269",
+    "conferenceName": "European Workshop on Algorithmic Fairness",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4394644575",
+      "Scholar": "UqtDdZUAAAAJ:blknAaTinKkC",
+      "Source": "group_webpage (hardt)",
+      "arXiv": "2404.04269"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "European Workshop on Algorithmic Fairness"
+  }
+}

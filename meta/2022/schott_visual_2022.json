@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=9RUHPlladgh",
+    "extra": {
+      "Archive ID": "9RUHPlladgh",
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W3186451577",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:j3f4tGmQtD8C"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

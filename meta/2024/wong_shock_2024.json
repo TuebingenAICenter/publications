@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:58:54",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://escholarship.org/content/qt9b84p39g/qt9b84p39g.pdf"
+      }
+    ],
+    "conferenceName": "46th Annual Conference of the Cognitive Science Society",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "S. L. Frank, M. Toneva, A. Mackey, & E. Hazeltine",
+      "OpenAlex": "W4396513454",
+      "Scholar": "1O2hcVgAAAAJ:SP6oXDckpogC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Proceedings of the 46th Annual Conference of the Cognitive Science Society, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Proceedings of the 46th Annual Conference of the Cognitive Science Society, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 46th Annual Conference of the Cognitive Science Society"
+  }
+}

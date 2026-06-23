@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1810.13333",
+    "conferenceName": "IJCAI",
+    "extra": {
+      "Source": "group_webpage (luxburg)",
+      "arXiv": "1810.13333"
+    },
+    "proceedingsTitle": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence"
+  }
+}

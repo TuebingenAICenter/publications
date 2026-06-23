@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2411.07784",
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Archive ID": "2411.07784",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4404406434",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:dshw04ExmUIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

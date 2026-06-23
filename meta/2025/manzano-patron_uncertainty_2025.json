@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1361841525001276/pdfft?md5=5b605d1eb1de6bf36302f82a3731387d&pid=1-s2.0-S1361841525001276-main.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4404511868",
+      "Scholar": "FKOqtF8AAAAJ:dIILA_La5fwC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

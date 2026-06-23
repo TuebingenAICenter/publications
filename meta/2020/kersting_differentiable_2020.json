@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "37th International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Hal Daumé III and Aarti Singh",
+      "OpenAlex": "W4287865570",
+      "Scholar": "UeG5w08AAAAJ:tOudhMTPpwUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 37th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

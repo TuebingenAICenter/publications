@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1911.00926",
+    "extra": {
+      "Archive ID": "1911.00926",
+      "Repository": "arXiv",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1911.00926"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

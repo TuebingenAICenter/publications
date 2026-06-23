@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2503.17544",
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417160817",
+      "Scholar": "6NjbexEAAAAJ:Afq3j1Mvmz0C"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

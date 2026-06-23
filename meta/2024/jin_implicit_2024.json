@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:18",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.14808v2"
+      }
+    ],
+    "conferenceName": "EMNLP",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "Yaser Al-Onaizan and Mohit Bansal and Yun-Nung Chen",
+      "OpenAlex": "W4398881448",
+      "Scholar": "DZ-fHPgAAAAJ:6_g6roSJJJ4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Findings of the Association for Computational Linguistics: EMNLP"
+  }
+}

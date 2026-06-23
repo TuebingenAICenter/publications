@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40828695/"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4413319159",
+      "Scholar": "SrVnrPcAAAAJ:PVqtIyvKoSUC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/40828695/'>https://pubmed.ncbi.nlm.nih.gov/40828695/</a><br><a href='https://hdl.handle.net/10900/171565'>https://hdl.handle.net/10900/171565</a><br><a href='https://freemty.github.io/project-urbangen/'>https://freemty.github.io/project-urbangen/</a><br><a href='https://yiyiliao.github.io/'>https://yiyiliao.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

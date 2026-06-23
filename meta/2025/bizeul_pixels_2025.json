@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4407358712",
+      "Scholar": "DZ-fHPgAAAAJ:SOSuX3g8JewC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.06314'>https://arxiv.org/abs/2502.06314</a><br><a href='https://www.research-collection.ethz.ch/items/0880232f-adb1-4303-9a46-3a9841847cc7'>https://www.research-collection.ethz.ch/items/0880232f-adb1-4303-9a46-3a9841847cc7</a><br><a href='https://alicebizeul.github.io/'>https://alicebizeul.github.io/</a><br><a href='https://dblp.org/pid/259/0609.html'>https://dblp.org/pid/259/0609.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

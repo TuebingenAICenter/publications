@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2506.22712",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.22712"
+      }
+    ],
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416506220",
+      "Scholar": "xkuLyHoAAAAJ:M05iB0D1s5AC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.22712'>https://arxiv.org/abs/2506.22712</a><br><a href='https://neurips.cc/virtual/2025/poster/118594'>https://neurips.cc/virtual/2025/poster/118594</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/oral/118595'>https://neurips.cc/virtual/2025/loc/san-diego/oral/118595</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506-22712'>https://dblp.org/rec/journals/corr/abs-2506-22712</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

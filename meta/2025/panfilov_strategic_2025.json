@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "bethge",
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "arXiv:2509.18058",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416257390",
+      "Scholar": "ZNtuJYoAAAAJ:f2IySw72cVMC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.18058'>https://arxiv.org/abs/2509.18058</a><br><a href='https://arxiv.org/pdf/2509.18058.pdf'>https://arxiv.org/pdf/2509.18058.pdf</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "Test Note",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

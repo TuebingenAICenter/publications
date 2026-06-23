@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "37th Annual Conference on Learning Theory",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "editors": "Agrawal, Shipra and Roth, Aaron",
+      "note": "(talk)"
+    },
+    "proceedingsTitle": "Proceedings of the 37th Annual Conference on Learning Theory",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

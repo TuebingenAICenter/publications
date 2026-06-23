@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4389363857",
+      "Scholar": "xkuLyHoAAAAJ:r0BpntZqJG4C",
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2312.01538"
+    },
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning"
+  }
+}

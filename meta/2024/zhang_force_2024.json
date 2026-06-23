@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:42:22",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.11237v2"
+      },
+      {
+        "accessDate": "2025-06-17 16:42:22",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.11237v2"
+      }
+    ],
+    "conferenceName": "3DV2025",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4413558601",
+      "Scholar": "OpXMNnMAAAAJ:LI9QrySNdTsC"
+    }
+  }
+}

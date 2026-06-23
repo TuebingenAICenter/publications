@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "archive": "PsyArXiv",
+    "archiveLocation": "y2buv_v1",
+    "extra": {
+      "Archive ID": "y2buv",
+      "Citations@2026-06-01": "1",
+      "Code+data": "https://github.com/charleywu/gridsearch_parkinsons",
+      "OpenAlex": "W4416114448",
+      "Preprint": "https://osf.io/preprints/psyarxiv/y2buv_v1",
+      "Repository": "PsyArXiv",
+      "Scholar": "1O2hcVgAAAAJ:WA5NYHcadZ8C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://bmeder.org/publication/2025-11-11_meder_et_al_dopamine_depletion_pd_exploration/'>https://bmeder.org/publication/2025-11-11_meder_et_al_dopamine_depletion_pd_exploration/</a><br><a href='https://sciety.org/articles/activity/10.31234/osf.io/y2buv_v1'>https://sciety.org/articles/activity/10.31234/osf.io/y2buv_v1</a><br><a href='https://osf.io/y2buv_v1'>https://osf.io/y2buv_v1</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

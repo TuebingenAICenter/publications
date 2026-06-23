@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2510.04686",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414972154",
+      "Publication Title": "arXiv (Cornell University)",
+      "Scholar": "xkuLyHoAAAAJ:fPk4N6BV_jEC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "Failed to Revise: API request failed: Response ended prematurely",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations"
+  }
+}

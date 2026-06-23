@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2310.09562",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:43:15",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=tnBaiidobu"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4387723693",
+      "Scholar": "v-JL-hsAAAAJ:u_35RYKgDlwC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 25</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

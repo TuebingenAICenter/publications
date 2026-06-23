@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417296652",
+      "Scholar": "SrVnrPcAAAAJ:CMvovTBb2okC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.10719'>https://arxiv.org/abs/2512.10719</a><br><a href='https://zhenghao2519.github.io/SpaceDrive_Page/'>https://zhenghao2519.github.io/SpaceDrive_Page/</a><br><a href='https://huggingface.co/papers/2512.10719'>https://huggingface.co/papers/2512.10719</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

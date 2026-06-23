@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41135744/"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414028429",
+      "Scholar": "FKOqtF8AAAAJ:kOdZbmsmKqcC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/41135744/'>https://pubmed.ncbi.nlm.nih.gov/41135744/</a><br><a href='https://aaltodoc.aalto.fi/items/cefa7a59-fc6b-49f4-ad80-0351ab2e3aae'>https://aaltodoc.aalto.fi/items/cefa7a59-fc6b-49f4-ad80-0351ab2e3aae</a><br><a href='https://research.aalto.fi/en/publications/personalized-real-time-inference-of-momentary-excitability-from-h/'>https://research.aalto.fi/en/publications/personalized-real-time-inference-of-momentary-excitability-from-h/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

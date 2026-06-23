@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2309.10815"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4386908490",
+      "Scholar": "SrVnrPcAAAAJ:U0iAMwwPxtsC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

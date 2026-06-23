@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2411.08128",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4404406986",
+      "Reporter": "2025 International Conference on 3D Vision (3DV), 1562-1571, 2025",
+      "Scholar": "6NjbexEAAAAJ:voxG-9qLvA4C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://dblp.org/rec/conf/3dim/PatelB25'>https://dblp.org/rec/conf/3dim/PatelB25</a><br><a href='https://arxiv.org/abs/2411.08128'>https://arxiv.org/abs/2411.08128</a><br><a href='https://camerahmr.is.tuebingen.mpg.de/'>https://camerahmr.is.tuebingen.mpg.de/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}

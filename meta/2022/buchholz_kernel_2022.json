@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "35th Conference on Learning Theory",
+    "extra": {
+      "Editors": "Loh, Po-Ling and Raginsky, Maxim",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of 35th Conference on Learning Theory",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

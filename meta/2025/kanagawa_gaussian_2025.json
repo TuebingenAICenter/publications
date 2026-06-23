@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Scholar": "UeG5w08AAAAJ:_FM0Bhl9EiAC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.17366'>https://arxiv.org/abs/2506.17366</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506-17366.html'>https://dblp.org/rec/journals/corr/abs-2506-17366.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

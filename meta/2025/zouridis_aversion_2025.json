@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41285674/"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4416690650",
+      "Scholar": "lPQLk3QAAAAJ:URolC5Kub84C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/41285674/'>https://pubmed.ncbi.nlm.nih.gov/41285674/</a><br><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12643828/'>https://pmc.ncbi.nlm.nih.gov/articles/PMC12643828/</a><br><a href='https://onlinelibrary.wiley.com/doi/10.1111/ejn.70302'>https://onlinelibrary.wiley.com/doi/10.1111/ejn.70302</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

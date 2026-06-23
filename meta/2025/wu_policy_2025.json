@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "abebe",
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2503.00632"
+      }
+    ],
+    "conferenceName": "ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415654280",
+      "Scholar": "sDHHglIAAAAJ:KUbvn5osdkgC"
+    },
+    "notes": [
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Fifth ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization"
+  }
+}

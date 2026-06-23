@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2411.13317",
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "Scholar": "pxhCcH0AAAAJ:bnK-pcrLprsC",
+      "Source": "group_webpage (kuehne)",
+      "arXiv": "2411.13317"
+    },
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

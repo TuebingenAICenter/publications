@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "dax",
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2407.09602",
+    "extra": {
+      "Citations@2026-06-01": "35",
+      "OpenAlex": "W4408218745",
+      "Preprint": "https://arxiv.org/abs/2407.09602",
+      "Scholar": "VRBv6mEAAAAJ:HDshCWvjkbEC",
+      "Source": "group_webpage (macke)",
+      "arXiv": "2407.09602"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 35</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 24</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS and University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

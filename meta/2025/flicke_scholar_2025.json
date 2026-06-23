@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "Annual Meeting of the Association for Computational Linguistics",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414828500",
+      "Scholar": "SrVnrPcAAAAJ:uAPFzskPt0AC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)"
+  }
+}

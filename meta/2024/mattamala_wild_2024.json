@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2404.07110",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Journal Abbreviation": "Auton. Robot.",
+      "OpenAlex": "W4394737063",
+      "Scholar": "b-JF-UIAAAAJ:hMsQuOkrut0C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://link.springer.com/article/10.1007/s10514-025-10202-x'>https://link.springer.com/article/10.1007/s10514-025-10202-x</a><br><a href='https://arxiv.org/abs/2404.07110'>https://arxiv.org/abs/2404.07110</a><br><a href='https://www.research.ed.ac.uk/en/publications/wild-visual-navigation-fast-traversability-learning-via-pre-train/'>https://www.research.ed.ac.uk/en/publications/wild-visual-navigation-fast-traversability-learning-via-pre-train/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

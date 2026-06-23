@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417104319",
+      "Scholar": "v-JL-hsAAAAJ:geHnlv5EZngC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.11653'>https://arxiv.org/abs/2510.11653</a><br><a href='https://huggingface.co/papers/2510.11653'>https://huggingface.co/papers/2510.11653</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

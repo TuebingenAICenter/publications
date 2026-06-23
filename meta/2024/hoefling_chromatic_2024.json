@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:19",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://elifesciences.org/articles/86860.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "19",
+      "OpenAlex": "W4311102452",
+      "Publisher": "University of Tübingen",
+      "Scholar": "lPQLk3QAAAAJ:D_sINldO8mEC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

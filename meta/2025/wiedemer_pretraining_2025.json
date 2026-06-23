@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2502.18326",
+    "callNumber": "arXiv:2502.18326",
+    "extra": {
+      "Archive ID": "2502.18326",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415188896",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:UxriW0iASnsC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

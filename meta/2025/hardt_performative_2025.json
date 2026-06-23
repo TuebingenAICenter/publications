@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2310.16608",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4387963982",
+      "Scholar": "UqtDdZUAAAAJ:M3NEmzRMIkIC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2310.16608'>https://arxiv.org/abs/2310.16608</a><br><a href='https://projecteuclid.org/journals/statistical-science/volume-40/issue-3/Performative-Prediction-Past-and-Future/10.1214/25-STS986.full'>https://projecteuclid.org/journals/statistical-science/volume-40/issue-3/Performative-Prediction-Past-and-Future/10.1214/25-STS986.full</a><br><a href='https://is.mpg.de/sf/publications/hardt2023performative'>https://is.mpg.de/sf/publications/hardt2023performative</a><br><a href='https://www.peeref.com/works/87852626'>https://www.peeref.com/works/87852626</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

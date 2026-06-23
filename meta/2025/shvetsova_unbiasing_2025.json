@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Code": "https://github.com/ninatu/utd-project",
+      "Scholar": "pxhCcH0AAAAJ:kRWSkSYxWN8C",
+      "Source": "group_webpage (kuehne)",
+      "Website": "https://utd-project.github.io/"
+    },
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2504.07092",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://iclr.cc/virtual/2025/35033"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Code": "https://github.com/AlexanderRubinstein/OCCAM",
+      "OpenAlex": "W4417249508",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "kmXOOdsAAAAJ:cFHS6HbyZ2cC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://iclr.cc/virtual/2025/35033'>https://iclr.cc/virtual/2025/35033</a><br><a href='https://arxiv.org/abs/2504.07092'>https://arxiv.org/abs/2504.07092</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions (ICLR 2025)"
+  }
+}

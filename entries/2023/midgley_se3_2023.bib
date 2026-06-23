@@ -1,0 +1,11 @@
+@misc{midgley_se3_2023,
+	title = {{SE}(3) {Equivariant} {Augmented} {Coupling} {Flows}},
+	url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/fa55eb802a531c8087e225ecf2dcfbca-Paper-Conference.pdf},
+	doi = {10.48550/arxiv.2308.10364},
+	abstract = {Coupling normalizing flows allow for fast sampling and density evaluation, making them the tool of choice for probabilistic modeling of physical systems. However, the standard coupling architecture precludes endowing flows that operate on the Cartesian coordinates of atoms with the SE(3) and permutation invariances of physical systems. This work proposes a coupling flow that preserves SE(3) and permutation equivariance by performing coordinate splits along additional augmented dimensions. At each layer, the flow maps atoms’ positions into learned SE(3) invariant bases, where we apply standard flow transformations, such as monotonic rational-quadratic splines, before returning to the original basis. Crucially, our flow preserves fast sampling and density evaluation, and may be used to produce unbiased estimates of expectations with respect to the target distribution via importance sampling. When trained on the DW4, LJ13 and QM9-positional datasets, our flow is competitive with equivariant continuous normalizing flows, while allowing sampling two orders of magnitude faster. Moreover, to the best of our knowledge, we are the first to learn the full Boltzmann distribution of alanine dipeptide by only modeling the Cartesian positions of its atoms. Lastly, we demonstrate that our flow can be trained to approximately sample from the Boltzmann distribution of the DW4 and LJ13 particle systems using only their energy functions.},
+	language = {en},
+	publisher = {Curran Associates, Inc.},
+	author = {Midgley, Laurence I. and Stimper, Vincent and Antorán, Javier and Mathieu, Émile and Schölkopf, Bernhard and Hernández-Lobato, José Miguel},
+	year = {2023},
+	keywords = {Equivariant map, Coupling (piping), Mathematics, Physics, Pure mathematics, Engineering, Mechanical engineering, NEURIPS},
+}

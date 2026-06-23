@@ -1,0 +1,13 @@
+@inproceedings{hans_be_2024,
+	title = {Be like a {Goldfish}, {Don}’t {Memorize}! {Mitigating} {Memorization} in {Generative} {LLMs}},
+	shorttitle = {Be like a {Goldfish}, {Don}’t {Memorize}!},
+	url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/2ad2dffba5079687651226ac8752df97-Paper-Conference.pdf},
+	doi = {10.48550/arxiv.2406.10209},
+	abstract = {A growing body of work has shown that large language models memorize a portion of their training data and can reproduce this training data verbatim at inference time. This observation has become a key issue for the community as it poses major privacy risks for data owners, and exposes companies to legal risks of copyright infringement claims. To mitigate training data exposure without sacrificing model performance, we introduce a simple but subtle modification to the standard next-token prediction objective for autoregressive LLMs that we call the goldfish loss. During training, a fraction of the tokens in each training data sequence are excluded from the loss computation such that the model is not supervised to predict those tokens. Later, when generating text autoregressively, these dropped tokens inhibit the verbatim reproduction of the complete chain of tokens in the training sequence. We run extensive experiments training billion-scale parameter Llama-2 models trained from scratch and demonstrate significant reductions in extractable sequences with little to no impact on validation perplexity or downstream benchmarks.},
+	language = {en},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems}},
+	publisher = {Curran Associates, Inc.},
+	author = {Hans, Abhimanyu and Kirchenbauer, John and Wen, Yuxin and Jain, Neel and Kazemi, Hamid and Singhania, Prajwal and Singh, Siddharth and Somepalli, Gowthami and Geiping, Jonas and Bhatele, Abhinav and Goldstein, Tom},
+	year = {2024},
+	keywords = {Memorization, Generative grammar, Psychology, Computer science, Cognitive psychology, Artificial intelligence, processed, MPI-IS, ELLIS Institute Tübingen, NEURIPS},
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "conferenceName": "ICLR 2025",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4404986981",
+      "Scholar": "xkuLyHoAAAAJ:blknAaTinKkC",
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2411.15958"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations"
+  }
+}

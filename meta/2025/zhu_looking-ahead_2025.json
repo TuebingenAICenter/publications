@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2511.14745",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Reporter": "NeurIPS 2025, 2025",
+      "Scholar": "UqtDdZUAAAAJ:RGFaLdJalmkC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.14745'>https://arxiv.org/abs/2511.14745</a><br><a href='https://neurips.cc/virtual/2025/poster/119768'>https://neurips.cc/virtual/2025/poster/119768</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2410.06800",
+      "Citations@2026-06-01": "27",
+      "OpenAlex": "W3175351491",
+      "Scholar": "UeG5w08AAAAJ:dTyEYWd-f8wC",
+      "arXiv": "2410.06800"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W3156666908",
+      "Scholar": "6NjbexEAAAAJ:hNFvT5Kh_mEC",
+      "Source": "group_webpage (black)",
+      "arXiv": "2104.08527"
+    },
+    "proceedingsTitle": "Proc. International Conference on Computer Vision (ICCV)"
+  }
+}

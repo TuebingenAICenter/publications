@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.13920",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.13920"
+      }
+    ],
+    "conferenceName": "Reinforcement Learning Conference: Causal Reinforcement Learning Workshop",
+    "extra": {
+      "Scholar": "1O2hcVgAAAAJ:V3AGJWp-ZtQC"
+    },
+    "proceedingsTitle": "Reinforcement Learning Conference: Causal Reinforcement Learning Workshop"
+  }
+}

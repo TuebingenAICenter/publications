@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2010.04965",
+    "conferenceName": "AIES '21",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2010.04965"
+    },
+    "proceedingsTitle": "Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society"
+  }
+}

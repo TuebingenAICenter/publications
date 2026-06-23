@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2502.12120",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2502.12120"
+      }
+    ],
+    "extra": {
+      "Archive ID": "2502.12120",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407759068",
+      "Publication Title": "arXiv (Cornell University)",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:Tiz5es2fbqcC",
+      "arXiv": "2502.12120"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS and University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

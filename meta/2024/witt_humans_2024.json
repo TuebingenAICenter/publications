@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4410638970",
+      "Publication Title": "Proceedings of the National Academy of Sciences 121 (39), e2404928121, 2024",
+      "Publisher": "National Academy of Sciences",
+      "Scholar": "1O2hcVgAAAAJ:P5F9QuxV20EC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Proceedings of the National Academy of Sciences 121 (39), e2404928121, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Proceedings of the National Academy of Sciences 121 (39), e2404928121, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Proceedings of the National Academy of Sciences 121 (39), e2404928121, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

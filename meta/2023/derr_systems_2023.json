@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2302.03522",
+    "extra": {
+      "Archive ID": "2302.03522",
+      "Citations@2026-06-01": "0",
+      "Issue": "9",
+      "OpenAlex": "W4319653896",
+      "Pages": "1283",
+      "Repository": "arXiv",
+      "Scholar": "G4MBruQAAAAJ:He_SdS2HmmMC",
+      "Volume": "25"
+    },
+    "libraryCatalog": "Entropy"
+  }
+}

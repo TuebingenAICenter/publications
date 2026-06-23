@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4408318418",
+      "Scholar": "b-JF-UIAAAAJ:q3CdL3IzO_QC",
+      "arXiv": "2309.02976"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

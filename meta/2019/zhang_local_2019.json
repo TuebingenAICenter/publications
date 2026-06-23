@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "black",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1812.01922",
+    "conferenceName": "IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Code": "https://github.com/yz-cnsdqz/TemporalActionParsing-FineGrained",
+      "Page": "https://is.mpg.de/ei/publications/bilinear2018",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

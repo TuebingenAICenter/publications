@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICLR 2025 Workshop on GenAI Watermarking (WMARK)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417241804",
+      "Scholar": "xkuLyHoAAAAJ:ns9cj8rnVeAC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2504.06446'>https://arxiv.org/abs/2504.06446</a><br><a href='https://iclr.cc/virtual/2025/35707'>https://iclr.cc/virtual/2025/35707</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "ICLR 2025 Workshop on GenAI Watermarking (WMARK)"
+  }
+}

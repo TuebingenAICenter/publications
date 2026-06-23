@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2503.04482",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2503.04482"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-06-01": "42",
+      "OpenAlex": "W4416113503",
+      "Scholar": "xkuLyHoAAAAJ:1sJd4Hv_s6UC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning (ICML)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

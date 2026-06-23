@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "33",
+      "OpenAlex": "W4402716256",
+      "Scholar": "SrVnrPcAAAAJ:vnF2_uLGgtgC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 70</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

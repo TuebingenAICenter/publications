@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2205.15449",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Archive ID": "2205.15449",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4320452361",
+      "Scholar": "UeG5w08AAAAJ:7T2F9Uy0os0C",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2205.15449"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35"
+  }
+}

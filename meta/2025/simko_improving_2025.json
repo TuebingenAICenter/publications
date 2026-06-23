@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.11938"
+      }
+    ],
+    "conferenceName": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416035462",
+      "Scholar": "DZ-fHPgAAAAJ:gGo9PeUW_JsC",
+      "arXiv": "2506.11938"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://aclanthology.org/2025.emnlp-main.1430/'>https://aclanthology.org/2025.emnlp-main.1430/</a><br><a href='https://arxiv.org/abs/2506.11938'>https://arxiv.org/abs/2506.11938</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  }
+}

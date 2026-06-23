@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "ACL Anthology",
+    "archiveLocation": "2024.acl-long.458",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:13:53",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2402.11655v2"
+      },
+      {
+        "accessDate": "2025-06-17 16:13:53",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2402.11655v2"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4402671677",
+      "Scholar": "DZ-fHPgAAAAJ:h4G4d0_olBQC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

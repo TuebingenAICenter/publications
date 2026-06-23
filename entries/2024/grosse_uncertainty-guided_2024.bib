@@ -1,0 +1,13 @@
+@inproceedings{grosse_uncertainty-guided_2024,
+	title = {Uncertainty-{Guided} {Optimization} on {Large} {Language} {Model} {Search} {Trees}},
+	shorttitle = {Uncertainty-{Guided} {Optimization}},
+	url = {https://arxiv.org/abs/2407.03951},
+	doi = {10.48550/arxiv.2407.03951},
+	abstract = {Beam search is a standard tree search algorithm when it comes to finding sequences of maximum likelihood, for example, in the decoding processes of large language models. However, it is myopic since it does not take the whole path from the root to a leaf into account. Moreover, it is agnostic to prior knowledge available about the process: For example, it does not consider that the objective being maximized is a likelihood and thereby has specific properties, like being bound in the unit interval. Taking a probabilistic approach, we define a prior belief over the LLMs' transition probabilities and obtain a posterior belief over the most promising paths in each iteration. These beliefs are helpful to define a non-myopic Bayesian-optimization-like acquisition function that allows for a more data-efficient exploration scheme than standard beam search. We discuss how to select the prior and demonstrate in on- and off-model experiments with recent large language models, including Llama-2-7b, that our method achieves higher efficiency than beam search: Our method achieves the same or a higher likelihood while expanding fewer nodes than beam search.},
+	language = {en},
+	booktitle = {{arXiv}},
+	publisher = {arXiv},
+	author = {Grosse, Julia and Wu, Ruotian and Rashid, Ahmad and Hennig, Philipp and Poupart, Pascal and Kristiadi, Agustinus},
+	year = {2024},
+	keywords = {Computer science, Language model, Artificial intelligence, processed, University of Tübingen, workshop, AABI},
+}

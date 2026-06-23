@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2402.07839",
+    "conferenceName": "The Twelfth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2402.07839"
+    },
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations (ICLR)"
+  }
+}

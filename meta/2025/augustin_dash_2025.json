@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Scholar": "0ZAb3tsAAAAJ:2v_ZtQDX9iAC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "The Ninth International Conference on Learning Representations (ICLR 2021)",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "Event Place": "Virtual Conference",
+      "OpenAlex": "W3124379600",
+      "Scholar": "UeG5w08AAAAJ:olpn-zPbct0C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "The Ninth International Conference on Learning Representations (ICLR 2021)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Code": "https://github.com/eth-ait/4d-dress",
+      "Data": "https://4d-dress.ait.ethz.ch/",
+      "Project page": "https://eth-ait.github.io/4d-dress/",
+      "Source": "group_webpage (black)"
+    },
+    "proceedingsTitle": "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

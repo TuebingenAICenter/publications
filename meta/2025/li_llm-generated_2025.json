@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "The 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4411119908",
+      "Scholar": "206vNCEAAAAJ:tzM49s52ZIMC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The 2025 Annual Conference of the Nations of the Americas Chapter of the ACL"
+  }
+}

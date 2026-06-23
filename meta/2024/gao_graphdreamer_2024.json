@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:36:12",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2312.00093"
+      }
+    ],
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "extra": {
+      "Citations@2026-06-01": "27",
+      "OpenAlex": "W4402727474",
+      "Scholar": "SrVnrPcAAAAJ:TesyEGJKHF4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 55</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

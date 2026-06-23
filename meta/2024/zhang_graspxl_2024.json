@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Code": "https://github.com/zdchan/graspxl",
+      "Paper": "https://arxiv.org/pdf/2403.19649.pdf",
+      "Source": "group_webpage (black)",
+      "Video": "https://www.youtube.com/embed/0-dRbxmX2PI"
+    },
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV 2024)",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

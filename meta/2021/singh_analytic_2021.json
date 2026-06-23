@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)",
+    "extra": {
+      "Editors": "M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)"
+  }
+}

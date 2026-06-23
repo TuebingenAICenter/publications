@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Code": "https://github.com/TingtingLiao/CAR",
+      "Homepage": "https://tingtingliao.github.io/CAR/",
+      "Paper": "https://arxiv.org/abs/2304.03903",
+      "Source": "group_webpage (black)",
+      "Youtube": "https://youtu.be/sVk6dAtC1kQ"
+    },
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

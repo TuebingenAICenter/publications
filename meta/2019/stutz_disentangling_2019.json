@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1812.00740",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "extra": {
+      "Citations@2026-06-01": "19",
+      "OpenAlex": "W2902031012",
+      "Scholar": "0ZAb3tsAAAAJ:0KyAp5RtaNEC",
+      "Source": "group_webpage (hein)",
+      "arXiv": "1812.00740"
+    },
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

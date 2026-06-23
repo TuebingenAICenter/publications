@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2312.02997",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4393462601",
+      "Scholar": "FKOqtF8AAAAJ:gxb_f1p9zx4C",
+      "arXiv": "2312.02997"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

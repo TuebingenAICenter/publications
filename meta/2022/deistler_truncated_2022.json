@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2210.04815",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Archive ID": "2210.04815",
+      "Citations@2026-06-01": "24",
+      "OpenAlex": "W4304731997",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:MSzX15-gZgkC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
+  }
+}

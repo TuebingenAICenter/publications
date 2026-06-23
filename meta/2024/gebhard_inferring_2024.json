@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2312.08295",
+    "conferenceName": "3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2312.08295"
+    },
+    "proceedingsTitle": "3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)"
+  }
+}

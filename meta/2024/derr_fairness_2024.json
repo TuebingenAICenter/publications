@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:43:33",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://nejsds.nestat.org/journal/NEJSDS/article/84/file/pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Number": "1",
+      "OpenAlex": "W4404508978",
+      "Publisher": "University of Tübingen",
+      "Scholar": "G4MBruQAAAAJ:h4edN3iSU_gC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

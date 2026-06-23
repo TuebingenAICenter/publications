@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2406.05072",
+    "extra": {
+      "Archive ID": "2406.05072",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4399511642",
+      "Pages": "42421--42452",
+      "Scholar": "UeG5w08AAAAJ:foquWX3nUaYC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "267"
+    }
+  }
+}

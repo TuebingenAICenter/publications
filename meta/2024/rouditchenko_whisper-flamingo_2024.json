@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.10082",
+    "extra": {
+      "Citations@2026-06-01": "60",
+      "Code": "https://github.com/roudimit/whisper-flamingo",
+      "Scholar": "pxhCcH0AAAAJ:uWQEDVKXjbEC"
+    }
+  }
+}

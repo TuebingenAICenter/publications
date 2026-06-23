@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.20849",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://openreview.net/forum?id=r87JCp93Vl"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417322606",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "DZ-fHPgAAAAJ:z9bEO1GD3pEC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=r87JCp93Vl'>https://openreview.net/forum?id=r87JCp93Vl</a><br><a href='https://neurips.cc/virtual/2025/129246'>https://neurips.cc/virtual/2025/129246</a><br><a href='https://arxiv.org/abs/2510.20849'>https://arxiv.org/abs/2510.20849</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

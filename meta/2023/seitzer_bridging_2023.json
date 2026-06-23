@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=b9tUk-f_aG",
+    "extra": {
+      "Archive ID": "b9tUk-f_aG",
+      "Citations@2026-06-01": "31",
+      "Code": "https://github.com/amazon-science/object-centric-learning-framework",
+      "Conference Name": "Eleventh International Conference on Learning Representations",
+      "OpenAlex": "W4298186173",
+      "Proceedings Title": "Proceedings of the Eleventh International Conference on Learning Representations",
+      "Scholar": "DZ-fHPgAAAAJ:lEqsFd_EmTwC",
+      "Source": "group_webpage (martius)",
+      "Website": "https://dinosaur-paper.github.io/"
+    }
+  }
+}

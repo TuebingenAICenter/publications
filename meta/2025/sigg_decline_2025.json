@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.12633",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:30",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2410.12633v1"
+      }
+    ],
+    "conferenceName": "CHI",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4403578431",
+      "Scholar": "UqtDdZUAAAAJ:GnPB-g6toBAC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems"
+  }
+}

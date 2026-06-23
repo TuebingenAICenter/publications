@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "bioRxiv",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/04/2025.05.28.656584.full.pdf"
+      }
+    ],
+    "extra": {
+      "Archive ID": "bioRxiv: 2025.05.28.656584",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4410854305",
+      "Scholar": "FKOqtF8AAAAJ:b2kfBsK7yCQC"
+    },
+    "libraryCatalog": "bioRxiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.05.28.656584'>https://sciety.org/articles/activity/10.1101/2025.05.28.656584</a><br><a href='https://colab.ws/articles/10.1101%2F2025.05.28.656584'>https://colab.ws/articles/10.1101%2F2025.05.28.656584</a><br><a href='https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/170772'>https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/170772</a><br><a href='https://goncalveslab.sites.vib.be/en/publications'>https://goncalveslab.sites.vib.be/en/publications</a><br><a href='https://sciencecast.org/casts/4vwb875hr2ck'>https://sciencecast.org/casts/4vwb875hr2ck</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

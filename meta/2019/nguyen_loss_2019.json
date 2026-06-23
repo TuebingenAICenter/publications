@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1809.10749",
+    "conferenceName": "International Conference on Learning Representations",
+    "extra": {
+      "Source": "group_webpage (hein)",
+      "arXiv": "1809.10749"
+    },
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}

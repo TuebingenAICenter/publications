@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=C-xa_D3oTj6",
+    "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Archive ID": "2206.00484",
+      "Arxiv": "2206.00484",
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W4281899366",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:_B80troHkn4C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR)"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.14286",
+    "extra": {
+      "Archive ID": "2404.14286",
+      "Citations@2026-06-01": "17",
+      "Issue": "12",
+      "Journal Abbreviation": "PRD",
+      "OpenAlex": "W4416352768",
+      "Repository": "arXiv",
+      "Scholar": "VRBv6mEAAAAJ:aqlVkmm33-oC",
+      "Volume": "110",
+      "arXiv": "2404.14286"
+    },
+    "libraryCatalog": "APS",
+    "notes": [
+      {
+        "note": "<p><a href='https://journals.aps.org/prd/accepted/10.1103/vpyp-nvfp'>https://journals.aps.org/prd/accepted/10.1103/vpyp-nvfp</a><br><a href='https://arxiv.org/abs/2404.14286'>https://arxiv.org/abs/2404.14286</a><br><a href='https://pure.mpg.de/pubman/item/item_3588443'>https://pure.mpg.de/pubman/item/item_3588443</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

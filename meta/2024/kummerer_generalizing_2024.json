@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Conference": "Vision Sciences Society Annual Meeting 2024",
+      "Number": "10",
+      "OpenAlex": "W4402905709",
+      "Publisher": "University of Tübingen",
+      "Scholar": "0z0fNxUAAAAJ:pYKElYtJMmwC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

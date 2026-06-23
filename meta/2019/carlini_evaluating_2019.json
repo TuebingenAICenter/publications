@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1902.06705",
+    "extra": {
+      "Archive ID": "1902.06705",
+      "Citations@2026-06-01": "581",
+      "OpenAlex": "W2913848079",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:kNdYIx-mwKoC"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

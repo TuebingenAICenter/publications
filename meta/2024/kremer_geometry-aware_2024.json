@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "PMLR",
+    "archiveLocation": "https://proceedings.mlr.press/v235/kremer24a.html",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4398192168",
+      "Pages": "25560--25582",
+      "Repository": "PMLR",
+      "Scholar": "DZ-fHPgAAAAJ:IXO3h7_Xq-wC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "235"
+    },
+    "libraryCatalog": "Proceedings of Machine Learning Research"
+  }
+}

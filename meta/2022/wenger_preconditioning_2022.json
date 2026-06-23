@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2107.00243",
+    "conferenceName": "39th International Conference on Machine Learning",
+    "extra": {
+      "Archive ID": "2107.00243",
+      "Citations@2026-06-01": "3",
+      "Editors": "Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan",
+      "OpenAlex": "W4287105722",
+      "Scholar": "UeG5w08AAAAJ:ZfRJV9d4-WMC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the 39th International Conference on Machine Learning"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2301.08544",
+    "extra": {
+      "Archive ID": "2301.08544",
+      "Citations@2026-06-01": "0",
+      "Journal Abbreviation": "Quantum",
+      "OpenAlex": "W4408827273",
+      "Pages": "1672",
+      "Scholar": "DZ-fHPgAAAAJ:DVyGZPgByDIC",
+      "Volume": "9",
+      "arXiv": "2301.08544"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://quantum-journal.org/papers/q-2025-03-25-1672/'>https://quantum-journal.org/papers/q-2025-03-25-1672/</a><br><a href='https://arxiv.org/abs/2301.08544'>https://arxiv.org/abs/2301.08544</a><br><a href='https://dblp.org/rec/journals/quantum/BuchholzKS25'>https://dblp.org/rec/journals/quantum/BuchholzKS25</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2405.12166",
+    "extra": {
+      "Archive ID": "2405.12166",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4402346106",
+      "Repository": "arXiv",
+      "Scholar": "adnTgaAAAAAJ:lYAcb2jw7qUC",
+      "Source": "group_webpage (williamson)",
+      "arXiv": "2405.12166"
+    }
+  }
+}

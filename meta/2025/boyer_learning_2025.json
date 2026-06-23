@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2505.12171",
+    "callNumber": "arXiv:2505.12171",
+    "extra": {
+      "Archive ID": "2505.12171",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417094703",
+      "Repository": "arXiv",
+      "Scholar": "9LajlSsAAAAJ:kRWSkSYxWN8C"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

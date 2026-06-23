@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2010.12606",
+    "extra": {
+      "Archive ID": "2010.12606",
+      "Citations@2026-06-01": "76",
+      "Conference": "NeurIPS 2020",
+      "OpenAlex": "W3093678204",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:mB3voiENLucC",
+      "Source": "group_webpage (bethge)",
+      "arXiv": "2010.12606"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

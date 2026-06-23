@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "archive": "OpenReview",
+    "conferenceName": "Medical Imaging with Deep Learning",
+    "extra": {
+      "Source": "group_webpage (berens)"
+    },
+    "proceedingsTitle": "Proceedings of the Medical Imaging with Deep Learning 2023"
+  }
+}

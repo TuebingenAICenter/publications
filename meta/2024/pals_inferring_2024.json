@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "Advances in Neural Information Processing Systems 37",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Editors": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+      "OpenAlex": "W4400024711",
+      "Scholar": "FKOqtF8AAAAJ:ddB7do2jUx8C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+  }
+}

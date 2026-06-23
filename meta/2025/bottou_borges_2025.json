@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Alternative version": "Bottou, L. and Schölkopf, B. (2023) \"Borges und die Künstliche Intelligenz\", Frankfurter Allgemeine Zeitung, 18 December 2023, Nr. 294",
+      "Book Title": "Libreria Editrice Vaticana eBooks",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416947782",
+      "Reporter": "Libreria Editrice Vaticana eBooks",
+      "Scholar": "DZ-fHPgAAAAJ:AI-5X4gT9lUC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.pas.va/en/publications/acta/acta28pas/scholkopf.html'>https://www.pas.va/en/publications/acta/acta28pas/scholkopf.html</a><br><a href='https://www.pas.va/en/publications/acta/acta28pas.html'>https://www.pas.va/en/publications/acta/acta28pas.html</a><br><a href='https://arxiv.org/abs/2310.01425'>https://arxiv.org/abs/2310.01425</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

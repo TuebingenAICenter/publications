@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "25th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel",
+      "OpenAlex": "W4287725461",
+      "Scholar": "mMifMdoAAAAJ:Dip1O2bNi0gC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

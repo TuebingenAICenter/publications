@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2209.05980",
+    "extra": {
+      "Archive ID": "2209.05980",
+      "Citations@2026-06-01": "3",
+      "Conference": "ICLR 2023",
+      "OpenAlex": "W4320470088",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:1lhNe0rCu4AC"
+    },
+    "libraryCatalog": "OpenReview"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.09981"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417309039",
+      "Scholar": "SrVnrPcAAAAJ:oqD4_j7ulsYC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/poster/117887'>https://neurips.cc/virtual/2025/poster/117887</a><br><a href='https://research.nvidia.com/labs/avg/publication/yang.chitta.etal.neurips2025/'>https://research.nvidia.com/labs/avg/publication/yang.chitta.etal.neurips2025/</a><br><a href='https://arxiv.org/abs/2506.09981'>https://arxiv.org/abs/2506.09981</a><br><a href='https://opendrivelab.com/ReSim'>https://opendrivelab.com/ReSim</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

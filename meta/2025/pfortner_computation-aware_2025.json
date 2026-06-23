@@ -1,0 +1,69 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:14:27",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.08971v2"
+      },
+      {
+        "accessDate": "2025-06-17 16:14:27",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.08971v2"
+      },
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2405.08971"
+      }
+    ],
+    "conferenceName": "AISTATS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4396986729",
+      "Scholar": "UeG5w08AAAAJ:LI9QrySNdTsC",
+      "archivePrefix": "arXiv",
+      "eprint": "2405.08971",
+      "primaryClass": "cs.LG"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

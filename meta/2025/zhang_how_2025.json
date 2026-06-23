@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2506.07673",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.07673?"
+      }
+    ],
+    "conferenceName": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417134733",
+      "Scholar": "adnTgaAAAAAJ:g8uWPOAv7ggC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.07673'>https://arxiv.org/abs/2506.07673</a><br><a href='https://neurips.cc/virtual/2025/122500'>https://neurips.cc/virtual/2025/122500</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506-07673'>https://dblp.org/rec/journals/corr/abs-2506-07673</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)"
+  }
+}

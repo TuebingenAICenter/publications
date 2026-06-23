@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NLP4PI (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4412944274",
+      "Reporter": "Proceedings of the Fourth Workshop on NLP for Positive Impact (NLP4PI), 196-214, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:YfAA0ZJ8dU0C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://aclanthology.org/2025.nlp4pi-1.17/'>https://aclanthology.org/2025.nlp4pi-1.17/</a><br><a href='https://arxiv.org/abs/2305.14597'>https://arxiv.org/abs/2305.14597</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

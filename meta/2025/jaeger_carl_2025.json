@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2504.17838"
+      }
+    ],
+    "conferenceName": "Conference on Robot Learning (CoRL)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416375268",
+      "Scholar": "SrVnrPcAAAAJ:oursBaop5wYC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v305/jaeger25a.html'>https://proceedings.mlr.press/v305/jaeger25a.html</a><br><a href='https://arxiv.org/abs/2504.17838'>https://arxiv.org/abs/2504.17838</a><br><a href='https://research.nvidia.com/labs/avg/publication/jaeger.dauner.etal.corl2025/'>https://research.nvidia.com/labs/avg/publication/jaeger.dauner.etal.corl2025/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of The 9th Conference on Robot Learning (CoRL 2025)"
+  }
+}

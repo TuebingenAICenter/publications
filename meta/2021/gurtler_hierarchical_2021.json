@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "OpenAlex": "W3214001120",
+      "Scholar": "b-JF-UIAAAAJ:XiVPGOgt02cC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2112.03100",
+      "code": "https://github.com/martius-lab/HiTS",
+      "video": "https://youtu.be/JkPaI3uZU6c"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 34"
+  }
+}

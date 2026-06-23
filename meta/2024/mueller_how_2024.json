@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:45:42",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.17447v1"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399151166",
+      "Publication Title": "arXiv (Cornell University)",
+      "Publisher": "University of Tübingen",
+      "Scholar": "0ZAb3tsAAAAJ:2l5NCbZemmgC"
+    },
+    "notes": [
+      {
+        "note": "<div data-schema-version=\"9\"><p>Poster at ICLR 2024 R2-FM Workshop</p>\n</div>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Poster at ICLR 2024 R2-FM Workshop ”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

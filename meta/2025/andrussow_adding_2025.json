@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE-RAS International Conference on Humanoid Robots (Humanoids)",
+    "extra": {
+      "Address": "Seoul, South Korea",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4415524608",
+      "Reporter": "2025 IEEE-RAS 24th International Conference on Humanoid Robots (Humanoids …, 2025",
+      "Scholar": "b-JF-UIAAAAJ:PVjk1bu6vJQC",
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "9"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://is.mpg.de/publications/andrussow25-hr-minsound'>https://is.mpg.de/publications/andrussow25-hr-minsound</a><br><a href='https://dblp.org/rec/conf/humanoids/2025'>https://dblp.org/rec/conf/humanoids/2025</a><br><a href='https://www.proceedings.com/82618.html'>https://www.proceedings.com/82618.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE-RAS International Conference on Humanoid Robots (Humanoids)"
+  }
+}

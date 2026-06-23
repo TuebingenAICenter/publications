@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "3rd Annual Conference on Robot Learning",
+    "extra": {
+      "Editors": "Leslie Pack Kaelbling and Danica Kragic and Komei Sugiura",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Proceedings of the 3rd Annual Conference on Robot Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

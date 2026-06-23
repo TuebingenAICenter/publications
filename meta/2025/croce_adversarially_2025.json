@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "SaTML",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407719410",
+      "Scholar": "0ZAb3tsAAAAJ:69ZgNCALVd0C"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Published at ICML 2024 Workshop on Foundation Models in the Wild.</p>\n</div>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

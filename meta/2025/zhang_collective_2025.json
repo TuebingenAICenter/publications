@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414951773",
+      "Scholar": "DZ-fHPgAAAAJ:Nm_okVSxvOsC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.preprints.org/manuscript/202508.1640'>https://www.preprints.org/manuscript/202508.1640</a><br><a href='https://sciety.org/articles/activity/10.20944/preprints202508.1640.v3'>https://sciety.org/articles/activity/10.20944/preprints202508.1640.v3</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

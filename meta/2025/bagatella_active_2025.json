@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2410.05026",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4403324002",
+      "Scholar": "b-JF-UIAAAAJ:kz9GbA2Ns4gC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2410.05026"
+    },
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

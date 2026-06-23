@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "SIGGRAPH",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4406841378",
+      "Scholar": "SrVnrPcAAAAJ:hHIA4WEVY-EC"
+    },
+    "proceedingsTitle": "International Conference on Computer Graphics and Interactive Techniques"
+  }
+}

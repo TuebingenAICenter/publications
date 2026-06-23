@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Conference": "35th Conference on Neural Information Processing Systems (NeurIPS 2021)",
+      "Conference Name": "NeurIPS",
+      "Proceedings Title": "Advances in Neural Information Processing Systems",
+      "Source": "group_webpage (geiger)"
+    }
+  }
+}

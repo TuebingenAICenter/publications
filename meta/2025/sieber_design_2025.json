@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.09389",
+    "extra": {
+      "Archive ID": "arXiv:2510.09389",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417129454",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:4OULZ7Gr8RgC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.09389'>https://arxiv.org/abs/2510.09389</a><br><a href='https://dblp.org/rec/journals/corr/abs-2510-09389'>https://dblp.org/rec/journals/corr/abs-2510-09389</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

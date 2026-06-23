@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2102.10880",
+    "extra": {
+      "Archive ID": "2102.10880",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3131236796",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:V3AGJWp-ZtQC",
+      "arXiv": "2102.10880"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

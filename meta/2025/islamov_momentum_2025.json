@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2508.15071",
+    "conferenceName": "NeurIPS 2025",
+    "extra": {
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2508.15071"
+    },
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

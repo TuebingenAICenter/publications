@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "ACL Anthology",
+    "archiveLocation": "2022.naacl-main.389",
+    "extra": {
+      "Archive ID": "2205.02293",
+      "Citations@2026-06-01": "0",
+      "Editors": "Marine Carpuat and Marie-Catherine de Marneffe and Iván Vladimir Meza Ruiz",
+      "OpenAlex": "W4309534074",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:PRxwKtMv80cC"
+    },
+    "libraryCatalog": "ACL Anthology"
+  }
+}

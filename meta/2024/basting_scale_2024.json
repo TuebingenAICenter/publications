@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:58:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://www.scitepress.org/Papers/2024/123798/123798.pdf"
+      }
+    ],
+    "conferenceName": "VISAPP",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4392402551",
+      "Scholar": "0z0fNxUAAAAJ:dAp6zn-oMfAC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2203.04176",
+    "conferenceName": "International Conference on Learning Representations (ICLR 2022)",
+    "extra": {
+      "Archive ID": "2203.04176",
+      "Citations@2026-06-01": "10",
+      "Event Place": "Virtual Conference",
+      "OpenAlex": "W4221167295",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:zGWyAL6qfKUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "OpenReview",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR 2022)"
+  }
+}

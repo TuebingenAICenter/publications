@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Source": "group_webpage (pons-moll)",
+      "arXiv": "2406.09905"
+    },
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}

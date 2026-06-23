@@ -1,0 +1,46 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4407248359",
+      "Publication Title": "arXiv (Cornell University)",
+      "Scholar": "206vNCEAAAAJ:XiVPGOgt02cC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning"
+  }
+}

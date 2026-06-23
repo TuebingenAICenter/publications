@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.14886",
+    "extra": {
+      "Archive ID": "2312.14886",
+      "Citations@2026-06-01": "0",
+      "Journal Abbreviation": "Anal. Appl.",
+      "OpenAlex": "W4417067719",
+      "Pages": "1-29",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:vbGhcppDl1QC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2312.14886'>https://arxiv.org/abs/2312.14886</a><br><a href='https://marvinpfoertner.github.io/publications/'>https://marvinpfoertner.github.io/publications/</a><br><a href='https://eurekamag.com/research/102/983/102983525.php'>https://eurekamag.com/research/102/983/102983525.php</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

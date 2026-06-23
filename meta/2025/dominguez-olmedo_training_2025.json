@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2407.07890",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:00:13",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2407.07890v3"
+      }
+    ],
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR 2025)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4400601293",
+      "Scholar": "adnTgaAAAAAJ:H_jBuBxbQIAC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 13</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR 2025)"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2410.11536",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Reporter": "The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025",
+      "Scholar": "kmXOOdsAAAAJ:NhqRSupF_l8C",
+      "arXiv": "2410.11536"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/115181'>https://neurips.cc/virtual/2025/loc/san-diego/poster/115181</a><br><a href='https://openreview.net/forum?id=y8Hv7EdcRF'>https://openreview.net/forum?id=y8Hv7EdcRF</a><br><a href='https://arxiv.org/abs/2410.11536'>https://arxiv.org/abs/2410.11536</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

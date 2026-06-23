@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1905.12081",
+    "extra": {
+      "Archive ID": "1905.12081",
+      "Citations@2026-06-01": "5",
+      "Note": "also at NeurIPS 2019 Workshop Do the right thing: machine learning and causal inference for improved decision making",
+      "OpenAlex": "W4298170872",
+      "Pages": "1--10",
+      "Scholar": "DZ-fHPgAAAAJ:OzO231GTI64C",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "124"
+    }
+  }
+}

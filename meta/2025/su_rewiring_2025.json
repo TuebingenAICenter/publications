@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "liu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "arXiv:2510.14853",
+      "Citations@2026-06-01": "1",
+      "Scholar": "73IbXtsAAAAJ:VL0QpB8kHFEC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.14853'>https://arxiv.org/abs/2510.14853</a><br><a href='https://huggingface.co/papers/2510.14853'>https://huggingface.co/papers/2510.14853</a><br><a href='https://researchtrend.ai/papers/2510.14853'>https://researchtrend.ai/papers/2510.14853</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

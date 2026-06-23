@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2504.17660",
+    "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "San Diego Convention Center and Mexico City",
+      "OpenAlex": "W4415307783",
+      "Scholar": "FKOqtF8AAAAJ:s_OEDnM-dbEC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2504.17660'>https://arxiv.org/abs/2504.17660</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/116390'>https://neurips.cc/virtual/2025/loc/san-diego/poster/116390</a><br><a href='https://openreview.net/forum?id=kN0YHWGDPH'>https://openreview.net/forum?id=kN0YHWGDPH</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  }
+}

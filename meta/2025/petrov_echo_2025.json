@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415991076",
+      "Scholar": "OpXMNnMAAAAJ:i2xiXl-TujoC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.21556'>https://arxiv.org/abs/2508.21556</a><br><a href='https://mcml.ai/publications/pgm%2B25/'>https://mcml.ai/publications/pgm%2B25/</a><br><a href='https://tobias-lib.uni-tuebingen.de/xmlui/handle/10900/171026'>https://tobias-lib.uni-tuebingen.de/xmlui/handle/10900/171026</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

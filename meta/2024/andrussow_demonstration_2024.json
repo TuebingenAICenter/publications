@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Conference on Robot Learning (CoRL)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "proceedingsTitle": "Conference on Robot Learning (CoRL)"
+  }
+}

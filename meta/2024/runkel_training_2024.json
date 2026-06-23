@@ -1,0 +1,52 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:27",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025W/WiCV/papers/Runkel_Training_Data_Reconstruction_Privacy_due_to_Uncertainty_CVPRW_2025_paper.pdf"
+      }
+    ],
+    "extra": {
+      "Archive ID": "2412.08544",
+      "Citations@2026-06-01": "0",
+      "Conference Name": "CVPR",
+      "OpenAlex": "W4414197592",
+      "Pages": "3502-3510",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:sSrBHYA8nusC",
+      "arXiv": "2412.08544"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

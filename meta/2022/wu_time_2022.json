@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "archive": "Scientific Reports",
+    "archiveLocation": "12:1-14",
+    "extra": {
+      "Archive ID": "10.1038/s41598-022-07901-1",
+      "Citations@2026-06-01": "13",
+      "Issue": "1",
+      "OpenAlex": "W3202250901",
+      "Pages": "1-14",
+      "Repository": "Scientific Reports",
+      "Scholar": "1O2hcVgAAAAJ:isC4tDSrTZIC",
+      "Volume": "12"
+    },
+    "libraryCatalog": "Nature"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2502.09287",
+    "conferenceName": "COLT",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407574915",
+      "Scholar": "xkuLyHoAAAAJ:YFjsv_pBGBYC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v291/francois25a.html'>https://proceedings.mlr.press/v291/francois25a.html</a><br><a href='https://arxiv.org/abs/2502.09287'>https://arxiv.org/abs/2502.09287</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Thirty Eighth Conference on Learning Theory"
+  }
+}

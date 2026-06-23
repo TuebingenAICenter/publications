@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.10015",
+    "conferenceName": "EMNLP",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4416036495",
+      "Scholar": "xkuLyHoAAAAJ:pqnbT2bcN3wC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://aclanthology.org/2025.emnlp-main.1001/'>https://aclanthology.org/2025.emnlp-main.1001/</a><br><a href='https://arxiv.org/abs/2507.10015'>https://arxiv.org/abs/2507.10015</a><br><a href='https://huggingface.co/papers/2507.10015'>https://huggingface.co/papers/2507.10015</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+  }
+}

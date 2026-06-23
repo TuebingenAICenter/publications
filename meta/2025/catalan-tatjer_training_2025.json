@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "arXiv:2510.06213",
+      "Citations@2026-06-01": "0",
+      "Conference Name": "NeurIPS (Workshop)",
+      "OpenAlex": "W4414982525",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "206vNCEAAAAJ:KUbvn5osdkgC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.06213'>https://arxiv.org/abs/2510.06213</a><br><a href='https://openreview.net/forum?id=t6e4X2UBX8'>https://openreview.net/forum?id=t6e4X2UBX8</a><br><a href='https://neurips.cc/virtual/2025/126559'>https://neurips.cc/virtual/2025/126559</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

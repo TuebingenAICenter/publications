@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2405.12345",
+      "Source": "group_webpage (williamson)",
+      "arXiv": "2405.12345"
+    }
+  }
+}

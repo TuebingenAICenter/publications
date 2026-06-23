@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Reporter": "arXiv preprint arXiv:2511.14394, 2025",
+      "Scholar": "6NjbexEAAAAJ:iC1Mcd5kvfwC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://is.mpg.de/publications/bedlam2'>https://is.mpg.de/publications/bedlam2</a><br><a href='https://bedlam2.is.tue.mpg.de/index.html'>https://bedlam2.is.tue.mpg.de/index.html</a><br><a href='https://arxiv.org/abs/2511.14394'>https://arxiv.org/abs/2511.14394</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}

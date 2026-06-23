@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2308.02033",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (hardt)"
+    },
+    "proceedingsTitle": "Proceedings of the 40th International Conference on Machine Learning"
+  }
+}

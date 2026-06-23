@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2408.10002",
+    "conferenceName": "Advances in Neural Information Processing Systems 37",
+    "extra": {
+      "Source": "group_webpage (hardt)",
+      "arXiv": "2408.10002"
+    },
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+  }
+}

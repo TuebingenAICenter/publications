@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.04030",
+    "callNumber": "arXiv:2502.04030",
+    "extra": {
+      "Archive ID": "arXiv:2502.04030",
+      "Citations@2026-06-01": "3",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:olpn-zPbct0C"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.04030'>https://arxiv.org/abs/2502.04030</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-04030'>https://dblp.org/rec/journals/corr/abs-2502-04030</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

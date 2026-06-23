@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2304.01117",
+    "extra": {
+      "Archive ID": "2304.01117",
+      "Source": "group_webpage (martius)",
+      "arXiv": "2304.01117"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

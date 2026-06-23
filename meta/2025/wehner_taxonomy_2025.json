@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.CL",
+    "extra": {
+      "Archive ID": "2502.19649",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415313826",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:txeM2kYbVNMC",
+      "Status": "TMLR 2025 Survey Certification"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:48:43",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://proceedings.mlr.press/v238/monzio-compagnoni24a/monzio-compagnoni24a.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:48:43",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://proceedings.mlr.press/v238/monzio-compagnoni24a/monzio-compagnoni24a.pdf"
+      }
+    ],
+    "conferenceName": "AISTATS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4392019725",
+      "Scholar": "xkuLyHoAAAAJ:hFOr9nPyWt4C"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 27th International Conference on Artificial Intelligence and Statistics"
+  }
+}

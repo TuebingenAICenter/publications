@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.12861",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4402346098",
+      "Scholar": "0z0fNxUAAAAJ:jlhcAiayVhoC"
+    },
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

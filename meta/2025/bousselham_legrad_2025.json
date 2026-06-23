@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.03214",
+    "extra": {
+      "Citations@2026-06-01": "35",
+      "Code": "https://github.com/WalBouss/LeGrad",
+      "HuggingFace": "https://huggingface.co/spaces/WalidBouss/LeGrad",
+      "Scholar": "pxhCcH0AAAAJ:SP6oXDckpogC",
+      "Website": "https://walidbousselham.com/LeGrad/"
+    }
+  }
+}

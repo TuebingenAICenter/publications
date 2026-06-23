@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "archive": "PsyArXiv",
+    "archiveLocation": "https://psyarxiv.com/c3fuq/",
+    "conferenceName": "45th Annual Conference of the Cognitive Science Society",
+    "extra": {
+      "Source": "group_webpage (wu)"
+    },
+    "proceedingsTitle": "Proceedings of the 45th Annual Conference of the Cognitive Science Society"
+  }
+}

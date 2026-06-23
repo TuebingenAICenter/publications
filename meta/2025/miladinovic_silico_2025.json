@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417049741",
+      "Scholar": "DZ-fHPgAAAAJ:RmNfB3aBSJEC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s43588-025-00870-1'>https://www.nature.com/articles/s43588-025-00870-1</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41094040/'>https://pubmed.ncbi.nlm.nih.gov/41094040/</a><br><a href='https://arxiv.org/abs/2503.23535'>https://arxiv.org/abs/2503.23535</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "1807.09306",
+    "conferenceName": "AAAI Conference on Artificial Intelligence",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1807.09306"
+    },
+    "proceedingsTitle": "Proceedings of the AAAI Conference on Artificial Intelligence"
+  }
+}

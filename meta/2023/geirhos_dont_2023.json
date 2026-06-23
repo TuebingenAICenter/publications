@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.04719",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:43:20",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=s0Jvdolv2I"
+      }
+    ],
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4380136051",
+      "Scholar": "v-JL-hsAAAAJ:pqnbT2bcN3wC"
+    },
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 27</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

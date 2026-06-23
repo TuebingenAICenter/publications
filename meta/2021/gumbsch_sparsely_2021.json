@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2110.15949",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "M. Ranzato and A. Beygelzimer and Y. Dauphin and P. S. Liang and J. Wortman Vaughan",
+      "OpenAlex": "W3209227539",
+      "Scholar": "b-JF-UIAAAAJ:J-pR_7NvFogC"
+    }
+  }
+}

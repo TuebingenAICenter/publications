@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2311.03386",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4388514204",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:J_g5lzvAfSwC",
+      "arXiv": "2311.03386"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

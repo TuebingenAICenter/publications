@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4410396393",
+      "Scholar": "0ZAb3tsAAAAJ:zdjWy_NXXwUC"
+    },
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

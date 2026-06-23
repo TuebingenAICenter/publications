@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "ArXiv": "http://arxiv.org/abs/2412.17811",
+      "Citations@2026-06-01": "1",
+      "Code": "https://github.com/biansy000/ChatGarment",
+      "Data": "https://huggingface.co/datasets/sy000/ChatGarmentDataset",
+      "OpenAlex": "W4405783276",
+      "Project": "https://chatgarment.github.io/",
+      "Reporter": "Proceedings of the Computer Vision and Pattern Recognition Conference, 2924-2934, 2025",
+      "Scholar": "6NjbexEAAAAJ:nk1qRvIppk4C",
+      "Video": "https://www.youtube.com/watch?v=-Fj4mN3jeNo"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2412.17811'>https://arxiv.org/abs/2412.17811</a><br><a href='https://chatgarment.github.io/'>https://chatgarment.github.io/</a><br><a href='https://openaccess.thecvf.com/content/CVPR2025/html/Bian_ChatGarment_Garment_Estimation_Generation_and_Editing_via_Large_Language_Models_CVPR_2025_paper.html'>https://openaccess.thecvf.com/content/CVPR2025/html/Bian_ChatGarment_Garment_Estimation_Generation_and_Editing_via_Large_Language_Models_CVPR_2025_paper.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

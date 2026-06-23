@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "IMIMIC (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "9",
+      "Scholar": "lPQLk3QAAAAJ:Z5m8FVwuT1cC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2504.08481'>https://arxiv.org/abs/2504.08481</a><br><a href='https://imimic-workshop.com/'>https://imimic-workshop.com/</a><br><a href='https://github.com/kdjoumessi/Self-Explainable-CNN-Transformer'>https://github.com/kdjoumessi/Self-Explainable-CNN-Transformer</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

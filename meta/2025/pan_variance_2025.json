@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "EWRL (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Reporter": "Eighteenth European Workshop on Reinforcement Learning, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:3Y8oUG17k5cC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=AvxecjmCtI'>https://openreview.net/forum?id=AvxecjmCtI</a><br><a href='https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/program/'>https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/program/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

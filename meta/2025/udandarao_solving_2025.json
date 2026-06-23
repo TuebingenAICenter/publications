@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4416550768",
+      "Scholar": "0z0fNxUAAAAJ:I858iXPj1OkC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.16655'>https://arxiv.org/abs/2511.16655</a><br><a href='https://huggingface.co/papers/2511.16655'>https://huggingface.co/papers/2511.16655</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

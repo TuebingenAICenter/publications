@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2508.10474",
+      "Citations@2026-06-01": "4",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:0d9pApVQ-n0C"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.10474'>https://arxiv.org/abs/2508.10474</a><br><a href='https://www.emergentmind.com/papers/2508.10474'>https://www.emergentmind.com/papers/2508.10474</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

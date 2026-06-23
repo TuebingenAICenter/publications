@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2506.12543",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415111888",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:2P1L_qKh6hAC",
+      "arxiv": "2506.12543"
+    },
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416439249",
+      "Scholar": "mMifMdoAAAAJ:buQ7SEKw-1sC"
+    },
+    "notes": [
+      {
+        "note": "<p><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12618015/'>https://pmc.ncbi.nlm.nih.gov/articles/PMC12618015/</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41246215/'>https://pubmed.ncbi.nlm.nih.gov/41246215/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
