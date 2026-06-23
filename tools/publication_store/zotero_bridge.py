@@ -1,7 +1,8 @@
-"""Bridge a Zotero RDF library to/from the store's ``.bib`` + sidecar pairs.
+"""Bridge a Zotero RDF library to/from the store's ``.bib`` + sidecar entries.
 
-``ZoteroItem``\\ s + ``ZoteroCollection``\\ s  ⇄  per-entry ``(.bib, sidecar)`` pairs,
-where the sidecar is the full store shape ``{"zotero": …, "custom": …}``.
+``ZoteroItem``\\ s + ``ZoteroCollection``\\ s  ⇄  per-entry :class:`StoreEntry`\\ s
+(``citekey`` + ``.bib`` text + the full store-shape sidecar ``{"zotero": …,
+"custom": …}``).
 
 This sits one layer above zotero-rdf-python's lossless ``to_bibtex`` / ``from_bibtex``
 round-trip — which only ever carries the **``zotero``** half — and adds the two
@@ -22,13 +23,14 @@ institute-specific transforms that produce the **``custom``** half:
   the tri-state — Zotero has no native way to carry it).
 
 Everything else flows through the ``zotero`` half unchanged. The functions are pure:
-:func:`items_to_pairs` deep-copies before stripping the tag, so the caller's items are
-untouched.
+:func:`to_store_entries` deep-copies before stripping the tag, so the caller's items
+are untouched.
 """
 
 from __future__ import annotations
 
 import copy
+from dataclasses import dataclass
 from typing import Iterable
 
 from zotero_rdf import (
@@ -40,7 +42,7 @@ from zotero_rdf import (
     to_bibtex,
 )
 
-from .entry import citekey_of, split_entries, year_of
+from .entry import split_entries, year_of
 
 MENTIONS_AI_CENTER_TAG = "mentionsAICenter"
 
@@ -50,17 +52,42 @@ MENTIONS_AI_CENTER_TAG = "mentionsAICenter"
 SIDECAR_ATTACHMENT_TITLE = "Publication store record (custom metadata)"
 
 
-def items_to_pairs(
+@dataclass(frozen=True)
+class StoreEntry:
+    """One publication store record: a ``.bib`` entry plus its sidecar, keyed.
+
+    The store-side unit both :func:`to_store_entries` and :func:`from_store_entries`
+    speak, so the two are exact inverses over a ``list[StoreEntry]`` — no reshaping
+    between them.
+
+    * ``citekey`` — the entry's citekey, which is also the store filename stem and
+      determines its derived path (``entries/<year>/<citekey>.bib`` +
+      ``meta/<year>/<citekey>.json``). It equals the citekey inside ``bib`` by
+      construction.
+    * ``bib`` — a single canonical ``.bib`` entry (the lossless ``zotero``-half
+      round-trip carrier).
+    * ``sidecar`` — the store's canonical shape ``{"zotero": …, "custom": …}`` with
+      both keys always present (either may be ``{}``), matching what the diff job
+      writes to disk.
+    """
+
+    citekey: str
+    bib: str
+    sidecar: dict
+
+
+def to_store_entries(
     items: Iterable[ZoteroItem],
     collections: Iterable[ZoteroCollection] | None = None,
     *,
     sidecar_base_url: str | None = None,
-) -> list[tuple[str, str, dict]]:
-    """Zotero library → ``[(citekey, bib_text, sidecar)]``, one triple per item.
+) -> list[StoreEntry]:
+    """Zotero library → ``list[StoreEntry]``, one per item.
 
-    ``sidecar`` is the store's canonical shape — ``{"zotero": …, "custom": …}`` with
-    both keys always present (either may be ``{}``), matching what the diff job
-    writes. The ``zotero`` half is the lossless overlay; ``custom.groups`` holds the
+    Each entry's ``sidecar`` is the store's canonical shape — ``{"zotero": …,
+    "custom": …}`` with both keys always present (either may be ``{}``), matching
+    what the diff job writes. The ``zotero`` half is the lossless overlay;
+    ``custom.groups`` holds the
     names of the collections each item belongs to (resolved via ``collections``) and
     a ``mentionsAICenter`` tag becomes ``custom.mentions_ai_center = True``. The
     ``zotero`` half omits ``collections`` (that membership now lives in
@@ -72,11 +99,12 @@ def items_to_pairs(
     each item gets a linked-URL attachment pointing at its sidecar
     (``<base>/meta/<year>/<citekey>.json``) so a reviewer in the Zotero GUI can jump
     to the full custom record. It is a *pointer*, not a carrier: it only resolves
-    once the entry has landed at that path, and :func:`pairs_to_items` strips it back
-    out (it is never store data). The attachment rides in the ``zotero`` half like
-    any other.
+    once the entry has landed at that path, and :func:`from_store_entries` strips it
+    back out (it is never store data). The attachment rides in the ``zotero`` half
+    like any other.
 
-    The input items are not mutated. ``bib_text`` is a single canonical entry.
+    The input items are not mutated. Each ``StoreEntry.bib`` is a single canonical
+    entry.
     """
     items = [copy.deepcopy(item) for item in items]
     # Membership is authoritative on the collection side (``collection.items``, the
@@ -123,43 +151,39 @@ def items_to_pairs(
             )
         bib_string, zotero = to_bibtex(items, export_collections=False)
 
-    pairs: list[tuple[str, str, dict]] = []
+    entries: list[StoreEntry] = []
     for (citekey, entry_text), custom in zip(split_entries(bib_string), customs):
         sidecar = {"zotero": zotero.get(citekey, {}), "custom": custom}
-        pairs.append((citekey, entry_text, sidecar))
-    return pairs
+        entries.append(StoreEntry(citekey=citekey, bib=entry_text, sidecar=sidecar))
+    return entries
 
 
-def pairs_to_items(
-    pairs: Iterable[tuple[str, dict]],
+def from_store_entries(
+    entries: Iterable[StoreEntry],
 ) -> tuple[list[ZoteroItem], list[ZoteroCollection]]:
-    """``[(bib_text, sidecar)]`` → ``(items, collections)`` — inverse of export.
+    """``list[StoreEntry]`` → ``(items, collections)`` — exact inverse of export.
 
     The ``zotero`` half is overlaid back via ``from_bibtex``; ``custom.groups``
     rebuilds a :class:`ZoteroCollection` per group name (de-duplicated across the
     batch, in first-seen order) with the item attached; ``custom.mentions_ai_center
     is True`` re-adds the ``mentionsAICenter`` tag. ``False``/absent add nothing.
     The derived sidecar linked-URL attachment (:data:`SIDECAR_ATTACHMENT_TITLE`, if
-    :func:`items_to_pairs` added one) is stripped back out — it is a pointer, never
+    :func:`to_store_entries` added one) is stripped back out — it is a pointer, never
     store data, so it must not survive into a re-exported ``zotero`` half.
 
-    Accepts ``(bib_text, sidecar)`` pairs; any extra tuple elements (e.g. the
-    ``citekey`` from :func:`items_to_pairs`) are ignored, so its output can be fed
-    straight back in.
+    Each entry's carried ``citekey`` is the key (it is the store filename stem and
+    equals the citekey inside ``bib`` by construction), so the round-trip is keyed
+    end to end without re-parsing the bib.
     """
     bib_texts: list[str] = []
     zotero_map: dict[str, dict] = {}
     custom_map: dict[str, dict] = {}
-    for pair in pairs:
-        bib_text, data = pair[0], pair[1]
-        key = citekey_of(bib_text)
-        if key is None:
-            raise ValueError(f"could not find citekey in entry:\n{bib_text[:200]}")
-        bib_texts.append(bib_text.rstrip("\n"))
-        zotero_half = data.get("zotero", {})
+    for entry in entries:
+        bib_texts.append(entry.bib.rstrip("\n"))
+        zotero_half = entry.sidecar.get("zotero", {})
         if zotero_half:
-            zotero_map[key] = zotero_half
-        custom_map[key] = data.get("custom", {})
+            zotero_map[entry.citekey] = zotero_half
+        custom_map[entry.citekey] = entry.sidecar.get("custom", {})
 
     items = from_bibtex("\n\n".join(bib_texts), sidecar=zotero_map or None)
 
