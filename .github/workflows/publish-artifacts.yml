@@ -1,29 +1,24 @@
-name: Publish compiled artifacts
+name: Publish compiled artifacts (manual)
 
-# Add-on (separable): compile the per-entry store into the consumer-facing joined
-# views — all.bib, one <group>.bib per PI group, meta.json, and library.rdf (the
-# full Zotero-importable library, with group collections + tags) — and publish them.
-# These are BUILD ARTIFACTS, never committed; they are always reproducible from
-# entries/** + meta/** by `pubstore-compile`.
+# Add-on (separable): on-demand recompile of the consumer-facing joined views —
+# all.bib, one <group>.bib per PI group, meta.json, and library.rdf — uploaded as a
+# single workflow artifact. These are BUILD ARTIFACTS, never committed; always
+# reproducible from entries/** + meta/** by `pubstore-compile`.
 #
-# This workflow is INDEPENDENT of the PR gate (pr-checks.yml) and the scheduled
-# backstop (check-scheduled.yml): deleting this one file disables the add-on with
-# no effect on any S1–S5 check. It is NOT a gate — pubstore-compile assumes the
-# store is already green (it runs post-merge, on main), warns + skips anything that
-# won't parse, and never fails.
+# This is the MANUAL path only. The per-merge snapshot path lives in release.yml,
+# which compiles (via the same compile-artifacts.yml building block) and attaches
+# each file as its own release asset. This workflow exists so a maintainer can pull
+# a fresh build off any green main without minting a release.
+#
+# Deleting this one file disables the manual pull with no effect on releases, the
+# PR gate (pr-checks.yml), or the scheduled backstop (check-scheduled.yml). It is
+# NOT a gate — pubstore-compile assumes the store is already green, warns + skips
+# anything that won't parse, and never fails.
 #
 # Triggers:
-#  - release published -> compile and attach the files as durable release assets.
-#                         release.yml publishes one release per content merge to
-#                         main, so this is the per-merge snapshot path.
-#  - workflow_dispatch -> manual recompile, uploaded as a workflow artifact.
-#
-# Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
-# local package, same as the other jobs.
+#  - workflow_dispatch -> manual recompile, the bundled build/ zip workflow artifact.
 
 on:
-  release:
-    types: [published]
   workflow_dispatch: {}
 
 permissions:
@@ -31,50 +26,6 @@ permissions:
 
 jobs:
   compile:
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/tuebingenaicenter/publications-ci:latest
-    # contents: write only so the release-asset step can attach files; the compile
-    # itself and the workflow-artifact upload are read-only.
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Install the tools package
-        # Deps + hatchling are baked into the CI image; install only the local
-        # package (offline, no build isolation).
-        run: uv pip install --system --no-deps --no-build-isolation ./tools
-
-      - name: Compile artifacts
-        # all.bib + groups/<slug>.bib + meta.json into build/. Read-only: it never
-        # writes into entries/ or meta/ and never commits. Warnings (a non-parsing
-        # file) do not fail the run.
-        run: pubstore-compile --root . --out build/
-
-      - name: Upload as a workflow artifact
-        # Manual-dispatch only: with no release to attach to, the single bundled
-        # zip (90-day default retention) is the only way to get the output off the
-        # run. On a release we deliberately do NOT produce this bundle — each file
-        # is attached as its own release asset below, so every artifact stays
-        # individually linkable and downloadable (no all-in-one zip on the release).
-        if: ${{ github.event_name == 'workflow_dispatch' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: publication-store-artifacts
-          path: build/
-
-      - name: Attach to the release
-        # Only on a published release: each compiled file becomes its own durable
-        # release asset (gh names the asset by basename), so all.bib, meta.json,
-        # library.rdf, and every per-group <slug>.bib are separately linkable and
-        # downloadable — never bundled into a single archive.
-        if: ${{ github.event_name == 'release' }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          group_bibs=$(find build/groups -name '*.bib' 2>/dev/null || true)
-          gh release upload "${{ github.event.release.tag_name }}" \
-            build/all.bib build/meta.json build/library.rdf $group_bibs \
-            --clobber
+    # Reuse the shared compile building block; the default artifact name uploads
+    # build/ as the `publication-store-artifacts` zip on the run.
+    uses: ./.github/workflows/compile-artifacts.yml

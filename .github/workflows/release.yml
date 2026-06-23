@@ -1,26 +1,30 @@
 name: Auto-release on merge to main
 
 # Add-on (separable): cut a durable, date-stamped RELEASE for every real content
-# merge to main. This repo is a data store, not versioned software, so a "release"
-# is simply a permanent, downloadable SNAPSHOT of the store at a point in time.
+# merge to main, WITH the compiled artifacts attached. This repo is a data store,
+# not versioned software, so a "release" is simply a permanent, downloadable
+# SNAPSHOT of the store at a point in time.
 #
-# This workflow only CREATES the (empty) release. It deliberately does NOT build
-# or attach anything: publish-artifacts.yml already listens for `release:
-# published` and attaches the compiled views (all.bib, groups/<slug>.bib,
-# meta.json) as release assets. Keeping the two apart preserves the single
-# responsibility of each file — delete this one and merges simply stop minting
-# snapshots, with no effect on any S1-S5 check or on the on-demand artifact pull.
+# The release is built in two jobs so the artifacts are part of it from the start
+# (never an empty release that gets assets bolted on afterwards):
+#  - compile -> runs inside the CI image (compile-artifacts.yml) and uploads build/.
+#  - release -> downloads build/, then `gh release create` with every file attached
+#               as its own asset, on a stock runner (the CI image has no `gh`).
+#
+# Each compiled file is a separate release asset (all.bib, meta.json, library.rdf,
+# and every per-group <slug>.bib), so they stay individually linkable and
+# downloadable — never bundled into one archive.
 #
 # Create the release AS THE tueai-publications-bot App, not the default
-# GITHUB_TOKEN. This is load-bearing: a release created with GITHUB_TOKEN does
-# NOT fire `release: published` (GitHub suppresses token-triggered events to
-# prevent recursion), so publish-artifacts would never run and the release would
-# have no assets. An App-authed release DOES fire downstream workflows — the same
-# property regenerate-mirror.yml relies on. Requires the APP_ID / APP_PRIVATE_KEY
-# repo secrets (the same App already used by pr-checks.yml and regenerate-mirror).
+# GITHUB_TOKEN: the App installation carries its own contents:write, and an
+# App-authed release is the repo convention (the same App pr-checks.yml and
+# regenerate-mirror.yml use). Nothing now keys off the `release: published` event
+# itself — the assets are attached here, atomically — so there is no
+# token-suppressed-event hazard to design around. Requires the APP_ID /
+# APP_PRIVATE_KEY repo secrets.
 #
 # Triggers:
-#  - push to main -> mint one snapshot release per content merge.
+#  - push to main -> compile + mint one snapshot release per content merge.
 #
 # The `if` below skips the bot's OWN mirror-regeneration push
 # ("chore: regenerate groups/ browse mirror", committed straight to main by
@@ -33,26 +37,40 @@ on:
   push:
     branches: [main]
 
-# Least privilege for the default GITHUB_TOKEN: this job never uses it to write.
-# The release is created with the short-lived App token minted below, which
-# carries its own contents:write via the App installation.
+# Least privilege for the default GITHUB_TOKEN: neither job uses it to write. The
+# release is created with the short-lived App token minted below, which carries its
+# own contents:write via the App installation.
 permissions:
   contents: read
 
 jobs:
-  release:
+  compile:
     if: "${{ !startsWith(github.event.head_commit.message, 'chore: regenerate groups/ browse mirror') }}"
+    # Compile inside the CI image and hand build/ to the release job as an artifact.
+    uses: ./.github/workflows/compile-artifacts.yml
+    with:
+      artifact-name: release-build
+
+  release:
+    needs: compile
     runs-on: ubuntu-latest
     steps:
       - name: Mint a GitHub App token
-        # Short-lived installation token for tueai-publications-bot. Creating the
-        # release as the App (not GITHUB_TOKEN) is what lets `release: published`
-        # reach publish-artifacts.yml so it can attach the compiled assets.
+        # Short-lived installation token for tueai-publications-bot; carries
+        # contents:write so `gh release create` can publish + attach assets.
         uses: actions/create-github-app-token@v1
         id: app-token
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Download the compiled artifacts
+        # The build/ tree produced by the compile job (all.bib, meta.json,
+        # library.rdf, groups/<slug>.bib), to attach to the release below.
+        uses: actions/download-artifact@v4
+        with:
+          name: release-build
+          path: build
 
       - name: Compute a date-time tag
         # The store has no semver, so tag by UTC instant: unique, monotonically
@@ -62,16 +80,19 @@ jobs:
           echo "tag=v$(date -u +'%Y.%m.%d-%H%M%S')" >> "$GITHUB_OUTPUT"
           echo "title=Publication store $(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
 
-      - name: Create the release
-        # gh resolves the repo from GH_REPO (no checkout needed); the release
-        # points at the just-merged commit. --generate-notes builds a changelog
-        # from the PRs since the previous tag. Publishing fires `release:
-        # published`, which triggers publish-artifacts.yml to attach the assets.
+      - name: Create the release with the compiled artifacts attached
+        # gh resolves the repo from GH_REPO (no checkout needed); the release points
+        # at the just-merged commit, and the positional files become release assets
+        # (gh names each by basename). --generate-notes builds a changelog from the
+        # PRs since the previous tag. One atomic step: the snapshot is published with
+        # its artifacts, never without them.
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           GH_REPO: ${{ github.repository }}
         run: |
+          group_bibs=$(find build/groups -name '*.bib' 2>/dev/null || true)
           gh release create "${{ steps.tag.outputs.tag }}" \
             --target "${{ github.sha }}" \
             --title "${{ steps.tag.outputs.title }}" \
-            --generate-notes
+            --generate-notes \
+            build/all.bib build/meta.json build/library.rdf $group_bibs
