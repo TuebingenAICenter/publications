@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Natural environments such as forests and grasslands are challenging for robotic navigation because of the false perception of rigid obstacles from high grass, twigs, or bushes. In this work, we present Wild Visual Navigation (WVN), an online self-supervised learning system for visual traversability estimation. The system is able to continuously adapt from a short human demonstration in the field, only using onboard sensing and computing. One of the key ideas to achieve this is the use of high-dimensional features from pre-trained self-supervised models, which implicitly encode semantic information that massively simplifies the learning task. Further, the development of an online scheme for supervision generator enables concurrent training and inference of the learned model in the wild. We demonstrate our approach through diverse real-world deployments in forests, parks, and grasslands. Our system is able to bootstrap the traversable terrain segmentation in less than 5 min of in-field training time, enabling the robot to navigate in complex, previously unseen outdoor terrains.",
     "archive": "arXiv",
     "archiveLocation": "2404.07110",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4394737063",
       "Scholar": "b-JF-UIAAAAJ:hMsQuOkrut0C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://link.springer.com/article/10.1007/s10514-025-10202-x'>https://link.springer.com/article/10.1007/s10514-025-10202-x</a><br><a href='https://arxiv.org/abs/2404.07110'>https://arxiv.org/abs/2404.07110</a><br><a href='https://www.research.ed.ac.uk/en/publications/wild-visual-navigation-fast-traversability-learning-via-pre-train/'>https://www.research.ed.ac.uk/en/publications/wild-visual-navigation-fast-traversability-learning-via-pre-train/</a><br></p>",

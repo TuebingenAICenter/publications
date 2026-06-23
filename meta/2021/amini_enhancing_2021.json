@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In this study, an artificial neural network (ANN) is trained to enhance the resolution of the angular orientations of the flow controlling blades on a sustainable house. The blades are designed to control the airflow around the building to improve natural ventilation and thermal comfort. The ANN is trained using a dataset generated from computational fluid dynamics (CFD) simulations. The results show that the ANN can accurately predict the optimal angular orientations of the blades for different wind conditions, significantly improving the resolution compared to traditional methods.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

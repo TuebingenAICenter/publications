@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Efficient reasoning about the semantic, spatial, and temporal structure of a scene is a crucial pre-requisite for autonomous driving. We present NEural ATtention fields (NEAT), a novel representation that enables such reasoning for end-to-end Imitation Learning (IL) models. Our representation is a continuous function which maps locations in Bird's Eye View (BEV) scene coordinates to waypoints and semantics, using intermediate attention maps to iteratively compress high-dimensional 2D image features into a compact representation. This allows our model to selectively attend to relevant regions in the input while ignoring information irrelevant to the driving task, effectively associating the images with the BEV representation. NEAT nearly matches the state-of-the-art on the CARLA Leaderboard while being far less resource-intensive. Furthermore, visualizing the attention maps for models with NEAT intermediate representations provides improved interpretability. On a new evaluation setting involving adverse environmental conditions and challenging scenarios, NEAT outperforms several strong baselines and achieves driving scores on par with the privileged CARLA expert used to generate its training data.",
     "extra": {
       "Citations@2026-06-01": "204",
       "OpenAlex": "W3198460218",
       "Scholar": "SrVnrPcAAAAJ:j5aT6aphRxQC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Machine learning (ML) algorithms are increasingly used in clinical practice. However, their integration into clinical workflows remains challenging. A common narrative in the literature is that ML algorithms and clinicians are competitors, with the former potentially replacing the latter. In this paper, we argue that this competitive framing is unhelpful and that we should instead focus on how they can become collaborators. We identify three gaps that hinder this collaboration: the epistemic gap, the agency gap, and the responsibility gap. We then propose a framework for bridging these gaps, which involves fostering mutual understanding, clarifying roles and responsibilities, and designing systems that support human-AI interaction. We conclude by discussing the implications of our framework for the development and deployment of ML algorithms in clinical settings.",
     "extra": {
       "Citations@2026-06-01": "51",
       "OpenAlex": "W3204868098",
       "Scholar": "lPQLk3QAAAAJ:CHSYGLWDkRkC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

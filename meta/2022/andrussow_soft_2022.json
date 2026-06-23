@@ -6,11 +6,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "For robots to become fully dexterous, their hardware needs to provide rich sensory feedback. High-resolution haptic sensing similar to the human fingertip can enable robots to execute delicate manipulation tasks like picking up small objects, inserting a key into a lock, or handing a cup of coffee to a human. Many tactile sensors have emerged in recent years; one especially promising direction is vision-based tactile sensors due to their low cost, low wiring complexity and high-resolution sensing capabilities. In this work, we build on previous findings to create a soft fingertip-sized tactile sensor. It can sense normal and shear contact forces all around its 3D surface with an average prediction error of 0.05 N, and it localizes contact on its shell with an average prediction error of 0.5 mm. The software of this sensor uses a data-efficient machine-learning pipeline to run in real time on hardware with low computational power like a Raspberry Pi. It provides a maximum data frame rate of 60 Hz via USB.",
     "conferenceName": "IROS Workshop on Large-Scale Robotic Skin: Perception, Interaction and Control",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "Workshop paper (1 page) presented at the IROS Workshop on Large-Scale Robotic Skin": "Perception, Interaction and Control"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "IROS Workshop on Large-Scale Robotic Skin: Perception, Interaction and Control"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The ENCODE Imputation Challenge was a community-wide experiment to assess the state of the art in computational methods for predicting epigenomic tracks across cell types. We provided a standardized dataset of 10 epigenomic marks across 10 cell types and evaluated 52 submissions from 15 teams. We found that while many methods performed well, there was no single best method; rather, performance varied depending on the mark and the cell type. We also found that the use of auxiliary data, such as gene expression or sequence information, did not consistently improve performance. Our results provide a comprehensive assessment of the current state of the field and suggest directions for future research.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4289521822",
       "Scholar": "DZ-fHPgAAAAJ:pueQFr2p_mYC"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "In this paper, we propose the Hierarchical Document Transformer (HDT), a novel sparse Transformer architecture tailored for structured hierarchical documents. Such documents are extremely important in numerous domains, including science, law or medicine. However, most existing solutions are inefficient and fail to make use of the structure inherent to documents. HDT exploits document structure by introducing auxiliary anchor tokens and redesigning the attention mechanism into a sparse multi-level hierarchy. This approach facilitates information exchange between tokens at different levels while maintaining sparsity, thereby enhancing computational and memory efficiency while exploiting the document structure as an inductive bias. We address the technical challenge of implementing HDT's sample-dependent hierarchical attention pattern by developing a novel sparse attention kernel that considers the hierarchical structure of documents. As demonstrated by our experiments, utilizing structural information present in documents leads to faster convergence, higher sample efficiency and better performance on downstream tasks.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:44:34",
@@ -31,6 +32,7 @@
       "Publication Title": "arXiv (Cornell University)",
       "Scholar": "SrVnrPcAAAAJ:WzTVkKNmPSkC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",

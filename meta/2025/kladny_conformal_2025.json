@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Generative models are increasingly used to generate synthetic data for downstream tasks. However, ensuring that the generated data is statistically valid and representative of the underlying distribution remains a challenge. We propose a framework for conformal generative modeling that provides finite-sample coverage guarantees for the generated data. Our approach leverages sequential greedy filtering to improve sample efficiency, allowing for the generation of high-quality samples with fewer calibration points. We demonstrate the effectiveness of our method on various generative modeling tasks, showing that it achieves tighter coverage bounds compared to existing conformal generative approaches.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2410.01660",
     "attachments": [
@@ -32,6 +33,7 @@
       "OpenAlex": "W4403851999",
       "Scholar": "DZ-fHPgAAAAJ:crj7m7lBAXMC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

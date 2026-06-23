@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "In this work, we address recent criticisms of explainable machine learning (XAI) and propose to rethink XAI as applied statistics. We argue that most XAI methods are based on the same fundamental principles as statistical inference, and that XAI would benefit from adopting the rigorous framework of applied statistics. This perspective allows us to clearly distinguish between the different goals of XAI, such as model understanding, data understanding, and decision support. It also provides a roadmap for addressing the key challenges in XAI, including the need for better evaluation, the importance of uncertainty quantification, and the integration of domain knowledge.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2402.02870",
     "attachments": [
@@ -31,6 +32,7 @@
       "Citations@2026-06-01": "1",
       "Scholar": "mMifMdoAAAAJ:uDGL6kOW6j0C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",

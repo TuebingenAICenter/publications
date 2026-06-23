@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks are known to be overconfident on out-of-distribution data. While many heuristic methods have been proposed to detect such data, they often fail on adversarial examples. In this paper, we propose a method to train neural networks that are provably certain on a given set of training data and have a guaranteed uncertainty on the complement of the training data. We achieve this by training the network to be constant on the training data and to have a high uncertainty on the complement. We show that our method is effective in detecting out-of-distribution data and is robust to adversarial attacks.",
     "archive": "arXiv",
     "archiveLocation": "1909.12180",
     "extra": {
@@ -15,6 +16,7 @@
       "Repository": "GitHub",
       "Scholar": "0ZAb3tsAAAAJ:uc_IGeMz5qoC"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

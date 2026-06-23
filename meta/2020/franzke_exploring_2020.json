@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Machine learning-based myoelectric control is a promising approach for controlling prosthetic limbs. However, the performance of these systems is often inconsistent. One potential reason for this inconsistency is the variability in the electromyographic (EMG) signal, which can lead to changes in the feature space. In this study, we investigate the relationship between EMG feature space characteristics and control performance. We analyze the feature space of EMG signals recorded from 10 able-bodied subjects during a series of isometric contractions. We extract a set of commonly used time-domain features and evaluate their performance in a classification task. We find that the separability of the feature space, as measured by the Davies-Bouldin index, is strongly correlated with the classification accuracy. Furthermore, we show that the feature space characteristics are influenced by the electrode placement and the level of muscle contraction. These findings provide insights into the factors that influence the performance of machine learning-based myoelectric control systems and suggest potential strategies for improving their robustness.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "10"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

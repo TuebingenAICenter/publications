@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but simulation is possible. However, current methods often require significant expert effort to design and train specialized neural density estimators for each new problem. We propose a novel approach to SBI that leverages pre-trained tabular foundation models (TFMs) to perform inference without the need for task-specific training. By treating the simulation-based inference problem as a conditional density estimation task on tabular data, we show that TFMs can be used as zero-shot or few-shot density estimators. We demonstrate that our method, which we call TFM-SBI, achieves competitive performance on a range of benchmark problems while being significantly more simulation-efficient and easier to use than existing methods. Our results suggest that foundation models can play a transformative role in making Bayesian inference more accessible and efficient across scientific domains.",
     "archive": "arXiv",
     "archiveLocation": "2504.17660",
     "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
@@ -17,6 +18,7 @@
       "Scholar": "FKOqtF8AAAAJ:s_OEDnM-dbEC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

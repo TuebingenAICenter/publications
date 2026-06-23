@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Physics is a field of science that has traditionally used the scientific method to answer questions about why natural phenomena occur and to make testable models that explain the phenomena. Discovering equations, laws, and principles that are invariant, robust, and causal has been fundamental in physical sciences throughout the centuries. Discoveries emerge from observing the world and, when possible, performing interventions on the system under study. With the advent of big data and data-driven methods, the fields of causal and equation discovery have developed and accelerated progress in computer science, physics, statistics, philosophy, and many applied fields. This paper reviews the concepts, methods, and relevant works on causal and equation discovery in the broad field of physics and outlines the most important challenges and promising future lines of research. We also provide a taxonomy for data-driven causal and equation discovery, point out connections, and showcase comprehensive case studies in Earth and climate sciences, fluid dynamics and mechanics, and the neurosciences. This review demonstrates that discovering fundamental laws and causal relations by observing natural phenomena is revolutionised with the efficient exploitation of observational data and simulations, modern machine learning algorithms and the combination with domain knowledge. Exciting times are ahead with many challenges and opportunities to improve our understanding of complex systems.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4378174047",
       "Pages": "1-68",
       "Scholar": "b-JF-UIAAAAJ:tKAzc9rXhukC",
       "Volume": "1044"
-    }
+    },
+    "itemType": "document"
   }
 }

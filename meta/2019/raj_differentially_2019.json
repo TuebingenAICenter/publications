@@ -9,6 +9,7 @@
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Machine Learning and Knowledge Discovery in Databases (ECML/PKDD)",
     "seriesTitle": "Lecture Notes in Computer Science"
   }

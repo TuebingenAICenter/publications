@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Causal models are typically defined on a fixed set of variables. However, in many real-world scenarios, we encounter systems where the set of variables is not fixed, or where we want to relate models at different levels of abstraction. We introduce the framework of causal spaces, which allows for a formal treatment of causal models on arbitrary sets of variables. We define products of causal spaces, which allow for the combination of independent causal systems, and abstractions, which allow for the mapping of a causal space to a coarser one. We show that these operations are well-behaved and satisfy a number of desirable properties. Finally, we define inclusions of causal spaces, which allow for the embedding of a causal space into a larger one, and show that this framework provides a unified language for discussing causal models across different levels of granularity.",
     "archive": "arXiv",
     "archiveLocation": "2406.00388",
     "conferenceName": "40th Conference on Uncertainty in Artificial Intelligence (UAI)",
@@ -14,6 +15,7 @@
       "OpenAlex": "W4399355697",
       "Scholar": "DZ-fHPgAAAAJ:uY8R3MgUpSAC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

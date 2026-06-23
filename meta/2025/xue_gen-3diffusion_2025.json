@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We present Gen-3Diffusion, a novel framework for high-quality image-to-3D generation that leverages the synergy between 2D and 3D diffusion models. While 2D diffusion models excel at generating high-fidelity images, they often lack 3D consistency. Conversely, 3D diffusion models provide structural coherence but struggle with fine-grained details. Our approach bridges this gap by integrating a pre-trained 2D diffusion model as a prior for a 3D diffusion model, effectively combining the strengths of both. We introduce a novel 3D-aware conditioning mechanism that guides the 3D generation process using 2D features, ensuring both geometric consistency and visual realism. Extensive experiments demonstrate that Gen-3Diffusion outperforms existing state-of-the-art methods in terms of both visual quality and 3D consistency, producing realistic 3D assets from single images.",
     "archive": "arXiv",
     "archiveLocation": "2412.06698",
     "extra": {
@@ -14,6 +15,7 @@
       "Scholar": "OpXMNnMAAAAJ:tYavs44e6CUC",
       "arXiv": "2412.06698"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",

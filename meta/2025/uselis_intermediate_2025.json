@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Deep neural networks often rely on spurious correlations, leading to poor out-of-distribution (OOD) generalization. While recent works have explored using intermediate layers to mitigate this, they often require architectural modifications or complex training objectives. In this work, we propose Intermediate Layer Classifiers (ILC), a simple yet effective approach that trains classifiers on intermediate representations of a pre-trained model. We show that ILCs can significantly improve OOD generalization by leveraging features that are less prone to spurious correlations. We provide theoretical insights into why ILCs work and demonstrate their effectiveness across various OOD benchmarks, including ImageNet-C, ImageNet-R, and DomainBed.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2504.05461",
     "callNumber": "arXiv:2504.05461",
@@ -16,6 +17,7 @@
       "Reporter": "arXiv (Cornell University)",
       "Scholar": "kmXOOdsAAAAJ:q3oQSFYPqjQC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Large reasoning models (LRMs) are increasingly deployed to solve complex tasks by generating extensive chain-of-thought (CoT) reasoning traces. While these traces are often treated as internal, intermediate computations, we demonstrate that they are highly vulnerable to extraction. We introduce a novel attack, the 'Thought-Extraction Attack', which leverages the model's own reasoning process to leak private information contained in the prompt or the system instructions. We show that even when the model is instructed to keep information private, the reasoning process often inadvertently reveals it. We evaluate our attack on several state-of-the-art LRMs and find that they are consistently susceptible to leaking sensitive information. Our findings highlight a critical privacy vulnerability in current reasoning models and underscore the need for robust privacy-preserving mechanisms in the design and deployment of LRMs.",
     "archive": "arXiv",
     "archiveLocation": "2506.15674",
     "attachments": [
@@ -25,6 +26,7 @@
       "Dataset": "https://huggingface.co/datasets/parameterlab/leaky_thoughts",
       "Scholar": "kmXOOdsAAAAJ:f2IySw72cVMC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We investigate reinforcement learning (RL) for privileged planning in autonomous driving. State-of-the-art approaches for this task are rule-based, but these methods do not scale to the long tail. RL, on the other hand, is scalable and does not suffer from compounding errors like imitation learning. Contemporary RL approaches for driving use complex shaped rewards that sum multiple individual rewards, e.g. progress, position, or orientation rewards. We show that PPO fails to optimize a popular version of these rewards when the mini-batch size is increased, which limits the scalability of these approaches. Instead, we propose a new reward design based primarily on optimizing a single intuitive reward term: route completion. Infractions are penalized by terminating the episode or multiplicatively reducing route completion. We find that PPO scales well with higher mini-batch sizes when trained with our simple reward, even improving performance. Training with large mini-batch sizes enables efficient scaling via distributed data parallelism. We scale PPO to 300M samples in CARLA and 500M samples in nuPlan with a single 8-GPU node. The resulting model achieves 64 DS on the CARLA longest6 v2 benchmark, outperforming other RL methods with more complex rewards by a large margin. Requiring only minimal adaptations from its use in CARLA, the same method is the best learning-based approach on nuPlan. It scores 91.3 in non-reactive and 90.6 in reactive traffic on the Val14 benchmark while being an order of magnitude faster than prior work.",
     "attachments": [
       {
         "accessDate": null,
@@ -22,6 +23,7 @@
       "OpenAlex": "W4416375268",
       "Scholar": "SrVnrPcAAAAJ:oursBaop5wYC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://proceedings.mlr.press/v305/jaeger25a.html'>https://proceedings.mlr.press/v305/jaeger25a.html</a><br><a href='https://arxiv.org/abs/2504.17838'>https://arxiv.org/abs/2504.17838</a><br><a href='https://research.nvidia.com/labs/avg/publication/jaeger.dauner.etal.corl2025/'>https://research.nvidia.com/labs/avg/publication/jaeger.dauner.etal.corl2025/</a><br></p>",

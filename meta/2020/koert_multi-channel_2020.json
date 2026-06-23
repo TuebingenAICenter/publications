@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Interactive Reinforcement Learning (IntRL) allows agents to learn from human feedback, which can significantly speed up the learning process. However, most existing approaches rely on a single feedback channel, such as scalar rewards or demonstrations. In this paper, we propose a multi-channel IntRL framework that allows an agent to learn from multiple types of human feedback, including scalar rewards, demonstrations, and corrections. We introduce a novel approach to combine these feedback channels by learning a shared representation of the human's intent. We evaluate our approach on a set of sequential tasks and show that it outperforms single-channel IntRL methods in terms of learning speed and final performance.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

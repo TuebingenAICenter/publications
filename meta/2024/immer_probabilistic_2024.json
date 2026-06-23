@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Motivation: Multimodal data integration is essential for understanding complex biological systems. However, integrating diverse data types, such as transcriptomics and proteomics, remains challenging due to differences in data distribution, noise levels, and feature spaces. Existing methods often struggle to incorporate prior biological knowledge, leading to models that are difficult to interpret and prone to overfitting. Results: We introduce Probabilistic Pathway-based Multimodal Factor Analysis (PPMFA), a generative model that integrates multimodal data by leveraging pathway information. PPMFA decomposes the data into shared and modality-specific factors, where shared factors are constrained by biological pathways. This approach improves interpretability and predictive performance. We demonstrate the effectiveness of PPMFA on a multi-omics dataset from the Tumor Profiler Consortium, showing that it identifies biologically meaningful factors and outperforms existing methods in downstream tasks.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

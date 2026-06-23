@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Variational Autoencoders (VAEs) provide a theoretically-backed framework for deep generative models. However, they often produce “blurry” images, which is linked to their training objective. Sampling in the most popular implementation, the Gaussian VAE, can be interpreted as simply injecting noise to the input of a deterministic decoder. In practice, this simply enforces a smooth latent space structure. We challenge the adoption of the full VAE framework on this specific point in favor of a simpler, deterministic one. Specifically, we investigate how substituting stochasticity with other explicit and implicit regularization schemes can lead to a meaningful latent space without having to force it to conform to an arbitrarily chosen prior. To retrieve a generative mechanism for sampling new data points, we propose to employ an efficient ex-post density estimation step that can be readily adopted both for the proposed deterministic autoencoders as well as to improve sample quality of existing VAEs. We show in a rigorous empirical study that regularized deterministic autoencoding achieves state-of-the-art sample quality on the common MNIST, CIFAR-10 and CelebA datasets.",
     "archive": "arXiv",
     "archiveLocation": "1903.12436",
     "extra": {
@@ -13,6 +14,7 @@
       "Citations@2026-06-01": "106",
       "OpenAlex": "W2927928207",
       "Scholar": "6NjbexEAAAAJ:W6h41lW4BooC"
-    }
+    },
+    "itemType": "document"
   }
 }

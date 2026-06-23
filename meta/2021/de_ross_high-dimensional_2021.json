@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Gaussian processes (GPs) are a powerful tool for probabilistic regression. However, their standard application is limited by the cubic complexity of the number of observations. When derivative observations are available, the computational cost increases further. We propose a novel approach to GP inference with derivative observations that scales linearly with the number of observations and the number of input dimensions. Our method relies on a sparse approximation of the GP posterior using a set of inducing points and a specific choice of the kernel. We demonstrate the effectiveness of our approach on several synthetic and real-world datasets, showing that it achieves competitive performance while being significantly faster than existing methods.",
     "conferenceName": "38th International Conference on Machine Learning",
     "extra": {
       "Citations@2026-06-01": "2",
@@ -14,6 +15,7 @@
       "Scholar": "UeG5w08AAAAJ:mvPsJ3kp5DgC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of 38th International Conference on Machine Learning (ICML)",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Neuroscience experiments often record neural activity across multiple trials of the same stimulus or behavior. While this multi-trial structure is a hallmark of neural data, most representation learning methods treat trials as independent samples, failing to exploit the shared structure across trials. We introduce TRACE (Trial-aligned Contrastive Embedding), a self-supervised framework designed to learn representations of neural time-series by leveraging trial-to-trial variability. TRACE uses a contrastive objective that encourages the model to align representations of the same stimulus across different trials while pushing apart representations of different stimuli. We demonstrate that TRACE learns robust, interpretable representations that outperform standard self-supervised and supervised baselines on downstream tasks, including stimulus decoding and behavioral prediction, across multiple datasets and recording modalities.",
     "archive": "arXiv",
     "archiveLocation": "2506.04906",
     "conferenceName": "NeurIPS",
@@ -13,6 +14,7 @@
       "OpenAlex": "W4416134213",
       "Scholar": "lPQLk3QAAAAJ:XD-gHx7UXLsC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

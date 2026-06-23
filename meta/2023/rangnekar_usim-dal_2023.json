@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning-based super-resolution (SR) models are data-hungry and require large-scale high-resolution (HR) datasets for training. However, acquiring HR images is expensive and time-consuming. Active learning (AL) is a promising paradigm to reduce the annotation burden by selecting the most informative samples for training. Existing AL methods for SR are typically image-level, selecting entire images for annotation. In this work, we propose a novel dense active learning framework for SR, termed USIM-DAL, which selects informative patches within images for annotation. We introduce a novel uncertainty estimation technique based on statistical image modeling (SIM) that captures the local image statistics to identify regions where the model is uncertain. Our method is model-agnostic and can be integrated with any SR architecture. We demonstrate the effectiveness of our approach on several benchmark datasets, showing that USIM-DAL achieves competitive performance with significantly fewer training samples compared to state-of-the-art AL methods.",
     "conferenceName": "Thirty-Ninth Conference on Uncertainty in Artificial Intelligence",
     "extra": {
       "Citations@2026-06-01": "1",
@@ -14,6 +15,7 @@
       "Scholar": "jQl9RtkAAAAJ:tYavs44e6CUC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the Thirty-Ninth Conference on Uncertainty in Artificial Intelligence",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

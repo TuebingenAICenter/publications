@@ -6,11 +6,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Quantifying the movement of the skeleton in freely moving animals is essential for understanding the neural basis of behavior. However, current methods for tracking skeletal kinematics are either invasive, require specialized laboratory environments or are limited in their ability to capture complex, three-dimensional movements. Here we present DeepLabCut-based skeletal kinematics (DSK), a framework for estimating the 3D pose of the skeleton in freely moving rodents using only video data. DSK combines deep learning-based markerless pose estimation with a kinematic model of the rodent skeleton to recover 3D joint angles and limb positions. We demonstrate that DSK can accurately track skeletal kinematics in freely moving mice and rats across a range of behaviors, including locomotion, grooming and rearing, without the need for markers or specialized hardware. DSK provides a robust and accessible tool for studying the neural control of movement in freely moving animals.",
     "extra": {
       "Citations@2026-06-01": "34",
       "OpenAlex": "W4306411987",
       "Scholar": "FKOqtF8AAAAJ:Wqn_fehR_TUC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

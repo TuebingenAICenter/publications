@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Bayesian neural networks (BNNs) are often praised for their ability to quantify uncertainty. However, it has recently been shown that standard BNNs with ReLU activations are asymptotically overconfident: as the input moves away from the training data, the predictive distribution collapses to a point mass. We show that this behavior is a consequence of the finite-width architecture and the specific form of the ReLU activation. To fix this, we propose an infinite-feature extension for Bayesian ReLU nets. We show that this extension is equivalent to a Gaussian process with a non-stationary kernel that does not suffer from the asymptotic overconfidence problem. We provide a practical, scalable implementation and demonstrate that our method yields well-calibrated uncertainty estimates on out-of-distribution data while maintaining competitive predictive performance.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2010.02709",
     "conferenceName": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)",
@@ -19,6 +20,7 @@
       "Scholar": "0ZAb3tsAAAAJ:a3BOlSfXSfwC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)"
   }

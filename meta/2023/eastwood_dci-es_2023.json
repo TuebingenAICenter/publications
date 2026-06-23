@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The DCI framework (Disentanglement, Completeness, Informativeness) has become a standard tool for evaluating disentangled representations. However, it is limited to linear relationships and does not account for the identifiability of the underlying factors. In this work, we extend the DCI framework to address these limitations. We introduce DCI-ES, which extends the original framework to non-linear relationships and provides a theoretical connection to identifiability. We demonstrate the utility of our framework on a range of synthetic and real-world datasets, showing that it provides a more comprehensive and accurate assessment of disentangled representations.",
     "archive": "OpenReview",
     "archiveLocation": "https://openreview.net/pdf?id=462z-gLgSht",
     "extra": {
@@ -12,6 +13,7 @@
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4302011249",
       "Scholar": "DZ-fHPgAAAAJ:aI6gjR5PxiQC"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Training a deep neural network to maximize a target objective has become the standard recipe for successful machine learning over the last decade. These networks can be optimized with supervised learning if the target objective is differentiable. However, this is not the case for many interesting problems. Common objectives like intersection over union (IoU), and bilingual evaluation understudy (BLEU) scores or rewards cannot be optimized with supervised learning. A common workaround is to define differentiable surrogate losses, leading to suboptimal solutions with respect to the actual objective. Reinforcement learning (RL) has emerged as a promising alternative for optimizing deep neural networks to maximize non-differentiable objectives in recent years. Examples include aligning large language models via human feedback, code generation, object detection or control problems. This makes RL techniques relevant to the larger machine learning audience. The subject is, however, timeintensive to approach due to the large range of methods, as well as the often highly theoretical presentation. This monograph takes an alternative approach that is different from classic RL textbooks. Rather than focusing on tabular problems, we introduce RL as a generalization of supervised learning, which we first apply to non-differentiable objectives and later to temporal problems. Assuming only basic knowledge of supervised learning, the reader will be able to understand state-of-the-art deep RL algorithms like proximal policy optimization (PPO) after reading this tutorial.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:42:39",
@@ -30,6 +31,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "SrVnrPcAAAAJ:YPNY0knpFBYC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 10</p>",

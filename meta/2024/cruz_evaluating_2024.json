@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Language models (LMs) are increasingly used to predict outcomes in high-stakes domains like medicine, finance, and criminal justice. In these settings, the model's output is often interpreted as a risk score. We investigate the validity of using LMs as risk scores by evaluating their calibration and discrimination properties. We find that while LMs can achieve high predictive accuracy, they are often poorly calibrated, leading to overconfident and potentially biased risk assessments. We propose a framework for evaluating LMs as risk scores and demonstrate its utility on several real-world datasets.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2407.14614",
     "conferenceName": "NeurIPS",
@@ -15,6 +16,7 @@
       "OpenAlex": "W4405028376",
       "Scholar": "UqtDdZUAAAAJ:YFjsv_pBGBYC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",

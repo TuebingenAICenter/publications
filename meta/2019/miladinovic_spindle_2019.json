@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Sleep scoring is a fundamental task in sleep research, yet it remains a time-consuming and subjective process. While automated methods exist, they often lack robustness when applied to data from different experimental settings, laboratories, or species. We present SPINDLE, an end-to-end deep learning framework for automated sleep scoring that addresses these challenges. SPINDLE uses a convolutional neural network to learn features directly from raw EEG and EMG signals, eliminating the need for manual feature engineering. We demonstrate that SPINDLE achieves high accuracy across diverse datasets, including different mouse strains, recording conditions, and even across species. Our results show that SPINDLE generalizes well to unseen data, making it a versatile tool for large-scale sleep studies.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

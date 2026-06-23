@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Bayesian Optimization (BO) is a powerful framework for global optimization of expensive-to-evaluate black-box functions. A key component of BO is the acquisition function, which determines the next query point by balancing exploration and exploitation. While standard acquisition functions like Expected Improvement or Upper Confidence Bound are widely used, they are often hand-crafted and may not be optimal for all problems. In this paper, we propose a novel approach to learn hierarchical acquisition functions for BO. Our method leverages a hierarchical structure to adaptively select or combine multiple acquisition functions, allowing the optimizer to switch between different exploration-exploitation strategies based on the current state of the optimization process. We demonstrate the effectiveness of our approach on a variety of synthetic and real-world benchmark problems, showing that it outperforms standard BO methods in terms of convergence speed and final solution quality.",
     "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "Type": "Conference Paper"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
   }
 }

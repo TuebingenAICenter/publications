@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Probabilistic numerical methods for differential equations provide a quantification of the uncertainty arising from the discretization of the solution. However, existing methods for boundary value problems (BVPs) typically scale cubically with the number of discretization points, which limits their applicability to high-resolution problems. In this paper, we propose a novel probabilistic solver for linear BVPs that scales linearly with the number of discretization points. We achieve this by formulating the BVP as a Gaussian process regression problem with a structured covariance matrix, which allows for efficient inference using Kalman filtering and smoothing. We demonstrate the performance of our method on a range of BVP benchmarks and show that it provides well-calibrated uncertainty estimates at a fraction of the computational cost of existing methods.",
     "conferenceName": "Advances in Neural Information Processing Systems 34",
     "extra": {
       "Citations@2026-06-01": "1",
@@ -14,6 +15,7 @@
       "Scholar": "UeG5w08AAAAJ:Y5dfb0dijaUC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 34"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the predictability of online speech on social media, and whether predictability improves with information outside a user's own posts. Recent work suggests that the predictive information contained in posts written by a user's peers can surpass that of the user's own posts. Motivated by the success of large language models, we empirically test this hypothesis. We define unpredictability as a measure of the model's uncertainty, i.e., its negative log-likelihood on future tokens given context. As the basis of our study, we collect a corpus of 6.25M posts from more than five thousand X (previously Twitter) users and their peers. Across three large language models ranging in size from 1 billion to 70 billion parameters, we find that predicting a user's posts from their peers' posts performs poorly. Moreover, the value of the user's own posts for prediction is consistently higher than that of their peers'. Across the board, we find that the predictability of social media posts remains low, comparable to predicting financial news without context. We extend our investigation with a detailed analysis about the causes of unpredictability and the robustness of our findings. Specifically, we observe that a significant amount of predictive uncertainty comes from hashtags and @-mentions. Moreover, our results replicate if instead of prompting the model with additional context, we finetune on additional context.",
     "archive": "arXiv",
     "archiveLocation": "2405.12166",
     "extra": {
@@ -16,6 +17,7 @@
       "Scholar": "adnTgaAAAAAJ:lYAcb2jw7qUC",
       "Source": "group_webpage (williamson)",
       "arXiv": "2405.12166"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal models are typically learned from observational data, but their primary utility lies in predicting the effects of interventions. While structural causal models (SCMs) provide a rigorous framework for this, they often rely on strong parametric assumptions or require access to the full causal graph. In this work, we propose Generative Intervention Models (GIMs), a framework for learning causal perturbation models that can predict the effects of interventions without requiring a fully specified SCM. GIMs leverage generative modeling to learn the conditional distribution of variables under intervention, conditioned on the intervention target and value. We demonstrate that GIMs can effectively model causal perturbations in complex, high-dimensional settings, and provide theoretical guarantees on their performance. We evaluate our approach on a range of synthetic and real-world datasets, showing that GIMs outperform existing methods in predicting the effects of interventions.",
     "archive": "arXiv",
     "archiveLocation": "2411.14003",
     "attachments": [
@@ -23,6 +24,7 @@
       "OpenAlex": "W4404652609",
       "Scholar": "DZ-fHPgAAAAJ:KTLuBS02tHEC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",

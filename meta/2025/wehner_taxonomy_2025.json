@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Representation Engineering (RepE) has emerged as a promising paradigm for interpreting and steering Large Language Models (LLMs) by manipulating their internal representations. Despite its growing popularity, the field lacks a unified framework, making it difficult to compare methods, understand their capabilities, and identify open challenges. In this survey, we provide a comprehensive taxonomy of RepE, categorizing existing methods based on their core mechanisms: reading, intervening, and training. We systematically analyze the opportunities RepE offers for model interpretability, safety, and control, while also critically evaluating the current limitations and open research questions. By synthesizing the state-of-the-art, we aim to provide a structured foundation for future research in this rapidly evolving domain.",
     "archive": "arXiv",
     "archiveLocation": "cs.CL",
     "extra": {
@@ -15,6 +16,7 @@
       "Scholar": "QEiYbDYAAAAJ:txeM2kYbVNMC",
       "Status": "TMLR 2025 Survey Certification"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

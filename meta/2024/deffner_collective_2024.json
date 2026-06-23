@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Social information can improve decision-making, but it can also lead to maladaptive herding. While collective incentives are often proposed as a solution to align individual and group interests, their effectiveness in unconstrained, dynamic environments remains poorly understood. Here, we use a virtual foraging task to show that collective incentives reduce the over-exploitation of social information in human groups. We find that individuals under collective incentives are more likely to explore their environment independently, leading to higher group performance. Our results suggest that collective incentives can promote more efficient information use by mitigating the negative effects of social influence.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:42:57",
@@ -30,6 +31,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "1O2hcVgAAAAJ:4OULZ7Gr8RgC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",

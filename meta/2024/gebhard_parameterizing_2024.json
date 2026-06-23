@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The characterization of exoplanet atmospheres relies on the retrieval of physical parameters from observed spectra. A key component of this process is the parameterization of the pressure-temperature (P-T) profile. Current standard models often rely on analytical prescriptions that may not capture the full diversity of possible atmospheric structures, or on complex numerical models that are computationally expensive. We propose a new approach to parameterize P-T profiles using neural networks. By training a neural network on a large dataset of physically motivated P-T profiles, we learn a low-dimensional representation that can accurately reconstruct a wide range of atmospheric structures. We demonstrate that our neural network-based parameterization is more flexible and accurate than traditional analytical models, while remaining computationally efficient. This approach has the potential to improve the accuracy and efficiency of atmospheric retrievals for current and future exoplanet observations.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4386554551",
       "Scholar": "DZ-fHPgAAAAJ:OnQ0iyPyVxgC",
       "Volume": "681"
-    }
+    },
+    "itemType": "document"
   }
 }

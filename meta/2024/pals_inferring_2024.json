@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Recurrent neural networks (RNNs) are powerful models for understanding the dynamics of neural populations. However, fitting high-dimensional RNNs to neural data is challenging due to the large number of parameters and the difficulty of inferring latent dynamics. Low-rank RNNs have emerged as a promising alternative, as they can capture complex dynamics with a small number of parameters. In this paper, we propose a method for inferring stochastic low-rank RNNs from neural data. Our approach combines variational inference with a low-rank parameterization of the recurrent weights, allowing us to learn the latent dynamics and the noise structure of the neural population simultaneously. We demonstrate the effectiveness of our method on synthetic data and on recordings from the primary visual cortex of mice, showing that it can recover the underlying dynamics and predict neural activity with high accuracy.",
     "conferenceName": "Advances in Neural Information Processing Systems 37",
     "extra": {
       "Citations@2026-06-01": "3",
@@ -15,6 +16,7 @@
       "Scholar": "FKOqtF8AAAAJ:ddB7do2jUx8C",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",

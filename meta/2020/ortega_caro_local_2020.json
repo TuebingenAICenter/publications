@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep convolutional neural networks (CNNs) are known to be vulnerable to adversarial examples. While many defenses have been proposed, most are broken by stronger attacks. In this paper, we show that the vulnerability of CNNs to adversarial examples is partly due to an implicit bias of local convolutions towards high-frequency features. We demonstrate that this bias is a consequence of the local connectivity and weight sharing of convolutions, which effectively act as high-pass filters. We provide a theoretical analysis of this phenomenon and show that it leads to a higher sensitivity to high-frequency perturbations. Finally, we propose a simple modification to the convolution operation that mitigates this bias and improves the robustness of CNNs to adversarial examples.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2006.11440",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "v-JL-hsAAAAJ:blknAaTinKkC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

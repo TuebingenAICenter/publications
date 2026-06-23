@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Reinforcement learning (RL) has traditionally been framed as the problem of maximizing external rewards. While this paradigm has led to impressive successes in specific tasks, it often results in brittle agents that struggle to generalize to new environments. In this paper, we propose a shift towards agent-centric learning, where the primary objective is the curation of internal knowledge rather than the maximization of external rewards. We argue that by focusing on the development of internal models and representations, agents can become more robust, adaptable, and capable of solving complex problems. We discuss the theoretical foundations of this approach, its relationship to existing frameworks, and its potential for future research in artificial intelligence.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2507.22255",
     "conferenceName": "Reinforcement Learning Conference: Finding the Frame Workshop",
@@ -14,6 +15,7 @@
       "Journal Abbreviation": "RLJ",
       "Scholar": "1O2hcVgAAAAJ:1qzjygNMrQYC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "Reinforcement Learning Conference: Finding the Frame Workshop"
   }

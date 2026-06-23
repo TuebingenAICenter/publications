@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "High-density extracellular recordings provide a rich source of information about the electrical activity of neurons. However, inferring the underlying biophysical parameters of multi-compartment Hodgkin-Huxley (HH) models from these recordings remains a significant challenge due to the high dimensionality of the parameter space and the computational cost of simulating these models. We propose a simulation-based inference (SBI) framework to identify the parameters of multi-compartment HH models from high-density extracellular voltage recordings. Our approach leverages a neural posterior estimator to learn the mapping from extracellular voltage traces to the posterior distribution over biophysical parameters. We demonstrate that our method can accurately recover the parameters of multi-compartment models in synthetic data and show that it can be applied to experimental recordings from retinal ganglion cells. Our framework provides a scalable and efficient tool for characterizing the biophysical properties of neurons from extracellular recordings.",
     "archive": "arXiv",
     "archiveLocation": "2506.20233",
     "attachments": [
@@ -27,6 +28,7 @@
       "Scholar": "FKOqtF8AAAAJ:-TLX1-BxFiYC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2506.20233'>https://arxiv.org/abs/2506.20233</a><br><a href='https://neurips.cc/virtual/2025/poster/120188'>https://neurips.cc/virtual/2025/poster/120188</a><br><a href='https://is.mpg.de/ei/publications/tandeimaclin25'>https://is.mpg.de/ei/publications/tandeimaclin25</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41019202/'>https://pubmed.ncbi.nlm.nih.gov/41019202/</a><br></p>",

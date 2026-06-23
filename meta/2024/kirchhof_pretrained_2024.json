@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Modern vision models are typically trained to output a single point estimate for a given input. However, in many real-world applications, it is crucial to quantify the uncertainty of these predictions. While various methods exist to estimate uncertainty, they often require additional training or multiple forward passes, which can be computationally expensive. In this work, we propose a simple yet effective approach to obtain uncertainty estimates from pretrained vision models without any additional training or fine-tuning. We leverage the internal representations of these models to estimate the aleatoric and epistemic uncertainty of their predictions. We demonstrate that our method, which we call Pretrained Visual Uncertainties (PVU), achieves competitive performance on a range of uncertainty estimation tasks, including out-of-distribution detection and misclassification detection, while being significantly more efficient than existing methods.",
     "archive": "arXiv",
     "archiveLocation": "2402.16569",
     "extra": {
@@ -12,6 +13,7 @@
       "Scholar": "kmXOOdsAAAAJ:70eg2SAEIzsC",
       "arXiv": "2402.16569"
     },
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Climate change is increasing the frequency and intensity of extreme weather events, leading to complex, cascading risks that threaten human and natural systems. Traditional early warning systems often struggle to capture the non-linear, multi-scale, and interconnected nature of these risks. Here, we propose an integrated artificial intelligence (AI) framework for early warning of complex climate risks. This framework leverages advances in machine learning, including causal inference, graph neural networks, and foundation models, to improve the detection, attribution, and prediction of climate-related hazards and their impacts. We discuss the challenges and opportunities of integrating AI into existing early warning systems, emphasizing the need for transparency, accountability, and interdisciplinary collaboration. By combining physical understanding with data-driven insights, this approach can enhance our ability to anticipate and mitigate the impacts of a changing climate.",
     "attachments": [
       {
         "accessDate": null,
@@ -20,6 +21,7 @@
       "OpenAlex": "W4408503131",
       "Scholar": "DZ-fHPgAAAAJ:cD5VUFgRq_UC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 18</p>",

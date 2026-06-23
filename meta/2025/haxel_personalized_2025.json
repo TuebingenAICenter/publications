@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The excitability of the human cortex fluctuates over time, influencing how we perceive and respond to sensory stimuli. While non-invasive brain stimulation can probe these fluctuations, real-time tracking of cortical excitability from electroencephalography (EEG) remains challenging due to the high dimensionality and non-stationarity of EEG signals. Here, we present a framework for the personalized, real-time inference of momentary cortical excitability from human EEG. We combine a biophysical model of cortical excitability with a deep learning-based inference engine to estimate excitability states from short segments of resting-state EEG. We validate our approach using concurrent transcranial magnetic stimulation (TMS) and EEG, demonstrating that our model can predict the amplitude of motor-evoked potentials (MEPs) in real-time. Our framework provides a robust and flexible tool for closed-loop brain stimulation, enabling the targeting of specific excitability states to modulate neural processing and behavior.",
     "attachments": [
       {
         "accessDate": null,
@@ -21,6 +22,7 @@
       "OpenAlex": "W4414028429",
       "Scholar": "FKOqtF8AAAAJ:kOdZbmsmKqcC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/41135744/'>https://pubmed.ncbi.nlm.nih.gov/41135744/</a><br><a href='https://aaltodoc.aalto.fi/items/cefa7a59-fc6b-49f4-ad80-0351ab2e3aae'>https://aaltodoc.aalto.fi/items/cefa7a59-fc6b-49f4-ad80-0351ab2e3aae</a><br><a href='https://research.aalto.fi/en/publications/personalized-real-time-inference-of-momentary-excitability-from-h/'>https://research.aalto.fi/en/publications/personalized-real-time-inference-of-momentary-excitability-from-h/</a><br></p>",

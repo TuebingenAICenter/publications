@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the Hessian of the loss function of convolutional neural networks (CNNs). We show that the Hessian of a CNN is a structured matrix that can be decomposed into a sum of a low-rank matrix and a matrix with a specific block-diagonal structure. This structure is a consequence of the convolutional architecture and the weight sharing property. We use this perspective to explain several phenomena in CNNs, including the sharpness of the loss landscape, the generalization properties of CNNs, and the effectiveness of second-order optimization methods. We also provide a theoretical analysis of the Hessian's spectrum and show that it is related to the input data's geometry.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4376988644",
@@ -12,6 +13,7 @@
       "Scholar": "DZ-fHPgAAAAJ:bUky9QZDauUC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "202"
-    }
+    },
+    "itemType": "document"
   }
 }

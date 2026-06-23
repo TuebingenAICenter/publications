@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Teleoperation is a key technology for enabling robots to perform complex tasks in unstructured environments. However, teleoperation is often demanding for the human operator, especially when the robot has many degrees of freedom or when the communication channel is subject to latency. To alleviate the burden on the operator, we propose a framework for assisted teleoperation that learns a distribution over successful task trajectories from demonstrations. The learned distribution is used to provide real-time assistance to the operator by biasing the robot's motion toward the demonstrated task space while still allowing the operator to maintain control. We represent the trajectory distribution using a probabilistic movement primitive, which allows for efficient inference and adaptation. We evaluate our approach in a simulated teleoperation task and show that it significantly improves performance and reduces operator effort compared to unassisted teleoperation.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Strict frequentism defines probability as the limiting relative frequency in an infinite sequence. What if the limit does not exist? We present a broader theory, which is applicable also to random phenomena that exhibit diverging relative frequencies. In doing so, we develop a close connection with the theory of imprecise probability: the cluster points of relative frequencies yield an upper probability. We show that a natural frequentist definition of conditional probability recovers the generalized Bayes rule. This also suggests an independence concept, which is related to epistemic irrelevance in the imprecise probability literature. Finally, we prove constructively that, for a finite set of elementary events, there exists a sequence for which the cluster points of relative frequencies coincide with a prespecified set which demonstrates the naturalness, and arguably completeness, of our theory.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:50:06",
@@ -30,6 +31,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "G4MBruQAAAAJ:rywEMSoAiS0C"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",

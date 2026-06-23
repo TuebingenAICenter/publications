@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We study the convergence of continuous-time stochastic processes for solving minimax optimization problems. Specifically, we analyze the long-term behavior of a class of stochastic differential equations (SDEs) that generalize the gradient descent-ascent (GDA) dynamics. We show that, under suitable conditions, these SDEs converge to the set of stationary points of the minimax objective. We further provide a discretization analysis, showing that the discrete-time counterparts of these SDEs, which include several popular minimax optimization algorithms as special cases, inherit the convergence properties of the continuous-time processes. Our results provide a unified framework for analyzing the convergence of a wide range of minimax optimization algorithms and suggest new, more efficient algorithms.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:48:43",
@@ -30,6 +31,7 @@
       "OpenAlex": "W4392019725",
       "Scholar": "xkuLyHoAAAAJ:hFOr9nPyWt4C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",

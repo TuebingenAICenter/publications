@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a novel objective for learning causal representations that are robust to distribution shifts. Our approach is inspired by the philosophical principle that good explanations should be hard to vary, meaning that they should not be easily adaptable to fit arbitrary data. We formalize this by introducing a penalty on the sensitivity of the model's predictions to changes in the input, which encourages the model to learn features that are invariant across different environments. We demonstrate the effectiveness of our method on several synthetic and real-world datasets, showing that it outperforms existing methods in terms of robustness to distribution shifts and generalization performance.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2009.00329",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:MlcLsmccrp0C"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

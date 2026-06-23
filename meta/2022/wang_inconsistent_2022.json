@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Few-shot relation classification aims to identify the semantic relation between two entities in a sentence given only a few labeled examples. Existing methods typically assume that the few-shot support set is consistent, i.e., all instances in the support set belong to the same relation class. However, in real-world scenarios, the support set is often inconsistent due to noisy labeling or the inherent ambiguity of relations. In this paper, we propose a novel framework, Cross-Attentional Prototype Networks with Contrastive Learning (CAPN), to address the inconsistent few-shot relation classification problem. Specifically, we design a cross-attentional mechanism to capture the interaction between the query instance and the support instances, which helps to alleviate the impact of inconsistent instances. Furthermore, we introduce a contrastive learning objective to learn more discriminative prototype representations by pulling together instances of the same relation and pushing apart instances of different relations. Extensive experiments on two benchmark datasets demonstrate that our proposed CAPN significantly outperforms state-of-the-art methods in both consistent and inconsistent few-shot relation classification settings.",
     "archive": "arXiv",
     "archiveLocation": "2110.08254",
     "extra": {
       "Archive ID": "2110.08254",
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2110.08254"
-    }
+    },
+    "itemType": "document"
   }
 }

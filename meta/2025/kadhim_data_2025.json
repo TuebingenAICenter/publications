@@ -8,6 +8,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Current models of the early visual system often face a trade-off between realism and performance: whereas biologically inspired mechanistic models provide insights into visual processing but struggle to simulate complex tasks, deep learning models achieve high performance but are difficult to interpret. Here, we developed a system-identification approach to build a mechanistic model of the mouse outer retina that is both data-driven and task-performing. Our model parameters were constrained by large-scale calcium imaging and electrophysiology data from several cell types (photoreceptors, horizontal cells, and bipolar cells). To obtain a high-performance model, we optimized its remaining parameters to maximize the mutual information between the visual input and the model output (the bipolar cell layer). Using this constrained optimization, we found that the model achieved performance comparable to a deep neural network on a natural image reconstruction task. Intriguingly, our model naturally exhibited several hallmark properties of retinal processing, including adaptation to stimulus statistics. Specifically, the model showed robustness to changes in image contrast, which emerged through the non-linearities and feedback loops in the circuit. Our findings demonstrate that integrating biological constraints with task-based optimization provides a powerful framework for developing interpretable models that capture the computational principles of the early visual system.",
     "archive": "bioRxiv",
     "archiveLocation": "8e5f7e1e12058f33d42bfd325af54466",
     "attachments": [
@@ -29,6 +30,7 @@
       "Scholar": "FKOqtF8AAAAJ:SyxJh60XUSQC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://nips.cc/virtual/2025/session/128335'>https://nips.cc/virtual/2025/session/128335</a><br><a href='https://is.mpg.de/publications/kadhimetal25'>https://is.mpg.de/publications/kadhimetal25</a><br><a href='https://sciety.org/articles/activity/10.1101/2025.10.20.683356'>https://sciety.org/articles/activity/10.1101/2025.10.20.683356</a><br><a href='https://connect.biorxiv.org/qr/2025.10.20.683356'>https://connect.biorxiv.org/qr/2025.10.20.683356</a><br></p>",

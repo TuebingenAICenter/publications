@@ -6,12 +6,14 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Distributionally Robust Optimization (DRO) is a powerful framework for decision-making under uncertainty, where the goal is to optimize performance against the worst-case distribution within an ambiguity set. A critical challenge in DRO is the design of the ambiguity set: if it is too small, the model may overfit to the training data; if it is too large, the model may be overly conservative. In this paper, we propose a novel approach to design ambiguity sets using Structural Causal Optimal Transport (SCOT). By leveraging the causal structure of the data, we define a distance metric that accounts for the underlying causal mechanisms, allowing us to construct ambiguity sets that are more robust to distribution shifts. We demonstrate the effectiveness of our approach through extensive experiments on synthetic and real-world datasets, showing that our method outperforms existing DRO techniques in terms of both robustness and performance.",
     "conferenceName": "AAAI Conference on Artificial Intelligence",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4414808525",
       "Scholar": "s8xc2K4AAAAJ:qxL8FJ1GzNcC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 0</p>",

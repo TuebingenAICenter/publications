@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Angle-resolved photoemission spectroscopy (ARPES) is the primary experimental technique for mapping the electronic band structure of solids. However, the extraction of band structure from raw photoemission data is often hindered by experimental artifacts, limited resolution and the complexity of the data. Here we present a machine learning framework that automates the extraction of band structure from ARPES data. Our approach, based on a deep neural network, learns to map raw photoemission intensity distributions to the underlying band structure. We demonstrate that our method is robust to experimental noise and artifacts, and can be applied to a wide range of materials. Our framework provides a scalable and objective route for the analysis of ARPES data, facilitating the high-throughput characterization of quantum materials.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2005.10210",
     "extra": {
@@ -12,6 +13,7 @@
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4287776786",
       "Scholar": "DZ-fHPgAAAAJ:5oqvLvXezWAC"
-    }
+    },
+    "itemType": "document"
   }
 }

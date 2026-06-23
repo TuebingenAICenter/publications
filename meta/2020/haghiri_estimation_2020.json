@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Ordinal embedding is the problem of finding a low-dimensional Euclidean representation of a set of objects given only ordinal information about their distances (e.g., 'object A is closer to object B than to object C'). In this paper, we propose a new method for ordinal embedding that is specifically designed to estimate perceptual scales. Our method is based on a probabilistic model of the ordinal data, and it allows us to estimate the underlying perceptual scale even when the data are noisy or incomplete. We demonstrate the effectiveness of our method on both synthetic and real-world data, and we show that it outperforms existing methods in terms of both accuracy and robustness.",
     "extra": {
       "Citations@2026-06-01": "2",
       "Issue": "9",
       "OpenAlex": "W2969775752",
       "Scholar": "mMifMdoAAAAJ:tzM49s52ZIMC",
       "Volume": "20"
-    }
+    },
+    "itemType": "document"
   }
 }

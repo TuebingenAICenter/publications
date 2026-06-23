@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Typical diffusion models are trained to accept a particular form of conditioning, most commonly text, and cannot be conditioned on other modalities without retraining. In this work, we propose a universal guidance algorithm that enables diffusion models to be controlled by arbitrary guidance modalities without the need to retrain any use-specific components. We show that our algorithm successfully generates quality images with guidance functions including segmentation, face recognition, object detection, style guidance and classifier signals.",
     "archive": "arXiv",
     "extra": {
       "Archive ID": "2302.07121",
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4321013726",
       "Scholar": "206vNCEAAAAJ:_Qo2XoVZTnwC"
-    }
+    },
+    "itemType": "document"
   }
 }

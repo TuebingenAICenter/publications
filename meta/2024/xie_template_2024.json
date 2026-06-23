@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Reconstructing human-object interaction (HOI) from monocular images is a challenging task due to the complex contact and occlusion between the human and the object. Existing methods typically rely on pre-defined human and object templates, which limits their ability to generalize to unseen objects or diverse human shapes. In this paper, we propose a template-free approach for HOI reconstruction. We introduce a novel procedural interaction generation (ProcIGen) framework that learns to generate interaction-aware human and object representations from images. Our method does not require any template, allowing it to handle arbitrary human shapes and object geometries. We demonstrate that our approach achieves state-of-the-art performance on standard benchmarks and generalizes well to in-the-wild images.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2312.07063",
     "attachments": [
@@ -32,6 +33,7 @@
       "OpenAlex": "W4389714117",
       "Scholar": "OpXMNnMAAAAJ:-_dYPAW6P2MC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 14</p>",

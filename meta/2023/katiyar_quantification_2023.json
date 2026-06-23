@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Intratumoural heterogeneity is a major driver of cancer progression and therapy resistance, but its non-invasive quantification remains challenging. Here we show that machine-learning models trained on PET–MRI data can quantify intratumoural heterogeneity in mice and patients. We developed a deep-learning framework, termed PET–MRI-based heterogeneity quantification (PMHQ), which uses co-registered PET and MRI data to predict the spatial distribution of tumour-cell density and proliferation in colorectal cancer. PMHQ models trained on mouse models of colorectal cancer accurately predicted the spatial distribution of tumour-cell density and proliferation in human patients, as validated by histopathology. Our findings suggest that PMHQ can non-invasively quantify intratumoural heterogeneity and may facilitate the development of personalized cancer therapies.",
     "extra": {
       "Citations@2026-06-01": "13",
       "OpenAlex": "W4379390255",
       "Scholar": "DZ-fHPgAAAAJ:amTSNuT6G2IC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

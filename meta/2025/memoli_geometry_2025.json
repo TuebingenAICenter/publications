@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We introduce a notion of distance between supervised learning problems, which we call the Risk distance. This optimal-transport-inspired distance facilitates stability results; one can quantify how seriously issues like sampling bias, noise, limited data, and approximations might change a given problem by bounding how much these modifications can move the problem under the Risk distance. With the distance established, we explore the geometry of the resulting space of supervised learning problems, providing explicit geodesics and proving that the set of classification problems is dense in a larger class of problems. We also provide two variants of the Risk distance: one that incorporates specified weights on a problem's predictors, and one that is more sensitive to the contours of a problem's risk landscape.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Issue": "221",
@@ -12,6 +13,7 @@
       "Pages": "1-99",
       "Scholar": "G4MBruQAAAAJ:CgSwehex2-EC",
       "Volume": "26"
-    }
+    },
+    "itemType": "document"
   }
 }

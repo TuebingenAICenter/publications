@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Local climate information is crucial for impact assessment and decision-making, yet coarse global climate simulations cannot capture small-scale phenomena. Current statistical downscaling methods infer these phenomena as temporally decoupled spatial patches. However, to preserve physical properties, estimating spatio-temporally coherent high-resolution weather dynamics for multiple variables across long time horizons is crucial. We present a novel generative framework that uses a score-based diffusion model trained on high-resolution reanalysis data to capture the statistical properties of local weather dynamics. After training, we condition on coarse climate model data to generate weather patterns consistent with the aggregate information. As this predictive task is inherently uncertain, we leverage the probabilistic nature of diffusion models and sample multiple trajectories. We evaluate our approach with high-resolution reanalysis information before applying it to the climate model downscaling task. We then demonstrate that the model generates spatially and temporally coherent weather dynamics that align with global climate output.",
     "attachments": [
       {
         "accessDate": null,
@@ -22,6 +23,7 @@
       "OpenAlex": "W4412555364",
       "Scholar": "by3EWqIAAAAJ:WA5NYHcadZ8C"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 0</p>",

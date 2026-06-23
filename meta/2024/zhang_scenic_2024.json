@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present SCENIC, a novel framework for instruction-guided navigation in complex 3D environments. Unlike existing methods that rely on simple point-goal navigation or predefined maps, SCENIC leverages semantic scene understanding to interpret natural language instructions and navigate towards semantically defined goals. Our approach integrates a hierarchical control policy that decomposes high-level instructions into actionable sub-goals, enabling robust navigation in dynamic and unseen environments. We demonstrate that SCENIC significantly outperforms state-of-the-art methods in both simulation and real-world scenarios, showing improved success rates and efficiency in complex navigation tasks.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2403.11237",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "OpXMNnMAAAAJ:kuK5TVdYjLIC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Quality-Diversity (QD) algorithms have recently emerged as a powerful tool for finding a diverse set of high-performing solutions. However, their application to real-world robotics is often hindered by the high sample complexity of the underlying evolutionary search. In this paper, we propose a model-based approach to QD search that leverages learned forward models to accelerate the discovery of diverse and high-performing behaviors. By using the model to perform imaginary rollouts, we can evaluate candidate solutions without the need for costly real-world interactions. We demonstrate the effectiveness of our approach on a variety of simulated robotic tasks, showing that it significantly improves sample efficiency compared to model-free QD methods.",
     "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
   }
 }

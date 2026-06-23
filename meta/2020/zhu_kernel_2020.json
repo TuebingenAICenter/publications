@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Stochastic programming and control problems often involve chance constraints, which are typically difficult to solve due to the need for evaluating the probability of constraint violation. A common approach is to use conservative approximations, such as the Conditional Value-at-Risk (CVaR) or the Cantelli inequality, which can lead to overly conservative solutions. In this paper, we propose a new approach to reducing this conservativeness by using kernel mean embeddings of distributions. We show that the chance constraint can be reformulated as a deterministic constraint on the kernel mean embedding of the distribution of the constraint violation. This allows us to use convex optimization techniques to solve the problem. We demonstrate the effectiveness of our approach on several numerical examples, showing that it can significantly reduce the conservativeness of the solutions compared to existing methods.",
     "archive": "arXiv",
     "archiveLocation": "2001.10398",
     "extra": {
@@ -14,6 +15,7 @@
       "Scholar": "DZ-fHPgAAAAJ:31YcTh_BSL0C",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "120"
-    }
+    },
+    "itemType": "document"
   }
 }

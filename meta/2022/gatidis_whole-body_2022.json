@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a large-scale, multi-center dataset of whole-body FDG-PET/CT scans from 288 patients with various malignant tumors. The dataset contains 288 PET/CT scans, with a total of 1049 manually annotated tumor lesions. The annotations were performed by experienced radiologists and nuclear medicine physicians. The dataset is intended to facilitate the development and evaluation of automated tumor detection and segmentation algorithms in whole-body PET/CT imaging.",
     "extra": {
       "Citations@2026-06-01": "242",
       "OpenAlex": "W4300979672",
       "Scholar": "DZ-fHPgAAAAJ:ioHeyGUL3JsC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

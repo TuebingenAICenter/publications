@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In this article, we present BiConMP, a nonlinear model predictive control (NMPC) framework for whole-body motion planning of legged robots. The framework is based on a hierarchical approach that combines a contact-implicit trajectory optimization with a whole-body controller. We propose a novel formulation of the contact-implicit trajectory optimization that allows for the generation of dynamic motions while maintaining computational efficiency. We demonstrate the effectiveness of our approach through extensive simulations and hardware experiments on a quadrupedal robot, showing that it can generate complex, dynamic behaviors such as trotting, bounding, and jumping in challenging environments.",
     "extra": {
       "BiConMP": "A Nonlinear Model Predictive Control Framework for Whole Body Motion Planning",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

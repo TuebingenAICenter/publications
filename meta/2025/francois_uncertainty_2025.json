@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Linear Recurrent Neural Networks (LRNNs) have recently emerged as a powerful alternative to Transformers for sequence modeling, offering linear scaling in sequence length. However, their training dynamics and expressivity remain poorly understood. In this paper, we establish an uncertainty principle for LRNNs: we show that there is a fundamental trade-off between the ability of an LRNN to memorize long-range dependencies and its ability to be trained efficiently via gradient descent. Specifically, we prove that for any LRNN, the product of the effective memory horizon and the condition number of the gradient of the loss function is lower-bounded by a constant related to the spectral properties of the transition matrix. We validate our theoretical findings with experiments on synthetic and real-world datasets, demonstrating that this trade-off is a significant bottleneck for current architectures.",
     "archive": "arXiv",
     "archiveLocation": "2502.09287",
     "conferenceName": "COLT",
@@ -13,6 +14,7 @@
       "OpenAlex": "W4407574915",
       "Scholar": "xkuLyHoAAAAJ:YFjsv_pBGBYC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

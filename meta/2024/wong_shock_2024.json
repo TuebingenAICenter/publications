@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Why do people seek out negative information? While sensation seeking is often associated with thrill-seeking and risky behavior, its relationship with information seeking remains underexplored. We propose that sensation seeking is a domain-general trait that drives the pursuit of high-arousal information, even when that information is negative. Across two experiments (N=600), we show that sensation seekers are more likely to choose to view negative, high-arousal images (e.g., car crashes, violence) over neutral ones, and that this preference is mediated by the expected arousal of the information. Our findings suggest that sensation seeking is a key driver of the 'curiosity gap' for negative information, providing a novel framework for understanding why people engage with distressing content.",
     "attachments": [
       {
         "accessDate": "2025-06-27 07:58:54",
@@ -23,6 +24,7 @@
       "OpenAlex": "W4396513454",
       "Scholar": "1O2hcVgAAAAJ:SP6oXDckpogC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

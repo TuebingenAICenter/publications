@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose Sobolev Descent, a gradient descent algorithm in Sobolev spaces. We show that Sobolev Descent is equivalent to preconditioned gradient descent in the Hilbert space of functions, where the preconditioner is the inverse of the Sobolev operator. We provide a theoretical analysis of the convergence of Sobolev Descent for convex and non-convex objectives. We demonstrate the effectiveness of Sobolev Descent on several machine learning tasks, including training deep neural networks and solving partial differential equations.",
     "conferenceName": "22nd International Conference on Artificial Intelligence and Statistics",
     "extra": {
       "Event Place": "Naha, Okinawa, Japan",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics"
   }
 }

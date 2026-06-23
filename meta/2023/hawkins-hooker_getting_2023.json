@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Epigenomic data are essential for understanding gene regulation and disease, yet they are often incomplete due to experimental limitations or cost. While imputation methods exist, they typically rely on population-level data, ignoring individual-specific variation. Here we introduce a framework for individual-specific epigenomic imputation that leverages both population-level and individual-specific information. We demonstrate that our approach outperforms existing methods in imputing DNA methylation and histone modification profiles, particularly in regions with high inter-individual variability. Our results suggest that incorporating individual-specific information is crucial for accurate epigenomic imputation and has the potential to improve our understanding of the epigenomic basis of complex diseases.",
     "extra": {
       "Citations@2026-06-01": "16",
       "OpenAlex": "W4385622934",
       "Scholar": "DZ-fHPgAAAAJ:RCxWpCfmCtUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

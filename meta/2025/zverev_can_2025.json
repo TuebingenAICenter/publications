@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are increasingly used as components in complex systems, where they process inputs that contain both instructions and data. A common security concern is that an LLM might fail to distinguish between the two, leading to prompt injection attacks. In this work, we investigate the problem of instruction-data separation in LLMs. We first formalize the concept of instruction-data separation and propose a taxonomy of failure modes. We then introduce a benchmark for evaluating the ability of LLMs to separate instructions from data. Our experiments reveal that even state-of-the-art LLMs struggle with this task, and that the problem is more nuanced than previously thought. We conclude by discussing potential mitigation strategies and future research directions.",
     "archive": "arXiv",
     "archiveLocation": "2403.06833",
     "extra": {
       "Citations@2026-06-01": "75",
       "Scholar": "QEiYbDYAAAAJ:z6xuaG2dYH0C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

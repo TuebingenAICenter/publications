@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Vision Transformers (ViTs) have become the state-of-the-art architecture for computer vision tasks. However, their internal decision-making process remains largely opaque. Existing explainability methods for ViTs often rely on attention maps or gradient-based techniques, which can be noisy or fail to capture the complex interactions between tokens. In this paper, we introduce LeGrad, a novel explainability method for ViTs that leverages the sensitivity of feature formation to input perturbations. By analyzing how the internal representations are constructed through the transformer blocks, LeGrad identifies the most influential input patches for a given prediction. We demonstrate that LeGrad provides more faithful and interpretable explanations compared to existing methods, as evaluated on standard benchmarks. Furthermore, we show that LeGrad is computationally efficient and can be applied to various ViT architectures without requiring architectural modifications.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2404.03214",
     "extra": {
@@ -13,6 +14,7 @@
       "HuggingFace": "https://huggingface.co/spaces/WalidBouss/LeGrad",
       "Scholar": "pxhCcH0AAAAJ:SP6oXDckpogC",
       "Website": "https://walidbousselham.com/LeGrad/"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

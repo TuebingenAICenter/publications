@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The COVID-19 pandemic has placed an unprecedented burden on healthcare systems worldwide. To manage this burden, clinicians need tools to identify patients at high risk of mortality early in their hospital stay. Here, we present a machine learning model that predicts the risk of mortality for COVID-19 patients in real-time using electronic health records. We trained our model on a cohort of 299 patients from a hospital in Germany and validated it on a cohort of 1,157 patients from a hospital in Switzerland. Our model achieves an area under the receiver operating characteristic curve (AUROC) of 0.92 (95% CI 0.88–0.96) for the prediction of mortality. We show that our model can identify patients at high risk of mortality up to 48 hours before the event occurs. Our results suggest that machine learning models can be used to support clinical decision-making in the management of COVID-19 patients.",
     "extra": {
       "Citations@2026-06-01": "60",
       "OpenAlex": "W3129993689",
       "Scholar": "DZ-fHPgAAAAJ:MOzItdknnOoC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Points in the unit cube with low discrepancy can be constructed using algebra or, more recently, by direct computational optimization of a criterion. The usual L_∞star discrepancy is a poor criterion for this because it is computationally expensive and lacks differentiability. Its usual replacement, the L_2 star discrepancy, is smooth but exhibits other pathologies shown by J. Matoušek. In an attempt to address these problems, we introduce the average squared discrepancy which averages over 2ˆd versions of the L_2 star discrepancy anchored in the different vertices of [0,1]ˆd. Not only can this criterion be computed in O(dnˆ2) time, like the L_2 star discrepancy, but also we show that it is equivalent to a weighted symmetric L_2 criterion of Hickernell’s by a constant factor. We compare this criterion with a wide range of traditional discrepancy measures, and show that only the average squared discrepancy avoids the problems raised by Matoušek. Furthermore, we present a comprehensive numerical study showing in particular that optimizing for the average squared discrepancy leads to strong performance for the L_2 star discrepancy, whereas the converse does not hold.",
     "archive": "arXiv",
     "archiveLocation": "2508.04926",
     "extra": {
       "Citations@2026-06-01": "4",
       "Scholar": "9LajlSsAAAAJ:tkaPQYYpVKoC",
       "arXiv": "2508.04926"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

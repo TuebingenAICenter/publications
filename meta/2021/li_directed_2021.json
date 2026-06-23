@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Human motion prediction is a fundamental task in computer vision and robotics, which aims to predict future human poses given a sequence of historical poses. Existing methods often model the human body as a kinematic tree or a fully connected graph. However, the human body is a complex system with hierarchical dependencies, and the interactions between joints are not necessarily symmetric or static. In this paper, we propose a Directed Acyclic Graph Neural Network (DAG-NN) to model the human body as a directed acyclic graph, which can capture the hierarchical dependencies and the directed information flow between joints. Specifically, we design a DAG-based message passing mechanism to aggregate information from parent joints to child joints, and a temporal model to capture the dynamics of the motion. We evaluate our method on the Human3.6M and CMU Mocap datasets, and the experimental results demonstrate that our method outperforms state-of-the-art approaches in both short-term and long-term motion prediction.",
     "conferenceName": "2021 IEEE International Conference on Robotics and Automation (ICRA)",
     "extra": {
       "Event Place": "Xi’an, China (Hybrid Event)",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "2021 IEEE International Conference on Robotics and Automation (ICRA)"
   }
 }

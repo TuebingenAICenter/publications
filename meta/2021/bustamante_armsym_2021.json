@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Assistive robotics aims to improve the quality of life of people with motor impairments by providing robotic aids, such as robotic arms or powered wheelchairs. However, the development and evaluation of assistive robotic systems are challenging due to the high cost of hardware, the difficulty of recruiting participants with motor impairments, and the safety risks involved in human-robot interaction. To address these challenges, we present ArmSym, a virtual human-robot interaction laboratory for assistive robotics. ArmSym is a simulation environment that provides a realistic and safe platform for the development and evaluation of assistive robotic systems. It includes a variety of virtual robotic arms, wheelchairs, and environments, as well as a set of tools for simulating human-robot interaction. We demonstrate the utility of ArmSym by evaluating a shared-control system for a robotic arm, showing that the simulation results are consistent with those obtained in a real-world experiment. ArmSym is open-source and available for the research community.",
     "extra": {
       "Citations@2026-06-01": "17",
       "OpenAlex": "W3203624975",
       "Scholar": "DZ-fHPgAAAAJ:rn4dCvfRltYC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Predictive processing theories suggest that the brain constantly generates predictions about upcoming sensory input. While many models focus on predicting the next state, we argue that learning to predict the consequences of counterfactual interventions is crucial for developing robust, causal representations. We propose a novel architecture that learns latent event-predictive encodings by regularizing the latent space with counterfactual predictions. Our model is trained to predict the outcome of an action, given a current state and a counterfactual intervention. We evaluate our approach on a set of grid-world environments and show that it learns more robust and interpretable representations compared to standard predictive models. Furthermore, we demonstrate that our model can effectively generalize to unseen counterfactual scenarios.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2105.05894",
     "extra": {
@@ -15,6 +16,7 @@
       "Repository": "arXiv",
       "Scholar": "1O2hcVgAAAAJ:_Qo2XoVZTnwC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Mechanistic models are essential for understanding neural dynamics, but fitting them to experimental data is often computationally prohibitive. We present a simulation-based inference framework that uses deep neural density estimators to perform likelihood-free inference. Our approach, which we call sequential neural posterior estimation (SNPE), enables the identification of parameters of mechanistic models by learning the posterior distribution of parameters given observed data. We demonstrate that SNPE can identify parameters of complex, high-dimensional models of neural dynamics, including models of single neurons and recurrent neural networks, with high accuracy and efficiency. Our framework is flexible, scalable, and can be applied to a wide range of mechanistic models, providing a powerful tool for bridging the gap between theory and experiment in neuroscience.",
     "extra": {
       "Citations@2026-06-01": "26",
       "Editors": "Huguenard, John R. and O'Leary, Timothy and Goldman, Mark S.",
       "OpenAlex": "W2989132626",
       "Scholar": "FKOqtF8AAAAJ:-ZoC36zw86wC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

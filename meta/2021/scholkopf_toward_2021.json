@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Machine learning has made tremendous progress in finding statistical patterns in large-scale data. However, current methods often fail to generalize to new environments or to provide causal explanations. We argue that the next step in the evolution of machine learning is to move from statistical to causal models. We propose a framework for causal representation learning, which aims to discover the causal variables and their relationships from raw data. We discuss the challenges and opportunities in this field, and we outline a research agenda for the coming years.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W3129086097",
       "Scholar": "DZ-fHPgAAAAJ:ubRYrD_BVX8C",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are increasingly used in social science research to simulate human behavior. A common approach is to administer psychological questionnaires to LLMs to assess their 'personality'. However, it remains unclear whether these tests, originally developed for humans, are valid for LLMs. In this paper, we investigate the psychometric properties of personality tests when applied to LLMs. We find that while LLMs can produce consistent responses, the underlying factor structure of personality tests often fails to replicate in LLMs. Our results suggest that caution is warranted when using personality tests to characterize LLMs and that new evaluation frameworks are needed.",
     "extra": {
       "Citations@2026-06-01": "40",
       "Conference Name": "Thirty-Seventh Annual Conference on Neural Information Processing Systems",
       "Proceedings Title": "Proceedings of the Thirty-Seventh Annual Conference on Neural Information Processing Systems",
       "Scholar": "s8xc2K4AAAAJ:5nxA0vEk-isC",
       "Source": "group_webpage (hardt)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

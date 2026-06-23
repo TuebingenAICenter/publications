@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Robots are increasingly interacting with humans in shared environments. To facilitate natural and intuitive interaction, robots need to understand human behavior and, ideally, possess a sense of self similar to humans. In psychology and neuroscience, the concept of body experience describes how humans perceive, represent, and act with their bodies. While these concepts have been studied extensively in humans, their application to robotics is still in its infancy. In this review, we discuss how cognitive models of human body experience can inform the development of robotic systems. We categorize existing approaches into three levels: (1) body schema and body image, (2) multisensory integration, and (3) social and affective body experience. We argue that integrating these concepts into robotic architectures can lead to more robust, adaptive, and socially intelligent robots. Finally, we identify key challenges and future research directions for bridging the gap between human body experience and robotic implementation.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

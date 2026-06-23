@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "How do individuals balance the use of individual and social information? While social learning can be highly adaptive, it is often limited by the quality of social information and the costs of social interaction. We propose that individuals solve this problem by specializing in different information sources and using selective social attention to filter social information. We test this hypothesis using a multi-armed bandit task where participants could choose to explore options individually or observe the choices of others. We find that participants spontaneously specialize into individual and social learners. Furthermore, social learners use selective social attention, preferentially attending to high-performing peers. We develop a computational model that accounts for these behaviors and show that this division of labor leads to higher collective performance than a homogeneous population of learners. Our results suggest that the balance between individual and social learning is not a fixed trait, but an emergent property of social specialization and selective attention.",
     "archive": "bioRxiv",
     "archiveLocation": "10.1101/2021.02.03.429553",
     "conferenceName": "43rd Annual Conference of the Cognitive Science Society",
     "extra": {
       "Source": "group_webpage (wu)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 43rd Annual Conference of the Cognitive Science Society"
   }
 }

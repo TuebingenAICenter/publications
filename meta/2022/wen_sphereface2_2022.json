@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep face recognition has been dominated by margin-based softmax loss functions. While effective, these losses are often complex to design and optimize, requiring careful hyperparameter tuning. In this paper, we revisit the fundamental objective of face recognition and show that it can be effectively solved as a binary classification problem. We propose SphereFace2, a simple yet powerful framework that learns discriminative face representations by treating face recognition as a binary classification task. SphereFace2 eliminates the need for complex margin-based losses and achieves state-of-the-art performance on standard benchmarks. We provide theoretical analysis to justify our approach and demonstrate its effectiveness through extensive experiments.",
     "conferenceName": "10th International Conference on Learning Representations (ICLR)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "10th International Conference on Learning Representations (ICLR)"
   }
 }

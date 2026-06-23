@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Human learners exhibit a strong preference for compositionally simpler hypotheses when learning concepts. However, it remains unclear whether this bias is innate or learned through experience. We investigate this question by testing whether participants' preference for simpler hypotheses changes after extensive training on either simple or complex concepts. We find that the bias towards simplicity is remarkably robust and remains unchanged even after training, suggesting that it may be a fundamental constraint on human cognition rather than a product of learning.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4386473254",
       "Scholar": "1O2hcVgAAAAJ:ZHo1McVdvXMC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

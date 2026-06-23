@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Colorectal cancer (CRC) is characterized by high inter- and intratumoral heterogeneity, which poses a major challenge for personalized therapy. Patient-derived organoids (PDOs) are powerful models to study CRC, but they often lack the complex tumor microenvironment (TME). Here, we established a co-culture system of patient-derived CRC organoids and cancer-associated fibroblasts (CAFs) to mimic the TME. We show that this model recapitulates key features of the original tumors, including the maintenance of tumor cell heterogeneity and the activation of CAFs. Furthermore, we demonstrate that the presence of CAFs significantly alters the drug response of the organoids, highlighting the importance of the TME in therapeutic studies. Our model provides a robust platform for studying CRC biology and for testing personalized treatment strategies.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

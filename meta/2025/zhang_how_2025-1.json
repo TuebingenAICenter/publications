@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Model merging has emerged as a powerful technique to combine multiple fine-tuned models into a single, high-performing model without further training. Despite its empirical success, the theoretical understanding of why merging works remains limited. In this work, we investigate the role of the optimizer in shaping the loss landscape of merged models. We show that the optimizer's implicit bias—specifically, its tendency to converge to flat minima—plays a crucial role in the success of model merging. We provide a theoretical framework that characterizes how the optimizer's choice of hyperparameters and the geometry of the loss landscape influence the merging performance. Our findings suggest that merging is not merely a geometric operation but is deeply intertwined with the optimization process. We validate our theoretical insights with extensive experiments on various architectures and tasks, demonstrating that our framework can guide the selection of models for merging and improve the performance of merged models.",
     "archive": "arXiv",
     "archiveLocation": "2510.04686",
     "conferenceName": "ICLR",
@@ -15,6 +16,7 @@
       "Publication Title": "arXiv (Cornell University)",
       "Scholar": "xkuLyHoAAAAJ:fPk4N6BV_jEC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

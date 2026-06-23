@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a probabilistic state space model for the joint inference of parameters and latent states of differential equations from noisy, sparse observations. By formulating the differential equation as a Gaussian process prior over the state trajectory, we derive a filtering and smoothing framework that is computationally efficient and provides uncertainty estimates. Our approach is based on a Taylor-series expansion of the differential equation, which allows us to linearize the dynamics and apply the Kalman filter and smoother. We demonstrate the effectiveness of our method on several synthetic and real-world datasets, showing that it outperforms existing methods in terms of accuracy and robustness.",
     "conferenceName": "Advances in Neural Information Processing Systems 34",
     "extra": {
       "Citations@2026-06-01": "3",
@@ -14,6 +15,7 @@
       "Scholar": "UeG5w08AAAAJ:t6usbXjVLHcC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 34"
   }
 }

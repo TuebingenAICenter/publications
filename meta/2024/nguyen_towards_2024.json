@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Training Data Attribution (TDA) methods aim to identify which training examples are most influential for a model's prediction. While TDA has seen significant technical progress, its utility for end-users remains under-explored. In this paper, we argue that the current research trajectory in TDA is overly focused on technical benchmarks, often neglecting the needs and cognitive limitations of human users. We propose a shift towards user-focused TDA research, which prioritizes human interpretability, decision-making support, and trust. We outline a research agenda for human-centered TDA, highlighting key challenges and opportunities for future work.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2409.16978",
     "extra": {
@@ -12,6 +13,7 @@
       "Scholar": "kmXOOdsAAAAJ:3s1wT3WcHBgC",
       "arXiv": "2409.16978"
     },
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv"
   }
 }

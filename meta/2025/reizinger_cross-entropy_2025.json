@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Generative modeling has recently been dominated by diffusion models, which learn to invert the data generating process by predicting the noise added to a sample. This approach requires a specific training objective, typically mean squared error, and a carefully designed noise schedule. In this work, we show that these design choices are not necessary. We demonstrate that any generative model can be trained to invert the data generating process using only the cross-entropy loss, provided the data is discretized. This formulation allows us to unify diffusion models and autoregressive models under a single framework. We show that our approach, which we call Cross-Entropy Diffusion (CED), achieves state-of-the-art performance on several benchmarks, while being simpler to implement and more stable to train than existing diffusion models.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2410.21869",
     "attachments": [
@@ -28,6 +29,7 @@
       "Scholar": "v-JL-hsAAAAJ:nb7KW1ujOQ8C",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",

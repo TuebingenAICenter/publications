@@ -6,10 +6,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "System identification in neuroscience often relies on black-box models, which are powerful at predicting neural responses but difficult to interpret. Here, we propose a framework for system identification that incorporates biophysical constraints into deep learning models. We apply this approach to the inner retina, where we model the transformation from bipolar cell inputs to ganglion cell outputs. By constraining the model architecture to reflect the known connectivity of the retinal circuit, we show that we can learn interpretable models that perform on par with unconstrained black-box models. Our approach allows us to infer the functional connectivity of the retinal circuit from large-scale calcium imaging data and provides a path towards building more interpretable models of neural systems.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3104989773",
       "Scholar": "lPQLk3QAAAAJ:a0OBvERweLwC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Compositional generalization—the ability to recognize novel combinations of known concepts—is a hallmark of human intelligence. While large-scale vision-language models like CLIP have shown impressive zero-shot performance, their ability to generalize compositionally remains a subject of debate. In this work, we investigate the factors that drive compositional generalization in CLIP models. We find that the frequency of concept co-occurrence in the pretraining data is a strong predictor of compositional generalization performance. Specifically, we show that models trained on datasets with higher co-occurrence frequencies of compositional pairs exhibit better zero-shot compositional generalization. We further demonstrate that this relationship holds across a variety of real-world tasks and datasets, suggesting that data compositionality is a key driver of model performance. Our findings provide insights into the data requirements for building models that can generalize compositionally and suggest strategies for improving the compositional robustness of future vision-language models.",
     "archive": "arXiv",
     "archiveLocation": "2502.18326",
     "callNumber": "arXiv:2502.18326",
@@ -16,6 +17,7 @@
       "Repository": "arXiv",
       "Scholar": "v-JL-hsAAAAJ:UxriW0iASnsC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

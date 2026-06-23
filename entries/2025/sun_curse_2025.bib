@@ -1,7 +1,6 @@
 @article{sun_curse_2025,
 	title = {The {Curse} of {Depth} in {Large} {Language} {Models}},
 	url = {https://arxiv.org/abs/2502.05795},
-	abstract = {The scaling of Large Language Models (LLMs) has primarily focused on increasing parameter counts, often through deepening the network architecture. While deeper models theoretically possess greater representational capacity, we observe a phenomenon we term the "Curse of Depth": as depth increases, the training dynamics become increasingly unstable, and the performance gains diminish or even reverse. In this paper, we investigate the root causes of this phenomenon, identifying that the accumulation of activation magnitudes and gradient variance across layers leads to optimization difficulties. To mitigate these issues, we propose LayerNorm Scaling (LNS), a simple yet effective technique that stabilizes training by normalizing the activation growth across layers. Our experiments demonstrate that LNS enables the training of significantly deeper models, achieving superior performance compared to standard architectures with the same parameter count. We validate our approach on models ranging from 1B to 7B parameters, showing consistent improvements in both training stability and final model quality.},
 	language = {en},
 	urldate = {2025-05-22},
 	journal = {Advances in Neural Information Processing Systems},

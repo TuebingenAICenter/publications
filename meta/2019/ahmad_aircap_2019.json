@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "This paper presents an overview of the Grassroots project Aerial Outdoor Motion Capture (AirCap) running at the Max Planck Institute for Intelligent Systems. AirCap's goal is to achieve markerless, unconstrained, human motion capture (mocap) in unknown and unstructured outdoor environments. To that end, we have developed an autonomous flying motion capture system using a team of aerial vehicles (MAVs) with only on-board, monocular RGB cameras. We have conducted several real robot experiments involving up to 3 aerial vehicles autonomously tracking and following a person in several challenging scenarios using our approach of active cooperative perception developed in AirCap. Using the images captured by these robots during the experiments, we have demonstrated a successful offline body pose and shape estimation with sufficiently high accuracy. Overall, we have demonstrated the first fully autonomous flying motion capture system involving multiple robots for outdoor scenarios.",
     "conferenceName": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
     "extra": {
       "Source": "group_webpage (black)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019), Workshop on Aerial Swarms"
   }
 }

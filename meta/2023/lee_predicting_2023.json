@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Electrical resistance tomography (ERT) can be used to create large-scale soft tactile sensors that are flexible and robust. Good performance requires a fast and accurate mapping from the sensor's sequential voltage measurements to the distribution of force across its surface. However, particularly with multiple contacts, this task is challenging for both previously developed approaches: physics-based modeling and end-to-end data-driven learning. Some promising results were recently achieved using sim-to-real transfer learning, but estimating multiple contact locations and accurate contact forces remains difficult because simulations tend to be less accurate with a high number of contact locations and/or high force. This paper introduces a modular hybrid method that combines simulation data synthesized from an electromechanical finite element model with real measurements collected from a new ERT-based tactile sensor. We use about 290,000 simulated and 90,000 real measurements to train two deep neural networks: the first (Transfer-Net) captures the inevitable gap between simulation and reality, and the second (Recon-Net) reconstructs contact forces from voltage measurements. The number of contacts, contact locations, force magnitudes, and contact diameters are evaluated for a manually collected multi-contact dataset of 150 measurements. Our modular pipeline's results outperform predictions by both a physics-based model and end-to-end learning.",
     "extra": {
       "Citations@2026-06-01": "46",
       "OpenAlex": "W4226188202",
       "Scholar": "b-JF-UIAAAAJ:Mojj43d5GZwC",
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "1"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

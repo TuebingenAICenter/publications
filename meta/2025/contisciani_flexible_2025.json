@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Networked datasets can be enriched by different types of information about individual nodes or edges. However, most existing methods for analyzing such datasets struggle to handle the complexity of heterogeneous data, often requiring substantial model-specific analysis. In this paper, we develop a probabilistic generative model to perform inference in multilayer networks with arbitrary types of information. Our approach employs a Bayesian framework combined with the Laplace matching technique to ease interpretation of inferred parameters. Furthermore, the algorithmic implementation relies on automatic differentiation, avoiding the need for explicit derivations. This makes our model scalable and flexible to adapt to any combination of input data. We demonstrate the effectiveness of our method in detecting overlapping community structures and performing various prediction tasks on heterogeneous multilayer data, where nodes and edges have different types of attributes. Additionally, we showcase its ability to unveil a variety of patterns in a social support network among villagers in rural India by effectively utilizing all input information in a meaningful way.",
     "attachments": [
       {
         "accessDate": "2025-06-17 16:41:31",
@@ -25,6 +26,7 @@
       "Scholar": "UeG5w08AAAAJ:oNZyr7d5Mn4C",
       "addittional_DOI": "https://doi.org/10.48550/arxiv.2405.20918"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",

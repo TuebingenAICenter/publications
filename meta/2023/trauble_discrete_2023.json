@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We introduce the Discrete Key-Value Bottleneck (DKVB), a representation learning framework that learns to store information in a discrete, structured memory. DKVB decomposes the input into a set of keys and values, where the keys act as pointers to a learned codebook of values. This bottleneck encourages the model to learn a compact, interpretable, and reusable representation of the data. We demonstrate that DKVB achieves competitive performance on a variety of tasks, including image classification, reinforcement learning, and language modeling, while providing insights into the learned representations.",
     "extra": {
       "Citations@2026-06-01": "5",
       "OpenAlex": "W4288043168",
@@ -12,6 +13,7 @@
       "Scholar": "DZ-fHPgAAAAJ:PRjLZGxZpaIC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "202"
-    }
+    },
+    "itemType": "document"
   }
 }

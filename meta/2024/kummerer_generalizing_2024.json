@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Predicting where humans look in natural images is a fundamental task in vision science. While deep learning models have achieved high performance on specific datasets, their ability to generalize across different datasets and viewing conditions remains limited. Here, we investigate the factors that hinder generalization and propose a path towards a universal model of free-viewing fixations. We evaluate several state-of-the-art models on a diverse set of eye-tracking datasets and find that performance drops significantly when models are tested on datasets they were not trained on. We identify dataset-specific biases, such as differences in image content, task instructions, and recording setups, as key drivers of this performance gap. To address these issues, we introduce a novel training framework that incorporates data augmentation and domain adaptation techniques. Our results demonstrate that this approach significantly improves cross-dataset generalization, bringing us closer to a universal model of human fixation behavior.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Conference": "Vision Sciences Society Annual Meeting 2024",
@@ -14,6 +15,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "0z0fNxUAAAAJ:pYKElYtJMmwC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

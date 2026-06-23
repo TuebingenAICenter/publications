@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Cortical laminar fMRI at ultra-high fields (UHF) promises to resolve the columnar and laminar organization of the human brain. However, the spatial accuracy of laminar fMRI is limited by several factors, including head motion, geometric distortions, and the large vein bias. In this study, we systematically investigated the impact of prospective motion correction (PMC), different distortion correction methods, and the large vein bias on the spatial accuracy of laminar fMRI at 9.4 T. We found that PMC significantly improved the spatial stability of the fMRI data, reducing motion-related artifacts and improving the alignment of the functional data with the anatomical reference. Distortion correction methods, including field map-based and point-spread function-based approaches, were effective in reducing geometric distortions, with the latter providing superior results in regions with high susceptibility gradients. The large vein bias, which is a major confound in laminar fMRI, was found to be significantly reduced by using a high-resolution acquisition and appropriate preprocessing steps. Our results demonstrate that a combination of PMC, advanced distortion correction, and careful handling of the large vein bias is essential for achieving high spatial accuracy in laminar fMRI at 9.4 T.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

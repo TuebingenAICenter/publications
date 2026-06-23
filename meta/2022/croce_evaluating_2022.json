@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Test-time adaptation (TTA) aims to improve the performance of a pre-trained model on a target domain by adapting it to test data. Recently, several works have proposed TTA methods as a defense against adversarial attacks. In this paper, we show that these defenses are often evaluated against weak, non-adaptive attacks, leading to an overestimation of their robustness. We propose a framework for evaluating the adversarial robustness of TTA methods, which includes a set of adaptive attacks that account for the adaptation process. We evaluate several state-of-the-art TTA methods and show that they are significantly less robust than previously reported when evaluated against our adaptive attacks. Our results highlight the importance of evaluating TTA defenses against adaptive adversaries and provide a benchmark for future research in this area.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2202.13711",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4221148050",
       "Scholar": "0ZAb3tsAAAAJ:nVrZBo8bIpAC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

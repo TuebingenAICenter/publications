@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Color vision is a fundamental sensory modality that allows animals to distinguish objects based on the spectral composition of light. While the molecular basis of color vision—the expression of distinct opsins—is well understood, the circuit-level mechanisms that transform these signals into color-opponent channels remain elusive. Here, we show that in the zebrafish retina, color-opponent signals emerge at the first synapse, between photoreceptors and bipolar cells. We find that this is achieved through a combination of selective connectivity and distinct synaptic properties of different photoreceptor types. Our results suggest that the fundamental circuit architecture for color vision is conserved across vertebrates and that the emergence of color-opponent signals at the first retinal synapse is a key evolutionary innovation that enabled the diversification of color vision.",
     "extra": {
       "Citations@2026-06-01": "12",
       "Issue": "42",
       "OpenAlex": "W3188931025",
       "Scholar": "lPQLk3QAAAAJ:rO6llkc54NcC",
       "Volume": "7"
-    }
+    },
+    "itemType": "document"
   }
 }

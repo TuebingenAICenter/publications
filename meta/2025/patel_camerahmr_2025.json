@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We address the challenge of accurate 3D human pose and shape estimation from monocular images. The key to accuracy and robustness lies in high-quality training data. Existing training datasets containing real images with pseudo ground truth (pGT) use SMPLify to fit SMPL to sparse 2D joint locations, assuming a simplified camera with default intrinsics. We make two contributions that improve pGT accuracy. First, to estimate camera intrinsics, we develop a field-of-view prediction model (HumanFoV) trained on a dataset of images containing people. We use the estimated intrinsics to enhance the 4D-Humans dataset by incorporating a full perspective camera model during SMPLify fitting. Second, 2D joints provide limited constraints on 3D body shape, resulting in average-looking bodies. To address this, we use the BEDLAM dataset to train a dense surface keypoint detector. We apply this detector to the 4D-Humans dataset and modify SMPLify to fit the detected keypoints, resulting in significantly more realistic body shapes. Finally, we upgrade the HMR2.0 architecture to include the estimated camera parameters. We iterate model training and SMPLify fitting initialized with the previously trained model. This leads to more accurate pGT and a new model, CameraHMR, with state-of-the-art accuracy. Code and pGT are available for research purposes.",
     "archive": "arXiv",
     "archiveLocation": "2411.08128",
     "conferenceName": "International Conference on 3D Vision (3DV)",
@@ -14,6 +15,7 @@
       "Reporter": "2025 International Conference on 3D Vision (3DV), 1562-1571, 2025",
       "Scholar": "6NjbexEAAAAJ:voxG-9qLvA4C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://dblp.org/rec/conf/3dim/PatelB25'>https://dblp.org/rec/conf/3dim/PatelB25</a><br><a href='https://arxiv.org/abs/2411.08128'>https://arxiv.org/abs/2411.08128</a><br><a href='https://camerahmr.is.tuebingen.mpg.de/'>https://camerahmr.is.tuebingen.mpg.de/</a><br></p>",

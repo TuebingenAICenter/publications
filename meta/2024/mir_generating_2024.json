@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Generating long-term, natural human motion in 3D scenes is a challenging task that requires understanding the interplay between human movement and the environment. Existing methods often focus on short-term motion prediction or generating motion in static, simple environments. In this paper, we propose ORIGIN, a method for generating continual human motion in diverse 3D scenes. Our approach leverages a hierarchical framework that first predicts a sequence of navigation goals and then generates the corresponding human motion. We introduce a novel scene-aware motion generation model that conditions on the 3D scene geometry and the navigation goals. To train our model, we curate a large-scale dataset of human motion in diverse 3D scenes. We demonstrate that our method generates natural, long-term human motion that is consistent with the 3D environment and outperforms existing baselines in both motion quality and scene consistency.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2304.02061",
     "attachments": [
@@ -33,6 +34,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "OpXMNnMAAAAJ:ZuybSZzF8UAC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 31</p>",

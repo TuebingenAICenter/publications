@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Background: The 17 Sustainable Development Goals (SDGs) are deeply interconnected, but the nature of these interlinkages is complex and often poorly understood. We aimed to map the interlinkages between the SDGs and climate change to identify key objectives and nexuses that could inform policy prioritisation. Methods: We used a network analysis approach to quantify the interlinkages between the 169 targets of the 17 SDGs, based on a text-based analysis of official UN documents. We constructed a directed, weighted network of targets and used centrality measures to identify key objectives and communities of targets. We also analysed the role of climate change (SDG 13) within this network. Findings: We identified a highly interconnected network of SDG targets, with a core of central objectives that act as hubs for the entire agenda. Climate change (SDG 13) is strongly linked to many other SDGs, particularly those related to energy, infrastructure, and sustainable consumption and production. We identified several key nexuses, such as the water-energy-food nexus, that are central to the achievement of multiple SDGs. Interpretation: Our findings highlight the importance of a systemic approach to the SDGs, where policy interventions are designed to leverage synergies and mitigate trade-offs. The identified key objectives and nexuses provide a starting point for prioritising actions to accelerate progress towards the 2030 Agenda.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "5"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

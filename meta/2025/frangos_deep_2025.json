@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The malaria parasite Plasmodium falciparum undergoes complex morphological changes during its intraerythrocytic development. Continuous live-cell imaging is essential to capture these dynamic processes, but the resulting large-scale datasets require automated analysis. Here, we present a deep learning-based pipeline for the automated segmentation and tracking of P. falciparum-infected erythrocytes in time-lapse microscopy data. Our approach, based on a U-Net architecture, achieves high accuracy in segmenting infected cells and enables the quantification of parasite growth and morphological transitions over time. We demonstrate the utility of our method by characterizing the dynamics of parasite egress and invasion, providing new insights into the timing and variability of these critical steps in the parasite life cycle.",
     "extra": {
       "Source": "group_webpage (berens)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

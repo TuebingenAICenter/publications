@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The EU’s Digital Markets Act (DMA) aims to address the lack of contestability and unfair practices in digital markets. But the current framework of the DMA does not adequately cover the rapid advance of generative AI. As the EU adopts AI-specific rules and considers possible amendments to the DMA, this paper suggests that generative AI should be added to the DMA’s list of core platform services. This amendment is the first necessary step to address the emergence of entrenched and durable positions in the generative AI industry.",
     "conferenceName": "Workshop on Generative AI + Law (GenLaw)",
     "extra": {
       "Source": "group_webpage (hardt)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Workshop on Generative AI + Law (GenLaw)"
   }
 }

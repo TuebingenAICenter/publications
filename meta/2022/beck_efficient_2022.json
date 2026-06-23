@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian parameter inference in models where the likelihood is intractable but samples can be generated. A common challenge in SBI is that the data often contains many uninformative features, which can hinder the performance of inference algorithms. Here, we propose a method for identifying informative features in SBI. Our approach is based on learning a summary statistic that is both informative about the parameters and low-dimensional. We show that our method can be used to perform efficient inference in high-dimensional settings and that it outperforms existing methods on a range of benchmarks.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2210.11915",
     "conferenceName": "Advances in Neural Information Processing Systems",
@@ -19,6 +20,7 @@
       "Scholar": "FKOqtF8AAAAJ:VHM5RxzNINsC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
   }

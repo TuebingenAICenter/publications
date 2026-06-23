@@ -10,6 +10,7 @@
     "extra": {
       "Reporter": "Cold Spring Harbor Laboratory Institutional Repository (Cold Spring Harbor Laboratory)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://proceedings.mlr.press/v267/reizinger25a.html'>https://proceedings.mlr.press/v267/reizinger25a.html</a><br><a href='https://icml.cc/virtual/2025/poster/40163'>https://icml.cc/virtual/2025/poster/40163</a><br><a href='https://arxiv.org/abs/2504.13101'>https://arxiv.org/abs/2504.13101</a><br></p>",

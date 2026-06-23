@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Generative models for 3D medical images are essential for data augmentation and privacy-preserving data sharing. However, generating high-resolution 3D volumes remains computationally challenging. In this work, we propose the Multiscale Metamorphic Variational Autoencoder (MM-VAE), a generative model that synthesizes 3D brain MRI volumes by learning a multiscale representation of the data. Our model decomposes the image generation process into a sequence of metamorphic transformations, allowing for the synthesis of high-fidelity 3D volumes at multiple scales. We demonstrate that our approach achieves state-of-the-art performance on 3D brain MRI synthesis, producing images with high anatomical fidelity and diversity.",
     "archive": "arXiv",
     "archiveLocation": "2301.03588",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "FKOqtF8AAAAJ:f13iAvnbnnYC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

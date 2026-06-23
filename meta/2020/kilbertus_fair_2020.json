@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We consider the problem of making fair decisions based on imperfect predictions. In many real-world applications, such as loan granting or hiring, a decision maker uses a predictive model to estimate a target variable and then makes a decision based on this estimate. Often, the predictive model is imperfect, i.e., it does not perfectly predict the target variable. We show that even if the predictive model is fair with respect to a sensitive attribute, the resulting decisions may be unfair. Conversely, we show that even if the predictive model is unfair, it is possible to make fair decisions. We propose a framework to achieve fairness in decision making by adjusting the decision threshold based on the sensitive attribute and the predictive model's error distribution. We provide theoretical guarantees for our approach and demonstrate its effectiveness on synthetic and real-world datasets.",
     "extra": {
       "Citations@2026-06-01": "10",
       "OpenAlex": "W2945663551",
@@ -12,6 +13,7 @@
       "Scholar": "DZ-fHPgAAAAJ:LdboP74Pu9YC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "108"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the vulnerability of neural networks to small input perturbations, focusing on the first-order (gradient-based) adversarial vulnerability. We show that this vulnerability is closely related to the input dimension. Specifically, for a wide class of classifiers, the expected gradient norm is proportional to the square root of the input dimension. This result provides a theoretical explanation for why high-dimensional inputs are more susceptible to adversarial attacks. We also provide empirical evidence supporting our theoretical findings on several datasets and architectures.",
     "extra": {
       "Citations@2026-06-01": "149",
       "Scholar": "DZ-fHPgAAAAJ:5qzlj8FBphgC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

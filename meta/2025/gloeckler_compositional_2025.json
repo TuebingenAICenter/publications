@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) has become a powerful tool for performing Bayesian inference in models where the likelihood is intractable but simulation is possible. However, standard SBI methods often struggle with high-dimensional time series data, as they typically rely on summary statistics or embedding networks that may not capture the temporal dependencies effectively. In this paper, we propose a compositional approach to SBI for time series, which decomposes the inference problem into a sequence of smaller, more manageable tasks. By leveraging the Markov property of the underlying generative process, we construct a compositional posterior estimator that can be trained on short segments of the time series. We demonstrate that our method achieves state-of-the-art performance on a range of challenging time series models, including those with complex temporal dynamics and high-dimensional observations.",
     "archive": "arXiv",
     "archiveLocation": "2411.02728",
     "attachments": [
@@ -27,6 +28,7 @@
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2411.02728"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

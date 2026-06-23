@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large language models (LLMs) have demonstrated impressive performance on various reasoning tasks. However, their ability to perform causal reasoning remains under-explored. In this paper, we introduce CLadder, a benchmark designed to assess the causal reasoning capabilities of LLMs. CLadder consists of a diverse set of causal reasoning tasks, covering different levels of the causal hierarchy, including association, intervention, and counterfactuals. We evaluate several state-of-the-art LLMs on CLadder and find that while they perform well on associative tasks, they struggle with interventions and counterfactuals. Our results suggest that current LLMs lack a robust understanding of causal structures and that further research is needed to improve their causal reasoning abilities.",
     "extra": {
       "Citations@2026-06-01": "302",
       "Scholar": "DZ-fHPgAAAAJ:vtsb3mgoJX0C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Tactile sensing is crucial for robots to perform dexterous manipulation tasks. However, the high dimensionality of tactile data and the difficulty of obtaining ground truth labels make learning tactile skills challenging. In this paper, we propose a framework for building a library of tactile skills based on FingerVision, a low-cost, high-resolution tactile sensor. We demonstrate that our framework can be used to learn a variety of tactile skills, including grasping, sliding, and pushing, in a sample-efficient manner. We also show that the learned skills can be transferred to new objects and tasks, demonstrating the potential of our approach for building general-purpose tactile manipulation systems.",
     "conferenceName": "International Conference on Humanoid Robots (Humanoids)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Humanoid Robots (Humanoids)"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We address the problem of selecting features that have a causal influence on a target variable. In many applications, such as neuroimaging, the number of features is large, while the number of samples is small. We propose a method that selects causal features by performing a single conditional independence test per feature. Our approach is based on the assumption that the target variable is a cause of the features, or that there is a common cause. We show that under certain conditions, our method is consistent and can recover the causal features. We demonstrate the effectiveness of our method on synthetic data and on real-world neuroimaging data.",
     "extra": {
       "Citations@2026-06-01": "9",
       "OpenAlex": "W2970379104",
       "Scholar": "DZ-fHPgAAAAJ:KiiG_FXkR9MC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

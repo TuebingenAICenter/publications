@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Randomized smoothing is a popular technique to provide certified robustness guarantees for deep learning models. However, existing methods typically assume that the underlying computations are performed in exact real arithmetic. In this paper, we show that this assumption is violated in practice due to floating-point arithmetic, which can lead to invalid certificates. We propose a sound randomized smoothing framework that accounts for floating-point errors and provides rigorous robustness guarantees. Our approach is based on interval arithmetic and provides a way to compute certified radii that are valid even in the presence of floating-point inaccuracies. We demonstrate the effectiveness of our method on several benchmarks and show that it provides sound certificates with minimal loss in robustness.",
     "archive": "arXiv",
     "extra": {
       "Archive ID": "2207.07209",
@@ -12,6 +13,7 @@
       "OpenAlex": "W4285787377",
       "Repository": "GitHub",
       "Scholar": "0ZAb3tsAAAAJ:YB4bud6kWLwC"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Ice shelves are critical components of the Antarctic ice sheet, regulating the flow of inland ice into the ocean. Their stability is largely determined by surface accumulation and basal melt rates. However, these rates are difficult to constrain due to the lack of direct observations. Here, we present a simulation-based inference (SBI) framework to estimate surface accumulation and basal melt rates from isochronal layers observed in ice-penetrating radar data. We use a 2D ice-flow model to simulate the evolution of isochronal layers and a neural density estimator to perform Bayesian inference. We demonstrate our approach on a synthetic case study and apply it to radar data from the Ekström Ice Shelf, Antarctica. Our results show that SBI can accurately recover surface accumulation and basal melt rates, providing a powerful tool for quantifying the mass balance of ice shelves.",
     "archive": "arXiv",
     "archiveLocation": "2312.02997",
     "extra": {
@@ -14,6 +15,7 @@
       "Scholar": "FKOqtF8AAAAJ:gxb_f1p9zx4C",
       "arXiv": "2312.02997"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 3</p>",

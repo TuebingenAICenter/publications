@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal models are often used to describe static systems. In this chapter, we discuss how these models can be extended to dynamical systems. We focus on structural causal models (SCMs) and their application to time series data. We discuss the concept of intervention in dynamical systems and how it relates to the notion of causality. We also review some recent approaches for learning causal models from time series data.",
     "archive": "arXiv",
     "archiveLocation": "2001.06208",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2001.06208"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

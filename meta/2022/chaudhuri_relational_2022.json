@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Fine-grained classification requires models to learn subtle discriminative features that distinguish between visually similar classes. While existing methods often rely on part-based localization or attention mechanisms, they frequently struggle to capture the complex relationships between parts that define fine-grained categories. In this paper, we propose Relational Proxies, a novel approach that learns to represent fine-grained categories by modeling the emergent relationships between their constituent parts. We introduce a relational module that captures pairwise interactions between part features, which are then aggregated into a relational proxy for each class. These proxies serve as discriminative representations that capture the structural configuration of parts, enabling the model to distinguish between visually similar classes more effectively. We demonstrate the effectiveness of our approach on several fine-grained classification benchmarks, where it achieves state-of-the-art performance, outperforming existing methods by a significant margin.",
     "conferenceName": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)",
     "extra": {
       "Citations@2026-06-01": "2",
@@ -14,6 +15,7 @@
       "Scholar": "jQl9RtkAAAAJ:2KloaMYe4IUC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
   }
 }

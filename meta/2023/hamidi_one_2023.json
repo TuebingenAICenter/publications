@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The information bottleneck (IB) principle has been a popular framework for understanding representation learning in deep neural networks. However, recent work has questioned the necessity of the IB principle for explaining the emergence of invariant representations. Here, we investigate the role of the bottleneck in a simple task of learning to represent and categorize stimuli. We show that a single bottleneck is insufficient to capture the complexity of the task, and that multiple bottlenecks are required to learn a hierarchical representation. We propose a multi-bottleneck architecture and show that it outperforms a single-bottleneck model in both representation learning and categorization performance.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4386472900",
       "Scholar": "1O2hcVgAAAAJ:SeFeTyx0c_EC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

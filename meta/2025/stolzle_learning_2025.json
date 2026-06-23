@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Learning from demonstration provides a sample-efficient approach to acquiring complex behaviors, enabling robots to move robustly, compliantly, and with fluidity. In this context, Dynamic Motion Primitives offer built - in stability and robustness to disturbances but often struggle to capture complex periodic behaviors. Moreover, they are limited in their ability to interpolate between different tasks. These shortcomings substantially narrow their applicability, excluding a wide class of practically meaningful tasks such as locomotion and rhythmic tool use. In this work, we introduce Orbitally Stable Motion Primitives (OSMPs) - a framework that combines a learned diffeomorphic encoder with a supercritical Hopf bifurcation in latent space, enabling the accurate acquisition of periodic motions from demonstrations while ensuring formal guarantees of orbital stability and transverse contraction. Furthermore, by conditioning the bijective encoder on the task, we enable a single learned policy to represent multiple motion objectives, yielding consistent zero-shot generalization to unseen motion objectives within the training distribution. We validate the proposed approach through extensive simulation and real-world experiments across a diverse range of robotic platforms - from collaborative arms and soft manipulators to a bio-inspired rigid-soft turtle robot - demonstrating its versatility and effectiveness in consistently outperforming state-of-the-art baselines such as diffusion policies, among others.",
     "archive": "arXiv",
     "archiveLocation": "2507.10602",
     "extra": {
@@ -15,6 +16,7 @@
       "Scholar": "9LajlSsAAAAJ:Y5dfb0dijaUC",
       "arXiv": "2507.10602"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

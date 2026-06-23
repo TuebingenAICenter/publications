@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Learning effective state representations is a fundamental problem in reinforcement learning and control. In many real-world scenarios, the underlying state space is high-dimensional and partially observed, and the dynamics are governed by causal mechanisms. In this paper, we propose a novel framework for learning action-sufficient state representations that are robust to changes in the environment. We introduce structural constraints based on the causal structure of the environment, which allows us to identify the latent state variables that are necessary and sufficient for predicting the effects of actions. We demonstrate the effectiveness of our approach on a variety of control tasks, showing that it outperforms existing methods in terms of sample efficiency and generalization to unseen environments.",
     "extra": {
       "Citations@2026-06-01": "5",
       "OpenAlex": "W3207211828",
       "Scholar": "DZ-fHPgAAAAJ:TO92qYKFP5UC"
-    }
+    },
+    "itemType": "document"
   }
 }

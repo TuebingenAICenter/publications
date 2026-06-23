@@ -6,9 +6,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Comparing the visual perception of humans and machines is a central task in computer vision and computational neuroscience. However, the results of such comparisons are often difficult to interpret because of the many degrees of freedom in experimental design. In this article, we identify five points that are critical to consider when comparing human and machine perception: (1) the choice of stimuli, (2) the task, (3) the performance metric, (4) the model architecture, and (5) the training data. We discuss how each of these factors can influence the results and provide recommendations for how to design more informative and reproducible comparisons. We hope that this framework will help to standardize the evaluation of machine vision systems and facilitate a more nuanced understanding of the similarities and differences between human and machine perception.",
     "extra": {
       "Citations@2026-06-01": "160",
       "Scholar": "v-JL-hsAAAAJ:RHpTSmoSYBkC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "It is a well-known phenomenon that overparameterized models can interpolate noisy training data while still achieving good generalization performance. This phenomenon, called benign overfitting, has been extensively studied in the context of linear regression and kernel methods in high-dimensional settings, where the number of features d is larger than the number of samples n. In this paper, we study benign overfitting in fixed dimension d, where the number of samples n goes to infinity. We show that for kernel methods and neural networks, benign overfitting can occur if the model is allowed to place 'spikes' at the training data points. These spikes allow the model to interpolate the noise while the 'smooth' part of the function learns the underlying signal. We provide a theoretical analysis of this phenomenon and show that it can lead to good generalization performance even in fixed dimension. We also provide empirical evidence supporting our theoretical findings.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2305.14077",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W7133188220",
       "Scholar": "mMifMdoAAAAJ:QYdC8u9Cj1oC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

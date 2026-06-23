@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We address the problem of spatio-temporal grounding in untrimmed, multi-action videos using only narrated instructions as supervision. Given a video and its corresponding narration, the goal is to localize the described actions in both time and space. Existing methods for this task typically rely on large-scale, manually annotated datasets, which are expensive and time-consuming to collect. In this work, we propose a self-supervised approach that learns to ground actions by leveraging the temporal alignment between video and narration. We introduce a novel objective that encourages the model to attend to the relevant video regions and time segments that correspond to the narrated instructions. Our method achieves state-of-the-art performance on several benchmarks, demonstrating the effectiveness of our approach in learning spatio-temporal grounding without explicit supervision.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2303.16990",
     "extra": {
       "Citations@2026-06-01": "13",
       "Scholar": "pxhCcH0AAAAJ:zA6iFVUQeVQC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

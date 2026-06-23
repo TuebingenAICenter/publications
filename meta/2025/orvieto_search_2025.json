@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The Adam optimizer is the de facto standard for training deep neural networks. Despite its popularity, the reasons for its success remain elusive. We investigate the role of the adaptive learning rate and the momentum terms in Adam. We show that the adaptive learning rate acts as a preconditioner that adapts to the local geometry of the loss landscape, while the momentum terms provide a form of variance reduction. We provide a theoretical analysis of Adam's convergence properties and show that it can be viewed as a stochastic gradient descent method with a specific preconditioner. We also provide empirical evidence that our theoretical findings hold in practice.",
     "archive": "arXiv",
     "archiveLocation": "2505.21829",
     "conferenceName": "NeurIPS",
@@ -13,6 +14,7 @@
       "Citations@2026-06-01": "28",
       "Scholar": "xkuLyHoAAAAJ:RYcK_YlVTxYC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 1</p>",

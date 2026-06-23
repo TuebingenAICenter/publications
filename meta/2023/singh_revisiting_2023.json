@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Adversarial training (AT) is the standard defense against adversarial attacks. While AT has been extensively studied on small-scale datasets like CIFAR-10, its application to ImageNet remains challenging due to the high computational cost and the difficulty of achieving high robust accuracy. In this paper, we revisit adversarial training for ImageNet. We first show that the choice of architecture is crucial: we demonstrate that modern architectures like ConvNeXt and Swin Transformer significantly outperform the standard ResNet-50 in terms of robust accuracy. Second, we investigate the impact of training recipes and show that simple modifications to the training procedure, such as using larger batch sizes and longer training schedules, can lead to substantial improvements. Finally, we analyze the generalization of these models across different threat models and show that models trained with a specific threat model can exhibit surprising robustness to others. Our results provide a new state-of-the-art for adversarial training on ImageNet and offer insights into the factors that contribute to robust generalization.",
     "archive": "arXiv",
     "archiveLocation": "cs.LG",
     "extra": {
@@ -15,6 +16,7 @@
       "Scholar": "0ZAb3tsAAAAJ:IaI1MmNe2tcC",
       "arXiv": "2303.01870"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

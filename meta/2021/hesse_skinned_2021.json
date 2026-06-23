@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "A computer-implemented method for automatically obtaining pose and shape parameters of a human body. The method includes obtaining a sequence of digital 3D images of the body, recorded by at least one depth camera; automatically obtaining pose and shape parameters of the body, based on images of the sequence and a statistical body model; and outputting the pose and shape parameters. The body may be an infant body.",
     "callNumber": "US Patent 11,127,163",
     "extra": {
       "Source": "group_webpage (black)"
     },
+    "itemType": "report",
     "reportType": "Patent"
   }
 }

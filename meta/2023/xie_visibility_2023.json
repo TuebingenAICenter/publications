@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Tracking human-object interactions (HOI) from a single RGB camera is a challenging task due to frequent occlusions, complex contact patterns, and the lack of depth information. Existing methods often struggle to maintain consistent tracking when the object is occluded by the human or vice versa. In this paper, we propose a novel visibility-aware approach for HOI tracking. We introduce a visibility-aware representation that explicitly models the visibility of both the human and the object over time. Our method leverages this visibility information to guide the tracking process, effectively handling occlusions and improving the robustness of the interaction estimation. We demonstrate the effectiveness of our approach on challenging datasets, showing significant improvements over state-of-the-art methods in both tracking accuracy and interaction fidelity.",
     "archive": "arXiv",
     "archiveLocation": "2303.16479",
     "extra": {
@@ -12,6 +13,7 @@
       "OpenAlex": "W4386071456",
       "Scholar": "OpXMNnMAAAAJ:PR6Y55bgFSsC"
     },
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv"
   }
 }

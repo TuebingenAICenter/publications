@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Curiosity-driven exploration is a powerful paradigm for reinforcement learning in environments with sparse rewards. However, most existing approaches are myopic, as they only consider the immediate information gain. In this paper, we propose Receding Horizon Curiosity (RHC), a novel exploration objective that accounts for future information gain over a finite horizon. We derive an efficient approximation of this objective and show that it can be integrated into existing model-based reinforcement learning frameworks. We evaluate our approach on a set of challenging continuous control tasks and demonstrate that it leads to more efficient exploration and faster convergence compared to myopic curiosity-driven exploration methods.",
     "conferenceName": "3rd Annual Conference on Robot Learning",
     "extra": {
       "Editors": "Leslie Pack Kaelbling and Danica Kragic and Komei Sugiura",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 3rd Annual Conference on Robot Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

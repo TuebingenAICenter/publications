@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The influence of semantic object-scene consistency on eye movements is a long-standing topic in vision research. Recent computational models, such as meaning maps, have been proposed to predict where people look in natural scenes. These models are based on the assumption that semantic information is a key driver of eye movements. However, it remains unclear whether these models can account for the effects of semantic object-scene inconsistencies. Here, we tested whether semantic object-scene inconsistencies affect eye movements and whether these effects are captured by contextualized meaning maps. We found that semantic inconsistencies do affect eye movements, but these effects are not predicted by current meaning map models. Our results suggest that while semantic information is important for eye movement control, the way it is integrated into current models of scene viewing is insufficient to account for the effects of semantic inconsistencies.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4393879881",
       "Scholar": "0z0fNxUAAAAJ:Xz60mAmATU4C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

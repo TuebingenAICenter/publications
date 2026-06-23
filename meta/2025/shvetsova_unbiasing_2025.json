@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Video benchmarks are often plagued by representation bias, where models learn to rely on spurious correlations rather than the actual action content. In this work, we propose a novel approach to mitigate this bias by leveraging textual descriptions. We introduce a framework that uses language models to generate descriptive captions for video clips, which are then used to train models that are more robust to representation bias. Our experiments demonstrate that our approach significantly improves performance on several video benchmarks, while also providing better interpretability.",
     "conferenceName": "CVPR",
     "extra": {
       "Citations@2026-06-01": "1",
@@ -13,6 +14,7 @@
       "Source": "group_webpage (kuehne)",
       "Website": "https://utd-project.github.io/"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }

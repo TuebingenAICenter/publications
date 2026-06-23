@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Sustained attention is a fundamental cognitive capacity that fluctuates over time, often leading to task-unrelated thought (TUT). While previous research has linked these fluctuations to activity within specific brain networks, such as the default mode network (DMN) and dorsal attention network (DAN), it remains unclear how the dynamic interplay between these networks—specifically their integration and segregation—relates to attention and TUT. Here, we used a sustained attention task combined with experience sampling to measure TUT, and resting-state and task-based fMRI to examine the relationship between network-level integration/segregation and attentional states. We found that higher integration between the DMN and the DAN was associated with increased TUT, whereas higher segregation between these networks was associated with better sustained attention. These findings suggest that the dynamic balance between integration and segregation across large-scale brain networks is a key marker of attentional states and the propensity for TUT.",
     "extra": {
       "Citations@2026-06-01": "40",
       "OpenAlex": "W3118747434",
       "Scholar": "1O2hcVgAAAAJ:TQgYirikUcIC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

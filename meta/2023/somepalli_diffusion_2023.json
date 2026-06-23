@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Diffusion models have recently demonstrated an unprecedented ability to generate high-quality images. However, these models are trained on massive datasets scraped from the internet, raising concerns about whether they simply memorize and replicate their training data. In this work, we investigate the extent to which diffusion models replicate training images. We find that diffusion models are indeed capable of generating near-identical copies of training images, and that this behavior is more common than previously thought. We characterize the conditions under which this occurs and propose a simple method to detect such replications. Our findings suggest that diffusion models can be used to perform digital forgery, and we discuss the implications for copyright and privacy.",
     "extra": {
       "Citations@2026-06-01": "145",
       "OpenAlex": "W4386076098",
       "Scholar": "206vNCEAAAAJ:qUcmZB5y_30C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

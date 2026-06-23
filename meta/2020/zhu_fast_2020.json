@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Mixed-integer programming (MIP) is a powerful tool for solving hybrid model predictive control (HMPC) problems. However, the computational complexity of MIP is NP-hard, which often prevents its application in real-time control. In this paper, we propose a fast non-parametric learning approach to accelerate the solution of HMPC problems. We learn a mapping from the state to the optimal integer sequence of the MIP problem. By predicting the optimal integer sequence, the MIP problem reduces to a convex quadratic program (QP), which can be solved very efficiently. We use a k-nearest neighbor (k-NN) classifier for the learning task, which is non-parametric and allows for fast training and inference. We demonstrate the effectiveness of our approach on a hybrid system benchmark problem, showing significant speedups compared to standard MIP solvers while maintaining high control performance.",
     "archive": "arXiv",
     "archiveLocation": "1911.09214",
     "conferenceName": "21rst IFAC World Congress",
@@ -19,6 +20,7 @@
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "1911.09214"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "ScienceDirect",
     "proceedingsTitle": "21rst IFAC World Congress"
   }

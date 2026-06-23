@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Motivation: Antimicrobial resistance (AMR) is a major global health threat. Clinical proteomics, specifically mass spectrometry-based identification of bacteria, has emerged as a rapid diagnostic tool. However, current methods often rely on single-modality data, potentially missing valuable information. Multimodal learning, which integrates diverse data sources, has shown promise in various domains but remains under-explored in clinical proteomics for AMR prediction. Results: We propose a multimodal learning framework that integrates clinical proteomics data with chemical information about antibiotics. We demonstrate that incorporating chemical information significantly improves the performance of AMR prediction models compared to unimodal baselines. Our approach achieves state-of-the-art results on a large-scale clinical proteomics dataset, highlighting the potential of multimodal learning to enhance diagnostic accuracy in clinical settings.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "12"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

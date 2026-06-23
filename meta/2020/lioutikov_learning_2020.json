@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Movement primitives are a powerful tool for representing complex robot behaviors. However, sequencing these primitives to achieve long-term goals remains a challenge. In this paper, we propose a framework for learning attribute grammars that can represent the hierarchical structure of complex tasks and the dependencies between movement primitives. Our approach combines the structural flexibility of context-free grammars with the continuous state representation of attribute grammars. We demonstrate the effectiveness of our method on a variety of robotic manipulation tasks, showing that it can learn to sequence movement primitives to achieve complex goals while maintaining robustness to variations in the environment.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

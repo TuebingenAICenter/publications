@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a method for inferring diverse 3D models of human-object interactions from images. Reasoning about how humans interact with objects in complex scenes from a single 2D image is a challenging task given ambiguities arising from the loss of information through projection. In addition, modeling 3D interactions requires the generalization ability towards diverse object categories and interaction types. We propose an action-conditioned modeling of interactions that allows us to infer diverse 3D arrangements of humans and objects without supervision on contact regions or 3D scene geometry. Our method extracts high-level commonsense knowledge from large language models (such as GPT-3), and applies them to perform 3D reasoning of human-object interactions. Our key insight is priors extracted from large language models can help in reasoning about human-object contacts from textural prompts only. We quantitatively evaluate the inferred 3D models on a large human-object interaction dataset and show how our method leads to better 3D reconstructions. We further qualitatively evaluate the effectiveness of our method on real images and demonstrate its generalizability towards interaction types and object categories.",
     "conferenceName": "2022 International Conference on 3D Vision (3DV 2022)",
     "extra": {
       "Arxiv": "https://arxiv.org/abs/2209.02485",
@@ -12,6 +13,7 @@
       "Source": "group_webpage (black)",
       "Video": "https://youtu.be/YB1_xKlueUI"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "2022 International Conference on 3D Vision (3DV 2022)"
   }
 }

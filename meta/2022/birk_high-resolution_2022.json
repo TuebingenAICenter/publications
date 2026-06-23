@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Balanced steady-state free precession (bSSFP) is a fast magnetic resonance imaging sequence that is highly sensitive to diffusion. However, the bSSFP signal is also sensitive to off-resonance effects, which can lead to signal voids and artifacts. In this work, we propose a neural network-driven approach to map multiple diffusion metrics from bSSFP data, leveraging the asymmetries in the bSSFP frequency profile. We demonstrate that our method can produce high-resolution diffusion maps in a fraction of the time required by conventional methods.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

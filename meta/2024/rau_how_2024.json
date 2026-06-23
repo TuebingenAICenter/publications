@@ -6,12 +6,14 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Artificial neural networks (ANNs) have proven to be a useful tool for complex questions that involve large amounts of data. Our use case of predicting soil maps with ANNs is in high demand by government agencies, construction companies, or farmers, given cost and time intensive field work. However, there are two main challenges when applying ANNs. In their most common form, deep learning algorithms do not provide interpretable predictive uncertainty. This means that properties of an ANN such as the certainty and plausibility of the predicted variables, rely on the interpretation by experts rather than being quantified by evaluation metrics validating the ANNs. Further, these algorithms have shown a high confidence in their predictions in areas geographically distant from the training area or areas sparsely covered by training data. To tackle these challenges, we use the Bayesian deep learning approach “last-layer Laplace approximation”, which is specifically designed to quantify uncertainty into deep networks, in our explorative study on soil classification. It corrects the overconfident areas without reducing the accuracy of the predictions, giving us a more realistic uncertainty expression of the model's prediction. In our study area in southern Germany, we subdivide the soils into soil regions and as a test case we explicitly exclude two soil regions in the training area but include these regions in the prediction. Our results emphasize the need for uncertainty measurement to obtain more reliable and interpretable results of ANNs, especially for regions far away from the training area. Moreover, the knowledge gained from this research addresses the problem of overconfidence of ANNs and provides valuable information on the predictability of soil types and the identification of knowledge gaps. By analyzing regions where the model has limited data support and, consequently, high uncertainty, stakeholders can recognize the areas that require more data collection efforts.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4392577951",
       "Publisher": "University of T&uuml;bingen",
       "Scholar": "UeG5w08AAAAJ:nrtMV_XWKgEC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",

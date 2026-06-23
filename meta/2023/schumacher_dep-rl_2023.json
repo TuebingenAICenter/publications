@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Muscle-actuated organisms are capable of learning an unparalleled diversity of dexterous movements despite their vast amount of muscles. Reinforcement learning (RL) on large musculoskeletal models, however, has not been able to show similar performance. We conjecture that ineffective exploration in large overactuated action spaces is a key problem. This is supported by our finding that common exploration noise strategies are inadequate in synthetic examples of overactuated systems. We identify differential extrinsic plasticity (DEP), a method from the domain of self-organization, as being able to induce state-space covering exploration within seconds of interaction. By integrating DEP into RL, we achieve fast learning of reaching and locomotion in musculoskeletal systems, outperforming current approaches in all considered tasks in sample efficiency and robustness.",
     "archive": "OpenReview",
     "archiveLocation": "https://openreview.net/forum?id=C-xa_D3oTj6",
     "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR)",
@@ -18,6 +19,7 @@
       "Scholar": "b-JF-UIAAAAJ:_B80troHkn4C",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR)"
   }
 }

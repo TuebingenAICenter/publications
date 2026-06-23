@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large language models (LLMs) have demonstrated impressive capabilities in solving mathematical problems. However, current benchmarks often suffer from data contamination and lack the ability to evaluate models on problems requiring arbitrarily long or complex proofs. We introduce MathGAP, a benchmark for evaluating LLMs on mathematical problems that require multi-step reasoning and proofs of arbitrary complexity. MathGAP is designed to be out-of-distribution (OOD) relative to the training data of most LLMs, ensuring a robust evaluation of their reasoning capabilities. We evaluate several state-of-the-art LLMs on MathGAP and find that they struggle with problems requiring long-chain reasoning, highlighting the need for further research in this direction.",
     "archive": "arXiv",
     "archiveLocation": "2410.13502",
     "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
@@ -14,6 +15,7 @@
       "Scholar": "DZ-fHPgAAAAJ:wrCxuZLGs6cC",
       "note": "*equal contribution"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",

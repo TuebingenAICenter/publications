@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Data attribution methods play a crucial role in understanding machine learning models, providing insight into which training data points are most responsible for model outputs during deployment. However, current state-of-the-art approaches require a large ensemble of as many as 300,000 models to accurately attribute model predictions. These approaches therefore come at a high computational cost, are memory intensive, and are hard to scale to large models or datasets. In this work, we focus on a minimalist baseline, utilizing the feature space of a backbone pretrained via self-supervised learning to perform data attribution. Our method is model-agnostic and scales easily to large datasets. We show results on CIFAR-10 and ImageNet, achieving strong performance that rivals or outperforms state-of-the-art approaches at a fraction of the compute or memory cost. Contrary to prior work, our results reinforce the intuition that a model’s prediction on one image is most impacted by visually similar training samples. Our approach serves as a simple and efficient baseline for data attribution on images.",
     "archive": "arXiv",
     "archiveLocation": "cs.LG",
     "extra": {
@@ -15,6 +16,7 @@
       "Scholar": "206vNCEAAAAJ:J_g5lzvAfSwC",
       "arXiv": "2311.03386"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

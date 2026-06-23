@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Diffusion models have recently achieved state-of-the-art performance in generative tasks, including text-to-audio. However, their high computational cost remains a significant barrier to widespread adoption. In this work, we introduce Moûsai, a novel architecture for efficient text-to-music generation. Moûsai leverages a cascaded diffusion approach, combining a latent diffusion model with a high-fidelity neural audio codec. By operating in a compressed latent space, Moûsai significantly reduces the computational requirements for both training and inference, while maintaining high audio quality. We demonstrate that Moûsai achieves competitive performance on standard benchmarks while being significantly more efficient than existing methods. Our code and pre-trained models are publicly available.",
     "archive": "ACL Anthology",
     "archiveLocation": "2024.acl-long.437",
     "attachments": [
@@ -33,6 +34,7 @@
       "Publisher": "MPI-IS",
       "Scholar": "DZ-fHPgAAAAJ:Mjvec00rDE4C"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 166</p>",

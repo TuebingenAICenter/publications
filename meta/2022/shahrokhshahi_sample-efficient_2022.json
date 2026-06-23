@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Exoskeletons are typically controlled by policies trained in simulation. However, the discrepancy between the simulation and the real-world environment, as well as the variations in the users' physical characteristics and gait patterns, often lead to performance degradation. To address this, we propose a sample-efficient policy adaptation framework that enables an exoskeleton to adapt its control policy to a new user or environment with minimal interaction. Our approach leverages a meta-learning framework that learns a prior policy, which can be quickly adapted to new tasks using a small amount of data. We evaluate our method on a lower-limb exoskeleton in simulation and demonstrate that it achieves superior adaptation performance compared to baseline methods with significantly fewer samples.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "10"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

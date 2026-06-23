@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Learning stable dynamic systems from demonstrations is a fundamental problem in robot learning. While many approaches focus on deterministic systems, stochasticity is often required to represent the variability in human demonstrations. In this paper, we propose ImitationFlow, a novel framework for learning stable stochastic dynamic systems. We leverage normalizing flows to learn a transformation from a simple base distribution to a complex, multi-modal distribution of velocities. By enforcing a contraction constraint on the flow, we guarantee the stability of the learned system. We evaluate our approach on several synthetic and real-world robot manipulation tasks, demonstrating that ImitationFlow outperforms existing methods in terms of both accuracy and stability.",
     "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
   }
 }

@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Self-touch is crucial in human communication, psychology, and disease transmission, yet existing methods for detecting self-touch are often invasive or limited in scope. This study systematically investigates the feasibility of using non-invasive electrical bioimpedance for detecting discrete self-touch poses across individuals. While previous research has focused on classifying defined self-touch poses, our work explores how various poses cause bioimpedance changes, providing insights into the underlying physiological mechanisms. We thus created a dataset of 27 genuine self-touch poses, including skin-to-skin contact between the hands and face and skin-to-clothing contact between the hands and chest, alongside six adversarial mid-air gestures. We then measured the wrist-to-wrist bioimpedance of 30 adults (15 female, 15 male) across these poses, with each measurement preceded by a no-touch pose serving as a baseline. Statistical analysis of the measurements showed that skin-to-skin contacts cause significant changes in bioimpedance magnitude between 237.8 kHz and 4.1 MHz, while adversarial gestures do not; skin-to-clothing contacts cause less-significant changes due to the influence and variability of the clothing material. Furthermore, our analysis highlights the sensitivity of bioimpedance to the body parts involved, skin contact area, and individual's characteristics. Our contributions are two-fold: (1) we demonstrate that bioimpedance offers a practical, non-invasive solution for detecting self-touch poses involving skin-to-skin contact, (2) researchers can leverage insights from our study to determine whether a pose can be detected without extensive testing.",
     "extra": {
       "Source": "group_webpage (black)",
       "month_numeric": "4"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

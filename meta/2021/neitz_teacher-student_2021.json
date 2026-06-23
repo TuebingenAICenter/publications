@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Predicting future trajectories is a core problem in many fields, including robotics, autonomous driving, and climate modeling. While deep learning models have achieved impressive results, they are often computationally expensive and difficult to deploy in real-time settings. In this paper, we propose a teacher-student framework to distill future trajectories. Our approach leverages a powerful teacher model to learn a complex representation of the future, which is then distilled into a lightweight student model. We demonstrate that our student model can achieve performance comparable to the teacher model while being significantly faster and more memory-efficient. We evaluate our framework on several trajectory prediction benchmarks and show that it consistently outperforms existing distillation methods.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W3130497811",
       "Scholar": "DZ-fHPgAAAAJ:3n516rgkYXMC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

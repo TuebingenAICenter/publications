@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Decision trees are interpretable models that have been widely used in machine learning. However, they are often outperformed by deep neural networks in complex tasks. In this work, we propose a novel approach to learn decision trees by leveraging the representational power of deep neural networks. We introduce a recurrent communication mechanism that allows the tree nodes to exchange information, enabling the model to learn complex decision boundaries. Our method achieves competitive performance on several benchmarks while maintaining the interpretability of decision trees.",
     "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "extra": {
       "Citations@2026-06-01": "4",
@@ -13,6 +14,7 @@
       "Scholar": "jQl9RtkAAAAJ:pyW8ca7W8N0C",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }

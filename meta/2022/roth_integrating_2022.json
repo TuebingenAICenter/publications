@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep Metric Learning (DML) aims to learn an embedding space where semantically similar images are close to each other. While standard DML relies solely on visual information, we argue that language can provide a powerful, complementary signal to resolve ambiguities in visual similarity. In this work, we propose a novel framework that integrates language guidance into vision-based DML. Our approach leverages a pre-trained vision-language model to extract language-based semantic guidance, which is then used to adapt the visual embedding space. We demonstrate that our method significantly improves performance on standard DML benchmarks and provides a more interpretable embedding space. Furthermore, we show that our approach is robust to noisy language descriptions and can be applied to zero-shot and few-shot learning scenarios.",
     "archive": "arXiv",
     "archiveLocation": "2203.08543",
     "conferenceName": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
@@ -16,6 +17,7 @@
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2203.08543"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }

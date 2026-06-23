@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Compositional image retrieval aims to retrieve a target image based on a query image and a text modification. Existing methods typically learn a deterministic mapping from the image-text pair to the target image embedding. However, the ambiguity inherent in natural language descriptions and the diversity of possible image modifications suggest that a single point estimate is insufficient to capture the underlying distribution of the target image. In this work, we propose Probabilistic Compositional Embeddings (PCE), a framework that models the target image as a distribution in the embedding space. By representing the query and the target as Gaussian distributions, we can capture the uncertainty in the compositional process. We demonstrate that our approach achieves state-of-the-art performance on standard benchmarks for compositional image retrieval, while providing a measure of uncertainty that is useful for downstream tasks.",
     "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
     "extra": {
       "Citations@2026-06-01": "3",
@@ -14,6 +15,7 @@
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "6"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
   }
 }

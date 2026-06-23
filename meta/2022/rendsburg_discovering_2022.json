@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Approximate Bayesian inference methods are ubiquitous in machine learning. However, they often introduce implicit inductive biases that are difficult to characterize. In this paper, we propose a diagnostic tool to discover the inductive bias of an approximate inference method. We frame the approximate posterior as the exact posterior of a Gibbs prior, which is a perturbation of the original prior. By analyzing this Gibbs prior, we can interpret the inductive bias of the approximation as a modification of the prior. We demonstrate our approach on several examples, including Gaussian process regression and multi-task learning, and show that it provides insights into the behavior of approximate inference methods.",
     "archive": "arXiv",
     "archiveLocation": "2203.03353",
     "extra": {
@@ -14,6 +15,7 @@
       "OpenAlex": "W4226326567",
       "Repository": "arXiv",
       "Scholar": "mMifMdoAAAAJ:PoWvk5oyLR8C"
-    }
+    },
+    "itemType": "document"
   }
 }

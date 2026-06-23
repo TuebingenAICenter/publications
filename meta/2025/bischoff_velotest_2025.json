@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Single-cell RNA velocity analysis has emerged as a powerful tool for inferring transient cellular dynamics from transcriptomic data. Typically, it is visualized as a low-dimensional embedding where displacement vectors indicate the predicted differentiation direction. However, such visualizations can be misleading, as they may suggest clear trajectories even when the underlying velocity signals are weak or inconsistent with the observed transcriptomic states. Here, we present velotest, a flexible statistical framework for assessing the quality and consistency of RNA velocity embeddings. velotest introduces quantitative scores and statistical hypothesis tests to identify regions where velocity estimates are unreliable or misaligned with the transcriptomic density. We showcase its diagnostic capabilities on multiple datasets, demonstrating how data-processing choices and projection methods impact the reliability of the resulting visualizations. velotest provides a rigorous foundation for evaluating RNA velocity analysis, making trajectory inference in single-cell studies more robust and transparent.",
     "archive": "bioRxiv",
     "attachments": [
       {
@@ -23,6 +24,7 @@
       "OpenAlex": "W4415560109",
       "Scholar": "FKOqtF8AAAAJ:uqZYSrDi9MMC"
     },
+    "itemType": "document",
     "notes": [
       {
         "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.10.26.683064'>https://sciety.org/articles/activity/10.1101/2025.10.26.683064</a><br><a href='https://jglobal.jst.go.jp/en/public/202502206599844809'>https://jglobal.jst.go.jp/en/public/202502206599844809</a><br><a href='https://pypi.org/project/velotest/'>https://pypi.org/project/velotest/</a><br><a href='https://pavlinpolicar.com/publications/'>https://pavlinpolicar.com/publications/</a><br><a href='https://cdn.sciencecast.org/casts/awzo2s84pv30'>https://cdn.sciencecast.org/casts/awzo2s84pv30</a><br><a href='https://www.piwheels.org/project/velotest/'>https://www.piwheels.org/project/velotest/</a><br><a href='https://www.biorxiv.org/content/10.1101/2025.10.26.683064'>https://www.biorxiv.org/content/10.1101/2025.10.26.683064</a><br></p>",

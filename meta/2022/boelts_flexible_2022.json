@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian parameter inference in models where the likelihood is intractable but simulations are possible. While SBI has been successfully applied to a wide range of scientific problems, it remains challenging to apply to complex models of decision-making, which often involve stochastic processes and require expensive simulations. Here, we present a framework for SBI that is both flexible and efficient, allowing for the inference of parameters in models of decision-making. We demonstrate the effectiveness of our approach on a range of models, including a drift-diffusion model and a more complex model of decision-making in a dynamic environment. Our approach is based on neural density estimation and allows for the amortized inference of posterior distributions. We show that our method is more efficient than traditional methods and can be applied to models that were previously considered intractable.",
     "extra": {
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4200585604",
       "Scholar": "FKOqtF8AAAAJ:QI7uKX5mnFEC",
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "7"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Probabilistic numerical methods for ordinary differential equations (ODEs) quantify the uncertainty arising from the discretization of the continuous-time problem. However, existing methods are computationally expensive, typically scaling cubically with the dimension of the ODE. This limits their application to small-scale problems. We propose a new class of probabilistic ODE solvers that scale linearly with the dimension of the ODE. We achieve this by using a Kronecker-factored structure for the covariance of the Gaussian process prior. We demonstrate that our method is competitive with state-of-the-art deterministic solvers in terms of accuracy and computational cost, while providing well-calibrated uncertainty estimates in millions of dimensions.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2110.11812",
     "conferenceName": "39th International Conference on Machine Learning",
@@ -17,6 +18,7 @@
       "Scholar": "UeG5w08AAAAJ:LjlpjdlvIbIC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "Proceedings of the 39th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"

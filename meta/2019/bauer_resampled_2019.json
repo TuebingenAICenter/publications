@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Variational autoencoders (VAEs) are typically trained by maximizing the evidence lower bound (ELBO) on the log-marginal likelihood of the data. The ELBO is derived using a simple prior, such as a standard Gaussian, which is often too restrictive to capture the true structure of the data. We propose a method for learning more flexible priors by using a resampling procedure. Our approach, which we call the resampled prior, allows for a wide range of complex, multi-modal prior distributions while remaining computationally efficient. We demonstrate that our method leads to improved generative performance on several standard benchmarks.",
     "archive": "arXiv",
     "archiveLocation": "1810.11428",
     "conferenceName": "22nd International Conference on Artificial Intelligence and Statistics",
@@ -12,6 +13,7 @@
       "Editors": "Kamalika Chaudhuri and Masashi Sugiyama",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

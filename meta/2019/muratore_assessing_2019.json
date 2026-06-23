@@ -10,6 +10,7 @@
       "Event Place": "Montreal, QC, Canada",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "4th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM)"
   }
 }

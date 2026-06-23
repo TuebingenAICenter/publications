@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large-scale training data with high-quality annotations is critical for training semantic and instance segmentation models. Unfortunately, pixel-wise annotation is labor-intensive and costly, raising the demand for more efficient labeling strategies. In this work, we present a novel 3D-to-2D label transfer method, Panoptic NeRF, which aims for obtaining per-pixel 2D semantic and instance labels from easy-to-obtain coarse 3D bounding primitives. Our method utilizes NeRF as a differentiable tool to unify coarse 3D annotations and 2D semantic cues transferred from existing datasets. We demonstrate that this combination allows for improved geometry guided by semantic information, enabling rendering of accurate semantic maps across multiple views. Furthermore, this fusion process resolves label ambiguity of the coarse 3D annotations and filters noise in the 2D predictions. By inferring in 3D space and rendering to 2D labels, our 2D semantic and instance labels are multi-view consistent by design. Experimental results show that Panoptic NeRF outperforms existing semantic and instance label transfer methods in terms of accuracy and multi-view consistency on challenging urban scenes of the KITTI-360 dataset.",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W4221158070",
       "Scholar": "SrVnrPcAAAAJ:M0leSnx2MbUC"
-    }
+    },
+    "itemType": "document"
   }
 }

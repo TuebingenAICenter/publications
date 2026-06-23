@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Sampling-based motion planning methods, while effective in high-dimensional spaces, often suffer from inefficiencies due to irregular sampling distributions, leading to suboptimal exploration of the configuration space. In this paper, we propose an approach that enhances the efficiency of these methods by utilizing low-discrepancy distributions generated through Message-Passing Monte Carlo (MPMC). MPMC leverages Graph Neural Networks (GNNs) to generate point sets that uniformly cover the space, with uniformity assessed using the L_p-discrepancy measure, which quantifies the irregularity of sample distributions. By improving the uniformity of the point sets, our approach significantly reduces computational overhead and the number of samples required for solving motion planning problems. Experimental results demonstrate that our method outperforms traditional sampling techniques in terms of planning efficiency.",
     "archive": "arXiv",
     "archiveLocation": "2410.03909",
     "extra": {
       "Citations@2026-06-01": "7",
       "Scholar": "9LajlSsAAAAJ:HoB7MX3m0LUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

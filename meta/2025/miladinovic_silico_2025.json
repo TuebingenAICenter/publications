@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Data generated in perturbation experiments link perturbations to the changes they elicit and therefore contain information relevant to numerous biological discovery tasks—from understanding the relationships between biological entities to developing therapeutics. However, these data encompass diverse perturbations and readouts, and the complex dependence of experimental outcomes on their biological context makes it challenging to integrate insights across experiments. Here we present the large perturbation model (LPM), a deep-learning model that integrates multiple, heterogeneous perturbation experiments by representing perturbation, readout and context as disentangled dimensions. LPM outperforms existing methods across multiple biological discovery tasks, including in predicting post-perturbation transcriptomes of unseen experiments, identifying shared molecular mechanisms of action between chemical and genetic perturbations, and facilitating the inference of gene–gene interaction networks. LPM learns meaningful joint representations of perturbations, readouts and contexts, enables the study of biological relationships in silico and could considerably accelerate the derivation of insights from pooled perturbation experiments.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4417049741",
       "Scholar": "DZ-fHPgAAAAJ:RmNfB3aBSJEC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p><a href='https://www.nature.com/articles/s43588-025-00870-1'>https://www.nature.com/articles/s43588-025-00870-1</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41094040/'>https://pubmed.ncbi.nlm.nih.gov/41094040/</a><br><a href='https://arxiv.org/abs/2503.23535'>https://arxiv.org/abs/2503.23535</a><br></p>",

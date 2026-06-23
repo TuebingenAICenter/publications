@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Vision-based haptic sensors have emerged as a promising approach to robotic touch due to affordable high-resolution cameras and successful computer-vision techniques. However, their physical design and the information they provide do not yet meet the requirements of real applications. We present a robust, soft, low-cost, vision-based, thumb-sized 3D haptic sensor named Insight: it continually provides a directional force-distribution map over its entire conical sensing surface. Constructed around an internal monocular camera, the sensor has only a single layer of elastomer over-molded on a stiff frame to guarantee sensitivity, robustness, and soft contact. Furthermore, Insight is the first system to combine photometric stereo and structured light using a collimator to detect the 3D deformation of its easily replaceable flexible outer shell. The force information is inferred by a deep neural network that maps images to the spatial distribution of 3D contact force (normal and shear). Insight has an overall spatial resolution of 0.4 mm, force magnitude accuracy around 0.03 N, and force direction accuracy around 5 degrees over a range of 0.03–2 N for numerous distinct contacts with varying contact area. The presented hardware and software design concepts can be transferred to a wide variety of robot parts.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Issue": "2",
@@ -12,6 +13,7 @@
       "Pages": "135--145",
       "Scholar": "b-JF-UIAAAAJ:bnK-pcrLprsC",
       "Volume": "4"
-    }
+    },
+    "itemType": "document"
   }
 }

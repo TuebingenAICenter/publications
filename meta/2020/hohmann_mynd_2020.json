@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Brain-computer interfaces (BCIs) have the potential to revolutionize human-computer interaction. However, their widespread adoption is hindered by the need for extensive calibration and the reliance on expensive, specialized hardware. In this paper, we present MYND, a framework for the unsupervised evaluation of novel BCI control strategies on consumer-grade hardware. We demonstrate that our approach allows for the rapid development and testing of BCI applications without the need for time-consuming calibration sessions. Our results show that MYND achieves performance comparable to state-of-the-art supervised methods while significantly reducing the burden on the user.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2002.11754",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4287864183",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:rJwCU6kz4dkC"
-    }
+    },
+    "itemType": "document"
   }
 }

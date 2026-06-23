@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Naturalistic stimuli, such as movies, are increasingly used in neuroimaging to study brain function in complex, real-world contexts. While inter-subject correlation (ISC) of brain activity is a common metric for shared neural processing, it remains unclear how these neural signatures relate to the subjective experience of engagement. Here, we investigated the neural correlates of shared subjective affective engagement and disengagement during movie viewing. Participants (N = 48) watched a movie while undergoing fMRI and provided continuous, real-time ratings of their affective engagement. We used a novel approach to identify moments of high shared engagement and disengagement across participants. We found that shared engagement was associated with increased ISC in the default mode network (DMN) and the dorsal attention network (DAN), suggesting a synchronization of both internal and external processing. In contrast, shared disengagement was associated with decreased ISC in these networks, but increased ISC in the visual cortex, potentially reflecting a shift toward sensory processing. These findings provide evidence for a neural basis of shared subjective affective states and highlight the role of large-scale brain networks in mediating engagement with naturalistic stimuli.",
     "extra": {
       "Citations@2026-06-01": "18",
       "OpenAlex": "W4392888559",
       "Scholar": "1O2hcVgAAAAJ:UxriW0iASnsC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

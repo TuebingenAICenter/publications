@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Voluntary behavior of humans appears to be composed of small, elementary building blocks or behavioral primitives. While this modular organization seems crucial for the learning of complex motor skills and the flexible adaption of behavior to new circumstances, the problem of learning meaningful, compositional abstractions from sensorimotor experiences remains an open challenge. Here, we introduce a computational learning architecture, termed surprise-based behavioral modularization into event-predictive structures (SUBMODES), that explores behavior and identifies the underlying behavioral units completely from scratch. The SUBMODES architecture bootstraps sensorimotor exploration using a self-organizing neural controller. While exploring the behavioral capabilities of its own body, the system learns modular structures that predict the sensorimotor dynamics and generate the associated behavior. In line with recent theories of event perception, the system uses unexpected prediction error signals, i.e., surprise, to detect transitions between successive behavioral primitives. We show that, when applied to two robotic systems with completely different body kinematics, the system manages to learn a variety of complex behavioral primitives. Moreover, after initial self-exploration the system can use its learned predictive models progressively more effectively for invoking model predictive planning and goal-directed control in different tasks and environments.",
     "archive": "arXiv",
     "archiveLocation": "1902.09948",
     "extra": {
@@ -17,6 +18,7 @@
       "Scholar": "b-JF-UIAAAAJ:ZHo1McVdvXMC",
       "Volume": "13"
     },
+    "itemType": "document",
     "libraryCatalog": "IEEE Xplore"
   }
 }

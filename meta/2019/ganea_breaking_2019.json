@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The softmax function is the standard way to map a vector of real-valued scores to a probability distribution. However, it has been shown that the softmax bottleneck limits the expressivity of language models, as it restricts the rank of the output probability matrix to be at most the dimension of the hidden state. In this paper, we propose to break this bottleneck by introducing learnable monotonic pointwise non-linearities after the softmax layer. We show that this simple modification allows the model to represent a much larger class of probability distributions, while still being easy to train and efficient to evaluate. We demonstrate the effectiveness of our approach on several language modeling benchmarks, where it consistently outperforms the standard softmax.",
     "conferenceName": "36th International Conference on Machine Learning",
     "extra": {
       "Editors": "Chaudhuri, Kamalika and Salakhutdinov, Ruslan",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 36th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

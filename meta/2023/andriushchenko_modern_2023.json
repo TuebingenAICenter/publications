@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The relationship between the sharpness of the loss landscape and the generalization performance of deep neural networks has been a subject of intense study. Several works have proposed sharpness-based measures that correlate with generalization, and algorithms like Sharpness-Aware Minimization (SAM) have been developed to explicitly minimize these measures. However, the empirical evidence supporting the claim that sharpness causes better generalization remains mixed. In this paper, we perform a large-scale study of the relationship between sharpness and generalization. We evaluate a wide range of sharpness measures and training methods on various architectures and datasets. Our results show that while some sharpness measures correlate with generalization, this correlation is often weak or non-existent when controlling for other factors. We further show that SAM does not consistently improve generalization, and its performance is highly sensitive to hyperparameters. Our findings suggest that the link between sharpness and generalization is more complex than previously thought and that current sharpness-based measures are not sufficient to explain the generalization performance of deep neural networks.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2302.07011",
     "callNumber": "arXiv:2302.07011",
@@ -15,6 +16,7 @@
       "Repository": "arXiv",
       "Scholar": "0ZAb3tsAAAAJ:nRpfm8aw39MC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

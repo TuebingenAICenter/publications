@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The primary visual cortex (V1) is a key model system for understanding how neural circuits perform non-linear computations. However, the exact nature of these computations remains elusive. Here, we introduce a digital twin approach to study the non-linear computations in the mouse V1. We trained a deep convolutional neural network to predict the responses of thousands of neurons in the mouse V1 to natural images. The model achieved high predictive accuracy, allowing us to use it as a digital twin of the V1. We then used this digital twin to systematically explore the non-linear computations performed by the V1. We found that the V1 performs a combinatorial code of non-linear computations, where different neurons are tuned to different combinations of non-linear features. Our results suggest that the V1 is a highly flexible and efficient system for processing visual information.",
     "archive": "bioRxiv",
     "archiveLocation": "10.1101/2022.02.10.479884",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "bioRxiv",
       "Scholar": "0z0fNxUAAAAJ:UmS_249rOGwC"
     },
+    "itemType": "document",
     "libraryCatalog": "bioRxiv"
   }
 }

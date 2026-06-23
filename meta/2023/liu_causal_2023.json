@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal representation learning aims to recover the underlying causal variables and their causal relationships from raw observations. While recent works have made significant progress in identifying causal variables, they often rely on strong assumptions about the data-generating process or the availability of specific interventions. In this work, we introduce the Causal Triplet, a new benchmark for intervention-centric causal representation learning. The Causal Triplet consists of three components: a set of causal variables, a set of interventions, and a set of observations. We evaluate several state-of-the-art causal representation learning methods on the Causal Triplet and find that they struggle to recover the underlying causal structure in the presence of complex interventions. We hope that the Causal Triplet will serve as a challenging testbed for future research in causal representation learning.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4316135723",
       "Pages": "553--573",
       "Scholar": "DZ-fHPgAAAAJ:ubdS_u6ZWmMC",
       "Volume": "213"
-    }
+    },
+    "itemType": "document"
   }
 }

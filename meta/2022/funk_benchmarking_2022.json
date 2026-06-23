@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Dexterous manipulation is a challenging and important problem in robotics. While data-driven methods are a promising approach, current benchmarks require simulation or extensive engineering support due to the sample inefficiency of popular methods. We present benchmarks for the TriFinger system, an open-source robotic platform for dexterous manipulation and the focus of the 2020 Real Robot Challenge. The benchmarked methods, which were successful in the challenge, can be generally described as structured policies, as they combine elements of classical robotics and modern policy optimization. This inclusion of inductive biases facilitates sample efficiency, interpretability, reliability and high performance. The key aspects of this benchmarking is validation of the baselines across both simulation and the real system, thorough ablation study over the core features of each solution, and a retrospective analysis of the challenge as a manipulation benchmark. The code and demo videos for this work can be found on our website (https://sites.google.com/view/benchmark-rrc).",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2105.02087",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "1"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

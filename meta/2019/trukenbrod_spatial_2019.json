@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "When viewing a scene repeatedly, gaze patterns become more similar across repetitions. However, it is unclear whether this similarity is due to a global increase in the consistency of gaze locations or a more specific, local refinement of gaze patterns. Here, we investigate the spatial statistics of gaze patterns in scene viewing using a large-scale eye-tracking dataset. We analyze the spatial distribution of fixations and the similarity of gaze patterns across repetitions using a spatial point process model. We find that gaze patterns become more similar across repetitions, and this similarity is driven by a global increase in the consistency of gaze locations, rather than a local refinement of gaze patterns. Our results suggest that repeated viewing leads to a more efficient exploration of the scene, with gaze patterns becoming more focused on informative regions.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The Real Robot Challenge 2022 focused on the problem of learning dexterous manipulation from offline data in the real world. The challenge provided a large-scale dataset of robot manipulation tasks, collected on the TriFinger robot platform. Participants were tasked with developing algorithms that could learn from this offline data and generalize to new, unseen tasks. This paper summarizes the challenge, the dataset, the participating approaches, and the results.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4385890203",
@@ -13,6 +14,7 @@
       "Scholar": "b-JF-UIAAAAJ:t7zJ5fGR-2UC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "220"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Modern deep learning relies on the backpropagation algorithm to compute gradients. However, gradients are often not enough: second-order information, variances, or individual gradients are required for many advanced optimization methods, diagnostics, and analyses. We present BackPACK, an efficient framework built on top of PyTorch that extends backpropagation to extract this additional information. BackPACK is modular, easy to use, and computationally efficient, often requiring only a small overhead compared to standard backpropagation. We demonstrate its utility by implementing several second-order optimizers and diagnostic tools, showing that they can be used to train deep neural networks with minimal code changes.",
     "conferenceName": "8th International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "3",
@@ -14,6 +15,7 @@
       "Scholar": "UeG5w08AAAAJ:738O_yMBCRsC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "8th International Conference on Learning Representations (ICLR)"
   }
 }

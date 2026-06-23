@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The Lion optimizer has recently gained significant attention due to its empirical success in training large-scale models. Despite its popularity, a theoretical understanding of why Lion outperforms standard sign-based methods like signSGD with momentum remains elusive. In this work, we provide a theoretical analysis of Lion in the context of high-dimensional learning. We show that Lion can be viewed as a specific instance of signSGD with momentum, but with a crucial difference in the update rule that allows it to better adapt to the geometry of the loss landscape. We provide convergence guarantees for Lion and demonstrate that it can achieve faster convergence rates than signSGD with momentum in certain settings. Our results provide a theoretical foundation for the empirical success of Lion and suggest new directions for the design of sign-based optimization algorithms.",
     "conferenceName": "ICML High-dimensional Learning Dynamics Workshop",
     "extra": {
       "Source": "group_webpage (orvieto)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "ICML High-dimensional Learning Dynamics Workshop"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal discovery from observational data is a fundamental problem in science and engineering. Most existing methods assume that the data are generated from a single stationary distribution. However, in many real-world applications, data are collected from multiple domains or environments, or are nonstationary, which may contain rich information about the underlying causal structure. In this paper, we propose a framework for causal discovery from heterogeneous/nonstationary data. We show that the changes in the distribution of the data, which are often considered a nuisance in standard causal discovery, can be exploited to identify the causal structure. We propose a method to learn the causal structure by modeling the changes in the data distribution, and we provide theoretical results on the identifiability of the causal structure. We also demonstrate the effectiveness of our method on both synthetic and real-world data.",
     "extra": {
       "Citations@2026-06-01": "76",
       "Number": "1",
@@ -12,6 +13,7 @@
       "Pages": "1--53",
       "Scholar": "DZ-fHPgAAAAJ:8dO9Xi6wxqgC",
       "Volume": "21"
-    }
+    },
+    "itemType": "document"
   }
 }

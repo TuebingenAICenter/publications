@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large language models (LLMs) have shown impressive performance on mathematical reasoning tasks. However, it remains unclear whether these models truly understand the underlying mathematical concepts or if they rely on spurious correlations in the training data. In this paper, we propose a causal framework to quantify the robustness of mathematical reasoning in LLMs. We define a causal model of the mathematical reasoning process and use it to identify the causal factors that influence the model's predictions. We then introduce a set of interventions to test the model's robustness to changes in these factors. Our experiments on a range of mathematical reasoning tasks show that LLMs are often not robust to these interventions, suggesting that their reasoning capabilities are more fragile than previously thought.",
     "archiveLocation": "545--561",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4307307401",
       "Scholar": "DZ-fHPgAAAAJ:COGLt2N6E6oC",
       "Volume": "1"
-    }
+    },
+    "itemType": "document"
   }
 }

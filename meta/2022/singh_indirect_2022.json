@@ -10,6 +10,7 @@
       "Event Place": "Baltimore, USA",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "ICML Workshop on Adaptive Experimental Design and Active Learning in the Real World (ReALML)"
   }
 }

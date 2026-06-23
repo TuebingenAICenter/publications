@@ -6,12 +6,14 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We develop a methodology for analyzing language model task performance at the individual example level based on training data density estimation. Experiments with paraphrasing as a controlled intervention on finetuning data demonstrate that increasing the support in the training distribution for specific test queries results in a measurable increase in density, which is also a significant predictor of the performance increase caused by the intervention. Experiments with pretraining data demonstrate that we can explain a significant fraction of the variance in model perplexity via density measurements. We conclude that our framework can provide statistical evidence of the dependence of a target model’s predictions on subsets of its training data, and can more generally be used to characterize the support (or lack thereof) in the training data for a given test task.",
     "conferenceName": "First Conference on Language Modeling",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4396882152",
       "Scholar": "206vNCEAAAAJ:a0OBvERweLwC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",

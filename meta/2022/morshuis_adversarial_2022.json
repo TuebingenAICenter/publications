@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning-based reconstruction methods have recently achieved state-of-the-art performance in Magnetic Resonance (MR) imaging. However, their susceptibility to adversarial perturbations raises concerns regarding their reliability in clinical practice. In this work, we investigate the adversarial robustness of several state-of-the-art MR reconstruction models. We propose a novel threat model that considers realistic perturbations, such as k-space noise and undersampling artifacts, in addition to standard adversarial attacks. We find that while models are robust to small perturbations, they are highly vulnerable to structured adversarial attacks that exploit the specific geometry of the reconstruction process. Furthermore, we demonstrate that adversarial training can significantly improve robustness without compromising reconstruction quality on clean data.",
     "conferenceName": "Machine Learning for Medical Image Reconstruction (MLMIR 2022)",
     "extra": {
       "Book Title": "Machine Learning for Medical Image Reconstruction",
@@ -15,6 +16,7 @@
       "Scholar": "0ZAb3tsAAAAJ:otzGkya1bYkC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Machine Learning for Medical Image Reconstruction",
     "seriesTitle": "Lecture Notes in Computer Science"
   }

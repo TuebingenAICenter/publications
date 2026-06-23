@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a kernel-based test for comparing two latent variable models, where the likelihood is intractable but samples can be drawn from the models. Our test is based on the kernel Stein discrepancy, which measures the distance between a model and a target distribution using a Stein operator. We show that the test is consistent and has a well-behaved asymptotic distribution under the null hypothesis. We demonstrate the performance of our test on a variety of latent variable models, including Gaussian mixture models, hidden Markov models, and deep generative models.",
     "archive": "arXiv",
     "archiveLocation": "1907.00586",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "1907.00586"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Algorithmic recourse aims to provide individuals with actionable recommendations to change an unfavorable decision made by a machine learning model. Recent work has shown that recourse can be achieved by leveraging causal models of the data-generating process. However, we show that such causal recourse methods are vulnerable to adversarial attacks: an adversary can manipulate the causal model or the recourse mechanism to provide recourse that is either invalid or harmful to the individual. We formalize this problem and propose a robust framework for causal algorithmic recourse that is resilient to such attacks. We demonstrate the effectiveness of our approach through extensive experiments on synthetic and real-world datasets.",
     "extra": {
       "Citations@2026-06-01": "6",
       "Conference Name": "AAAI Conference on Artificial Intelligence",
@@ -14,6 +15,7 @@
       "Scholar": "DZ-fHPgAAAAJ:WmNxgGydTAQC",
       "Source": "group_webpage (schoelkopf)",
       "Volume": "162"
-    }
+    },
+    "itemType": "document"
   }
 }

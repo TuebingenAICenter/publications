@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Transcranial magnetic stimulation (TMS) is a powerful tool for non-invasive brain stimulation, but its effects are highly variable. This variability is partly due to fluctuations in the excitability of the motor cortex. Real-time monitoring of these fluctuations could allow for closed-loop TMS protocols that adapt stimulation parameters to the current state of the brain. Here, we investigate whether features extracted from the electroencephalogram (EEG) recorded during TMS can be used to decode the excitability of the motor cortex. We recorded EEG during TMS of the motor cortex in 15 healthy participants and used machine learning models to predict the amplitude of the motor evoked potential (MEP), a proxy for motor excitability. We found that EEG features, particularly in the alpha and beta frequency bands, contain information about the excitability of the motor cortex. Our models achieved a significant, albeit modest, prediction accuracy, suggesting that EEG-based decoding of motor excitability is feasible. We discuss the implications of these findings for the development of closed-loop TMS protocols and the challenges that remain to be addressed.",
     "attachments": [
       {
         "accessDate": "2025-06-17 16:16:01",
@@ -27,6 +28,7 @@
     "extra": {
       "Publisher": "University of Tübingen"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

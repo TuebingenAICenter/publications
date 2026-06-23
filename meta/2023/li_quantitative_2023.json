@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Chemical short-range order (CSRO) refers to atoms of specific elements self-organising within a disordered crystalline matrix to form particular atomic neighbourhoods. CSRO is typically characterized indirectly, using volume-averaged or through projection microscopy techniques that fail to capture the three-dimensional atomistic architectures. Here, we present a machine-learning enhanced approach to break the inherent resolution limits of atom probe tomography enabling three-dimensional imaging of multiple CSROs. We showcase our approach by addressing a long-standing question encountered in body-centred-cubic Fe-Al alloys that see anomalous property changes upon heat treatment. We use it to evidence non-statistical B2-CSRO instead of the generally-expected D03-CSRO. We introduce quantitative correlations among annealing temperature, CSRO, and nano-hardness and electrical resistivity. Our approach is further validated on modified D03-CSRO detected in Fe-Ga. The proposed strategy can be generally employed to investigate short/medium/long-range ordering phenomena in different materials and help design future high-performance materials.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The mammalian neocortex is organized into layers, but the functional significance of this laminar architecture remains poorly understood. We performed a dense connectomic reconstruction of a 100-micrometer-cubed volume of layer 4 in mouse primary somatosensory cortex. We identified all neurons and their synaptic connections, revealing that the local circuit is dominated by a dense, non-random network of excitatory neurons. This network is organized into a modular structure that is consistent with the functional organization of the cortex. Our results provide a structural basis for understanding the computational role of layer 4 in sensory processing.",
     "extra": {
       "Citations@2026-06-01": "359",
       "OpenAlex": "W2982268628",
       "Scholar": "UeG5w08AAAAJ:xtRiw3GOFMkC",
       "Source": "group_webpage (schoelkopf)",
       "elocation-id": "eaay3134"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

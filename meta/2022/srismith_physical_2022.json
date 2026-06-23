@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "To reduce the number of sedentary people, an improved understanding of effects of exercise in this specific group is needed. The present project investigates the impact of regular aerobic exercise uptake on body image, and how this effect is associated with differences in interoceptive abilities and affective response to exercise. Participants were 29 sedentary adults who underwent a 12-week aerobic physical activity intervention comprised of 30–36 sessions. Body image was improved with large effect sizes. Correlations were observed between affective response to physical activity and body image improvement, but not with interoceptive abilities. Explorative mediation models suggest a neglectable role of a priori interoceptive abilities. Instead, body image improvement was achieved when positive valence was assigned to interoceptive cues experienced during exercise.",
     "extra": {
       "Source": "group_webpage (black)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a novel robotic front-end for autonomous aerial motion-capture (mocap) in outdoor environments. In previous work, we presented an approach for cooperative detection and tracking (CDT) of a subject using multiple micro-aerial vehicles (MAVs). However, it did not ensure optimal view-point configurations of the MAVs to minimize the uncertainty in the person's cooperatively tracked 3D position estimate. In this article, we introduce an active approach for CDT. In contrast to cooperatively tracking only the 3D positions of the person, the MAVs can actively compute optimal local motion plans, resulting in optimal view-point configurations, which minimize the uncertainty in the tracked estimate. We achieve this by decoupling the goal of active tracking into a quadratic objective and non-convex constraints corresponding to angular configurations of the MAVs w.r.t. the person. We derive this decoupling using Gaussian observation model assumptions within the CDT algorithm. We preserve convexity in optimization by embedding all the non-convex constraints, including those for dynamic obstacle avoidance, as external control inputs in the MPC dynamics. Multiple real robot experiments and comparisons involving 3 MAVs in several challenging scenarios are presented.",
     "extra": {
       "Citations@2026-06-01": "82",
       "Scholar": "6NjbexEAAAAJ:0kxB6oEY0CcC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "How do children explore the world to find rewards? We compared the exploration strategies of children (ages 6–10) and adults in a multi-armed bandit task. We found that children explore more than adults do, but their exploration is less directed toward high-potential options. Using a computational model of function learning, we show that this difference is driven by children's reduced ability to generalize from previous experiences. While adults use their knowledge of the environment to guide their exploration, children rely more on directed exploration—a strategy that is less efficient in structured environments. These results suggest that developmental differences in exploration are not just a matter of curiosity, but are rooted in fundamental differences in how children and adults learn and generalize.",
     "extra": {
       "Citations@2026-06-01": "165",
       "OpenAlex": "W2983405298",
       "Scholar": "1O2hcVgAAAAJ:hqOjcs7Dif8C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

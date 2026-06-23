@@ -6,10 +6,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks are powerful function approximators, but they often fail to generalize to out-of-distribution data. In contrast, biological visual systems are remarkably robust to image distortions. Here, we show that the internal representations of biological visual systems can be used to regularize deep neural networks. We propose a novel regularization method, Neural Taskonomy, which encourages neural networks to learn representations that are similar to those found in the primary visual cortex of mice. We demonstrate that our method improves the robustness of deep neural networks to image distortions and adversarial attacks, while maintaining high performance on standard benchmarks.",
     "extra": {
       "Citations@2026-06-01": "12",
       "OpenAlex": "W2970373599",
       "Scholar": "v-JL-hsAAAAJ:M3ejUd6NZC8C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

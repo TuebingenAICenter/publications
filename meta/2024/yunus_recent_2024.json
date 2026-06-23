@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The reconstruction of non-rigid 3D scenes from monocular or multi-view video is a fundamental problem in computer vision and computer graphics. While traditional methods relied on template-based approaches or strong priors, the field has recently witnessed a paradigm shift towards template-free, data-driven, and neural representations. This survey provides a comprehensive overview of the recent trends in 3D reconstruction of general non-rigid scenes. We categorize existing methods based on their underlying representation, such as point-based, mesh-based, and volumetric representations, and discuss their strengths and limitations. Furthermore, we analyze the role of different supervision signals, including multi-view consistency, photometric loss, and learned priors. Finally, we identify open challenges and promising future research directions in this rapidly evolving field.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2403.15064",
     "attachments": [
@@ -32,6 +33,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "OpXMNnMAAAAJ:yB1At4FlUx8C"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 25</p>",

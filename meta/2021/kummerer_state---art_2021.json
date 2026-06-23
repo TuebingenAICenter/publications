@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Predicting where humans look next is a fundamental problem in computer vision and cognitive science. While saliency prediction has seen tremendous progress due to deep learning, scanpath prediction—the prediction of the sequence of fixations—has lagged behind. This is partly due to the lack of a standardized evaluation framework. In this paper, we provide a comprehensive review of the state-of-the-art in human scanpath prediction. We introduce a new benchmark, the MIT Scanpath Benchmark, and evaluate a wide range of models on it. We find that while some models perform well on specific metrics, no single model dominates across all metrics. We discuss the implications of these findings and suggest future directions for the field.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2102.12239",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "0z0fNxUAAAAJ:9shLKfS_uJEC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

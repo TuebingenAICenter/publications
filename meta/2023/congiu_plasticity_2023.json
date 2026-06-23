@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The lateral habenula (LHb) is a key node in the brain's reward system, encoding negative motivational value. While LHb neurons are known to respond to aversive stimuli, the circuit mechanisms underlying the acquisition of cue-punishment associations remain poorly understood. Here, we show that mice learn to associate a neutral cue with a foot-shock, a process accompanied by a progressive increase in the firing rate of LHb neurons in response to the cue. This plasticity is specific to the cue-punishment association and is not observed in control animals. Using fiber photometry and in vivo electrophysiology, we demonstrate that this increase in cue-evoked activity is driven by a potentiation of excitatory inputs to the LHb. Furthermore, we show that this plasticity is dependent on N-methyl-D-aspartate receptor (NMDAR) signaling within the LHb. Our findings identify a circuit-level mechanism for the encoding of aversive cue-punishment associations in the LHb, providing a framework for understanding how negative motivational values are learned and represented in the brain.",
     "extra": {
       "Citations@2026-06-01": "13",
       "OpenAlex": "W4383371984",
       "Scholar": "lPQLk3QAAAAJ:XiVPGOgt02cC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

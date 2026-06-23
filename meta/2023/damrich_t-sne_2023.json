@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "t-SNE and UMAP are the most popular algorithms for visualizing high-dimensional data. While they are often presented as distinct methods, they can both be viewed as instances of a general framework based on minimizing the divergence between a high-dimensional similarity distribution and a low-dimensional embedding distribution. In this paper, we show that this framework is equivalent to contrastive learning with a specific choice of the negative sampling distribution. This perspective allows us to bridge the gap between t-SNE and UMAP by introducing a continuous interpolation between them. We further show that this interpolation can be interpreted as a trade-off between local and global structure preservation. Finally, we demonstrate that our framework allows for a principled way to incorporate contrastive learning into t-SNE and UMAP, leading to improved visualization quality.",
     "conferenceName": "International Conference on Learning Representations",
     "extra": {
       "Source": "group_webpage (berens)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the International Conference on Learning Representations"
   }
 }

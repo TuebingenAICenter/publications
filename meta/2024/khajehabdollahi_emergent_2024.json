@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Recurrent neural networks (RNNs) are powerful tools for processing sequential information, yet their ability to maintain information over long timescales remains a challenge. While various architectural modifications have been proposed to address this, the role of the training curriculum in shaping the emergent dynamics of RNNs is less understood. Here, we investigate how the distribution of timescales in the training data influences the internal mechanisms that RNNs develop to solve memory tasks. We find that training on a curriculum with a diverse range of timescales leads to the emergence of specialized neuronal populations, each tuned to different temporal scales. In contrast, training on a uniform distribution of timescales results in less specialized representations and poorer performance on long-term memory tasks. We further show that these emergent mechanisms are robust to changes in network architecture and are consistent across different tasks. Our results suggest that the training curriculum is a critical factor in shaping the temporal processing capabilities of RNNs, providing insights into how to design more effective training protocols for sequence learning.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:43:31",
@@ -22,6 +23,7 @@
       "OpenAlex": "W4387031669",
       "Scholar": "b-JF-UIAAAAJ:yB1At4FlUx8C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",

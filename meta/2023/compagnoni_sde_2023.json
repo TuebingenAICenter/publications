@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Sharpness-Aware Minimization (SAM) has recently emerged as a powerful optimization method for training deep neural networks, consistently improving generalization performance. Despite its empirical success, a theoretical understanding of why SAM works remains elusive. In this work, we provide a theoretical framework for SAM by showing that its dynamics can be described by a Stochastic Differential Equation (SDE). Specifically, we prove that SAM's trajectory converges to a stationary distribution that favors flat minima, which are known to generalize well. We further provide a convergence analysis of SAM and show that it can be interpreted as a form of adaptive gradient descent. Finally, we provide empirical evidence supporting our theoretical findings and show that our SDE perspective allows for a more principled design of SAM-like algorithms.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2301.08203",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "xkuLyHoAAAAJ:Wp0gIr-vW9MC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

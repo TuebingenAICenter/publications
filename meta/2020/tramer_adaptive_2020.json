@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Many defenses against adversarial examples are proposed every year, but most are subsequently broken by stronger attacks. A common reason for this is the use of a non-adaptive attack: the attacker does not account for the specific mechanism of the defense. In this paper, we argue that evaluating a defense against non-adaptive attacks is insufficient and can lead to a false sense of security. We propose a framework for evaluating defenses against adaptive attacks, where the attacker is aware of the defense and adapts their attack accordingly. We demonstrate the effectiveness of our framework by evaluating several recent defenses and showing that they are vulnerable to adaptive attacks, even when they were previously thought to be robust.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2002.08347",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "v-JL-hsAAAAJ:4DMP91E08xMC"
     },
+    "itemType": "document",
     "libraryCatalog": "NeurIPS"
   }
 }

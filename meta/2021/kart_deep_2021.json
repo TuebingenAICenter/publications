@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Objectives: To develop and validate a deep learning-based framework for automated segmentation of abdominal organs in large-scale magnetic resonance imaging (MRI) studies. Materials and Methods: We developed a deep learning-based framework for the automated segmentation of 6 abdominal organs (liver, spleen, right kidney, left kidney, gallbladder, and pancreas) in abdominal MRI. The framework was trained on a multi-institutional dataset of 100 manually annotated abdominal MRI scans. We evaluated the performance of the framework on 2 independent test sets: 100 scans from the UK Biobank and 100 scans from the German National Cohort. Results: The proposed framework achieved high segmentation accuracy for all organs, with Dice similarity coefficients ranging from 0.82 to 0.96. The segmentation performance was consistent across both the UK Biobank and the German National Cohort datasets. Conclusion: The developed deep learning-based framework enables accurate and automated segmentation of abdominal organs in large-scale MRI studies, facilitating large-scale quantitative analysis of abdominal organ morphology.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

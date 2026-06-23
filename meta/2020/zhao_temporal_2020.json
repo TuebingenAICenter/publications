@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The inner retina is a complex neural circuit that processes visual information in parallel channels. While the functional diversity of retinal ganglion cells is well-studied, the temporal organization of the inner plexiform layer (IPL), where ganglion cells receive their synaptic input, remains poorly understood. Here, we used two-photon calcium imaging to record the activity of thousands of synaptic terminals in the mouse IPL. We show that the temporal structure of the IPL is highly organized: synaptic terminals are clustered into functional groups that tile the IPL in a stereotypical manner. This organization is preserved across animals and is robust to changes in stimulus statistics. Our results suggest that the IPL is organized into a set of temporal channels that are matched to the statistics of natural scenes, providing a framework for understanding how the retina processes visual information.",
     "extra": {
       "Citations@2026-06-01": "14",
       "Issue": "1",
@@ -13,6 +14,7 @@
       "Pages": "4399",
       "Scholar": "lPQLk3QAAAAJ:JV2RwH3_ST0C",
       "Volume": "10"
-    }
+    },
+    "itemType": "document"
   }
 }

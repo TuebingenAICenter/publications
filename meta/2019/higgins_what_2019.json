@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The quest for artificial intelligence (AI) that can learn to solve complex tasks as efficiently and flexibly as humans has led to a resurgence of interest in the role of inductive biases. Inductive biases are the assumptions a learning system makes to predict outputs for inputs it has not encountered before. While deep learning has achieved remarkable success by learning representations from large amounts of data, it is increasingly clear that these systems often lack the robustness and generalization capabilities of biological systems. This paper explores the hypothesis that the key to bridging this gap lies in incorporating the right set of cognitive and biological inductive biases into AI architectures. We review the current state of the art in AI and neuroscience, and identify a set of core inductive biases—such as object-centricity, compositionality, and causal reasoning—that are likely to be essential for the next generation of AI systems.",
     "archive": "MPG.PuRe",
     "archiveLocation": "item_3176738",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W2989633752",
       "Scholar": "0z0fNxUAAAAJ:6_hjMsCP8ZoC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

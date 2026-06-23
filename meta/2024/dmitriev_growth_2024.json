@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the mistake bound of differentially private (DP) online learning. We show that for any concept class C with Littlestone dimension d, any DP online learning algorithm must incur at least Ω(d log(T/d)) mistakes over a horizon of T rounds, where the privacy parameter is assumed to be constant. This matches the upper bound of Bun et al. (2020) up to logarithmic factors, and resolves an open question regarding the optimality of their algorithm. Our lower bound is derived by constructing a hard distribution over sequences of examples, and using a packing argument to bound the information leakage of any DP algorithm. We also extend our results to the setting of (ε, δ)-differential privacy.",
     "conferenceName": "37th Annual Conference on Learning Theory",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "editors": "Agrawal, Shipra and Roth, Aaron",
       "note": "(talk)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 37th Annual Conference on Learning Theory",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "How much does a trained RL policy actually use its past observations? We propose Temporal Range, a model-agnostic metric that treats first-order sensitivities of multiple vector outputs across a temporal window to the input sequence as a temporal influence profile and summarizes it by the magnitude-weighted average lag. Temporal Range is computed via reverse-mode automatic differentiation from the Jacobian blocks ∂ys/∂xt∈ℝc×d averaged over final timesteps s∈t+1,…,T and is well-characterized in the linear setting by a small set of natural axioms. Across diagnostic and control tasks (POPGym; flicker/occlusion; Copy-k) and architectures (MLPs, RNNs, SSMs), Temporal Range (i) remains small in fully observed control, (ii) scales with the task’s ground-truth lag in Copy-k, and (iii) aligns with the minimum history window required for near-optimal return as confirmed by window ablations. We also report Temporal Range for a compact Long Expressive Memory (LEM) policy trained on the task, using it as a proxy readout of task-level memory. Our axiomatic treatment draws on recent work on range measures, specialized here to temporal lag and extended to vector-valued outputs in the RL setting. Temporal Range thus offers a practical per-sequence readout of memory dependence for comparing agents and environments and for selecting the shortest sufficient context.",
     "archive": "arXiv",
     "archiveLocation": "2512.06204",
     "extra": {
       "Scholar": "9LajlSsAAAAJ:35r97b3x0nAC",
       "arXiv": "2512.06204"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "High-contrast imaging is the primary technique for directly detecting exoplanets. However, the signal of a potential planet is typically buried under the much brighter light of the host star and the complex, time-varying speckle noise caused by the instrument and the atmosphere. To detect planets, one must model and subtract this noise. We propose a new approach to point spread function (PSF) modeling and subtraction based on half-sibling regression, a causal machine learning framework for removing noise from data. Our method, which we call half-sibling regression for exoplanet imaging (HSR-EI), is flexible, interpretable, and can incorporate domain knowledge about the imaging process. We demonstrate that HSR-EI is competitive with state-of-the-art PSF subtraction algorithms on real data from the VLT/SPHERE instrument, while offering a more principled approach to noise modeling. We also show that HSR-EI can be used to improve the performance of existing algorithms by providing a better estimate of the PSF.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4224870252",
       "Scholar": "DZ-fHPgAAAAJ:-ZT7PjPjAvEC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

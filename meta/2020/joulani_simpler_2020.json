@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a new approach to accelerated optimization that combines iterative averaging with optimism. Our method is simpler than existing accelerated methods, yet it achieves the same optimal convergence rates for smooth convex optimization. We show that our approach can be interpreted as a form of mirror descent with a specific choice of the mirror map, and we provide a unified analysis that covers both deterministic and stochastic settings. We also demonstrate the effectiveness of our method on several standard optimization problems.",
     "conferenceName": "37th International Conference on Machine Learning",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 37th International Conference on Machine Learning"
   }
 }

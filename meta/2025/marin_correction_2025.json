@@ -7,6 +7,7 @@
   },
   "zotero": {
     "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "Failed to Revise: No record found for a publication titled \"Correction to: NICP: Neural ICP for 3D Human Registration at Scale\". I searched Springer/Link, the ECCV 2024 program, the authors' pages (Marin, Corona, Pons‑Moll), arXiv, MPG PuRe, and other indexes; they show the original paper \"NICP: Neural ICP for 3D Human Registration at Scale\" (ECCV 2024 / Lecture Notes in Computer Science) but no separate correction/erratum with the provided title. If you meant the original paper (without “Correction to:” ), it is an ECCV 2024 conference paper — tell me if you want the successful classification for that title instead.",

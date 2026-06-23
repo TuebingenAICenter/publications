@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "As machine learning models are increasingly used to inform decisions in high-stakes domains, there is a growing demand for providing explanations to individuals who are unfavorably affected by these decisions. While counterfactual explanations provide a way to inform individuals about what should have been different for them to receive a favorable decision, they often fail to account for the causal structure of the world. In this paper, we argue that counterfactual explanations are not sufficient to provide actionable recourse. We propose a framework for algorithmic recourse that accounts for the causal relationships between features, and we show that our approach can provide more actionable and realistic recommendations than existing methods. We evaluate our approach on several real-world datasets and show that it can provide recourse that is more likely to be achievable by individuals.",
     "archiveLocation": "pp. 353--362",
     "extra": {
       "Citations@2026-06-01": "72",
       "Editors": "Madeleine Clare Elish and William Isaac and Richard S. Zemel",
       "OpenAlex": "W3005632426",
       "Scholar": "DZ-fHPgAAAAJ:mlYb_ZI0coIC"
-    }
+    },
+    "itemType": "document"
   }
 }

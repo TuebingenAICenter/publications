@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We present Paint-it, a novel framework for generating high-quality, physically-based textures for 3D meshes from text prompts. Existing methods for text-to-3D texture generation often suffer from view-inconsistency, baked-in lighting, or low-resolution textures. To address these issues, we propose a two-stage optimization process. First, we optimize a texture map using a pre-trained text-to-image diffusion model, leveraging a physically-based rendering (PBR) pipeline to ensure view-consistency and disentangle lighting from material properties. Second, we introduce a deep convolutional texture map optimization technique that refines the texture map by learning to predict high-frequency details and correcting artifacts. Our method produces high-resolution, PBR-ready textures that are consistent across views and free from baked-in lighting, significantly outperforming existing state-of-the-art approaches in both visual quality and geometric fidelity.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2312.11360",
     "attachments": [
@@ -32,6 +33,7 @@
       "OpenAlex": "W4389974650",
       "Scholar": "OpXMNnMAAAAJ:fEOibwPWpKIC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 47</p>",

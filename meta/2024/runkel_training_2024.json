@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Being able to reconstruct training data from the parameters of a neural network is a major privacy concern. Previous works have shown that reconstructing training data, under certain circumstances, is possible. In this work, we analyse such reconstructions empirically and propose a new formulation of the reconstruction as a solution to a bilevel optimisation problem. We demonstrate that our formulation as well as previous approaches highly depend on the initialisation of the training images x to reconstruct. In particular, we show that a random initialisation of x can lead to reconstructions that resemble valid training samples while not being part of the actual training dataset. Thus, our experiments on affine and one-hidden layer networks suggest that when reconstructing natural images, yet an adversary cannot identify whether reconstructed images have indeed been part of the set of training samples.",
     "archive": "arXiv",
     "attachments": [
       {
@@ -26,6 +27,7 @@
       "Scholar": "206vNCEAAAAJ:sSrBHYA8nusC",
       "arXiv": "2412.08544"
     },
+    "itemType": "document",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In this paper, we study the problem of multi-armed bandits where the arms are represented by quantum channels. We analyze the setting where a learner can sequentially select a channel and then perform an experiment by applying the channel to a state of their choice and performing a measurement. The goal is to maximize the sum of the expected measurement outcomes, which we call the reward. For a single target channel, this describes the problem of finding the application and measurement that leads to the largest expected reward, which is a known problem in quantum information. In our paper, we are interested in the exploration-exploitation trade-off when several channels are available. In the case where the learner can apply each channel to a different, potentially entangled, state, we prove that the problem can be reduced to the classical multi-armed bandit problem. However, for the more interesting case where use of entanglement is restricted, we show that when the learner may apply the channel to only one half of an entangled state, the problem changes significantly. We show that the best strategy may involve entangled states and measurements, and we provide an algorithm that achieves a regret of O(\\sqrt{TK\\log T}) for K channels and T timesteps.",
     "archive": "arXiv",
     "archiveLocation": "2301.08544",
     "extra": {
@@ -17,6 +18,7 @@
       "Volume": "9",
       "arXiv": "2301.08544"
     },
+    "itemType": "document",
     "notes": [
       {
         "note": "<p><a href='https://quantum-journal.org/papers/q-2025-03-25-1672/'>https://quantum-journal.org/papers/q-2025-03-25-1672/</a><br><a href='https://arxiv.org/abs/2301.08544'>https://arxiv.org/abs/2301.08544</a><br><a href='https://dblp.org/rec/journals/quantum/BuchholzKS25'>https://dblp.org/rec/journals/quantum/BuchholzKS25</a><br></p>",

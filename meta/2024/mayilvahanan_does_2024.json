@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Contrastive Language-Image Pre-training (CLIP) models have demonstrated remarkable zero-shot generalization capabilities on a wide range of downstream tasks. A common hypothesis is that this performance is due to the models learning robust, general-purpose visual representations. However, recent work has suggested that the performance of CLIP models might be largely explained by the high similarity between the pre-training data and the downstream test sets. In this paper, we systematically investigate this hypothesis. We find that the generalization performance of CLIP models is indeed strongly correlated with the similarity between the pre-training data and the downstream test sets. We further show that this correlation holds even when controlling for the model's capacity and the amount of pre-training data. Our results suggest that the generalization performance of CLIP models is, to a large extent, a consequence of the high train-test similarity, rather than the learning of truly robust, general-purpose visual representations.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2310.09562",
     "attachments": [
@@ -25,6 +26,7 @@
       "OpenAlex": "W4387723693",
       "Scholar": "v-JL-hsAAAAJ:u_35RYKgDlwC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 25</p>",

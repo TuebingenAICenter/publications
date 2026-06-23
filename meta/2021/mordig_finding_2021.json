@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the problem of finding stable matchings in PhD markets, where students and supervisors have preferences over each other. In many such markets, preferences are not arbitrary but exhibit a degree of consistency. We introduce a model of consistent preferences and show that, under this model, the set of stable matchings can be found efficiently. We also consider the case where partners can cooperate to improve their outcomes and show that this can lead to more stable matchings. Our results provide a theoretical foundation for understanding the dynamics of PhD markets and suggest strategies for improving the matching process.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2102.11834",
     "callNumber": "arXiv:2102.11834",
@@ -15,6 +16,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:7JyflfnrP7gC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

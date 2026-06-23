@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Semantic representations have been a cornerstone of natural language processing (NLP) for decades. With the advent of large language models (LLMs), the field has shifted towards end-to-end learning, raising the question of whether explicit semantic representations are still necessary. In this paper, we investigate the role of semantic representations in the era of LLMs. We conduct a comprehensive study across a range of tasks and models, evaluating the impact of incorporating semantic information on model performance, robustness, and interpretability. Our findings suggest that while LLMs are capable of learning implicit semantic representations, explicit semantic information can still provide significant benefits, particularly in low-resource settings and for tasks requiring complex reasoning. We conclude by discussing the implications of our findings for future research in NLP.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:42:41",
@@ -30,6 +31,7 @@
       "OpenAlex": "W4396651322",
       "Scholar": "DZ-fHPgAAAAJ:n1YQmkHDcs0C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",

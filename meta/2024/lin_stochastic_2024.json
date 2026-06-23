@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Gaussian processes (GPs) are powerful tools for uncertainty quantification, but their computational cost scales cubically with the number of data points. While stochastic gradient descent (SGD) is the standard for training large-scale models, its application to GPs remains challenging due to the need to maintain a posterior over function values. We propose a new approach to training GPs with SGD that is both scalable and robust. Our method, which we call SGD-GP, uses a novel variational inference objective that allows for mini-batch training while maintaining the full GP posterior. We demonstrate that SGD-GP achieves state-of-the-art performance on a range of regression and classification tasks, while being significantly faster than existing methods.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2310.20581",
     "conferenceName": "The Twelfth International Conference on Learning Representations (ICLR)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "The Twelfth International Conference on Learning Representations (ICLR)"
   }
 }

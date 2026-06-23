@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose Square Attack, a score-based black-box adversarial attack. It is a randomized search scheme which selects at each iteration a square of a certain size to be perturbed. Square Attack is query-efficient, does not rely on local gradient information, and is thus robust to gradient masking. We show that it outperforms existing black-box attacks on several standard benchmarks for $\\ell_p$ threat models, while requiring significantly fewer queries. Moreover, we show that it can be used to evaluate the robustness of models trained with different defenses, including those that are known to be resistant to gradient-based attacks.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:1912.00049",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "0ZAb3tsAAAAJ:vDijr-p_gm4C"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

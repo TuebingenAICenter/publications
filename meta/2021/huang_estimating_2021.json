@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The estimation of neural receptive fields (RFs) is a fundamental task in systems neuroscience. While linear-nonlinear models are widely used, they often suffer from overfitting when data is limited or the RF is high-dimensional. To address this, we propose a novel approach to estimate RFs using a flexible spline basis. Our method allows for the simultaneous enforcement of smoothness and sparsity, which are key properties of neural RFs. We demonstrate that our approach outperforms standard methods in both simulated and experimental data, providing more accurate and interpretable RF estimates. The method is computationally efficient and can be easily integrated into existing analysis pipelines.",
     "extra": {
       "Citations@2026-06-01": "14",
       "Issue": "3",
       "OpenAlex": "W3150423618",
       "Scholar": "lPQLk3QAAAAJ:u_35RYKgDlwC",
       "Volume": "5"
-    }
+    },
+    "itemType": "document"
   }
 }

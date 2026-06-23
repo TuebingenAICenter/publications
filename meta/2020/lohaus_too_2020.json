@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Fairness in machine learning is often formulated as a constraint optimization problem. In many cases, these constraints are relaxed to make the problem tractable. In this paper, we show that such relaxations can lead to unfair solutions that are far from the intended fairness guarantees. We analyze the behavior of common relaxations for fairness constraints and show that they can be easily manipulated. We propose a new framework for fairness that is robust to such relaxations and demonstrate its effectiveness on several benchmarks.",
     "extra": {
       "Citations@2026-06-01": "8",
       "OpenAlex": "W3035335296",
       "Scholar": "mMifMdoAAAAJ:ipzZ9siozwsC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

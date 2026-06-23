@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Meaning maps have been proposed as a computational model of how semantic content guides human gaze behaviour in natural scenes. They are constructed by aggregating semantic information from object-level annotations. However, it remains unclear whether meaning maps can account for the influence of contextual consistency on gaze. We tested whether contextualised meaning maps, which incorporate information about the semantic consistency of objects within a scene, can predict how object-context inconsistencies change human gaze behaviour. We collected eye-tracking data from 30 participants viewing 120 natural scenes, half of which contained a semantically inconsistent object. We found that while participants were more likely to fixate on inconsistent objects, meaning maps failed to predict this effect. Our results suggest that meaning maps do not capture the influence of semantic object-context inconsistencies on gaze behaviour, highlighting the need for models that explicitly account for contextual information.",
     "extra": {
       "Scholar": "0z0fNxUAAAAJ:Xl6nMSl579sC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

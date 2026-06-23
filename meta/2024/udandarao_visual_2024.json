@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Vision-Language Models (VLMs) have demonstrated remarkable capabilities in reasoning about visual content. However, it remains unclear whether these models truly understand the underlying data-types of the visual information they process. In this work, we investigate whether VLMs can identify the data-type of a visual input (e.g., whether an image is a scatter plot, a heatmap, or a natural photograph). We find that despite their impressive performance on general visual tasks, VLMs struggle to identify the data-type of visual inputs. Furthermore, we show that this limitation does not improve with scaling, suggesting that data-type understanding is not an emergent property of current VLM training paradigms. We introduce a new benchmark, SyntheticTypeIdent, to evaluate this capability and demonstrate that even state-of-the-art models perform poorly on this task.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2310.08577",
     "attachments": [
@@ -32,6 +33,7 @@
       "OpenAlex": "W4387636040",
       "Scholar": "0z0fNxUAAAAJ:pQTOvowfQioC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",

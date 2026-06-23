@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Statistical decision problems are the foundation of statistical machine learning. The simplest problems are binary and multiclass classification and class probability estimation. Central to their definition is the choice of loss function, which is the means by which the quality of a solution is evaluated. In this paper we systematically develop the theory of loss functions for such problems from a novel perspective whose basic ingredients are convex sets with a particular structure. The loss function is defined as the subgradient of the support function of the convex set. It is consequently automatically proper (calibrated for probability estimation). This perspective provides three novel opportunities. It enables the development of a fundamental relationship between losses and (anti)-norms that appears to have not been noticed before. Second, it enables the development of a calculus of losses induced by the calculus of convex sets which allows the interpolation between different losses, and thus is a potential useful design tool for tailoring losses to particular problems. In doing this we build upon, and considerably extend, existing results on M-sums of convex sets. Third, the perspective leads to a natural theory of `polar' (or `inverse') loss functions, which are derived from the polar dual of the convex set defining the loss, and which form a natural universal substitution function for Vovk's aggregating algorithm.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Issue": "342",
@@ -12,6 +13,7 @@
       "Pages": "1-72",
       "Scholar": "G4MBruQAAAAJ:0VGYH9MJNTkC",
       "Volume": "24"
-    }
+    },
+    "itemType": "document"
   }
 }

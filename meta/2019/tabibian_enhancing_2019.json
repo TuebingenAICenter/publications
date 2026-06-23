@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Spaced repetition is a technique for efficient learning that involves repeating information at specifically spaced intervals. Despite its effectiveness, most existing spaced repetition systems rely on heuristic scheduling algorithms that are not optimized for individual learners. Here, we propose a framework to optimize spaced repetition schedules by combining a point process model of human memory with a reinforcement learning approach. We show that our framework can be used to derive optimal schedules for any given memory model and that it significantly outperforms existing heuristic-based and model-based scheduling algorithms in terms of both learning efficiency and retention. We also demonstrate that our framework is scalable and can be used to optimize schedules for thousands of items in real time.",
     "extra": {
       "Citations@2026-06-01": "165",
       "OpenAlex": "W2914319828",
       "Scholar": "DZ-fHPgAAAAJ:9U6a4ZeTB_UC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

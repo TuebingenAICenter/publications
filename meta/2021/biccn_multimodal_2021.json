@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The BRAIN Initiative Cell Census Network (BICCN) has generated a comprehensive multimodal cell census and atlas of the mammalian primary motor cortex (MOp). By integrating single-cell transcriptomic, epigenomic, morphological and electrophysiological data, we have identified a hierarchical organization of cell types, including neuronal and non-neuronal cells, and mapped their spatial distribution and connectivity. This atlas provides a foundational resource for understanding the cellular architecture and functional organization of the mammalian brain.",
     "extra": {
       "Citations@2026-06-01": "565",
       "OpenAlex": "W4242111955",
       "Scholar": "lPQLk3QAAAAJ:1sJd4Hv_s6UC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

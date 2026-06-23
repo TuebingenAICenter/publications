@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the loss landscape of deep neural networks with ReLU activation functions. We show that for a class of deep neural networks, which includes networks with one hidden layer and networks with specific architectures, the loss function has no bad local valleys. A bad local valley is a local minimum that is not a global minimum. Our results provide a theoretical justification for the empirical observation that deep neural networks can be trained to global optimality using simple gradient-based optimization methods.",
     "archive": "arXiv",
     "archiveLocation": "1809.10749",
     "conferenceName": "International Conference on Learning Representations",
@@ -12,6 +13,7 @@
       "Source": "group_webpage (hein)",
       "arXiv": "1809.10749"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Learning Representations"
   }
 }

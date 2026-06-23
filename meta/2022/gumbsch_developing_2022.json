@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Humans can make predictions on various time scales and hierarchical levels. Thereby, the learning of event encodings seems to play a crucial role. In this work we model the development of hierarchical predictions via autonomously learned latent event codes. We present a hierarchical recurrent neural network architecture, whose inductive learning biases foster the development of sparsely changing latent state that compress sensorimotor sequences. A higher level network learns to predict the situations in which the latent states tend to change. Using a simulated robotic manipulator, we demonstrate that the system (i) learns latent states that accurately reflect the event structure of the data, (ii) develops meaningful temporal abstract predictions on the higher level, and (iii) generates goal-anticipatory behavior similar to gaze behavior found in eye-tracking studies with infants. The architecture offers a step towards the autonomous learning of compressed hierarchical encodings of gathered experiences and the exploitation of these encodings to generate adaptive behavior.",
     "archive": "arXiv",
     "archiveLocation": "2206.02042",
     "extra": {
@@ -12,6 +13,7 @@
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4281833896",
       "Scholar": "b-JF-UIAAAAJ:JoZmwDi-zQgC"
-    }
+    },
+    "itemType": "document"
   }
 }

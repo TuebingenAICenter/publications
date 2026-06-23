@@ -8,6 +8,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Gravitational-wave astronomy relies on the rapid identification and characterization of compact binary coalescences. Current methods for parameter estimation, such as Bayesian inference using Markov chain Monte Carlo or nested sampling, are computationally expensive, often taking hours to days to produce results. This latency limits the ability to perform rapid multi-messenger follow-up observations. Here we present a machine-learning-based approach for real-time parameter estimation of binary neutron star mergers. Our method, based on neural posterior estimation, provides accurate posterior distributions in seconds, enabling immediate follow-up. We demonstrate the performance of our approach on simulated signals and show that it produces results consistent with traditional Bayesian methods while being several orders of magnitude faster.",
     "archive": "arXiv",
     "archiveLocation": "2407.09602",
     "extra": {
@@ -18,6 +19,7 @@
       "Source": "group_webpage (macke)",
       "arXiv": "2407.09602"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 35</p>",

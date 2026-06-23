@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Discrete diffusion models have emerged as a powerful framework for generative modeling of discrete data. However, existing approaches often rely on specific noise schedules or transition kernels, limiting their flexibility. In this work, we introduce Generalized Interpolating Discrete Diffusion (GIDD), a unified framework that generalizes discrete diffusion by formulating it as an interpolation process between a data distribution and a noise distribution. Our framework allows for arbitrary transition kernels and noise schedules, enabling the design of models that are better suited to the structure of the data. We demonstrate that GIDD encompasses several existing discrete diffusion models as special cases and provides a principled way to derive new ones. We further show that GIDD can be trained using a simple objective, and we provide theoretical guarantees for the convergence of the generative process. Finally, we empirically validate our approach on a range of discrete data generation tasks, showing that GIDD achieves state-of-the-art performance while offering greater flexibility and simplicity.",
     "archive": "arXiv",
     "archiveLocation": "2503.04482",
     "attachments": [
@@ -25,6 +26,7 @@
       "OpenAlex": "W4416113503",
       "Scholar": "xkuLyHoAAAAJ:1sJd4Hv_s6UC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 1</p>",

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose SCARF (Segmented Clothed Avatar Radiance Field), a hybrid model combining a mesh-based body with a neural radiance field. Integrating the mesh into the volumetric rendering in combination with a differentiable rasterizer enables us to optimize SCARF directly from monocular videos, without any 3D supervision. The hybrid modeling enables SCARF to (i) animate the clothed body avatar by changing body poses (including hand articulation and facial expressions), (ii) synthesize novel views of the avatar, and (iii) transfer clothing between avatars in virtual try-on applications. We demonstrate that SCARF reconstructs clothing with higher visual quality than existing methods, that the clothing deforms with changing body pose and body shape, and that clothing can be successfully transferred between avatars of different subjects.",
     "extra": {
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4303449084",
       "Scholar": "6NjbexEAAAAJ:KxT4QD0sKr4C"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Application of machine learning techniques on fiber speckle images to infer fiber deformation allows the use of an unmodified multimode fiber to act as a shape sensor. This approach eliminates the need for complex fiber design or construction (e.g., Bragg gratings and time-of-flight). Prior work in shape determination using neural networks trained on a finite number of possible fiber shapes (formulated as a classification task), or trained on a few continuous degrees of freedom, has been limited to reconstruction of fiber shapes only one bend at a time. Furthermore, generalization to shapes that were not used in training is challenging. Our innovative approach improves generalization capabilities, using computer vision-assisted parameterization of the actual fiber shape to provide a ground truth, and multiple specklegrams per fiber shape obtained by controlling the input field. Results from experimenting with several neural network architectures, shape parameterization, number of inputs, and specklegram resolution show that fiber shapes with multiple bends can be accurately predicted. Our approach is able to generalize to new shapes that were not in the training set. This approach of end-to-end training on parameterized ground truth opens new avenues for fiber-optic sensor applications. We publish the datasets used for training and validation, as well as an out-of-distribution (OOD) test set, and encourage interested readers to access these datasets for their own model development.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "9"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

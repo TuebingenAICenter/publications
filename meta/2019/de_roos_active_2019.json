@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Pre-conditioning is a well-known concept that can significantly improve the convergence of optimization algorithms. For noise-free problems, where good pre-conditioners are not known a priori, iterative linear algebra methods offer one way to efficiently construct them. For the stochastic optimization problems that dominate contemporary machine learning, however, this approach is not readily available. We propose an iterative algorithm inspired by classic iterative linear solvers that uses a probabilistic model to actively infer a pre-conditioner in situations where Hessian-projections can only be constructed with strong Gaussian noise. The algorithm is empirically demonstrated to efficiently construct effective pre-conditioners for stochastic gradient descent and its variants. Experiments on problems of comparably low dimensionality show improved convergence. In very high-dimensional problems, such as those encountered in deep learning, the pre-conditioner effectively becomes an automatic learning-rate adaptation scheme, which we also empirically show to work well.",
     "archive": "arXiv",
     "archiveLocation": "1902.07557",
     "conferenceName": "22nd International Conference on Artificial Intelligence and Statistics",
@@ -16,6 +17,7 @@
       "Scholar": "UeG5w08AAAAJ:UxriW0iASnsC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics"
   }
 }

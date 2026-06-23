@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The task of retrieving audio clips using natural language queries has recently gained attention due to its potential for enabling intuitive search in large-scale audio databases. However, progress in this field is hindered by the lack of a unified evaluation framework, with different works using disparate datasets and metrics. In this paper, we present a comprehensive benchmark study for audio retrieval with natural language queries. We first curate a large-scale dataset, AudioCaps-Eval, which provides high-quality, human-annotated captions for audio clips. We then evaluate several state-of-the-art cross-modal retrieval models on this dataset, as well as on existing benchmarks. Our results reveal that current models struggle to capture the fine-grained semantic relationships between audio and text, and that there is a significant performance gap between different architectures. We also propose a new evaluation metric, the Audio-Text Alignment Score, which better captures the semantic consistency between retrieved audio and query captions. We hope that this benchmark will facilitate future research in this area and provide a clear path for evaluating progress.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W3158978276",
       "Scholar": "jQl9RtkAAAAJ:p2g8aNsByqUC",
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "1"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

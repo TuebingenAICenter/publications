@@ -6,9 +6,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "This report presents research done at the Max Planck Institute for Intelligent Systems from January 2016 to December 2018. It is our third report since the founding of the institute in 2011. This status report is organized as follows: we begin with an overview of the institute, including its organizational structure (Chapter 1). The central part of the scientific report consists of chapters on the research conducted by the institute’s departments (Chapters 2 to 5) and its independent research groups (Chapters 6 to 18), as well as the work of the institute’s central scientific facilities (Chapter 19). For entities founded after January 2016, the respective report sections cover work done from the date of the establishment of the department, group, or facility.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "report",
     "reportType": "Scientific Report"
   }
 }

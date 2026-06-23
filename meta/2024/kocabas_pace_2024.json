@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a method to estimate human motion in a global scene from moving cameras. This is a highly challenging task due to the coupling of human and camera motions in the video. To address this problem, we propose a joint optimization framework that disentangles human and camera motions using both foreground human motion priors and background scene features. Unlike existing methods that use SLAM as initialization, we propose to tightly integrate SLAM and human motion priors in an optimization that is inspired by bundle adjustment. Specifically, we optimize human and camera motions to match both the observed human pose and scene features. This design combines the strengths of SLAM and motion priors, which leads to significant improvements in human and camera motion estimation. We additionally introduce a motion prior that is suitable for batch optimization, making our approach significantly more efficient than existing approaches. Finally, we propose a novel synthetic dataset that enables evaluating camera motion in addition to human motion from dynamic videos. Experiments on the synthetic and real-world RICH datasets demonstrate that our approach substantially outperforms prior art in recovering both human and camera motions.",
     "archive": "arXiv",
     "archiveLocation": "2310.13768",
     "extra": {
@@ -12,6 +13,7 @@
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4387928561",
       "Scholar": "6NjbexEAAAAJ:FP-YCU5gdjEC"
-    }
+    },
+    "itemType": "document"
   }
 }

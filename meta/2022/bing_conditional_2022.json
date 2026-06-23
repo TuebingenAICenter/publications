@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Medical machine learning models often perform poorly on underrepresented populations due to a lack of sufficient training data. Generative models have been proposed as a solution to this data scarcity problem by synthesizing realistic medical data. However, existing generative models often fail to capture the complex temporal dependencies in medical time series or to provide the necessary control to generate data for specific underrepresented subgroups. In this work, we propose a conditional generative model for medical time series that allows for the generation of synthetic data for underrepresented populations. Our model, based on a conditional variational autoencoder, learns to disentangle the underlying factors of variation in medical time series, enabling the generation of data conditioned on specific patient characteristics. We demonstrate the effectiveness of our approach on two real-world medical datasets, showing that our model can generate high-quality synthetic data that improves the performance of downstream predictive models on underrepresented populations.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "7"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

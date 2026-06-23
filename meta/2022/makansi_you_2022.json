@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Trajectory prediction is a core component of autonomous systems. While deep learning models have achieved impressive performance, they are often treated as black boxes. In this work, we analyze the feature attribution of state-of-the-art trajectory prediction models. We find that these models rely heavily on the target agent's own history, while the influence of neighboring agents is surprisingly small. We investigate whether this is a desired behavior or a failure to capture social interactions. To this end, we propose a causal framework to analyze feature attribution and find that the models often fail to learn meaningful social interactions, instead relying on spurious correlations. We hope our findings will encourage the development of more robust and interpretable trajectory prediction models.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2110.05304",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:Cc3qWGALtIgC"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

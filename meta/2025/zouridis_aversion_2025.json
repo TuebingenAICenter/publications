@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The lateral habenula (LHb) is a key node in the brain's reward and aversion circuitry, yet the functional diversity of its constituent cell types remains poorly understood. Here, we performed in vivo extracellular recordings in the mouse LHb and classified neurons into physiologically distinct types based on their firing patterns and waveforms. We found that these cell types exhibit differential responses to aversive stimuli and are modulated by the animal's behavioral state. Specifically, we identified a population of neurons that show robust aversion-related activity, which is further modulated by the animal's arousal level. Our findings provide a comprehensive characterization of LHb neuronal diversity and suggest that distinct cell types contribute differentially to the processing of aversive information and the regulation of behavioral states.",
     "attachments": [
       {
         "accessDate": null,
@@ -21,6 +22,7 @@
       "OpenAlex": "W4416690650",
       "Scholar": "lPQLk3QAAAAJ:URolC5Kub84C"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/41285674/'>https://pubmed.ncbi.nlm.nih.gov/41285674/</a><br><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12643828/'>https://pmc.ncbi.nlm.nih.gov/articles/PMC12643828/</a><br><a href='https://onlinelibrary.wiley.com/doi/10.1111/ejn.70302'>https://onlinelibrary.wiley.com/doi/10.1111/ejn.70302</a><br></p>",

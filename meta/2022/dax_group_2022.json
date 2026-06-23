@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but data can be simulated. Neural posterior estimation (NPE) is a popular SBI method that uses deep learning to learn the posterior distribution. However, standard NPE architectures do not exploit symmetries in the data or parameters, which can lead to inefficient use of data and poor generalization. In this paper, we introduce group equivariant neural posterior estimation (GNPE), a framework for incorporating group symmetries into NPE. We show that GNPE can be implemented by augmenting the input data with group-transformed versions of the data and using an equivariant neural network architecture. We demonstrate the effectiveness of GNPE on several synthetic and real-world problems, including gravitational-wave inference, where it significantly improves performance over standard NPE.",
     "archive": "arXiv",
     "archiveLocation": "2111.13139",
     "extra": {
@@ -14,6 +15,7 @@
       "OpenAlex": "W3216693867",
       "Scholar": "FKOqtF8AAAAJ:AkvegQHRDQ8C"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

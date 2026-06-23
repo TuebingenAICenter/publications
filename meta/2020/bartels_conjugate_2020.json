@@ -6,11 +6,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Kernel methods are a cornerstone of machine learning, but their computational cost is a major bottleneck. For a dataset of size n, they typically require O(nˆ3) time and O(nˆ2) memory. We propose a method to solve the kernel linear system using the conjugate gradient (CG) method, which reduces the complexity to O(nˆ2) time and O(n) memory. Our approach is based on a novel approximation of the kernel matrix-vector product, which we derive using a low-rank approximation of the kernel matrix. We show that our method is competitive with state-of-the-art approaches in terms of accuracy and significantly faster in terms of training time.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W2983004766",
       "Scholar": "UeG5w08AAAAJ:WbkHhVStYXYC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

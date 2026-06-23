@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The Laplace approximation is a popular method for Bayesian deep learning due to its computational efficiency. However, its performance is often limited by the quality of the underlying Gaussian approximation. In this work, we propose a new approach to improve the Laplace approximation by adapting the linearised Laplace model evidence. We show that our method, which we call the Linearised Laplace Model Evidence (LLME), can be used to improve the performance of the Laplace approximation in a variety of settings, including classification and regression tasks. We also provide a theoretical analysis of our method and show that it is consistent with the true model evidence in the limit of infinite data.",
     "conferenceName": "39th International Conference on Machine Learning",
     "extra": {
       "Editors": "Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 39th International Conference on Machine Learning"
   }
 }

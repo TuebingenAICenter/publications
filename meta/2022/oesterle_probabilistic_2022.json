@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Numerical simulations are a cornerstone of modern neuroscience. However, they are typically treated as ground truth, ignoring the fact that numerical solvers introduce errors. Here, we propose the use of probabilistic numerical solvers to quantify this numerical uncertainty. We demonstrate that probabilistic solvers can be used to propagate numerical uncertainty through neuroscience models, providing a principled way to assess the reliability of simulation results. We illustrate this approach with two examples: a Hodgkin-Huxley model and a model of a neural network.",
     "extra": {
       "Citations@2026-06-01": "1",
       "Note": "This is the original article, not the correction.",
@@ -15,6 +16,7 @@
       "Source": "group_webpage (schoelkopf)",
       "Type": "journalArticle",
       "month_numeric": "8"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

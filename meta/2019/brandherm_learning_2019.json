@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In this paper, we propose a novel approach to learn replanning policies for complex robotic tasks. Instead of learning a single policy that maps states to actions, we learn a policy that maps states to a sequence of future actions, i.e., a plan. Our approach is based on direct policy search, which allows us to optimize the policy parameters directly with respect to the task objective. We show that our approach can learn effective replanning policies for a variety of robotic tasks, including reaching, pushing, and manipulation, in both simulation and on a real robot.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Fine-grained classification is a challenging task due to the subtle differences between classes. While deep learning models have achieved impressive performance, they often rely on spurious correlations rather than the discriminative features used by humans. In this paper, we investigate the role of human attention in fine-grained classification. We collect a new dataset of human attention maps for fine-grained images and analyze the correlation between human attention and model performance. We further propose a novel attention-based loss function that encourages models to focus on regions that are important for human classification. Our experiments demonstrate that incorporating human attention significantly improves the performance and interpretability of fine-grained classification models.",
     "conferenceName": "32nd British Machine Vision Conference (BMVC)",
     "extra": {
       "Citations@2026-06-01": "14",
@@ -14,6 +15,7 @@
       "Scholar": "jQl9RtkAAAAJ:D_sINldO8mEC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "32nd British Machine Vision Conference (BMVC)"
   }
 }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Neural Additive Models (NAMs) are a class of interpretable models that combine the flexibility of neural networks with the interpretability of generalized additive models. However, they often lack uncertainty quantification and can be prone to overfitting. In this work, we propose a Bayesian approach to training NAMs, which allows for better uncertainty estimation and improved robustness. We introduce a novel prior over the shape functions of the NAM, which encourages smoothness and sparsity. We show that our Bayesian NAMs achieve competitive performance on a range of regression and classification tasks while providing well-calibrated uncertainty estimates.",
     "conferenceName": "International Conference on Machine Learning",
     "extra": {
       "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

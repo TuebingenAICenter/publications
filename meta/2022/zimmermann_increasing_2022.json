@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Adversarial robustness is a central topic in machine learning, yet evaluating it remains notoriously difficult. A common practice is to report the robust accuracy of a model against a set of chosen attacks. However, this approach is often misleading: a model might appear robust simply because the chosen attacks are not strong enough or are ill-suited for the model. In this paper, we propose a new framework for evaluating adversarial robustness that provides a more reliable estimate of a model's true robustness. Our framework is based on the observation that the robust accuracy of a model is a function of the attack's computational budget. By measuring the robust accuracy across a range of budgets, we can identify the point at which the model's performance plateaus, providing a more robust and interpretable metric. We demonstrate the effectiveness of our framework on a variety of models and datasets, showing that it can reveal vulnerabilities that are missed by standard evaluation protocols.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2206.13991",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "v-JL-hsAAAAJ:ns9cj8rnVeAC"
     },
+    "itemType": "document",
     "libraryCatalog": "NeurIPS Proceedings"
   }
 }

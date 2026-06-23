@@ -6,11 +6,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Generative models are essential for understanding the principles of neural circuit organization. However, identifying the parameters of these models is challenging because the likelihood function is often intractable. Simulation-based inference (SBI) has emerged as a powerful framework for parameter inference in such cases. Here, we demonstrate the utility of SBI for identifying generative models of neuronal connectivity. We apply SBI to a model of the rat vibrissal cortex, where we infer the parameters of a generative model of axonal and dendritic morphology and synaptic connectivity. We show that SBI can efficiently identify the parameters of this model, even when the model is computationally expensive to simulate. Our results suggest that SBI is a promising approach for identifying generative models in computational connectomics and beyond.",
     "extra": {
       "Citations@2026-06-01": "9",
       "OpenAlex": "W4386953658",
       "Scholar": "FKOqtF8AAAAJ:S_fw-_riRmcC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -9,6 +9,7 @@
     "extra": {
       "Source": "group_webpage (orvieto)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "ICML High-dimensional Learning Dynamics Workshop"
   }
 }

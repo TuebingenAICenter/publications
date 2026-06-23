@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The impressive zero-shot performance of large-scale multimodal models is often attributed to their ability to generalize to unseen concepts. However, the extent to which this performance is truly 'zero-shot' remains a subject of debate. In this work, we investigate the relationship between the frequency of concepts in pretraining data and the zero-shot performance of multimodal models. We find that the zero-shot performance of these models is strongly correlated with the frequency of the concepts in the pretraining data. Specifically, we show that for a wide range of concepts, the zero-shot performance follows an exponential relationship with the pretraining frequency. Our results suggest that the 'zero-shot' capabilities of these models are largely driven by the sheer scale of the pretraining data, rather than a fundamental ability to generalize from limited examples. We further demonstrate that this relationship holds across different model architectures and pretraining datasets, highlighting the critical role of data distribution in determining model performance.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2404.04125",
     "conferenceName": "NeurIPS",
@@ -14,6 +15,7 @@
       "OpenAlex": "W4415797435",
       "Scholar": "0z0fNxUAAAAJ:wUn16MOA3RoC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 54</p>",

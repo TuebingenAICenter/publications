@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Purpose: Body image has a significant impact on the outcome of obesity surgery. This study aims to perform a semantic evaluation of body shapes in obesity surgery patients and a group of controls. Materials and Methods: Thirty-four obesity surgery (OS) subjects, stable after weight loss (average 48.03 ± 18.60 kg), and 35 overweight/obese controls (MC), were enrolled in this study. Body dissatisfaction, self-esteem, and body perception were evaluated with self-reported tests, and semantic evaluation of body shapes was performed with three specific tasks constructed with realistic human body stimuli. Results: The OS showed a more positive body image compared to HC (p 0.001), higher levels of depression (p 0.019), and lower self-esteem (p 0.000). OS patients and HC showed no difference in weight bias, but OS used a higher BMI than HC in the visualization of positive adjectives (p = 0.011). Both groups showed a mental underestimation of their body shapes. Conclusion: OS patients are more psychologically burdened and have more difficulties in judging their bodies than overweight/obese peers. Their mental body representations seem not to be linked to their own BMI. Our findings provide helpful insight for the design of specific interventions in body image in obese and overweight people, as well as in OS.",
     "extra": {
       "Citations@2026-06-01": "28",
       "OpenAlex": "W3121042401",
       "Scholar": "6NjbexEAAAAJ:Ib8FQH8mdS0C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

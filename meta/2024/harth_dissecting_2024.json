@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The wiring of neural circuits is highly specific, yet the mechanisms that generate this specificity remain debated. A central challenge is to distinguish between wiring patterns that arise from simple geometric constraints and those that reflect specific biological rules. Here, we introduce a framework to dissect the origins of wiring specificity in dense reconstructions of neural tissue. We apply this framework to the mouse barrel cortex and show that a large fraction of the observed wiring specificity can be explained by the spatial arrangement of neurons and their axons and dendrites. However, we also identify significant deviations from these geometric predictions, which point to additional, non-geometric wiring rules. Our approach provides a systematic way to quantify the contributions of different factors to neural circuit architecture and can be applied to any dense reconstruction of neural tissue.",
     "archive": "bioRxiv",
     "extra": {
       "Archive ID": "10.1101/2024.12.14.628490",
@@ -12,6 +13,7 @@
       "OpenAlex": "W4405520326",
       "Repository": "bioRxiv",
       "Scholar": "FKOqtF8AAAAJ:cG0OFEevkNgC"
-    }
+    },
+    "itemType": "document"
   }
 }

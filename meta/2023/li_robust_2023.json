@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks (DNNs) have achieved human-level performance on object recognition tasks, but they remain vulnerable to adversarial attacks and distribution shifts. Recent work suggests that robust models, which are trained to be invariant to such perturbations, rely more on shape-like features than standard models. However, it remains unclear what specific image features these robust models use. Here, we investigate the frequency dependence of robust models. We find that robust models rely significantly more on low-frequency information than standard models. This reliance on low-frequency information is a key factor in their robustness. We further show that this reliance is not merely a byproduct of the training process but is a fundamental property of robust representations. Our results provide new insights into the nature of robust representations and suggest that low-frequency information is a critical component of robust object recognition.",
     "archive": "bioRxiv",
     "archiveLocation": "10.1101/2022.01.31.478509",
     "extra": {
@@ -15,6 +16,7 @@
       "Repository": "bioRxiv",
       "Scholar": "v-JL-hsAAAAJ:O3NaXMp0MMsC"
     },
+    "itemType": "document",
     "libraryCatalog": "bioRxiv"
   }
 }

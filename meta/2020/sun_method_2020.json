@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The present invention relates to a method for force inference of a sensor arrangement, to related methods for training of networks, to a force inference module for performing such methods, and to a sensor arrangement for sensing forces. When developing applications such as robots, sensing of forces applied on a robot hand or another part of a robot such as a leg or a manipulation device is crucial in giving robots increased capabilities to move around and/or manipulate objects. Known implementations for sensor arrangements that can be used in robotic applications in order to have feedback with regard to applied forces are quite expensive and do not have sufficient resolution. Sensor arrangements may be used to measure forces. However, known sensor arrangements need a high density of sensors to provide for a high special resolution. It is thus an object of the present invention to provide for a method for force inference of a sensor arrangement and related methods that are different or optimized with regard to the prior art. It is a further object to provide for a force inference module to perform such methods. It is a further object to provide for a sensor arrangement for sensing forces with such a force inference module.",
     "extra": {
       "Patent Number": "PCT/EP2020/083261",
       "Scholar": "b-JF-UIAAAAJ:0KyAp5RtaNEC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

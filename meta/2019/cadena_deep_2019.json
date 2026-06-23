@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The primary goal of sensory neuroscience is to build predictive models of neural responses to natural stimuli. While deep convolutional neural networks (CNNs) have recently achieved state-of-the-art performance in predicting responses of neurons in higher visual areas, their ability to predict responses in primary visual cortex (V1) has been less clear. Here, we show that deep CNNs, when trained on object recognition, can predict V1 responses to natural images significantly better than classical models. We find that the performance of these models depends on the architecture and the training objective. Specifically, we show that models with a larger receptive field and a more complex architecture perform better. Furthermore, we find that the internal representations of these models are more similar to V1 than those of classical models. Our results suggest that deep CNNs are a powerful tool for understanding the computations performed by the visual cortex.",
     "extra": {
       "Citations@2026-06-01": "346",
       "OpenAlex": "W2949449018",
       "Scholar": "0z0fNxUAAAAJ:kh2fBNsKQNwC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

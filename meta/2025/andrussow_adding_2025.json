@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Distinguishing the feel of smooth silk from coarse cotton is a trivial everyday task for humans. When exploring such fabrics, fingertip skin senses both spatio-temporal force patterns and texture-induced vibrations that are integrated to form a haptic representation of the explored material. It is challenging to reproduce this rich, dynamic perceptual capability in robots because tactile sensors typically cannot achieve both high spatial resolution and high temporal sampling rate. In this work, we present a system that can sense both types of haptic information, and we investigate how each type influences robotic tactile perception of fabrics. Our robotic hand's middle finger and thumb each feature a soft tactile sensor: one is the open- source Minsight sensor that uses an internal camera to measure fingertip deformation and force at 50 Hz, and the other is our new sensor Minsound that captures vibrations through an internal MEMS microphone with a bandwidth from 50 Hz to 15 kHz. Inspired by the movements humans make to evaluate fabrics, our robot actively encloses and rubs folded fabric samples between its two sensitive fingers. Our results test the influence of each sensing modality on overall classification performance, showing high utility for the audio-based sensor. Our transformer-based method achieves a maximum fabric classification accuracy of 97% on a dataset of 20 common fabrics. Incorporating an external microphone away from Minsound increases our method's robustness in loud ambient noise conditions. To show that this audio-visual tactile sensing approach generalizes beyond the training data, we learn general representations of fabric stretchiness, thickness, and roughness.",
     "conferenceName": "IEEE-RAS International Conference on Humanoid Robots (Humanoids)",
     "extra": {
       "Address": "Seoul, South Korea",
@@ -16,6 +17,7 @@
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "9"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://is.mpg.de/publications/andrussow25-hr-minsound'>https://is.mpg.de/publications/andrussow25-hr-minsound</a><br><a href='https://dblp.org/rec/conf/humanoids/2025'>https://dblp.org/rec/conf/humanoids/2025</a><br><a href='https://www.proceedings.com/82618.html'>https://www.proceedings.com/82618.html</a><br></p>",

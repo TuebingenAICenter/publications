@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "How do humans navigate complex environments where rewards are correlated? We introduce a novel task, the Correlated Trees task, which allows us to study how people generalize information across a hierarchical structure to guide exploration and planning. We compare human behavior against a range of computational models, including a Bayesian model that generalizes across the tree structure, and a heuristic model that relies on local information. Our results show that humans are able to generalize across the tree structure, using information from observed nodes to guide exploration in unobserved branches. We find that a model combining Bayesian generalization with a planning heuristic best captures human behavior, suggesting that humans integrate generalization and planning to navigate complex, correlated environments.",
     "archive": "OSF",
     "archiveLocation": "https://doi.org/10.31234/osf.io/72wda",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "OSF",
       "Scholar": "1O2hcVgAAAAJ:NMxIlDl6LWMC"
     },
+    "itemType": "document",
     "libraryCatalog": "OSF Preprints"
   }
 }

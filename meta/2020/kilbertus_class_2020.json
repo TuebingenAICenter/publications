@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Instrumental variable (IV) models are a cornerstone of causal inference, allowing for the estimation of causal effects in the presence of unobserved confounders. While classical IV methods are restricted to linear models with specific functional forms, recent work has begun to explore non-parametric IV estimation. However, these methods often rely on strong assumptions about the structure of the data or the nature of the instruments. In this paper, we propose a general class of algorithms for IV models that can handle arbitrary non-linear relationships and high-dimensional data. Our approach is based on the use of kernel methods and provides a flexible framework for IV estimation. We demonstrate the effectiveness of our approach on both synthetic and real-world datasets, showing that it outperforms existing methods in a variety of settings.",
     "conferenceName": "Advances in Neural Information Processing Systems 33",
     "extra": {
       "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 33"
   }
 }

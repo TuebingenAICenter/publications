@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Muscular systems are characterized by their high degree of redundancy, non-linear dynamics, and the ability to change their mechanical properties. These properties make them highly versatile but also difficult to control. In this thesis, we investigate how robot learning can be used to control muscular systems. We focus on two main aspects: the learning of forward models and the learning of control policies. We show that by using these methods, we can achieve robust and efficient control of muscular systems in simulation and on real hardware.",
     "extra": {
       "Publication Type": "Ph.D. Thesis",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "thesis"
   }
 }

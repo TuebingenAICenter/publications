@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the trade-off between fairness and quality in clustering. We consider a setting where points belong to different groups, and we want to partition them into k clusters such that each cluster is 'fair'—meaning the representation of each group in the cluster is proportional to its representation in the entire dataset. We show that enforcing such fairness constraints can lead to a significant loss in the quality of the clustering, as measured by the k-means objective. We quantify this loss by providing upper and lower bounds on the price of fairness, which is the ratio of the cost of the optimal fair clustering to the cost of the optimal unconstrained clustering. We also provide efficient algorithms for finding fair clusterings with provable guarantees on the quality.",
     "archive": "arXiv",
     "archiveLocation": "2408.10002",
     "conferenceName": "Advances in Neural Information Processing Systems 37",
@@ -12,6 +13,7 @@
       "Source": "group_webpage (hardt)",
       "arXiv": "2408.10002"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
   }
 }

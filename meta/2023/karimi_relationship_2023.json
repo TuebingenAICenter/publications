@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The relationship between explanation and prediction is a subject of long-standing debate in science and philosophy. In machine learning, this debate has recently been reignited by the success of deep learning models, which are often highly predictive but difficult to interpret. In this paper, we provide a causal framework to study the relationship between explanation and prediction. We show that, under certain conditions, explanation and prediction are two sides of the same coin, and that a causal model can be used to bridge the gap between them. We also provide a set of desiderata for explanations and show that they are satisfied by our proposed causal framework. Finally, we demonstrate the utility of our framework on a range of synthetic and real-world tasks.",
     "extra": {
       "Citations@2026-06-01": "5",
       "OpenAlex": "W4311640769",
@@ -12,6 +13,7 @@
       "Scholar": "DZ-fHPgAAAAJ:uF7DaYC6HSgC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "202"
-    }
+    },
+    "itemType": "document"
   }
 }

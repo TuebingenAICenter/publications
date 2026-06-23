@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Human culture is a collective phenomenon, emerging from the interactions of individual minds. While cognitive science has traditionally focused on the individual, there is a growing interest in how cognitive processes are shaped by, and in turn shape, the collective. This paper introduces the symposium on Cognition, Collectives, and Human Culture, which brings together researchers from across the cognitive sciences to discuss the interplay between individual cognition and collective behavior. We highlight three key themes: the role of social learning in cultural evolution, the cognitive mechanisms underlying collective intelligence, and the impact of cultural structures on individual cognition.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3135789239",
       "Scholar": "1O2hcVgAAAAJ:L8Ckcad2t8MC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

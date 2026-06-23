@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Program induction aims to discover the underlying logic of data by searching for programs that explain observations. However, the search space of programs is often vast, and finding the optimal program is computationally intractable. We propose a framework that harmonizes program induction with rate-distortion theory, a branch of information theory that characterizes the trade-off between the rate (complexity) and distortion (error) of a representation. By treating program induction as a rate-distortion problem, we derive a principled objective function that balances the simplicity of a program with its ability to explain the data. We demonstrate that this framework provides a unified perspective on several existing program induction methods and enables the derivation of new, more efficient algorithms. We evaluate our approach on a range of program induction tasks, showing that it achieves state-of-the-art performance while offering theoretical guarantees on the trade-off between complexity and accuracy.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2405.05294",
     "conferenceName": "CogSci",
@@ -14,6 +15,7 @@
       "OpenAlex": "W4396821848",
       "Scholar": "1O2hcVgAAAAJ:OU6Ihb5iCvQC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",

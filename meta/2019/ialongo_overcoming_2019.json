@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Recurrent Gaussian Process (RGP) models are a powerful class of models for time-series data. However, exact inference is intractable, and current approximate inference methods rely on mean-field assumptions that ignore the temporal correlations in the latent state. We propose a new variational inference framework for RGPs that allows for non-mean-field posterior approximations. We achieve this by using a structured variational distribution that captures the temporal dependencies in the latent state. We demonstrate that our approach leads to better predictive performance and more accurate uncertainty estimates on a range of time-series datasets.",
     "conferenceName": "36th International Conference on Machine Learning",
     "extra": {
       "Editors": "Chaudhuri, Kamalika and Salakhutdinov, Ruslan",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 36th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

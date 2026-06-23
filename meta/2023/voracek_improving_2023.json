@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Randomized smoothing is a state-of-the-art technique for training classifiers with provable robustness guarantees. While most existing work focuses on l2-norm robustness, l1-norm robustness is often more relevant in applications such as image classification where adversarial perturbations are constrained by the l1-norm. In this paper, we propose a new randomized smoothing approach for l1-robustness that leverages the box constraints of the input space. We show that our method significantly improves the certified radii compared to the state-of-the-art l1-smoothing methods. We provide a theoretical analysis of our approach and demonstrate its effectiveness on CIFAR-10 and ImageNet.",
     "conferenceName": "International Conference on Machine Learning",
     "extra": {
       "Citations@2026-06-01": "18",
@@ -12,6 +13,7 @@
       "Scholar": "0ZAb3tsAAAAJ:CdxZDUztZiMC",
       "Source": "group_webpage (hein)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 40th International Conference on Machine Learning"
   }
 }

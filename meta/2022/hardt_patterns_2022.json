@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "An authoritative, up-to-date graduate textbook on machine learning that highlights its historical context and societal impacts Patterns, Predictions, and Actions introduces graduate students to the essentials of machine learning while offering invaluable perspective on its history and social implications. Beginning with the foundations of decision making, Moritz Hardt and Benjamin Recht explain how representation, optimization, and generalization are the constituents of supervised learning. They go on to provide self-contained discussions of causality, the practice of causal inference, sequential decision making, and reinforcement learning, equipping readers with the concepts and tools they need to assess the consequences that may arise from acting on statistical decisions. Provides a modern introduction to machine learning, showing how data patterns support predictions and consequential actions Pays special attention to societal impacts and fairness in decision making Traces the development of machine learning from its origins to today Features a novel chapter on machine learning benchmarks and datasets Invites readers from all backgrounds, requiring some experience with probability, calculus, and linear algebra An essential textbook for students and a guide for researchers",
     "extra": {
       "Citations@2026-06-01": "6",
       "OpenAlex": "W3126403898",
       "Scholar": "adnTgaAAAAAJ:hSRAE-fF4OAC"
-    }
+    },
+    "itemType": "document"
   }
 }

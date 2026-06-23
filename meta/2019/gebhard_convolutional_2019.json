@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The detection of gravitational waves from compact binary coalescences is a challenging task due to the low signal-to-noise ratio of the signals and the non-Gaussian, nonstationary nature of the detector noise. Currently, matched-filter-based searches are the standard approach. However, these are computationally expensive and rely on accurate waveform templates. In this paper, we investigate the use of convolutional neural networks (CNNs) for gravitational-wave detection. We show that CNNs can be trained to detect signals from binary black hole mergers in real-time with high sensitivity and low false-alarm rates. We compare the performance of our CNN-based approach to a standard matched-filter search and find that it achieves comparable performance while being significantly faster. We also discuss the limitations of our approach and potential directions for future research.",
     "extra": {
       "Citations@2026-06-01": "157",
       "OpenAlex": "W2940261095",
       "Scholar": "DZ-fHPgAAAAJ:XfHLGV2CmsEC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

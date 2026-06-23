@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Visual feature attribution methods aim to explain model predictions by highlighting important input features. While many methods have been proposed, they often suffer from noise and lack of faithfulness. In this paper, we propose CALM (Class-specific Attribution with Localized Masking), a novel attribution method that improves the faithfulness of feature attribution. CALM leverages class-specific information to generate more accurate and localized attributions. We demonstrate the effectiveness of our method on various benchmarks, showing that it outperforms existing state-of-the-art methods in terms of faithfulness and visual quality.",
     "conferenceName": "International Conference on Computer Vision (ICCV)",
     "extra": {
       "Citations@2026-06-01": "1",
@@ -13,6 +14,7 @@
       "Scholar": "jQl9RtkAAAAJ:sJsF-0ZLhtgC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Computer Vision (ICCV)"
   }
 }

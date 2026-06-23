@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks (DNNs) are often used as models of the human visual system. A common metric to evaluate the similarity between humans and DNNs is error consistency (EC), which measures whether humans and models make the same errors on the same images. Previous studies have shown that EC is generally low, but it can be improved by training models on specific datasets or using specific architectures. However, it remains unclear how EC changes with the presentation duration of the stimuli. In this study, we investigated the EC between humans and DNNs as a function of presentation duration. We collected human error data on a set of images with varying presentation durations (from 16 ms to 256 ms). We then compared these human errors with the errors made by several state-of-the-art DNNs. We found that EC increases with presentation duration, suggesting that models are more similar to humans when they have more time to process the stimuli. Our results provide new insights into the relationship between human and machine vision and suggest that presentation duration is a crucial factor to consider when evaluating the similarity between humans and DNNs.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4402946598",
       "Scholar": "v-JL-hsAAAAJ:CHSYGLWDkRkC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

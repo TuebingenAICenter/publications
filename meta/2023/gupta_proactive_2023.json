@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Contact tracing is a critical tool for controlling the spread of infectious diseases. Traditional contact tracing relies on manual interviews to identify and notify individuals who have been in contact with an infected person. However, this process is often slow and labor-intensive, limiting its effectiveness during rapid outbreaks. In this paper, we propose a proactive contact tracing framework that leverages machine learning to predict the infectiousness of individuals and prioritize contact tracing efforts. Our approach uses a combination of epidemiological modeling and deep learning to estimate the probability that an individual is infectious based on their recent history and contact patterns. We demonstrate the effectiveness of our approach through simulations on real-world contact networks, showing that proactive contact tracing can significantly reduce the spread of disease compared to traditional methods while maintaining privacy and minimizing the burden on public health resources.",
     "extra": {
       "Citations@2026-06-01": "13",
       "OpenAlex": "W4324020216",
       "Scholar": "DZ-fHPgAAAAJ:Zh5dQqPUJYgC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

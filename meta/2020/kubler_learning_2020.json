@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Kernel-based hypothesis tests are powerful tools for detecting differences between distributions. A common practice to ensure the validity of these tests is to split the data into two parts: one for learning the test statistic (e.g., optimizing kernel parameters) and one for performing the test. However, data splitting is sample-inefficient, especially in the small-sample regime. In this paper, we propose a framework to learn kernel tests without data splitting. We achieve this by formulating the test as a learning problem where the objective is to maximize the test power while controlling the Type-I error rate. We show that the proposed test is consistent and has a well-controlled Type-I error rate. Experimental results on various synthetic and real-world datasets demonstrate that our method consistently outperforms existing kernel tests that rely on data splitting.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W3033331591",
       "Pages": "6245--6255",
       "Scholar": "DZ-fHPgAAAAJ:q_HmSUDeXG8C"
-    }
+    },
+    "itemType": "document"
   }
 }

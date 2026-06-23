@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Contact planning is a fundamental challenge in legged locomotion, requiring the selection of contact locations and timings that ensure stability and feasibility. Traditional methods often rely on simplified models or heuristic-based approaches, which can limit the agility of the robot. In this work, we propose a novel approach to contact planning using diffusion models. We learn a generative model that can sample diverse and feasible contact plans for a given task. Our method is able to generate contact plans that are consistent with the robot's dynamics and the environment, enabling agile locomotion in complex scenarios. We demonstrate the effectiveness of our approach on a quadruped robot, showing that it can generate contact plans that lead to successful locomotion in challenging environments.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4392576153",
       "Pages": "637-644",
       "Scholar": "DZ-fHPgAAAAJ:-rJzQCqpPy8C"
-    }
+    },
+    "itemType": "document"
   }
 }

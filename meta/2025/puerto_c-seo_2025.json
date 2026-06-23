@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The rise of conversational search engines (CSEs) like ChatGPT, Perplexity, and Gemini has fundamentally changed how users discover information. This shift has given birth to Conversational Search Engine Optimization (C-SEO), the practice of optimizing content to be cited by these models. However, the field lacks a systematic way to evaluate C-SEO strategies. In this work, we introduce C-SEO Bench, the first comprehensive benchmark to evaluate C-SEO. We curate a dataset of 1,000 queries across diverse domains and develop a robust evaluation framework that measures the impact of various optimization techniques on citation rates. Our findings reveal that while some traditional SEO practices remain effective, others are counterproductive in the conversational era. We provide a detailed analysis of the factors influencing citation, offering actionable insights for content creators and researchers. We release our dataset, evaluation code, and a leaderboard to foster further research in this emerging field.",
     "archive": "arXiv",
     "archiveLocation": "2506.11097",
     "attachments": [
@@ -23,6 +24,7 @@
       "Scholar": "kmXOOdsAAAAJ:pyW8ca7W8N0C",
       "arXiv": "2506.11097"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://openreview.net/forum?id=oTeixD3oZO'>https://openreview.net/forum?id=oTeixD3oZO</a><br><a href='https://arxiv.org/abs/2506.11097'>https://arxiv.org/abs/2506.11097</a><br><a href='https://neurips.cc/virtual/2025/poster/121465'>https://neurips.cc/virtual/2025/poster/121465</a><br></p>",

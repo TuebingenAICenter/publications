@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning models have shown great potential for age estimation from brain magnetic resonance imaging (MRI). However, their clinical application is often hindered by a lack of uncertainty estimation and interpretability. In this study, we propose a framework for uncertainty estimation and explainability in deep learning-based age estimation of the human brain. We evaluate our approach on a large-scale dataset from the German National Cohort (NAKO) MRI study, consisting of 10,000 subjects. We demonstrate that our model achieves state-of-the-art performance in age estimation while providing reliable uncertainty estimates and meaningful explanations for its predictions. Our results suggest that the proposed framework can enhance the transparency and reliability of deep learning models in neuroimaging, paving the way for their clinical translation.",
     "extra": {
       "Citations@2026-06-01": "42",
       "OpenAlex": "W3191900348",
       "Scholar": "DZ-fHPgAAAAJ:8sNJjd_y2HYC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

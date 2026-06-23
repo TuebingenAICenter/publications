@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal structure learning aims to recover the causal relationships between variables from observational data. Most existing methods are either constraint-based or score-based, both of which typically require a costly search over the space of possible causal structures for each new dataset. In this work, we propose a novel approach to causal structure learning that amortizes this search. We train a neural network to map observational data directly to a posterior distribution over causal structures. Our method, which we call Amortized Causal Discovery (ACD), is based on a permutation-based formulation of the structure learning problem and leverages a transformer-based architecture to handle datasets of varying sizes and variable orderings. We demonstrate that ACD can learn to perform causal structure learning in a single forward pass, achieving competitive performance with state-of-the-art methods while being orders of magnitude faster at inference time. Furthermore, we show that our model can generalize to datasets with different numbers of variables and different causal mechanisms than those seen during training.",
     "archive": "arXiv",
     "archiveLocation": "2205.12934",
     "extra": {
@@ -16,6 +17,7 @@
       "Scholar": "DZ-fHPgAAAAJ:fbCBsmNnAp0C",
       "Volume": "35"
     },
+    "itemType": "document",
     "libraryCatalog": "NeurIPS Proceedings"
   }
 }

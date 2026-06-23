@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Synthesizing accurate hands-object interactions (HOI) is critical for applications in Computer Vision, Augmented Reality (AR), and Mixed Reality (MR). Despite recent advances, the accuracy of reconstructed or generated HOI leaves room for refinement. Some techniques have improved the accuracy of dense correspondences by shifting focus from generating explicit contacts to using rich HOI fields. Still, they lack full differentiability or continuity and are tailored to specific tasks. In contrast, we present a Coarse Hand-Object Interaction Representation (CHOIR), a novel, versatile and fully differentiable field for HOI modelling. CHOIR leverages discrete unsigned distances for continuous shape and pose encoding, alongside multivariate Gaussian distributions to represent dense contact maps with few parameters. To demonstrate the versatility of CHOIR we design JointDiffusion, a diffusion model to learn a grasp distribution conditioned on noisy hand-object interactions or only object geometries, for both refinement and synthesis applications. We demonstrate JointDiffusion’s improvements over the SOTA in both applications: it increases the contact F1 score by 5% for refinement and decreases the sim. displacement by 46% for synthesis. Our experiments show that JointDiffusion with CHOIR yield superior contact accuracy and physical realism compared to SOTA methods designed for specific tasks.",
     "conferenceName": "Winter Conference on Applications of Computer Vision (WACV)",
     "extra": {
       "GitHub": "https://github.com/DubiousCactus/CHOIR",
       "Page": "https://is.mpg.de/ps/publications/choir2025wacv",
       "Source": "group_webpage (black)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Winter Conference on Applications of Computer Vision (WACV)"
   }
 }

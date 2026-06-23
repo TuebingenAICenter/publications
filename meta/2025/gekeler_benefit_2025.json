@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Accurate industrial electric load forecasting is essential for efficient energy management and cost reduction in manufacturing. While weather data is often considered a key driver for load variations, its actual benefit for industrial load forecasting remains under-researched. This paper presents a comprehensive benchmark study evaluating the impact of weather integration on the forecasting performance of various machine learning models across different industrial sectors. We analyze a diverse dataset of industrial load profiles and corresponding weather data, comparing models with and without weather features. Our results provide empirical evidence on the conditions under which weather integration yields significant improvements and where it provides negligible or even detrimental effects. These findings offer practical guidance for practitioners in selecting appropriate forecasting strategies for industrial energy systems.",
     "extra": {
       "Source": "group_webpage (hennig)"
-    }
+    },
+    "itemType": "conferencePaper"
   }
 }

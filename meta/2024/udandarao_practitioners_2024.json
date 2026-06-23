@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Large-scale multimodal pretraining has become the cornerstone of modern computer vision. However, the static nature of current pretraining datasets is at odds with the dynamic, evolving nature of the real world. In this work, we investigate the challenges of continual multimodal pretraining, where a model is exposed to a sequence of data distributions over time. We first introduce a comprehensive benchmark, FOMO-in-Flux, designed to evaluate multimodal models in realistic continual learning scenarios. We then conduct an extensive empirical study of existing continual learning strategies, revealing that simple approaches often struggle to balance plasticity and stability. To address this, we propose a set of best practices for practitioners, including effective replay strategies and architectural modifications, which significantly improve performance in continual settings. Our findings provide a roadmap for developing more robust and adaptable multimodal models.",
     "archive": "arXiv",
     "archiveLocation": "2408.14471",
     "attachments": [
@@ -25,6 +26,7 @@
       "Publication Title": "arXiv (Cornell University)",
       "Scholar": "0z0fNxUAAAAJ:Vr2j17o0sqMC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",

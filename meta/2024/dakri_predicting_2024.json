@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Knowing the precise location of the bones inside the human body is key in several medical tasks, such as patient placement inside an imaging device or surgical navigation inside a patient. Our goal is to predict the bone locations using only an external 3D body surface obser- vation. Existing approaches either validate their predictions on 2D data (X-rays) or with pseudo-ground truth computed from motion capture using biomechanical models. Thus, methods either suffer from a 3D-2D projection ambiguity or directly lack validation on clinical imaging data. In this work, we start with a dataset of segmented skin and long bones obtained from 3D full body MRI images that we refine into individual bone segmentations. To learn the skin to bones correlations, one needs to register the paired data. Few anatomical models allow to register a skeleton and the skin simultaneously. One such method, SKEL, has a skin and skeleton that is jointly rigged with the same pose parameters. How- ever, it lacks the flexibility to adjust the bone locations inside its skin. To address this, we extend SKEL into SKEL-J to allow its bones to fit the segmented bones while its skin fits the segmented skin. These precise fits allow us to train SKEL-J to more accurately infer the anatomical joint locations from the skin surface. Our qualitative and quantitative results show how our bone location predictions are more accurate than all existing approaches. To foster future research, we make available for research purposes the individual bone segmentations, the fitted SKEL-J models as well as the new inference methods.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4402712658",
       "Publication Title": "International Conference on Medical Image Computing and Computer-Assisted …, 2024",
       "Scholar": "6NjbexEAAAAJ:V1pH50uuazEC"
-    }
+    },
+    "itemType": "bookSection"
   }
 }

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Post-hoc explanations are a popular tool to make machine learning models more interpretable. They are often used to justify decisions in high-stakes domains, such as credit lending or criminal justice. However, it is unclear whether these explanations are robust to adversarial attacks. In this paper, we show that post-hoc explanations can be easily manipulated. We demonstrate that for any given input and any target explanation, one can construct an adversarial input that is visually indistinguishable from the original input but has a completely different explanation. We formalize this problem and provide a theoretical analysis of the conditions under which such attacks are possible. We also propose a simple and effective attack algorithm and demonstrate its performance on several state-of-the-art explanation methods and datasets. Our results suggest that post-hoc explanations should be used with caution in adversarial contexts, as they may not reflect the true decision-making process of the model.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2201.10295",
     "extra": {
       "Citations@2026-06-01": "67",
       "OpenAlex": "W4225705534",
       "Scholar": "mMifMdoAAAAJ:kz9GbA2Ns4gC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

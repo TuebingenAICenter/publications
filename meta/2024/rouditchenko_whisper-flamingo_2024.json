@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present Whisper-Flamingo, a novel architecture that integrates visual features into the Whisper model for audio-visual speech recognition (AVSR) and audio-visual speech translation (AVST). By leveraging the pre-trained Whisper model and a Flamingo-style cross-attention mechanism, our model effectively incorporates visual information to improve performance in challenging acoustic environments. We demonstrate that Whisper-Flamingo achieves state-of-the-art results on several benchmark datasets, showing significant improvements over audio-only and existing audio-visual models.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2406.10082",
     "extra": {
       "Citations@2026-06-01": "60",
       "Code": "https://github.com/roudimit/whisper-flamingo",
       "Scholar": "pxhCcH0AAAAJ:uWQEDVKXjbEC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

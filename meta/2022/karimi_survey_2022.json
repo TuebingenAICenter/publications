@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "As machine learning models are increasingly used to inform consequential decisions in areas such as lending, hiring, and criminal justice, there is a growing demand for transparency and accountability. A key requirement for accountability is the ability to provide individuals with recourse: actionable information on how they can change their unfavorable outcomes. In this survey, we provide a comprehensive overview of the emerging field of algorithmic recourse. We categorize existing methods based on their underlying assumptions, the types of explanations they provide, and the guarantees they offer. We also discuss the challenges of evaluating recourse methods and highlight open problems for future research.",
     "extra": {
       "Citations@2026-06-01": "133",
       "OpenAlex": "W4226290207",
       "Scholar": "DZ-fHPgAAAAJ:qfGRAl2ZrpUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Modeling digital humans that move and interact realistically with virtual 3D worlds has emerged as an essential research area recently, with significant applications in computer graphics, virtual and augmented reality, telepresence, the Metaverse, and assistive technologies. In particular, human-object interaction, encompassing full-body motion, hand-object grasping, and object manipulation, lies at the core of how humans execute tasks and represents the complex and diverse nature of human behavior. Therefore, accurate modeling of these interactions would enable us to simulate avatars to perform tasks, enhance animation realism, and develop applications that better perceive and respond to human behavior. Despite its importance, this remains a challenging problem, due to several factors such as the complexity of human motion, the variance of interaction based on the task, and the lack of rich datasets capturing the complexity of real-world interactions. Prior methods have made progress, but limitations persist as they often focus on individual aspects of interaction, such as body, hand, or object motion, without considering the holistic interplay among these components. This Ph.D. thesis addresses these challenges and contributes to the advancement of human-object interaction modeling through the development of novel datasets, methods, and algorithms.",
     "extra": {
       "Source": "group_webpage (black)"
-    }
+    },
+    "itemType": "thesis"
   }
 }

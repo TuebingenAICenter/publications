@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning-based image processing models often suffer from shortcut-learning, where the model relies on unintended features or artifacts in the data rather than the intended task-relevant features. This phenomenon leads to poor generalization performance on unseen data. In this paper, we propose a novel approach to mitigate shortcut-learning by minimizing the mutual information between the model's latent representations and the shortcut-related features. We demonstrate the effectiveness of our method on several image processing tasks, showing that it significantly improves generalization performance and robustness against distribution shifts.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

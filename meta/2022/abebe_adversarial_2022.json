@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The U.S. criminal legal system increasingly relies on software output to convict and incarcerate people. In a large number of cases each year, the government makes these consequential decisions based on evidence from statistical software—such as probabilistic genotyping, environmental audio detection and toolmark analysis tools—that the defense counsel cannot fully cross-examine or scrutinize. This undermines the commitments of the adversarial criminal legal system, which relies on the defense’s ability to probe and test the prosecution’s case to safeguard individual rights. Responding to this need to adversarially scrutinize output from such software, we propose robust adversarial testing as a framework to examine the validity of evidentiary statistical software. We define and operationalize this notion of robust adversarial testing for defense use by drawing on a large body of recent work in robust machine learning and algorithmic fairness. We demonstrate how this framework both standardizes the process for scrutinizing such tools and empowers defense lawyers to examine their validity for instances most relevant to the case at hand. We further discuss existing structural and institutional challenges within the U.S. criminal legal system which may create barriers for implementing this framework and close with a discussion on policy changes that could help address these concerns.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4285141062",
       "Scholar": "adnTgaAAAAAJ:qwy9JoKyICEC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

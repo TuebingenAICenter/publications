@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The principle of independent mechanisms (IM) is a cornerstone of causal modeling, stating that the causal generative process of a system is composed of autonomous modules that do not inform or influence each other. While this principle has been highly influential in causal discovery, it has not yet been fully leveraged for representation learning. In this work, we propose Independent Mechanisms Analysis (IMA), a framework for learning representations that are composed of independent causal mechanisms. We show that IMA can be formulated as a blind source separation problem where the sources are the independent mechanisms. We provide theoretical identifiability results for IMA, showing that under certain conditions, the underlying causal mechanisms can be recovered from observations. We also propose a practical algorithm for IMA and demonstrate its effectiveness on synthetic and real-world data.",
     "archive": "arXiv",
     "archiveLocation": "2106.05200",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:hrMvOtgsx9kC"
     },
+    "itemType": "document",
     "libraryCatalog": "NeurIPS Proceedings"
   }
 }

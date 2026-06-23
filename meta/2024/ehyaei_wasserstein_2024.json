@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Distributionally Robust Optimization (DRO) is a powerful framework for learning models that are robust to distribution shifts. However, standard DRO approaches often rely on ambiguity sets defined by statistical distances, such as the Wasserstein distance, which may not capture the underlying causal structure of the data-generating process. This can lead to overly conservative models or models that fail to generalize to relevant interventions. In this paper, we propose a novel framework for Wasserstein DRO that incorporates structural causal models (SCMs) to define more meaningful ambiguity sets. We show that our approach, which we call Causal-Wasserstein DRO, allows for the incorporation of causal knowledge to improve robustness and fairness. We provide theoretical guarantees for our approach and demonstrate its effectiveness on synthetic and real-world datasets, showing that it outperforms standard DRO methods in terms of both robustness and individual fairness.",
     "attachments": [
       {
         "accessDate": "2025-06-27 07:59:58",
@@ -22,6 +23,7 @@
       "OpenAlex": "W4415338498",
       "Scholar": "s8xc2K4AAAAJ:_kc_bZDykSQC"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
   }
 }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a new method for parameter estimation in models where the likelihood function is intractable but the score function (the gradient of the log-likelihood) can be approximated. Our approach is based on the Fisher divergence, which measures the discrepancy between the score functions of the model and the data distribution. We show that our estimator is Fisher efficient, meaning it achieves the Cramér-Rao lower bound as the sample size increases. We also provide a kernel-based implementation that is computationally efficient and does not require MCMC sampling. Experimental results on several intractable models demonstrate the effectiveness of our method.",
     "conferenceName": "Advances in Neural Information Processing Systems 32",
     "extra": {
       "Event Place": "Vancouver, CA",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 32"
   }
 }

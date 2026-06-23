@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Climate networks are a popular tool for analyzing the complex dynamics of the climate system. They are typically constructed by calculating a correlation-based similarity measure between time series at different spatial locations and thresholding the resulting adjacency matrix. In this paper, we show that this standard construction procedure is prone to several statistical pitfalls. Specifically, we demonstrate that the resulting network topology is highly sensitive to the choice of the similarity measure, the thresholding method, and the preprocessing of the data. We show that many of the observed network properties are not robust and can be artifacts of the construction process rather than reflecting physical properties of the climate system. We provide a statistical framework to assess the robustness of climate networks and suggest best practices for their construction and analysis.",
     "extra": {
       "Citations@2026-06-01": "1",
       "Issue": "10",
       "OpenAlex": "W4308611726",
       "Scholar": "mMifMdoAAAAJ:a9-T7VOCCH8C",
       "Volume": "36"
-    }
+    },
+    "itemType": "document"
   }
 }

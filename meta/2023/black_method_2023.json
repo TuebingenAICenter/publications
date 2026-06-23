@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Computer-implemented methods are provided for labelling motion-captured points that correspond to markers on an object. The methods include obtaining the motion-captured points, processing a representation of the motion-captured points in a trained self-attention unit to obtain label scores for the motion-captured points, and assigning labels based on the label scores.",
     "extra": {
       "Scholar": "6NjbexEAAAAJ:TCy96lt6RIkC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

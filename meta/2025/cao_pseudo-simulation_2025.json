@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Existing evaluation paradigms for Autonomous Vehicles (AVs) face critical limitations. Real-world evaluation is often challenging due to safety concerns and a lack of reproducibility, whereas closed-loop simulation can face insufficient realism or high computational costs. Open-loop evaluation, while being efficient and data-driven, relies on metrics that generally overlook compounding errors. In this paper, we propose pseudo-simulation, a novel paradigm that addresses these limitations. Pseudo-simulation operates on real datasets, similar to open-loop evaluation, but augments them with synthetic observations generated prior to evaluation using 3D Gaussian Splatting. Our key idea is to approximate potential future states the AV might encounter by generating a diverse set of observations that vary in position, heading, and speed. Our method then assigns a higher importance to synthetic observations that best match the AV’s likely behavior using a novel proximity-based weighting scheme. This enables evaluating error recovery and the mitigation of causal confusion, as in closed-loop benchmarks, without requiring sequential interactive simulation. We show that pseudo-simulation is better correlated with closed-loop simulations (R² = 0.8) than the best existing open-loop approach (R² = 0.7). We also establish a public leaderboard for the community to benchmark new methodologies with pseudo-simulation.",
     "conferenceName": "Conference on Robot Learning",
     "extra": {
       "Citations@2026-06-01": "0",
@@ -13,6 +14,7 @@
       "Reporter": "arXiv (Cornell University)",
       "Scholar": "SrVnrPcAAAAJ:yIeBiWEAh44C"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://proceedings.mlr.press/v305/cao25a.html'>https://proceedings.mlr.press/v305/cao25a.html</a><br><a href='https://arxiv.org/abs/2506.04218'>https://arxiv.org/abs/2506.04218</a><br><a href='https://research.nvidia.com/labs/avg/publication/cao.hallgarten.etal.corl2025/'>https://research.nvidia.com/labs/avg/publication/cao.hallgarten.etal.corl2025/</a><br></p>",

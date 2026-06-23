@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "How do communities develop complex technologies? We study this question using a massive dataset from the multiplayer game One Hour One Life, where players must cooperate to build a technological tree. We find that technological development follows a predictable trajectory: communities initially experience rapid growth, but eventually reach a plateau or decline. We show that this pattern is driven by a tension between the benefits of specialization and the costs of coordination. As communities grow, the need for coordination increases, eventually outpacing the benefits of specialization. We formalize this trade-off in a computational model and show that it accounts for the observed patterns of technological development in the game.",
     "archive": "PsyArxiv",
     "archiveLocation": "https://osf.io/preprints/psyarxiv/tz4dn",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "OSF",
       "Scholar": "1O2hcVgAAAAJ:4fKUyHm3Qg0C"
     },
+    "itemType": "document",
     "libraryCatalog": "PsyArxiv"
   }
 }

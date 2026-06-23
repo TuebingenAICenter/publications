@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Recent advances in deep learning have been driven by scaling model size and data volume. While this leads to improved performance, it remains unclear whether larger models are also more interpretable. In this work, we investigate the relationship between model scale and mechanistic interpretability. We evaluate a wide range of vision models, from small to large, on a variety of interpretability metrics. We find that, contrary to common intuition, scale alone does not lead to more interpretable models. Instead, we observe that larger models often exhibit more complex and less interpretable internal representations. Our results suggest that scaling should be complemented by explicit interpretability-focused training objectives to ensure that larger models are also more transparent.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2306.11639",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W7133227500",
       "Scholar": "v-JL-hsAAAAJ:ZHo1McVdvXMC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks are often trained with a cross-entropy loss, which can lead to feature collapse where features of the same class are mapped to the same point. To address this, we propose a hyperspherical uniformity loss that encourages features to be uniformly distributed on the hypersphere. We show that this loss can be interpreted as a regularization term that promotes feature diversity and improves generalization. We provide theoretical analysis and empirical evidence on various benchmarks to demonstrate the effectiveness of our approach.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3134921630",
@@ -12,6 +13,7 @@
       "Scholar": "DZ-fHPgAAAAJ:_UjOBC8JSJkC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "130"
-    }
+    },
+    "itemType": "document"
   }
 }

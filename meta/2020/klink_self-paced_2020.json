@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep reinforcement learning (DRL) has achieved impressive results in many challenging tasks. However, training DRL agents often requires a large number of samples and is sensitive to the order in which samples are presented. Self-paced learning (SPL) is a paradigm that mimics the human learning process by starting with easy tasks and gradually increasing the difficulty. In this paper, we propose a novel self-paced deep reinforcement learning framework that automatically determines the difficulty of tasks and schedules the training process accordingly. We show that our approach significantly improves the sample efficiency and final performance of DRL agents in various environments.",
     "conferenceName": "Advances in Neural Information Processing Systems 33",
     "extra": {
       "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 33"
   }
 }

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The ability to distinguish between the past and the future is a fundamental property of physical systems. In this work, we propose a method to learn the arrow of time from observations of dynamical systems. We show that this can be formulated as a self-supervised learning task, where a neural network is trained to predict the temporal order of a sequence of observations. We demonstrate that this learned representation is useful for reinforcement learning, where it can be used to improve sample efficiency and performance in environments with sparse rewards. We evaluate our method on a variety of tasks, including navigation and manipulation, and show that it outperforms existing methods for learning representations in reinforcement learning.",
     "archive": "OpenReview",
     "conferenceName": "8th International Conference on Learning Representations (ICLR)",
     "extra": {
       "Event Place": "Virtual Conference",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "8th International Conference on Learning Representations (ICLR)"
   }
 }

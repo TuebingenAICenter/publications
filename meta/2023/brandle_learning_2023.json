@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Why do humans engage with tasks even in the absence of external rewards? Here, we investigate the drivers of engagement in a multi-armed bandit task where participants can choose to explore or exploit, but also have the option to quit the task at any time. We find that both learning progress (the reduction of uncertainty) and uncompensated rewards (rewards that do not affect the task's outcome) are strong predictors of engagement. We propose a computational model that accounts for these factors and show that it outperforms alternative models in predicting human behavior. Our results suggest that engagement is driven by a combination of intrinsic and extrinsic motivations, and that these motivations are integrated into a common currency for decision-making.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4386469633",
       "Scholar": "1O2hcVgAAAAJ:ldfaerwXgEUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

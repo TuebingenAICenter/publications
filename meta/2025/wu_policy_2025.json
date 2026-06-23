@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We study the design of policies in environments where agents' welfare evolves over time in response to policy interventions. We model this as a dynamic system where a policymaker chooses a sequence of policies to maximize a long-run welfare objective. We characterize the optimal policy design problem and show that it can be framed as a constrained optimization problem. We provide conditions under which the optimal policy is stationary and discuss the implications for policy design in practice.",
     "attachments": [
       {
         "accessDate": null,
@@ -23,6 +24,7 @@
       "OpenAlex": "W4415654280",
       "Scholar": "sDHHglIAAAAJ:KUbvn5osdkgC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>Publisher: MPI-IS</p>",

@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The brain is a complex system of interacting neural circuits. Understanding how these circuits are organized and how they communicate is a fundamental challenge in neuroscience. Here, we introduce Generalized Phase Locking Analysis (GPLA), a novel framework for identifying the organization of neural circuits from multi-channel electrophysiological recordings. GPLA generalizes the concept of phase locking to identify groups of neurons that exhibit consistent phase relationships, even in the presence of non-linear interactions and varying time delays. We demonstrate the utility of GPLA by applying it to simulated data and to recordings from the macaque primary visual cortex. Our results show that GPLA can effectively uncover the functional organization of neural circuits, revealing distinct clusters of neurons that correspond to known anatomical and functional structures. GPLA provides a powerful tool for investigating the principles of neural circuit organization and information processing in the brain.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "bioRxiv": "10.1101/2020.12.09.413401"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

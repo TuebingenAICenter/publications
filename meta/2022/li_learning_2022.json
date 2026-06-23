@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Learning agile skills is one of the main challenges in robotics. To this end, reinforcement learning approaches have achieved impressive results. These methods require explicit task information in terms of a reward function or an expert that can be queried in simulation to provide a target control output, which limits their applicability. In this work, we propose a generative adversarial method for inferring reward functions from partial and potentially physically incompatible demonstrations for successful skill acquirement where reference or expert demonstrations are not easily accessible. Moreover, we show that by using a Wasserstein GAN formulation and transitions from demonstrations with rough and partial information as input, we are able to extract policies that are robust and capable of imitating demonstrated behaviors. Finally, the obtained skills such as a backflip are tested on an agile quadruped robot called Solo 8 and present faithful replication of hand-held human demonstrations.",
     "archive": "arXiv",
     "archiveLocation": "2206.11693",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4283462772",
       "Repository": "arXiv",
       "Scholar": "b-JF-UIAAAAJ:9vf0nzSNQJEC"
-    }
+    },
+    "itemType": "document"
   }
 }

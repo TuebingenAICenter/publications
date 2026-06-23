@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Molecular representation learning has achieved great success in various drug discovery tasks. Most existing methods represent molecules as 2D graphs, ignoring the crucial 3D geometric information that determines molecular properties. In this paper, we propose a novel pre-training framework, GeoGNN, to incorporate 3D geometric information into molecular graph representation learning. Specifically, we design a 3D-aware graph neural network that can effectively capture the spatial interactions among atoms. To leverage 3D information, we propose three self-supervised pre-training tasks: node-level, edge-level, and graph-level geometric pre-training. We pre-train our model on a large-scale unlabeled molecular dataset with 3D conformations and fine-tune it on various downstream tasks. Extensive experiments on the MoleculeNet benchmark demonstrate that our proposed method consistently outperforms state-of-the-art baselines, showing the effectiveness of incorporating 3D geometry for molecular representation learning.",
     "conferenceName": "The Tenth International Conference on Learning Representations (ICLR 2022)",
     "extra": {
       "Event Place": "Virtual Conference",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "The Tenth International Conference on Learning Representations (ICLR 2022)"
   }
 }

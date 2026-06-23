@@ -7,12 +7,14 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Biophysical models of neurons are essential for understanding how cellular properties and morphology shape neural computation. However, fitting these models to experimental data is computationally expensive and often requires manual tuning. Here we present Jaxley, a software framework for differentiable simulation of biophysical neural models. Jaxley leverages JAX to provide high-performance, GPU-accelerated simulations that are fully differentiable. This allows for the use of gradient-based optimization to fit complex, multi-compartmental models to experimental data at scale. We demonstrate that Jaxley can fit models with thousands of parameters in minutes, enabling the systematic exploration of parameter spaces and the training of biophysical models on large-scale datasets.",
     "extra": {
       "Citations@2026-06-01": "22",
       "OpenAlex": "W4312115573",
       "Publisher": "University of Tübingen",
       "Scholar": "lPQLk3QAAAAJ:nrtMV_XWKgEC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p><a href='https://www.nature.com/articles/s41592-025-02895-w'>https://www.nature.com/articles/s41592-025-02895-w</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41233544/'>https://pubmed.ncbi.nlm.nih.gov/41233544/</a><br></p>",

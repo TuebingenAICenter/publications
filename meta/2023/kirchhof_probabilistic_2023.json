@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Contrastive learning has emerged as a powerful paradigm for self-supervised representation learning. However, standard contrastive learning methods typically map inputs to point estimates in the latent space, failing to capture the inherent aleatoric uncertainty of ambiguous inputs. In this work, we propose Probabilistic Contrastive Learning (PCL), a framework that learns to map inputs to distributions in the latent space. We show that PCL naturally recovers the aleatoric uncertainty of ambiguous inputs by modeling the latent representations as Gaussian distributions. We provide a theoretical analysis showing that PCL is equivalent to maximizing a lower bound on the mutual information between the input and the latent representation, where the aleatoric uncertainty is captured by the variance of the latent distribution. We demonstrate the effectiveness of PCL on several benchmarks, showing that it achieves competitive performance on downstream tasks while providing well-calibrated uncertainty estimates.",
     "archive": "arXiv",
     "archiveLocation": "2302.02865",
     "extra": {
       "Citations@2026-06-01": "38",
       "Scholar": "kmXOOdsAAAAJ:NMxIlDl6LWMC",
       "arXiv": "2302.02865"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

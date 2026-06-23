@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "It is currently not fully understood where people precisely locate themselves in their bodies, particularly in virtual reality. To investigate this, we asked participants to point directly at themselves and to several of their body parts with a virtual pointer, in two virtual reality (VR) setups, a VR headset and a large-screen immersive display (LSID). There was a difference in distance error in pointing to body parts depending on VR setup. Participants pointed relatively accurately to many of their body parts (i.e., eyes, nose, chin, shoulders, and waist). However, in both VR setups when pointing to the feet and the knees they pointed too low, and for the top of the head too high (to larger extents in the VR headset). Taking these distortions into account, the locations found for pointing to self were considered in terms of perceived bodies, based on where the participants had pointed to their body parts in the two VR setups. Pointing to self in terms of the perceived body was mostly to the face, the upper followed by the lower, as well as some to the torso regions. There was no significant overall effect of VR condition for pointing to self in terms of the perceived body (but there was a significant effect of VR if only the physical body (as measured) was considered). In a paper-and-pencil task outside of VR, performed by pointing on a picture of a simple body outline (body template task), participants pointed most to the upper torso. Possible explanations for the differences between pointing to self in the VR setups and the body template task are discussed. The main finding of this study is that the VR setup influences where people point to their body parts, but not to themselves, when perceived and not physical body parts are considered.",
     "extra": {
       "Source": "group_webpage (black)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

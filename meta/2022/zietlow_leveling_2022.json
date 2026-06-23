@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Fairness in machine learning is often equated with equalizing performance across groups. However, this can lead to 'leveling down', where the performance of advantaged groups is degraded to match the performance of disadvantaged groups, even when it is possible to improve the performance of the disadvantaged group without harming the advantaged one. We show that this phenomenon is common in deep learning classifiers for computer vision. We formalize this as a Pareto inefficiency and propose a simple method to identify and mitigate it. Our approach allows us to find models that are Pareto optimal, providing better performance for all groups compared to standard fairness-constrained models.",
     "archive": "arXiv",
     "archiveLocation": "2203.04913",
     "extra": {
@@ -19,6 +20,7 @@
       "Scholar": "DZ-fHPgAAAAJ:Nv9DoYhWvucC",
       "Source": "group_webpage (martius)",
       "arXiv": "2203.04913"
-    }
+    },
+    "itemType": "document"
   }
 }

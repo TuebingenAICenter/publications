@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Exploration is essential for learning and decision-making in uncertain environments. Theoretical accounts suggest that dopamine plays a key role in modulating exploration, but empirical evidence remains mixed. We investigated the effect of dopamine depletion on exploration in patients with Parkinson’s disease (PD) using a multi-armed bandit task. We decomposed exploration into directed exploration (driven by uncertainty) and random exploration (driven by noise). We found that dopamine depletion in PD patients increased directed exploration, while random exploration remained unaffected. These results suggest that dopamine specifically modulates directed exploration, providing new insights into the neurobiological mechanisms of exploration and their alteration in Parkinson’s disease.",
     "archive": "PsyArXiv",
     "archiveLocation": "y2buv_v1",
     "extra": {
@@ -16,6 +17,7 @@
       "Repository": "PsyArXiv",
       "Scholar": "1O2hcVgAAAAJ:WA5NYHcadZ8C"
     },
+    "itemType": "document",
     "notes": [
       {
         "note": "<p><a href='https://bmeder.org/publication/2025-11-11_meder_et_al_dopamine_depletion_pd_exploration/'>https://bmeder.org/publication/2025-11-11_meder_et_al_dopamine_depletion_pd_exploration/</a><br><a href='https://sciety.org/articles/activity/10.31234/osf.io/y2buv_v1'>https://sciety.org/articles/activity/10.31234/osf.io/y2buv_v1</a><br><a href='https://osf.io/y2buv_v1'>https://osf.io/y2buv_v1</a><br></p>",

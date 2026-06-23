@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Correlations between neural activity in sensory cortex and an animal's choice are a hallmark of perceptual decision-making. These choice correlations are often interpreted as evidence that sensory neurons causally contribute to the animal's decision. However, choice correlations can also arise as a consequence of the decision process, for example, through feedback from decision-related areas or through shared history-dependent fluctuations. Here, we review recent evidence that choice correlations in sensory cortex are often not purely sensory in origin, but instead reflect a mixture of feedforward sensory information and feedback signals related to the animal's choice and choice history. We discuss the implications of these findings for our understanding of the role of sensory cortex in decision-making and suggest future directions for disentangling the causal and consequential components of choice correlations.",
     "extra": {
       "Citations@2026-06-01": "27",
       "OpenAlex": "W2977887883",
       "Scholar": "FKOqtF8AAAAJ:0Kh4an1R61UC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

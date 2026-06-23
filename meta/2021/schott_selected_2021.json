@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks have achieved remarkable success in many machine learning tasks. However, they often fail to generalize to data that differs from the training distribution, a phenomenon known as out-of-distribution (OOD) generalization. This thesis investigates the role of inductive biases in neural networks for OOD generalization. We first analyze the effect of architectural choices on the robustness of neural networks to common corruptions. We find that standard convolutional neural networks are biased towards texture rather than shape, which makes them vulnerable to distribution shifts. We then propose a method to improve OOD generalization by incorporating shape-bias into the training process. Finally, we explore the use of generative models to learn representations that are invariant to domain-specific variations, further improving OOD generalization performance.",
     "extra": {
       "Scholar": "0z0fNxUAAAAJ:L_l9e5I586QC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

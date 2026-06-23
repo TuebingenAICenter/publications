@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the approximation properties of randomized signatures as reservoir systems for learning rough dynamics. Randomized signatures are a computationally efficient alternative to the classical signature transform, which is a powerful tool for feature extraction from time series. We prove that randomized signatures are universal approximators for continuous functions on compact sets of paths, and we provide a quantitative bound on the approximation error. We further demonstrate the effectiveness of the proposed approach on several synthetic and real-world datasets, showing that randomized signatures can achieve competitive performance with significantly lower computational cost than classical signatures.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2201.00384",
     "extra": {
       "Citations@2026-06-01": "9",
       "OpenAlex": "W4385488684",
       "Scholar": "xkuLyHoAAAAJ:7PzlFSSx8tAC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

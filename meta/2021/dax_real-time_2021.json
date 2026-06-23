@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a method for gravitational-wave inference based on neural posterior estimation. By training deep neural networks to amortize the cost of Bayesian inference, we can perform parameter estimation for compact binary coalescences in milliseconds, once the network is trained. We demonstrate our method on simulated data from a network of ground-based detectors, showing that it produces accurate posterior distributions that are consistent with those obtained from traditional sampling-based methods. Our approach enables real-time gravitational-wave science, which is crucial for multi-messenger astronomy.",
     "archive": "arXiv",
     "archiveLocation": "2106.12594",
     "extra": {
       "Citations@2026-06-01": "419",
       "Scholar": "FKOqtF8AAAAJ:4Wrxgq2JVp0C"
     },
+    "itemType": "journalArticle",
     "libraryCatalog": "APS"
   }
 }

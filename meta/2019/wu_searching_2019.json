@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "How do people search for rewards in environments where options are related by a graph structure? We propose a model of human search based on Gaussian process function learning over graphs. We test this model in a behavioral experiment where participants search for rewards on a graph. We find that participants' search behavior is well-described by a strategy that balances exploration and exploitation, and that they are able to leverage the graph structure to generalize rewards to unobserved nodes. Our results suggest that people use a combination of local and global information to guide their search in complex, structured environments.",
     "conferenceName": "Conference on Cognitive Computational Neuroscience",
     "extra": {
       "Code+data": "https://github.com/charleywu/graphInference",
       "Source": "group_webpage (wu)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 2019 Conference on Cognitive Computational Neuroscience"
   }
 }

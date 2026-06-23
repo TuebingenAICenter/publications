@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Neural Ordinary Differential Equations (Neural ODEs) have emerged as a powerful framework for modeling continuous-time dynamical systems. However, they often struggle to capture complex, non-stationary dynamics where the underlying system behavior changes over time. To address this, we introduce Modulated Neural ODEs (MoNODEs), a novel architecture that incorporates a modulation mechanism to adapt the vector field of the ODE based on time-varying context. By conditioning the dynamics on a latent representation of the system's state, MoNODEs can effectively model non-stationary processes and exhibit improved generalization capabilities. We demonstrate the effectiveness of our approach on a range of synthetic and real-world datasets, showing that MoNODEs outperform standard Neural ODEs and other baselines in terms of predictive accuracy and computational efficiency.",
     "archive": "arXiv",
     "archiveLocation": "2302.13262",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "GitHub",
       "Scholar": "0z0fNxUAAAAJ:z8nqeaKD1nsC"
     },
+    "itemType": "document",
     "libraryCatalog": "NeurIPS Proceedings"
   }
 }

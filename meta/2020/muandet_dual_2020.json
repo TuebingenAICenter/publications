@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Instrumental variable (IV) regression is a standard approach for estimating causal effects in the presence of unobserved confounders. Most existing methods rely on two-stage least squares or its kernelized extensions, which often suffer from high computational complexity and sensitivity to the choice of instruments. In this paper, we propose a novel framework for IV regression, called Dual Instrumental Variable (DualIV) regression, which reformulates the IV problem as a dual optimization problem. By leveraging the Fenchel-Rockafellar duality, we derive a computationally efficient estimator that avoids the need for explicit two-stage estimation. We provide theoretical guarantees for the proposed estimator and demonstrate its superior performance on both synthetic and real-world datasets compared to existing state-of-the-art methods.",
     "conferenceName": "Advances in Neural Information Processing Systems",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
   }
 }

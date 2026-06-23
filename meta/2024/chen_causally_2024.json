@@ -11,6 +11,7 @@
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "NeurIPS 2024 Workshop on Causality and Language Models (CaLM)"
   }
 }

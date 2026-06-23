@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Generating realistic human motion is essential for many computer vision and graphics applications. The wide variety of human body shapes and sizes greatly impacts how people move. However, most existing motion models ignore these differences, relying on a standardized, average body. This leads to uniform motion across different body types, where movements don't match their physical characteristics, limiting diversity. To solve this, we introduce a new approach to develop a generative motion model based on body shape. We show that it's possible to train this model using unpaired data by applying cycle consistency, intuitive physics, and stability constraints, which capture the relationship between identity and movement. The resulting model generates diverse, physically plausible, and dynamically stable human motions that are both quantitatively and qualitatively more realistic than current state-of-the-art methods.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2409.03944",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4403586059",
       "Scholar": "6NjbexEAAAAJ:6LI0FKmQuhEC",
       "Series": "LNCS"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the problem of collaborative learning where multiple parties aim to improve their local models by leveraging data from others, without sharing their raw data. Existing approaches often rely on sharing model parameters or gradients, which can be communication-intensive and may leak private information. In this work, we propose a novel framework, Collaborative Learning via Prediction Consensus (CLPC), which instead relies on sharing predictions on a small set of public data. We show that CLPC is communication-efficient and provides strong privacy guarantees. We provide theoretical convergence guarantees for our method and demonstrate its effectiveness through extensive experiments on various datasets and models, showing that it achieves competitive performance compared to state-of-the-art collaborative learning methods while significantly reducing communication overhead.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2305.18497",
     "extra": {
@@ -20,6 +21,7 @@
       "Source": "group_webpage (hardt)",
       "Volume": "36"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

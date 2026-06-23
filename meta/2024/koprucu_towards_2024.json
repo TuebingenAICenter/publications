@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "State Space Models (SSMs) have recently emerged as a powerful alternative to Transformers for sequence modeling, offering linear scaling with sequence length. While their success in language and audio is well-documented, their application to 3D point clouds remains largely unexplored. In this work, we introduce NIMBA, a novel framework for processing point clouds using SSMs. We identify that standard SSM formulations are ill-suited for the unordered and irregular nature of point clouds. To address this, we propose a principled approach that leverages the geometric properties of point clouds, ensuring permutation invariance and robustness to noise. Our experiments demonstrate that NIMBA achieves state-of-the-art performance on standard benchmarks while maintaining computational efficiency. We provide theoretical insights into the stability and expressivity of our proposed architecture, bridging the gap between SSMs and geometric deep learning.",
     "archive": "arXiv",
     "archiveLocation": "2411.00151",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "xkuLyHoAAAAJ:maZDTaKrznsC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

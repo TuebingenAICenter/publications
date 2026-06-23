@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In systems neuroscience, the ability to combine data across experiments is crucial for building robust models of neural function. However, inter-experimental variability—often caused by differences in recording conditions, animal preparations, or equipment—can obscure the underlying biological signals. Here, we present a method to remove inter-experimental variability from functional data. Our approach is based on a generative model that disentangles biological signals from experimental noise. We demonstrate that our method effectively removes inter-experimental variability while preserving the relevant biological information, leading to improved performance in downstream analysis tasks such as cell type classification and neural encoding modeling.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3214589024",
       "Scholar": "lPQLk3QAAAAJ:P5F9QuxV20EC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

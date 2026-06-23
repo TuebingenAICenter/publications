@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "When people face a sequence of choices, they often have to decide between chasing a risky goal—a high-value outcome that is difficult to achieve—or settling for a safe, but lower-value, reward. We study this trade-off in a multi-armed bandit task where participants can choose between a safe option and a risky option that provides a large reward with low probability. We find that people are generally risk-seeking when they are behind on their goals, but become risk-averse when they are ahead. This behavior is consistent with a model of aspiration-based decision-making, where people adjust their risk-taking based on their current progress toward a goal. We show that this strategy is often adaptive, as it allows people to recover from setbacks and achieve their goals in uncertain environments.",
     "extra": {
       "Citations@2026-06-01": "8",
       "OpenAlex": "W2779765813",
       "Scholar": "1O2hcVgAAAAJ:WF5omc3nYNoC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

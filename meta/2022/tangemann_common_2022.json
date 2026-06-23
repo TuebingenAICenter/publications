@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The Gestalt principle of common fate states that elements moving in the same direction are perceived as a single object. While this principle is well-established in human perception, it is unclear whether it can be used to learn object representations in artificial neural networks. We investigate whether common fate can serve as a supervisory signal for object learning. We train a deep neural network on a synthetic dataset where objects are defined solely by common motion. We find that the network learns to segment objects and that these representations generalize to static images. We compare the network's performance to human observers in a psychophysical experiment and find that both humans and the network rely on common fate for object segmentation. Our results suggest that common fate is a powerful cue for object learning and that it can be used to train artificial systems to perceive objects in a human-like manner.",
     "extra": {
       "Conference": "VSS 2022",
       "Scholar": "0z0fNxUAAAAJ:c1e4I3QdEKYC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

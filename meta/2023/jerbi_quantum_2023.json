@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Quantum machine learning (QML) is often associated with the quantum kernel method, where a quantum computer is used to compute the inner product of data points in a high-dimensional feature space. While this approach is well-understood and provides a clear path to quantum advantage, it is not the only way to use quantum computers for machine learning. Here, we show that quantum machine learning can go beyond kernel methods by considering quantum models that are not equivalent to any kernel method. We introduce a class of quantum models, which we call quantum neural networks, and show that they can be trained to perform tasks that are hard for any kernel method. We provide a theoretical framework for understanding the power of these models and demonstrate their performance on a variety of tasks.",
     "extra": {
       "Nature Communications 14": "1",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

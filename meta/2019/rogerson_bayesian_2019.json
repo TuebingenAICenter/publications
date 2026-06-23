@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Two-photon calcium imaging is a powerful tool for recording the activity of large populations of neurons. However, the analysis of such data is often hampered by low signal-to-noise ratios and the need for large amounts of data to achieve statistical significance. Here, we present a Bayesian framework for hypothesis testing and experimental design in two-photon imaging. Our approach allows for the quantification of evidence for and against a hypothesis, rather than relying on p-values. We demonstrate that this framework can be used to optimize experimental design, reducing the amount of data required to reach a conclusion. We validate our method on simulated and experimental data, showing that it outperforms traditional frequentist approaches in terms of statistical power and efficiency.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Issue": "8",
@@ -13,6 +14,7 @@
       "Publication Title": "PLOS Computational Biology 15 (8), e1007205, 2019",
       "Scholar": "lPQLk3QAAAAJ:hFOr9nPyWt4C",
       "Volume": "15"
-    }
+    },
+    "itemType": "document"
   }
 }

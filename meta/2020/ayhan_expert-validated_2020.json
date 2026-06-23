@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning models have achieved expert-level performance in the automated detection of diabetic retinopathy (DR) from fundus images. However, their clinical adoption is hindered by a lack of reliable uncertainty estimates, which are crucial for safety-critical applications. In this work, we propose a framework for estimating diagnostic uncertainty in deep neural networks for DR detection. We evaluate several uncertainty estimation methods, including Monte Carlo dropout and deep ensembles, and validate them against expert-provided uncertainty labels. Our results demonstrate that these methods can effectively identify images where the model is likely to be incorrect, providing a mechanism for human-in-the-loop decision making. We show that uncertainty-aware models can significantly improve the safety and reliability of automated DR screening systems.",
     "extra": {
       "Citations@2026-06-01": "9",
       "OpenAlex": "W2972243697",
       "Scholar": "lPQLk3QAAAAJ:RYcK_YlVTxYC"
-    }
+    },
+    "itemType": "document"
   }
 }

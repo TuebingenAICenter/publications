@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a novel framework for estimating the conditional distributional treatment effect (CDTE), which captures the full conditional distribution of the treatment effect given covariates. Our approach leverages kernel conditional mean embeddings to represent conditional distributions as elements in a reproducing kernel Hilbert space. We then formulate the estimation of the CDTE as a regression problem in this space, which we solve using U-statistic regression. This allows us to avoid density estimation and to handle complex, non-Gaussian treatment effects. We provide theoretical guarantees for the consistency of our estimator and demonstrate its effectiveness on both synthetic and real-world datasets.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3170983791",
       "Scholar": "DZ-fHPgAAAAJ:zbG2WQil7uoC"
     },
+    "itemType": "journalArticle",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Social interaction often requires balancing the goal of maximizing immediate rewards with the goal of learning about others' intentions. In this paper, we investigate how humans navigate this exploration-exploitation trade-off in a social card game. We introduce a novel task where participants play against a partner whose strategy is unknown and changes over time. We find that participants' behavior is well-described by a model that balances reward maximization with information gain, and that this balance is sensitive to the social context. Our results suggest that humans are sophisticated social learners who adapt their exploration strategies to the demands of the social environment.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4386469682",
       "Scholar": "1O2hcVgAAAAJ:rO6llkc54NcC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

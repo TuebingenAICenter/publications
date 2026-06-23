@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Weakly supervised object localization (WSOL) aims to localize objects using only image-level labels. Despite the recent progress, the evaluation protocols for WSOL are inconsistent across the literature, making it difficult to compare different methods fairly. In this paper, we first identify the major issues in the current evaluation protocols, such as the lack of a standard evaluation metric and the use of different evaluation datasets. We then propose a new evaluation protocol for WSOL that addresses these issues. Our protocol includes a new evaluation metric, the localization-aware classification accuracy, and a new evaluation dataset, the CUB-200-2011-WSOL dataset. We also provide a comprehensive evaluation of existing WSOL methods using our new protocol and show that our protocol provides a more accurate and fair comparison of WSOL methods.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4308623038",
       "Scholar": "jQl9RtkAAAAJ:a0OBvERweLwC",
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "2"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

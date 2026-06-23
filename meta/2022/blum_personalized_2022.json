@@ -6,10 +6,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Background: Stroke is a leading cause of long-term disability worldwide. Despite the availability of standardized rehabilitation protocols, the individual recovery trajectory remains difficult to predict. Precision medicine approaches, which integrate multi-modal data to tailor therapeutic interventions, hold promise for improving outcomes. The MWKNeuroReha study aims to develop predictive models for long-term functional recovery in patients with acute motor stroke. Methods: This is a multi-centre, prospective, observational clinical trial. Patients with acute motor stroke will be recruited from multiple stroke units and rehabilitation centres. Comprehensive data, including clinical assessments, neuroimaging, and longitudinal functional outcomes, will be collected. The primary endpoint is the functional status at 6 months post-stroke, measured by the modified Rankin Scale (mRS). Secondary endpoints include motor function, quality of life, and cognitive performance. Machine learning algorithms will be employed to integrate these data and identify predictors of recovery. Discussion: The MWKNeuroReha study will provide a unique dataset to advance our understanding of stroke recovery and facilitate the development of personalized neurorehabilitative strategies. The findings may inform clinical decision-making and optimize resource allocation in stroke rehabilitation.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4283721951",
       "Scholar": "FKOqtF8AAAAJ:pbQCAAeKvsAC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

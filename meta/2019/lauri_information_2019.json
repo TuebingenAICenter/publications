@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Decentralized partially observable Markov decision processes (Dec-POMDPs) are a general framework for multiagent planning under uncertainty. However, solving them is NEXP-complete. We consider the problem of information gathering in Dec-POMDPs, where agents must coordinate their actions to reduce uncertainty about the state of the environment. We propose a method for improving policy graphs, which are a compact representation of policies for Dec-POMDPs. Our method uses a gradient-based approach to optimize the policy graph parameters, and we show that it can be used to find effective policies for information gathering tasks. We evaluate our method on several benchmark problems and show that it outperforms existing methods.",
     "conferenceName": "International Conference on Autonomous Agents and Multiagent Systems",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
   }
 }

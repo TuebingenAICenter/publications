@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Tea harvesting is a labor-intensive task that requires high dexterity and adaptability to the environment. While automated tea harvesting machines exist, they often damage the tea bushes or harvest low-quality leaves. In this paper, we propose a method for tea plucking using a robotic manipulator. We model the plucking motion using Probabilistic Movement Primitives (ProMPs), which allow for the representation of a distribution over trajectories. This representation enables the robot to adapt its motion to the varying positions of tea leaves and to handle the uncertainty inherent in the environment. We evaluate our approach in a simulated environment and demonstrate that it can successfully pluck tea leaves with high precision and adaptability.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

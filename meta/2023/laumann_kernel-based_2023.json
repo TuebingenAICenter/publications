@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal structure learning from observational data often relies on conditional independence (CI) testing. While many CI tests exist for multivariate data, they are not directly applicable to functional data, which are infinite-dimensional objects. In this paper, we propose a framework for kernel-based CI testing for functional data. We define a kernel-based test statistic for functional data by extending the Hilbert-Schmidt Independence Criterion (HSIC) and the Kernel Conditional Independence Test (KCIT) to the functional setting. We prove the consistency of our proposed tests and demonstrate their performance on synthetic and real-world datasets. Our results show that our proposed tests are more powerful than existing methods for functional data and are competitive with state-of-the-art methods for multivariate data.",
     "archive": "MDPI",
     "archiveLocation": "1597",
     "callNumber": "10.3390/e25121597",
@@ -17,6 +18,7 @@
       "Scholar": "DZ-fHPgAAAAJ:VtE3cOHX7jYC",
       "Volume": "25"
     },
+    "itemType": "document",
     "libraryCatalog": "Entropy"
   }
 }

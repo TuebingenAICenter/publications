@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning models have achieved impressive performance in medical image analysis. However, their reliance on potentially biased datasets and the lack of interpretability of their decisions remain major hurdles for clinical adoption. In this work, we propose a generative model based on a conditional variational autoencoder to disentangle the influence of patient attributes from fundus images. We show that our model can learn a latent representation that captures the variation in fundus images due to patient attributes such as age, sex, and ethnicity. We demonstrate that our model can be used to generate synthetic images that reflect these attributes, and that it can be used to analyze the influence of these attributes on the model's predictions. Our results suggest that generative models can provide valuable insights into the factors that influence medical image analysis models and help to identify potential biases.",
     "extra": {
       "Citations@2026-06-01": "4",
       "Scholar": "lPQLk3QAAAAJ:vRqMK49ujn8C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

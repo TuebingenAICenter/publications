@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Complete locked-in syndrome (CLIS) is a condition where patients are fully conscious but unable to move or communicate. The neural mechanisms underlying the maintenance of consciousness in CLIS remain poorly understood. Here, we investigated the brain dynamics of CLIS patients using resting-state electroencephalography (EEG). We found that the temporal complexity of the EEG signal, as measured by multiscale entropy, was significantly reduced in CLIS patients compared to healthy controls. This reduction was most pronounced in the alpha and beta frequency bands and was associated with the patients' level of arousal. Our findings suggest that the maintenance of consciousness in CLIS is supported by a specific pattern of brain dynamics, which is altered in the absence of behavioral output.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

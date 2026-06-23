@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We present HMDˆ2, a novel framework for generating full-body human motion from a single egocentric head-mounted device (HMD). Existing methods for egocentric motion capture often struggle with the limited field-of-view of HMD cameras, leading to ambiguous poses and lack of interaction with the environment. HMDˆ2 addresses these challenges by leveraging a large-scale dataset of egocentric videos and a novel environment-aware motion generation model. Our model incorporates a spatial-temporal transformer architecture that effectively integrates egocentric visual features with environmental context, enabling the generation of physically plausible and environment-aware motions. We demonstrate that HMDˆ2 significantly outperforms state-of-the-art methods in terms of motion accuracy and environmental consistency, particularly in complex, cluttered scenes.",
     "archive": "arXiv",
     "archiveLocation": "2409.13426",
     "conferenceName": "International Conference on 3D Vision (3DV)",
@@ -15,6 +16,7 @@
       "Publication Title": "arXiv (Cornell University)",
       "Scholar": "OpXMNnMAAAAJ:L7CI7m0gUJcC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",

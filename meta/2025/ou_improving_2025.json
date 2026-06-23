@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Diffusion models have achieved remarkable success in generative modeling. However, the standard training objective, which focuses on matching the score or the noise, often ignores the importance of the covariance structure of the diffusion process. In this paper, we propose Optimal Covariance Matching (OCM), a novel training objective that explicitly optimizes the covariance of the diffusion process to match the target distribution. We show that OCM can be interpreted as a generalization of the standard score matching objective and that it leads to more stable training and better sample quality. We demonstrate the effectiveness of OCM on a variety of generative modeling tasks, including image generation and density estimation, where it consistently outperforms existing diffusion-based methods.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2406.10808",
     "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
   }
 }

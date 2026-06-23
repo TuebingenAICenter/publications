@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Independent Component Analysis (ICA) is a popular method for blind source separation. However, its performance can be severely degraded by the presence of noise that is not independent across observations. We propose a method to robustify ICA by adjusting for group-wise stationary noise. Our approach relies on the assumption that the noise is stationary within groups of observations, while the signals of interest are not. We show that this assumption allows for a consistent estimation of the mixing matrix even in the presence of such noise. We provide theoretical guarantees and demonstrate the effectiveness of our method on both synthetic and real-world data.",
     "archive": "arXiv",
     "archiveLocation": "1806.01094",
     "extra": {
       "Citations@2026-06-01": "13",
       "OpenAlex": "W2989175219",
       "Scholar": "DZ-fHPgAAAAJ:8uGDF7sSpbkC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

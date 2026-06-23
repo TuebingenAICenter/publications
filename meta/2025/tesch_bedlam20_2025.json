@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Inferring 3D human motion from video remains a challenging problem with many applications. While traditional methods estimate the human in image coordinates, many applications require human motion to be estimated in world coordinates. This is particularly challenging when there is both human and camera motion. Progress on this topic has been limited by the lack of rich video data with ground truth human and camera movement. We address this with BEDLAM2.0, a new dataset that goes beyond the popular BEDLAM dataset in important ways. In addition to introducing more diverse and realistic cameras and camera motions, BEDLAM2.0 increases diversity and realism of body shape, motions, clothing, hair, and 3D environments. Additionally, it adds shoes, which were missing in BEDLAM. BEDLAM has become a key resource for training 3D human pose and motion regressors today and we show that BEDLAM2.0 is significantly better, particularly for training methods that estimate humans in world coordinates. We compare state-of-the art methods trained on BEDLAM and BEDLAM2.0, and find that BEDLAM2.0 significantly improves accuracy over BEDLAM. For research purposes, we provide the rendered videos, ground truth body parameters, and camera motions. We also provide the 3D assets to which we have rights and links to those from third parties.",
     "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
     "extra": {
       "Citations@2026-06-01": "11",
       "Reporter": "arXiv preprint arXiv:2511.14394, 2025",
       "Scholar": "6NjbexEAAAAJ:iC1Mcd5kvfwC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://is.mpg.de/publications/bedlam2'>https://is.mpg.de/publications/bedlam2</a><br><a href='https://bedlam2.is.tue.mpg.de/index.html'>https://bedlam2.is.tue.mpg.de/index.html</a><br><a href='https://arxiv.org/abs/2511.14394'>https://arxiv.org/abs/2511.14394</a><br></p>",

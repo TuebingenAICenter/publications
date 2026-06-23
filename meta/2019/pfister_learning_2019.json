@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a method for learning the structure of kinetic systems from observational data. Our approach is based on the idea that the underlying physical mechanisms are stable across different environments or experimental conditions, while the specific dynamics may change. By exploiting this stability, we can identify the causal structure of the system, which is more predictive and robust than purely correlational models. We demonstrate the effectiveness of our method on both synthetic and real-world data, showing that it outperforms existing structure learning algorithms in terms of both predictive accuracy and structural recovery.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

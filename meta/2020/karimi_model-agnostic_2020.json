@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Counterfactual explanations provide a way to understand the decisions of machine learning models by identifying the smallest change to the input that would change the model's prediction. While existing methods for generating counterfactuals are often model-specific or rely on access to the model's gradients, we propose a model-agnostic framework for generating counterfactual explanations. Our approach is based on the observation that counterfactuals can be viewed as a constrained optimization problem. We show that our method can generate counterfactuals for a wide range of models, including black-box models, and that it is effective in practice. We also provide a theoretical analysis of our method and show that it satisfies several desirable properties for counterfactual explanations.",
     "conferenceName": "23rd International Conference on Artificial Intelligence and Statistics",
     "extra": {
       "Editors": "Silvia Chiappa and Roberto Calandra",
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "1905.11190"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

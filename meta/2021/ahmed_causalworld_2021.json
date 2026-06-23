@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We introduce CausalWorld, a benchmark for causal structure and transfer learning in a robotic manipulation setting. The benchmark consists of a set of robotic manipulation tasks that are based on a common underlying causal structure, which can be intervened upon. This allows for the evaluation of causal discovery and transfer learning algorithms in a controlled environment. We provide a set of baseline results and discuss the challenges and opportunities for future research.",
     "archive": "OpenReview",
     "archiveLocation": "https://openreview.net/pdf?id=SK7A5pdrgov",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4287644765",
       "Scholar": "DZ-fHPgAAAAJ:n3Ahz6dV9U4C"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

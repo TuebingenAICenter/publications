@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Eye movement research has long relied on datasets of eye movements on natural scenes to understand human visual attention. However, existing datasets often suffer from limitations such as small sample sizes, restricted stimulus sets, or lack of diversity in viewing conditions. Here, we present the Potsdam data set of eye movement on natural scenes (DAEMONS), a large-scale, high-quality dataset of eye movements recorded from 100 participants viewing 1,000 natural images. The dataset includes high-precision eye-tracking data, detailed stimulus information, and participant metadata. We provide a comprehensive description of the data collection procedure, the stimulus set, and the resulting eye movement data. Furthermore, we demonstrate the utility of the DAEMONS dataset by benchmarking several state-of-the-art saliency models. The DAEMONS dataset is publicly available and provides a valuable resource for researchers in vision science, psychology, and computer vision.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:47:34",
@@ -30,6 +31,7 @@
       "Publisher": "Frontiers Media S.A.",
       "Scholar": "0z0fNxUAAAAJ:sfnaS5RM6jYC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

@@ -6,12 +6,14 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "How do groups become smarter than the individuals who compose them? While collective intelligence is often attributed to the aggregation of individual abilities, we propose that the process of coordination itself—the ability to align actions with others—is a fundamental driver of both individual and cultural intelligence. We test this hypothesis using a large-scale online experiment (N = 1,000) where participants played a collaborative game requiring coordination. We find that individuals who are better at coordinating with others also exhibit higher individual intelligence and are more effective at transmitting knowledge to others, thereby fostering cultural intelligence. Furthermore, we show that groups that coordinate more effectively achieve higher collective performance, even when controlling for individual ability. These results suggest that coordination is not merely a byproduct of intelligence, but a catalyst that enables the emergence of smarter groups and more sophisticated cultures.",
     "extra": {
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4385722218",
       "Publisher": "University of Tübingen",
       "Scholar": "1O2hcVgAAAAJ:fPk4N6BV_jEC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",

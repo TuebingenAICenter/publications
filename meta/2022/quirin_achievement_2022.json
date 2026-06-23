@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The achievement motive is a central construct in personality psychology. While implicit and explicit motives are assumed to be distinct, their neural underpinnings remain poorly understood. We investigated the neural correlates of implicit and explicit achievement motives using functional magnetic resonance imaging (fMRI). Participants were presented with pictures of challenging activities and neutral control pictures. We found that the implicit achievement motive was associated with BOLD responses in the ventral striatum and the medial prefrontal cortex, whereas the explicit achievement motive was associated with BOLD responses in the dorsolateral prefrontal cortex. These findings suggest that implicit and explicit achievement motives are mediated by distinct neural systems, supporting the dual-process model of motivation.",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "7"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

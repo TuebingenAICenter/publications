@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Unsupervised object-centric representation learning aims to decompose scenes into individual objects without manual supervision. While recent models have shown impressive results on static images, their performance on video sequences remains less understood. In this paper, we systematically evaluate the inductive biases of state-of-the-art unsupervised object-centric models on video data. We find that most models rely heavily on simple low-level cues such as motion and spatial proximity rather than learning a robust notion of objects. We propose a new benchmark for evaluating object-centric representations in video, which includes tasks such as object tracking and segmentation. Our results reveal that current models struggle to maintain object identity over time and often fail to generalize to unseen object shapes and motions. We hope that our findings will guide future research towards more robust and generalizable object-centric representations.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2006.07034",
     "extra": {
@@ -15,6 +16,7 @@
       "OpenAlex": "W3132010254",
       "Repository": "arXiv",
       "Scholar": "SrVnrPcAAAAJ:s85pQhAUCrAC"
-    }
+    },
+    "itemType": "document"
   }
 }

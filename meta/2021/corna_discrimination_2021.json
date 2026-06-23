@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Retinal implants aim to restore vision by electrically stimulating retinal ganglion cells (RGCs). However, the spatial resolution of current devices is limited by the broad activation of RGCs. Here, we investigate whether sinusoidal electrical stimulation can improve the discrimination of simple objects. We recorded the activity of RGCs in the isolated mouse retina using high-density microelectrode arrays. We show that sinusoidal stimulation at different frequencies and phases can be used to encode information about the shape and position of simple objects. We decoded the identity of these objects from the RGC population activity using a linear classifier. Our results demonstrate that sinusoidal stimulation can improve the discrimination of simple objects compared to standard pulse-based stimulation, suggesting that temporal modulation of electrical stimulation could enhance the performance of retinal prostheses.",
     "extra": {
       "Citations@2026-06-01": "18",
       "OpenAlex": "W3164936596",
       "Scholar": "FKOqtF8AAAAJ:gI9wzKcniAoC",
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "6"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

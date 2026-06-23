@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We introduce Sourcerer, a framework for estimating source distributions in inverse problems where the forward model is a black-box simulator. Sourcerer leverages the principle of maximum entropy to identify the most parsimonious source distribution consistent with observed data. By utilizing sample-based approximations, we avoid the need for explicit likelihood evaluations, making the method applicable to a wide range of complex simulators. We demonstrate the effectiveness of Sourcerer on several challenging inverse problems, showing that it provides robust and accurate estimates of the underlying source distributions.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2402.07808",
     "attachments": [
@@ -27,6 +28,7 @@
       "Scholar": "FKOqtF8AAAAJ:MDQ-9Oe3GGUC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Information geometry is a powerful framework for studying the geometry of statistical models. However, the standard approach relies on the Fisher information metric, which is often computationally intractable for modern deep generative models. In this paper, we propose a new approach to information geometry that relies on pulling back a metric from a simpler space to the parameter space of a complex model. This allows us to define a Riemannian metric on the parameter space that is both computationally efficient and captures the geometry of the data distribution. We demonstrate the effectiveness of our approach on a variety of tasks, including generative modeling, uncertainty estimation, and manifold learning.",
     "archive": "arXiv",
     "archiveLocation": "2106.05367",
     "extra": {
@@ -19,6 +20,7 @@
       "Volume": "151",
       "arXiv": "2106.05367"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

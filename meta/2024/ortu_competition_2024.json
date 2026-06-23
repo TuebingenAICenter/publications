@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable capabilities in reasoning and knowledge retrieval. However, their internal mechanisms for processing factual versus counterfactual information remain poorly understood. In this work, we investigate the competition between factual and counterfactual mechanisms in LLMs. We introduce a novel framework to trace the internal representations and attention patterns of LLMs when they are presented with factual and counterfactual prompts. Our findings reveal that LLMs often rely on a mixture of mechanisms, where factual knowledge can interfere with counterfactual reasoning. We further demonstrate that this interference can be mitigated by targeted interventions, leading to improved performance on counterfactual tasks. Our results provide new insights into the interpretability of LLMs and suggest pathways for enhancing their robustness in reasoning tasks.",
     "archive": "ACL Anthology",
     "archiveLocation": "2024.acl-long.458",
     "attachments": [
@@ -31,6 +32,7 @@
       "OpenAlex": "W4402671677",
       "Scholar": "DZ-fHPgAAAAJ:h4G4d0_olBQC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",

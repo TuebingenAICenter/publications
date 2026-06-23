@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Social learning is a cornerstone of human intelligence, allowing us to acquire complex behaviors and knowledge without having to learn everything from scratch. However, social learning is not a simple process of copying; it requires a delicate balance between efficiency (learning quickly) and flexibility (adapting to new environments). In this chapter, we propose a framework of 'representational exchange' to understand how humans navigate this trade-off. We argue that social learners do not simply copy the actions of others, but rather infer the underlying representations—the goals, beliefs, and strategies—that drive those actions. By exchanging these representations, learners can achieve a more flexible and efficient form of social learning that goes beyond simple imitation.",
     "extra": {
       "Citations@2026-06-01": "16",
       "OpenAlex": "W4280493155",
       "Publication Title": "The Drive for Knowledge: The Science of Human Information-Seeking, 169-192, 2022",
       "Scholar": "1O2hcVgAAAAJ:O3NaXMp0MMsC"
-    }
+    },
+    "itemType": "bookSection"
   }
 }

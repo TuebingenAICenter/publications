@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Fair Machine Learning endeavors to prevent unfairness arising in the context of machine learning applications embedded in society. Despite the variety of definitions of fairness and proposed \"fair algorithms\", there remain unresolved conceptual problems regarding fairness. In this paper, we dissect the role of statistical independence in fairness and randomness notions regularly used in machine learning. Thereby, we are led to a suprising hypothesis: randomness and fairness can be considered equivalent concepts in machine learning. In particular, we obtain a relativized notion of randomness expressed as statistical independence by appealing to Von Mises' century-old foundations for probability. This notion turns out to be \"orthogonal\" in an abstract sense to the commonly used i.i.d.-randomness. Using standard fairness notions in machine learning, which are defined via statistical independence, we then link the ex ante randomness assumptions about the data to the ex post requirements for fair predictions. This connection proves fruitful: we use it to argue that randomness and fairness are essentially relative and that both concepts should reflect their nature as modeling assumptions in machine learning.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:43:33",
@@ -23,6 +24,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "G4MBruQAAAAJ:h4edN3iSU_gC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",

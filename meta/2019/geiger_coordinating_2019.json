@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We consider the problem of coordinating users of shared facilities, such as scientific instruments or meeting rooms. Users have individual preferences and constraints, and they compete for time slots. We propose a system where a predictive assistant learns user preferences from historical data and suggests schedules that are socially optimal. We model the interaction between the assistant and the users as a game, and we show that our approach leads to a stable and efficient allocation of resources. We evaluate our method on real-world data from a shared facility and demonstrate that it significantly improves user satisfaction compared to existing scheduling policies.",
     "extra": {
       "Event Place": "Tel Aviv, Israel",
       "Scholar": "DZ-fHPgAAAAJ:AFQi4a13JfwC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

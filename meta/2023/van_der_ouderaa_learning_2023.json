@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Equivariance is a powerful inductive bias for deep learning, but designing equivariant architectures requires expert knowledge and is often specific to the data domain. We propose a method to automatically learn layer-wise equivariances by optimising the parameters of a transformation group. We parameterise the group action as a linear transformation and use the gradient of the loss with respect to the group parameters to update the equivariance. This allows the model to learn the symmetries of the data during training. We demonstrate that our method can learn known symmetries, such as rotations and reflections, and discover new symmetries in synthetic and real-world datasets. Our approach is computationally efficient and can be applied to a wide range of architectures.",
     "conferenceName": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
   }
 }

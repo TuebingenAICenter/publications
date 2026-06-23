@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep ReLU networks are known to be overconfident: they often assign high probabilities to incorrect predictions, especially on out-of-distribution data. We show that this is partly due to the fact that standard training (maximum likelihood) ignores the uncertainty of the network's parameters. We propose a simple, scalable Bayesian approach that approximates the posterior of the last layer's weights using the Laplace approximation. This method is computationally efficient, easy to implement, and significantly improves the calibration of ReLU networks on both in-distribution and out-of-distribution data, while maintaining competitive predictive performance.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2002.10118",
     "conferenceName": "37th International Conference on Machine Learning",
@@ -19,6 +20,7 @@
       "Scholar": "0ZAb3tsAAAAJ:4MWp96NkSFoC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "Proceedings of the 37th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The rank of weight matrices in deep neural networks is often used as a proxy for their complexity. However, in practice, weight matrices are rarely exactly low-rank, but rather have a spectrum that decays quickly. The stable rank, which is a continuous proxy for the matrix rank, is a more robust measure of the effective dimensionality of the linear transformations. In this paper, we investigate the impact of the stable rank of weight matrices on the training and generalization of deep neural networks. We show that the stable rank is a useful metric for understanding the capacity of deep networks and that it can be used to regularize training. We provide empirical evidence that controlling the stable rank can lead to better generalization and more stable training.",
     "archive": "arXiv",
     "archiveLocation": "2110.02333",
     "extra": {
       "Archive ID": "2110.02333",
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2110.02333"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present OpenScene, a method for 3D scene understanding that supports open-vocabulary queries. Given a 3D scene, OpenScene learns to map 3D points to a feature space that is aligned with the feature space of a pre-trained 2D vision-language model (e.g., CLIP). This allows the model to perform a wide range of 3D scene understanding tasks, such as 3D semantic segmentation, local feature matching, and open-vocabulary 3D object detection, without requiring any task-specific training or 3D labels. We demonstrate that OpenScene achieves state-of-the-art performance on several 3D scene understanding benchmarks, while also enabling new capabilities such as querying 3D scenes with arbitrary text prompts.",
     "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "extra": {
       "Source": "group_webpage (black)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }

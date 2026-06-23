@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "A method for providing a three-dimensional body model which may be applied for an animation, based on a moving body, wherein the method comprises providing a parametric three-dimensional body model, which allows shape and pose variations; applying a standard set of body markers; optimizing the set of body markers by generating an additional set of body markers and applying the same for providing 3D coordinate marker signals for capturing shape and pose of the body and dynamics of soft tissue; and automatically providing an animation by processing the 3D coordinate marker signals in order to provide a personalized three-dimensional body model, based on estimated shape and an estimated pose of the body by means of predicted marker locations.",
     "callNumber": "10,417,818",
     "extra": {
       "Citations@2026-06-01": "10",
       "Scholar": "6NjbexEAAAAJ:aKos2Y7kUz0C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

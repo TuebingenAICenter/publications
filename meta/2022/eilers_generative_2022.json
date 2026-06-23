@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a generative model for quasar spectra that is designed to be flexible, interpretable, and physically motivated. Our model is based on a latent variable approach, where the latent space is learned from a large sample of quasar spectra from the Sloan Digital Sky Survey (SDSS). We use a Gaussian process to model the continuum and a set of basis functions to model the emission lines. The model is able to generate realistic quasar spectra that capture the diversity of the quasar population, including variations in continuum slope, emission line strength, and line width. We demonstrate the utility of our model by applying it to the problem of quasar redshift estimation and by using it to generate synthetic spectra for testing quasar selection algorithms.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Issue": "1",
       "OpenAlex": "W4297675684",
       "Scholar": "DZ-fHPgAAAAJ:vR9F06f0vR0C",
       "Volume": "938"
-    }
+    },
+    "itemType": "document"
   }
 }

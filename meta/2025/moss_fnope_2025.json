@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) aims to perform Bayesian inference on parameters of complex simulators where the likelihood is intractable. While traditional SBI methods operate on finite-dimensional parameter spaces, many scientific problems involve inferring latent functions, such as fields or processes. Current approaches for function-space inference often rely on discretization, which can lead to high-dimensional parameter spaces and poor scaling with resolution. We introduce FNOPE (Fourier Neural Operator Posterior Estimation), a novel framework for SBI on function spaces. FNOPE leverages the resolution-invariance and efficient spectral representation of Fourier Neural Operators to learn posterior distributions over function spaces directly. We demonstrate that FNOPE achieves state-of-the-art performance on several challenging benchmarks, including inferring latent fields in partial differential equations and stochastic processes, while maintaining computational efficiency and resolution-invariance.",
     "archive": "arXiv",
     "archiveLocation": "2505.22573",
     "attachments": [
@@ -26,6 +27,7 @@
       "Scholar": "FKOqtF8AAAAJ:SoGhKUJvMTQC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

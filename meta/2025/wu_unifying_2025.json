@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Generalization—the ability to apply knowledge from past experiences to new situations—is a cornerstone of human and artificial intelligence. Despite its importance, research on generalization has been fragmented across diverse fields, including psychology, neuroscience, machine learning, and statistics. This review provides a unifying framework for understanding generalization by identifying three core principles: similarity, structure, and strategy. We trace the historical development of these principles, examine their current state in both human and machine learning, and outline future directions for research. By synthesizing these perspectives, we aim to provide a common language for researchers across disciplines to study the mechanisms that allow agents to navigate an uncertain world.",
     "attachments": [
       {
         "accessDate": "2025-06-27 07:59:35",
@@ -22,6 +23,7 @@
       "Scholar": "1O2hcVgAAAAJ:CHSYGLWDkRkC",
       "additional_DOI": "https://doi.org/10.31234/osf.io/6uz9q"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",

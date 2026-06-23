@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose POETREE, a framework for learning interpretable policies in reinforcement learning. POETREE learns a decision tree policy by iteratively growing the tree using a novel adaptive splitting criterion. The criterion is based on the expected improvement in the value function, which allows the tree to grow in a way that balances interpretability and performance. We demonstrate the effectiveness of POETREE on a variety of reinforcement learning tasks, showing that it can achieve performance comparable to black-box policies while being significantly more interpretable.",
     "conferenceName": "10th International Conference on Learning Representations (ICLR)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "10th International Conference on Learning Representations (ICLR)"
   }
 }

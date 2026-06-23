@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We consider the problem of source-free domain adaptation under measurement shift, where a model trained on a source domain must be adapted to a target domain without access to source data. Measurement shift occurs when the input features are corrupted by a known or estimable transformation, such as noise, blur, or downsampling. We propose a bottom-up approach to feature restoration that leverages the causal structure of the data generation process. By inverting the measurement process, we can recover the underlying features and adapt the model to the target domain. We demonstrate the effectiveness of our approach on several benchmarks, showing that it outperforms existing methods for source-free domain adaptation.",
     "archive": "arXiv",
     "archiveLocation": "2107.05446",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:Sl9TbzntEeMC"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

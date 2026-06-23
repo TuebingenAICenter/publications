@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Biomedical research is a vast and rapidly evolving field. To understand its structure and dynamics, we analyzed 30 million papers from PubMed published between 1990 and 2022. We used a citation-based approach to map the landscape of biomedical research, identifying 1,200 research topics and their evolution over time. We found that the field is highly modular, with topics forming distinct clusters that correspond to biological systems, diseases, and methodologies. We also observed a trend toward increasing interdisciplinarity, with research topics becoming more connected over time. Our results provide a comprehensive overview of the biomedical research landscape and offer insights into the drivers of scientific progress.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:41:37",
@@ -32,6 +33,7 @@
       "Publisher": "University of T'ubingen",
       "Scholar": "lPQLk3QAAAAJ:wbdj-CoPYUoC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 46</p>",

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are increasingly used as components in complex systems, where their outputs are sampled to generate responses. Despite the ubiquity of sampling, our understanding of its impact on the quality and reliability of LLM outputs remains largely empirical. In this work, we propose a theoretical framework for response sampling in LLMs. We first provide a descriptive analysis of the sampling process, characterizing the relationship between the sampling parameters and the distribution of the generated responses. We then provide a prescriptive analysis, deriving optimal sampling strategies for different objectives, such as maximizing the probability of generating a correct response or minimizing the variance of the generated responses. We validate our theoretical findings through extensive experiments on a variety of tasks and models, demonstrating that our framework provides a principled approach to response sampling in LLMs.",
     "archive": "arXiv",
     "archiveLocation": "2402.11005",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4412889753",
       "Scholar": "QEiYbDYAAAAJ:NtGNdKbuCngC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

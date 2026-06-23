@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Tangles are a concept from graph theory that allow for a robust, multi-scale analysis of data. They have recently been proposed as a new paradigm for clustering. In this paper, we provide a comprehensive algorithmic framework for clustering with tangles. We show how to compute tangles efficiently, how to use them for clustering, and how to interpret the results. We also provide theoretical guarantees for our approach, showing that tangles can recover the ground-truth clustering in various settings. Finally, we demonstrate the effectiveness of our approach on several real-world datasets.",
     "extra": {
       "Citations@2026-06-01": "2",
       "Issue": "190",
@@ -12,6 +13,7 @@
       "Pages": "1-56",
       "Scholar": "mMifMdoAAAAJ:tuHXwOkdijsC",
       "Volume": "24"
-    }
+    },
+    "itemType": "document"
   }
 }

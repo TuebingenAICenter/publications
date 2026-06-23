@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Second-order optimization methods for deep learning require approximations of the curvature matrix, such as the Fisher information matrix or the Hessian. A common strategy is to use block-diagonal approximations, where blocks correspond to layers or even individual parameters. We propose a modular framework for constructing such approximations. It decomposes the curvature of a feedforward network into local contributions from individual layers and activation functions. This modularity allows for a systematic derivation of various existing approximations, such as K-FAC, and facilitates the development of new ones. We demonstrate the flexibility of our framework by deriving a novel block-diagonal approximation that accounts for correlations between weights and biases, and show that it improves upon standard K-FAC on small-scale problems.",
     "conferenceName": "23rd International Conference on Artificial Intelligence and Statistics",
     "extra": {
       "Citations@2026-06-01": "2",
@@ -14,6 +15,7 @@
       "Scholar": "UeG5w08AAAAJ:sSrBHYA8nusC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

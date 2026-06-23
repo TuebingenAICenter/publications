@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Manipulating the illumination of a 3D scene within a single image represents a fundamental challenge in computer vision and graphics. This problem has traditionally been addressed using inverse rendering techniques, which involve explicit 3D asset reconstruction and costly ray-tracing simulations. Meanwhile, recent advancements in visual foundation models suggest that a new paradigm could soon be possible – one that replaces explicit physical models with networks that are trained on large amounts of image and video data. In this paper, we exploit the implicit scene understanding of a video diffusion model, particularly Stable Video Diffusion, to relight a single image. We introduce GenLit, a framework that distills the ability of a graphics engine to perform light manipulation into a video-generation model, enabling users to directly insert and manipulate a point light in the 3D world within a given image and generate results directly as a video sequence. We find that a model fine-tuned on only a small synthetic dataset generalizes to real-world scenes, enabling single-image relighting with plausible and convincing shadows and inter-reflections. Our results highlight the ability of video foundation models to capture rich information about lighting, material, and shape, and our findings indicate that such models, with minimal training, can be used to perform relighting without explicit asset reconstruction or ray-tracing.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:44:16",
@@ -29,6 +30,7 @@
       "OpenAlex": "W4417124956",
       "Scholar": "6NjbexEAAAAJ:wxMeWMEqLDMC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://genlit.is.tue.mpg.de/'>https://genlit.is.tue.mpg.de/</a><br><a href='https://arxiv.org/abs/2412.11224'>https://arxiv.org/abs/2412.11224</a><br><a href='https://colab.ws/articles/10.1145/3757377.3763970'>https://colab.ws/articles/10.1145/3757377.3763970</a><br></p>",

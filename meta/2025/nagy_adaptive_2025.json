@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The distinction between episodic and semantic memory is a cornerstone of cognitive science, yet the mechanisms that bridge these systems remain debated. We propose that adaptive compression—the process of efficiently encoding information by identifying and exploiting statistical regularities—serves as a unifying framework for both memory systems. We argue that episodic memory functions as a high-fidelity, context-dependent buffer that captures unique experiences, whereas semantic memory emerges as a compressed, generalized representation of these experiences. By framing memory as an adaptive compression problem, we show how the brain balances the trade-off between the need for precise retrieval of specific events and the need for efficient, abstract knowledge representation. This framework provides a computational account of memory consolidation, schema formation and the developmental trajectory of memory systems, offering a parsimonious explanation for how the brain transforms fleeting experiences into enduring knowledge.",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W4411064804",
       "Scholar": "1O2hcVgAAAAJ:geHnlv5EZngC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 4</p>",

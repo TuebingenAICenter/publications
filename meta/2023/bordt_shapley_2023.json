@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Shapley values are a popular tool for explaining machine learning models. However, their theoretical properties are often misunderstood. In this paper, we show that for any model, the Shapley value explanation is the unique additive approximation that minimizes a specific weighted least squares loss. This result allows us to bridge the gap between Shapley values and Generalized Additive Models (GAMs). We show that Shapley values can be interpreted as a specific type of GAM, and that many properties of Shapley values can be derived from this connection. We also show that this connection allows us to define new types of Shapley values, and to better understand the behavior of existing ones.",
     "extra": {
       "Citations@2026-06-01": "16",
       "OpenAlex": "W4295356650",
       "Scholar": "mMifMdoAAAAJ:anf4URPfarAC"
-    }
+    },
+    "itemType": "document"
   }
 }

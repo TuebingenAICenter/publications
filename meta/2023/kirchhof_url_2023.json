@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Uncertainty estimation is crucial for the reliable deployment of machine learning models in real-world applications. While many methods have been proposed to improve uncertainty estimation, they are often evaluated on a limited set of tasks, making it difficult to assess their transferability to new domains. To address this, we introduce URL, a benchmark for evaluating the transferability of uncertainty estimates. URL consists of a diverse set of datasets and tasks, covering various domains and distribution shifts. We evaluate a wide range of representation learning methods on URL and find that they exhibit varying degrees of transferability. Our results highlight the importance of evaluating uncertainty estimation methods on diverse tasks and provide a foundation for future research in this area.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2307.03810",
     "extra": {
       "Citations@2026-06-01": "29",
       "Scholar": "kmXOOdsAAAAJ:RGFaLdJalmkC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

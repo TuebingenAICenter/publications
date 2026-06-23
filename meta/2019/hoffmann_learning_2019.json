@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Neural networks need big annotated datasets for training. However, manual annotation can be too expensive or even unfeasible for certain tasks, like multi-person 2D pose estimation with severe occlusions. A remedy for this is synthetic data with perfect ground truth. Here we explore two variations of synthetic data for this challenging problem; a dataset with purely synthetic humans, as well as a real dataset augmented with synthetic humans. We then study which approach better generalizes to real data, as well as the influence of virtual humans in the training loss. We observe that not all synthetic samples are equally informative for training, while the informative samples are different for each training stage. To exploit this observation, we employ an adversarial student-teacher framework; the teacher improves the student by providing the hardest samples for its current state as a challenge. Experiments show that this student-teacher framework outperforms all our baselines.",
     "extra": {
       "Citations@2026-06-01": "34",
       "OpenAlex": "W2982335979",
       "Publication Title": "German conference on pattern recognition, 609-623, 2019",
       "Scholar": "6NjbexEAAAAJ:_r6PDwDh8pAC"
-    }
+    },
+    "itemType": "bookSection"
   }
 }

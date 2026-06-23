@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Retinal ganglion cells (RGCs) are the output neurons of the retina. They integrate synaptic inputs from bipolar and amacrine cells in their dendrites to compute specific visual features. While it is known that RGC types differ in their morphology and light responses, it remains unclear how dendritic integration differs between RGC types. Here, we use two-photon calcium imaging to record the activity of dendrites in four types of mouse RGCs. We find that dendritic integration is type-specific: in some RGC types, dendrites act as independent integration units, while in others, they are strongly coupled. This type-specificity is linked to the morphology of the RGCs and the spatial distribution of their synaptic inputs. Our results suggest that dendritic integration is a key mechanism for the functional diversity of RGCs.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Format": "HTML",
@@ -15,6 +16,7 @@
       "Publication Title": "Nature Communications 11 (1), 2101, 2020",
       "Scholar": "lPQLk3QAAAAJ:blknAaTinKkC",
       "Volume": "11"
-    }
+    },
+    "itemType": "document"
   }
 }

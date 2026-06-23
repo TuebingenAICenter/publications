@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a novel framework for learning transferable meta-representations by leveraging the functional structure of tasks. Our approach, Function Contrastive Learning (FCL), learns representations that are invariant to task-specific transformations while being sensitive to the underlying functional relationships between tasks. We demonstrate that FCL achieves state-of-the-art performance on several meta-learning benchmarks, showing improved transferability and robustness compared to existing methods.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W3165998135",
       "Scholar": "DZ-fHPgAAAAJ:p9TIfgCILp0C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

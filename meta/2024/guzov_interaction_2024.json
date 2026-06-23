@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present Interaction Replica, a method to track human-object interactions and scene changes from a monocular video of a moving person. Existing methods for human motion capture or scene reconstruction often treat the human and the scene as independent entities. However, humans constantly interact with their environment, causing objects to move and the scene to change. We propose a framework that jointly estimates the human motion, the object motion, and the scene changes. Our method leverages a human motion capture model to provide a strong prior on the human pose and shape. We then use this to guide the estimation of object interactions and scene changes. We demonstrate that our method can track complex human-object interactions and scene changes from monocular video, outperforming existing methods.",
     "archive": "arXiv",
     "archiveLocation": "2205.02830",
     "conferenceName": "International Conference on 3D Vision (3DV)",
@@ -12,6 +13,7 @@
       "Source": "group_webpage (pons-moll)",
       "arXiv": "2205.02830"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on 3D Vision (3DV)"
   }
 }

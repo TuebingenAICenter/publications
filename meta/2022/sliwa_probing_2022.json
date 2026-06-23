@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Independent Mechanism Analysis (IMA) is a framework for learning causal representations from data by exploiting the independence of causal mechanisms. While theoretical identifiability results for IMA exist, their practical implications remain under-explored. In this work, we empirically investigate the robustness of IMA to violations of its core assumptions. We find that IMA is sensitive to the choice of the independence measure and the architecture of the neural networks used to model the causal mechanisms. Furthermore, we show that IMA can struggle to recover the true causal factors when the data generating process deviates from the assumed structural causal model. Our results highlight the need for more robust methods for causal representation learning.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2207.06137",
     "extra": {
@@ -12,6 +13,7 @@
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4285483688",
       "Scholar": "DZ-fHPgAAAAJ:Z2iGxuZITJ0C"
-    }
+    },
+    "itemType": "document"
   }
 }

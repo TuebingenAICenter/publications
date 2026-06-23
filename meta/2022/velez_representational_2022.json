@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Humans are uniquely capable of high-fidelity cultural transmission, yet we also exhibit a puzzling tendency to copy causally opaque, ritualistic actions. We propose that this behavior is not a byproduct of a specialized mechanism for ritual, but rather a consequence of a general-purpose social learning system that treats all actions as potentially instrumental. We argue that learners represent actions as having both instrumental and social functions, and that these representations are dynamically updated through a process of representational exchange. This framework explains why humans are both highly flexible and highly ritualistic, and provides a unified account of social learning that bridges the gap between instrumental and ritual behavior.",
     "extra": {
       "Citations@2026-06-01": "6",
       "OpenAlex": "W4308775061",
       "Scholar": "1O2hcVgAAAAJ:NaGl4SEjCO4C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

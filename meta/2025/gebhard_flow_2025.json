@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Atmospheric retrieval is a cornerstone of exoplanetary science, aiming to infer the chemical composition and physical properties of exoplanetary atmospheres from observed spectra. Traditionally, this is achieved through Bayesian inference using nested sampling or Markov chain Monte Carlo methods, which are computationally expensive due to the need for thousands of forward model evaluations. Recent advances in simulation-based inference (SBI) have enabled faster retrieval by amortizing the inference process. However, these methods often struggle with the high dimensionality and complex likelihood landscapes of atmospheric models, and they frequently lack robust uncertainty quantification. In this work, we introduce a novel approach to atmospheric retrieval based on flow matching, a generative modeling framework that learns to map a simple base distribution to the posterior distribution. We demonstrate that flow matching provides a flexible and efficient way to perform SBI, offering superior performance in terms of accuracy and reliability compared to existing methods. Furthermore, we propose an adaptive noise level strategy that allows the model to handle varying levels of observational noise, leading to more robust and reliable retrievals. We validate our approach on synthetic and real-world exoplanetary spectra, showing that it achieves state-of-the-art performance while significantly reducing the computational cost of atmospheric retrieval.",
     "archive": "arXiv",
     "archiveLocation": "2410.21477",
     "extra": {
@@ -17,6 +18,7 @@
       "Scholar": "DZ-fHPgAAAAJ:atgDo0Ffd_sC",
       "Source": "group_webpage (dax)",
       "Volume": "693"
-    }
+    },
+    "itemType": "document"
   }
 }

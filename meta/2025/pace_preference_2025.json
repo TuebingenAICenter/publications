@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Offline reinforcement learning (RL) aims to learn optimal policies from static datasets without further environment interaction. However, defining a reward function that accurately reflects human intent is notoriously difficult. Preference-based RL addresses this by learning a reward model from human feedback, typically in the form of pairwise comparisons. In this work, we study the problem of preference elicitation in the offline setting. We propose a framework that actively selects pairs of trajectories to query from a human, aiming to minimize the uncertainty of the reward model while maximizing the performance of the resulting policy. We provide theoretical guarantees on the convergence of our approach and demonstrate its effectiveness on a range of offline RL benchmarks, showing that it can significantly improve policy performance compared to passive or random query selection strategies.",
     "archive": "arXiv",
     "archiveLocation": "2406.18450",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4400104922",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:NffKZMvbRDkC"
-    }
+    },
+    "itemType": "document"
   }
 }

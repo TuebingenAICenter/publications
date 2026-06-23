@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present DeepGaze III, a deep learning model for predicting human scanpaths in free-viewing tasks. DeepGaze III builds on the DeepGaze IIE saliency model and extends it to predict sequences of fixations. The model uses a recurrent neural network to model the dependency of the next fixation on the previous fixations and the image content. We show that DeepGaze III outperforms existing models on the MIT/Tuebingen saliency benchmark and the SALICON dataset. Furthermore, we demonstrate that the model can be used to generate realistic scanpaths that are indistinguishable from human scanpaths in a visual Turing test.",
     "extra": {
       "Citations@2026-06-01": "102",
       "OpenAlex": "W4225004727",
       "Scholar": "0z0fNxUAAAAJ:3A3nxV7CjKIC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

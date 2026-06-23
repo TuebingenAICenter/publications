@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Scale-equivariance is a desirable property for convolutional neural networks (CNNs) in computer vision tasks where the scale of objects varies. While scale-equivariant CNNs have been proposed, they often rely on a fixed set of scales or a predefined scale-space. In this paper, we propose a method to learn the scale-space representation directly from data. We introduce a scale-equivariant convolution layer that learns the optimal scale-space sampling, allowing the network to adapt to the scale distribution of the input data. We demonstrate the effectiveness of our approach on several benchmarks, showing that our learned scale-equivariant CNNs outperform fixed-scale counterparts and achieve competitive results with state-of-the-art methods.",
     "attachments": [
       {
         "accessDate": "2025-06-27 07:58:45",
@@ -22,6 +23,7 @@
       "OpenAlex": "W4392402551",
       "Scholar": "0z0fNxUAAAAJ:dAp6zn-oMfAC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",

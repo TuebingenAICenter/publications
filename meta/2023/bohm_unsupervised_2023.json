@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Visualization of high-dimensional data is a key tool for exploratory data analysis. For image datasets, standard approaches like t-SNE or UMAP are often applied to raw pixels or to features from a pre-trained neural network. However, raw pixels do not capture semantic similarity, and pre-trained features are biased by the training task. Here, we propose to use self-supervised contrastive learning to learn a representation specifically for visualization. We show that this approach produces visualizations that are more faithful to the semantic structure of the data than those based on raw pixels or standard pre-trained features, and that it is robust to the choice of the contrastive learning objective. We demonstrate the utility of our approach on several image datasets, including CIFAR-10, CIFAR-100, and ImageNet, and show that it can be used to identify clusters, outliers, and other structures in the data.",
     "archive": "OpenReview",
     "extra": {
       "Archive ID": "2210.09879",
       "Citations@2026-06-01": "6",
       "OpenAlex": "W4306892766",
       "Scholar": "lPQLk3QAAAAJ:fQNAKQ3IYiAC"
-    }
+    },
+    "itemType": "document"
   }
 }

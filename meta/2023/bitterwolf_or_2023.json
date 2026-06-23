@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Out-of-distribution (OOD) detection is a critical component for the safe deployment of machine learning models. While ImageNet is the standard benchmark for OOD detection, we show that the current evaluation practice is flawed: the OOD test sets contain a significant fraction of images that are semantically similar to ImageNet classes, leading to an overestimation of OOD detection performance. We introduce NINCO (No ImageNet Classes Out-of-distribution), a new OOD benchmark that is carefully curated to exclude any images that are semantically similar to ImageNet classes. We show that on NINCO, the performance of state-of-the-art OOD detection methods is significantly lower than on existing benchmarks, and that the ranking of methods changes. Our results suggest that the current OOD detection evaluation on ImageNet is not representative of the true performance of OOD detection methods in the wild.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2306.00826",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "0ZAb3tsAAAAJ:FiytvqdAVhgC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Algorithmic recourse aims to provide individuals with actionable recommendations to change an unfavorable decision made by an automated system. Existing approaches typically assume that the causal model of the environment is fully known and unconfounded. In this work, we relax these assumptions and study algorithmic recourse in settings where the causal structure is only partially known or where unobserved confounders are present. We propose a framework for bounding counterfactual effects in such settings, which allows us to provide robust recourse recommendations that are valid under a range of possible causal models. We demonstrate the effectiveness of our approach on synthetic and real-world datasets.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2106.11849",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W3173960598",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:jU8F8PsuBvwC"
-    }
+    },
+    "itemType": "document"
   }
 }

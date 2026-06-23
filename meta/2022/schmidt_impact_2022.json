@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The architecture of cortical networks is constrained by the physical structure of neurons. However, the extent to which neuronal morphology determines the connectivity of cortical circuits remains unclear. Here, we use a generative model of cortical connectivity to show that the spatial distribution of dendrites and axons is a primary determinant of the connectivity of local cortical circuits. We find that the model, which is based on the overlap of neuronal processes, accurately predicts the connectivity of the mouse primary visual cortex. Our results suggest that the spatial arrangement of neurons and their processes is a fundamental principle of cortical organization, providing a parsimonious explanation for the observed connectivity patterns in the cortex.",
     "extra": {
       "Citations@2026-06-01": "88",
       "OpenAlex": "W4225922149",
       "Scholar": "FKOqtF8AAAAJ:plAW456RD7MC",
       "Source": "group_webpage (macke)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

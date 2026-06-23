@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Linear mode connectivity (LMC) is a phenomenon where two independently trained neural networks can be connected by a linear path of constant loss. While LMC has been extensively studied for vision models, it remains elusive for Transformers. We show that this is primarily due to the permutation symmetries of the attention heads and the scaling symmetries of the normalization layers. We introduce Generalized Linear Mode Connectivity (GLMC), a framework that accounts for these symmetries by aligning the weights of two Transformers using a combination of permutation and scaling transformations. We prove that GLMC is equivalent to finding the optimal alignment in a homogeneous space, which we solve using a novel, efficient algorithm. We demonstrate that GLMC successfully connects independently trained Transformers across various architectures and datasets, including large-scale language models, and provides a new perspective on the loss landscape of Transformers.",
     "archive": "arXiv",
     "archiveLocation": "2506.22712",
     "attachments": [
@@ -23,6 +24,7 @@
       "OpenAlex": "W4416506220",
       "Scholar": "xkuLyHoAAAAJ:M05iB0D1s5AC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Purpose: To develop and evaluate a multitask deep learning model for the detection of disease activity in neovascular age-related macular degeneration (nAMD) on optical coherence tomography (OCT) B-scans. Methods: We retrospectively included 10,560 OCT B-scans from 1056 patients with nAMD. We trained a multitask convolutional neural network (CNN) to simultaneously predict the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED), as well as the overall disease activity status. We compared the performance of the multitask model to single-task models and evaluated the model's performance on an external test set. Results: The multitask model achieved an area under the receiver operating characteristic curve (AUROC) of 0.94 for the detection of disease activity. The multitask approach outperformed single-task models for the detection of IRF and SRF. The model showed good generalization performance on the external test set. Conclusions: Multitask learning is a promising approach for the automated detection of disease activity in nAMD on OCT B-scans. The simultaneous prediction of fluid types and activity status improves the model's performance and provides a more comprehensive assessment of the disease state.",
     "extra": {
       "Citations@2026-06-01": "1",
       "Issue": "7",
@@ -12,6 +13,7 @@
       "Pages": "12-12",
       "Scholar": "lPQLk3QAAAAJ:B3FOqHPlNUQC",
       "Volume": "12"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The Laplace approximation is a classic method for Bayesian inference in deep learning. However, it is often criticized for being inaccurate, especially in high-dimensional parameter spaces. We show that this is largely due to the standard practice of using a fixed, often poorly-tuned, prior. We propose to learn the prior's precision parameter by maximizing the marginal likelihood, which is made tractable by the Laplace approximation. This simple change significantly improves the quality of the uncertainty estimates, as measured by calibration and out-of-distribution detection, while maintaining the computational efficiency of the Laplace approximation. We demonstrate the effectiveness of our approach on a variety of tasks, including image classification and regression.",
     "archive": "arXiv",
     "archiveLocation": "2010.02720",
     "conferenceName": "37th International Conference on Uncertainty in Artificial Intelligence (UAI)",
@@ -19,6 +20,7 @@
       "Scholar": "0ZAb3tsAAAAJ:ruyezt5ZtCIC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "37th International Conference on Uncertainty in Artificial Intelligence (UAI)",
     "seriesTitle": "Proceedings of Machine Learning Research"

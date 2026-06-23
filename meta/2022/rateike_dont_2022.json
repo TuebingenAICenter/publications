@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Fairness in machine learning is often studied in settings where sensitive attributes are available for all training samples. However, in many real-world scenarios, sensitive attributes are only available for a small subset of the data, while the majority of the data remains unlabeled with respect to these attributes. In this paper, we investigate the utility of such unlabeled data for fair decision making. We propose a framework that leverages unlabeled data to improve fairness-accuracy trade-offs. Our approach is based on the observation that unlabeled data can be used to learn a better representation of the data, which in turn can be used to improve fairness. We demonstrate the effectiveness of our approach on several real-world datasets and show that it consistently outperforms existing methods that either ignore unlabeled data or use it in a limited way.",
     "conferenceName": "FAccT '22: 2022 ACM Conference on Fairness, Accountability, and Transparency",
     "extra": {
       "Event Place": "Seoul, Republic of Korea",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "FAccT '22: 2022 ACM Conference on Fairness, Accountability, and Transparency"
   }
 }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Centroidal state estimation is a fundamental component for the control of legged robots. Most existing approaches rely on kinematic measurements and contact information to estimate the robot's base state. However, these methods are prone to drift and are sensitive to contact detection errors. In this paper, we investigate the use of joint torque measurements to improve centroidal state estimation. We propose a novel estimator that incorporates torque measurements into a centroidal dynamics model. We evaluate our approach on a quadruped robot and show that it significantly improves the estimation accuracy compared to a standard kinematic-based estimator, especially in the presence of contact uncertainties.",
     "conferenceName": "IEEE International Conference on Robotics and Automation (ICRA)",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "5"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "IEEE International Conference on Robotics and Automation (ICRA)"
   }
 }

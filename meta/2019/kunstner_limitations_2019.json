@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Natural gradient descent is a popular optimization method for neural networks that uses the Fisher information matrix to precondition the gradient. Because the true Fisher is computationally expensive, practitioners often use the empirical Fisher instead. We show that the empirical Fisher is not a valid approximation of the Fisher information matrix, and that it does not correspond to the natural gradient. We analyze the difference between the two matrices and show that the empirical Fisher can lead to poor optimization performance. We provide theoretical and empirical evidence that the empirical Fisher is not a reliable substitute for the Fisher information matrix.",
     "conferenceName": "Advances in Neural Information Processing Systems 32",
     "extra": {
       "Citations@2026-06-01": "30",
@@ -14,6 +15,7 @@
       "Scholar": "UeG5w08AAAAJ:uWQEDVKXjbEC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 32"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The focus of this paper is 3D motion editing. Given a 3D human motion and a textual description of the desired modification, our goal is to generate an edited motion as described by the text. The challenges include the lack of training data and the design of a model that faithfully edits the source motion. In this paper, we address both these challenges. We build a methodology to semi-automatically collect a dataset of triplets in the form of (i) a source motion, (ii) a target motion, and (iii) an edit text, and create the new dataset. Having access to such data allows us to train a conditional diffusion model that takes both the source motion and the edit text as input. We further build various baselines trained only on text-motion pairs datasets and show superior performance of our model trained on triplets. We introduce new retrieval-based metrics for motion editing and establish a new benchmark on the evaluation set. Our results are encouraging, paving the way for further research on fine-grained motion generation. Code and models will be made publicly available.",
     "extra": {
       "Citations@2026-06-01": "18",
       "OpenAlex": "W4404965717",
       "Scholar": "6NjbexEAAAAJ:7iKzEIWBYlQC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

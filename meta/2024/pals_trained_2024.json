@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Recurrent neural networks (RNNs) are widely used to model neural dynamics in cognitive tasks. While it is known that RNNs can solve these tasks, the underlying dynamical mechanisms are often complex and high-dimensional. Here, we study RNNs trained on a working memory task that requires the maintenance of a continuous variable. We find that these networks develop a specific dynamical structure: the activity converges to a limit cycle, where the phase of the cycle encodes the stored variable. This phase-locked limit cycle structure is robust across different network initializations and training procedures. We show that this mechanism is distinct from the fixed-point attractors typically associated with working memory, and we provide a theoretical framework to understand how the network parameters shape the limit cycle dynamics. Our results suggest that phase-locked limit cycles are a viable and efficient strategy for working memory in recurrent networks.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:41:55",
@@ -32,6 +33,7 @@
       "Scholar": "FKOqtF8AAAAJ:Cy13deThEpcC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 19</p>",

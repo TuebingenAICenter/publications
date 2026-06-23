@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks have achieved remarkable success in many machine learning tasks. However, they are often not robust to small perturbations of the input, which can lead to incorrect predictions. This lack of robustness is a major concern for the deployment of these models in safety-critical applications. In this paper, we review the current state of research on the robustness of artificial neural networks, discuss the underlying causes of this lack of robustness, and outline potential directions for future research.",
     "archive": "MPG.PuRe",
     "archiveLocation": "item_3031700",
     "extra": {
@@ -12,6 +13,7 @@
       "OpenAlex": "W2955856516",
       "Scholar": "0z0fNxUAAAAJ:lgwcVrK6X84C"
     },
+    "itemType": "journalArticle",
     "libraryCatalog": "MPG.PuRe"
   }
 }

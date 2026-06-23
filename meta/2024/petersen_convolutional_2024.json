@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We introduce Convolutional Differentiable Logic Gate Networks (CDLGNs), a novel class of neural networks that replace standard convolutional layers with learnable logic gate circuits. By representing logic gates as differentiable functions, we enable end-to-end training of hardware-efficient, interpretable, and sparse models. CDLGNs achieve competitive performance on image classification tasks while requiring significantly fewer parameters and operations than traditional CNNs, making them particularly suitable for resource-constrained environments.",
     "extra": {
       "Citations@2026-06-01": "52",
       "Scholar": "pxhCcH0AAAAJ:08ZZubdj9fEC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

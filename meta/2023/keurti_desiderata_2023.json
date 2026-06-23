@@ -6,9 +6,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Representation learning aims to extract meaningful features from data. While identifiability and disentanglement have been proposed as desirable properties for learned representations, their definitions and relationships remain debated. In this work, we revisit these concepts through the lens of group theory. We argue that group-structuredness is a fundamental property that underlies both identifiability and disentanglement. We formalize this connection and show that group-structuredness provides a unifying framework for understanding and evaluating representation learning methods. We further propose a set of desiderata for representation learning based on these insights.",
     "extra": {
       "Citations@2026-06-01": "3",
       "Scholar": "v-JL-hsAAAAJ:HoB7MX3m0LUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

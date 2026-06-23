@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Predicting the trajectory of a table tennis ball is a challenging task due to the high speed of the ball, the influence of aerodynamic forces like the Magnus effect, and the complex dynamics during impacts with the table and racket. In this work, we compare black-box and gray-box models for ball trajectory prediction. We propose a gray-box model that incorporates physical knowledge about the ball's flight dynamics, including air drag and the Magnus effect, while learning the impact dynamics from data. We evaluate our models on a real-world dataset of table tennis trajectories. Our results show that the gray-box model outperforms the black-box model in terms of prediction accuracy and generalization, especially when data is limited.",
     "conferenceName": "Conference on Learning for Dynamics and Control",
     "extra": {
       "Code": "https://github.com/EmbodiedVision/tabletennis-spin-impacts",
@@ -13,6 +14,7 @@
       "Preprint": "https://arxiv.org/abs/2305.15189",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Conference on Learning for Dynamics and Control",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

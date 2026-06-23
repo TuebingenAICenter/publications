@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Bayesian neural networks (BNNs) are often criticized for their poor predictive performance compared to their deterministic counterparts. We argue that this is partly due to the standard Bayesian approach of using a single, global prior over all weights, which is often misspecified. We propose a hybrid approach that combines Bayesian inference with frequentist regularization. Specifically, we use a frequentist penalty on the weights to encourage them to be close to a pre-trained deterministic model, while using a Bayesian approach to capture uncertainty. We show that this approach leads to BNNs that are more robust and have better predictive performance than standard BNNs, while still providing well-calibrated uncertainty estimates.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2106.10065",
     "conferenceName": "25th International Conference on Artificial Intelligence and Statistics",
@@ -19,6 +20,7 @@
       "Scholar": "0ZAb3tsAAAAJ:sNmaIFBj_lkC",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "proceedingsTitle": "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"

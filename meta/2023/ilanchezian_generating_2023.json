@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Counterfactual explanations are a promising approach to provide interpretable insights into the decision-making process of deep learning models in medical imaging. However, generating realistic counterfactuals for high-dimensional medical images remains challenging. In this work, we propose a method to generate counterfactuals for retinal fundus and optical coherence tomography (OCT) images using diffusion models. We leverage the latent space of a pre-trained diffusion model to perform counterfactual edits by optimizing the latent representation to change the model's prediction while preserving the identity of the original image. We demonstrate that our method generates realistic and clinically plausible counterfactuals for both fundus and OCT images, and that these counterfactuals can be used to gain insights into the features that drive the model's predictions.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2311.11629",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "0ZAb3tsAAAAJ:mKu_rENv82IC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

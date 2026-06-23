@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Artificial intelligence (AI) is increasingly being used in ophthalmology. While many studies report high diagnostic accuracy, the clinical utility of these algorithms is often unclear. This article provides guidelines for physicians to critically evaluate AI studies in ophthalmology. We discuss the key components of AI studies, including data quality, model development, validation, and reporting. We also provide a checklist for clinicians to assess the quality and clinical relevance of AI studies.",
     "extra": {
       "Citations@2026-06-01": "14",
       "Scholar": "lPQLk3QAAAAJ:ldfaerwXgEUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

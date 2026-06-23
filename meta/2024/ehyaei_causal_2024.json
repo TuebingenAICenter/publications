@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Individual fairness requires that similar individuals receive similar outcomes. However, defining similarity is challenging, especially in heterogeneous data spaces where features have different types and causal relationships. We propose Causal Adversarial Perturbations (CAP), a framework that leverages causal models to generate meaningful perturbations for individual fairness and robustness. CAP identifies causal paths between features and uses them to generate adversarial examples that respect the causal structure of the data. We demonstrate that CAP improves individual fairness and robustness against adversarial attacks in various settings, including tabular and image data.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4386044620",
       "Scholar": "s8xc2K4AAAAJ:UebtZRa9Y70C"
-    }
+    },
+    "itemType": "document"
   }
 }

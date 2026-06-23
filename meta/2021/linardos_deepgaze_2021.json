@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Saliency models have reached high performance on standard benchmarks. However, it remains unclear how well these models generalize to out-of-domain data and whether their predictions are well-calibrated. In this paper, we introduce DeepGaze IIE, a new state-of-the-art saliency model that achieves superior performance on the MIT Saliency Benchmark. We show that DeepGaze IIE is well-calibrated and generalizes significantly better to out-of-domain data than previous models. We further provide a comprehensive analysis of the factors that contribute to the performance and calibration of saliency models, and we propose a new evaluation protocol for saliency models that accounts for both performance and calibration.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2105.12441",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "0z0fNxUAAAAJ:2l5NCbZemmgC"
     },
+    "itemType": "document",
     "libraryCatalog": "CVF Open Access"
   }
 }

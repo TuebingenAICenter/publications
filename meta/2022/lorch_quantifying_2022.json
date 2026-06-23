@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The COVID-19 pandemic has forced many countries to implement non-pharmaceutical interventions, such as contact tracing, testing, and social distancing, to contain the spread of the virus. However, it remains unclear how these measures interact and how their effectiveness depends on the underlying structure of the population and the presence of infection hotspots. In this paper, we propose a stochastic model of disease transmission that accounts for the heterogeneity in contact patterns and the presence of infection hotspots. We use this model to quantify the effects of contact tracing, testing, and containment measures on the spread of the virus. Our results show that the effectiveness of these measures is highly dependent on the population structure and that, in the presence of infection hotspots, contact tracing and testing can be significantly more effective than in a homogeneous population. We also show that the combination of these measures can lead to a significant reduction in the number of infections, even in the presence of high levels of transmission.",
     "archive": "arXiv",
     "archiveLocation": "2004.07641",
     "extra": {
@@ -14,6 +15,7 @@
       "OpenAlex": "W4287814691",
       "Scholar": "DZ-fHPgAAAAJ:YIG4090bppsC",
       "Volume": "8"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Causal representation learning aims to recover the underlying causal variables and their causal structure from high-dimensional observations. A major challenge in this field is partial observability, where some causal variables are unobserved (confounders). In this work, we propose a new identifiability framework for partially observable causal representation learning. We introduce a sparsity principle based on the observation that the causal graph is often sparse, and that the influence of unobserved confounders on the observed variables is limited. We show that this principle allows for the identifiability of the causal variables and the causal structure up to a permutation and component-wise transformations. We provide theoretical guarantees for our approach and demonstrate its effectiveness on synthetic and real-world datasets.",
     "conferenceName": "41st International Conference on Machine Learning",
     "extra": {
       "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

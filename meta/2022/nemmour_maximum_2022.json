@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We consider the problem of nonlinear chance-constrained optimization under distribution uncertainty. We propose a distributionally robust optimization (DRO) framework where the ambiguity set is defined as a ball in the space of probability measures centered at the empirical distribution, with the radius defined by the Maximum Mean Discrepancy (MMD). We show that the resulting DRO problem can be reformulated as a tractable convex optimization problem. Furthermore, we provide a finite-sample guarantee for the feasibility of the solution, which is independent of the dimension of the uncertainty space. We demonstrate the effectiveness of our approach on a nonlinear control problem.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4224952738",
       "Pages": "5660--5667",
       "Scholar": "DZ-fHPgAAAAJ:NSmKLyXLPGIC"
-    }
+    },
+    "itemType": "document"
   }
 }

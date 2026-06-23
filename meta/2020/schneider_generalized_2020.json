@@ -6,9 +6,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Invariant Risk Minimization (IRM) aims to learn representations that are invariant across different environments to improve out-of-distribution generalization. However, IRM is often difficult to optimize and can be unstable. In this paper, we propose Generalized Invariant Risk Minimization (G-IRM), a framework that relates adaptation and invariant representation learning. We show that G-IRM can be interpreted as a form of domain adaptation, and we provide a theoretical analysis of its properties. We demonstrate that G-IRM achieves state-of-the-art performance on several benchmark datasets.",
     "extra": {
       "Citations@2026-06-01": "1",
       "Scholar": "v-JL-hsAAAAJ:R3hNpaxXUhUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

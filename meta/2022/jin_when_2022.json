@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Moral judgment is a cornerstone of human social interaction, yet it is notoriously difficult to formalize. While many theories of moral judgment exist, they often struggle to account for the nuance and flexibility of human moral reasoning, particularly in cases where exceptions to general rules are made. In this paper, we explore the potential of large language models (LLMs) to serve as accounts of human moral judgment. We introduce a new dataset of moral scenarios that require reasoning about exceptions, and we evaluate the performance of several state-of-the-art LLMs on this task. We find that while LLMs are capable of capturing some aspects of human moral judgment, they still struggle with the nuanced reasoning required to identify and justify exceptions. We discuss the implications of these findings for the development of more robust and interpretable moral reasoning systems.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2210.01478",
     "extra": {
@@ -12,6 +13,7 @@
       "Citations@2026-06-01": "25",
       "OpenAlex": "W4302306219",
       "Scholar": "DZ-fHPgAAAAJ:iEO3_F_Twi4C"
-    }
+    },
+    "itemType": "document"
   }
 }

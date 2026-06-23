@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Political decision-making is a complex process influenced by many factors. In this paper, we propose a framework to mine the causes of political decision-making from social media. We apply this framework to study the COVID-19 policies across the US states. We find that social media discourse is a strong predictor of political decisions, and that the causal relationship between social media and policy-making is bidirectional. Our results suggest that social media can be used as a tool to understand and predict political decision-making.",
     "extra": {
       "Citations@2026-06-01": "20",
       "Scholar": "DZ-fHPgAAAAJ:P6aKQKnrKEQC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

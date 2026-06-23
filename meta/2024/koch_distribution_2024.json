@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Medical AI algorithms are increasingly deployed in clinical practice. However, their performance can degrade over time due to distribution shifts, such as changes in patient populations or imaging hardware. Postmarket surveillance is therefore essential to ensure patient safety. Here, we propose a framework for the postmarket surveillance of medical AI algorithms based on distribution shift detection. We evaluate the performance of different shift detection methods in a retrospective simulation study using a large-scale chest X-ray dataset. We find that monitoring the distribution of the model's output probabilities is a robust and sensitive approach for detecting various types of distribution shifts. Our results demonstrate that this approach can effectively trigger alerts for performance degradation, providing a basis for proactive model maintenance and updates in clinical settings.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:43:09",
@@ -30,6 +31,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "lPQLk3QAAAAJ:N5tVd3kTz84C"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 10</p>",

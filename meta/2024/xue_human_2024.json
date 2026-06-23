@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Creating high-fidelity 3D human avatars from a single image is a challenging task that requires both high-quality geometry and realistic texture. Existing methods often struggle with the trade-off between generation speed and 3D consistency, or they fail to produce high-frequency details. In this paper, we propose Human 3Diffusion, a novel framework for realistic avatar creation that leverages explicit 3D consistent diffusion models. Our approach integrates a 3D-aware diffusion process with a canonical space representation, ensuring that the generated avatars are consistent across different viewpoints while maintaining high visual quality. By explicitly modeling the 3D structure during the diffusion process, our method achieves superior results in both geometry reconstruction and texture synthesis compared to state-of-the-art approaches. We demonstrate the effectiveness of our method through extensive experiments on various human subjects, showing that Human 3Diffusion can generate high-quality, 3D-consistent avatars from a single input image in a fast and efficient manner.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2406.08475",
     "conferenceName": "NeurIPS",
@@ -14,6 +15,7 @@
       "OpenAlex": "W4399657815",
       "Scholar": "OpXMNnMAAAAJ:EkHepimYqZsC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a new algorithm for parsing with semiring-weighted context-free grammars. Our algorithm is a generalization of the Earley parser that computes the sum of the weights of all derivations of a string. Like the original Earley parser, it runs in O(nˆ3) time for general context-free grammars and O(nˆ2) time for unambiguous grammars. We show that our algorithm is more efficient than the standard approach of converting the grammar to Chomsky Normal Form and using the CKY algorithm, as it avoids the overhead of binarization. We also provide a formal proof of correctness and demonstrate the efficiency of our algorithm on a range of tasks.",
     "conferenceName": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)",
     "extra": {
       "Event Place": "Toronto, Canada",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)"
   }
 }

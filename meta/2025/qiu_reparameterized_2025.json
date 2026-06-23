@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large language model (LLM) training is often hindered by the ill-conditioning of weight matrices, which can lead to unstable gradients and slow convergence. In this paper, we propose a novel reparameterization technique, Orthogonal Equivalence Transformation (OET), to improve the conditioning of weight matrices during training. OET leverages the fact that the output of a linear layer is invariant to orthogonal transformations of the weight matrix, provided the input is transformed accordingly. By maintaining an orthogonal basis for the weight matrix, we can effectively decouple the scale and direction of the weights, leading to more stable and efficient training. We demonstrate the effectiveness of OET on a range of LLM training tasks, showing that it consistently improves convergence speed and final performance compared to standard training methods.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2506.08001",
     "attachments": [
@@ -26,6 +27,7 @@
       "OpenAlex": "W4417136564",
       "Scholar": "VRBv6mEAAAAJ:e5wmG9Sq2KIC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

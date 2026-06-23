@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Unsupervised disentanglement learning aims to separate the independent factors of variation in data without access to ground-truth labels. Recent theoretical results show that this is impossible without inductive biases on both the models and the data. In this paper, we investigate the setting where a small number of labeled data is available. We show that even a few labeled examples can be used to identify the factors of variation and significantly improve disentanglement performance. We propose a simple yet effective semi-supervised approach that leverages these labels to learn a disentangled representation. We empirically demonstrate that our method outperforms state-of-the-art unsupervised approaches on several datasets and that it is robust to the choice of the few labeled examples.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:1905.01258",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:NKamU9JBio0C"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

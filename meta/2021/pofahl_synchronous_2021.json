@@ -6,11 +6,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The dentate gyrus (DG) is thought to perform pattern separation, a computation that requires sparse and decorrelated neuronal activity. However, the DG also exhibits synchronous activity patterns, such as sharp-wave ripples, which are associated with memory consolidation. Here, we show that the DG exhibits a distinct form of synchronous activity during immobility, which we term 'dentate spikes'. Dentate spikes are large-amplitude, population-wide events that are distinct from sharp-wave ripples. They are associated with a transient increase in the firing rate of granule cells and interneurons, and are accompanied by a characteristic local field potential signature. Dentate spikes are highly synchronous across the DG and are associated with a transient increase in the firing rate of granule cells and interneurons. We show that dentate spikes are associated with a transient increase in the firing rate of granule cells and interneurons, and are accompanied by a characteristic local field potential signature. Our results suggest that dentate spikes represent a distinct mode of DG activity that may be involved in the processing of information during immobility.",
     "extra": {
       "Citations@2026-06-01": "57",
       "OpenAlex": "W3134926635",
       "Scholar": "FKOqtF8AAAAJ:Weau3kkTRIMC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The classification of neurons into cell types is a fundamental task in neuroscience. With the increasing availability of digital reconstructions of neuronal morphologies, quantitative methods for comparing and clustering these morphologies have become essential. However, it is unclear which representation of morphology is most suitable for cell type discrimination. Here, we systematically evaluate a wide range of morphological representations, including classical morphometric features, graph-based representations, and representations derived from deep learning models. We compare these representations on a large dataset of interneuron morphologies from the mouse visual cortex. We find that while classical morphometric features perform well, they are outperformed by representations that capture the spatial arrangement of the dendritic tree. Furthermore, we show that deep learning-based representations can learn informative features directly from the raw morphology, providing a promising avenue for future research.",
     "extra": {
       "Citations@2026-06-01": "0",
       "Identifier": "10.1007/s12021-020-09461-z",
@@ -14,6 +15,7 @@
       "Publication Title": "Neuroinformatics 18 (4), 591-609, 2020",
       "Scholar": "lPQLk3QAAAAJ:isC4tDSrTZIC",
       "Volume": "18"
-    }
+    },
+    "itemType": "document"
   }
 }

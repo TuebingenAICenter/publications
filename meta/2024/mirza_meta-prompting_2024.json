@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Zero-shot visual recognition has been significantly advanced by vision-language models (VLMs) like CLIP, which rely on textual prompts to describe visual concepts. However, the performance of these models is highly sensitive to the choice of prompts, and manually engineering optimal prompts for every new task is labor-intensive and often suboptimal. In this work, we propose Meta-Prompting, a novel framework that automates the generation of effective prompts for zero-shot visual recognition using Large Language Models (LLMs). Instead of relying on human-crafted templates, our approach leverages the reasoning capabilities of LLMs to generate task-specific, descriptive, and diverse prompts. We introduce a meta-prompting strategy that guides the LLM to synthesize prompts by considering the visual characteristics of the target classes and the requirements of the downstream task. Our extensive experiments on various benchmarks demonstrate that Meta-Prompting consistently outperforms existing prompt engineering methods and achieves state-of-the-art performance in zero-shot classification, while significantly reducing the need for manual intervention.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2403.11755",
     "attachments": [
@@ -36,6 +37,7 @@
       "Scholar": "SrVnrPcAAAAJ:3A3nxV7CjKIC",
       "arXiv": "2403.11755"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 178</p>",

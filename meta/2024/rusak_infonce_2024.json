@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The InfoNCE loss is the de facto standard for contrastive learning. While its theoretical properties are well-understood—specifically, its relationship to mutual information maximization—the practical behavior of InfoNCE is often at odds with these theoretical foundations. In this paper, we identify and analyze the gap between the theoretical objective and the practical implementation of InfoNCE. We show that the standard implementation of InfoNCE is not a direct estimator of mutual information, but rather a biased estimator that is heavily influenced by the choice of the batch size and the distribution of the negative samples. We provide a theoretical framework to quantify this bias and demonstrate that it can lead to suboptimal representations. Finally, we propose a simple modification to the InfoNCE loss that mitigates this bias and improves performance on downstream tasks.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2407.00143",
     "conferenceName": "AISTATS",
@@ -14,6 +15,7 @@
       "OpenAlex": "W4400267098",
       "Scholar": "v-JL-hsAAAAJ:EUQCXRtRnyEC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

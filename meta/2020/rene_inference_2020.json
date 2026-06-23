@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present a method for inferring the parameters of a mesoscopic population model from population spike trains. Our model is based on a stochastic differential equation for the population firing rate, which is coupled to the observed spike trains via a point process. We use a Bayesian framework to infer the parameters of the model, and we develop an efficient Markov chain Monte Carlo (MCMC) algorithm for sampling from the posterior distribution. We demonstrate the performance of our method on synthetic data and on recordings from the primary visual cortex of anesthetized mice.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4288095507",
       "Scholar": "FKOqtF8AAAAJ:djft3U1LymYC"
-    }
+    },
+    "itemType": "document"
   }
 }

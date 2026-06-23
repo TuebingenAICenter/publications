@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The DeepGaze models have been very successful in predicting human fixation density maps. However, they do not predict scanpaths, i.e., the sequence of fixations. Here, we present two enhancements to the DeepGaze IIE model that allow it to predict scanpaths. First, we introduce a new readout mechanism that allows the model to predict the next fixation based on the current fixation. Second, we introduce a new loss function that encourages the model to predict scanpaths that are similar to human scanpaths. We evaluate our model on the MIT Saliency Benchmark and show that it outperforms the state-of-the-art models in predicting human scanpaths.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3198112582",
       "Scholar": "0z0fNxUAAAAJ:wvYxNZNCP7wC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Adversarial training is a popular technique to improve the robustness of machine learning models against adversarial attacks. Despite its empirical success, the theoretical understanding of adversarial training remains limited. In this paper, we propose a novel framework for analyzing adversarial training using the theory of Reproducing Kernel Hilbert Spaces (RKHS). We show that the adversarial training objective can be viewed as a regularized risk minimization problem in an RKHS, where the regularizer is determined by the kernel and the adversarial perturbation. We introduce the notion of a \"witness function\" that characterizes the adversarial vulnerability of a model. By analyzing the properties of this witness function, we provide new insights into the robustness of models trained with adversarial examples. We also propose a kernel-based adversarial training algorithm and demonstrate its effectiveness on several benchmark datasets.",
     "archive": "arXiv",
     "archiveLocation": "1901.09206",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "1901.09206"
-    }
+    },
+    "itemType": "conferencePaper"
   }
 }

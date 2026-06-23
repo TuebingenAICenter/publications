@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present Dictionary Fields, a novel neural representation which decomposes a signal into a product of factors, each represented by a classical or neural field representation, operating on transformed input coordinates. More specifically, we factorize a signal into a coefficient field and a basis field, and exploit periodic coordinate transformations to apply the same basis functions across multiple locations and scales. Our experiments show that Dictionary Fields lead to improvements in approximation quality, compactness, and training time when compared to previous fast reconstruction methods. Experimentally, our representation achieves better image approximation quality on 2D image regression tasks, higher geometric quality when reconstructing 3D signed distance fields, and higher compactness for radiance field reconstruction tasks. Furthermore, Dictionary Fields enable generalization to unseen images/3D scenes by sharing bases across signals during training which greatly benefits use cases such as image regression from partial observations and few-shot radiance field reconstruction.",
     "extra": {
       "Citations@2026-06-01": "21",
       "OpenAlex": "W4385261185",
       "Scholar": "SrVnrPcAAAAJ:L24QuVWYgZ0C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Machine learning has made impressive progress in recent years, largely due to the success of deep learning in finding statistical patterns in large datasets. However, these systems often struggle to generalize to new environments or to understand the causal mechanisms that generate the data. This chapter discusses the role of causality in machine learning, arguing that causal models are essential for building more robust and interpretable systems. We review the fundamental concepts of causal inference, including structural causal models and the do-calculus, and discuss how they can be integrated into machine learning pipelines to improve performance and reliability.",
     "archive": "arXiv",
     "archiveLocation": "1911.10500",
     "extra": {
@@ -14,6 +15,7 @@
       "OpenAlex": "W2990408532",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:RPh6sY6S0Z0C"
-    }
+    },
+    "itemType": "document"
   }
 }

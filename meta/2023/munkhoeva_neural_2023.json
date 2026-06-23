@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Self-supervised learning (SSL) methods often rely on contrastive loss functions to learn representations. While effective, these methods can be computationally expensive and sensitive to hyperparameters. In this paper, we propose Neural Harmonics, a novel framework that bridges spectral embedding and matrix completion for SSL. We show that many popular SSL methods can be interpreted as performing spectral embedding on a graph constructed from the data. By leveraging this connection, we formulate SSL as a matrix completion problem, which allows us to learn representations by solving a convex optimization problem. We demonstrate the effectiveness of our approach on several benchmark datasets, showing that it achieves competitive performance while being more computationally efficient and robust to hyperparameters than existing methods.",
     "conferenceName": "Advances in Neural Information Processing Systems",
     "extra": {
       "Event Place": "New Orleans, USA",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Expected risk minimization (ERM) is at the core of machine learning systems. This means that the risk inherent in a loss distribution is summarized using a single number - its average. In this paper, we propose a general approach to construct risk measures which exhibit a desired tail sensitivity and may replace the expectation operator in ERM. Our method relies on the specification of a reference distribution with a desired tail behaviour, which is in a one-to-one correspondence to a coherent upper probability. Any risk measure, which is compatible with this upper probability, displays a tail sensitivity which is finely tuned to the reference distribution. As a concrete example, we focus on divergence risk measures based on f-divergence ambiguity sets, which are a widespread tool used to foster distributional robustness of machine learning systems. For instance, we show how ambiguity sets based on the Kullback-Leibler divergence are intricately tied to the class of subexponential random variables. We elaborate the connection of divergence risk measures and rearrangement invariant Banach norms.",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W4300407449",
       "Scholar": "G4MBruQAAAAJ:6G1OFF11MdUC"
-    }
+    },
+    "itemType": "document"
   }
 }

@@ -9,6 +9,7 @@
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "ICML 2021 Workshop on Neglected Assumptions in Causal Inference"
   }
 }

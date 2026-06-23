@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Recourse explanations aim to provide individuals with actionable advice on how to change an unfavorable model decision. However, the validity of these explanations is often assessed in a static setting, ignoring that the model itself might change in response to the actions taken by individuals. In this paper, we introduce the concept of performative validity for recourse explanations. We show that an explanation that is valid for a static model can become invalid when the model is updated based on the actions taken by individuals. We formalize this phenomenon and provide conditions under which recourse explanations remain valid under performative model updates. Our theoretical results are complemented by empirical evaluations on synthetic and real-world datasets.",
     "archive": "arXiv",
     "archiveLocation": "2506.15366",
     "attachments": [
@@ -25,6 +26,7 @@
       "OpenAlex": "W4416120121",
       "Scholar": "UqtDdZUAAAAJ:ns9cj8rnVeAC"
     },
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {

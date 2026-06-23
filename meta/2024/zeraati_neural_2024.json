@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Neural activity exhibits fluctuations across a wide range of timescales, from milliseconds to seconds. These timescales are not uniform across the brain but are organized into a hierarchy that is thought to support diverse cognitive functions. While much research has focused on characterizing these timescales empirically, a unifying computational framework for understanding their origin and functional significance remains elusive. In this perspective, we review recent advances in understanding neural timescales from a computational lens. We discuss how timescales emerge from the interplay of circuit architecture, synaptic dynamics, and learning rules, and how they relate to the computational demands of the tasks an organism performs. We highlight the challenges in measuring and interpreting timescales and propose future directions for integrating experimental and theoretical approaches to uncover the principles governing the temporal organization of neural activity.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2409.02684",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "FKOqtF8AAAAJ:u1IMlZnpNFQC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

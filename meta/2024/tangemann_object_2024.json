@@ -6,12 +6,14 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The ability to segment objects from a background is a fundamental task of the visual system. While deep learning models have achieved impressive performance on object segmentation in natural images, they often struggle with stimuli that require grouping based on motion cues, such as random dot kinematograms. In this work, we show that standard deep learning models fail to segment objects defined solely by common fate, even when trained on large datasets. We hypothesize that this failure is due to the lack of explicit motion energy processing in standard architectures. We propose a simple, biologically inspired motion energy module that can be integrated into existing architectures. We demonstrate that this module enables zero-shot generalization to random dot stimuli, achieving human-like performance on a variety of segmentation tasks. Our results suggest that motion energy processing is a crucial component for robust object segmentation and that incorporating such mechanisms can bridge the gap between artificial and biological vision.",
     "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4415800577",
       "Scholar": "0z0fNxUAAAAJ:WwIwg2wKZ0QC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",

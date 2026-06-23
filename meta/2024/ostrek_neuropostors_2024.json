@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Crowd rendering and animation was a very active research area over a decade ago, but in recent years this has lessened, mainly due to improvements in graphics acceleration hardware. Nevertheless, there is still a high demand for generating varied crowd appearances and animation for games, movie production, and mixed-reality applications. Current approaches are still limited in terms of both the behavioral and appearance aspects of virtual characters due to (i) high memory and computational demands; and (ii) person-hours needed of skilled artists in the context of short production cycles. A promising previous approach to generating varied crowds was the use of pre-computed impostor representations for crowd characters, which could replace an animation of a 3D mesh with a simplified 2D impostor for every frame of an animation sequence, e.g., Geopostors [1]. However, with their high memory demands at a time when improvements in consumer graphics accelerators were outpacing memory availability, the practicality of such methods was limited. Inspired by this early work and recent advances in the field of Neural Rendering, we present a new character representation: Neuropostors. We train a Convolutional Neural Network as a means of compressing both the geometric properties and animation key-frames for a 3D character, thereby allowing for constant-time rendering of animated characters from arbitrary camera views. Our method also allows for explicit illumination and material control, by utilizing a flexible rendering equation that is connected to the outputs of the neural network.",
     "conferenceName": "27th International Conference on Pattern Recognition (ICPR)",
     "extra": {
       "Source": "group_webpage (black)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "27th International Conference on Pattern Recognition (ICPR)"
   }
 }

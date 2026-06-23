@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present an improved equation of state (EOS) for air plasma simulations in the temperature range of 300–30 000 K and pressures up to 1000 atm. The model is based on the minimization of the Gibbs free energy and accounts for the dissociation and ionization of the air species. We compare our results with existing models and experimental data, showing that our EOS provides a more accurate description of the thermodynamic properties of air plasma, particularly in the transition regions between different ionization states. The model is computationally efficient and suitable for use in large-scale computational fluid dynamics simulations.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

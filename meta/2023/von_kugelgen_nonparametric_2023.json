@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the problem of identifying latent causal variables from observed data. Existing work on causal representation learning typically assumes that the causal variables are observed under known interventions or that the causal graph is known. We relax these assumptions and consider the setting where we have access to data from multiple environments, each corresponding to an unknown intervention on a subset of the latent variables. We provide the first nonparametric identifiability results for this setting. Specifically, we show that the latent causal variables and the causal mechanism are identifiable up to a permutation and component-wise transformations, provided that the interventions are sufficiently diverse. Our results rely on a novel connection between causal representation learning and independent component analysis, and we provide a constructive proof that leads to a practical algorithm for learning causal representations.",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4379256287",
       "Pages": "48603--48638",
       "Scholar": "DZ-fHPgAAAAJ:AA0X8fE1wMwC",
       "Volume": "36"
-    }
+    },
+    "itemType": "document"
   }
 }

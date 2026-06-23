@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The spectacular rise of AI has lead to anxiety regarding the ethics of AI—how might one conceive and control the ethical impacts of AI technology. I will first sketch the traditional framing of “the ethics of AI.” I will then provide an inverse view, that sees AI as an extension of human reasoning, with concomitantly different conclusions regarding decisional autonomy. I will further argue that the solution to many ethical problems relies upon the better use of cognitive technologies such as AI. That is, we have largely had it backwards — it is the AI of ethics that warrants our attention, and the root of the harm is the use of AI, not the technology itself.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W3200872922",
       "Publication Title": "Machines we trust, 139-60, 2021",
       "Scholar": "G4MBruQAAAAJ:gFcjaLVeiroC"
-    }
+    },
+    "itemType": "bookSection"
   }
 }

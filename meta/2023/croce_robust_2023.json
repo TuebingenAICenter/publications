@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Adversarial robustness of semantic segmentation models is a critical requirement for safety-critical applications like autonomous driving. However, evaluating and training robust segmentation models is computationally expensive due to the high dimensionality of the output space. In this paper, we propose a new, efficient adversarial attack for semantic segmentation, which we call the 'Segmentation Attack' (SegAttack). SegAttack is based on a novel loss function that accounts for the spatial structure of the segmentation mask and is significantly faster than existing attacks. We further propose a fast training method for robust segmentation models, which we call 'Segmentation Adversarial Training' (SegAT). SegAT leverages the efficiency of SegAttack to train robust models in a fraction of the time required by standard adversarial training. We demonstrate the effectiveness of our approach on several standard benchmarks, showing that it achieves state-of-the-art robustness while being significantly faster to train than existing methods.",
     "archive": "arXiv",
     "archiveLocation": "2306.12941",
     "extra": {
       "Citations@2026-06-01": "14",
       "Scholar": "0ZAb3tsAAAAJ:6bLC7aUMtPcC",
       "arXiv": "2306.12941"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

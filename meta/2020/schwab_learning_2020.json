@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Estimating the effect of a continuous-valued treatment on an outcome is a fundamental problem in many fields, including medicine and economics. While most existing methods for causal inference focus on binary treatments, many real-world interventions are continuous. In this paper, we propose the Counterfactual Regression for Dose-Response (CFRDR) model, a novel framework for estimating individual dose-response curves. Our approach learns a balanced representation of the input features that is independent of the treatment dose, while simultaneously predicting the potential outcomes. We demonstrate that our method achieves state-of-the-art performance on several benchmark datasets and provides a robust estimation of individual dose-response curves.",
     "conferenceName": "34th Conference on Artificial Intelligence",
     "extra": {
       "AAAI Technical Track": "Machine Learning",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 34th Conference on Artificial Intelligence (AAAI)"
   }
 }

@@ -7,6 +7,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Independent Mechanism Analysis (IMA) is a framework for causal representation learning that aims to recover the independent causal mechanisms of a data-generating process from observations. While recent work has established identifiability results for IMA, practical algorithms for this task remain scarce. In this work, we show that standard Variational Autoencoders (VAEs) can perform IMA when trained on data from different environments. We provide a theoretical analysis showing that the VAE objective encourages the latent variables to align with the independent mechanisms of the data-generating process. We further demonstrate that this alignment is robust to the choice of the encoder and decoder architectures and that it can be leveraged to perform causal discovery. We validate our findings on synthetic and real-world datasets, showing that VAEs can recover the underlying causal structure and mechanisms in a variety of settings.",
     "archive": "arXiv",
     "archiveLocation": "2206.02416",
     "extra": {
@@ -19,6 +20,7 @@
       "Scholar": "b-JF-UIAAAAJ:PELIpwtuRlgC",
       "Volume": "35"
     },
+    "itemType": "document",
     "libraryCatalog": "NeurIPS Proceedings"
   }
 }

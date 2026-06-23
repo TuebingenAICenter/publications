@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Generative models are now widely used by graphic designers and artists. Prior works have shown that these models remember and often replicate content from their training data during generation. Hence as their proliferation increases, it has become important to perform a database search to determine whether the properties of the image are attributable to specific training data, every time before a generated image is used for professional purposes. Existing tools for this purpose focus on retrieving images of similar semantic content. Meanwhile, many artists are concerned with style replication in text-to-image models. We present a framework for understanding and extracting style descriptors from images. Our framework comprises a new dataset curated using the insight that style is a subjective property of an image that captures complex yet meaningful interactions of factors including but not limited to colors, textures, shapes, etc. We also propose a method to extract style descriptors that can be used to attribute style of a generated image to the images used in the training dataset of a text-to-image model. We showcase promising results in various style retrieval tasks. We also quantitatively and qualitatively analyze style attribution and matching in the Stable Diffusion model. Code and artifacts are available at https://github.com/learn2phoenix/CSD.",
     "extra": {
       "Citations@2026-06-01": "12",
       "OpenAlex": "W4404821172",
       "Publication Title": "European Conference on Computer Vision, 143-160, 2024",
       "Scholar": "206vNCEAAAAJ:tS2w5q8j5-wC"
-    }
+    },
+    "itemType": "bookSection"
   }
 }

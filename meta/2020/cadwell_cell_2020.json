@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The neocortex is composed of a diverse array of excitatory neuron types that are generated from radial glial progenitors during development. Whether clonally related neurons, which share a common progenitor, are more likely to be of the same cell type or to form specific synaptic connections remains debated. Here, we used a combination of retroviral lineage tracing, Patch-seq, and multi-neuron patch-clamp recordings in the juvenile mouse visual cortex to address this question. We found that clonally related excitatory neurons are not more likely to be of the same transcriptomic cell type than non-related neurons. Furthermore, we found that clonally related neurons do not exhibit increased connectivity compared to non-related neurons. Our results suggest that the lineage of excitatory neurons in the juvenile mouse neocortex does not strongly constrain their cell type identity or their local circuit connectivity.",
     "extra": {
       "Citations@2026-06-01": "53",
       "OpenAlex": "W3010382778",
       "Scholar": "lPQLk3QAAAAJ:NaGl4SEjCO4C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

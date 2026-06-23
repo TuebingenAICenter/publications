@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Brain-Computer Interfaces (BCIs) often rely on the estimation of covariance matrices of electroencephalographic (EEG) signals. These matrices are symmetric positive definite (SPD) and lie on a Riemannian manifold. However, in many BCI applications, such as the analysis of cross-spectral density matrices, the matrices are Hermitian positive definite (HPD). In this paper, we extend the Riemannian framework for SPD matrices to the Hermitian manifold. We propose a novel feature extraction method based on the geometry of the HPD manifold and demonstrate its effectiveness on a motor imagery BCI dataset.",
     "extra": {
       "Citations@2026-06-01": "3",
       "OpenAlex": "W2945664631",
       "Scholar": "DZ-fHPgAAAAJ:amtGwOyh6YUC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

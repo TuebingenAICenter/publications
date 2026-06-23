@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We investigate whether large language models (LLMs) exhibit the same cognitive biases as human learners when solving problems. We focus on the domain of causal induction, where humans are known to exhibit systematic biases, such as the tendency to over-rely on prior knowledge or to ignore base rates. We evaluate a range of LLMs on a suite of causal induction tasks and find that they exhibit many of the same biases as humans. However, we also find that the extent of these biases varies across models and that some models are more susceptible to certain biases than others. Our results suggest that LLMs can serve as useful models of human cognitive biases, but that they also exhibit unique patterns of behavior that warrant further investigation.",
     "extra": {
       "Citations@2026-06-01": "21",
       "OpenAlex": "W4391463123",
       "Pages": "38762--38778",
       "Scholar": "DZ-fHPgAAAAJ:hNZCxRqK-JcC",
       "Volume": "235"
-    }
+    },
+    "itemType": "document"
   }
 }

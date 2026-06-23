@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Advantage estimation is a core component of many reinforcement learning algorithms. Most existing methods rely on temporal difference (TD) learning, which can be biased due to function approximation and bootstrapping. In this paper, we propose Direct Advantage Estimation (DAE), a method that estimates the advantage function directly from data without relying on TD learning. DAE is based on the observation that the advantage function can be expressed as the difference between the action-value function and the state-value function. We show that DAE can be implemented using a simple regression objective and that it is consistent under mild conditions. We demonstrate the effectiveness of DAE on a variety of continuous control tasks, showing that it can improve the performance of existing policy gradient methods.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W7133238471",
       "Scholar": "DZ-fHPgAAAAJ:SKzpf8iH-sAC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

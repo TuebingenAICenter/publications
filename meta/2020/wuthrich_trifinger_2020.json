@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We present TriFinger, an open-source robot platform designed for research in robot manipulation and reinforcement learning. The platform consists of a three-fingered manipulator, a workspace, and a software stack that allows for easy integration of learning algorithms. We demonstrate the capabilities of the platform by training the robot to perform a variety of manipulation tasks, including object pushing, grasping, and throwing. Our results show that the TriFinger platform is a reliable and versatile tool for research in robot learning.",
     "extra": {
       "Citations@2026-06-01": "24",
       "OpenAlex": "W3047943996",
       "Scholar": "DZ-fHPgAAAAJ:9JTRjWh4pBIC"
     },
+    "itemType": "journalArticle",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

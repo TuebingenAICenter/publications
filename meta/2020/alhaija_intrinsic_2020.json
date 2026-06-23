@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Neural rendering techniques promise efficient photo-realistic image synthesis while providing rich control over scene parameters by learning the physical image formation process. While several supervised methods have been pro-posed for this task, acquiring a dataset of images with accurately aligned 3D models is very difficult. The main contribution of this work is to lift this restriction by training a neural rendering algorithm from unpaired data. We pro-pose an auto encoder for joint generation of realistic images from synthetic 3D models while simultaneously decomposing real images into their intrinsic shape and appearance properties. In contrast to a traditional graphics pipeline, our approach does not require to specify all scene properties, such as material parameters and lighting by hand.Instead, we learn photo-realistic deferred rendering from a small set of 3D models and a larger set of unaligned real images, both of which are easy to acquire in practice. Simultaneously, we obtain accurate intrinsic decompositions of real images while not requiring paired ground truth. Our experiments confirm that a joint treatment of rendering and de-composition is indeed beneficial and that our approach out-performs state-of-the-art image-to-image translation base-lines both qualitatively and quantitatively.",
     "extra": {
       "Citations@2026-06-01": "5",
       "OpenAlex": "W3128796233",
       "Scholar": "SrVnrPcAAAAJ:jmjb1lOE9QIC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

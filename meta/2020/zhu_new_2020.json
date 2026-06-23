@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In this paper, we propose a new distribution-free concept for representing, comparing, and propagating uncertainty in dynamical systems. Our approach is based on kernel probabilistic programming, which allows us to represent probability distributions as elements in a reproducing kernel Hilbert space (RKHS). This representation enables us to compare distributions using the maximum mean discrepancy (MMD) and to propagate uncertainty through dynamical systems using kernel-based operators. We demonstrate the effectiveness of our approach on several benchmark problems, including a nonlinear dynamical system and a robotic arm control task.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:1911.11082",
     "extra": {
@@ -16,6 +17,7 @@
       "Scholar": "DZ-fHPgAAAAJ:XKD4hAGUp1wC",
       "Volume": "53"
     },
+    "itemType": "document",
     "libraryCatalog": "IFAC-PapersOnLine"
   }
 }

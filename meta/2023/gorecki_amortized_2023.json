@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Bayesian decision making requires solving a nested optimization problem: finding the optimal action that maximizes the expected utility, where the expectation is taken over the posterior distribution. For simulation-based models, where the likelihood is intractable, this is typically computationally prohibitive. We propose a framework for amortized Bayesian decision making that learns to map observations directly to optimal actions. Our approach uses neural density estimation to amortize the posterior inference and a differentiable surrogate model to approximate the expected utility. We demonstrate that our method can solve complex decision-making tasks in simulation-based models, including experimental design and optimal control, with orders of magnitude speedups compared to traditional methods.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2312.02674",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "FKOqtF8AAAAJ:2TuIPqOg0e0C"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

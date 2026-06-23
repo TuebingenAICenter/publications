@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "With the advent of large multimodal language models, science is now at a threshold of an AI-based technological transformation. Recently, a plethora of new AI models and tools has been proposed, promising to empower researchers and academics worldwide to conduct their research more effectively and efficiently. This includes all aspects of the research cycle, especially (1) searching for relevant literature; (2) generating research ideas and conducting experimentation; generating (3) text-based and (4) multimodal content (e.g., scientific figures and diagrams); and (5) AI-based automatic peer review. In this survey, we provide an in-depth overview over these exciting recent developments, which promise to fundamentally alter the scientific research process for good. Our survey covers the five aspects outlined above, indicating relevant datasets, methods and results (including evaluation) as well as limitations and scope for future research. Ethical concerns regarding shortcomings of these tools and potential for misuse (fake science, plagiarism, harms to research integrity) take a particularly prominent place in our discussion. We hope that our survey will not only become a reference guide for newcomers to the field but also a catalyst for new AI-based initiatives in the area of \"AI4Science\".",
     "archive": "arXiv",
     "extra": {
       "Archive ID": "2502.05151",
@@ -16,6 +17,7 @@
       "Source": "group_webpage (geiger)",
       "arXiv": "2501.00000"
     },
+    "itemType": "document",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2502.05151'>https://arxiv.org/abs/2502.05151</a><br><a href='https://doi.org/10.48550/arXiv.2502.05151'>https://doi.org/10.48550/arXiv.2502.05151</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-05151.html'>https://dblp.org/rec/journals/corr/abs-2502-05151.html</a><br></p>",

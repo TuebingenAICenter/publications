@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose Slot Attention, a module that maps from features extracted by a convolutional neural network to a fixed set of object slots. The slots interact with each other through a competitive attention mechanism, which encourages them to specialize in explaining different parts of the input. We show that Slot Attention can be used as a component in an autoencoder to perform object-centric representation learning. Our model achieves state-of-the-art results on challenging synthetic datasets and generalizes to complex, real-world images, where it can be used to perform object-centric reasoning and manipulation.",
     "conferenceName": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
     "extra": {
       "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
   }
 }

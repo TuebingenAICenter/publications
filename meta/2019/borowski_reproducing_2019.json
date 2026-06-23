@@ -6,8 +6,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep neural networks (DNNs) have achieved human-level performance on many computer vision tasks. However, it remains unclear whether they rely on the same features as humans. We propose a novel approach to investigate this question: we train constrained networks to reproduce the decision-making of a target DNN. We find that if the constrained network is restricted to a specific set of features (e.g., shape-based or texture-based), it can only reproduce the target network's decisions if the target network itself relies on those features. We apply this method to analyze the decision-making of state-of-the-art DNNs and find that they rely on a combination of shape and texture features, but that their reliance on texture is significantly higher than that of humans.",
     "extra": {
       "Scholar": "v-JL-hsAAAAJ:Zph67rFs4hoC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

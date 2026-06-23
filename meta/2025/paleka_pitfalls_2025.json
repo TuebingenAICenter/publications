@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large language models (LLMs) have recently been applied to forecasting tasks, with some works claiming these systems match or exceed human performance. In this paper, we argue that, as a community, we should be careful about such conclusions as evaluating LLM forecasters presents unique challenges. We identify two broad categories of issues: (1) difficulty in trusting evaluation results due to many forms of temporal leakage, and (2) difficulty in extrapolating from evaluation performance to real-world forecasting. Through systematic analysis and concrete examples from prior work, we demonstrate how evaluation flaws can raise concerns about current and future performance claims. We argue that more rigorous evaluation methodologies are needed to confidently assess the forecasting abilities of LLMs.",
     "archive": "arXiv",
     "extra": {
       "Archive ID": "arXiv:2506.00723",
@@ -12,6 +13,7 @@
       "OpenAlex": "W4414891844",
       "Scholar": "206vNCEAAAAJ:evX43VCCuoAC"
     },
+    "itemType": "document",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2506.00723'>https://arxiv.org/abs/2506.00723</a><br><a href='https://www.floriantramer.com/publications/pitfalls25'>https://www.floriantramer.com/publications/pitfalls25</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506-00723'>https://dblp.org/rec/journals/corr/abs-2506-00723</a><br></p>",

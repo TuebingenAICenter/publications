@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "This paper describes our zero-shot approachesfor the Visual Word Sense Disambiguation(VWSD) Task in English. Our preliminarystudy shows that the simple approach of match-ing candidate images with the phrase usingCLIP suffers from the many-to-many natureof image-text pairs. We find that the CLIP textencoder may have limited abilities in captur-ing the compositionality in natural language.Conversely, the descriptive focus of the phrasevaries from instance to instance. We addressthese issues in our two systems, Augment-CLIPand Stable Diffusion Sampling (SD Sampling).Augment-CLIP augments the text prompt bygenerating sentences that contain the contextphrase with the help of large language mod-els (LLMs). We further explore CLIP modelsin other languages, as the an ambiguous wordmay be translated into an unambiguous one inthe other language. SD Sampling uses text-to-image Stable Diffusion to generate multipleimages from the given phrase, increasing thelikelihood that a subset of images match theone that paired with the text.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2307.05564",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4384261767",
       "Repository": "arXiv",
       "Scholar": "206vNCEAAAAJ:blknAaTinKkC"
-    }
+    },
+    "itemType": "document"
   }
 }

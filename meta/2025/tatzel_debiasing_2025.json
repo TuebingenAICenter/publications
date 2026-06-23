@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Quadratic approximations form a fundamental building block of machine learning methods. E.g., second-order optimizers try to find the Newton step into the minimum of a local quadratic proxy to the objective function; and the second-order approximation of a network's loss function can be used to quantify the uncertainty of its outputs via the Laplace approximation. When computations on the entire training set are intractable - typical for deep learning - the relevant quantities are computed on mini-batches. This, however, distorts and biases the shape of the associated stochastic quadratic approximations in an intricate way with detrimental effects on applications. In this paper, we (i) show that this bias introduces a systematic error, (ii) provide a theoretical explanation for it, (iii) explain its relevance for second-order optimization and uncertainty quantification via the Laplace approximation in deep learning, and (iv) develop and evaluate debiasing strategies.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:43:00",
@@ -39,6 +40,7 @@
       "Publisher": "University of T&uuml;bingen",
       "Scholar": "UeG5w08AAAAJ:XoXfffV-tXoC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<div data-schema-version=\"9\"><p>Poster at ICLR 2025</p>\n</div>",

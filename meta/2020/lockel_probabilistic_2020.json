@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Imitating human driving behavior is a challenging task due to the high-dimensional state space, the non-linear dynamics of the vehicle, and the multi-modal nature of human decision-making. In this paper, we propose a probabilistic framework for imitating human race driver behavior. Our approach is based on a mixture of experts model that learns to predict the driver's steering and acceleration commands from the vehicle's state. We evaluate our method on a real-world race track dataset and show that it outperforms state-of-the-art imitation learning methods in terms of lap time and driving performance.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

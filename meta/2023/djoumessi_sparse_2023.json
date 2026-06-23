@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Deep learning models have achieved state-of-the-art performance in medical image analysis, but their lack of interpretability remains a major barrier to clinical adoption. While post-hoc explanation methods are commonly used, they often provide unreliable or misleading insights. In this work, we propose a novel approach to interpretability by enforcing sparsity in the latent activations of a deep neural network. We demonstrate that this constraint leads to the emergence of interpretable features that correspond to clinically relevant patterns in medical images. We evaluate our method on two disease grading tasks: diabetic retinopathy and chest X-ray classification. Our results show that sparse activations provide more faithful and intuitive explanations than standard post-hoc methods, while maintaining competitive predictive performance.",
     "archive": "OpenReview",
     "archiveLocation": "https://openreview.net/forum?id=us8BFTsWOq",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W4323566960",
       "Scholar": "lPQLk3QAAAAJ:35r97b3x0nAC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

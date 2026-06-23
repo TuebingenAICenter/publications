@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Die Digitalisierung in der Augenheilkunde schreitet voran, doch die Nutzung von Real-World-Daten (RWD) aus der klinischen Routine für die Forschung bleibt aufgrund heterogener Datenstrukturen und fehlender Interoperabilität eine Herausforderung. Das Projekt EyeMatics adressiert diese Problematik durch die Etablierung einer interoperablen Dateninfrastruktur, die eine multizentrische Auswertung von RWD ermöglicht. Ziel ist es, durch standardisierte Datenformate und automatisierte Extraktionsprozesse eine valide Datenbasis für klinische Studien und Versorgungsforschung zu schaffen.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4404368855",
       "Scholar": "lPQLk3QAAAAJ:ZfRJV9d4-WMC",
       "Source": "group_webpage (berens)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

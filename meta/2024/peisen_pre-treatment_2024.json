@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Background: Metastatic melanoma patients treated with immune checkpoint inhibitors (ICI) show heterogeneous responses. We aimed to evaluate the prognostic value of pre-treatment 18F-FDG-PET/CT parameters in this cohort. Methods: In this retrospective study, 78 patients with metastatic melanoma undergoing first-line ICI were included. Pre-treatment 18F-FDG-PET/CT scans were analyzed for metabolic tumor volume (MTV), total lesion glycolysis (TLG), and maximum standardized uptake value (SUVmax). Associations with progression-free survival (PFS), best overall response (BOR), and overall survival (OS) were assessed using Cox regression and logistic regression models. Results: Higher MTV and TLG were significantly associated with shorter PFS (p 0.001) and OS (p 0.001). SUVmax did not show significant prognostic value. In multivariate analysis, MTV remained an independent predictor for PFS and OS. Furthermore, higher MTV and TLG were associated with progressive disease as best overall response. Conclusion: Pre-treatment MTV and TLG are robust prognostic biomarkers for survival and treatment response in metastatic melanoma patients undergoing first-line ICI, potentially aiding in patient stratification.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

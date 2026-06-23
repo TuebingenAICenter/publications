@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Monte-Carlo Tree Search (MCTS) is a powerful algorithm for sequential decision making. However, MCTS often suffers from high variance in its value estimates, especially in large state spaces. In this paper, we propose to use convex regularization to improve the stability and performance of MCTS. We introduce a regularized version of the Upper Confidence Bound (UCB) algorithm, which we call Regularized-UCB (R-UCB). We show that R-UCB is equivalent to a specific form of MCTS with a regularized objective function. We provide theoretical guarantees for the convergence of R-UCB and demonstrate its effectiveness on a variety of benchmarks, including the game of Go and several Atari games.",
     "conferenceName": "38th International Conference on Machine Learning",
     "extra": {
       "Editors": "Meila, Marina and Zhang, Tong",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of 38th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

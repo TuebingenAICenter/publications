@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Understanding the topological structure of the set of solutions for deep neural networks (DNNs) is a fundamental problem in machine learning. While the connectivity of this set has been extensively studied, its global structure remains elusive. In this work, we propose to investigate whether the set of solutions forms a star domain, a more restrictive global structure than connectivity. A set is a star domain if there exists a \"star center\" point such that all points in the set are visible from it via straight-line segments. We provide empirical evidence suggesting that the set of solutions for various DNN architectures and datasets does indeed approximately form a star domain. Our findings suggest that this star center is often located near a point found through specific initialization or averaging techniques. We further explore the implications of this star domain structure for neural network optimization, ensemble methods, and robustness. Our results provide new insights into the loss landscape of DNNs and suggest that the star domain structure may be a key factor in the success of deep learning.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2403.07968",
     "attachments": [
@@ -31,6 +32,7 @@
       "Citations@2026-06-01": "4",
       "Scholar": "kmXOOdsAAAAJ:M05iB0D1s5AC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",

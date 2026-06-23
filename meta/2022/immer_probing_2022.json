@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Probing is a popular method for evaluating the linguistic knowledge encoded in representations learned by neural networks. However, the interpretation of probing results is often debated. In this paper, we propose a new perspective on probing: we frame it as a method for quantifying the inductive bias of a representation. We show that this perspective allows us to derive a formal relationship between probing performance and the sample complexity of learning a task from a representation. We validate our theoretical findings with experiments on a variety of tasks and representations, showing that our proposed measure of inductive bias is predictive of downstream performance.",
     "conferenceName": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)"
   }
 }

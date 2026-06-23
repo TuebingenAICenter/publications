@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We investigate the structure of the last layer of CLIP, a prominent vision-language model. We find that the last layer is not a monolithic representation but rather a collection of independent compositional subspaces. Each subspace corresponds to a specific semantic concept, and the model's predictions are formed by a linear combination of these subspaces. We propose the Independent Compositional Subspace Hypothesis, which posits that this structure is a key factor in the model's ability to generalize to unseen concepts. We provide empirical evidence for this hypothesis by showing that we can manipulate the model's predictions by intervening in these subspaces.",
     "archive": "OpenReview",
     "archiveLocation": "https://openreview.net/forum?id=MmhGK8YkUKO",
     "extra": {
       "Citations@2026-06-01": "8",
       "Scholar": "v-JL-hsAAAAJ:2P1L_qKh6hAC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Differential privacy (DP) is the gold standard for privacy-preserving data analysis. However, the utility of DP mechanisms often degrades significantly when the data is high-dimensional or complex. A common strategy to mitigate this is to perform non-private pre-processing on the data before applying a DP mechanism. While this approach is widely used in practice, its privacy implications are often poorly understood. In this work, we provide a theoretical framework to analyze the privacy guarantees of DP mechanisms when applied to non-privately pre-processed data. We show that if the pre-processing function satisfies certain stability properties, the composition of the pre-processing and the DP mechanism can still provide strong privacy guarantees. We demonstrate the utility of our framework by applying it to several common pre-processing techniques, including dimensionality reduction and feature selection, and show that it leads to improved privacy-utility trade-offs in practice.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4393064086",
@@ -12,6 +13,7 @@
       "Scholar": "DZ-fHPgAAAAJ:lAFTa7HQ20YC",
       "Series": "Proceedings of Machine Learning Research",
       "Volume": "235"
-    }
+    },
+    "itemType": "document"
   }
 }

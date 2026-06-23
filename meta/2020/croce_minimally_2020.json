@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose the Fast Adaptive Boundary (FAB) attack, a new attack to evaluate the robustness of classifiers. FAB is a first-order method that computes adversarial examples with small perturbations by linearizing the classifier's decision boundary. It is computationally efficient and can be used to find the distance to the decision boundary for different norms (L1, L2, Linf). We show that FAB is more effective than existing attacks in finding smaller adversarial perturbations, and it is particularly useful for evaluating the robustness of models trained with adversarial training.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:1907.02044",
     "extra": {
@@ -16,6 +17,7 @@
       "Scholar": "0ZAb3tsAAAAJ:nrtMV_XWKgEC",
       "Volume": "1"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

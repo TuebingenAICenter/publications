@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Retinal imaging is a cornerstone of ophthalmological diagnostics. While deep learning models have achieved high performance in automated disease classification, they often act as black boxes, providing little insight into the underlying features that drive their decisions. Disentangled representation learning offers a promising path towards more interpretable models by learning to separate independent factors of variation in the data. In this work, we investigate the use of generative models for disentangling representations of retinal images. We propose a framework that leverages a variational autoencoder with a disentangled latent space to learn interpretable features from retinal fundus images. We demonstrate that our model can disentangle anatomical and pathological factors of variation, such as the optic disc position, vessel structure, and the presence of lesions. Furthermore, we show that the learned representations are useful for downstream tasks, including disease classification and image synthesis, while providing insights into the features relevant for these tasks. Our results suggest that disentangled representation learning is a powerful tool for enhancing the interpretability of deep learning models in medical imaging.",
     "attachments": [
       {
         "accessDate": "2025-06-27 08:01:34",
@@ -30,6 +31,7 @@
       "Scholar": "lPQLk3QAAAAJ:dTyEYWd-f8wC",
       "arXiv": "2402.19186"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",

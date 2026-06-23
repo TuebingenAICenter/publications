@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Comparing representations of visual information in biological and artificial systems is a central task in computational neuroscience and machine learning. However, the field lacks a consensus on how to perform such comparisons. We identify five common pitfalls in the comparison of visual representations and provide recommendations for how to avoid them. We hope that this checklist will help to improve the robustness and interpretability of future studies.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2107.05657",
     "extra": {
       "Scholar": "v-JL-hsAAAAJ:yD5IFk8b50cC",
       "Workshop": "NeurIPS 2021 Workshop on Shared Visual Representations in Human and Machine Intelligence",
       "arXiv": "2107.05657"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

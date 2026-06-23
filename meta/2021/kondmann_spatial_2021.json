@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Change detection (CD) in optical satellite images is a fundamental task in remote sensing. While deep learning-based methods have achieved remarkable performance, they often rely on large amounts of labeled data, which are expensive and time-consuming to acquire. Unsupervised CD methods, on the other hand, are more flexible but often struggle to capture complex spatial dependencies. In this article, we propose a novel unsupervised CD framework that leverages spatial context awareness to improve the detection performance. Specifically, we introduce a spatial-context-aware module that captures local and global spatial dependencies by combining a self-attention mechanism with a spatial pyramid pooling structure. Furthermore, we propose a novel loss function that encourages the model to learn discriminative features for changed and unchanged pixels without requiring any ground truth labels. Extensive experiments on several benchmark datasets demonstrate that our proposed method outperforms state-of-the-art unsupervised CD methods and achieves competitive results compared to supervised approaches.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2110.02068",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W3203320768",
       "Scholar": "DZ-fHPgAAAAJ:3KkNvu8ziZAC",
       "Volume": "60"
-    }
+    },
+    "itemType": "document"
   }
 }

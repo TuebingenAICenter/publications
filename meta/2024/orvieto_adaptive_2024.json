@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a new adaptive optimization method for solving non-linear least-squares problems. The method uses a non-negative Gauss-Newton stepsize, which is derived from a local quadratic approximation of the objective function. We prove that the method converges to a stationary point under standard assumptions. Numerical experiments demonstrate that the proposed method is competitive with existing adaptive methods.",
     "archive": "arXiv",
     "archiveLocation": "2407.04358",
     "extra": {
@@ -16,6 +17,7 @@
       "Source": "group_webpage (orvieto)",
       "arXiv": "2407.04358"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

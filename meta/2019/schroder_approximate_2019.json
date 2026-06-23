@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Ribbon synapses are specialized structures that allow for the continuous, high-rate release of neurotransmitter vesicles. Mechanistic models of these synapses are often complex and computationally expensive to simulate, making parameter inference difficult. Here, we present an approach for approximate Bayesian inference in a mechanistic model of vesicle release at a ribbon synapse. We use a simulation-based inference method that combines a neural density estimator with a summary statistic network to learn the posterior distribution of the model parameters. We show that our method can accurately recover the parameters of a synthetic model and that it can be applied to experimental data to infer the properties of vesicle release at a ribbon synapse.",
     "extra": {
       "Citations@2026-06-01": "19",
       "OpenAlex": "W2949161136",
       "Scholar": "lPQLk3QAAAAJ:YFjsv_pBGBYC"
-    }
+    },
+    "itemType": "document"
   }
 }

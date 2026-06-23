@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Approximate policy iteration (API) algorithms are a cornerstone of reinforcement learning. They alternate between policy evaluation and policy improvement. In the approximate setting, both steps are typically performed by solving a regression problem. However, the policy evaluation step often suffers from the projection error, which can lead to unstable learning or divergence. In this paper, we propose a new projection operator for API algorithms that is based on the idea of minimizing the Bellman error in a weighted norm. We show that our approach is equivalent to a weighted least-squares problem and that it can be solved efficiently. We provide theoretical guarantees for our approach and demonstrate its effectiveness on a set of benchmark problems.",
     "conferenceName": "36th International Conference on Machine Learning",
     "extra": {
       "Editors": "Chaudhuri, Kamalika and Salakhutdinov, Ruslan",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 36th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

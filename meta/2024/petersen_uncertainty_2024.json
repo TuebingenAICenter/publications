@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a novel method for uncertainty quantification in deep neural networks based on the propagation of stable distributions. Unlike existing methods that rely on Gaussian assumptions or computationally expensive sampling, our approach propagates the parameters of stable distributions through the network layers. This allows for a closed-form approximation of the predictive distribution, which is both computationally efficient and theoretically grounded. We demonstrate the effectiveness of our method on various benchmarks, showing that it provides well-calibrated uncertainty estimates while maintaining competitive predictive performance.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2402.08324",
     "extra": {
       "Citations@2026-06-01": "12",
       "Scholar": "pxhCcH0AAAAJ:nb7KW1ujOQ8C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

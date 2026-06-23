@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Microbial communities are complex systems where interactions between species determine the community's function and stability. Predicting these interactions from observational data is a fundamental challenge in ecology. We propose a framework to model microbial communities using Graph Neural Networks (GNNs). We represent communities as graphs where nodes are species and edges represent interactions. By leveraging the inductive bias of GNNs, our model can learn to predict the growth of species in a community based on the presence and abundance of other species. We demonstrate that our approach outperforms existing methods on synthetic and real-world microbial community datasets, providing a robust tool for understanding and predicting microbial dynamics.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:47:11",
@@ -30,6 +31,7 @@
       "Event Place": "Vienna, Austria",
       "Scholar": "b-JF-UIAAAAJ:epqYDVWIO7EC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",

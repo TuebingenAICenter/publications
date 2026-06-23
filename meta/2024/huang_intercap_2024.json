@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Humans constantly interact with objects to accomplish tasks. To understand such interactions, computers need to reconstruct these in 3D from images of whole bodies manipulating objects, e.g., for grasping, moving and using the latter. This involves key challenges, such as occlusion between the body and objects, motion blur, depth ambiguities, and the low image resolution of hands and graspable object parts. To make the problem tractable, the community has followed a divide-and-conquer approach, focusing either only on interacting hands, ignoring the body, or on interacting bodies, ignoring the hands. However, these are only parts of the problem. On the contrary, recent work focuses on the whole problem. The GRAB dataset addresses whole-body interaction with dexterous hands but captures motion via markers and lacks video, while the BEHAVE dataset captures video of body-object interaction but lacks hand detail. We address the limitations of prior work with InterCap, a novel method that reconstructs interacting whole-bodies and objects from multi-view RGB-D data, using the parametric whole-body SMPL-X model and known object meshes. To tackle the above challenges, InterCap uses two key observations: (i) Contact between the body and object can be used to improve the pose estimation of both. (ii) Consumer-level Azure Kinect cameras let us set up a simple and flexible multi-view RGB-D system for reducing occlusions, with spatially calibrated and temporally synchronized cameras. With our InterCap method we capture the InterCap dataset, which contains 10 subjects (5 males and 5 females) interacting with 10 daily objects of various sizes and affordances, including contact with the hands or feet. To this end, we introduce a new data-driven hand motion prior, as well as explore simple ways for automatic contact detection based on 2D and 3D cues. In total, InterCap has 223 RGB-D videos, resulting in 67,357 multi-view frames, each containing 6 RGB-D images, paired with pseudo ground-truth 3D body and object meshes. Our InterCap method and dataset fill an important gap in the literature and support many research directions. Data and code are available at https://intercap.is.tue.mpg.de.",
     "attachments": [
       {
         "accessDate": "2025-06-17 19:46:22",
@@ -28,6 +29,7 @@
       "aword_paper": "Honorable Mention for Best Paper",
       "month_numeric": "9"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 51</p>",

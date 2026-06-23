@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The neocortex is organized into layers and areas, but the extent to which cell types and their circuit properties are conserved across areas remains debated. Here we use Patch-seq to characterize the transcriptomic, morphological and physiological properties of 1,197 neurons in layer 4 of the mouse primary visual and somatosensory cortex. We find that the transcriptomic cell types are largely conserved between the two areas. However, the proportions of these cell types differ significantly. Furthermore, we find that the local circuit organization is area-specific: the same cell types exhibit different connectivity patterns in the two areas. Our results suggest that the neocortex is composed of a conserved set of cell types, but that their relative abundance and circuit integration are adapted to the specific requirements of each sensory area.",
     "extra": {
       "Citations@2026-06-01": "6",
       "Issue": "1",
@@ -13,6 +14,7 @@
       "Publication Title": "Nature Communications",
       "Scholar": "lPQLk3QAAAAJ:2KloaMYe4IUC",
       "Volume": "10"
-    }
+    },
+    "itemType": "document"
   }
 }

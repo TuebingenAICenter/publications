@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Trajectory prediction is a fundamental problem in robotics, essential for safe and efficient navigation in dynamic environments. While deep learning methods have achieved impressive results in this task, they often struggle with the inherent uncertainty of future trajectories and the requirement for real-time performance. In this paper, we propose a novel approach to trajectory prediction using deep conditional generative models. Our method learns a distribution over future trajectories conditioned on past observations, allowing for the generation of multiple plausible future paths. We demonstrate that our model can be trained efficiently and performs inference in real-time, making it suitable for online robotic applications. We evaluate our approach on several benchmark datasets and show that it outperforms existing state-of-the-art methods in terms of both accuracy and computational efficiency.",
     "archive": "arXiv",
     "archiveLocation": "1808.10648",
     "extra": {
@@ -15,6 +16,7 @@
       "Pages": "970-976",
       "Scholar": "DZ-fHPgAAAAJ:yp_AGHFi12cC",
       "Volume": "5"
-    }
+    },
+    "itemType": "document"
   }
 }

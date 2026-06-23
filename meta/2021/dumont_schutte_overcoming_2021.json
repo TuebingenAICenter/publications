@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Data sharing in medical imaging is often hindered by privacy concerns and the sensitivity of patient data. Generative models have been proposed as a solution to this problem by creating synthetic data that can be shared without compromising patient privacy. However, the utility and privacy of these synthetic images are often not rigorously evaluated. In this work, we provide a comprehensive evaluation of generative models for medical image synthesis. We evaluate the utility of synthetic images in terms of their visual quality and their usefulness for downstream tasks, such as classification. Furthermore, we assess the privacy of the generated images by evaluating the risk of membership inference attacks. Our results show that while generative models can produce high-quality synthetic images, there is a trade-off between utility and privacy. We provide recommendations for the evaluation of generative models in medical imaging to ensure that synthetic data can be safely and effectively shared.",
     "archive": "arXiv",
     "archiveLocation": "2012.03769",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2012.03769"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

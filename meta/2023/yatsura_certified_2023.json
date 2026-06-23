@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Adversarial patch attacks are a severe threat to deep learning models in computer vision, as they can be easily realized in the physical world. While certified defenses against such attacks have been developed for image classification, they are largely missing for semantic segmentation. In this work, we propose the first certified defense against adversarial patch attacks for semantic segmentation. Our approach is based on randomized smoothing and provides a certified guarantee that the prediction for a pixel remains unchanged if the patch is restricted to a certain size. We evaluate our method on the Cityscapes and Pascal VOC datasets and show that it provides meaningful robustness guarantees while maintaining competitive performance.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2209.05980",
     "extra": {
@@ -15,6 +16,7 @@
       "Repository": "arXiv",
       "Scholar": "0ZAb3tsAAAAJ:1lhNe0rCu4AC"
     },
+    "itemType": "document",
     "libraryCatalog": "OpenReview"
   }
 }

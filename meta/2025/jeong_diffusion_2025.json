@@ -6,6 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Diffusion models have recently emerged as powerful generative tools, but their potential as discriminative classifiers remains underexplored. In this work, we investigate the compositional reasoning capabilities of diffusion classifiers—classifiers derived from pre-trained diffusion models. We find that diffusion classifiers exhibit strong compositional understanding, often outperforming standard discriminative models on compositional benchmarks. However, this performance is highly sensitive to the choice of conditioning and the sampling process. We identify key conditions under which diffusion classifiers excel and where they struggle, providing insights into the interplay between generative modeling and compositional classification. Our findings suggest that while diffusion models are promising for compositional tasks, careful design of the classification pipeline is essential to fully leverage their capabilities.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2505.17955",
     "attachments": [
@@ -23,6 +24,7 @@
       "Citations@2026-06-01": "4",
       "Scholar": "kmXOOdsAAAAJ:yD5IFk8b50cC"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://openreview.net/forum?id=c2F2dUx01R'>https://openreview.net/forum?id=c2F2dUx01R</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/121551'>https://neurips.cc/virtual/2025/loc/san-diego/poster/121551</a><br><a href='https://arxiv.org/abs/2505.17955'>https://arxiv.org/abs/2505.17955</a><br></p>",

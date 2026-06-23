@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Generative Adversarial Networks (GANs) can produce high-quality samples, but do not provide an estimate of the probability density around the samples. However, it has been noted that maximizing the log-likelihood within an energy-based setting can lead to an adversarial framework where the discriminator provides unnormalized density (often called energy). We further develop this perspective, incorporate importance sampling, and show that 1) Wasserstein GAN performs a biased estimate of the partition function, and we propose instead to use an unbiased estimator; and 2) when optimizing for likelihood, one must maximize generator entropy. This is hypothesized to provide a better mode coverage. Different from previous works, we explicitly compute the density of the generated samples. This is the key enabler to designing an unbiased estimator of the partition function and computation of the generator entropy term. The generator density is obtained via a new type of flow network, called one-way flow network, that is less constrained in terms of architecture, as it does not require a tractable inverse function. Our experimental results show that our method converges faster, produces comparable sample quality to GANs with similar architecture, successfully avoids over-fitting to commonly used datasets and produces smooth low-dimensional latent representations of the training data.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4394625749",
       "Scholar": "6NjbexEAAAAJ:DPnopAH2kssC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

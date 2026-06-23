@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "In literature on imprecise probability little attention is paid to the fact that imprecise proba- bilities are precise on some events. We call these sets system of precision. We show that, under mild assumptions, the system of precision of a lower and upper probability form a so-called (pre-)Dynkin-system. Interestingly, there are several settings, ranging from machine learning on partial data over frequential probability theory to quantum probability theory and decision making under uncertainty, in which a priori the probabilities are only desired to be precise on a specific underlying set system. At the core of all of these settings lies the observation that precise beliefs, probabilities or frequencies on two events do not necessarily imply this precision to hold for the intersection of those events. Here, (pre-)Dynkin-systems have been adopted as systems of precision, too. We show that, under extendability conditions, those pre-Dynkin- systems equipped with probabilities can be embedded into algebras of sets. Surprisingly, the extendability conditions elaborated in a strand of work in quantum physics are equivalent to coherence in the sense of Walley [Walley, 1991, p. 84]. Thus, literature on probabilities on pre-Dynkin-systems gets linked to the literature on imprecise probability. Finally, we spell out a lattice duality which rigorously relates the system of precision to credal sets of probabilities. In particular, we provide a hitherto undescribed, parametrized family of coherent imprecise probabilities.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2302.03522",
     "extra": {
       "ArXiv": "2302.03522",
       "Citations@2026-06-01": "3",
       "Scholar": "G4MBruQAAAAJ:oyQIn_cjXD4C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

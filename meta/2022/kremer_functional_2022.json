@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a functional generalized empirical likelihood (FGEL) estimator for conditional moment restrictions. By leveraging the framework of reproducing kernel Hilbert spaces (RKHS), we transform the infinite-dimensional conditional moment restrictions into a finite-dimensional problem. We show that the proposed estimator is consistent and asymptotically normal under mild regularity conditions. Furthermore, we demonstrate that the FGEL estimator is more robust than the generalized method of moments (GMM) estimator in the presence of heavy-tailed errors and outliers. We provide empirical evidence on both synthetic and real-world datasets to support our theoretical findings.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4285077859",
       "Pages": "11665--11682",
       "Scholar": "DZ-fHPgAAAAJ:wGPxzDfxLkcC",
       "Volume": "162"
-    }
+    },
+    "itemType": "document"
   }
 }

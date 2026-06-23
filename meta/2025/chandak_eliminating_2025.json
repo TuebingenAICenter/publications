@@ -9,6 +9,7 @@
   "zotero": {
     "extra": {
       "Publisher": "MPI-IS"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Recent years have witnessed enormous progress in AI-related fields such as computer vision, machine learning, and autonomous vehicles. As with any rapidly growing field, it becomes increasingly difficult to stay up-to-date or enter the field as a beginner. While several survey papers on particular sub-problems have appeared, no comprehensive survey on problems, datasets, and methods in computer vision for autonomous vehicles has been published. This monograph attempts to narrow this gap by providing a survey on the state-of-the-art datasets and techniques. Our survey includes both the historically most relevant literature as well as the current state of the art on several specific topics, including recognition, reconstruction, motion estimation, tracking, scene understanding, and end-to-end learning for autonomous driving. Towards this goal, we analyze the performance of the state of the art on several challenging benchmarking datasets, including KITTI, MOT, and Cityscapes. Besides, we discuss open problems and current research challenges. To ease accessibility and accommodate missing references, we also provide a website that allows navigating topics as well as methods and provides additional information.",
     "extra": {
       "Citations@2026-06-01": "223",
       "OpenAlex": "W2609532991",
       "Scholar": "SrVnrPcAAAAJ:TaaCk18tZOkC"
-    }
+    },
+    "itemType": "document"
   }
 }

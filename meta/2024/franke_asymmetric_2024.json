@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Mice are dichromats, possessing M- and S-opsins. While it is known that their retina contains color-opponent ganglion cells, it remains unclear how this information is processed in the visual cortex. Here, we show that the mouse visual cortex contains a diverse population of color-opponent neurons. We find that these neurons are not uniformly distributed across the visual field. Instead, they are asymmetrically distributed, with a higher density of S-cone-dominated color-opponent neurons in the dorsal visual field, which corresponds to the sky. This distribution is well-suited for detecting aerial predators against the sky. Our results suggest that the mouse visual system is adapted to the statistics of its natural environment, supporting the idea that color vision is optimized for ethologically relevant tasks.",
     "extra": {
       "Article Number": "RP89996",
       "Citations@2026-06-01": "0",
@@ -12,6 +13,7 @@
       "Publication Title": "eLife 12, RP89996, 2024",
       "Scholar": "lPQLk3QAAAAJ:5ugPr518TE4C",
       "Volume": "12"
-    }
+    },
+    "itemType": "document"
   }
 }

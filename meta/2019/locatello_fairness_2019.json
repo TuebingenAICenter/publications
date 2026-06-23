@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Disentangled representations are often argued to be a key ingredient for fair machine learning. The intuition is that if a model can separate the underlying factors of variation in the data, it becomes easier to control for sensitive attributes and ensure fairness. In this paper, we investigate this claim by empirically evaluating the relationship between disentanglement and fairness on a variety of datasets and models. We find that, contrary to common intuition, disentanglement does not automatically lead to fairness. In fact, we show that even with perfectly disentangled representations, models can still exhibit significant unfairness. We further analyze the conditions under which disentanglement can be beneficial for fairness and provide insights into the limitations of current approaches.",
     "extra": {
       "Citations@2026-06-01": "8",
       "OpenAlex": "W2947529249",
       "Pages": "14584--14597",
       "Scholar": "DZ-fHPgAAAAJ:oqUQjtHG81IC"
-    }
+    },
+    "itemType": "document"
   }
 }

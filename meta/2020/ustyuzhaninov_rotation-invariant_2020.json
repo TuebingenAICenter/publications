@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The functional organization of the primary visual cortex (V1) is often described in terms of simple and complex cells. While simple cells are sensitive to the phase of a stimulus, complex cells are phase-invariant. This distinction is often formalized as a hierarchy where complex cells pool the responses of simple cells. However, it is unclear whether this hierarchy is sufficient to explain the full diversity of neuronal responses in V1. Here, we propose a new approach to characterize neuronal responses based on rotation-invariant clustering. We show that this approach can identify distinct functional cell types in V1 that are not captured by the simple/complex cell dichotomy. Our results suggest that the functional organization of V1 is more complex than previously thought and that rotation-invariant representations are a key feature of neuronal responses in the visual cortex.",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W3005950863",
       "Scholar": "0z0fNxUAAAAJ:q-HalDI95KYC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Counterfactual reasoning is a cornerstone of human cognition and a key component of causal inference. While standard structural causal models (SCMs) allow for the evaluation of counterfactuals, they are often criticized for their treatment of backtracking counterfactuals—counterfactuals that involve reasoning about the past given a change in the present. In this paper, we provide a formal analysis of backtracking counterfactuals in SCMs. We show that the standard approach to backtracking, which relies on the assumption of independent exogenous variables, is often too restrictive. We propose a more general framework that allows for dependencies between exogenous variables, and we show that this framework can be used to model a wide range of backtracking counterfactuals. We also provide a set of conditions under which backtracking counterfactuals are identifiable from observational data.",
     "conferenceName": "Second Conference on Causal Learning and Reasoning (CLeaR)",
     "extra": {
       "Editors": "van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik",
       "Source": "group_webpage (schoelkopf)"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the Second Conference on Causal Learning and Reasoning (CLeaR)",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

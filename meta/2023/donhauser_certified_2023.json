@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We study the problem of releasing a dataset under differential privacy (DP) such that the released data is useful for a class of Lipschitz functions. We focus on the setting where the functions are sparse, meaning they only depend on a small subset of the features. We provide a new mechanism for this problem that achieves a better utility-privacy trade-off than existing methods. Our mechanism is based on a combination of the exponential mechanism and a new technique for sparse estimation. We also provide a certified privacy guarantee for our mechanism, which means that the privacy loss is bounded even if the data distribution is unknown.",
     "archive": "arXiv",
     "archiveLocation": "2302.09680",
     "conferenceName": "Theory and Practice of Differential Privacy",
@@ -13,6 +14,7 @@
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2302.09680"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "TPDP 2023 - Theory and Practice of Differential Privacy",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

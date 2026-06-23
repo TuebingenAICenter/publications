@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Large Language Model (LLM) agents are increasingly being deployed in complex, dynamic networks to automate tasks. However, these agentic networks are vulnerable to various security threats, including prompt injection, unauthorized tool usage, and data exfiltration. In this paper, we introduce a firewall framework designed to secure dynamic LLM agentic networks. Our firewall operates by intercepting and inspecting the communication between agents and their environment, enforcing security policies in real-time. We demonstrate the effectiveness of our approach through a series of experiments, showing that our firewall can mitigate a wide range of attacks while maintaining the functionality and performance of the agentic networks.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2502.01822",
     "extra": {
@@ -14,6 +15,7 @@
       "Repository": "arXiv",
       "Scholar": "QEiYbDYAAAAJ:v_tt_AnqfNMC"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

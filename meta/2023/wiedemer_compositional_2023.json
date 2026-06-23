@@ -6,12 +6,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Compositional generalization—the ability to understand and produce new combinations of known components—is a hallmark of human intelligence. While deep learning models have achieved remarkable success in many tasks, they often struggle with compositional generalization. In this paper, we propose a new framework for compositional generalization based on the principle of compositionality. We show that by explicitly modeling the compositional structure of the data, we can improve the generalization performance of deep learning models on a variety of tasks. We demonstrate the effectiveness of our approach on several benchmarks and show that it outperforms existing methods.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2305.18434",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W7133199678",
       "Scholar": "v-JL-hsAAAAJ:SeFeTyx0c_EC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

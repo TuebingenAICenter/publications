@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Offline reinforcement learning (RL) from observational data is often hindered by hidden confounding, which violates the standard assumption of unconfoundedness. While recent works have proposed methods to handle hidden confounding, they typically rely on strong identifiability assumptions, such as the existence of proxy variables or specific structural constraints. In this work, we study the problem of offline RL under nonidentifiable hidden confounding, where the causal effect of actions on rewards is not point-identifiable. We propose Delphic, a framework that learns a set of plausible policies by leveraging the partial identification of the optimal policy. We provide theoretical guarantees on the performance of our approach and demonstrate its effectiveness on a range of offline RL benchmarks.",
     "archive": "arXiv",
     "archiveLocation": "2306.01157",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W4379469361",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:1NEBFUVDtJoC"
-    }
+    },
+    "itemType": "document"
   }
 }

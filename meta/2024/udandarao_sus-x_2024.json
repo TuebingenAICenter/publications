@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Vision-Language Models (VLMs) such as CLIP have demonstrated remarkable zero-shot transfer capabilities. However, their performance is highly sensitive to the choice of prompt, and they often struggle with fine-grained classification tasks. In this work, we propose SuS-X, a training-free approach for adapting VLMs to new tasks using only the names of the target classes. SuS-X leverages the VLM's own internal knowledge to construct a set of representative visual prototypes for each class, which are then used to perform classification. We show that SuS-X significantly outperforms existing zero-shot and few-shot transfer methods across a wide range of benchmarks, while requiring no training or additional data.",
     "archive": "arXiv",
     "archiveLocation": "2211.16198",
     "extra": {
       "Archive ID": "2211.16198",
       "Source": "group_webpage (bethge)",
       "arXiv": "2211.16198"
-    }
+    },
+    "itemType": "document"
   }
 }

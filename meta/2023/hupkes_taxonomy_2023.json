@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Generalization—the ability of a model to perform well on data that it has not encountered during training—is a central challenge in natural language processing (NLP). Despite its importance, the field lacks a unified framework for discussing generalization, leading to fragmented research and inconsistent terminology. In this Review, we propose a taxonomy of generalization in NLP that categorizes research based on the relationship between the training and test distributions. We use this taxonomy to survey the state of the art, identifying key trends, challenges and open questions. We hope that this framework will provide a common language for the community, facilitate the comparison of different approaches and guide future research in this critical area.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Gunderson, ten Brinke, and Sokol-Hessner (2023) reported that interoceptive accuracy (IAcc) enhances physiological but not explicit differentiation between liars and truth-tellers. We re-analyzed their data and found that the reported effects are not robust. Specifically, the physiological differentiation effect disappears when controlling for the number of trials or when using a more appropriate statistical model. Furthermore, the explicit differentiation effect is not supported by the data. We conclude that the evidence for the claim that IAcc enhances physiological differentiation between liars and truth-tellers is weak.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4388471708",
       "Scholar": "mMifMdoAAAAJ:KbBQZpvPDL4C"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

@@ -5,12 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Longitudinal analysis of brain magnetic resonance images (MRIs) is crucial for understanding neurodegenerative diseases and healthy aging. However, longitudinal datasets are often limited by irregular sampling, missing time points, and the high dimensionality of 3D medical images. We propose MRExtrap, a framework for longitudinal MRI analysis that learns a compact, disentangled latent representation of brain anatomy. By modeling aging as a linear trajectory in this latent space, MRExtrap enables the extrapolation of brain states to unseen time points and the interpolation of missing data. We demonstrate that our method outperforms existing approaches in predicting future brain states and provides interpretable insights into age-related morphological changes.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2508.19482",
     "extra": {
       "Citations@2026-06-01": "3",
       "Scholar": "FKOqtF8AAAAJ:dgXhHFWAKKUC"
     },
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv"
   }
 }

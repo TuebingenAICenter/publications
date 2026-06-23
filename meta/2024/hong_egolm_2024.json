@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Egocentric motion understanding is a fundamental task for embodied AI, enabling agents to perceive and interact with the world from a first-person perspective. Existing methods often rely on specialized architectures for specific tasks, lacking a unified representation that can generalize across diverse egocentric activities. In this paper, we introduce EgoLM, a multi-modal language model designed to learn a unified representation of egocentric motions. EgoLM leverages a large-scale pre-trained language model as a backbone and incorporates a motion-to-text encoder to bridge the gap between raw motion data and natural language. By training on a diverse set of egocentric motion datasets, EgoLM learns to capture the nuances of human movement and their semantic meanings. We demonstrate the effectiveness of EgoLM on a variety of downstream tasks, including motion captioning, motion retrieval, and motion-based activity recognition, achieving state-of-the-art performance. Our results suggest that EgoLM provides a powerful and flexible framework for understanding egocentric motions, paving the way for more intelligent and interactive embodied agents.",
     "archive": "arXiv",
     "extra": {
       "Archive ID": "2409.18127",
       "Source": "group_webpage (pons-moll)",
       "arXiv": "2409.18127"
-    }
+    },
+    "itemType": "document"
   }
 }

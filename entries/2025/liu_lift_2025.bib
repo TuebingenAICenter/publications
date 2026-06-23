@@ -3,7 +3,6 @@
 	shorttitle = {{LIFT} the {Veil} for the {Truth}},
 	url = {https://arxiv.org/abs/2506.00772},
 	doi = {10.48550/arxiv.2506.00772},
-	abstract = {Supervised Fine-Tuning (SFT) is the standard approach to align Large Language Models (LLMs) with human intent. However, recent studies suggest that SFT can lead to "over-optimization" or "surface-form alignment," where models learn to mimic the style of the training data rather than improving their underlying reasoning capabilities. In this work, we investigate the internal weight dynamics of LLMs during reasoning-focused SFT. We discover that the weight updates during SFT are highly redundant and can be compressed into a low-rank subspace without performance degradation. Surprisingly, we find that after performing rank reduction on the SFT-tuned weights, the remaining "principal weights" are sufficient to maintain or even enhance the model's reasoning performance, while the discarded components often contain noise or surface-level patterns. Based on this insight, we propose LIFT (Low-rank Identification for Fine-Tuning), a novel framework that identifies and preserves these principal weights during SFT. We demonstrate that LIFT consistently improves reasoning performance across various benchmarks and model architectures, while significantly reducing the parameter footprint of the fine-tuned models.},
 	language = {en},
 	urldate = {2025-06-01},
 	publisher = {arXiv},

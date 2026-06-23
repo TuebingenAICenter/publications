@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Compositional Zero-Shot Learning (CZSL) aims to recognize unseen compositions of state and object primitives. Existing methods typically learn a joint embedding space for state-object pairs, often ignoring the semantic relationships between primitives. In this paper, we propose a novel approach that learns graph embeddings for CZSL. We construct a graph where nodes represent state and object primitives, and edges represent their semantic relationships. We then use a graph convolutional network to learn embeddings for these primitives, which are then used to predict the state-object composition. Our method achieves state-of-the-art performance on several benchmark datasets, demonstrating the effectiveness of leveraging semantic relationships for CZSL.",
     "extra": {
       "Citations@2026-06-01": "86",
       "Conference Name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
@@ -13,6 +14,7 @@
       "Scholar": "jQl9RtkAAAAJ:OU6Ihb5iCvQC",
       "Source": "group_webpage (schoelkopf)",
       "month_numeric": "3"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

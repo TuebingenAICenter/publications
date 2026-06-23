@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Performativity describes settings where a model's predictions influence the future data distribution. Estimating the causal effect of a model on the population is a central challenge in this context. Existing approaches typically rely on randomized experiments, which are often infeasible or unethical. We propose a framework for estimating performativity without treatment randomization. Our approach leverages the structure of the decision-making process to identify causal effects from observational data. We provide theoretical guarantees for our estimators and demonstrate their effectiveness on synthetic and real-world datasets.",
     "archive": "arXiv",
     "archiveLocation": "2302.04989",
     "attachments": [
@@ -34,6 +35,7 @@
       "Scholar": "UqtDdZUAAAAJ:NMxIlDl6LWMC",
       "Source": "group_webpage (hardt)"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",

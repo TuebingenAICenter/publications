@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Likelihood-free inference (LFI) methods, such as approximate Bayesian computation (ABC), allow for Bayesian inference in models where the likelihood function is intractable but simulation is possible. However, standard LFI methods are often computationally expensive, requiring a large number of simulations. We propose a new approach to LFI that uses neural networks to emulate the simulator. Our emulator networks learn to approximate the simulator's output, allowing for fast and accurate inference. We demonstrate the effectiveness of our approach on several benchmark problems and show that it can significantly reduce the number of simulations required for accurate inference.",
     "extra": {
       "Citations@2026-06-01": "190",
       "Scholar": "FKOqtF8AAAAJ:gnsKu8c89wgC"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

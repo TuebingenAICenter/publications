@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are often described as statistical models of language, and their success is frequently attributed to their ability to generalize from the statistical patterns in their training data. In this position paper, we argue that this view is incomplete. We show that while statistical generalization is a necessary condition for language modeling, it is not sufficient for understanding the capabilities and limitations of LLMs. We propose a framework for understanding LLMs that goes beyond statistical generalization, incorporating elements of causal reasoning, world modeling, and objective-driven behavior. We discuss the implications of this framework for the development and evaluation of future LLMs.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2405.01964",
     "attachments": [
@@ -27,6 +28,7 @@
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2405.01964"
     },
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 15</p>",

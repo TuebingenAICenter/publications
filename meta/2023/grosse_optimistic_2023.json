@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Bayesian optimization is a popular formalism for global optimization, but its computational costs limit it to expensive-to-evaluate functions. A competing, computationally more effi- cient, global optimization framework is optimistic optimization, which exploits prior knowl- edge about the geometry of the search space in form of a dissimilarity function. We investi- gate to which degree the conceptual advantages of Bayesian Optimization can be combined with the computational efficiency of optimistic optimization. By mapping the kernel to a dissimilarity, we obtain an optimistic optimization algorithm for the Bayesian Optimization setting with a run-time of up to O(N log N ) in terms of number of function evaluations. As a high-level take-away we find that, when using stationary kernels on objectives of low eval- uation cost, optimistic optimization can be preferable over Bayesian optimization, while for strongly coupled and parametric models, Bayesian optimization can perform much better, even at low evaluation cost. As a conceptual takeaway, our results demonstrate that bal- ancing exploration and exploitation under Gaussian process assumptions does not require computing a posterior.",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4294790506",
       "Scholar": "UeG5w08AAAAJ:35r97b3x0nAC"
-    }
+    },
+    "itemType": "document"
   }
 }

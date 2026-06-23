@@ -6,6 +6,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We propose a framework for learning causal generative models of scenes. Our approach is based on the idea that a scene can be decomposed into a set of independent causal factors, which we model as a collection of experts. Each expert is responsible for generating a specific part of the scene, and the final scene is formed by a competition between these experts. We show that this framework can learn to disentangle causal factors from raw images and that it can be used for causal reasoning and intervention.",
     "archive": "arXiv",
     "archiveLocation": "2004.12906",
     "extra": {
@@ -15,6 +16,7 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:i-2NmMiFHv0C"
     },
+    "itemType": "document",
     "libraryCatalog": "arXiv"
   }
 }

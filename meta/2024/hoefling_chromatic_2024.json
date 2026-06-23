@@ -7,6 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "The retina is often viewed as a filter that extracts basic visual features. However, recent work suggests that it also performs more complex computations, such as signaling deviations from expected visual statistics. Here, we identify a specific retinal ganglion cell type in the mouse, the J-RGC, that acts as a chromatic feature detector. We show that J-RGCs are tuned to the spectral composition of the visual scene and that their responses are modulated by the global chromatic context. Specifically, J-RGCs are suppressed by the background color to which they are tuned, but respond strongly when this context changes. This mechanism allows the retina to signal changes in the spectral composition of the environment, a computation that may be important for color constancy and the detection of novel visual stimuli.",
     "attachments": [
       {
         "accessDate": "2025-06-27 07:57:19",
@@ -23,6 +24,7 @@
       "Publisher": "University of Tübingen",
       "Scholar": "lPQLk3QAAAAJ:D_sINldO8mEC"
     },
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",

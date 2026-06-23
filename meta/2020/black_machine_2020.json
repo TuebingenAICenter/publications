@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Disclosed is a method including receiving an input image including a human, predicting, based on a convolutional neural network that is trained using examples consisting of pairs of sensor data, a corresponding body shape of the human and utilizing the corresponding body shape predicted from the convolutional neural network as input to another convolutional neural network to predict additional body shape metrics.",
     "extra": {
       "Source": "group_webpage (black)"
     },
+    "itemType": "report",
     "reportType": "Patent"
   }
 }

@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "High-contrast imaging (HCI) is a key technique for the direct detection and characterization of exoplanets. However, the raw data is dominated by quasi-static speckle noise, which is several orders of magnitude brighter than the planetary signal. Current post-processing algorithms rely on the assumption that the planetary signal and the noise can be separated based on their different temporal evolution. In this work, we propose a novel approach to HCI post-processing based on causal inference. We model the noise as a causal process and use physical constraints to disentangle the planetary signal from the noise. We demonstrate that our approach outperforms state-of-the-art algorithms on both synthetic and real data.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2010.05591",
     "extra": {
@@ -13,6 +14,7 @@
       "OpenAlex": "W3092627603",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:pHoEe-iXohYC"
-    }
+    },
+    "itemType": "document"
   }
 }

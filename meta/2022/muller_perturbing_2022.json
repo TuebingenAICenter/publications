@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Sharpness-Aware Minimization (SAM) has been shown to improve generalization by finding flat minima. However, SAM is computationally expensive as it requires two forward-backward passes per update. In this work, we propose a simple modification to SAM that significantly reduces its computational overhead while maintaining its generalization benefits. We show that perturbing only the BatchNorm parameters is sufficient to achieve the generalization benefits of SAM. We call this method BatchNorm-SAM (BN-SAM). We demonstrate that BN-SAM achieves similar or better performance than SAM on various datasets and architectures while being significantly faster.",
     "extra": {
       "Citations@2026-06-01": "2",
       "Scholar": "0ZAb3tsAAAAJ:kVjdVfd2voEC",
       "Workshop": "Has it Trained Yet? Algorithmic Efficiency in Practical Neural Network Training"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }

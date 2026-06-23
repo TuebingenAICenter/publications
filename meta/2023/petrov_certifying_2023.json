@@ -5,6 +5,7 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Ensemble methods are a cornerstone of modern machine learning, yet their robustness properties remain poorly understood. In this work, we propose a general certification theory for ensembles based on the notion of S-Lipschitzness, which allows us to derive certified robustness guarantees for a wide range of ensemble architectures and aggregation functions. Our theory encompasses both randomized and deterministic ensembles, and provides a unified framework for analyzing their robustness. We demonstrate the effectiveness of our approach by certifying several state-of-the-art ensemble models on standard benchmarks, showing that our bounds are significantly tighter than existing methods.",
     "archive": "arXiv",
     "archiveLocation": "2304.13019",
     "conferenceName": "International Conference on Machine Learning",
@@ -12,6 +13,7 @@
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2304.13019"
     },
+    "itemType": "conferencePaper",
     "proceedingsTitle": "Proceedings of the 40th International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }

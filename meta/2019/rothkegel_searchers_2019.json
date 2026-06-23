@@ -5,8 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Visual search in natural scenes is a complex task that requires the coordination of eye movements to locate a target. While previous research has focused on the role of image features in guiding attention, the influence of target characteristics on eye-movement dynamics remains less understood. Here, we investigated how searchers adjust their eye-movement dynamics to target characteristics in natural scenes. We recorded eye movements of participants searching for targets of varying difficulty in natural images. We found that searchers adapt their saccade amplitudes and fixation durations to the target's characteristics. Specifically, when searching for more difficult targets, participants made smaller saccades and longer fixations. These findings suggest that searchers dynamically adjust their oculomotor behavior to optimize search performance based on the expected difficulty of the target.",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "journalArticle"
   }
 }
