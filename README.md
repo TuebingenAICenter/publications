@@ -143,8 +143,9 @@ The workflows under `.github/workflows/`:
 - **`check-scheduled.yml`** — nightly `pubstore-check` backstop (catches landed cross-shard
   duplicates).
 - **`regenerate-mirror.yml`** — on push to `main`: rebuild the `groups/` symlink mirror.
-- **`publish-artifacts.yml`** / **`release.yml`** — compile and publish the build artifacts
-  on release.
+- **`release.yml`** — on push to `main`: compile the build artifacts and mint a snapshot
+  release with each file attached as its own asset. **`compile-artifacts.yml`** is the
+  reusable compile step it (and the manual **`publish-artifacts.yml`**) build on.
 - **`build-ci-image.yml`** — rebuild the prebuilt CI image when `tools/` deps change.
 
 Add-ons (compiled artifacts, group directories) sit *beside* the core and can be toggled

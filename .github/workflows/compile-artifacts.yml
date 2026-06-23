@@ -1,0 +1,56 @@
+name: Compile artifacts (reusable)
+
+# Reusable building block (separable add-on): compile the per-entry store into the
+# consumer-facing joined views — all.bib, one <group>.bib per PI group, meta.json,
+# and library.rdf (the full Zotero-importable library, with group collections +
+# tags) — and upload build/ as a single workflow artifact for the caller to consume.
+# These are BUILD ARTIFACTS, never committed; always reproducible from entries/** +
+# meta/** by `pubstore-compile`.
+#
+# Two callers, one implementation:
+#  - release.yml          -> compiles, then attaches each file as a release asset.
+#  - publish-artifacts.yml -> manual recompile, kept as the workflow-artifact zip.
+#
+# This is NOT a gate — pubstore-compile assumes the store is already green (it runs
+# post-merge, on main), warns + skips anything that won't parse, and never fails.
+# Runs inside the prebuilt CI image (build-ci-image.yml) so it only installs the
+# local package, same as the other jobs. `gh` is deliberately NOT needed here (the
+# image has no gh); attaching to a release is the caller's job, on a stock runner.
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        description: Name of the uploaded build/ artifact the caller downloads.
+        required: false
+        default: publication-store-artifacts
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tuebingenaicenter/publications-ci:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install the tools package
+        # Deps + hatchling are baked into the CI image; install only the local
+        # package (offline, no build isolation).
+        run: uv pip install --system --no-deps --no-build-isolation ./tools
+
+      - name: Compile artifacts
+        # all.bib + groups/<slug>.bib + meta.json + library.rdf into build/.
+        # Read-only: it never writes into entries/ or meta/ and never commits.
+        # Warnings (a non-parsing file) do not fail the run.
+        run: pubstore-compile --root . --out build/
+
+      - name: Upload compiled artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.artifact-name }}
+          path: build/
