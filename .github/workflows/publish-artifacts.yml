@@ -67,7 +67,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          shopt -s globstar nullglob
+          group_bibs=$(find build/groups -name '*.bib' 2>/dev/null || true)
           gh release upload "${{ github.event.release.tag_name }}" \
-            build/all.bib build/meta.json build/groups/**/*.bib \
+            build/all.bib build/meta.json $group_bibs \
             --clobber
