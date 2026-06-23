@@ -74,11 +74,10 @@ reconstruct the original item) and **`custom`** (the open report layer: status,
 provenance, review, group ownership, …). A bare `{}` is the valid empty sidecar. See
 [`schema/sidecar.schema.json`](schema/sidecar.schema.json) for the exact contract.
 
-A compiled `all.bib`, per-group `<group>.bib` views, a consumer-facing `meta.json`, and
-a full Zotero-importable `library.rdf` (the whole library in one file, with group
-collections + tags) are **optional build artifacts** — emitted on demand
-(`pubstore-compile`), **never committed**. The `groups/` symlink tree is likewise a derived browse view, rebuilt from
-`custom.groups`. The per-file `entries/`/`meta/` pairs are the only source of truth.
+The consumer-facing joined views — [see below](#download-the-data) — are **optional build
+artifacts**, emitted on demand (`pubstore-compile`) and **never committed**. The `groups/`
+symlink tree is likewise a derived browse view, rebuilt from `custom.groups`. The per-file
+`entries/`/`meta/` pairs are the only source of truth.
 
 ## Download the data
 
