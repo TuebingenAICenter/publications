@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We study the potential for collective action among workers in algorithmic labor markets. We propose a combinatorial model of a platform where workers can choose to decline tasks. We analyze the conditions under which a group of workers can successfully exert pressure on the platform to improve their conditions. We find that the ability to coordinate is a critical factor, and that the platform's response to collective action can be complex and non-linear. Our model provides a framework for understanding the dynamics of algorithmic collective action and the potential for workers to leverage their collective power.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.12633",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:30",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2410.12633v1"
+      }
+    ],
+    "conferenceName": "CHI",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4403578431",
+      "Scholar": "UqtDdZUAAAAJ:GnPB-g6toBAC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems"
+  }
+}

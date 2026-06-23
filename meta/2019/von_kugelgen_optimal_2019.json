@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of active causal structure learning, where the goal is to identify the causal structure of a system using as few interventions as possible. We propose a framework that combines Gaussian process (GP) models with Bayesian optimization (BO) to select informative interventions. Our approach treats the causal structure as a latent variable and uses BO to navigate the space of possible interventions, guided by an acquisition function that quantifies the expected information gain about the causal structure. We demonstrate the effectiveness of our method on synthetic and real-world data, showing that it can significantly reduce the number of interventions required to learn the causal structure compared to random or heuristic-based strategies.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1910.03962",
+    "extra": {
+      "Archive ID": "1910.03962",
+      "Citations@2026-06-01": "1",
+      "Event Place": "Vancouver, CA",
+      "OpenAlex": "W4288094083",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:MivfCDya6-cC"
+    },
+    "itemType": "document"
+  }
+}

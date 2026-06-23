@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Book Title": "Elgar Encyclopedia of Political Communication",
+      "Citations@2026-06-01": "0",
+      "Editors": "Nai, A. and Grömping, M. and Wirz, D.",
+      "OpenAlex": "W4417363868",
+      "Scholar": "DZ-fHPgAAAAJ:CuKqH-V-M3UC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "Failed to Revise: Web search shows this work is a book chapter: \"Natural Language Processing\", in Elgar Encyclopedia of Political Communication (Edward Elgar Publishing), authored by Zhijing Jin, Rada Mihalcea, and Bernhard Schölkopf (accepted/published 2025) per Max Planck Institute and publisher listings. The allowed classification types are limited to preprint, journalArticle, conferencePaper, or workshopPaper and do not include book chapters, so I cannot map this publication to one of the required types.",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

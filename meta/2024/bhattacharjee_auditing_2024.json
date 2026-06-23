@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Local explanation methods, such as LIME and SHAP, are widely used to interpret the predictions of complex machine learning models. However, it has been observed that these methods can be manipulated to hide bias or provide misleading explanations. In this paper, we study the problem of auditing local explanations: given a model and an explanation method, can we determine whether the explanation is faithful to the model's behavior? We show that this problem is computationally hard. Specifically, we prove that for a wide class of local explanation methods, deciding whether an explanation is faithful is NP-hard. We also provide a characterization of the conditions under which auditing is tractable, and discuss the implications of our results for the design and evaluation of explanation methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2407.13281",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415798680",
+      "Scholar": "mMifMdoAAAAJ:tH6gc1N1XXoC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

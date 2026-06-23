@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Age estimation from medical imaging is a task of increasing importance in forensic medicine and clinical research. While deep learning-based methods have shown promising results for age estimation from hand radiographs, their application to clinical Computed Tomography (CT) data of the adult population remains limited. In this study, we developed and evaluated a deep learning-based approach for age estimation from clinical CT images of the thorax and abdomen. We utilized a large-scale dataset of 10,000 clinical CT scans from 5,000 adult patients. We trained a 3D convolutional neural network (CNN) to predict the chronological age of the patients. Our model achieved a mean absolute error (MAE) of 4.8 years on the test set. We further analyzed the influence of different anatomical regions and image modalities on the age estimation performance. Our results demonstrate that deep learning models can accurately estimate age from clinical CT data, providing a potential tool for forensic and clinical applications.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "11"
+    },
+    "itemType": "journalArticle"
+  }
+}

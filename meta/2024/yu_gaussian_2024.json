@@ -1,0 +1,51 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Recently, 3D Gaussian Splatting (3DGS) has demonstrated impressive novel view synthesis results, while allowing the rendering of high-resolution images in real-time. However, leveraging 3D Gaussians for surface reconstruction poses significant challenges due to the explicit and disconnected nature of 3D Gaussians. In this work, we present Gaussian Opacity Fields (GOF), a novel approach for efficient, high-quality, and adaptive surface reconstruction in unbounded scenes. Our GOF is derived from ray-tracing-based volume rendering of 3D Gaussians, enabling direct geometry extraction from 3D Gaussians by identifying its levelset, without resorting to Poisson reconstruction or TSDF fusion as in previous work. We approximate the surface normal of Gaussians as the normal of the ray-Gaussian intersection plane, enabling the application of regularization that significantly enhances geometry. Furthermore, we develop an efficient geometry extraction method utilizing Marching Tetrahedra, where the tetrahedral grids are induced from 3D Gaussians and thus adapt to the scene's complexity. Our evaluations reveal that GOF surpasses existing 3DGS-based methods in surface reconstruction and novel view synthesis. Further, it compares favorably to or even outperforms, neural implicit methods in both quality and speed.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:42:34",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3687937"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "127",
+      "Conference": "SIGGRAPH Asia 2024",
+      "OpenAlex": "W4404524486",
+      "Publisher": "University of Tübingen",
+      "Scholar": "SrVnrPcAAAAJ:eH23hyXCXa4C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 128</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 128</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

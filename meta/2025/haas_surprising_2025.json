@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Standard width scaling in deep learning, where the learning rate is kept constant as the network width increases, is often considered suboptimal compared to the NTK-parameterization, which requires scaling the learning rate by the width. In this paper, we show that standard width scaling is surprisingly effective. We prove that for a wide range of architectures, standard width scaling leads to a stable training dynamics in the limit of infinite width, provided the learning rate is chosen appropriately. We further show that this limit is not the NTK, but a different, non-linear limit. We provide empirical evidence that this limit is more expressive than the NTK and can achieve better performance on standard benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2505.22491",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2505.22491?"
+      }
+    ],
+    "callNumber": "arXiv:2505.22491",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416048536",
+      "Scholar": "mMifMdoAAAAJ:6yz0xqPARnAC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=hTxnm6H93P'>https://openreview.net/forum?id=hTxnm6H93P</a><br><a href='https://neurips.cc/virtual/2025/poster/116648'>https://neurips.cc/virtual/2025/poster/116648</a><br><a href='https://arxiv.org/abs/2505.22491'>https://arxiv.org/abs/2505.22491</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contrast Limited Adaptive Histogram Equalization (CLAHE) is a popular method for contrast enhancement in image processing. It operates on 2D images by computing local histograms and redistributing them to improve local contrast while limiting noise amplification. However, modern scientific imaging often produces multidimensional data, such as 3D volumes or time-series data, for which standard 2D CLAHE is not directly applicable. In this paper, we propose a multidimensional generalization of CLAHE, which we call M-CLAHE. Our method extends the concept of local histogram equalization to arbitrary dimensions by using a multidimensional grid of tiles and multilinear interpolation. We demonstrate the effectiveness of M-CLAHE on various types of multidimensional data, including 3D medical images and time-resolved electron microscopy data, and show that it provides superior contrast enhancement compared to existing methods.",
+    "extra": {
+      "Citations@2026-06-01": "100",
+      "OpenAlex": "W2953540383",
+      "Scholar": "DZ-fHPgAAAAJ:pPOkAXTFjuAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

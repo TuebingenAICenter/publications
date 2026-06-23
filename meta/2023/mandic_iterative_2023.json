@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Weakly supervised object detection (WSOD) aims to learn object detectors from image-level labels only. While existing methods have achieved impressive results on standard benchmarks, they often struggle to generalize to novel classes not seen during training. In this paper, we propose an iterative weakly supervised learning framework for novel class object detection. Our approach leverages a pre-trained model to generate pseudo-labels for novel classes, which are then refined through an iterative process. We demonstrate that our method significantly outperforms existing WSOD baselines on novel classes while maintaining competitive performance on base classes.",
+    "extra": {
+      "Scholar": "v-JL-hsAAAAJ:M05iB0D1s5AC",
+      "Venue": "ICLR"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Disentangled representation learning aims to separate the independent factors of variation in data. While many methods have been proposed, their evaluation is often limited to synthetic datasets where the ground truth factors are known. In this work, we introduce a new dataset for the evaluation of disentanglement methods, consisting of both simulated and real-world images of the same objects. We use this dataset to investigate the transfer of inductive biases from simulation to the real world. Our results suggest that while some methods are able to learn disentangled representations in simulation, their performance on real-world data is often limited by the domain gap. We hope that this dataset will facilitate future research on the transfer of disentangled representations to real-world applications.",
+    "conferenceName": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W2970955236",
+      "Scholar": "DZ-fHPgAAAAJ:GPPi9ZHr0VQC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)"
+  }
+}

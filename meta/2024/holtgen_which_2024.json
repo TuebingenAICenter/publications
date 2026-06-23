@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine Learning research, as most of Statistics, heavily relies on the concept of a data-generating probability distribution. The standard presumption is that since data points are `sampled from' such a distribution, one can learn from observed data about this distribution and, thus, predict future data points which, it is presumed, are also drawn from it. Drawing on scholarship across disciplines, we here argue that this framework is not always a good model. Not only do such true probability distributions not exist; the framework can also be misleading and obscure both the choices made and the goals pursued in machine learning practice. We suggest an alternative framework that focuses on finite populations rather than abstract distributions; while classical learning theory can be left almost unchanged, it opens new opportunities, especially to model sampling. We compile these considerations into five reasons for modelling machine learning – in some settings – with finite populations rather than generative distributions, both to be more faithful to practice and to provide novel theoretical insights.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2405.12345",
+      "Source": "group_webpage (williamson)",
+      "arXiv": "2405.12345"
+    },
+    "itemType": "document"
+  }
+}

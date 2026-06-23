@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Differentiable architecture search (DAS) is a widely researched tool for the design of novel architectures. The main benefit of DAS is the effectiveness achieved through the weight-sharing one-shot paradigm, which allows efficient architecture search. In this work, we investigate DAS in a systematic case study of inverse problems, which allows us to analyze these potential benefits in a controlled manner. We demonstrate that the success of DAS can be extended from image classification to signal reconstruction, in principle. However, our experiments also expose three fundamental difficulties in the evaluation of DAS-based methods in inverse problems: First, the results show a large variance in all test cases. Second, the final performance is strongly dependent on the hyperparameters of the optimizer. And third, the performance of the weight-sharing architecture used during training does not reflect the final performance of the found architecture well. While the results on image reconstruction confirm the potential of the DAS paradigm, they challenge the common understanding of DAS as a one-shot method.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "206vNCEAAAAJ:NMxIlDl6LWMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

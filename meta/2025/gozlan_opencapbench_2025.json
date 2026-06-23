@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Pose estimation has promised to impact healthcare by enabling more practical methods to quantify nuances of human movement and biomechanics. However, despite the inherent connection between pose estimation and biomechanics, these disciplines have largely remained disparate. For example, most current pose estimation benchmarks use metrics such as Mean Per Joint Position Error, Percentage of Correct Keypoints, or mean Average Precision to assess performance, without quantifying kinematic and physiological correctness - key aspects for biomechanics. To alleviate this challenge, we develop OpenCapBench to offer an easy-to-use unified benchmark to assess common tasks in human pose estimation, evaluated under physiological constraints. OpenCapBench computes consistent kinematic metrics through joints angles provided by an open-source musculoskeletal modeling software (OpenSim). Through OpenCapBench, we demonstrate that current pose estimation models use keypoints that are too sparse for accurate biomechanics analysis. To mitigate this challenge, we introduce SynthPose, a new approach that enables finetuning of pre-trained 2D human pose models to predict an arbitrarily denser set of keypoints for accurate kinematic analysis through the use of synthetic data. Incorporating such finetuning on synthetic data of prior models leads to twofold reduced joint angle errors. Moreover, OpenCapBench allows users to benchmark their own developed models on our clinically relevant cohort. Overall, OpenCapBench bridges the computer vision and biomechanics communities, aiming to drive simultaneous advances in both areas.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.09788",
+    "conferenceName": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "extra": {
+      "Citations@2026-06-01": "19",
+      "Scholar": "6NjbexEAAAAJ:MZHH0dlIDt0C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}

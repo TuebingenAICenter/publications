@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Our goal is to efficiently learn personalized animatable 3D head avatars from videos that are geometrically accurate, realistic, relightable, and compatible with current rendering systems. While 3D meshes enable efficient processing and are highly portable, they lack realism in terms of shape and appearance. Neural representations, on the other hand, are realistic but lack compatibility and are slow to train and render. Our key insight is that it is possible to efficiently learn high-fidelity 3D mesh representations via differentiable rendering by exploiting highly-optimized methods from traditional computer graphics and approximating some of the components with neural networks. To that end, we introduce FLARE, a technique that enables the creation of animatable and relightable mesh avatars from a single monocular video. First, we learn a canonical geometry using a mesh representation, enabling efficient differentiable rasterization and straightforward animation via learned blendshapes and linear blend skinning weights. Second, we follow physically-based rendering and factor observed colors into intrinsic albedo, roughness, and a neural representation of the illumination, allowing the learned avatars to be relit in novel scenes. Since our input videos are captured on a single device with a narrow field of view, modeling the surrounding environment light is non-trivial. Based on the split-sum approximation for modeling specular reflections, we address this by approximating the pre-filtered environment map with a multi-layer perceptron (MLP) modulated by the surface roughness, eliminating the need to explicitly model the light. We demonstrate that our mesh-based avatar formulation, combined with learned deformation, material, and lighting MLPs, produces avatars with high-quality geometry and appearance, while also being efficient to train and render compared to existing approaches.",
+    "extra": {
+      "Citations@2026-06-01": "27",
+      "OpenAlex": "W4387994527",
+      "Scholar": "6NjbexEAAAAJ:SpbQ_efOBbkC"
+    },
+    "itemType": "journalArticle"
+  }
+}

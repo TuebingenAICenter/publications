@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Motivation: Single-cell technologies allow for the characterization of cellular states at high resolution. However, different technologies often measure different features (e.g. RNA and protein) on different cells, making it difficult to integrate these data. Existing methods for single-cell data integration often rely on shared features or prior knowledge of cell types, which limits their applicability. Results: We present SCIM (Single-Cell Integration and Matching), a method for integrating single-cell data with unpaired feature sets. SCIM uses a variational autoencoder framework to learn a joint latent space that captures the shared biological information across different modalities. We demonstrate that SCIM outperforms existing methods in matching cells across different technologies and in identifying shared cell types, even when the feature sets are completely disjoint. SCIM is a flexible and scalable approach that can be applied to a wide range of single-cell integration tasks.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Reporter": "NeurIPS 2025, 2025",
+      "Scholar": "adnTgaAAAAAJ:X4-KO54GjGYC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=DO5LtJc80w'>https://openreview.net/forum?id=DO5LtJc80w</a><br><a href='https://papers.cool/venue/DO5LtJc80w%40OpenReview'>https://papers.cool/venue/DO5LtJc80w%40OpenReview</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

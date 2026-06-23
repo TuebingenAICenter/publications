@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Abstract. Fixed wing and multirotor UAVs are common in the field of robotics. Solutions for simulation and control of these vehicles are ubiquitous. This is not the case for airships, a simulation of which needs to address unique properties, i) dynamic deformation in response to aerodynamic and control forces, ii) high susceptibility to wind and turbulence at low airspeed, iii) high variability in airship designs regarding placement, direction and vectoring of thrusters and control surfaces. We present a flexible framework for modeling, simulation and control of airships, based on the Robot operating system (ROS), simulation environment (Gazebo) and commercial off the shelf (COTS) electronics, both of which are open source. Based on simulated wind and deformation, we predict substantial effects on controllability, verified in real world flight experiments. All our code is shared as open source, for the benefit of the community and to facilitate lighter-than-air vehicle (LTAV) research.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Ang Jr, Marcelo H. and Asama, Hajime and Lin, Wei and Foong, Shaohui",
+      "OpenAlex": "W4287545918",
+      "Scholar": "6NjbexEAAAAJ:RTQXeVVbsVUC",
+      "Series": "Lecture Notes in Networks and Systems, 412"
+    },
+    "itemType": "document"
+  }
+}

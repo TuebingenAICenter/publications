@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Scholar": "s8xc2K4AAAAJ:aqlVkmm33-oC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2507.23009'>https://arxiv.org/abs/2507.23009</a><br><a href='https://chatpaper.com/paper/172060'>https://chatpaper.com/paper/172060</a><br><a href='https://www.aimodels.fyi/papers/arxiv/stop-evaluating-ai-human-tests-develop-principled'>https://www.aimodels.fyi/papers/arxiv/stop-evaluating-ai-human-tests-develop-principled</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

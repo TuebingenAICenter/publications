@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Federated learning (FL) is a popular paradigm for training machine learning models on decentralized data. A key challenge in FL is the communication bottleneck, which is often mitigated by sampling a subset of clients in each communication round. While client sampling is a standard practice, its impact on the convergence of FL algorithms is not fully understood. In this paper, we provide a comprehensive analysis of client sampling in FL. We first propose a general framework for analyzing client sampling, which covers both uniform and importance sampling. We then derive optimal sampling probabilities that minimize the variance of the gradient estimator, which in turn leads to faster convergence. We show that our optimal sampling strategy can significantly improve the performance of FL algorithms, especially in the presence of heterogeneous data. Finally, we validate our theoretical findings with extensive experiments on various datasets and models.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "8"
+    },
+    "itemType": "journalArticle"
+  }
+}

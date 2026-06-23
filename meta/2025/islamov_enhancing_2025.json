@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416050532",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "xkuLyHoAAAAJ:GnPB-g6toBAC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/poster/119505'>https://neurips.cc/virtual/2025/poster/119505</a><br><a href='https://arxiv.org/abs/2508.15071'>https://arxiv.org/abs/2508.15071</a><br><a href='https://dblp.org/rec/journals/corr/abs-2508-15071.html'>https://dblp.org/rec/journals/corr/abs-2508-15071.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

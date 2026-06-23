@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417095602",
+      "Publisher": "MPI-IS",
+      "Scholar": "v-JL-hsAAAAJ:WbkHhVStYXYC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<div data-schema-version=\"9\"><p>Also International Conference on Learning Representations (ICLR), Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions, 2025</p>\n</div>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

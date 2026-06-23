@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a new framework for semi-supervised learning on multilayer graphs based on generalized matrix means. Given a set of graphs defined on the same set of nodes, we define a multilayer graph Laplacian as a generalized matrix mean of the individual layer Laplacians. This allows us to interpolate between different aggregation schemes such as the arithmetic, geometric and harmonic mean. We show that the proposed framework is flexible and can be adapted to different types of multilayer data. We provide a theoretical analysis of the proposed method and show that it is well-posed. Finally, we demonstrate the effectiveness of our approach on several real-world datasets, showing that it outperforms state-of-the-art methods for semi-supervised learning on multilayer graphs.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1910.13951",
+    "extra": {
+      "Archive ID": "1910.13951",
+      "Citations@2026-06-01": "24",
+      "OpenAlex": "W2982395388",
+      "Pages": "14848-14857",
+      "Repository": "GitHub",
+      "Scholar": "0ZAb3tsAAAAJ:zLWjf1WUPmwC",
+      "Volume": "32"
+    },
+    "itemType": "document",
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

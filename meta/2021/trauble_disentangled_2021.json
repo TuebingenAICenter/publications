@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Disentangled representations are often argued to be a prerequisite for robust and generalizable machine learning. However, most existing methods for learning such representations rely on the assumption that the underlying factors of variation are independent. In this work, we challenge this assumption and investigate the effect of correlated data on the performance of disentanglement methods. We show that correlation can lead to a significant drop in performance and that existing methods are not robust to this setting. We propose a new evaluation framework for disentanglement in the presence of correlated data and demonstrate that our proposed approach can improve the robustness of disentanglement methods.",
+    "extra": {
+      "Citations@2026-06-01": "38",
+      "OpenAlex": "W3131183672",
+      "Scholar": "DZ-fHPgAAAAJ:kA94_h2wilkC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "139"
+    },
+    "itemType": "document"
+  }
+}

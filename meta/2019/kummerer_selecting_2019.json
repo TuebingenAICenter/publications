@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks have recently achieved state-of-the-art performance in predicting human eye fixations. However, it remains unclear which features of these networks are responsible for this success and whether they correspond to features used by the human visual system. Here, we propose a method to select a small subset of features from a deep neural network that are maximally predictive of human fixations. We show that this approach allows us to identify a small number of features that explain a large proportion of the variance in human fixation data. Our results suggest that the human visual system relies on a hierarchy of features that are well-represented in deep neural networks, and that our method can be used to gain insights into the mechanisms underlying human visual attention.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W2943052421",
+      "Scholar": "0z0fNxUAAAAJ:1lhNe0rCu4AC"
+    },
+    "itemType": "journalArticle"
+  }
+}

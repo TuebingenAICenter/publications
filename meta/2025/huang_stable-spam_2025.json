@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Low-bit training has emerged as a promising solution to reduce the memory footprint of large-scale model training. However, existing 4-bit optimizers often suffer from significant performance degradation and training instability compared to their 16-bit counterparts, especially when scaling to large models. In this paper, we identify that the primary cause of this instability is the severe quantization error in the second-order moment estimation, which is exacerbated by the dynamic range of gradients. To address this, we propose Stable-SPAM, a novel 4-bit optimizer that introduces a stable, error-compensated quantization scheme for the second-order moment. Specifically, we design a block-wise adaptive scaling mechanism that dynamically adjusts the quantization range based on the statistics of the second-order moment, effectively mitigating the impact of outliers. Furthermore, we introduce a momentum-based error compensation technique to preserve the long-term information of the second-order moment, which is crucial for stable convergence. Extensive experiments on various tasks, including language modeling and vision transformer training, demonstrate that Stable-SPAM achieves comparable or even better performance than 16-bit Adam while significantly reducing memory usage. Notably, Stable-SPAM exhibits superior stability in low-bit training, enabling robust convergence even with aggressive quantization.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Conference Name": "International Conference on Machine Learning",
+      "Proceedings Title": "Proceedings of the International Conference on Machine Learning",
+      "Scholar": "73IbXtsAAAAJ:VOx2b1Wkg3QC",
+      "Source": "group_webpage (liu)",
+      "arXiv": "2502.17055"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}

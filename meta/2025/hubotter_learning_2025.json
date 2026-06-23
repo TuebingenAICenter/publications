@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414972322",
+      "Scholar": "adnTgaAAAAAJ:GYcXSSpN504C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.04786'>https://arxiv.org/abs/2510.04786</a><br><a href='https://github.com/jonhue/ttc'>https://github.com/jonhue/ttc</a><br><a href='https://jonhue.github.io/publications/'>https://jonhue.github.io/publications/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

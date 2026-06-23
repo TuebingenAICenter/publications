@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Scholar": "6NjbexEAAAAJ:4kG_yR6n1dAC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.19259'>https://arxiv.org/abs/2509.19259</a><br><a href='https://dblp.dagstuhl.de/rec/journals/corr/abs-2509-19259.html'>https://dblp.dagstuhl.de/rec/journals/corr/abs-2509-19259.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

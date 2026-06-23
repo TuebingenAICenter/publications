@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The rapid development of open-ended AI agents, capable of executing complex, multi-step tasks in diverse environments, has outpaced the development of corresponding safety frameworks. While these agents offer significant potential for productivity and innovation, their autonomous nature introduces novel risks that are not adequately addressed by current safety paradigms. In this paper, we argue that safety must be a foundational requirement, not an afterthought, for the deployment of open-ended AI agents. We analyze the unique safety challenges posed by these systems, including their potential for unintended consequences, susceptibility to adversarial manipulation, and the difficulty of predicting their long-term behavior. We propose a multi-layered safety framework that integrates rigorous testing, robust monitoring, and human-in-the-loop oversight to mitigate these risks. Our framework emphasizes the need for proactive safety measures throughout the agent development lifecycle, from design and training to deployment and operation. We demonstrate the effectiveness of our approach through a series of case studies, highlighting the critical role of safety in ensuring the responsible and beneficial deployment of open-ended AI agents.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.04512",
+    "extra": {
+      "Archive ID": "2502.04512",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407308858",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:q0uBw5dMOAkC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

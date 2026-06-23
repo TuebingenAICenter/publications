@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:12",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.20318v3"
+      }
+    ],
+    "conferenceName": "NeurIPS workshop",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399270639",
+      "Scholar": "DZ-fHPgAAAAJ:eZ3Jd4XgJWUC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recently, synthetic data generation and realistic rendering has advanced tasks like target tracking and human pose estimation. Simulations for most robotics applications are obtained in (semi)static environments, with specific sensors and low visual fidelity. To solve this, we present a fully customizable framework for generating realistic animated dynamic environments (GRADE) for robotics research, first introduced in~\\cite{GRADE}. GRADE supports full simulation control, ROS integration, realistic physics, while being in an engine that produces high visual fidelity images and ground truth data. We use GRADE to generate a dataset focused on indoor dynamic scenes with people and flying objects. Using this, we evaluate the performance of YOLO and Mask R-CNN on the tasks of segmenting and detecting people. Our results provide evidence that using data generated with GRADE can improve the model performance when used for a pre-training step. We also show that, even training using only synthetic data, can generalize well to real-world images in the same application domain such as the ones from the TUM-RGBD dataset. The code, results, trained models, and the generated data are provided as open-source at https://eliabntt.github.io/grade-rr.",
+    "conferenceName": "ICRA 2023 Pretraining for Robotics (PT4R) Workshop",
+    "extra": {
+      "Code": "https://github.com/eliabntt/GRADE-RR",
+      "Data and network models": "https://github.com/eliabntt/GRADE_data",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ICRA 2023 Pretraining for Robotics (PT4R) Workshop"
+  }
+}

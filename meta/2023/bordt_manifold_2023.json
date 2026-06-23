@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gradient-based explanation methods are a popular tool to interpret deep neural networks. They assign an importance score to each input feature by computing the gradient of the model output with respect to the input. However, it is well known that these explanations can be noisy and visually uninterpretable. In this paper, we investigate the theoretical foundations of gradient-based explanations through the lens of the manifold hypothesis. We show that if the data lies on a low-dimensional manifold, the gradient of a model can be decomposed into a component that is tangent to the manifold and a component that is normal to the manifold. We prove that for a wide class of models, the normal component of the gradient is large and dominates the explanation, while the tangent component is small. This suggests that gradient-based explanations are primarily capturing the sensitivity of the model to directions that are off-manifold, rather than the features that are relevant for the classification task. We provide empirical evidence for this phenomenon on several datasets and models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2206.07387",
+    "extra": {
+      "Archive ID": "2206.07387",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4283009131",
+      "Repository": "arXiv",
+      "Scholar": "jQl9RtkAAAAJ:PELIpwtuRlgC"
+    },
+    "itemType": "document"
+  }
+}

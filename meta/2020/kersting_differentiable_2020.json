@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Likelihood-free inference (LFI) is a powerful framework for parameter estimation in complex dynamical systems where the likelihood function is intractable. However, existing LFI methods are often computationally expensive, requiring a large number of simulations. We propose a new approach to LFI that leverages differentiable simulators to construct a differentiable surrogate of the likelihood function. This allows for efficient gradient-based optimization of the parameters, significantly reducing the number of simulations required. We demonstrate the effectiveness of our approach on several challenging dynamical systems, showing that it outperforms existing LFI methods in terms of both accuracy and computational efficiency.",
+    "conferenceName": "37th International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Hal Daumé III and Aarti Singh",
+      "OpenAlex": "W4287865570",
+      "Scholar": "UeG5w08AAAAJ:tOudhMTPpwUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 37th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of computing the p-norm of a nonnegative matrix A, defined as the maximum of the ratio Ax_p / x_p over all non-zero nonnegative vectors x. While this problem is NP-hard for general matrices, we show that for nonnegative matrices it can be solved in polynomial time for any p = 1. We provide a simple iterative algorithm that converges to the optimal value and show that it is related to the power method. We then apply this result to the problem of computing the log-Sobolev constant of a Markov chain, which is a key quantity for determining the rate of convergence to stationarity. We show that the log-Sobolev constant can be computed by solving a sequence of norm problems for nonnegative matrices, and we provide an efficient algorithm for this task.",
+    "archive": "arXiv",
+    "archiveLocation": "math.NA",
+    "extra": {
+      "Archive ID": "2002.02447",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4287870572",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:ML0RJ9NH7IQC",
+      "arXiv": "2002.02447"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

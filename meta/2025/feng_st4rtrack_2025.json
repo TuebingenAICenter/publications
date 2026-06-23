@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Dynamic 3D reconstruction and point tracking in videos are typically treated as separate tasks, despite their deep connection. We propose St4RTrack, a feed-forward framework that simultaneously reconstructs and tracks dynamic video content in a world coordinate frame from RGB inputs. This is achieved by predicting two appropriately defined pointmaps for a pair of frames captured at different moments. Specifically, we predict both pointmaps at the same moment, in the same world, capturing both static and dynamic scene geometry while maintaining 3D correspondences. Chaining these predictions through the video sequence with respect to a reference frame naturally computes long-range correspondences, effectively combining 3D reconstruction with 3D tracking. Unlike prior methods that rely heavily on 4D ground truth supervision we employ a novel adaptation scheme based on a reprojection loss. We establish a new extensive benchmark for world-frame reconstruction and tracking, demonstrating the effectiveness and efficiency of our unified, data-driven framework.",
+    "archive": "arXiv",
+    "archiveLocation": "2504.13152",
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "68",
+      "Scholar": "6NjbexEAAAAJ:zEEUHg7m05MC",
+      "arXiv": "2504.13152"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Feng_St4RTrack_Simultaneous_4D_Reconstruction_and_Tracking_in_the_World_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Feng_St4RTrack_Simultaneous_4D_Reconstruction_and_Tracking_in_the_World_ICCV_2025_paper.html</a><br><a href='https://arxiv.org/abs/2504.13152'>https://arxiv.org/abs/2504.13152</a><br><a href='https://st4rtrack.github.io/'>https://st4rtrack.github.io/</a><br><a href='https://is.mpg.de/publications/st4track-iccv-2025'>https://is.mpg.de/publications/st4track-iccv-2025</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 4</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

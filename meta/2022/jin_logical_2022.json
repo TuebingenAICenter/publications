@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Logical fallacies are common in human communication, yet their automated detection remains an under-explored task in natural language processing. In this paper, we introduce the task of logical fallacy detection. We first curate a dataset of logical fallacies, LogiFall, which contains 1,900 examples of logical fallacies across 23 categories, collected from diverse sources including news, social media, and textbooks. We then propose a new model, FallacyDet, which leverages a combination of logical and linguistic features to detect fallacies. Our experiments show that FallacyDet outperforms strong baselines on the task of logical fallacy detection, achieving an F1-score of 0.68. We also conduct a human evaluation to assess the quality of our dataset and the performance of our model, demonstrating the potential of our approach for real-world applications.",
+    "archive": "ACL Anthology",
+    "extra": {
+      "Archive ID": "2202.13758",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4226022040",
+      "Pages": "7180--7198",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:9xqxkQI1XDUC"
+    },
+    "itemType": "document"
+  }
+}

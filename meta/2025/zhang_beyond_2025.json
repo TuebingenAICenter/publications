@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "DZ-fHPgAAAAJ:1pey-SaUeH0C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.00072'>https://arxiv.org/abs/2509.00072</a><br><a href='https://jglobal.jst.go.jp/en/public/202502210844732806'>https://jglobal.jst.go.jp/en/public/202502210844732806</a><br><a href='https://www.aimodels.fyi/papers/arxiv/beyond-memorization-reasoning-driven-synthesis-as-mitigation'>https://www.aimodels.fyi/papers/arxiv/beyond-memorization-reasoning-driven-synthesis-as-mitigation</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

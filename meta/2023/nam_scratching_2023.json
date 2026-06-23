@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision Transformers (ViTs) have shown remarkable performance in various computer vision tasks. However, the self-attention mechanism, the core component of ViTs, has a quadratic computational complexity with respect to the number of tokens, which limits its application to high-resolution images. To address this, we propose Uniform Attention, a simple yet effective attention mechanism that reduces the computational complexity to linear. Uniform Attention replaces the standard self-attention with a uniform distribution of attention weights, which can be computed efficiently. We demonstrate that Uniform Attention achieves competitive performance on various vision tasks, including image classification, object detection, and semantic segmentation, while significantly reducing the computational cost.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2210.08457",
+    "extra": {
+      "Citations@2026-06-01": "64",
+      "Scholar": "kmXOOdsAAAAJ:blknAaTinKkC"
+    },
+    "itemType": "journalArticle"
+  }
+}

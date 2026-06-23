@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "NetGAN is a popular generative model for graphs that learns to generate new graphs by performing random walks on the input graph and training a GAN to mimic these walks. In this paper, we show that the GAN component is not necessary to achieve the performance of NetGAN. We prove that the random walk distribution of a graph is closely related to the transition matrix of the graph, and that the generator of NetGAN essentially learns a low-rank approximation of this transition matrix. Based on this insight, we propose a simple, non-generative alternative to NetGAN that directly computes a low-rank approximation of the transition matrix. Our method is faster to train, easier to tune, and achieves competitive or better performance than NetGAN on a variety of graph generation tasks.",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W3034536167",
+      "Scholar": "mMifMdoAAAAJ:0KyAp5RtaNEC"
+    },
+    "itemType": "journalArticle"
+  }
+}

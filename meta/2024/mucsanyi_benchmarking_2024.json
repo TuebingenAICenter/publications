@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Uncertainty estimation is crucial for reliable machine learning. While many methods exist to quantify uncertainty, they often conflate different sources of uncertainty, such as aleatoric (data-inherent) and epistemic (model-inherent) uncertainty. Recent works have proposed methods to disentangle these, but a systematic evaluation of their performance across different tasks is lacking. In this work, we introduce a comprehensive benchmark for uncertainty disentanglement. We curate a diverse set of tasks, including classification, regression, and out-of-distribution detection, and evaluate a wide range of disentanglement methods. Our results reveal that no single method consistently outperforms others across all tasks, highlighting the need for specialized uncertainty estimation methods tailored to specific tasks. We provide a unified framework and codebase to facilitate future research in this direction.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2402.19460",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Citations@2026-06-01": "118",
+      "Scholar": "kmXOOdsAAAAJ:2P1L_qKh6hAC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 30</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 30</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024"
+  }
+}

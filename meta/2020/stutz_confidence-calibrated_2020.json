@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Adversarial training is the state-of-the-art defense against adversarial attacks. However, it is known to be specific to the threat model used during training, i.e., models are vulnerable to unseen attacks. In this paper, we argue that this is due to the fact that adversarial training does not explicitly encourage the model to be confident only on the data manifold. We propose Confidence-Calibrated Adversarial Training (CCAT) which encourages the model to predict low confidence for adversarial examples. We show that this allows the model to generalize to unseen attacks, including different threat models and even unseen attack types. Our approach achieves state-of-the-art results on CIFAR-10 and SVHN in terms of robustness to unseen attacks while maintaining high accuracy on clean data.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1910.06259",
+    "extra": {
+      "Archive ID": "1910.06259",
+      "Citations@2026-06-01": "35",
+      "OpenAlex": "W3008313523",
+      "Pages": "9155-9166",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:FPJr55Dyh1AC",
+      "Volume": "1"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

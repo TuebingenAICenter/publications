@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The rapid evolution of multimodal models has led to a proliferation of specialized versions, each fine-tuned for different tasks or data distributions. While model merging techniques have emerged as a powerful tool to combine these models without further training, they are typically designed for static snapshots. In this work, we introduce the problem of merging multimodal models over time, where we aim to combine a sequence of models that have been updated sequentially. We find that naive application of existing merging methods leads to catastrophic forgetting of earlier capabilities. To address this, we propose a novel framework, FluxMerge, which leverages the temporal structure of model updates to effectively merge models while preserving performance across the entire sequence. We demonstrate the effectiveness of our approach on a range of multimodal tasks, showing that it significantly outperforms existing baselines in both zero-shot and few-shot settings.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2412.06712",
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W4413145733",
+      "Scholar": "0z0fNxUAAAAJ:L24QuVWYgZ0C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

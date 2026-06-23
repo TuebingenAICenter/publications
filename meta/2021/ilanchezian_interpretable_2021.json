@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models have achieved high performance in medical image analysis, but their black-box nature limits their clinical adoption. In this work, we investigate the use of BagNets, a class of models that classify images based on local features, for gender classification from retinal fundus images. We show that BagNets achieve performance comparable to standard convolutional neural networks while providing inherent interpretability through heatmaps that highlight the local features contributing to the classification. Our results suggest that BagNets are a promising tool for interpretable medical image analysis.",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W3176792199",
+      "Scholar": "lPQLk3QAAAAJ:EUQCXRtRnyEC",
+      "Series": "Lecture Notes in Computer Science"
+    },
+    "itemType": "document"
+  }
+}

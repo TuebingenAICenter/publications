@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "t-SNE and UMAP are popular methods for visualizing high-dimensional data. We show that their ability to preserve global structure depends critically on the initialization of the embedding, and we recommend using PCA initialization by default.",
+    "extra": {
+      "Source": "group_webpage (berens)"
+    },
+    "itemType": "journalArticle"
+  }
+}

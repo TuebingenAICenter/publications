@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Feature selection is a fundamental problem in machine learning. A recent approach, the selective kernel test, performs feature selection by testing the conditional independence of a target variable given a subset of features. However, the existing selective kernel test is often underpowered because it uses a fixed kernel that may not be suitable for the data. In this paper, we propose a more powerful selective kernel test by optimizing the kernel to maximize the test power. We show that the proposed test is more powerful than the existing one and can be used for feature selection in various settings, including high-dimensional data and non-linear relationships. We also provide a theoretical analysis of the proposed test and demonstrate its effectiveness through extensive experiments.",
+    "archive": "arXiv",
+    "archiveLocation": "1910.06134",
+    "conferenceName": "International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Silvia Chiappa and Roberto Calandra",
+      "Event Place": "Virtual Conference",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

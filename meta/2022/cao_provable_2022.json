@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of lifelong learning of representations, where a learner encounters a sequence of tasks and aims to learn a shared representation that is useful for all tasks. We propose a simple algorithm based on alternating minimization and prove that it can learn a shared representation that is near-optimal for all tasks, provided the tasks share a common low-dimensional subspace. Our results provide a theoretical foundation for lifelong learning and demonstrate that it is possible to learn a shared representation with sample complexity that is significantly lower than learning each task independently.",
+    "conferenceName": "25th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

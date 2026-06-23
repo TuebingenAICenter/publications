@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The goal of neural system identification is to build models that predict neural responses to arbitrary stimuli. While deep learning models have achieved state-of-the-art performance in predicting responses of neurons in the visual system, they often require large amounts of data and are prone to overfitting. Here, we show that incorporating the principle of efficient coding—the idea that sensory systems are adapted to the statistics of natural scenes—improves neural system identification. We propose a framework that combines a deep neural network with an efficient coding objective, which encourages the model to learn representations that are informative about the stimulus while minimizing redundancy. We demonstrate that this approach leads to better predictive performance on neural data from the mouse retina and primary visual cortex, especially in data-limited regimes. Our results suggest that efficient coding is a powerful inductive bias for neural system identification and that it can help bridge the gap between normative theories of sensory processing and data-driven models.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Format": "application/pdf",
+      "Identifier": "10.1371/journal.pcbi.1011037",
+      "OpenAlex": "W4393908931",
+      "Publication Title": "PLoS computational biology 19 (4), e1011037, 2023",
+      "Scholar": "0z0fNxUAAAAJ:LXmCCkuhhTsC"
+    },
+    "itemType": "document"
+  }
+}

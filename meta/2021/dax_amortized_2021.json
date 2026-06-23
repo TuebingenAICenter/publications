@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gravitational wave (GW) astronomy relies on Bayesian inference to estimate the parameters of compact binary coalescences. Current methods, such as Markov Chain Monte Carlo (MCMC) and Nested Sampling, are computationally expensive, often requiring days to analyze a single event. As the sensitivity of detectors increases, the number of detected events will grow, necessitating faster inference methods. We propose a method for amortized Bayesian inference of GW parameters using normalizing flows. Our approach learns the posterior distribution conditioned on the observed data, allowing for near-instantaneous inference once trained. We demonstrate our method on simulated GW signals and show that it produces accurate posterior estimates, comparable to traditional methods, while being orders of magnitude faster.",
+    "conferenceName": "Fourth Workshop on Machine Learning and the Physical Sciences at NeurIPS",
+    "extra": {
+      "Scholar": "DZ-fHPgAAAAJ:p-Nzrb723k0C",
+      "Source": "group_webpage (macke)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Fourth Workshop on Machine Learning and the Physical Sciences at NeurIPS"
+  }
+}

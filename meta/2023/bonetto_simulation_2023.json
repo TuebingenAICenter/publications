@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation engines are widely adopted in robotics. However, they lack either full simulation control, ROS integration, realistic physics, or photorealism. Recently, synthetic data generation and realistic rendering has advanced tasks like target tracking and human pose estimation. However, when focusing on vision applications, there is usually a lack of information like sensor measurements or time continuity. On the other hand, simulations for most robotics tasks are performed in (semi)static environments, with specific sensors and low visual fidelity. To solve this, we introduced in our previous work a fully customizable framework for generating realistic animated dynamic environments (GRADE) [1]. We use GRADE to generate an indoor dynamic environment dataset and then compare multiple SLAM algorithms on different sequences. By doing that, we show how current research over-relies on known benchmarks, failing to generalize. Our tests with refined YOLO and Mask R-CNN models provide further evidence that additional research in dynamic SLAM is necessary. The code, results, and generated data are provided as open-source at https://eliabntt.github.io/grade-rr .",
+    "conferenceName": "ICRA 2023 Workshop on the Active Methods in Autonomous Navigation",
+    "extra": {
+      "Code": "https://github.com/eliabntt/GRADE-RR",
+      "Data": "https://github.com/eliabntt/GRADE_data",
+      "Evaluation code": "https://github.com/robot-perception-group/GRADE_tools",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ICRA 2023 Workshop on the Active Methods in Autonomous Navigation"
+  }
+}

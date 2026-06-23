@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2506.05188",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.05188?"
+      }
+    ],
+    "conferenceName": "Annual Conference on Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "San Diego Convention Center and Mexico City",
+      "OpenAlex": "W4416054568",
+      "Scholar": "DZ-fHPgAAAAJ:OX23M3FD-1oC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.05188'>https://arxiv.org/abs/2506.05188</a><br><a href='https://neurips.cc/virtual/2025/poster/116021'>https://neurips.cc/virtual/2025/poster/116021</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  }
+}

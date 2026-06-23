@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414682844",
+      "Scholar": "SrVnrPcAAAAJ:SrKkpNFED5gC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.19117'>https://arxiv.org/abs/2506.19117</a><br><a href='https://raniatze.github.io/pritti/'>https://raniatze.github.io/pritti/</a><br><a href='https://huggingface.co/papers/2506.19117'>https://huggingface.co/papers/2506.19117</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

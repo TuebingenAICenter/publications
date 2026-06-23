@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are increasingly applied to complex tasks that require extended reasoning. In such settings, models often benefit from diverse chains-of-thought to arrive at multiple candidate solutions. This requires two competing objectives: to inject enough stochasticity to explore multiple reasoning chains, and to ensure sufficient accuracy and quality in each path. Existing works pursue the first objective by increasing exploration at highly uncertain steps with higher temperature or larger candidate token sets, while others improve reliability by rejecting samples with low confidence post-generation, implying that low confidence correlates with low answer quality. These two lines of thought are in conflict, as they conflate different sources of uncertainty. To resolve this, we argue that the decoding rule should be calibrated by correctness, not confidence alone. We should sample from tokens with higher estimated correctness, and reduce sampling where expected correctness is low. We propose simple strategies that achieve this goal: Greedy-Threshold makes sampling greedy at very low confidence steps. Calibrated-TopK and Calibrated-epsilon set truncation threshold based on estimated rank-wise correctness. Together, our findings challenge prevailing heuristics about decoding under uncertainty and show gains across math and general reasoning benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.05987",
+    "extra": {
+      "Archive ID": "2510.05987",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414980941",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:tYavs44e6CUC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.05987'>https://arxiv.org/abs/2510.05987</a><br><a href='https://doi.org/10.48550/arXiv.2510.05987'>https://doi.org/10.48550/arXiv.2510.05987</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

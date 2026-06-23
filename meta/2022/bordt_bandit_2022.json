@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study a human-machine decision making system where a human and a machine collaborate to make a sequence of decisions. The machine provides recommendations to the human, who makes the final decision. We model this as a bandit problem where the machine has access to some features, but the human possesses private information that is not available to the machine. Furthermore, the machine's decision process is opaque to the human. We analyze the regret of this system and show that the human's private information can be used to improve the machine's performance. We also show that the opacity of the machine's decision process can lead to suboptimal decisions.",
+    "conferenceName": "25th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel",
+      "OpenAlex": "W4287725461",
+      "Scholar": "mMifMdoAAAAJ:Dip1O2bNi0gC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

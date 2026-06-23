@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The strength of modern generative models lies in their ability to be controlled through prompts. Hard prompts comprise interpretable words and tokens, and are typically hand-crafted by humans. Soft prompts, on the other hand, consist of continuous feature vectors. These can be discovered using powerful optimization methods, but they cannot be easily edited, re-used across models, or plugged into a text-based interface. We describe an easy-to-use approach to automatically optimize hard text prompts through efficient gradient-based optimization. Our approach can be readily applied to text-to-image and text-only applications alike. This method allows API users to easily generate, discover, and mix and match image concepts without prior knowledge of how to prompt the model. Furthermore, using our method, we can bypass token-level content filters imposed by Midjourney by optimizing through the open-sourced text encoder.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2302.03668",
+    "extra": {
+      "Archive ID": "2302.03668",
+      "Citations@2026-06-01": "39",
+      "OpenAlex": "W4319653969",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:e5wmG9Sq2KIC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

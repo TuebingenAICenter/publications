@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the robustness of kernel methods against adversarial perturbations. We propose a framework for adversarially robust kernel smoothing, which consists of a robust kernel density estimator and a robust kernel regression estimator. We show that these estimators are robust to adversarial perturbations in the input space, and we provide theoretical guarantees for their robustness. We also demonstrate the effectiveness of our approach on several benchmark datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "2102.08474",
+    "extra": {
+      "Archive ID": "arXiv:2102.08474",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3182348021",
+      "Pages": "4972--4994",
+      "Scholar": "DZ-fHPgAAAAJ:NJdIkVacNvsC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "151"
+    },
+    "itemType": "document"
+  }
+}

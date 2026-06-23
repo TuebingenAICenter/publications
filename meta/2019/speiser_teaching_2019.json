@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Super-resolution microscopy techniques such as single-molecule localization microscopy (SMLM) allow for imaging biological structures at the nanometer scale. A key step in SMLM is the localization of individual fluorophores from noisy, diffraction-limited images. This is typically achieved by fitting parametric models to the point spread function (PSF) of the fluorophores. However, this approach is computationally expensive and requires accurate knowledge of the PSF. Here, we propose a deep learning approach to localize fluorophores that combines simulation-based supervised learning with unsupervised learning. We train a convolutional neural network to predict the positions of fluorophores from raw images. By using a generative model of the imaging process, we can generate large amounts of synthetic training data. To improve performance on experimental data, we introduce an unsupervised loss term that encourages the network to predict fluorophore positions that are consistent with the raw images. We demonstrate that our approach achieves state-of-the-art localization accuracy on both synthetic and experimental data, while being orders of magnitude faster than traditional fitting-based methods.",
+    "archive": "arXiv",
+    "archiveLocation": "1905.02656",
+    "extra": {
+      "Citations@2026-06-01": "12",
+      "OpenAlex": "W2955291812",
+      "Scholar": "FKOqtF8AAAAJ:43LB_KcVqeAC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}

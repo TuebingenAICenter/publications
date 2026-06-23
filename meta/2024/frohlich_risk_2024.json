@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Machine learning typically presupposes classical probability theory which implies that aggregation is built upon expectation. There are now multiple reasons to motivate looking at richer alternatives to classical probability theory as a mathematical foundation for machine learning. We systematically examine a powerful and rich class of such alternatives, known variously as spectral risk measures, Choquet integrals or Lorentz norms. We present a range of characterization results, and demonstrate what makes this spectral family so special. In doing so we demonstrate a natural stratification of all coherent risk measures in terms of the upper probabilities that they induce by exploiting results from the theory of rearrangement invariant Banach spaces. We empirically demonstrate how this new approach to uncertainty helps tackling practical machine learning problems.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:58:42",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2206.03183v4"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4282028258",
+      "Publisher": "University of Tübingen",
+      "Scholar": "G4MBruQAAAAJ:uSZH581ylUkC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

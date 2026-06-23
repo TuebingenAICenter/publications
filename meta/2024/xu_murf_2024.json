@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present Multi-Baseline Radiance Fields (MuRF), a general feed-forward approach to solving sparse view synthesis under multiple different baseline settings (small and large baselines, and different number of input views). To render a target novel view, we discretize the 3D space into planes parallel to the target image plane, and accordingly construct a target view frustum volume. Such a target volume representation is spatially aligned with the target view, which effectively aggregates relevant information from the input views for high-quality rendering. It also facilitates subsequent radiance field regression with a convolutional network thanks to its axis-aligned nature. The 3D context modeled by the convolutional network enables our method to synthesis sharper scene structures than prior works. Our MuRF achieves state-of-the-art performance across multiple different baseline settings and diverse scenarios ranging from simple objects (DTU) to complex indoor and outdoor scenes (RealEstate10K and LLFF). We also show promising zero-shot generalization abilities on the Mip-NeRF 360 dataset, demonstrating the general applicability of MuRF.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:38:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2312.04565"
+      },
+      {
+        "accessDate": "2025-06-17 19:38:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2312.04565"
+      }
+    ],
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "24",
+      "OpenAlex": "W4402753396",
+      "Scholar": "SrVnrPcAAAAJ:EBV337fEn3EC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 39</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 39</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

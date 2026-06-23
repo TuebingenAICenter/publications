@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Averaging checkpoints along the training trajectory is a simple yet powerful approach to improve the generalization performance of Machine Learning models and reduce training time. Motivated by these potential gains, and in an effort to fairly and thoroughly benchmark this technique, we present an extensive evaluation of averaging techniques in modern Deep Learning, which we perform using AlgoPerf, a large-scale benchmark for optimization algorithms. We investigate whether weight averaging can reduce training time, improve generalization, and replace learning rate decay, as suggested by recent literature. Our evaluation across seven architectures and datasets reveals that averaging significantly accelerates training and yields considerable efficiency gains across all considered workloads, at the price of a minimal implementation and memory cost, while mildly improving generalization. Finally, we explore the relationship between averaging and learning rate annealing and show that combining the two achieves optimal performance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.06761",
+    "conferenceName": "ICML 2025",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407359552",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "xkuLyHoAAAAJ:NMxIlDl6LWMC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v267/ajroldi25a.html'>https://proceedings.mlr.press/v267/ajroldi25a.html</a><br><a href='https://arxiv.org/abs/2502.06761'>https://arxiv.org/abs/2502.06761</a><br><a href='https://icml.cc/virtual/2025/poster/45698'>https://icml.cc/virtual/2025/poster/45698</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning practitioners invest significant manual and computational resources in finding suitable learning rates for optimization algorithms. We provide a probabilistic motivation, in terms of Gaussian inference, for popular stochastic first-order methods. As an important special case, it recovers the Polyak step with a general metric. The inference allows us to relate the learning rate to a dimensionless quantity that can be automatically adapted during training by a control algorithm. The resulting meta-algorithm is shown to adapt learning rates in a robust manner across a large range of initial values when applied to deep learning benchmark problems.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2102.10880",
+    "extra": {
+      "Archive ID": "2102.10880",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3131236796",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:V3AGJWp-ZtQC",
+      "arXiv": "2102.10880"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

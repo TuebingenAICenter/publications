@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models are often surprisingly successful at solving complex tasks, yet they frequently fail to generalize to new data distributions. A common explanation is that models rely on unintended cues—features that are predictive in the training set but do not generalize to other contexts. In this paper, we draw on the long history of experimental psychology to provide a structured overview of unintended cue learning. We show that many phenomena in deep learning have direct counterparts in psychology, such as the Clever Hans effect, the distinction between cue and category learning, and the role of stimulus salience. By synthesizing these insights, we argue that unintended cue learning is a fundamental challenge for machine learning that requires a shift in focus from purely data-driven approaches to incorporating inductive biases and causal reasoning.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W3096403342",
+      "Scholar": "0z0fNxUAAAAJ:ce2CqMG-AY4C"
+    },
+    "itemType": "journalArticle"
+  }
+}

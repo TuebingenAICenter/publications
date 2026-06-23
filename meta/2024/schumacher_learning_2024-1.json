@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bio-inspired actuators, such as emulated muscles, offer the potential to improve the energy efficiency and adaptability of robots. However, controlling these actuators is challenging due to their complex, non-linear dynamics. Reinforcement learning (RL) has shown promise in controlling such systems, but training in simulation often fails to transfer to real hardware due to the reality gap. In this paper, we present a software test bed that enables the training and evaluation of RL agents on real robots equipped with emulated muscles. Our test bed provides a standardized interface for hardware-in-the-loop training, facilitating the development and benchmarking of control strategies. We demonstrate the effectiveness of our approach by training an RL agent to control a robotic arm driven by emulated muscles, achieving performance comparable to simulation-based training while significantly reducing the reality gap.",
+    "archive": "arXiv",
+    "archiveLocation": "2402.05371",
+    "conferenceName": "10th International Conference on Biomedical Robotics and Biomechatronics (BioRob)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403677069",
+      "Scholar": "b-JF-UIAAAAJ:WZBGuue-350C",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2402.05371"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "IEEE Xplore",
+    "proceedingsTitle": "Proceedings 10th International Conference on Biomedical Robotics and Biomechatronics (BioRob)"
+  }
+}

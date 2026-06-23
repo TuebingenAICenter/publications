@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Convolutional neural networks (CNNs) are the standard architecture for computer vision tasks. Despite their success, they are notoriously vulnerable to adversarial examples—small, imperceptible perturbations to an input that cause the model to misclassify it. A common observation is that these adversarial perturbations are often high-frequency. In this work, we show that this phenomenon is not merely a consequence of training, but is instead an implicit bias of the convolutional architecture itself. Specifically, we prove that translational symmetry, combined with the use of localized kernels, forces the network to be more sensitive to high-frequency components of the input. We demonstrate this theoretically and empirically, showing that even randomly initialized CNNs exhibit this bias. Our results provide a fundamental explanation for the prevalence of high-frequency adversarial examples in CNNs and suggest that architectural priors play a significant role in their vulnerability.",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4399868320",
+      "Scholar": "v-JL-hsAAAAJ:f2IySw72cVMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

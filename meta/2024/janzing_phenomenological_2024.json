@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a framework for causality based on the concept of 'elementary actions'. We argue that causal relations are not primitive, but emerge from the interaction of agents with their environment. By defining elementary actions as the smallest units of intervention, we show how causal structures can be derived from the statistics of these actions. Our approach provides a bridge between the structural causal model framework and a more phenomenological understanding of causality, offering insights into the nature of causal discovery and the limits of causal inference.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

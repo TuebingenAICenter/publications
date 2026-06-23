@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Message-Passing Monte Carlo (MPMC) was recently introduced as a novel low-discrepancy sampling approach leveraging tools from geometric deep learning. While originally designed for generating uniform point sets, we extend this framework to sample from general multivariate probability distributions with known probability density function. Our proposed method, Stein-Message-Passing Monte Carlo (Stein-MPMC), minimizes a kernelized Stein discrepancy, ensuring improved sample quality. Finally, we show that Stein-MPMC outperforms competing methods, such as Stein Variational Gradient Descent and (greedy) Stein Points, by achieving a lower Stein discrepancy.",
+    "archive": "arXiv",
+    "archiveLocation": "2503.21103",
+    "extra": {
+      "Archive ID": "2503.21103",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4415061938",
+      "Scholar": "9LajlSsAAAAJ:B3FOqHPlNUQC"
+    },
+    "itemType": "document"
+  }
+}

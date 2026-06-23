@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Richard Feynman once said, “What I cannot create, I do not understand.” Similarly, making virtual humans more realistic helps us better grasp human nature. Simulating lifelike avatars has scientific value (such as in biomechanics) and practical applications (like the Metaverse). However, creating them affordably at scale with high quality remains challenging. Reconstructing complex poses, varied clothing, and unseen areas from casual photos under real-world conditions is still difficult. We address this through a series of works—ICON, ECON, TeCH, PuzzleAvatar—bridging pixel-based reconstruction with text-guided generation to reframe reconstruction as conditional generation. This allows us to turn everyday photos, like personal albums featuring random poses, diverse clothing, tricky angles, and arbitrary cropping, into 3D avatars. The process converts unstructured data into structured output without unnecessary complexity. With these techniques, we can efficiently scale up the creation of digital humans using readily available imagery.",
+    "extra": {
+      "Publication Type": "Ph.D. Thesis",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "thesis"
+  }
+}

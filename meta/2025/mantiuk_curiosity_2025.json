@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Curiosity is a fundamental driver of learning, yet the mechanisms by which it guides exploration remain debated. We investigate how world models—internal representations of environmental dynamics—interact with curiosity-driven exploration. We propose a framework where agents use world models to predict future states, and curiosity is modulated by the model's predictive uncertainty. Through a series of experiments, we demonstrate that this interaction leads to a transition from broad, novelty-seeking exploration to targeted, competence-building behavior. Our results suggest that the development of a robust world model is essential for shifting from curiosity to competence, providing a computational account of how agents balance exploration and exploitation in complex environments.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.08210",
+    "conferenceName": "47th Annual Conference of the Cognitive Science Society",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Scholar": "1O2hcVgAAAAJ:q3oQSFYPqjQC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 47th Annual Conference of the Cognitive Science Society"
+  }
+}

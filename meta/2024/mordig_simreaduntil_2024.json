@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Selective sequencing on Oxford Nanopore Technologies (ONT) devices allows for the real-time enrichment of specific genomic regions by selectively rejecting DNA molecules during the sequencing process. This technique is increasingly used in various applications, such as pathogen detection and targeted sequencing. However, the development and benchmarking of algorithms for selective sequencing are challenging due to the high cost and variability of wet-lab experiments. To address this, we present SimReadUntil, a simulation framework that enables the benchmarking of selective sequencing algorithms using existing sequencing data. SimReadUntil provides a realistic simulation of the ONT sequencing process, including the signal acquisition and the decision-making process of the ReadUntil software. We demonstrate the utility of SimReadUntil by benchmarking several selective sequencing algorithms on different datasets, showing that it can accurately predict the performance of these algorithms in wet-lab experiments.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "4"
+    },
+    "itemType": "journalArticle"
+  }
+}

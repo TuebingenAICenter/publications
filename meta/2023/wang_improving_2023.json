@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "7th Annual Conference on Robot Learning (CoRL)",
+    "extra": {
+      "Source": "group_webpage (martius)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "7th Annual Conference on Robot Learning (CoRL)"
+  }
+}

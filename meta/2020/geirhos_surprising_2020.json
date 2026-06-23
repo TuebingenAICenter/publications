@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised learning has recently emerged as a powerful alternative to supervised learning, with some models even matching supervised performance on ImageNet. But how similar are the representations learned by these two paradigms? We perform a large-scale comparison of supervised and self-supervised models across a wide range of architectures and datasets. We find that self-supervised models are surprisingly similar to their supervised counterparts: they exhibit similar error patterns, similar shape-bias, and similar robustness to common corruptions. Furthermore, we show that self-supervised models can be used as drop-in replacements for supervised models in downstream tasks with little to no loss in performance. Our results suggest that the representations learned by self-supervised models are not fundamentally different from those learned by supervised models, but rather that they capture similar features of the data.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2010.08377",
+    "extra": {
+      "Archive ID": "2010.08377",
+      "Citations@2026-06-01": "19",
+      "OpenAlex": "W3093070351",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:hFOr9nPyWt4C"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

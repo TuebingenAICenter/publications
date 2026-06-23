@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning turns on one simple trick: Split the data into training and test sets. Anything goes on the training set. Rank models on the test set and let model builders compete. Call it a benchmark. Machine learning researchers cherish a good tradition of lamenting the apparent shortcomings of benchmarks. Critics argue that static test sets and metrics promote narrow research objectives, stifling more creative scientific pursuits. Benchmarks also incentivize gaming; in fact, Goodhart's Law cautions against applying competitive pressure to statistical measurement. Over time, researchers may overfit to benchmarks, building models that exploit data artifacts. As a result, test set performance draws a skewed picture of model capabilities that deceives us—especially when comparing humans and machines. To top off the list of issues, there are a slew of reasons why things don't transfer well from benchmarks to the real world.",
+    "extra": {
+      "Citations@2026-06-01": "41",
+      "Publication Title": "https://mlbenchmarks.org, 2025",
+      "Scholar": "adnTgaAAAAAJ:R22Rs3tN8aoC"
+    },
+    "itemType": "report",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 5</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

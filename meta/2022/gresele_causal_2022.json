@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce the Structural Causal Marginal Problem (SCMP): given a set of marginal distributions of a structural causal model (SCM) under different interventions, can we identify the causal graph or the interventional distributions? We show that the SCMP is a powerful framework that encompasses several existing causal inference problems, such as causal discovery from interventional data, transportability, and causal effect estimation. We provide a general identifiability criterion for the SCMP and show that it can be solved using a variety of methods, including constraint-based, score-based, and continuous optimization approaches. We demonstrate the effectiveness of our framework on synthetic and real-world data.",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4226484016",
+      "Scholar": "DZ-fHPgAAAAJ:Pq77ox9vBIIC"
+    },
+    "itemType": "document"
+  }
+}

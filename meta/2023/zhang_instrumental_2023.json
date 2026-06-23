@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Instrumental variable (IV) regression is a fundamental tool for estimating causal effects in the presence of unobserved confounders. In this paper, we propose a novel nonparametric IV regression method based on the kernel maximum moment loss (KMM loss). The KMM loss is derived from the conditional moment restriction, which characterizes the IV model, and it is defined as the maximum mean discrepancy between the joint distribution of the instruments and the treatment, and the distribution of the instruments and the outcome. We show that the proposed estimator is consistent and achieves the minimax optimal convergence rate under certain conditions. Furthermore, we provide a practical algorithm for computing the estimator and demonstrate its effectiveness through extensive experiments on both synthetic and real-world datasets.",
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "Issue": "1",
+      "OpenAlex": "W3093393221",
+      "Scholar": "DZ-fHPgAAAAJ:OkkC-2cgFhAC",
+      "Volume": "11"
+    },
+    "itemType": "document"
+  }
+}

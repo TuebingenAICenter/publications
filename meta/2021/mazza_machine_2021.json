@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a machine-learning-based approach to reconstruct the time-local generator of the dynamics of an open quantum system from time-series data of observables. The method relies on the representation of the generator in the Lindblad form, where the Hamiltonian and the dissipators are parameterized by neural networks. We demonstrate the performance of our approach by reconstructing the dynamics of a driven-dissipative spin chain and a system of interacting bosons. Our results show that the method is capable of capturing the non-Markovian nature of the dynamics and is robust against noise in the data.",
+    "extra": {
+      "Citations@2026-06-01": "42",
+      "Scholar": "b-JF-UIAAAAJ:XiSMed-E-HIC"
+    },
+    "itemType": "journalArticle"
+  }
+}

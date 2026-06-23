@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models have achieved state-of-the-art performance in medical image analysis but are often criticized for their lack of interpretability. While post-hoc explanation methods exist, they can be misleading and do not guarantee faithfulness to the model's decision-making process. In this work, we propose an inherently interpretable multi-label classification framework that leverages class-specific counterfactuals. Our approach learns a set of class-specific prototypes and generates counterfactual explanations by identifying the minimal changes required to flip the classification outcome. We demonstrate the effectiveness of our method on multi-label chest X-ray classification, showing that it provides faithful and intuitive explanations while maintaining competitive classification performance.",
+    "archive": "OpenReview",
+    "conferenceName": "Medical Imaging with Deep Learning",
+    "extra": {
+      "Source": "group_webpage (berens)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Medical Imaging with Deep Learning 2023"
+  }
+}

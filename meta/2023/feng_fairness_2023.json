@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Face albedo estimation is a fundamental task in computer vision with applications in face reconstruction, relighting, and editing. While recent methods have achieved impressive results, they often exhibit biases, performing better on lighter skin tones than on darker ones. In this work, we investigate the sources of these biases and propose a simple yet effective approach to mitigate them. We show that by balancing the training data and using a fairness-aware loss function, we can significantly improve the fairness of face albedo estimation without sacrificing overall performance.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4286779517",
+      "Scholar": "6NjbexEAAAAJ:PBekU-LVBrQC"
+    },
+    "itemType": "journalArticle"
+  }
+}

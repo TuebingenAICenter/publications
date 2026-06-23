@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Model-based reinforcement learning (MBRL) has the potential to solve complex robotic tasks with high sample efficiency. However, learning accurate dynamics models from real-world data is challenging due to noise, partial observability, and the high cost of data collection. In this paper, we propose to incorporate differentiable physics models into the MBRL framework to improve sample efficiency and generalization. We show that by combining a learned differentiable physics engine with a residual model, we can learn accurate dynamics models from limited real-world data. We evaluate our approach on a real-world robotic manipulation task and show that it outperforms state-of-the-art model-free and model-based reinforcement learning methods.",
+    "conferenceName": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "extra": {
+      "Event Place": "Xi’an, China (Hybrid Event)",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE International Conference on Robotics and Automation (ICRA)"
+  }
+}

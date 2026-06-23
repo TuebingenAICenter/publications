@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Few-shot learning aims to recognize novel classes from only a few labeled examples. While most existing methods focus on image classification, few-shot video classification remains under-explored. In this paper, we propose a novel framework for generalized few-shot video classification, where the model is required to classify both base classes (with many training examples) and novel classes (with few training examples). Our approach leverages video retrieval to find relevant videos from a large unlabeled pool, which are then used to generate synthetic features for the novel classes. We show that this combination of retrieval and feature generation significantly improves the performance on few-shot video classification tasks. Extensive experiments on several benchmarks demonstrate the effectiveness of our method compared to state-of-the-art approaches.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3205090724",
+      "Scholar": "jQl9RtkAAAAJ:5Ul4iDaHHb8C",
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "12"
+    },
+    "itemType": "journalArticle"
+  }
+}

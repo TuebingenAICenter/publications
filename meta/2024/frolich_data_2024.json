@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Motivated by recently emerging problems in machine learning and statistics, we propose data models which relax the familiar i.i.d. assumption. In essence, we seek to understand what it means for data to come from a set of probability measures. We show that our frequentist data models, parameterized by such sets, manifest two aspects of imprecision. We characterize the intricate interplay of these manifestations, aggregate (ir)regularity and local (ir)regularity, where a much richer set of behaviours compared to an i.i.d. model is possible. In doing so we shed new light on the relationship between non-stationary, locally precise and stationary, locally imprecise data models. We discuss possible applications of these data models in machine learning and how the set of probabilities can be estimated. For the estimation of aggregate irregularity, we provide a negative result but argue that it does not warrant pessimism. Understanding these frequentist aspects of imprecise probabilities paves the way for deriving generalization of proper scoring rules and calibration to the imprecise case, which can then contribute to tackling practical problems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.09741",
+    "callNumber": "arXiv:2404.09741",
+    "extra": {
+      "Archive ID": "2404.09741",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4394896403",
+      "Repository": "arXiv",
+      "Scholar": "G4MBruQAAAAJ:x9X1S-hd97YC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

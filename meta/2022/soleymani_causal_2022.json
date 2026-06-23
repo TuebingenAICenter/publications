@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Feature selection is a fundamental problem in machine learning and statistics. While traditional methods focus on predictive performance, they often fail to identify the causal features that are truly responsible for the target variable. In this paper, we propose a novel causal feature selection method based on orthogonal search. Our approach leverages the causal structure of the data to identify a subset of features that are causally related to the target. We demonstrate the effectiveness of our method on both synthetic and real-world datasets, showing that it outperforms existing methods in terms of both predictive accuracy and causal discovery.",
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=Q54jBjc896",
+    "extra": {
+      "Archive ID": "Q54jBjc896",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3038219390",
+      "Scholar": "DZ-fHPgAAAAJ:GFlsLV1XnBgC"
+    },
+    "itemType": "document"
+  }
+}

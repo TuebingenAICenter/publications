@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but simulation is possible. Recent years have seen a surge in methods for SBI, particularly those based on neural density estimation. However, these methods are often evaluated on different tasks, using different metrics, and without consistent baselines, making it difficult to assess the state of the art. We introduce a benchmark for SBI, consisting of a diverse set of inference tasks and a standardized evaluation framework. We use this benchmark to evaluate a range of state-of-the-art SBI methods, including neural posterior estimation, neural likelihood estimation, and neural ratio estimation. Our results reveal that while these methods can achieve high performance, their success is highly dependent on the task and the choice of hyperparameters. We provide an open-source library to facilitate future benchmarking and development of SBI methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2101.04653",
+    "conferenceName": "International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Archive ID": "2101.04653",
+      "Citations@2026-06-01": "21",
+      "Editors": "Arindam Banerjee and Kenji Fukumizu",
+      "OpenAlex": "W3118581558",
+      "Scholar": "FKOqtF8AAAAJ:RgMnzfD6kpIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the 24th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

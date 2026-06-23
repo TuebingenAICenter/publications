@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Optimal control is a fundamental problem in robotics. While classical methods provide strong guarantees, they often rely on simplified models or are computationally expensive. Deep reinforcement learning has shown promise in learning complex behaviors but often lacks the stability and interpretability of classical control. In this paper, we propose a novel approach that bridges this gap by learning a deep differential value function that satisfies the Hamilton-Jacobi-Bellman (HJB) equation. Our method, which we call HJB-Net, allows for the integration of action constraints and provides a stable feedback control law. We demonstrate the effectiveness of our approach on several robotic control tasks, showing that it outperforms existing methods in terms of sample efficiency and control performance.",
+    "conferenceName": "3rd Annual Conference on Robot Learning",
+    "extra": {
+      "Event Place": "Osaka, Japan",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 3rd Annual Conference on Robot Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Feature attribution methods are widely used to explain the predictions of machine learning models. However, these methods often struggle to distinguish between the direct influence of a feature and its indirect influence mediated by dependencies with other features. In this paper, we propose a framework to disentangle these effects. We define a causal notion of feature attribution that separates the direct effect of a feature from the effects mediated by other features. We show that existing attribution methods can be interpreted as different ways of aggregating these effects, and we provide a unified perspective that clarifies their differences. We also propose a new attribution method that explicitly disentangles these effects and demonstrate its effectiveness on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.23772",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:31",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2410.23772v1"
+      }
+    ],
+    "conferenceName": "AISTATS",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4404347229",
+      "Scholar": "mMifMdoAAAAJ:BJbdYPG6LGMC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics"
+  }
+}

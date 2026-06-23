@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Algorithmic recourse aims to provide actionable feedback to individuals affected by automated decision-making systems. Existing methods for recourse often rely on predictive models that ignore the causal structure of the data, which can lead to recommendations that are physically impossible or socially undesirable. In this work, we propose a framework for causal algorithmic recourse that leverages structural causal models to generate counterfactual explanations that are consistent with the underlying causal mechanisms. We demonstrate the effectiveness of our approach on synthetic and real-world datasets, showing that it can provide more meaningful and actionable recourse than non-causal baselines.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "Conference Name": "xxAI - Beyond Explainable AI",
+      "Editors": "Holzinger, Andreas and Goebel, Randy and Fong, Ruth and Moon, Taesup and Müller, Klaus-Robert and Samek, Wojciech",
+      "OpenAlex": "W4226318288",
+      "Proceedings Title": "xxAI - Beyond Explainable AI: International Workshop, Held in Conjunction with ICML 2020, July 18, 2020, Vienna, Austria, Revised and Extended Papers",
+      "Publication Title": "xxAI - Beyond Explainable AI: International Workshop, Held in Conjunction with ICML 2020, July 18, 2020, Vienna, Austria, Revised and Extended Papers",
+      "Scholar": "DZ-fHPgAAAAJ:10VQ4wqcwvEC",
+      "Series Title": "Lecture Notes in Computer Science",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "bookSection"
+  }
+}

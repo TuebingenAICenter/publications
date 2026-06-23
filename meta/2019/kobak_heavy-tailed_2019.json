@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "t-SNE is a popular method for visualising high-dimensional data. It is well known that the choice of the perplexity parameter affects the visual appearance of the embedding. Here we show that the choice of the kernel in the high-dimensional space is equally important. We demonstrate that using heavy-tailed kernels (such as the Student t-distribution) instead of the standard Gaussian kernel in the high-dimensional space allows t-SNE to reveal a finer cluster structure in the data. We provide a theoretical justification for this observation and illustrate it with several examples.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3040271258",
+      "Publication Title": "Joint European Conference on Machine Learning and Knowledge Discovery in …, 2019",
+      "Scholar": "lPQLk3QAAAAJ:4JMBOYKVnBMC"
+    },
+    "itemType": "bookSection"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Current benchmarks for large multimodal models (LMMs) are often static, limited in scope, and prone to data contamination. To address these issues, we introduce ONEBench, a sample-level benchmarking framework designed to evaluate LMMs across a diverse range of open-ended capabilities. ONEBench leverages a dynamic, sample-level evaluation approach that allows for continuous updates and fine-grained analysis of model performance. We demonstrate the utility of ONEBench by evaluating several state-of-the-art LMMs, revealing significant performance gaps and highlighting the importance of sample-level benchmarking for robust model assessment.",
+    "archive": "arXiv",
+    "archiveLocation": "2412.06745",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4412889610",
+      "Scholar": "0z0fNxUAAAAJ:ndLnGcHYRF0C"
+    },
+    "itemType": "journalArticle"
+  }
+}

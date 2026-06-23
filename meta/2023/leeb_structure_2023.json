@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Disentangled representation learning aims to recover the underlying factors of variation of a data generating process. Current approaches typically rely on explicit regularization terms in the objective function to encourage disentanglement. In this work, we show that such regularization is not strictly necessary. We propose a framework that achieves disentanglement by design, through the choice of the architecture of the generative model. Specifically, we introduce a novel architecture that incorporates a structural bias towards disentanglement, which we call the 'Structure by Architecture' (SbA) framework. We demonstrate that our approach achieves state-of-the-art performance on several benchmark datasets, while being more robust and easier to train than existing methods.",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W3180050610",
+      "Scholar": "DZ-fHPgAAAAJ:groDO8loCH4C"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Text style transfer is a task that aims to change the style of a text while preserving its content. In recent years, deep learning has achieved remarkable success in this task. In this survey, we provide a comprehensive overview of deep learning-based text style transfer. We first categorize the existing methods into three groups: supervised, weakly supervised, and unsupervised, based on the availability of parallel data. We then discuss the evaluation metrics and datasets commonly used in this field. Finally, we summarize the challenges and future directions for text style transfer.",
+    "archive": "arXiv",
+    "archiveLocation": "2011.00416",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2011.00416"
+    },
+    "itemType": "journalArticle"
+  }
+}

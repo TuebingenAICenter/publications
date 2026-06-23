@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The primary visual cortex (V1) sends massive feedback to the dorsal lateral geniculate nucleus (dLGN), the thalamic relay of visual information. While this corticothalamic (CT) feedback is known to modulate dLGN activity, its functional role remains debated. Here, we show that the impact of CT feedback on dLGN responses in mice is highly heterogeneous and depends on the visual responsiveness of dLGN neurons and the stimulus type. We find that CT feedback enhances the responses of dLGN neurons to drifting gratings, but this effect is restricted to neurons with high visual responsiveness. In contrast, responses to naturalistic stimuli are largely unaffected by CT feedback. Our results suggest that CT feedback acts as a gain control mechanism that is selectively recruited depending on the stimulus statistics and the functional properties of the target neurons.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2589004225007424/pdfft?md5=0f1af3bc12fd23612edd5ee44c361318&pid=1-s2.0-S2589004225007424-main.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4410300561",
+      "Scholar": "lPQLk3QAAAAJ:VLnqNzywnoUC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

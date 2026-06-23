@@ -1,0 +1,47 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Vision-Language Models (LVLMs) have shown impressive capabilities in various tasks. However, they are vulnerable to adversarial attacks on their vision encoder. While adversarial training of the vision encoder is a standard approach to improve robustness, it typically requires labeled data, which is scarce for large-scale vision-language datasets. In this work, we propose Robust CLIP, an unsupervised adversarial fine-tuning method for vision encoders of LVLMs. We show that our method significantly improves the robustness of the vision encoder against adversarial attacks while maintaining or even improving performance on clean data. We demonstrate the effectiveness of our approach on a wide range of downstream tasks, including image classification, object detection, and visual question answering, and show that it leads to more robust LVLMs.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2402.12336",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:40:35",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=WLPhywf1si"
+      },
+      {
+        "accessDate": "2025-06-17 19:40:35",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=WLPhywf1si"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W4391988308",
+      "Scholar": "0ZAb3tsAAAAJ:pAkWuXOU-OoC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 60</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning"
+  }
+}

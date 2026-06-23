@@ -1,0 +1,72 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Generating long-term, natural human motion in 3D scenes is a challenging task that requires understanding the interplay between human movement and the environment. Existing methods often focus on short-term motion prediction or generating motion in static, simple environments. In this paper, we propose ORIGIN, a method for generating continual human motion in diverse 3D scenes. Our approach leverages a hierarchical framework that first predicts a sequence of navigation goals and then generates the corresponding human motion. We introduce a novel scene-aware motion generation model that conditions on the 3D scene geometry and the navigation goals. To train our model, we curate a large-scale dataset of human motion in diverse 3D scenes. We demonstrate that our method generates natural, long-term human motion that is consistent with the 3D environment and outperforms existing baselines in both motion quality and scene consistency.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2304.02061",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:42:48",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2304.02061"
+      },
+      {
+        "accessDate": "2025-06-17 16:42:48",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2304.02061"
+      }
+    ],
+    "conferenceName": "3DV",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4362679082",
+      "Publisher": "University of Tübingen",
+      "Scholar": "OpXMNnMAAAAJ:ZuybSZzF8UAC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 31</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 31</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 31</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "2024 International Conference on 3D Vision (3DV)"
+  }
+}

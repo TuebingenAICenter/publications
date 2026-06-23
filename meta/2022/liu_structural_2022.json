@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "3D reconstruction from 2D images is a fundamental problem in computer vision. Most existing methods rely on deep neural networks to learn the mapping from images to 3D shapes, which often suffer from poor generalization and lack of interpretability. In this paper, we propose a structural causal 3D reconstruction framework that explicitly models the causal relationships between 3D shapes and 2D images. By leveraging the structural causal model, we can disentangle the causal factors of 3D shapes and 2D images, leading to more robust and interpretable 3D reconstruction. We demonstrate the effectiveness of our method on several challenging 3D reconstruction tasks, showing that it outperforms state-of-the-art methods in terms of both reconstruction accuracy and generalization capability.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4286750966",
+      "Pages": "140--159",
+      "Scholar": "DZ-fHPgAAAAJ:hi9FzYtmh84C",
+      "Series": "Lecture Notes in Computer Science",
+      "Volume": "13661"
+    },
+    "itemType": "document"
+  }
+}

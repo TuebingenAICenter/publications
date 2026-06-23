@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Counterfactual explanations are a promising approach to make deep learning models in medical imaging more interpretable. They aim to answer the question: “How would this image change if the diagnosis were different?” While existing methods often struggle with the high dimensionality and complex structure of medical images, diffusion models have recently shown great potential for high-quality image generation. In this work, we present a novel framework for generating counterfactuals for retinal images using diffusion models. We propose a method that allows for the generation of realistic and meaningful counterfactuals by conditioning the diffusion process on both the original image and the target diagnosis. We validate our approach on a large dataset of retinal images and demonstrate that our method generates counterfactuals that are not only visually realistic but also preserve the identity of the patient while successfully changing the diagnostic features. We further show that our method can be used to improve the interpretability of existing diagnostic models and provide insights into the features that drive their predictions.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4410396393",
+      "Scholar": "0ZAb3tsAAAAJ:zdjWy_NXXwUC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The method of lines (MOL) is a standard approach for solving time-dependent partial differential equations (PDEs) by discretizing the spatial domain to transform the PDE into a system of ordinary differential equations (ODEs). In this work, we propose a probabilistic numerical method of lines (PN-MOL). By replacing the deterministic ODE solver with a probabilistic one, we obtain a posterior distribution over the solution of the PDE that quantifies the uncertainty arising from the temporal discretization. We demonstrate that the PN-MOL is computationally efficient, provides well-calibrated uncertainty estimates, and allows for the integration of prior knowledge about the solution.",
+    "conferenceName": "25th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Editors": "Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel",
+      "OpenAlex": "W3211217046",
+      "Scholar": "UeG5w08AAAAJ:WqliGbK-hY8C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

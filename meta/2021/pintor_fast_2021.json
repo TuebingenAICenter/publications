@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Adversarial attacks are typically formulated as constrained optimization problems, where the goal is to find the minimum perturbation that changes the model's prediction. While several methods have been proposed to solve this problem, they often rely on fixed-norm constraints (e.g., L2 or L-infinity) or require expensive hyperparameter tuning to find the minimum-norm perturbation. In this paper, we propose a new approach to generate minimum-norm adversarial attacks by adaptively adjusting the norm constraint during the optimization process. Our method, which we call Adaptive Norm Constraint (ANC) attack, is computationally efficient and does not require prior knowledge of the target norm. We demonstrate that ANC can find smaller perturbations than state-of-the-art methods on several benchmark datasets and models, while being significantly faster.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2102.12827",
+    "extra": {
+      "Archive ID": "2102.12827",
+      "Citations@2026-06-01": "14",
+      "OpenAlex": "W3130750757",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:_Qo2XoVZTnwC"
+    },
+    "itemType": "document"
+  }
+}

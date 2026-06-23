@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The reconstruction and generation of neural morphologies is a fundamental task in computational neuroscience. Current generative models for neural morphologies often rely on complex, domain-specific representations or struggle to capture the global structure of the neurons. Here, we propose MorphVAE, a variational autoencoder that learns a generative model of neural morphologies represented as 3D-walks. We use a spherical latent space to account for the rotational invariance of the data and show that our model can generate realistic neural morphologies that capture the global structure of the neurons. We demonstrate the effectiveness of our approach on a dataset of retinal ganglion cells and show that it outperforms existing methods in terms of reconstruction quality and generative diversity.",
+    "archive": "arXiv",
+    "archiveLocation": "2106.07468",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Format": "PDF",
+      "Identifier": "10.48550/arXiv.2106.07468",
+      "OpenAlex": "W4393657538",
+      "Publication Title": "bioRxiv, 2021.06. 14.448271, 2021",
+      "Repository": "arXiv",
+      "Repository Location": "2106.07468",
+      "Scholar": "lPQLk3QAAAAJ:yD5IFk8b50cC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "ICML"
+  }
+}

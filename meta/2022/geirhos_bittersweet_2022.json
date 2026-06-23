@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks (DNNs) have become the standard model for biological vision. However, a persistent gap remains: DNNs are typically less robust to image perturbations than humans, and their error patterns differ. Here, we investigate whether this gap is due to the architecture of the models or the amount of training data. We systematically compare the behavioural consistency of various architectures (CNNs, Transformers, MLPs) trained on datasets of increasing size (from 1 million to 3.5 billion images). We find that the behavioural gap to human vision is primarily driven by the amount of training data rather than the architecture. Specifically, we show that as models are trained on more data, they become more robust to common corruptions, more similar to human error patterns, and more consistent with human object recognition. This suggests that the 'bittersweet lesson' of deep learning is that while we can narrow the gap to human vision by simply scaling up data, we may be missing fundamental inductive biases that would allow for more sample-efficient and human-like learning.",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4311804144",
+      "Scholar": "v-JL-hsAAAAJ:35N4QoGY0k4C"
+    },
+    "itemType": "journalArticle"
+  }
+}

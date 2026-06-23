@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In human single-unit recordings, the identification of action potentials (spikes) is a crucial step for understanding the neural basis of cognition and behavior. However, the presence of duplicate spike events—multiple detections of the same action potential—can lead to biased results and incorrect interpretations of neural activity. In this paper, we address the problem of duplicate detection in human single-unit recordings. We propose a method for detecting and removing duplicate spike events based on the similarity of their waveforms and their temporal proximity. We demonstrate the effectiveness of our method on both simulated and real human single-unit data, showing that it significantly improves the quality of the spike sorting results. Our approach is computationally efficient and can be easily integrated into existing spike sorting pipelines.",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "OpenAlex": "W3169878904",
+      "Scholar": "FKOqtF8AAAAJ:-w1eE4La9_EC"
+    },
+    "itemType": "journalArticle"
+  }
+}

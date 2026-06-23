@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Publication Title": "arXiv (Cornell University)",
+      "Publisher": "MPI-IS"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "Failed to Revise: Web search found the paper as an arXiv preprint (arXiv:2512.08854, posted Dec 9, 2025) and an OpenReview entry showing it as a submission to ICLR 2026 (Submission #20239, submitted Sep 19, 2025; revised Jan 26, 2026). I could not find any public record of an accepted publication or proceedings entry. Because the venue is therefore ambiguous (preprint + under review) and no confirmed acceptance/publication exists, I cannot confidently assign a publication venue.",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

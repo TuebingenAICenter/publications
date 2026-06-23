@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a meta-learning framework for probabilistic inference. Our approach, which we call VERSA (Versatile Inference for Meta-Learning), learns to perform amortized variational inference. By meta-learning the inference process, VERSA can adapt to new tasks with a single forward pass, while maintaining the benefits of a probabilistic framework, such as uncertainty quantification and the ability to handle missing data. We demonstrate the effectiveness of our approach on a variety of few-shot regression and classification tasks, showing that it achieves state-of-the-art performance while being significantly more computationally efficient than existing methods.",
+    "conferenceName": "7th International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "7th International Conference on Learning Representations (ICLR)"
+  }
+}

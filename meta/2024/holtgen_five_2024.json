@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Publisher": "University of Tübingen",
+      "Scholar": "G4MBruQAAAAJ:27qsyVibG6YC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

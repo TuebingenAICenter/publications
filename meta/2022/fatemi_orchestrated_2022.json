@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Value-based reinforcement learning (RL) methods often rely on a single value function to estimate the expected return. However, in many environments, the distribution of returns can be complex, multimodal, or heavy-tailed, making a single scalar estimate insufficient. Distributional RL addresses this by modeling the full distribution of returns. In this paper, we propose Orchestrated Value Mapping (OVM), a novel framework that learns a set of value functions, each specialized to a different aspect of the return distribution. By orchestrating these value functions, OVM can capture complex return distributions more effectively than existing methods. We demonstrate the effectiveness of OVM on a variety of challenging RL benchmarks, showing that it consistently outperforms state-of-the-art distributional RL algorithms.",
+    "conferenceName": "International Conference on Learning Representations",
+    "extra": {
+      "Source": "group_webpage (martius)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}

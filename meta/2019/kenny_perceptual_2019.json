@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The individual shape of the human body, including the geometry of its articulated structure and the distribution of weight over that structure, influences the kinematics of a person’s movements. How sensitive is the visual system to inconsistencies between shape and motion introduced by retargeting motion from one person onto the shape of another? We used optical motion capture to record five pairs of male performers with large differences in body weight, while they pushed, lifted, and threw objects. From these data, we estimated both the kinematics of the actions as well as the performer’s individual body shape. To obtain consistent and inconsistent stimuli, we created animated avatars by combining the shape and motion estimates from either a single performer or from different performers. Using these stimuli we conducted three experiments in an immersive virtual reality environment. First, a group of participants detected which of two stimuli was inconsistent. Performance was very low, and results were only marginally significant. Next, a second group of participants rated perceived attractiveness, eeriness, and humanness of consistent and inconsistent stimuli, but these judgements of animation characteristics were not affected by consistency of the stimuli. Finally, a third group of participants rated properties of the objects rather than of the performers. Here, we found strong influences of shape-motion inconsistency on perceived weight and thrown distance of objects. This suggests that the visual system relies on its knowledge of shape and motion and that these components are assimilated into an altered perception of the action outcome. We propose that the visual system attempts to resist inconsistent interpretations of human animations. Actions involving object manipulations present an opportunity for the visual system to reinterpret the introduced inconsistencies as a change in the dynamics of an object rather than as an unexpected combination of body shape and body motion.",
+    "extra": {
+      "Citations@2026-06-01": "12",
+      "OpenAlex": "W2913999503",
+      "Scholar": "6NjbexEAAAAJ:l0_JBNIuc60C"
+    },
+    "itemType": "journalArticle"
+  }
+}

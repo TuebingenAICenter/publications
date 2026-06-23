@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the relationship between coherent probabilities defined on pre-Dynkin systems and coherent previsions defined on linear subspaces of bounded functions. We show that the former can be viewed as a special case of the latter. We provide a general duality result that characterises coherent previsions in terms of the set of linear extensions to the space of all bounded functions. We also show that the set of coherent previsions on a linear subspace is a convex set, and we provide a characterisation of its extreme points. Finally, we discuss the implications of our results for the theory of imprecise probability.",
+    "archive": "arXiv",
+    "archiveLocation": "2302.03522",
+    "extra": {
+      "Archive ID": "2302.03522",
+      "Citations@2026-06-01": "0",
+      "Issue": "9",
+      "OpenAlex": "W4319653896",
+      "Pages": "1283",
+      "Repository": "arXiv",
+      "Scholar": "G4MBruQAAAAJ:He_SdS2HmmMC",
+      "Volume": "25"
+    },
+    "itemType": "document",
+    "libraryCatalog": "Entropy"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Systemic biases in academic and professional environments are often self-reinforcing, where early advantages compound over time. While mentorship is frequently proposed as a solution to mitigate these biases, its effectiveness is often limited by the same structural factors it seeks to address. We present an agent-based model to simulate the dynamics of privilege and mentorship in a career progression environment. Our model demonstrates how mentorship can either alleviate or exacerbate existing biases depending on the structure of the mentorship network and the selection criteria for mentors. We find that while mentorship can improve outcomes for marginalized groups, it is insufficient to overcome structural biases without systemic interventions that address the underlying mechanisms of privilege.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2304.02351",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4386469627",
+      "Scholar": "1O2hcVgAAAAJ:RYcK_YlVTxYC"
+    },
+    "itemType": "journalArticle"
+  }
+}

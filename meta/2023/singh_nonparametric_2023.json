@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of active learning where the learner does not have direct access to the labels of the data points. Instead, the learner can only query a noisy, indirect signal related to the labels. This setting is motivated by applications where obtaining direct labels is expensive or impossible, but indirect feedback is available. We propose a nonparametric approach to this problem, which we call Nonparametric Indirect Active Learning (NIAL). NIAL uses a kernel-based approach to estimate the relationship between the indirect signal and the labels, and then uses this estimate to guide the active learning process. We provide theoretical guarantees for the convergence of NIAL and demonstrate its effectiveness on several synthetic and real-world datasets.",
+    "conferenceName": "26th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Event Place": "Valencia, Spain",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 26th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

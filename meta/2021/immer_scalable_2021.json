@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The marginal likelihood is a powerful tool for model selection, but it is notoriously difficult to compute for deep neural networks. We propose a scalable method to estimate the marginal likelihood using the Laplace approximation. Our method is based on a Kronecker-factored approximation of the Hessian, which allows us to compute the marginal likelihood with the same computational complexity as training a network. We demonstrate that our method can be used for model selection in deep learning, including hyperparameter tuning and architecture search, and that it outperforms existing methods in terms of both accuracy and computational efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2104.04975",
+    "conferenceName": "38th International Conference on Machine Learning",
+    "extra": {
+      "Editors": "Meila, Marina and Zhang, Tong",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of 38th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

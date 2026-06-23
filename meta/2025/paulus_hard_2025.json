@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Scholar": "b-JF-UIAAAAJ:0N-VGjzr574C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.14186'>https://arxiv.org/abs/2506.14186</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506-17994.html'>https://dblp.org/rec/journals/corr/abs-2506-17994.html</a><br><a href='https://paperswithcode.com/paper/hard-contacts-with-soft-gradients-refining'>https://paperswithcode.com/paper/hard-contacts-with-soft-gradients-refining</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

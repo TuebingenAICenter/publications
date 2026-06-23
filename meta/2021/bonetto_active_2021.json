@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In active Visual-SLAM (V-SLAM), a robot relies on the information retrieved by its cameras to control its own movements for autonomous mapping of the environment. Cameras are usually statically linked to the robot's body, limiting the extra degrees of freedom for visual information acquisition. In this work, we overcome the aforementioned problem by introducing and leveraging an independently rotating camera on the robot base. This enables us to continuously control the heading of the camera, obtaining the desired optimal orientation for active V-SLAM, without rotating the robot itself. However, this additional degree of freedom introduces additional estimation uncertainties, which need to be accounted for. We do this by extending our robot's state estimate to include the camera state and jointly estimate the uncertainties. We develop our method based on a state-of-the-art active V-SLAM approach for omnidirectional robots and evaluate it through rigorous simulation and real robot experiments. We obtain more accurate maps, with lower energy consumption, while maintaining the benefits of the active approach with respect to the baseline. We also demonstrate how our method easily generalizes to other non-omnidirectional robotic platforms, which was a limitation of the previous approach. Code and implementation details are provided as open-source.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3160204530",
+      "Pages": "266--273",
+      "Scholar": "6NjbexEAAAAJ:z_Yq-I-xR0AC"
+    },
+    "itemType": "document"
+  }
+}

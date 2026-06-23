@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "How do we learn to prioritize relevant information in complex environments? While reinforcement learning models often assume that agents learn to represent all features of the environment, human learners are known to be selective, focusing on features that are predictive of reward. Here, we investigate how expertise—defined as prior experience with a task—modulates this selective memory. We conducted a behavioral experiment where participants learned to predict rewards based on a subset of features, while other features were irrelevant. We found that experts, compared to novices, showed enhanced memory for reward-relevant features, but not for irrelevant features. This suggests that expertise facilitates the selective encoding of reward-relevant information, potentially through a mechanism that gates information based on its predicted utility.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4386469823",
+      "Scholar": "1O2hcVgAAAAJ:pqnbT2bcN3wC"
+    },
+    "itemType": "journalArticle"
+  }
+}

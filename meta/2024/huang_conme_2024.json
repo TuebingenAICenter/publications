@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Compositional reasoning is a fundamental capability for Vision-Language Models (VLMs). While recent benchmarks have attempted to evaluate this, they often suffer from issues such as data contamination, limited scope, or lack of fine-grained control. In this paper, we introduce ConMe, a new benchmark designed to rigorously evaluate the compositional reasoning capabilities of modern VLMs. ConMe consists of a diverse set of tasks that require models to understand and reason about the relationships between objects, attributes, and actions in images. We find that while current VLMs show impressive performance on general visual tasks, they still struggle with complex compositional reasoning, highlighting the need for more robust evaluation and training strategies.",
+    "archive": "arXiv",
+    "archiveLocation": "2406.08164",
+    "extra": {
+      "Citations@2026-06-01": "20",
+      "Scholar": "pxhCcH0AAAAJ:fQNAKQ3IYiAC",
+      "Venue": "NeurIPS D&B 2024"
+    },
+    "itemType": "journalArticle"
+  }
+}

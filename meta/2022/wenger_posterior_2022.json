@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gaussian processes (GPs) are a cornerstone of Bayesian non-parametric regression. While they provide a principled framework for quantifying uncertainty, their computational cost is prohibitive for large datasets. Consequently, a vast literature on approximate GP inference has emerged. However, these approximations introduce a second source of uncertainty: computational uncertainty, which arises from the fact that the approximation is not the exact posterior. In this paper, we argue that this computational uncertainty is often ignored, leading to overconfident predictions. We propose a framework for quantifying both posterior and computational uncertainty in GPs. We demonstrate that our framework provides a more realistic assessment of uncertainty and leads to better-calibrated predictions in a variety of settings.",
+    "archive": "arXiv",
+    "archiveLocation": "2205.15449",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Archive ID": "2205.15449",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4320452361",
+      "Scholar": "UeG5w08AAAAJ:7T2F9Uy0os0C",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2205.15449"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35"
+  }
+}

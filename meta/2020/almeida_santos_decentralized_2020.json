@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Droop control is a standard method for frequency regulation in power systems with high penetration of inverter-based resources. However, the performance of droop controllers is highly sensitive to the choice of droop gains. In this paper, we propose a decentralized data-driven approach to tune droop gains. Our approach relies on the observation that the frequency response of a power system can be modeled as a linear system. We use this model to formulate a convex optimization problem that minimizes the frequency deviation following a disturbance. The proposed approach is decentralized, meaning that each inverter only requires local measurements to tune its droop gain. We demonstrate the effectiveness of our approach through simulations on the IEEE 39-bus system.",
+    "conferenceName": "IEEE PES Innovative Smart Grid Technologies Europe (ISGT-Europe)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE PES Innovative Smart Grid Technologies Europe (ISGT-Europe)"
+  }
+}

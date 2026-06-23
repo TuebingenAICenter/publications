@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The double descent phenomenon, where test error decreases, increases, and then decreases again as model capacity increases, has been a subject of intense study. While it is well-understood in linear models and kernel regression, its manifestation in neural networks remains elusive. In this paper, we provide a comprehensive empirical study of double descent in finite-width neural networks. We show that the phenomenon is not universal and depends on the interplay between the model architecture, the optimization algorithm, and the data distribution. We further demonstrate that the peak in test error is associated with the interpolation threshold, where the model begins to fit the training data perfectly. Our results suggest that the double descent phenomenon is a consequence of the transition from an under-parameterized to an over-parameterized regime, and that it can be mitigated by appropriate regularization.",
+    "archive": "OpenReview",
+    "extra": {
+      "Archive ID": "lTqGXfn9Tv",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4221158510",
+      "Scholar": "DZ-fHPgAAAAJ:DZIZkccNydYC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "OpenReview"
+  }
+}

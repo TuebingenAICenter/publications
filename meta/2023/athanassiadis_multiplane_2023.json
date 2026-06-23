@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffractive neural networks have emerged as a powerful framework for all-optical computing, where information is processed by light as it propagates through a series of diffractive layers. Here, we extend this concept to acoustics and introduce multiplane diffractive acoustic networks (MDANs). We show that by using multiple layers of acoustic diffractive elements, we can perform complex wave-field transformations, such as beam shaping and object classification, with high accuracy. We demonstrate the performance of MDANs through numerical simulations and experimental validation using 3D-printed acoustic diffractive layers in water. Our results show that MDANs can achieve high-fidelity acoustic beam shaping and classification, opening new avenues for acoustic signal processing and sensing.",
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "OpenAlex": "W4323897047",
+      "Scholar": "DZ-fHPgAAAAJ:UbrQw703F5EC"
+    },
+    "itemType": "journalArticle"
+  }
+}

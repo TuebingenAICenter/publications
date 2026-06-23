@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "As LLMs become commonplace, machine-generated text has the potential to flood the internet with spam, social media bots, and valueless content. Watermarking is a simple and effective strategy for mitigating such harms by enabling the detection and documentation of LLM-generated text. Yet a crucial question remains: How reliable is watermarking in realistic settings in the wild? There, watermarked text may be modified to suit a user’s needs, or entirely rewritten to avoid detection. We study the robustness of watermarked text after it is re-written by humans, paraphrased by a non-watermarked LLM, or mixed into a longer hand-written document. We find that watermarks remain detectable even after human and machine paraphrasing. While these attacks dilute the strength of the watermark, paraphrases are statistically likely to leak n-grams or even longer fragments of the original text, resulting in high-confidence detections when enough tokens are observed. For example, after strong human paraphrasing the watermark is detectable after observing 800 tokens on average, when setting a 1e-5 false positive rate. We also consider a range of new detection schemes that are sensitive to short spans of watermarked text embedded inside a large document, and we compare the robustness of watermarking to other kinds of detectors.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:23",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=DEJIDCmWOz"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:23",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=DEJIDCmWOz"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "23",
+      "OpenAlex": "W4380033094",
+      "Scholar": "206vNCEAAAAJ:2P1L_qKh6hAC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 203</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 203</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

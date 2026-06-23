@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The study of causal interactions in neural systems is central to understanding brain function. While many methods exist to infer directed connectivity, they often rely on assumptions of stationarity or linear dynamics, which may not hold for transient neural events such as spikes, bursts, or evoked potentials. Here, we propose a framework based on information theory to quantify causal influences during transient events. We define a measure of causal influence based on the transfer entropy, adapted to the non-stationary nature of transient events. We validate our approach using synthetic data and demonstrate its application to electrophysiological recordings from the macaque visual cortex. Our results show that the proposed measure can effectively capture the dynamics of causal influences during transient events and reveal directed interactions that are missed by standard methods.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

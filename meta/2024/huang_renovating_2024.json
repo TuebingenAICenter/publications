@@ -1,0 +1,46 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Names are essential to both human cognition and vision-language models. Open-vocabulary models utilize class names as text prompts to generalize to categories unseen during training. However, the precision of these names is often overlooked in existing datasets. In this paper, we address this underexplored problem by presenting a framework for \"renovating\" names in open-vocabulary segmentation benchmarks (RENOVATE). Our framework features a renaming model that enhances the quality of names for each visual segment. Through experiments, we demonstrate that our renovated names help train stronger open-vocabulary models with up to 15% relative improvement and significantly enhance training efficiency with improved data quality. We also show that our renovated names improve evaluation by better measuring misclassification and enabling fine-grained model analysis. We will provide our code and relabelings for several popular segmentation datasets (MS COCO, ADE20K, Cityscapes) to the research community.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:52",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.09593v2"
+      }
+    ],
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4392874002",
+      "Scholar": "SrVnrPcAAAAJ:PuOEWVtPfzwC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Poster in 2024 (NeurIPS)</p>\n<p>Published in 2025</p>\n</div>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but simulation is possible. Recent advances in neural SBI have enabled efficient posterior estimation by learning conditional density estimators. However, these methods often struggle with high-dimensional parameters or complex posterior geometries, and they can be sensitive to the choice of the proposal distribution used for simulation. We introduce Truncated Proposals, a method for SBI that adaptively truncates the proposal distribution to focus simulation on regions of high posterior probability. This approach improves sample efficiency, enables inference in higher dimensions, and reduces the need for manual tuning of the proposal distribution. We demonstrate the effectiveness of our method on a range of benchmarks and a complex neuroscience model.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2210.04815",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Archive ID": "2210.04815",
+      "Citations@2026-06-01": "24",
+      "OpenAlex": "W4304731997",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:MSzX15-gZgkC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
+  }
+}

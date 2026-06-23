@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Diabetic retinopathy (DR) is a leading cause of vision loss globally. Early detection is crucial for preventing blindness, but screening programs are often limited by the availability of ophthalmologists. Artificial intelligence (AI) systems have shown promise in automating DR screening, but their adoption in clinical practice is often hindered by a lack of interpretability. Here, we present an inherently interpretable AI model for the detection of early DR in fundus images. Our model, based on a prototype-based architecture, provides both a classification decision and visual explanations in the form of prototypical image patches. We evaluated our model on a large-scale dataset of fundus images and found that it achieves high diagnostic accuracy, comparable to state-of-the-art black-box models. Furthermore, we conducted a reader study with ophthalmologists and found that the model's explanations significantly improved their screening speed and accuracy compared to using a black-box model or no AI assistance. Our results demonstrate that inherently interpretable AI models can be both accurate and clinically useful, potentially facilitating the integration of AI into routine DR screening.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:43",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.medrxiv.org/content/medrxiv/early/2024/06/27/2024.06.27.24309574.full.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4400071986",
+      "Publisher": "University of Tübingen",
+      "Scholar": "lPQLk3QAAAAJ:UHK10RUVsp4C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: medRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: medRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

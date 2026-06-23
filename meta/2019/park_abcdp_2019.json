@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Approximate Bayesian Computation (ABC) is a popular framework for performing Bayesian inference when the likelihood function is intractable. However, ABC can be vulnerable to privacy attacks if the data used for inference are sensitive. In this paper, we propose ABCDP, a framework that combines ABC with Differential Privacy (DP). We show that by adding noise to the summary statistics in a principled way, we can provide formal privacy guarantees for ABC. We also provide a theoretical analysis of the privacy-utility trade-off and demonstrate the effectiveness of our approach on several synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "1910.05103",
+    "extra": {
+      "Archive ID": "1910.05103",
+      "ISSN": "1099-4300",
+      "Issue": "8",
+      "Journal Abbreviation": "Entropy",
+      "Pages": "961",
+      "Repository": "arXiv",
+      "Source": "group_webpage (schoelkopf)",
+      "Volume": "23",
+      "arXiv": "1910.05103",
+      "doi": "10.3390/e23080961"
+    },
+    "itemType": "document"
+  }
+}

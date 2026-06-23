@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "To successfully tackle challenging manipulation tasks, autonomous agents must learn a diverse set of skills and how to combine them. Recently, self-supervised agents that set their own abstract goals by exploiting the discovered structure in the environment were shown to perform well on many different tasks. In particular, some of them were applied to learn basic manipulation skills in compositional multi-object environments. However, these methods learn skills without taking the dependencies between objects into account. Thus, the learned skills are difficult to combine in realistic environments. We propose a novel self-supervised agent that estimates relations between environment components and uses them to independently control different parts of the environment state. In addition, the estimated relations between objects can be used to decompose a complex goal into a compatible sequence of subgoals. We show that, by using this framework, an agent can efficiently and automatically learn manipulation tasks in multi-object environments with different relations between objects.",
+    "archive": "arXiv",
+    "archiveLocation": "2109.04150",
+    "extra": {
+      "Archive ID": "2109.04150",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3199615691",
+      "Pages": "384--394",
+      "Scholar": "b-JF-UIAAAAJ:kRWSkSYxWN8C",
+      "Volume": "164"
+    },
+    "itemType": "document"
+  }
+}

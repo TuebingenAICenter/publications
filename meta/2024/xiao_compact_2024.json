@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "bamler"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:19",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://arxiv.org/pdf/2401.00611"
+      }
+    ],
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4390529198",
+      "Scholar": "LwvdNAgAAAAJ:ZeXyd9-uunAC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

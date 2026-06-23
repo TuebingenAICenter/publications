@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Density estimation is a fundamental task in machine learning. While many models exist, choosing the right one for a given dataset is often a manual, trial-and-error process. We propose Automatic Bayesian Density Analysis (ABDA), a framework that automates the selection and training of density estimators. ABDA leverages the properties of Sum-Product Networks (SPNs), a class of tractable probabilistic models, to perform Bayesian model selection. Specifically, we introduce a novel approach to learn the structure of SPNs that allows for efficient marginal likelihood estimation. We demonstrate that ABDA can automatically discover high-quality density models across a wide range of datasets, often outperforming manually tuned models.",
+    "archive": "arXiv",
+    "archiveLocation": "1807.09306",
+    "conferenceName": "AAAI Conference on Artificial Intelligence",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1807.09306"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the AAAI Conference on Artificial Intelligence"
+  }
+}

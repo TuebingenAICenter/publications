@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Out-of-distribution (OOD) detection is a crucial task for the safe deployment of machine learning models. However, standard OOD detectors are vulnerable to adversarial attacks: an adversary can generate small perturbations that make OOD data appear as in-distribution (ID) data. In this paper, we propose a method for certifiably adversarially robust OOD detection. We derive a certified lower bound on the OOD score for a given input, which allows us to guarantee that an input is detected as OOD even under adversarial perturbations. We show that our method provides meaningful robustness guarantees on standard benchmarks and outperforms existing approaches in terms of certified OOD detection performance.",
+    "archive": "arXiv",
+    "archiveLocation": "2007.08473",
+    "extra": {
+      "Archive ID": "2106.04260",
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W3172596993",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:7Hz3ACDFbsoC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}

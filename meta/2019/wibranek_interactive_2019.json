@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This paper presents a robotic system for the collaborative assembly of vertical elements in timber construction. The system uses a vision-based tactile sensor to detect the position and orientation of the elements during the assembly process. The robot is able to reposition the elements in real-time based on the tactile feedback, allowing for a more precise and efficient assembly process. The system is evaluated through a series of experiments, demonstrating its effectiveness in a man-machine collaborative environment.",
+    "conferenceName": "37th eCAADe and 23rd SIGraDi Conference",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 37th eCAADe and 23rd SIGraDi Conference"
+  }
+}

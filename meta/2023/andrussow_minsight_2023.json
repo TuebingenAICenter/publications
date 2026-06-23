@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Intelligent interaction with the physical world requires perceptual abilities beyond vision and hearing; vibrant tactile sensing is essential for autonomous robots to dexterously manipulate unfamiliar objects or safely contact humans. Therefore, robotic manipulators need high-resolution touch sensors that are compact, robust, inexpensive, and efficient. The soft vision-based haptic sensor presented herein is a miniaturized and optimized version of the previously published sensor Insight. Minsight has the size and shape of a human fingertip and uses machine learning methods to output high-resolution maps of 3D contact force vectors at 60 Hz. Experiments confirm its excellent sensing performance, with a mean absolute force error of 0.07 N and contact location error of 0.6 mm across its surface area. Minsight's utility is shown in two robotic tasks on a 3-DoF manipulator. First, closed-loop force control enables the robot to track the movements of a human finger based only on tactile data. Second, the informative value of the sensor output is shown by detecting whether a hard lump is embedded within a soft elastomer with an accuracy of 98%. These findings indicate that Minsight can give robots the detailed fingertip touch sensing needed for dexterous manipulation and physical human–robot interaction.",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Inside back cover, DOI": "10.1002/aisy.202370035",
+      "OpenAlex": "W4366835689",
+      "Scholar": "b-JF-UIAAAAJ:7T2F9Uy0os0C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Knowledge distillation (KD) has been widely used to compress large models into smaller ones. While most existing KD methods focus on distilling knowledge from supervised teachers, we explore distilling knowledge from self-supervised teachers. We observe that self-supervised teachers learn rich structural information about the data, which is not fully captured by standard feature-based distillation. To address this, we propose a novel distillation framework, Embedding Graph Alignment (EGA), which aligns the embedding graphs of the teacher and student models. Specifically, we construct a graph for each batch of data where nodes represent samples and edges represent the similarity between samples. By minimizing the distance between the teacher's and student's embedding graphs, the student can learn the structural relationships captured by the self-supervised teacher. We demonstrate the effectiveness of our method on several benchmarks, showing that EGA consistently outperforms existing distillation methods.",
+    "conferenceName": "The 33rd British Machine Vision Conference",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4310266072",
+      "Scholar": "jQl9RtkAAAAJ:uJ-U7cs_P_0C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The 33rd British Machine Vision Conference Proceedings"
+  }
+}

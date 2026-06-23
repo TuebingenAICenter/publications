@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The choice of optimizer is a crucial part of training deep neural networks. While many new optimizers are proposed every year, their relative performance is often unclear due to inconsistent benchmarking practices. We perform a large-scale empirical study of 15 popular deep learning optimizers on a diverse set of 14 tasks. We find that no single optimizer consistently outperforms others across all tasks. Furthermore, we show that the performance of most optimizers is highly sensitive to the choice of hyperparameters, and that a well-tuned SGD often performs as well as or better than more complex adaptive methods. Our results highlight the importance of rigorous benchmarking and suggest that the field should focus on developing more robust and easier-to-tune optimization algorithms.",
+    "conferenceName": "38th International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "34",
+      "Editors": "Meila, Marina and Zhang, Tong",
+      "OpenAlex": "W3040620603",
+      "Scholar": "UeG5w08AAAAJ:geHnlv5EZngC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of 38th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

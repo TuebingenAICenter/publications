@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Hessian of the loss function with respect to the parameters of a neural network is a central object in deep learning, providing insights into the geometry of the loss landscape and the convergence properties of optimization algorithms. Despite its importance, the Hessian is often too large to compute or store, and its spectral properties are not well understood. In this paper, we provide a theoretical analysis of the structure and rank of the Hessian of neural networks. We show that the Hessian can be decomposed into a sum of a low-rank component and a component that depends on the network architecture and the data. We provide bounds on the rank of the Hessian and show that it is often much smaller than the number of parameters. We also provide empirical evidence that our theoretical results hold for a variety of architectures and datasets.",
+    "conferenceName": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)",
+    "extra": {
+      "Editors": "M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 34 (NeurIPS 2021)"
+  }
+}

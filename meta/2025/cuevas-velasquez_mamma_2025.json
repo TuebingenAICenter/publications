@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Scholar": "6NjbexEAAAAJ:TWu9ukPC6OgC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.13040'>https://arxiv.org/abs/2506.13040</a><br><a href='https://paperswithcode.com/paper/mamma-markerless-automatic-multi-person'>https://paperswithcode.com/paper/mamma-markerless-automatic-multi-person</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

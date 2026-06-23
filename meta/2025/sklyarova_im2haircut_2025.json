@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "Reporter": "Proceedings of the IEEE/CVF International Conference on Computer Vision …, 2025",
+      "Scholar": "6NjbexEAAAAJ:q2fMW1XeUkEC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://is.mpg.de/publications/sklyarova2025im2haircut'>https://is.mpg.de/publications/sklyarova2025im2haircut</a><br><a href='https://im2haircut.is.tue.mpg.de/'>https://im2haircut.is.tue.mpg.de/</a><br><a href='https://iccv.thecvf.com/virtual/2025/poster/2401'>https://iccv.thecvf.com/virtual/2025/poster/2401</a><br><a href='https://github.com/Vanessik/Im2Haircut'>https://github.com/Vanessik/Im2Haircut</a><br><a href='https://arxiv.org/abs/2509.01469'>https://arxiv.org/abs/2509.01469</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

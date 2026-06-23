@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present Nymeria, a massive, multimodal, egocentric dataset of daily human motion in the wild. Nymeria contains 1,200 hours of data from 300 participants performing diverse daily activities in various indoor and outdoor environments. The dataset is captured using the Project Aria glasses, providing synchronized egocentric video, IMU, eye-tracking, and 6DoF head pose, alongside high-fidelity 3D body motion captured via a multi-view motion capture system. To demonstrate the utility of Nymeria, we propose a novel task of egocentric motion reconstruction from sparse inputs and provide strong baselines. We believe Nymeria will facilitate research in egocentric perception, human motion modeling, and embodied AI.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Source": "group_webpage (pons-moll)",
+      "arXiv": "2406.09905"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}

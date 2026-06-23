@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning models often rely on spurious features—correlations that hold in training data but fail to generalize to new environments. While such features are often viewed as a nuisance to be removed, we show that they can be harnessed to improve performance. We propose a framework that uses invariant predictions to identify and leverage spurious features. Our approach, which we call Invariant Feature Harnessing (IFH), uses a small amount of labeled data from multiple environments to learn a predictor that is invariant to the spurious features, while simultaneously learning a predictor that uses the spurious features to improve performance on the training distribution. We demonstrate that IFH achieves state-of-the-art performance on several benchmarks, including those with severe distribution shifts.",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4384919620",
+      "Scholar": "DZ-fHPgAAAAJ:0W_RdsIFBAIC"
+    },
+    "itemType": "journalArticle"
+  }
+}

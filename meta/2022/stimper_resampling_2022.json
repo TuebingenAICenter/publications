@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Normalizing flows are powerful generative models that learn a transformation from a simple base distribution to a complex target distribution. The expressivity of these models is limited by the choice of the base distribution, which is typically fixed to a simple unimodal distribution like a Gaussian. We propose to replace this fixed base distribution with a learnable, more flexible distribution. To this end, we introduce a resampling mechanism that allows the base distribution to be adapted to the target distribution during training. Our method is easy to implement, computationally efficient, and can be combined with any existing normalizing flow architecture. We demonstrate the effectiveness of our approach on a variety of density estimation and generative modeling tasks, showing that it consistently improves the performance of normalizing flows.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2110.15828",
+    "extra": {
+      "Archive ID": "2110.15828",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3210085304",
+      "Pages": "4915--4936",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:KEeLeKAvUCYC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "151"
+    },
+    "itemType": "document",
+    "libraryCatalog": "PMLR"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contrastive learning has emerged as a powerful paradigm for self-supervised representation learning. While it is known that contrastive models are prone to dimensional collapse, the mechanisms behind this phenomenon are not fully understood. In this work, we show that contrastive learning is susceptible to a specific form of collapse, which we term 'content-style collapse'. We demonstrate that contrastive models tend to ignore style information in favor of content information, leading to a reduction in the effective dimensionality of the learned representations. We provide a theoretical analysis of this phenomenon and show that it is driven by the contrastive loss function. Finally, we propose a simple modification to the contrastive loss that mitigates this collapse and improves the quality of the learned representations.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "Scholar": "v-JL-hsAAAAJ:vV6vV6tmYwMC",
+      "Workshop": "SSL NeurIPS 2022"
+    },
+    "itemType": "journalArticle"
+  }
+}

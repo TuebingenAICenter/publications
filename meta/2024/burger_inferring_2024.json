@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The inference of population structure is a fundamental task in population genetics. Most existing methods rely on hard clustering, assigning each individual to a single ancestral population. However, this approach fails to capture the continuous nature of genetic variation and the complex relationships between populations. We introduce tangleGen, a hierarchical soft clustering approach that models genetic data as a mixture of ancestral populations. tangleGen is based on a hierarchical model that allows for the representation of population structure at different levels of granularity. We demonstrate the effectiveness of tangleGen on simulated and real-world datasets, showing that it outperforms existing methods in capturing population structure and identifying ancestral relationships. tangleGen is implemented as an R package and is freely available.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4393305159",
+      "Scholar": "mMifMdoAAAAJ:lvd772isFD0C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: bioRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

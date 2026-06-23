@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Planning an optimal route in a complex environment requires efficient reasoning about the surrounding scene. While human drivers prioritize important objects and ignore details not relevant to the decision, learning-based planners typically extract features from dense, high-dimensional grid representations of the scene containing all vehicle and road context information. In this paper, we propose PlanT, a novel approach for planning in the context of self-driving that uses a standard transformer architecture. PlanT is based on imitation learning with a compact object-level input representation. With this representation, we demonstrate that information regarding the ego vehicle's route provides sufficient context regarding the road layout for planning. On the challenging Longest6 benchmark for CARLA, PlanT outperforms all prior methods (matching the driving score of the expert) while being 5.3x faster than equivalent pixel-based planning baselines during inference. Furthermore, we propose an evaluation protocol to quantify the ability of planners to identify relevant objects, providing insights regarding their decision making. Our results indicate that PlanT can reliably focus on the most relevant object in the scene, even when this object is geometrically distant.",
+    "extra": {
+      "Citations@2026-06-01": "22",
+      "OpenAlex": "W4307413605",
+      "Scholar": "SrVnrPcAAAAJ:DXE8ND7PrJAC"
+    },
+    "itemType": "document"
+  }
+}

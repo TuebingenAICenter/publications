@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Given a series of natural language descriptions, our task is to generate 3D human motions that correspond semantically to the text, and follow the temporal order of the instructions. In particular, our goal is to enable the synthesis of a series of actions, which we refer to as temporal action composition. The current state of the art in text-conditioned motion synthesis only takes a single action or a single sentence as input. This is partially due to lack of suitable training data containing action sequences, but also due to the computational complexity of their non-autoregressive model formulation, which does not scale well to long sequences. In this work, we address both issues. First, we exploit the recent BABEL motion-text collection, which has a wide range of labeled actions, many of which occur in a sequence with transitions between them. Next, we design a Transformer-based approach that operates non-autoregressively within an action, but autoregressively within the sequence of actions. This hierarchical formulation proves effective in our experiments when compared with multiple baselines. Our approach, called TEACH for “TEmporal Action Compositions for Human motions”, produces realistic human motions for a wide variety of actions and temporal compositions from language descriptions. To encourage work on this new task, we make our code available for research purposes at teach.is.tue.mpg.de.",
+    "archive": "arXiv",
+    "archiveLocation": "2209.04066",
+    "extra": {
+      "Archive ID": "2209.04066",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4295677724",
+      "Pages": "414--423",
+      "Scholar": "6NjbexEAAAAJ:fkjBimb5U_kC"
+    },
+    "itemType": "document"
+  }
+}

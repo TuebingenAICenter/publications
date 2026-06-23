@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The emergence of cooperation is a fundamental problem in evolutionary biology, economics, and political science. While previous work has studied cooperation in simple agents, the recent advent of Large Language Models (LLMs) allows for the study of cooperation in agents with complex reasoning and communication capabilities. In this paper, we introduce a new framework to study the emergence of sustainability in a society of LLM agents. We find that LLM agents can learn to cooperate and sustain a shared resource, but this emergence is fragile and depends on the agents' ability to communicate and their social structure. We further show that the emergence of cooperation is not guaranteed and can collapse under certain conditions, such as when agents are too selfish or when the environment is too harsh. Our results provide new insights into the conditions that foster or hinder the emergence of sustainable cooperation in societies of intelligent agents.",
+    "conferenceName": "Advances in Neural Information Processing Systems 37",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4395687269",
+      "Scholar": "DZ-fHPgAAAAJ:F3rHZ6KMyv0C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 17</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 17</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+  }
+}

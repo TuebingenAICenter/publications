@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bayesian Optimization (BO) is a powerful framework for global optimization of expensive-to-evaluate black-box functions. While standard BO assumes continuous input spaces, many real-world problems involve mixed-variable spaces, containing continuous, discrete, and categorical variables. Existing approaches for mixed-variable BO often rely on simple heuristics or are limited to specific variable types. In this paper, we propose a novel approach for mixed-variable BO that leverages a latent space representation. We map the mixed-variable space into a continuous latent space using a variational autoencoder (VAE) and perform BO in this latent space. We demonstrate that our approach outperforms existing methods on a variety of synthetic and real-world benchmarks.",
+    "conferenceName": "International Joint Conference on Artificial Intelligence",
+    "extra": {
+      "Editors": "Christian Bessiere",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20)"
+  }
+}

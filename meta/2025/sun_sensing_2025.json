@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Robots can benefit from a good sense of touch to perceive their interaction with the world. However, contacts are complex phenomena that involve tactile sensing devices, contact objects, and the complex directional (normal and shear) force motions in-between. To advance tactile sensor research, we propose a comprehensive theory that unites these components, providing insights for sensor designs, explaining performance drops due to shear forces, and suggesting application scenarios with various contact objects. Our theory, based on sensor isolines, achieves superresolution sensing performance using only a few sensing units, avoiding the need for dense layouts. Through analysis of the sensor perception field and force sensitivity from a structural perspective, along with the influences of contact object sizes, we also explore the effects of different force directions: normal, tangential shear, and radial shear forces. The theoretical model covers all these aspects and predicts a system-level inherent accuracy loss introduced by shear forces compared to pure normal forces. To validate our theory, we developed Barodome, a 3D sensor capable of predicting contact locations and decoupling shear forces from normal forces. The sensor's performance confirms the significant impact of shear forces on performance, alongside normal forces. The observed 0.5 mm drop in the real sensor's performance (normal and shear forces) closely matches the theoretical prediction of 0.33 mm. Overall, our theory offers valuable guidance for future tactile sensor designs, informing various design choices and enhancing the development of advanced robotic touch …",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Journal Abbreviation": "Nat. Commun.",
+      "OpenAlex": "W4401627132",
+      "Scholar": "b-JF-UIAAAAJ:lmc2jWPfTJgC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41467-025-63230-7'>https://www.nature.com/articles/s41467-025-63230-7</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/40877290/'>https://pubmed.ncbi.nlm.nih.gov/40877290/</a><br><a href='https://is.mpg.de/dlg/publications/huanboadam2024-sensing'>https://is.mpg.de/dlg/publications/huanboadam2024-sensing</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

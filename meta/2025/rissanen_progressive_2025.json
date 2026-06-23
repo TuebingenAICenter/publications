@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce Progressive Tempering Sampler (PTS), a novel MCMC method that leverages diffusion models to sample from complex, multimodal target distributions. PTS constructs a sequence of tempered distributions by interpolating between a simple base distribution and the target distribution using a diffusion process. By learning a score-based transition kernel that adapts to the tempering schedule, PTS effectively bridges the gap between modes, overcoming the limitations of traditional tempering methods. We demonstrate the efficacy of PTS on a range of challenging sampling tasks, including high-dimensional Bayesian inference and generative modeling, where it consistently outperforms existing state-of-the-art samplers.",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

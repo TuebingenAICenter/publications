@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of identifying causal structure from observational data that is exchangeable but not necessarily independent and identically distributed (i.i.d.). This setting is common in many real-world applications, such as multi-environment data, where the data points are conditionally i.i.d. given some latent context variable. We show that the de Finetti representation theorem provides a natural framework for this problem. We define a notion of invariant causal structure that is robust to changes in the latent context and show that it can be identified from exchangeable data under certain conditions. We provide a practical algorithm for learning such structures and demonstrate its effectiveness on synthetic and real-world datasets.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4221142930",
+      "Scholar": "DZ-fHPgAAAAJ:k9DIvIRG6EUC"
+    },
+    "itemType": "document"
+  }
+}

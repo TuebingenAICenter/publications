@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Exploring useful behavior is a keystone of reinforcement learning (RL). Existing approaches to intrinsic motivation, following general principles such as information gain, mostly uncover low-level interactions. In contrast, children’s play suggests that they engage in semantically meaningful high-level behavior by imitating or interacting with their caregivers. Recent work has focused on using foundation models to inject these semantic biases into exploration. However, these methods often rely on unrealistic assumptions, such as environments already embedded in language or access to high-level actions. To bridge this gap, we propose SEmaNtically Sensible ExploratIon (Sensei), a framework to equip model-based RL agents with intrinsic motivation for semantically meaningful behavior. To do so, we distill an intrinsic reward signal of interestingness from Vision Language Model (VLM) annotations. The agent learns to predict and maximize these intrinsic rewards using a world model learned directly from intrinsic rewards, image observations, and low-level actions. We show that in both robotic and video game-like simulations Sensei manages to discover a variety of meaningful behaviors. We believe Sensei provides a general tool for integrating feedback from foundation models into autonomous agents, a crucial research direction as openly available VLMs become more powerful.",
+    "archive": "arXiv",
+    "archiveLocation": "2503.01584",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://openreview.net/pdf?id=ZDPNmihkMR"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "Vancouver Convention Center",
+      "OpenAlex": "W4415085054",
+      "Scholar": "b-JF-UIAAAAJ:MLfJN-KU85MC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2503.01584"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

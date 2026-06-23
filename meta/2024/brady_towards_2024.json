@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:25",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openreview.net/pdf?id=aaBgfEowov"
+      }
+    ],
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Scholar": "v-JL-hsAAAAJ:SP6oXDckpogC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

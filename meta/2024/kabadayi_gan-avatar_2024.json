@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present GAN-Avatar, a novel approach for creating a personalized, controllable, and high-fidelity 3D human head avatar from a monocular video. Our method leverages a pre-trained 3D-aware generative model to learn a personalized avatar that can be animated with novel expressions. To achieve this, we propose a novel optimization strategy that adapts the generative model to the specific identity of the subject in the video. We introduce a latent space optimization that allows for precise control over facial expressions while maintaining the identity and appearance of the subject. Our method produces high-quality, temporally consistent results and outperforms existing state-of-the-art methods in terms of visual quality and controllability.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2311.13655",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:42:30",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2311.13655"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4389072050",
+      "Publisher": "University of Tübingen",
+      "Scholar": "OpXMNnMAAAAJ:ZfRJV9d4-WMC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

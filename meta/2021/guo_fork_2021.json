@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cycle-consistent training is a popular framework for learning mappings between two domains without paired data. While it has achieved impressive results in many applications, it is known to be unstable and prone to mode collapse. In this paper, we identify a fundamental limitation of the standard cycle-consistency loss: it implicitly assumes that the mappings are bijections. When the underlying ground-truth mappings are many-to-one, the cycle-consistency loss can lead to degenerate solutions where the model fails to learn the correct mapping. We refer to this phenomenon as the \"forking\" problem. We provide a theoretical analysis of this issue and propose a simple yet effective solution, which we call \"Fork or Fail\" (FoF). FoF introduces a regularization term that encourages the model to learn mappings that are consistent with the underlying many-to-one structure. We demonstrate the effectiveness of our approach on several synthetic and real-world datasets, showing that it significantly improves the stability and performance of cycle-consistent training.",
+    "conferenceName": "24th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Arindam Banerjee and Kenji Fukumizu",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 24th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

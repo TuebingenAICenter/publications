@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The COVID-19 pandemic has highlighted the need for robust decision-making tools to guide public health interventions. Vaccine allocation is a critical policy lever, yet its effectiveness depends on complex, non-linear dynamics and the underlying causal structure of the epidemic. We propose a simulation-assisted causal modeling framework to evaluate vaccine allocation strategies. By combining mechanistic epidemiological models with causal inference, we can estimate the counterfactual outcomes of different allocation policies. We demonstrate our approach by evaluating age-stratified vaccination strategies in a simulated population, showing that our framework can identify optimal allocation policies that are robust to uncertainties in model parameters and population structure.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Issue": "6",
+      "OpenAlex": "W4311994592",
+      "Scholar": "DZ-fHPgAAAAJ:2Ge6toTE0pEC",
+      "Volume": "4"
+    },
+    "itemType": "document"
+  }
+}

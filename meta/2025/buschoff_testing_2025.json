@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICML",
+    "extra": {
+      "Publisher": "University of Tübingen"
+    },
+    "itemType": "conferencePaper"
+  }
+}

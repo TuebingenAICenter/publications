@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Multi-view generation models have recently achieved remarkable progress in generating consistent multi-view images from a single input image. However, evaluating these models remains challenging due to the lack of a comprehensive benchmark and standardized evaluation metrics. Existing works often rely on limited datasets and inconsistent evaluation protocols, making it difficult to compare different methods fairly. To address this, we introduce MVGBench, a comprehensive benchmark for multi-view generation models. MVGBench consists of a large-scale, diverse dataset of 3D objects and scenes, covering a wide range of categories and complexities. We propose a set of standardized evaluation metrics that assess both the visual quality and the multi-view consistency of the generated images. We evaluate several state-of-the-art multi-view generation models on MVGBench and provide a detailed analysis of their performance. Our results reveal the strengths and weaknesses of existing models and highlight the challenges that remain in the field. We hope that MVGBench will serve as a valuable resource for the research community and facilitate the development of more robust and effective multi-view generation models.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.00006",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.00006"
+      }
+    ],
+    "conferenceName": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7160084382",
+      "Scholar": "OpXMNnMAAAAJ:WZBGuue-350C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Xie_MVGBench_a_Comprehensive_Benchmark_for_Multi-view_Generation_Models_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Xie_MVGBench_a_Comprehensive_Benchmark_for_Multi-view_Generation_Models_ICCV_2025_paper.html</a><br><a href='https://virtualhumans.mpi-inf.mpg.de/MVGBench/'>https://virtualhumans.mpi-inf.mpg.de/MVGBench/</a><br><a href='https://arxiv.org/abs/2507.00006'>https://arxiv.org/abs/2507.00006</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the adversarial risk of interpolating classifiers in the presence of label noise. We show that for a wide class of models, including linear models and neural networks in the neural tangent kernel regime, the adversarial risk is governed by a simple law: it is the sum of the standard risk and a term that depends on the label noise and the geometry of the data. This law allows us to quantify the trade-off between standard and adversarial risk, and to explain why adversarial training can lead to a decrease in standard accuracy. We validate our theoretical findings with experiments on synthetic and real-world datasets.",
+    "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Event Place": "Kigali Rwanda",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR)"
+  }
+}

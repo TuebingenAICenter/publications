@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a novel framework for explaining image classifiers by leveraging the generative power of diffusion models. Instead of relying on gradients or perturbations, we use the diffusion model as a prior to guide the generation of images that are prototypical for a specific class or that explain a classifier's decision. Our method, Diffusion Guidance for Explanation (DGE), allows for the generation of high-quality, diverse, and class-specific explanations. We demonstrate that DGE can be used to visualize the features that a classifier relies on, to identify potential biases, and to generate counterfactual explanations. We show that our approach outperforms existing methods in terms of visual quality and faithfulness to the classifier's decision-making process.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Scholar": "0ZAb3tsAAAAJ:ce2CqMG-AY4C",
+      "arXiv": "2311.17833"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}

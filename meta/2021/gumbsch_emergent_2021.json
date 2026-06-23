@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Infants show goal-anticipatory gaze behavior when observing others' actions. While this is often interpreted as evidence for an innate or early-developing action-understanding mechanism, we propose that it can emerge from general-purpose event-predictive learning and inference. We present a computational model that learns to predict future sensory states from observed action sequences. By applying active inference, the model generates gaze behavior to minimize prediction error. We show that the model, after learning from synthetic action data, reproduces key findings from infant studies: it anticipates the goal of an action, and this anticipation is modulated by the observed action's efficiency and the agent's goal-directedness. Our results suggest that goal-anticipatory gaze can be explained as a consequence of predictive processing, without requiring specialized mechanisms for action understanding.",
+    "extra": {
+      "Source": "group_webpage (martius)",
+      "month_numeric": "1"
+    },
+    "itemType": "journalArticle"
+  }
+}

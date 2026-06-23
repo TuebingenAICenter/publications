@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "LIME (Local Interpretable Model-agnostic Explanations) is a popular method to explain the predictions of complex machine learning models. Despite its empirical success, little is known about its theoretical properties. In this paper, we provide a first theoretical analysis of LIME. We show that, under mild assumptions, the LIME explanation converges to a specific ridge regression solution as the number of samples goes to infinity. We also analyze the stability of the LIME explanation and show that it can be highly unstable, in the sense that small changes in the input can lead to large changes in the explanation. Finally, we propose a modification of LIME that improves its stability.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2001.03447",
+    "extra": {
+      "Archive ID": "2001.03447",
+      "Citations@2026-06-01": "51",
+      "OpenAlex": "W3000208741",
+      "Repository": "arXiv",
+      "Scholar": "mMifMdoAAAAJ:VLnqNzywnoUC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

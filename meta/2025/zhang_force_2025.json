@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Human-object interaction (HOI) is a fundamental task in computer vision and graphics. While recent methods have made significant progress in reconstructing 3D human motion and object geometry, they often struggle to produce physically plausible interactions, frequently resulting in interpenetration or floating artifacts. In this paper, we introduce FORCE, a novel dataset and method for intuitive physics-guided human-object interaction. Our dataset contains 100 diverse human-object interaction sequences with high-quality 3D human and object meshes, along with ground-truth contact information and interaction forces. We propose a physics-guided optimization framework that leverages our dataset to synthesize physically plausible HOI. Our method effectively resolves interpenetration and improves the physical consistency of the interaction. We demonstrate the effectiveness of our approach on both synthetic and real-world data, showing significant improvements over state-of-the-art methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.11237",
+    "extra": {
+      "Citations@2026-06-01": "29",
+      "Scholar": "OpXMNnMAAAAJ:nrtMV_XWKgEC",
+      "arXiv": "2403.11237"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models have achieved high performance in the automated detection of diabetic retinopathy (DR) from retinal fundus images. However, their lack of interpretability remains a major barrier for clinical adoption. In this work, we investigate the use of visual explanations to provide insights into the decision-making process of these models. We evaluate several attribution methods on a large-scale dataset and propose a novel approach that combines pixel-level explanations with anatomical knowledge. Our results demonstrate that the proposed method provides more faithful and clinically relevant explanations compared to existing techniques, potentially increasing trust in automated DR screening systems.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4284883421",
+      "Pages": "539-549",
+      "Scholar": "0ZAb3tsAAAAJ:sJsF-0ZLhtgC"
+    },
+    "itemType": "document"
+  }
+}

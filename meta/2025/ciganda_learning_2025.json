@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Aggregate fertility rates, such as the Total Fertility Rate (TFR), are widely used to monitor population dynamics. However, they are summary statistics that mask the underlying heterogeneity of individual reproductive behaviors. Inferring individual-level parameters from aggregate data is a classic inverse problem in demography, often hindered by the computational complexity of likelihood-based methods. We propose a simulation-based inference framework using Neural Posterior Estimation (NPE) to recover the distribution of individual reproductive behaviors from aggregate fertility data. Our approach allows for the estimation of complex, non-linear models of fertility without requiring an explicit likelihood function. We demonstrate the effectiveness of our method by recovering individual-level parameters from synthetic aggregate data and applying it to real-world fertility data. Our results show that NPE can accurately infer the underlying distribution of reproductive behaviors, providing a powerful tool for demographic analysis and policy evaluation.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2506.22607",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.22607"
+      }
+    ],
+    "callNumber": "arXiv:2506.22607",
+    "extra": {
+      "Archive ID": "2506.22607",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7139942396",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:ZyBjE3zI-i8C"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.22607'>https://arxiv.org/abs/2506.22607</a><br><a href='https://papers.cool/arxiv/2506.22607'>https://papers.cool/arxiv/2506.22607</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506.22607'>https://dblp.org/rec/journals/corr/abs-2506.22607</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

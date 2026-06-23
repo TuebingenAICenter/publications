@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Compositionality—the ability to combine known components to represent novel concepts—is a hallmark of human cognition. However, the computational costs of compositional processing are often overlooked. We investigate how time pressure affects the use of compositional strategies in a function learning task. Participants learned to predict outcomes based on combinations of features, where the underlying function was either compositional (additive) or non-compositional (configural). We find that under high time pressure, participants rely more on simple, non-compositional heuristics, whereas under low time pressure, they are more likely to employ compositional strategies. These results suggest that compositionality is a flexible, resource-dependent strategy that is modulated by the availability of cognitive resources.",
+    "archive": "PsyArXiv",
+    "extra": {
+      "Archive ID": "z2648",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4376286419",
+      "Repository": "PsyArXiv",
+      "Scholar": "1O2hcVgAAAAJ:70eg2SAEIzsC"
+    },
+    "itemType": "document"
+  }
+}

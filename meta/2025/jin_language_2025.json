@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "As large language models (LLMs) are increasingly deployed globally, it is critical to understand whether their moral judgments align with human values across different cultures. We introduce a multilingual trolley problem dataset, covering 12 languages and 14 cultures, to evaluate the moral alignment of LLMs. We find that while LLMs show a high degree of moral consistency across languages, they also exhibit significant cultural biases. Our results suggest that current alignment techniques may not be sufficient to ensure cross-cultural moral alignment, and we propose a framework for future research in this direction.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.02273",
+    "extra": {
+      "Archive ID": "2407.02273",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4400374334",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:fGf7eakw1skC"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Gaussian processes (GPs) are the most common formalism for defining probability distributions over spaces of functions. While applications of GPs are myriad, a comprehensive understanding of GP sample paths, i.e. the function spaces over which they define a probability measure, is lacking. In practice, GPs are not constructed through a probability measure, but instead through a mean function and a covariance kernel. In this paper we provide necessary and sufficient conditions on the covariance kernel for the sample paths of the corresponding GP to attain a given regularity. We use the framework of Hölder regularity as it grants particularly straightforward conditions, which simplify further in the cases of stationary and isotropic GPs. We then demonstrate that our results allow for novel and unusually tight characterisations of the sample path regularities of the GPs commonly used in machine learning applications, such as the Matérn GPs.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.14886",
+    "extra": {
+      "Archive ID": "2312.14886",
+      "Citations@2026-06-01": "0",
+      "Journal Abbreviation": "Anal. Appl.",
+      "OpenAlex": "W4417067719",
+      "Pages": "1-29",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:vbGhcppDl1QC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2312.14886'>https://arxiv.org/abs/2312.14886</a><br><a href='https://marvinpfoertner.github.io/publications/'>https://marvinpfoertner.github.io/publications/</a><br><a href='https://eurekamag.com/research/102/983/102983525.php'>https://eurekamag.com/research/102/983/102983525.php</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

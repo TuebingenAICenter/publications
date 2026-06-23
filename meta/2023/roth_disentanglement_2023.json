@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning disentangled representations of data is a fundamental problem in machine learning. Most existing approaches rely on the assumption that the underlying factors of variation are independent. However, in many real-world scenarios, factors are correlated. In this work, we propose a novel framework for disentanglement that explicitly accounts for correlations between factors. We introduce the Hausdorff Factorized Support (HFS) loss, which encourages the model to learn a representation where the support of the joint distribution of factors is factorized. We demonstrate that our approach effectively disentangles correlated factors on several synthetic and real-world datasets, outperforming existing state-of-the-art methods.",
+    "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W4306703624",
+      "Scholar": "jQl9RtkAAAAJ:35r97b3x0nAC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR)"
+  }
+}

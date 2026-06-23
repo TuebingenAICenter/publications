@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning has achieved impressive results in many domains, but often requires large amounts of data and lacks interpretability. In robotics, we have a strong prior: the laws of physics. In this paper, we propose Deep Lagrangian Networks (DeLaN), a deep learning architecture that incorporates the Lagrangian formulation of physics. By learning the Lagrangian of a system, we can derive the equations of motion, which allows us to model the dynamics of a robot. Our approach is data-efficient, interpretable, and can be used for control. We demonstrate the effectiveness of our approach on a simulated robot arm and a real-world robot.",
+    "conferenceName": "7th International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "7th International Conference on Learning Representations (ICLR)"
+  }
+}

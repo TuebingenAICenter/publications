@@ -1,0 +1,51 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Scientific simulators are often used to model complex physical systems, but they are typically computationally expensive and their parameters are unknown. Simulation-based inference (SBI) has emerged as a powerful framework for inferring parameters of such simulators. However, SBI usually assumes that the simulator is known and fixed. In many real-world scenarios, the simulator itself might be misspecified or unknown. We propose a framework for simultaneous identification of models and parameters of scientific simulators. Our approach combines SBI with model selection and model averaging, allowing us to infer both the parameters and the model structure. We demonstrate the effectiveness of our approach on several synthetic and real-world examples, showing that it can accurately identify the correct model and parameters even in the presence of model misspecification.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2305.15174",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:48:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=xC7SYAZygF"
+      },
+      {
+        "accessDate": "2025-06-17 19:48:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=xC7SYAZygF"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "OpenAlex": "W4378474129",
+      "Scholar": "FKOqtF8AAAAJ:k6nH7jlkaTkC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

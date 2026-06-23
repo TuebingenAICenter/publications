@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Attenuation correction (AC) is a crucial step in positron emission tomography (PET) image reconstruction. In clinical routine, this is typically performed using computed tomography (CT) data. However, CT-based AC (CTAC) is associated with additional radiation exposure and potential misalignments between PET and CT images. In this work, we propose a deep learning-based approach for independent AC of whole-body [18F]FDG-PET data using generative adversarial networks (GANs). We trained a conditional GAN (cGAN) to generate pseudo-CT images from non-attenuation-corrected (NAC) PET images, which are then used for AC. We evaluated our method on a dataset of 40 patients. Our results show that the proposed method can generate pseudo-CT images that are highly similar to the original CT images and that the resulting AC-PET images are in good agreement with the standard CTAC-PET images. The proposed method provides a promising approach for radiation-free AC in whole-body PET imaging.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

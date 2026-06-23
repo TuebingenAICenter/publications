@@ -1,0 +1,58 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of designing optimal decision rules when the agents being evaluated are strategic, i.e., they can manipulate their features to improve their outcomes. We model this interaction as a Stackelberg game where the decision maker (leader) commits to a decision rule and the agents (followers) respond by strategically modifying their features to maximize their own utility. We show that, in general, finding the optimal decision rule is NP-hard. However, we identify conditions under which the problem can be solved efficiently. Specifically, we show that if the agents' cost functions are convex and the decision maker's utility function is linear, the problem can be formulated as a convex optimization problem. We also propose a heuristic algorithm for the general case and demonstrate its effectiveness on both synthetic and real-world datasets.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:39:47",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.2021.02567"
+      },
+      {
+        "accessDate": "2025-06-17 19:39:47",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.2021.02567"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4288349082",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:9v7jY6XdEjAC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 52</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 52</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

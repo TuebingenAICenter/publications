@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Feature visualization is a popular technique to interpret the internal representations of convolutional neural networks (CNNs). However, it remains unclear whether these visualizations are faithful to the features that the network actually uses for its predictions. In this paper, we propose a new approach to interpret CNN activations: we identify exemplary natural images that maximally activate a given neuron or channel. We show that these natural images are more interpretable than standard feature visualizations (e.g., optimization-based visualizations) in a human-subject experiment. Furthermore, we find that natural images are more faithful to the network's internal representations, as they are better at predicting the network's behavior on unseen data. Our results suggest that natural images are a more suitable tool for interpreting CNNs than synthetic feature visualizations.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2010.12606",
+    "extra": {
+      "Archive ID": "2010.12606",
+      "Citations@2026-06-01": "76",
+      "Conference": "NeurIPS 2020",
+      "OpenAlex": "W3093678204",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:mB3voiENLucC",
+      "Source": "group_webpage (bethge)",
+      "arXiv": "2010.12606"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

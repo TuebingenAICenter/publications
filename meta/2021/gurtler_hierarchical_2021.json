@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Hierarchical Reinforcement Learning (HRL) aims to solve long-horizon tasks by decomposing them into subtasks. A common challenge is the definition of subgoals and the coordination between the high-level policy, which selects subgoals, and the low-level policy, which executes them. We propose Hierarchical Reinforcement Learning with Timed Subgoals (HiTS), a novel HRL framework that introduces a temporal constraint on subgoals. By predicting not only the desired state but also the time horizon for reaching it, the high-level policy gains explicit control over the temporal abstraction. We show that this simple extension significantly improves the stability and performance of HRL. HiTS achieves state-of-the-art results on a variety of challenging continuous control tasks, including sparse-reward environments and long-horizon navigation tasks.",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "OpenAlex": "W3214001120",
+      "Scholar": "b-JF-UIAAAAJ:XiVPGOgt02cC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2112.03100",
+      "code": "https://github.com/martius-lab/HiTS",
+      "video": "https://youtu.be/JkPaI3uZU6c"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 34"
+  }
+}

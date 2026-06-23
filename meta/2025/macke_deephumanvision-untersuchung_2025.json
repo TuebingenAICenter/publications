@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Publisher": "University of Tübingen"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "Failed to Revise: Web search shows this exact title is the name of a BMBF-funded research project (DeepHumanVision) and not a published paper. I found the project page and related publications from the project team with different titles (e.g., Gerken et al. / Darcher et al. preprints and other papers by Macke/Mormann), but there is no record of a peer-reviewed journal or conference publication with the provided title. Because no confirmed publication venue for that exact title could be found, classification failed.",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

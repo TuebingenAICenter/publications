@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Foundation models are typically trained on massive datasets using self-supervised learning. While they often exhibit similar emergent capabilities, they differ significantly in their architecture, training objectives, and data curation. In this work, we provide a systematic framework to understand and quantify these differences. We introduce a set of metrics based on the geometry of the learned representations and the dynamics of the training process. We apply our framework to a suite of state-of-the-art foundation models, revealing distinct clusters that correspond to different design choices. Our findings provide insights into the trade-offs between different pre-training paradigms and offer a principled way to select models for downstream tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2405.15731",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2405.15731"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

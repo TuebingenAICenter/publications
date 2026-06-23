@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose Subnetwork Inference, a framework for Bayesian deep learning that performs inference on a subset of a network's weights while keeping the rest fixed. This approach is motivated by the observation that deep neural networks are often over-parameterized and that a small subnetwork can be sufficient to capture the uncertainty of the model. We show that Subnetwork Inference can be applied to a variety of architectures and inference methods, including Laplace approximation and variational inference. Our experiments demonstrate that Subnetwork Inference achieves competitive performance on uncertainty estimation and out-of-distribution detection tasks while being significantly more computationally efficient than full-network inference.",
+    "conferenceName": "38th International Conference on Machine Learning",
+    "extra": {
+      "Editors": "Meila, Marina and Zhang, Tong",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of 38th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

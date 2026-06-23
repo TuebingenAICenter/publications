@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In reinforcement learning, the choice of action representation is a crucial design decision that can significantly impact the performance of an agent. While many studies focus on state representations, the impact of action representations is less explored. In this work, we investigate how different action representations affect the performance of policy gradient algorithms. We evaluate several action representations on a set of continuous control tasks and find that the choice of action representation can lead to significant differences in performance. Our results suggest that action representations should be carefully considered when designing reinforcement learning agents.",
+    "archive": "arXiv",
+    "archiveLocation": "2309.06921",
+    "extra": {
+      "Archive ID": "2309.06921",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4386755387",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:ic_3QcYvHh4C"
+    },
+    "itemType": "document"
+  }
+}

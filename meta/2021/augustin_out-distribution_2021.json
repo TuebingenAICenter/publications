@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-training is a powerful semi-supervised learning technique that has recently been shown to achieve state-of-the-art results on ImageNet. However, standard self-training assumes that the unlabeled data comes from the same distribution as the labeled data. In this paper, we consider the open world setting where the unlabeled data contains samples from classes not present in the labeled set, i.e., out-distribution (OOD) data. We show that standard self-training fails in this setting as the model is forced to assign OOD samples to known classes, which leads to a degradation of performance. We propose a novel self-training framework that is OOD-aware. It uses an OOD detector to identify and reject OOD samples during the self-training process. We demonstrate that our method significantly outperforms standard self-training and other baselines on several datasets in the open world setting.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2012.12372",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3113980265",
+      "Scholar": "0ZAb3tsAAAAJ:lvd772isFD0C",
+      "Source": "group_webpage (hein)",
+      "arXiv": "2012.12372"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

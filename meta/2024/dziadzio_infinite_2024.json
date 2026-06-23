@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Continual learning (CL) aims to enable neural networks to learn from a stream of data without forgetting previously acquired knowledge. However, evaluating CL methods is often hindered by the lack of suitable benchmarks that allow for a clear distinction between memorization and generalization. In this work, we introduce Infinite dSprites (IdSprites), a novel, procedurally generated dataset designed to facilitate the study of disentangled representations in CL. IdSprites provides a controlled environment where the underlying factors of variation are known, allowing us to precisely measure how well a model generalizes to unseen combinations of factors versus how much it relies on memorizing specific samples. We use IdSprites to evaluate several state-of-the-art CL methods and show that they often struggle to disentangle the factors of variation, leading to poor generalization and a reliance on memorization. Our findings highlight the importance of disentanglement in CL and provide a new benchmark for future research in this direction.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.16731",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4390437544",
+      "Scholar": "0z0fNxUAAAAJ:QsKbpXNoaWkC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cognitive fMRI research primarily relies on task-averaged responses over many subjects to describe general principles of brain function. Nonetheless, there exists a large variability between subjects that is also reflected in spontaneous brain activity as measured by resting state fMRI (rsfMRI). Leveraging this fact, several recent studies have therefore aimed at predicting task activation from rsfMRI using various machine learning methods within a growing literature on ‘connectome fingerprinting’. In reviewing these results, we found lack of an evaluation against robust baselines that reliably supports a novelty of predictions for this task. On closer examination to reported methods, we found most underperform against trivial baseline model performances based on massive group averaging when whole-cortex prediction is considered. Here we present a modification to published methods that remedies this problem to large extent. Our proposed modification is based on a single-vertex approach that replaces commonly used brain parcellations. We further provide a summary of this model evaluation by characterizing empirical properties of where prediction for this task appears possible, explaining why some predictions largely fail for certain targets. Finally, with these empirical observations we investigate whether individual prediction scores explain individual behavioral differences in a task.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Issue": "1",
+      "OpenAlex": "W3111723662",
+      "Pages": "3480",
+      "Scholar": "b-JF-UIAAAAJ:OU6Ihb5iCvQC",
+      "Volume": "11"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403578682",
+      "Scholar": "xkuLyHoAAAAJ:isC4tDSrTZIC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

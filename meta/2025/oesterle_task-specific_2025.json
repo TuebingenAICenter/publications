@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The retina is often considered a stereotyped sensory processor. However, recent evidence suggests that retinal circuits can adapt to the specific visual statistics of the environment. Here, we show that mouse retinal ganglion cells (RGCs) of the same type exhibit distinct functional properties depending on their location in the retina. Using large-scale two-photon calcium imaging of RGC populations in the intact mouse retina, we found that the receptive field properties of several RGC types vary systematically along the dorsoventral axis. These regional differences are not merely a consequence of varying photoreceptor input but are shaped by local circuit adaptations. We show that these adaptations are task-specific, as they optimize the RGCs for the visual statistics of the corresponding part of the visual field. Our results demonstrate that the retina is a highly flexible system that adjusts its processing strategy to the specific requirements of the visual environment.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4409723528",
+      "Scholar": "lPQLk3QAAAAJ:uJ-U7cs_P_0C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

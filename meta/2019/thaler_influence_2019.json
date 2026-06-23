@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The creation of realistic self-avatars that users identify with is important for many virtual reality applications. However, current approaches for creating biometrically plausible avatars that represent a particular individual require expertise and are time-consuming. We investigated the visual perception of an avatar’s body dimensions by asking males and females to estimate their own body weight and shape on a virtual body using a virtual reality avatar creation tool. In a method of adjustment task, the virtual body was presented in an HTC Vive head-mounted display either co-located with (first-person perspective) or facing (third-person perspective) the participants. Participants adjusted the body weight and dimensions of various body parts to match their own body shape and size. Both males and females underestimated their weight by 10-20% in the virtual body, but the estimates of the other body dimensions were relatively accurate and within a range of ±6%. There was a stronger influence of visual perspective on the estimates for males, but this effect was dependent on the amount of control over the shape of the virtual body, indicating that the results might be caused by where in the body the weight changes expressed themselves. These results suggest that this avatar creation tool could be used to allow participants to make a relatively accurate self-avatar in terms of adjusting body part dimensions, but not weight, and that the influence of visual perspective and amount of control needed over the body shape are likely gender-specific.",
+    "extra": {
+      "Citations@2026-06-01": "14",
+      "OpenAlex": "W2973940948",
+      "Scholar": "6NjbexEAAAAJ:brChLMnLtjYC"
+    },
+    "itemType": "journalArticle"
+  }
+}

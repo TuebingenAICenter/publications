@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Horizontal cells (HCs) are interneurons in the vertebrate retina that provide feedback to photoreceptors and feedforward signaling to bipolar cells. While the feedback mechanism has been debated for decades, the structural basis for these two distinct signaling pathways remains elusive. Here, we show that mouse horizontal cells use different synaptic sites for these two functions. Using serial block-face scanning electron microscopy (SBEM), we reconstructed the entire axonal arbor of individual HCs and mapped all synaptic contacts. We found that HCs form two distinct types of synaptic contacts: (1) large, complex terminals that contact photoreceptors and (2) small, simple terminals that contact bipolar cells. The large terminals are located on the HC axon terminals and are specialized for feedback signaling to photoreceptors. The small terminals are located on the HC dendrites and are specialized for feedforward signaling to bipolar cells. Our results provide a structural basis for the dual role of HCs in retinal processing and suggest that these two signaling pathways are spatially segregated.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Issue": "3",
+      "OpenAlex": "W2976724692",
+      "Pages": "545-558",
+      "Scholar": "lPQLk3QAAAAJ:f2IySw72cVMC",
+      "Volume": "32"
+    },
+    "itemType": "document"
+  }
+}

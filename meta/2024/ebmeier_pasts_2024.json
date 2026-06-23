@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Solar thermal systems play an important role in the decarbonization of the domestic heating sector, yet there exist no publicly available datasets of such systems. Therefore, this paper presents the PaSTS dataset, a unique collection of operational data from domestic Solar Thermal Systems (STS) manufactured by Ritter Energie and marketed under the Paradigma brand. Unlike previous research that primarily relied on simulated or unpublished experimental data, this dataset is derived from the service team at Ritter Energie, offering a realistic reflection of the challenges commonly faced in the field. This paper provides a comprehensive dataset overview, emphasizing its application in anomaly and fault detection tasks within STS and establishes the dataset as the first of its kind. Given the inherent complexities of fault detection in STS, we elaborate on the expert system-based fault detection mechanism currently in …",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4400446032",
+      "Scholar": "b-JF-UIAAAAJ:gsN89kCJA0AC"
+    },
+    "itemType": "journalArticle"
+  }
+}

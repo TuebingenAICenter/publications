@@ -1,0 +1,60 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Additional pretraining is a common practice to adapt Large Language Models (LLMs) to specific domains or tasks. However, the performance gains from this process are often inconsistent, and in some cases, additional pretraining can even lead to performance degradation. In this work, we investigate the factors that influence the success or failure of additional pretraining. We conduct a systematic study across various domains and model sizes, identifying key variables such as data quality, domain overlap, and training dynamics. Our findings provide insights into why additional pretraining sometimes fails to improve model performance and offer practical recommendations for practitioners to enhance the effectiveness of this adaptation strategy.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.05581",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:32",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.emnlp-main.1108.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:32",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.emnlp-main.1108.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403346559",
+      "Publisher": "University of T&uuml;bingen",
+      "Scholar": "0z0fNxUAAAAJ:ymY9cBF3mdcC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

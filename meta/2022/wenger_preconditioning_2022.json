@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gaussian process (GP) hyperparameter optimization is typically performed by maximizing the marginal likelihood, which requires computing the log-determinant and the inverse of the kernel matrix. For large datasets, these operations are computationally prohibitive, necessitating the use of iterative methods like conjugate gradients (CG). However, CG convergence is often slow, especially when the kernel matrix is ill-conditioned. In this paper, we propose a preconditioning strategy for GP hyperparameter optimization that significantly accelerates CG convergence. Our approach leverages the structure of the kernel matrix to construct a preconditioner that is both efficient to compute and effective at reducing the condition number. We demonstrate the effectiveness of our method on a variety of large-scale regression tasks, showing that it leads to substantial speedups in hyperparameter optimization compared to standard CG and other existing preconditioning techniques.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2107.00243",
+    "conferenceName": "39th International Conference on Machine Learning",
+    "extra": {
+      "Archive ID": "2107.00243",
+      "Citations@2026-06-01": "3",
+      "Editors": "Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan",
+      "OpenAlex": "W4287105722",
+      "Scholar": "UeG5w08AAAAJ:ZfRJV9d4-WMC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the 39th International Conference on Machine Learning"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The aim of this study was to investigate the predictive value of whole-body baseline CT radiomics combined with clinical parameters for response and survival in patients with stage-IV melanoma undergoing immunotherapy. In this retrospective study, 108 patients with stage-IV melanoma who underwent baseline CT imaging before starting immunotherapy were included. Radiomic features were extracted from all measurable lesions. A radiomics score was developed using a random forest classifier. Clinical parameters were combined with the radiomics score to predict response (RECIST 1.1) and overall survival (OS). The radiomics score showed a significant association with response (AUC = 0.78) and OS (p 0.001). The combination of the radiomics score and clinical parameters improved the prediction of response (AUC = 0.84) and OS (p 0.001). Whole-body baseline CT radiomics, especially when combined with clinical parameters, can predict response and survival in patients with stage-IV melanoma undergoing immunotherapy.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

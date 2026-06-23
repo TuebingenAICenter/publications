@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the consistency of kernel interpolation in Sobolev spaces Hˆs(Rˆd) with s d/2. We show that for d=1 and s=1, the interpolant of n i.i.d. samples does not converge to the true function in the Lˆ2-norm as n goes to infinity, even if the true function is smooth. This result is extended to d=2 and s=1, and to higher dimensions for s close to d/2. Our results imply that kernel interpolation is not universally consistent in these spaces, which stands in contrast to the case of high-dimensional Sobolev spaces where consistency has been established.",
+    "conferenceName": "35th Conference on Learning Theory",
+    "extra": {
+      "Editors": "Loh, Po-Ling and Raginsky, Maxim",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of 35th Conference on Learning Theory",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

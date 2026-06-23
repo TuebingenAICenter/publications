@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Inferring causal relationships from time series is a fundamental challenge in many scientific disciplines. In Earth system sciences, the complexity of the system, the presence of non-linearities, and the limited length of observational records make this task particularly difficult. Here, we review the state-of-the-art in causal inference from time series, focusing on methods that are applicable to Earth system data. We discuss the assumptions, strengths, and limitations of different approaches, including Granger causality, convergent cross mapping, and constraint-based causal discovery algorithms. We also highlight the importance of incorporating domain knowledge and the potential of machine learning-based approaches. Finally, we provide a roadmap for future research, emphasizing the need for interdisciplinary collaboration and the development of robust, scalable, and interpretable causal inference methods.",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W2949505632",
+      "Scholar": "DZ-fHPgAAAAJ:6Y_dmPnKdi4C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The brain's intrinsic neural timescales (INTs) are thought to reflect the temporal integration window of neural processing. While previous studies have shown that INTs are organized along a sensory-to-association cortical hierarchy, it remains unclear whether they are directly related to sensory processing. Here, we investigated this relationship by examining INTs in patients with disorders of consciousness (DOC), a condition characterized by impaired sensory processing and awareness. We found that INTs were significantly altered in DOC patients compared to healthy controls, particularly in sensory-related cortical areas. Furthermore, the degree of INT alteration was correlated with the level of behavioral impairment, as measured by the Coma Recovery Scale-Revised. These findings suggest that INTs are not only a fundamental property of cortical organization but are also closely linked to the integrity of sensory processing and, by extension, to the level of consciousness.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

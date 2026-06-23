@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Out-of-distribution (OOD) detection is a crucial task for the safe deployment of machine learning models. A large class of OOD detection methods relies on training a model on both in-distribution (ID) and OOD data. In this paper, we show that many of these methods, despite their different motivations and architectures, are essentially estimating the same core quantities: the ID-class conditional densities and the OOD density. We demonstrate that these methods can be decomposed into a combination of these densities and a classifier. This perspective allows us to unify a wide range of existing approaches, explain their performance, and derive a simple yet powerful baseline that outperforms many complex state-of-the-art methods. We provide extensive experiments on standard benchmarks to support our theoretical findings.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2206.09880",
+    "extra": {
+      "Archive ID": "2206.09880",
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W4283326606",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:AHdEip9mkN0C"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

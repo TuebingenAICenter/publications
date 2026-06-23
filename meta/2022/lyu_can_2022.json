@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) have demonstrated remarkable performance on a wide range of natural language processing tasks. However, it remains unclear whether they can perform causal reasoning, a fundamental aspect of human intelligence. In this paper, we investigate whether LLMs can distinguish cause from effect. We propose a set of causal reasoning tasks and evaluate several state-of-the-art LLMs on these tasks. Our results show that while LLMs can perform well on some tasks, they struggle with others, suggesting that they do not yet possess a robust understanding of causality.",
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/pdf?id=ucHh-ytUkOH",
+    "extra": {
+      "Citations@2026-06-01": "25",
+      "Scholar": "DZ-fHPgAAAAJ:AroxqacGMgMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

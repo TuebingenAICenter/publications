@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Digital humans have grown increasingly popular, offering transformative potential across various fields such as education, entertainment, and healthcare. They enrich user experiences by providing immersive and personalized interactions. Enhancing these experiences involves making digital humans controllable, allowing for manipulation of aspects like pose and appearance, among others. Learning to create such controllable digital humans necessitates extensive data from diverse sources. This includes 2D human images alongside their corresponding 3D geometry and texture, 2D images showcasing similar appearances across a wide range of body poses, etc., for effective control over pose and appearance. However, the availability of such “paired data” is limited, making its collection both time-consuming and expensive. Despite these challenges, there is an abundance of unpaired 2D images with accessible, inexpensive labels—such as identity, type of clothing, appearance of clothing, etc. This thesis capitalizes on these affordable labels, employing informed observations from “unpaired data” to facilitate the learning of controllable digital humans through reconstruction, transposition, and generation processes. The presented methods—RingNet, SPICE, and SCULPT—each tackles different aspects of controllable digital human modeling. RingNet (Sanyal et al. [2019]) exploits the consistent facial geometry across different images of the same individual to estimate 3D face shapes and poses without 2D-to-3D supervision. This method illustrates how leveraging the inherent properties of unpaired images—such as identity consistency—can circumvent the need for expensive paired datasets. Similarly, SPICE (Sanyal et al. [2021]) employs a self-supervised learning framework that harnesses unpaired images to generate realistic transpositions of human poses by understanding the underlying 3D body structure and maintaining consistency in body shape and appearance features across different poses. Finally, SCULPT (Sanyal et al. [2024] generates clothed and textured 3D meshes by integrating insights from unpaired 2D images and medium-sized 3D scans. This process employs an unpaired learning approach, conditioning texture and geometry generation on attributes easily derived from data, like the type and appearance of clothing. In conclusion, this thesis highlights how unpaired data and innovative learning techniques can address the challenges of data scarcity and high costs in developing controllable digital humans by advancing reconstruction, transposition, and generation techniques.",
+    "extra": {
+      "Source": "group_webpage (black)",
+      "degree_type": "PhD"
+    },
+    "itemType": "thesis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Dynamic robot movements, such as throwing, hitting, or catching, require high-precision control to succeed. While learning from demonstration (LfD) can provide a good initial policy, the resulting movements often lack the precision required for complex tasks. In this article, we propose a framework that optimizes the execution of dynamic robot movements by combining LfD with iterative learning control (ILC). We represent the robot movement as a dynamic movement primitive (DMP) and use LfD to learn the initial parameters. We then use ILC to refine the execution of the movement by iteratively updating the control parameters based on the tracking error. We demonstrate the effectiveness of our approach on a real robot platform, showing that it can significantly improve the performance of dynamic movements compared to LfD alone.",
+    "archive": "arXiv",
+    "archiveLocation": "1807.01918",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1807.01918"
+    },
+    "itemType": "journalArticle"
+  }
+}

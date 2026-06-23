@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Publisher": "MPI-IS"
+    },
+    "itemType": "journalArticle"
+  }
+}

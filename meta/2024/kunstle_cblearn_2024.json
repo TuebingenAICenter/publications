@@ -1,0 +1,58 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Comparison-based machine learning (CBML) is a subfield of machine learning that deals with data in the form of comparisons (e.g., “object A is more similar to object B than to object C”) rather than absolute measurements. While many algorithms for CBML have been proposed in the literature, there is a lack of a unified, easy-to-use software library that implements these methods. cblearn is a Python library that provides a scikit-learn-compatible interface for comparison-based machine learning. It includes implementations of algorithms for ordinal embedding, comparison-based clustering, and comparison-based classification. The library is designed to be modular and extensible, allowing users to easily add new algorithms and datasets. cblearn is available on PyPI and GitHub, and is documented with examples and tutorials.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:54",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://joss.theoj.org/papers/10.21105/joss.06139.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:54",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://joss.theoj.org/papers/10.21105/joss.06139.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4399574044",
+      "Publisher": "University of Tübingen",
+      "Scholar": "mMifMdoAAAAJ:3htObqc8RwsC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

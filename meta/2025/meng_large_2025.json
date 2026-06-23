@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the convergence of gradient descent (GD) for logistic regression with data points constrained to the unit sphere. While it is well-known that GD with a constant step-size can diverge for logistic regression on general datasets, we show that when data is restricted to the sphere, GD with a constant step-size converges to the global minimizer for any step-size smaller than 2. This result is surprising as it suggests that the geometry of the data can significantly improve the stability of optimization algorithms. We provide a theoretical analysis of this phenomenon and support our findings with numerical experiments.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2507.11228",
+      "Repository": "arXiv",
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2507.11228"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Robust haptic sensation systems are essential for obtaining dexterous robots. Currently, we have solutions for small surface areas such as fingers, but affordable and robust techniques for covering large areas of an arbitrary 3D surface are still missing. Here, we introduce a general machine learning framework to infer multi-contact haptic forces on a 3D robot’s limb surface from internal deformation measured by only a few physical sensors. The general idea of this framework is to predict first the whole surface deformation pattern from the sparsely placed sensors and then to infer number, locations and force magnitudes of unknown contact points. We show how this can be done even if training data can only be obtained for single-contact points using transfer learning at the example of a modified limb of the Poppy robot. With only 10 strain-gauge sensors we obtain a high accuracy also for multiple-contact points. The method can be applied to arbitrarily shaped surfaces and physical sensor types, as long as training data can be obtained.",
+    "extra": {
+      "Citations@2026-06-01": "22",
+      "OpenAlex": "W2958323553",
+      "Scholar": "b-JF-UIAAAAJ:u_35RYKgDlwC"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Probabilistic policy search is a powerful framework for reinforcement learning that accounts for model uncertainty by optimizing a policy with respect to a distribution over dynamics models. A key challenge in this framework is the computation of the expected return, which involves an intractable integral over the state-action space. Existing approaches typically rely on moment matching or sampling to approximate this integral. In this paper, we propose to use numerical quadrature to approximate the expected return. We show that numerical quadrature can provide more accurate approximations than moment matching and is more sample-efficient than sampling-based methods. We demonstrate the effectiveness of our approach on several benchmark tasks, showing that it outperforms existing probabilistic policy search methods.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

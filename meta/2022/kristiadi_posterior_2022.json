@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bayesian neural networks (BNNs) are often trained using variational inference (VI) because it is computationally efficient. However, VI typically underestimates the uncertainty of the posterior distribution, which can lead to poor predictive performance. In this paper, we propose a simple and effective method to refine the posterior distribution of BNNs. Our method, which we call posterior refinement, uses a small number of additional samples to improve the quality of the variational posterior. We show that posterior refinement significantly improves the sample efficiency of BNNs on a variety of tasks, including regression and classification. We also show that our method is complementary to existing VI methods and can be easily integrated into existing pipelines.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2205.10041",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh",
+      "Journal Abbreviation": "NeurIPS",
+      "OpenAlex": "W7133213984",
+      "Scholar": "UeG5w08AAAAJ:NJ774b8OgUMC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
+  }
+}

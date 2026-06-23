@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Recurrent Neural Networks (RNNs) are often criticized for their sequential nature, which hinders parallelization during training. While recent architectures like State Space Models (SSMs) have addressed this by leveraging linear recurrence, they often rely on diagonal transition matrices to maintain efficiency, which can limit their expressive power. In this work, we introduce Fixed-Point RNNs (FP-RNNs), a novel class of RNNs that bridge the gap between diagonal and dense transition matrices. By formulating the hidden state update as a fixed-point iteration, we show that FP-RNNs can approximate dense transitions using only a few iterations of a diagonal-like operator. We provide theoretical guarantees on the convergence and expressivity of our approach and demonstrate its effectiveness on a range of sequence modeling tasks, where FP-RNNs achieve competitive performance with dense models while maintaining the computational efficiency of diagonal ones.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2503.10799",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "9",
+      "Scholar": "xkuLyHoAAAAJ:RGFaLdJalmkC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://iclr.cc/virtual/2025/33708'>https://iclr.cc/virtual/2025/33708</a><br><a href='https://iclr.cc/virtual/2025/37562'>https://iclr.cc/virtual/2025/37562</a><br><a href='https://arxiv.org/abs/2503.10799'>https://arxiv.org/abs/2503.10799</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

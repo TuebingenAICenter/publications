@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present an open-source, modular, torque-controlled robot architecture designed for legged locomotion research. The architecture is based on a custom-designed actuator module that combines a high-torque brushless DC motor with a low-ratio planetary gear and a custom-designed motor controller. The modularity of the design allows for the rapid prototyping of different robot configurations, from simple 1-DOF test benches to complex quadrupedal robots. We demonstrate the capabilities of the architecture by building a quadrupedal robot and showing its performance in various locomotion tasks, including walking, trotting, and jumping. The entire design, including the mechanical parts, electronics, and software, is open-source and available to the research community.",
+    "archive": "arXiv",
+    "archiveLocation": "1910.00093",
+    "extra": {
+      "Project Page": "https://open-dynamic-robot-initiative.github.io/",
+      "Source": "group_webpage (schoelkopf)",
+      "Youtube": "https://www.youtube.com/watch?v=Kd8lOkEBcnc"
+    },
+    "itemType": "journalArticle"
+  }
+}

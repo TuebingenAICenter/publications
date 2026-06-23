@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Kronecker-factored approximate curvature (K-FAC) is a popular second-order optimization method for neural networks. However, its original formulation is restricted to simple feed-forward architectures. While extensions to more complex layers exist, they are often heuristic or lack a unified theoretical framework. In this work, we provide a general framework for K-FAC that covers a wide range of modern neural network architectures, including residual connections, normalization layers, and attention mechanisms. We achieve this by deriving the K-FAC approximation for general computational graphs. Our approach is modular, easy to implement, and recovers existing K-FAC variants as special cases. We demonstrate the effectiveness of our method on various architectures, including ResNets and Transformers, where it achieves competitive performance compared to first-order methods while requiring significantly fewer iterations.",
+    "conferenceName": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+      "Journal Abbreviation": "NeurIPS",
+      "OpenAlex": "W7133198080",
+      "Scholar": "UeG5w08AAAAJ:4MWp96NkSFoC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
+  }
+}

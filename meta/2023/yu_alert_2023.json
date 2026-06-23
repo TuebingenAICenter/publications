@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have shown impressive performance on various natural language processing tasks. However, their ability to perform complex reasoning, especially in domains requiring specialized knowledge, remains limited. In this paper, we introduce ALERT, a benchmark for evaluating the reasoning capabilities of LLMs. ALERT consists of a diverse set of reasoning tasks, including logical, mathematical, and commonsense reasoning, across multiple domains. We evaluate several state-of-the-art LLMs on ALERT and find that they struggle with complex reasoning, particularly when it requires multi-step inference or domain-specific knowledge. We also propose a simple yet effective method to adapt LLMs to reasoning tasks by fine-tuning them on a small set of reasoning examples. Our results show that this approach significantly improves the reasoning performance of LLMs, suggesting that they can be effectively adapted to reasoning tasks with minimal supervision.",
+    "conferenceName": "61st Annual Meeting of the Association for Computational Linguistics",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)"
+  }
+}

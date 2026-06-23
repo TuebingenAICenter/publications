@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Zero-shot imitation learning algorithms hold the promise of reproducing unseen behavior from as little as a single demonstration at test time. Existing practical approaches view the expert demonstration as a sequence of goals, enabling imitation with a high-level goal selector, and a low-level goal-conditioned policy. However, this framework can suffer from myopic behavior: the agent's immediate actions towards achieving individual goals may undermine long-term objectives. We introduce a novel method that mitigates this issue by directly optimizing the occupancy matching objective that is intrinsic to imitation learning. We propose to lift a goal-conditioned value function to a distance between occupancies, which are in turn approximated via a learned world model. The resulting method can learn from offline, suboptimal data, and is capable of non-myopic, zero-shot imitation, as we demonstrate in complex, continuous benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.08751",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:02:02",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2410.08751v3"
+      },
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://openreview.net/pdf/beb537f055ac7fae4b7f25bf31760ca57de98dbd.pdf"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403444501",
+      "Scholar": "b-JF-UIAAAAJ:M7yex6snE4oC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2410.08751"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

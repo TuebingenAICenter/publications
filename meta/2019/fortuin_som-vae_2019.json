@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning meaningful representations of time series data is a challenging task, especially when the data is high-dimensional and contains complex temporal dependencies. We propose the SOM-VAE, a deep learning model that combines the structural properties of Self-Organizing Maps (SOMs) with the generative capabilities of Variational Autoencoders (VAEs). The SOM-VAE learns a discrete latent representation that is organized in a grid, which allows for the visualization and interpretation of the learned representations. We demonstrate the effectiveness of our model on several time series datasets, showing that it learns interpretable representations while achieving competitive performance on downstream tasks.",
+    "conferenceName": "7th International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "7th International Conference on Learning Representations (ICLR)"
+  }
+}

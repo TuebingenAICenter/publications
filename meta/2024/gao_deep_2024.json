@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural circuits are often characterized by a high degree of degeneracy: many different combinations of parameters can produce similar circuit dynamics. This degeneracy poses a challenge for understanding the relationship between circuit structure and function. Here, we introduce a framework based on deep inverse modeling to identify the manifold of parameters that are consistent with observed neural dynamics. We show that this approach can recover the underlying parameter-to-dynamics mapping and identify dynamic-dependent invariances in neural circuit mechanisms. We demonstrate our approach on a range of neural circuit models, including a conductance-based model of a single neuron and a recurrent neural network model of a population of neurons. Our results suggest that deep inverse modeling is a powerful tool for uncovering the principles of neural circuit organization and for understanding how circuit structure constrains neural dynamics.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.1101/2024.08.21.608969",
+    "extra": {
+      "Archive ID": "10.1101/2024.08.21.608969",
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4401737002",
+      "Repository": "bioRxiv",
+      "Scholar": "FKOqtF8AAAAJ:WsFh9Szeq2wC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "bioRxiv"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The Adam optimizer is the de facto standard for training deep learning models. Its update rule includes a bias correction term, intended to compensate for the initialization of the moving averages at zero. In this work, we show that this term is unnecessary. We prove that for a wide range of hyperparameters, the bias correction term does not affect the convergence rate of Adam. We further provide empirical evidence that removing the bias correction term does not degrade performance on standard benchmarks, including language modeling and image classification. Our results suggest that the bias correction term can be safely removed, simplifying the implementation and analysis of Adam.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "arXiv:2511.20516",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416776614",
+      "Scholar": "xkuLyHoAAAAJ:a0OBvERweLwC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.20516'>https://arxiv.org/abs/2511.20516</a><br><a href='https://www.aimodels.fyi/papers/arxiv/adam-simplified-bias-correction-simplified'>https://www.aimodels.fyi/papers/arxiv/adam-simplified-bias-correction-simplified</a><br><a href='https://jglobal.jst.go.jp/public/202502212155205311'>https://jglobal.jst.go.jp/public/202502212155205311</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

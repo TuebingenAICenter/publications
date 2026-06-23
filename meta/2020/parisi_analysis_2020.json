@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Children with motor development disorders benefit greatly from early interventions. An early diagnosis in pediatric preventive care (U2–U5) can be improved by automated screening. Current approaches to automated motion analysis, however, are expensive, require lots of technical support, and cannot be used in broad clinical application. Here we present an inexpensive, marker-free video analysis tool (KineMAT) for infants, which digitizes 3‑D movements of the entire body over time allowing automated analysis in the future. Three-minute video sequences of spontaneously moving infants were recorded with a commercially available depth-imaging camera and aligned with a virtual infant body model (SMIL model). The virtual image generated allows any measurements to be carried out in 3‑D with high precision. We demonstrate seven infants with different diagnoses. A selection of possible movement parameters was quantified and aligned with diagnosis-specific movement characteristics. KineMAT and the SMIL model allow reliable, three-dimensional measurements of spontaneous activity in infants with a very low error rate. Based on machine-learning algorithms, KineMAT can be trained to automatically recognize pathological spontaneous motor skills. It is inexpensive and easy to use and can be developed into a screening tool for preventive care for children.",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W3036828798",
+      "Scholar": "6NjbexEAAAAJ:t4WtaE3RIIAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

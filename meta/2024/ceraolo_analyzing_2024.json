@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Human curiosity is a fundamental driver of learning and discovery. While much research has focused on how humans learn from information, less is known about how they actively seek information through questioning. In this work, we introduce a novel dataset of natural human queries, collected to study questioning behavior and causal curiosity. We analyze the linguistic and structural properties of these queries, and investigate the relationship between questioning behavior and causal curiosity. Our findings reveal that humans exhibit distinct questioning patterns that are linked to their causal curiosity, and that these patterns can be used to predict causal curiosity levels. We also discuss the implications of our findings for the development of more effective information-seeking systems.",
+    "archive": "arXiv",
+    "archiveLocation": "2405.20318",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:39",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.20318v3"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:39",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2405.20318v3"
+      }
+    ],
+    "extra": {
+      "arXiv": "2405.20318"
+    },
+    "itemType": "journalArticle"
+  }
+}

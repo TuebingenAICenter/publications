@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Latent variable models are powerful tools for learning representations of complex data. However, the geometry of the latent space is often ignored, which limits our ability to perform meaningful operations such as measuring distances or interpolating between data points. In this paper, we propose a novel approach to define a Riemannian metric on the latent space of a generative model. Our approach is based on the idea of using a prior distribution to define a metric that reflects the density of the data in the latent space. We show that this metric can be approximated efficiently, even for high-dimensional latent spaces, and that it leads to more meaningful distances and interpolations compared to the standard Euclidean metric. We demonstrate the effectiveness of our approach on several synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2103.05290",
+    "extra": {
+      "Archive ID": "2103.05290",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W3135147835",
+      "Pages": "4634--4658",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:ugwUUJJV9MUC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "151"
+    },
+    "itemType": "document"
+  }
+}

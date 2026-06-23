@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bayesian neural networks (BNNs) are often praised for their ability to quantify uncertainty and perform model selection. However, standard BNNs often fail to produce sparse models, which is a desirable property for interpretability and computational efficiency. In this work, we propose a novel Bayesian sparsification method for neural networks based on the marginal likelihood. We show that the marginal likelihood naturally acts as an Occam's razor, penalizing complex models and favoring sparse ones. We derive a tractable approximation of the marginal likelihood for neural networks and use it to prune weights. Our method, which we call Bayesian Sparsification (BS), is computationally efficient and achieves state-of-the-art performance on several benchmarks, outperforming existing sparsification methods in terms of both sparsity and predictive performance.",
+    "conferenceName": "Advances in Neural Information Processing Systems 37",
+    "extra": {
+      "Editors": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+  }
+}

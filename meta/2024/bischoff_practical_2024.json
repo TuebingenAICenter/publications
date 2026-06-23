@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Generative models are increasingly used in the sciences to model complex data distributions. Evaluating these models requires comparing the distribution of generated samples to the distribution of ground-truth data. While many statistical distances exist, choosing the right one for a specific scientific application is often difficult. In this paper, we provide a practical guide to sample-based statistical distances for evaluating generative models. We review common distances, discuss their properties, and provide recommendations for their use in scientific applications. We also provide a software library that implements these distances and facilitates their use in practice.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2403.12636",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4393027465",
+      "Publisher": "University of Tübingen",
+      "Scholar": "FKOqtF8AAAAJ:m44aUaJR3ikC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 14</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 14</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

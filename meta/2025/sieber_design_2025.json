@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "State Space Models (SSMs) and their variants have emerged as powerful alternatives to Transformers for sequence modeling. Despite their empirical success, the theoretical principles governing their design remain fragmented. We propose a unified framework for analyzing sequence models through the lens of coefficient dynamics, which describes how the model's internal state evolves as a function of the input sequence. By characterizing the stability and expressivity of these dynamics, we derive principled design guidelines for sequence models. We show that many popular architectures, including Mamba and S4, can be interpreted as specific instances of our framework. Furthermore, we demonstrate that our framework allows for the systematic construction of new sequence models with improved performance and efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.09389",
+    "extra": {
+      "Archive ID": "arXiv:2510.09389",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417129454",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:4OULZ7Gr8RgC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.09389'>https://arxiv.org/abs/2510.09389</a><br><a href='https://dblp.org/rec/journals/corr/abs-2510-09389'>https://dblp.org/rec/journals/corr/abs-2510-09389</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Dimensionality reduction is a cornerstone of single-cell data analysis. While t-SNE and UMAP are widely used to visualize single-cell data in 2D, their ability to preserve global structure has been a subject of intense debate. Critics argue that 2D embeddings are misleading and should not be used for biological interpretation. Here, we argue that this criticism is often overstated. We show that 2D embeddings of single-cell data can faithfully represent the global structure of the data, provided that the embedding algorithm is initialized and parameterized correctly. We demonstrate that the apparent lack of global structure in many published embeddings is often a consequence of poor choices in algorithm parameters rather than an inherent limitation of 2D visualization. We provide guidelines for generating informative 2D embeddings and discuss the limitations of current approaches.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:00:08",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012403&type=printable"
+      }
+    ],
+    "extra": {
+      "Additional_DOI": "https://doi.org/10.1101/2024.03.26.586728",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4393280563",
+      "Scholar": "lPQLk3QAAAAJ:LjlpjdlvIbIC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: bioRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: bioRxiv (Cold Spring Harbor Laboratory) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

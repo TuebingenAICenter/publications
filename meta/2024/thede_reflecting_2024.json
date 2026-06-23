@@ -1,0 +1,43 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Continual learning (CL) aims to enable models to learn from a stream of data without forgetting previously acquired knowledge. While rehearsal-based methods, which store past data, have dominated the field, rehearsal-free methods are increasingly relevant due to privacy and memory constraints. Recent advances in large-scale pretraining have fundamentally changed the landscape of CL, as pretrained models often exhibit strong transfer capabilities. In this work, we provide a comprehensive analysis of the state of rehearsal-free CL with pretrained models. We identify key factors that contribute to the success of these methods and highlight common pitfalls in experimental design. Our findings suggest that while pretrained models significantly improve performance, the field lacks a unified evaluation framework, leading to inconsistent results. We propose a set of best practices to guide future research in this direction.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.09384",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2406.09384v1"
+      }
+    ],
+    "conferenceName": "CoLLAs",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399695919",
+      "Scholar": "0z0fNxUAAAAJ:n3vGvpFsckwC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Third Conference on Lifelong Learning Agents"
+  }
+}

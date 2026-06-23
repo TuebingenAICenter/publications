@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Individual fairness requires that similar individuals be treated similarly. However, defining similarity is challenging, especially in the presence of causal relationships. In this paper, we propose a novel causal fair metric that leverages causal models to define similarity between individuals. We show that our metric is robust to adversarial perturbations and can be used to train fair models. We demonstrate the effectiveness of our approach on several real-world datasets.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4388093498",
+      "Scholar": "s8xc2K4AAAAJ:hqOjcs7Dif8C"
+    },
+    "itemType": "document"
+  }
+}

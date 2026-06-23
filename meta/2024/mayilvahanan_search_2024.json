@@ -1,0 +1,54 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Domain generalization (DG) aims to learn models that perform well on unseen target domains. While the field has seen a surge in interest, we observe that the performance of many recent DG methods is often evaluated on a limited set of benchmarks, potentially leading to overfitting to these specific datasets. In this work, we revisit the problem of domain generalization and argue that the current evaluation paradigm is insufficient. We propose a new evaluation framework that considers a wider range of domains and tasks, and we show that many state-of-the-art DG methods do not generalize as well as previously reported. We further identify a set of 'forgotten' domains that are particularly challenging for current models and suggest that future research should focus on these domains to make progress in domain generalization.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.08258",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4403443959",
+      "Scholar": "v-JL-hsAAAAJ:NhqRSupF_l8C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS and University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS and University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS and University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the International Conference on Learning Representations (ICLR) 2025"
+  }
+}

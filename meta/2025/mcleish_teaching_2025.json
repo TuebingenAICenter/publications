@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "13",
+      "Reporter": "arXiv preprint arXiv:2511.07384, 2025",
+      "Scholar": "206vNCEAAAAJ:WZBGuue-350C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=Oq3Xblt0x1'>https://openreview.net/forum?id=Oq3Xblt0x1</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/126665'>https://neurips.cc/virtual/2025/loc/san-diego/126665</a><br><a href='https://arxiv.org/abs/2511.07384'>https://arxiv.org/abs/2511.07384</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

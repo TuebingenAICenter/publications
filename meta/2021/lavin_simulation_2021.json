@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Scientific discovery is increasingly driven by the integration of simulation and machine learning. We propose a new paradigm, Simulation Intelligence (SI), which leverages the strengths of both: the interpretability and physical grounding of simulations, and the predictive power and efficiency of machine learning. SI aims to accelerate scientific discovery by enabling the automated design, execution, and analysis of simulations, and by facilitating the integration of simulation-based models with experimental data. We discuss the core components of SI, its potential applications across scientific domains, and the challenges that must be addressed to realize its full potential.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2112.03235",
+    "extra": {
+      "Archive ID": "2112.03235",
+      "Citations@2026-06-01": "70",
+      "OpenAlex": "W4225621975",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:-c_eYhz9dBkC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

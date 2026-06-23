@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the spectral theory of multihomogeneous mappings, which are a generalization of linear operators and homogeneous polynomials. We show that for a large class of such mappings, which we call cone-preserving, a Perron-Frobenius theorem holds. In particular, we prove the existence of a positive eigenvector and a corresponding eigenvalue, which is the spectral radius of the mapping. We also provide conditions for the uniqueness of the eigenvector and the convergence of the power iteration. Our results generalize the classical Perron-Frobenius theorem for non-negative matrices and the results for homogeneous mappings of degree m.",
+    "extra": {
+      "Citations@2026-06-01": "39",
+      "OpenAlex": "W2770736661",
+      "Scholar": "0ZAb3tsAAAAJ:LjlpjdlvIbIC"
+    },
+    "itemType": "journalArticle"
+  }
+}

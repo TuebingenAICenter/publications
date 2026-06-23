@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Free-hand sketches are a natural way for humans to communicate visual concepts. However, their sparse and abstract nature makes them challenging to process for machines. Existing approaches often rely on complex deep learning models that are difficult to interpret and require large amounts of data. In this paper, we propose a novel approach to abstract sketches through simple primitives. Our method decomposes a sketch into a set of geometric primitives, such as lines, circles, and ellipses, which are then used to represent the sketch. This representation is not only compact and interpretable but also robust to variations in drawing style. We demonstrate the effectiveness of our approach on several sketch-based tasks, including sketch classification, retrieval, and generation, showing that our primitive-based representation achieves competitive performance while being significantly more efficient and interpretable than existing methods.",
+    "conferenceName": "17th European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Shai Avidan and Gabriel J. Brostow and Moustapha Cissé and Giovanni Maria Farinella and Tal Hassner",
+      "OpenAlex": "W4288723497",
+      "Scholar": "jQl9RtkAAAAJ:7T2F9Uy0os0C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Computer Vision - ECCV 2022 - 17th European Conference, Proceedings, Part XXIX",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

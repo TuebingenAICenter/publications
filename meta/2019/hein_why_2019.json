@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks are known to be overconfident on out-of-distribution data. In this paper, we show that for ReLU networks, the confidence of the prediction, measured by the softmax output, is constant along rays starting from the origin if the input is sufficiently far away from the training data. This implies that ReLU networks can yield high-confidence predictions even for inputs that are completely different from the training data. We analyze this phenomenon theoretically and show that it is a consequence of the piecewise linear nature of ReLU networks. We propose a simple and effective method to mitigate this problem by training the network to have low confidence on out-of-distribution data. We demonstrate the effectiveness of our approach on several datasets and architectures.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1812.05720",
+    "extra": {
+      "Archive ID": "1812.05720",
+      "Citations@2026-06-01": "31",
+      "OpenAlex": "W2905485203",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:tzM49s52ZIMC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

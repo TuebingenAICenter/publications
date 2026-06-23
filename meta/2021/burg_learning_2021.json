@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Divisive normalization is a canonical computation in sensory neuroscience, thought to be a fundamental building block of neural processing. While it has been shown to account for a wide range of phenomena in the visual cortex, it is unclear how such a computation could be learned by a neural circuit. Here, we show that divisive normalization emerges naturally in deep convolutional neural networks trained on natural images to perform object recognition. We find that the normalization parameters learned by these networks are consistent with those observed in the primary visual cortex of macaques. Our results suggest that divisive normalization is an efficient strategy for processing natural images and that it can be learned through experience.",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "OpenAlex": "W2972930169",
+      "Scholar": "0z0fNxUAAAAJ:LdasjJ6CEcoC"
+    },
+    "itemType": "document"
+  }
+}

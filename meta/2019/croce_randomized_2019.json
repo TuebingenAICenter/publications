@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a new attack for ReLU networks which does not rely on gradients. Instead, it exploits the fact that ReLU networks are piecewise linear functions. We show that the decision boundary of a ReLU network is composed of hyperplanes and that the network is linear within each region defined by these hyperplanes. Our attack, which we call the Linear Region Attack, finds a point in a different linear region that is closer to the original input than any point found by gradient-based attacks. We demonstrate that our attack is effective against state-of-the-art defenses and that it can be used to certify the robustness of ReLU networks.",
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "OpenAlex": "W2903476886",
+      "Publication Title": "Pattern Recognition: 40th German Conference, GCPR 2018, Stuttgart, Germany …, 2019",
+      "Scholar": "0ZAb3tsAAAAJ:RtRctb2lSbAC"
+    },
+    "itemType": "bookSection"
+  }
+}

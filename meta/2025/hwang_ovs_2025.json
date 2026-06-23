@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Existing Open-Vocabulary Segmentation (OVS) models operate with a fixed vision-language (VL) model as a backbone, limiting their ability to incorporate new categories or adapt to new domains without full retraining. In this paper, we introduce a new setting, Continual Open-Vocabulary Segmentation (COVS), where models must learn to incorporate new knowledge from incremental data streams while maintaining existing OVS capabilities. We present a baseline for COVS that leverages existing OVS architectures and addresses the challenges of catastrophic forgetting and knowledge drift. Our extensive experiments across various benchmarks demonstrate the efficiency and sustainability of the proposed approach for real-world segmentation tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.11536",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Reporter": "The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025",
+      "Scholar": "kmXOOdsAAAAJ:NhqRSupF_l8C",
+      "arXiv": "2410.11536"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/115181'>https://neurips.cc/virtual/2025/loc/san-diego/poster/115181</a><br><a href='https://openreview.net/forum?id=y8Hv7EdcRF'>https://openreview.net/forum?id=y8Hv7EdcRF</a><br><a href='https://arxiv.org/abs/2410.11536'>https://arxiv.org/abs/2410.11536</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

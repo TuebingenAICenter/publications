@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Brain-Computer Interfaces (BCIs) hold great promise for restoring communication and motor function in patients with severe motor impairments. However, their clinical translation is hindered by the need for lengthy, daily calibration sessions to account for non-stationarities in neural signals. To address this, we propose EDAPT, a framework for continual online adaptation in BCIs. EDAPT leverages a self-supervised objective to continuously update the decoder parameters without requiring explicit user feedback or calibration trials. We evaluate EDAPT on large-scale electrocorticography (ECoG) datasets and demonstrate that it achieves performance comparable to supervised calibration while significantly reducing the burden on the user. Our results suggest that EDAPT is a promising step towards practical, calibration-free BCIs.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2508.10474",
+      "Citations@2026-06-01": "4",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:0d9pApVQ-n0C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.10474'>https://arxiv.org/abs/2508.10474</a><br><a href='https://www.emergentmind.com/papers/2508.10474'>https://www.emergentmind.com/papers/2508.10474</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

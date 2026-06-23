@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The International AI Safety Report is a comprehensive, evidence-based assessment of the risks and opportunities associated with advanced artificial intelligence. It provides a global perspective on the state of AI safety, covering technical, societal, and governance dimensions to inform international policy and research efforts.",
+    "callNumber": "DSIT 2025/001",
+    "extra": {
+      "Citations@2026-06-01": "74",
+      "Number": "DSIT 2025/001",
+      "OpenAlex": "W4406975817",
+      "Scholar": "ZNtuJYoAAAAJ:XiSMed-E-HIC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2501.17805'>https://arxiv.org/abs/2501.17805</a><br><a href='https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025'>https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 61</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 32</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Distinguishing cause from effect is a fundamental problem in science. A popular approach is to assume that the cause X and the effect Y are related by Y = f(X) + N, where the noise N is independent of X. If this holds, the regression of Y on X should be 'simpler' than the regression of X on Y. We analyze this intuition by comparing the regression errors of both directions. We show that for a large class of models, the regression error is indeed smaller in the causal direction. We provide theoretical results for additive noise models and show that the difference in regression errors is related to the mutual information between cause and effect. Furthermore, we propose a new method for cause-effect inference based on these insights and demonstrate its performance on synthetic and real-world data.",
+    "extra": {
+      "Citations@2026-06-01": "35",
+      "OpenAlex": "W2909010126",
+      "Scholar": "DZ-fHPgAAAAJ:ACkdcFGKRjAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

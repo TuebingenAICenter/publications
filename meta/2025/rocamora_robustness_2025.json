@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W7119299730",
+      "Scholar": "0ZAb3tsAAAAJ:2ywjKiB__4kC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://nips.cc/virtual/2025/poster/118180'>https://nips.cc/virtual/2025/poster/118180</a><br><a href='https://infoscience.epfl.ch/entities/publication/62ba25e3-c41f-4b1e-9838-42b27741ee41'>https://infoscience.epfl.ch/entities/publication/62ba25e3-c41f-4b1e-9838-42b27741ee41</a><br><a href='https://github.com/LIONS-EPFL/LEAF'>https://github.com/LIONS-EPFL/LEAF</a><br><a href='https://arxiv.org/abs/2506.03355'>https://arxiv.org/abs/2506.03355</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

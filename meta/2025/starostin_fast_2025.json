@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Reflectometry is a powerful technique for characterizing thin-film structures, but the inversion of reflectometry data—inferring the physical parameters of a sample from its reflectivity curve—is a notoriously difficult inverse problem. It is often ill-posed, computationally expensive, and prone to local minima. We present a method for probabilistic reflectometry inversion based on prior-amortized neural posterior estimation (NPE). Our approach learns to map reflectivity curves to the full posterior distribution of physical parameters, conditioned on a prior. Once trained, the model provides instantaneous, reliable, and uncertainty-aware parameter estimation. We demonstrate the performance of our method on synthetic and experimental data, showing that it outperforms traditional optimization-based approaches in terms of speed, robustness, and the ability to quantify uncertainty. Our method is general and can be applied to various reflectometry modalities and complex sample architectures.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4408423560",
+      "Scholar": "VRBv6mEAAAAJ:dhFuZR0502QC"
+    },
+    "itemType": "journalArticle"
+  }
+}

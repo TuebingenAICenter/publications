@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Clinical time-series data are often heterogeneous, containing both irregularly sampled continuous measurements and categorical events. Existing approaches typically handle this by either imputing missing values or using specialized architectures to process the raw data directly. In this work, we argue that the representation of individual time-steps is a critical, yet often overlooked, component of clinical time-series modeling. We propose a step-wise embedding framework that learns a unified representation for heterogeneous clinical data at each time-step. We demonstrate that this approach consistently improves performance across various clinical tasks and architectures, highlighting the importance of step-wise embeddings for modeling heterogeneous clinical time-series.",
+    "conferenceName": "Machine Learning for Health Symposium",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 3rd Machine Learning for Health Symposium",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

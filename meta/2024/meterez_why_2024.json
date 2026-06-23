@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The phenomenon of learning rate transfer—where optimal hyperparameters found on smaller models or datasets perform well on larger ones—is a cornerstone of modern deep learning. Despite its empirical success, a theoretical understanding remains elusive. In this work, we provide a theoretical framework to explain this phenomenon by reconciling optimization dynamics with scaling limits. We show that for a wide class of architectures, the optimization trajectory is governed by a continuous-time limit that is invariant to scale, provided the learning rate is appropriately rescaled. We derive the scaling laws for the learning rate and show that they are determined by the interplay between the initialization variance and the activation function. Our results provide a principled way to predict optimal learning rates for large-scale models from small-scale experiments, and we validate our findings with extensive empirical evidence.",
+    "archive": "arXiv",
+    "archiveLocation": "2402.17457",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2402.17457"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

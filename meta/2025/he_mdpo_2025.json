@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414528681",
+      "Scholar": "SrVnrPcAAAAJ:gV6rEsy15s0C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.13148'>https://arxiv.org/abs/2508.13148</a><br><a href='https://cli212.github.io/MDPO/'>https://cli212.github.io/MDPO/</a><br><a href='https://huggingface.co/papers/2508.13148'>https://huggingface.co/papers/2508.13148</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

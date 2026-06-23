@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Landmark detection is a fundamental task in medical image analysis, serving as a prerequisite for registration, segmentation, and motion compensation. While deep learning-based approaches have achieved state-of-the-art performance, they typically require large amounts of manually annotated data, which is time-consuming and expensive to acquire. In this work, we propose a novel framework for real-time landmark detection that requires minimal human supervision. Our approach leverages a self-supervised learning strategy combined with a small amount of labeled data to achieve robust performance. We demonstrate the effectiveness of our method on both within-subject and cross-subject tracking tasks, showing that it can generalize well to unseen subjects and imaging conditions. Our framework achieves real-time performance, making it suitable for clinical applications where fast and accurate landmark detection is required.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

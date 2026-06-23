@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Training data attribution (TDA) methods aim to identify which training examples are most influential for a model's prediction on a test input. While these methods have been extensively studied in academic settings, their utility for practitioners remains under-explored. In this work, we conduct a user study with 15 machine learning practitioners to understand how they perceive and utilize TDA explanations in real-world debugging scenarios. We find that practitioners value TDA for identifying data quality issues and understanding model behavior, but they also express concerns regarding the reliability and interpretability of these explanations. Based on our findings, we provide design recommendations for future TDA tools to better support practitioner needs.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2310.20477",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "Scholar": "kmXOOdsAAAAJ:J_g5lzvAfSwC"
+    },
+    "itemType": "journalArticle"
+  }
+}

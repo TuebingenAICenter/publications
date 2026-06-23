@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The loss landscape of neural networks is a central object of study in deep learning. While many works have focused on the role of over-parametrization in shaping the landscape, we propose a novel approach to characterize the loss landscape that does not rely on this assumption. Our method is based on the analysis of the Hessian spectrum of the loss function, which we show can be effectively approximated using a low-rank structure. We demonstrate that this approach provides a robust and interpretable characterization of the loss landscape, and we show its utility in understanding the training dynamics of neural networks.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.12455",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2410.12455"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

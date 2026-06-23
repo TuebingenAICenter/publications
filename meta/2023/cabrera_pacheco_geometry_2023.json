@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Mixable loss functions are of fundamental importance in the context of prediction with expert advice in the online setting since they characterize fast learning rates. By re-interpreting properness from the point of view of differential geometry, we provide a simple geometric characterization of mixability for the binary and multi-class cases: a proper loss function l is η-mixable if and only if the superpredition set spr(ηl) of the scaled loss function ηl slides freely inside the superprediction set spr(llog) of the log loss llog, under fairly general assumptions on the differentiability of l. Our approach provides a way to treat some concepts concerning loss functions (like properness) in a “coordinate-free” manner and reconciles previous results obtained for mixable loss functions for the binary and the multi-class cases.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4321854437",
+      "Scholar": "G4MBruQAAAAJ:Ecsxi449JjsC"
+    },
+    "itemType": "document"
+  }
+}

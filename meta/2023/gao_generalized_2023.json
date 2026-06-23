@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) has become a powerful tool for performing Bayesian inference in scientific models where the likelihood is intractable but simulation is possible. However, standard SBI methods typically target the posterior distribution under a specific loss function (e.g., the log-likelihood). In many scientific applications, we are interested in generalized Bayesian inference (GBI), where the goal is to minimize a more general loss function, such as a robust loss or a loss that accounts for model misspecification. In this paper, we introduce a novel framework for amortized GBI that allows for flexible loss functions. Our approach, which we call Amortized Cost Estimation (ACE), learns to estimate the cost function associated with a given observation and parameter, allowing for efficient inference. We demonstrate the effectiveness of our approach on several scientific benchmarks, showing that it outperforms existing methods in terms of accuracy and robustness.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2305.15208",
+    "conferenceName": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+    "extra": {
+      "Archive ID": "2305.15208",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4378474157",
+      "Scholar": "FKOqtF8AAAAJ:Qh5Z_vBjo80C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
+  }
+}

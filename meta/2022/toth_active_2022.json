@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of active causal structure learning, where an agent aims to identify the causal graph of a system by performing interventions. While existing approaches often rely on greedy heuristics or assume a specific functional form, we propose a principled Bayesian framework for active causal structure learning. Our approach maintains a posterior distribution over causal graphs and selects interventions that maximize the expected information gain. To make this computationally tractable, we introduce a variational approximation that allows for efficient inference and decision-making. We demonstrate the effectiveness of our method on synthetic and real-world causal discovery tasks, showing that it outperforms existing active learning strategies.",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)"
+  }
+}

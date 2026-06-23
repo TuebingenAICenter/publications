@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models are increasingly deployed in medical imaging, where they are expected to perform reliably on diverse patient populations. However, models often fail when encountering data that differs from their training distribution, a problem known as out-of-distribution (OOD) detection. While most OOD detection research focuses on detecting entirely new classes or datasets, we investigate a more subtle but clinically relevant problem: subgroup shifts, where the distribution of subgroups within a known class changes. We show that state-of-the-art OOD detection methods often fail to detect these shifts, even when they lead to significant performance drops. We analyze the reasons for this failure and propose a simple yet effective approach to improve detection performance.",
+    "archive": "OpenReview",
+    "extra": {
+      "Citations@2026-06-01": "14",
+      "Scholar": "lPQLk3QAAAAJ:OU6Ihb5iCvQC"
+    },
+    "itemType": "journalArticle"
+  }
+}

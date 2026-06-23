@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Natural gradient methods have become a popular tool for policy search in reinforcement learning due to their ability to perform stable policy updates. However, the standard natural gradient update requires the inversion of the Fisher information matrix, which is computationally expensive for policies with many parameters. In this paper, we propose a compatible natural gradient policy search method that avoids the explicit computation and inversion of the Fisher information matrix. Our method is based on the observation that the natural gradient can be computed using a compatible function approximator, which allows us to perform the update using only the gradient of the log-policy and the gradient of the value function. We show that our method is equivalent to the natural gradient update under certain conditions and that it can be implemented efficiently. We evaluate our method on several reinforcement learning benchmarks and show that it outperforms standard policy gradient methods and is competitive with other natural gradient methods.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

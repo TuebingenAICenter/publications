@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural encoding models aim to predict the activity of neurons in response to sensory stimuli. While deep learning models have achieved state-of-the-art performance in predicting neural responses, they often fail to capture the full statistical structure of population spike trains, such as noise correlations. Here, we propose an adversarial training framework to train neural encoding models. We show that our approach leads to models that better capture the statistical properties of population spike trains compared to standard maximum likelihood estimation.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W2970082228",
+      "Scholar": "FKOqtF8AAAAJ:7XUxBq3GufIC"
+    },
+    "itemType": "journalArticle"
+  }
+}

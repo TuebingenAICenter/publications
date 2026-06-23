@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "I examine the technology of machine learning from the perspective of rhetoric, which is simply the art of persuasion. Rather than being a neutral and \"objective\" way to build \"world models\" from data, machine learning is (I argue) inherently rhetorical. I explore some of its rhetorical features, and examine one pervasive business model where machine learning is widely used, \"manipulation as a service.\"",
+    "archive": "arXiv",
+    "archiveLocation": "2604.06754",
+    "conferenceName": "Persuasive Algorithms? A Symposium on the Rhetoric of Generative AI",
+    "extra": {
+      "Archive ID": "2604.06754",
+      "Source": "group_webpage (williamson)",
+      "arXiv": "2604.06754"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Persuasive Algorithms? A Symposium on the Rhetoric of Generative AI"
+  }
+}

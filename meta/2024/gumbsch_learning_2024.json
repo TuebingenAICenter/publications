@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "World models are essential for intelligent agents to predict, plan, and reason. While hierarchical world models promise to capture long-term dependencies by operating at different temporal scales, they often struggle with the trade-off between temporal abstraction and predictive accuracy. We propose Thick World Models (TWM), a hierarchical world model that learns adaptive temporal abstractions from discrete latent dynamics. TWM employs a hierarchy of discrete latent spaces, where higher levels operate at slower temporal resolutions. We introduce a novel objective that encourages the model to learn temporal abstractions by predicting future states at multiple time scales simultaneously. Our experiments demonstrate that TWM outperforms state-of-the-art hierarchical world models on complex control tasks, showing improved sample efficiency and the ability to learn meaningful temporal abstractions.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:57",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=TjCDNssXKU"
+      },
+      {
+        "accessDate": "2025-06-17 19:46:57",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=TjCDNssXKU"
+      }
+    ],
+    "conferenceName": "The Twelfth International Conference on Learning Representations",
+    "extra": {
+      "Citations@2026-06-01": "37",
+      "Scholar": "b-JF-UIAAAAJ:j8SEvjWlNXcC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

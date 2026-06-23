@@ -1,0 +1,41 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Recurrent Neural Networks (RNNs) are often criticized for their inability to capture long-range dependencies, a phenomenon commonly attributed to the vanishing gradient problem. In this work, we challenge this narrative. We show that the vanishing gradient is not a fundamental limitation of RNNs, but rather a consequence of the specific initialization and optimization strategies typically employed. By analyzing the dynamics of RNNs through the lens of dynamical systems and control theory, we demonstrate that RNNs can be trained to capture long-range dependencies even in the presence of vanishing gradients. We provide theoretical guarantees and empirical evidence supporting our claims, showing that simple RNNs can achieve performance comparable to state-of-the-art architectures on long-range dependency tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2405.21064",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:58:35",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/fbb07254ef01868967dc891ea3fa6c13-Paper-Conference.pdf"
+      }
+    ],
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Citations@2026-06-01": "12",
+      "OpenAlex": "W4399317991",
+      "Scholar": "xkuLyHoAAAAJ:RHpTSmoSYBkC",
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2405.21064"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 21</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present InstantAvatar, a method that learns a high-fidelity animatable human avatar from a short monocular video in about a minute. Existing methods for learning human avatars from monocular video typically require long optimization times, often ranging from tens of minutes to hours, which hinders their practical application. To address this, we propose a novel approach that leverages a dynamic neural radiance field (NeRF) representation and a fast optimization strategy. Specifically, we introduce a canonical space deformation field that is conditioned on the human pose, and we use a sparse set of control points to guide the deformation. We further propose a coarse-to-fine optimization scheme that allows for rapid convergence. Our experiments demonstrate that InstantAvatar achieves state-of-the-art performance in terms of both visual quality and animation fidelity, while being significantly faster than existing methods.",
+    "conferenceName": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Event Place": "Vancouver, CA",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

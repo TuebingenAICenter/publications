@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cognitive maps are thought to support flexible behavior by organizing knowledge about the world. While spatial navigation is the canonical example, cognitive maps are also used for non-spatial domains. Recent evidence suggests that these maps are not static representations but are dynamically updated based on task demands. Here, we investigate how reward influences the structure of non-spatial cognitive maps. Participants learned a two-dimensional non-spatial task space defined by two continuous features. We manipulated the reward distribution in this space, creating regions of high and low value. Using representational similarity analysis on fMRI data, we show that the cognitive map is warped in the presence of reward: the representational distance between states is compressed in high-reward regions and expanded in low-reward regions. This finding suggests that reward acts as a powerful force in shaping the geometry of cognitive maps, potentially facilitating efficient decision-making in valuable regions of the state space.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4386473042",
+      "Scholar": "1O2hcVgAAAAJ:HoB7MX3m0LUC"
+    },
+    "itemType": "journalArticle"
+  }
+}

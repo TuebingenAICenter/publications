@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416040364",
+      "Scholar": "6NjbexEAAAAJ:m6EE8XZ9-ZkC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2503.10626'>https://arxiv.org/abs/2503.10626</a><br><a href='https://dblp.org/rec/journals/corr/abs-2503-10626'>https://dblp.org/rec/journals/corr/abs-2503-10626</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

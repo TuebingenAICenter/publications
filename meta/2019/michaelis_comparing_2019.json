@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Visual search in cluttered scenes is a fundamental task for both biological and artificial vision systems. While deep neural networks (DNNs) have achieved human-level performance on object recognition, it remains unclear whether they employ similar search strategies to humans. We compared the search behavior of humans and state-of-the-art object detectors (Faster R-CNN, RetinaNet) in cluttered scenes. We generated synthetic images of varying clutter levels and measured search performance and eye movements. We found that while both humans and machines show a decrease in performance with increasing clutter, their search strategies differ significantly. Humans exhibit a systematic search pattern, whereas machines rely on global image features and are less affected by the spatial arrangement of distractors. Our results suggest that current object detectors do not yet capture the human-like search strategy in cluttered environments.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W2974818091",
+      "Scholar": "0z0fNxUAAAAJ:7BrZ7Jt4UNcC"
+    },
+    "itemType": "journalArticle"
+  }
+}

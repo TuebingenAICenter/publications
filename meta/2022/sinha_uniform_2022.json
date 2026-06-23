@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4292828067",
+      "Scholar": "jQl9RtkAAAAJ:uLbwQdceFCQC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+  }
+}

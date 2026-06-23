@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present HDHumans, a novel hybrid approach for high-fidelity digital human synthesis. Our method combines the benefits of explicit geometry representations with the expressive power of neural rendering. Specifically, we propose a hybrid representation that consists of a coarse mesh proxy and a learned neural texture field. The mesh proxy provides a strong geometric prior, while the neural texture field captures fine-scale details and view-dependent effects. We demonstrate that our approach can synthesize high-fidelity digital humans from sparse multi-view input, and that it generalizes well to novel poses and viewpoints. Our method outperforms state-of-the-art approaches in terms of visual quality and geometric accuracy.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2210.12003",
+    "extra": {
+      "Citations@2026-06-01": "59",
+      "Project Page": "https://people.mpi-inf.mpg.de/~mhaberma/projects/2023-hdhumans/",
+      "Scholar": "OpXMNnMAAAAJ:9vf0nzSNQJEC"
+    },
+    "itemType": "journalArticle"
+  }
+}

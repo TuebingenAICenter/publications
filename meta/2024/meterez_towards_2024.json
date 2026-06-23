@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Batch Normalization (BN) is a cornerstone of modern deep learning, yet its theoretical properties remain poorly understood. A common belief is that BN stabilizes training by controlling the internal covariate shift. However, recent studies suggest that BN's success is more closely linked to the smoothness of the optimization landscape. In this work, we provide a theoretical analysis of BN in deep networks, focusing on the stability of the gradients. We show that standard BN can lead to gradient explosion in very deep networks, and we propose a simple modification to BN that prevents this phenomenon. Our theoretical findings are supported by empirical results on various architectures and datasets, demonstrating that our proposed method enables training of extremely deep networks without the need for specialized initialization or architectural modifications.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2310.02012",
+    "conferenceName": "The Twelfth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations (ICLR)"
+  }
+}

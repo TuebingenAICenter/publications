@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Few-shot segmentation aims to segment objects of unseen classes given only a few annotated examples. While existing methods achieve impressive results, they typically assume that all classes are available at training time or that the model is trained on a fixed set of base classes. In this paper, we address the more challenging and realistic scenario of Incremental Few-Shot Segmentation (IFSS), where the model is required to learn new classes sequentially without forgetting the previously learned ones. We propose a novel prototype-based approach that relies on a shared embedding space and a memory-based mechanism to store and update class prototypes. Our method effectively mitigates catastrophic forgetting by leveraging a distillation loss and a prototype-based replay strategy. We evaluate our approach on the PASCAL-5i and COCO-20i datasets, demonstrating that it significantly outperforms existing baselines in the incremental setting.",
+    "conferenceName": "32nd British Machine Vision Conference (BMVC)",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "Event Place": "Virtual Conference",
+      "OpenAlex": "W3207692426",
+      "Scholar": "jQl9RtkAAAAJ:1qzjygNMrQYC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "32nd British Machine Vision Conference (BMVC)"
+  }
+}

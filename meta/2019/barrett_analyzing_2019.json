@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Artificial neural networks (ANNs) have recently achieved human-level performance on a variety of complex tasks. This success has led to a surge of interest in using ANNs as models of biological neural networks. However, the differences between biological and artificial systems are substantial, and it is unclear to what extent the success of ANNs can inform our understanding of the brain. In this review, we discuss the challenges of using ANNs to model biological neural networks, and we highlight opportunities for synergy between the two fields. We argue that the most promising path forward is to develop a common language for describing the computations performed by both biological and artificial systems.",
+    "archive": "arXiv",
+    "archiveLocation": "1810.13373",
+    "extra": {
+      "Archive ID": "1810.13373",
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W2899047292",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:ybfzIt2tCtgC"
+    },
+    "itemType": "document"
+  }
+}

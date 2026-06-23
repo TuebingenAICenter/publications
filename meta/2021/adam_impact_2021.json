@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Infants’ ability to predict the outcomes of observed actions is a cornerstone of social cognition. While it is well-established that infants can predict the goals of human actions, it remains unclear whether they can also predict the effects of non-human actions and how this ability develops. In this study, we investigated 7-, 11-, and 18-month-old infants’ predictive gaze shifts toward the effects of a non-human grasping action. Infants observed a robotic claw grasping one of two objects, which then produced a distinct sound effect. We found that 18-month-olds, but not 7- or 11-month-olds, showed predictive gaze shifts toward the object that was about to be grasped, suggesting that the ability to predict the effects of non-human actions emerges between 11 and 18 months of age. These findings provide new insights into the development of action understanding and the role of action effects in infants’ predictive processing.",
+    "extra": {
+      "Source": "group_webpage (martius)"
+    },
+    "itemType": "journalArticle"
+  }
+}

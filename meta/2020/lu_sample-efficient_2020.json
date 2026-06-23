@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Reinforcement learning (RL) is often sample-inefficient, especially in environments with sparse rewards. In this paper, we propose a counterfactual-based data augmentation method to improve the sample efficiency of RL. Specifically, we learn a causal model of the environment and use it to generate counterfactual experiences, which are then used to augment the training data. We show that our method can significantly improve the sample efficiency of RL in various environments, including those with sparse rewards.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2012.09092",
+    "extra": {
+      "Archive ID": "2012.09092",
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W3112027221",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:jnWRawXoEPoC"
+    },
+    "itemType": "document"
+  }
+}

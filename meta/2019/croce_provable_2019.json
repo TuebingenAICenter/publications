@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a new approach to improve the provable robustness of ReLU networks. We show that the robustness of a ReLU network is related to the number of linear regions it creates. Specifically, we prove that a higher number of linear regions can lead to a larger robust radius. Based on this insight, we propose a regularization method that encourages the network to create more linear regions. We evaluate our method on several datasets and show that it improves the provable robustness of ReLU networks compared to existing methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1810.07481",
+    "extra": {
+      "Citations@2026-06-01": "208",
+      "Scholar": "0ZAb3tsAAAAJ:NJ774b8OgUMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gaussian process (GP) optimization is a popular framework for global optimization of expensive-to-evaluate functions. While standard regret bounds for GP optimization depend on the size of the domain, many practical applications involve large or even continuous domains. In this paper, we provide new regret bounds for GP optimization that are independent of the domain size. We achieve this by leveraging the smoothness of the GP sample paths, which we characterize using the Lipschitz constant of the GP. Our bounds are based on a novel analysis of the GP posterior variance, which we show can be bounded by a term that depends only on the smoothness of the kernel and the number of observations. We demonstrate the effectiveness of our bounds on several synthetic and real-world optimization problems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2104.14113",
+    "extra": {
+      "Archive ID": "2104.14113",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W3158449558",
+      "Pages": "7385--7396",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:oP4RMhgCrzQC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

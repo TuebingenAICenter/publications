@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this letter, we present a novel markerless 3D human motion capture (MoCap) system for unstructured, outdoor environments that uses a team of autonomous unmanned aerial vehicles (UAVs) with on-board RGB cameras and computation. Existing methods are limited by calibrated cameras and off-line processing. Thus, we present the first method (AirPose) to estimate human pose and shape using images captured by multiple extrinsically uncalibrated flying cameras. AirPose calibrates the cameras relative to the person instead of in a classical way. It uses distributed neural networks running on each UAV that communicate viewpoint-independent information with each other about the person (i.e., their 3D shape and articulated pose). The persons shape and pose are parameterized using the SMPL-X body model, resulting in a compact representation, that minimizes communication between the UAVs. The network is trained using synthetic images of realistic virtual environments, and fine-tuned on a small set of real images. We also introduce an optimization-based post processing method (AirPose+) for offline applications that require higher mocap quality. We make code and data available for research at https://github.com/robot-perception-group/AirPose. Video describing the approach and results is available at https://youtu.be/Ss48ICeqvnQ.",
+    "extra": {
+      "Citations@2026-06-01": "35",
+      "OpenAlex": "W4210299223",
+      "Scholar": "6NjbexEAAAAJ:IOahUoDOFMsC"
+    },
+    "itemType": "journalArticle"
+  }
+}

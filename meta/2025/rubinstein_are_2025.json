@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Object-centric learning (OCL) aims to decompose scenes into individual objects, promising better generalization, interpretability, and data efficiency. Despite years of research, OCL models still struggle to scale to complex, real-world data. In this paper, we perform a systematic evaluation of state-of-the-art OCL models on a diverse set of benchmarks. We find that while OCL models perform well on synthetic datasets, their performance drops significantly on real-world data. We identify key bottlenecks in current OCL architectures and propose a new framework, OCCAM, that addresses these limitations. Our results show that OCCAM achieves state-of-the-art performance on multiple benchmarks, suggesting that we are not done with OCL, but rather that we need to rethink our approach to scaling it.",
+    "archive": "arXiv",
+    "archiveLocation": "2504.07092",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://iclr.cc/virtual/2025/35033"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Code": "https://github.com/AlexanderRubinstein/OCCAM",
+      "OpenAlex": "W4417249508",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "kmXOOdsAAAAJ:cFHS6HbyZ2cC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://iclr.cc/virtual/2025/35033'>https://iclr.cc/virtual/2025/35033</a><br><a href='https://arxiv.org/abs/2504.07092'>https://arxiv.org/abs/2504.07092</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions (ICLR 2025)"
+  }
+}

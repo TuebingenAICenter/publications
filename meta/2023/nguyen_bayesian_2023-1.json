@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Training data attribution (TDA) aims to quantify the influence of individual training examples on a model's prediction. Existing methods often rely on local linear approximations of the model, which can be inaccurate for deep neural networks. In this work, we propose a Bayesian perspective on TDA. We frame TDA as the problem of estimating the posterior predictive distribution under a leave-one-out training set. We show that this perspective naturally leads to a principled and computationally efficient approach to TDA. We demonstrate that our method, which we call Bayesian TDA, provides more accurate and robust attribution scores than existing methods on a variety of tasks and models.",
+    "archive": "arXiv",
+    "archiveLocation": "2305.19765",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Source": "group_webpage (joon)",
+      "arXiv": "2305.19765"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

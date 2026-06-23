@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models have shown great promise in survival analysis, but their black-box nature often limits their clinical adoption. We propose a novel interpretable-by-design deep survival model that combines the flexibility of deep neural networks with the interpretability of additive models. Our approach learns a non-linear representation of the input features and models the hazard function as a sum of interpretable components. We demonstrate the effectiveness of our model on several clinical datasets, showing that it achieves competitive performance while providing insights into the contribution of individual features to the predicted survival risk.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Conference": "MICCAI 2024",
+      "OpenAlex": "W4400522063",
+      "Scholar": "lPQLk3QAAAAJ:JQOojiI6XY0C"
+    },
+    "itemType": "document"
+  }
+}

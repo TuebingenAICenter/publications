@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:34:54",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.brainstimjrnl.com/action/showPdf?pii=S1935861X24007484"
+      }
+    ],
+    "extra": {
+      "Publisher": "University of Tübingen"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural collapse (NC) is a recently observed phenomenon where the last-layer features of deep neural networks collapse to their class means, and these means form a simplex equiangular tight frame (ETF) during the terminal phase of training. While NC has been extensively studied for cross-entropy loss, it remains unclear whether it holds for other losses and how it relates to the geometry of the feature space. In this paper, we generalize NC to a broader class of losses and architectures by introducing the hyperspherical uniformity gap (HUG). We show that HUG provides a unified perspective to understand NC and its decoupling from the classification layer. Specifically, we prove that minimizing HUG is equivalent to achieving NC, and that this can be decoupled from the classification layer by using a hyperspherical projection. Our theoretical results are supported by extensive experiments on various datasets and architectures, demonstrating that our approach consistently achieves better generalization and robustness.",
+    "archive": "OpenReview",
+    "extra": {
+      "Archive ID": "inU2quhGdNU",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4324314938",
+      "Scholar": "DZ-fHPgAAAAJ:3iO5xmXIOaUC"
+    },
+    "itemType": "document"
+  }
+}

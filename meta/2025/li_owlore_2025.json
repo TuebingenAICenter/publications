@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains. However, fine-tuning these models is computationally expensive, often requiring significant memory resources. Parameter-Efficient Fine-Tuning (PEFT) methods, such as Low-Rank Adaptation (LoRA), have been proposed to mitigate this issue by updating only a small subset of parameters. Despite their success, LoRA and its variants often struggle to capture the full complexity of the model's weight updates, potentially limiting performance. In this paper, we propose OwLore, an Outlier-weighed Layerwise sampled Low-rank projection method for memory-efficient LLM fine-tuning. OwLore leverages the observation that weight updates are often sparse and contain significant outliers. By identifying and prioritizing these outliers, OwLore achieves more effective parameter updates with a smaller memory footprint. We evaluate OwLore on a range of LLM fine-tuning tasks and demonstrate that it consistently outperforms existing PEFT methods in terms of both performance and memory efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2405.18380",
+    "conferenceName": "ICLR 2025",
+    "extra": {
+      "Source": "group_webpage (liu)",
+      "arXiv": "2405.18380"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations"
+  }
+}

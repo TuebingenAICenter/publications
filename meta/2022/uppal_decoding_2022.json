@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "The 1st Gaze Meets ML workshop in conjunction with NeurIPS 2022",
+    "extra": {
+      "Editors": "Lourentzou, Ismini and Wu, Joy and Kashyap, Satyananda and Karargyris, Alexandros and Celi, Leo Anthony and Kawas, Ban and Talathi, Sachin",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of The 1st Gaze Meets ML workshop in conjunction with NeurIPS 2022",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

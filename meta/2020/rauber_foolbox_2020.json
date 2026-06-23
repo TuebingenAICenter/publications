@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Foolbox is a Python library that lets you easily benchmark the robustness of machine learning models. It provides access to a large number of adversarial attacks, which can be used to fool models and test their robustness. Foolbox Native is a complete rewrite of Foolbox that is designed to be fast and easy to use with PyTorch, TensorFlow, and JAX. It is built on top of eager execution and provides a unified interface for all three frameworks.",
+    "extra": {
+      "Citations@2026-06-01": "290",
+      "OpenAlex": "W3088909400",
+      "Scholar": "v-JL-hsAAAAJ:-f6ydRqryjwC"
+    },
+    "itemType": "journalArticle"
+  }
+}

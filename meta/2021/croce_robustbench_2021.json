@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Adversarial robustness has become a central topic in machine learning, with a large number of defenses proposed in the last few years. However, the field lacks a standardized way to evaluate these defenses, leading to a fragmented landscape where it is difficult to compare different methods. In this paper, we introduce RobustBench, a standardized benchmark for adversarial robustness. RobustBench provides a collection of pre-trained models, a unified evaluation framework, and a leaderboard for different threat models. We hope that RobustBench will facilitate the development of more robust models and provide a clear picture of the state-of-the-art in adversarial robustness.",
+    "archive": "arXiv",
+    "archiveLocation": "2010.09670",
+    "extra": {
+      "Archive ID": "2010.09670",
+      "Citations@2026-06-01": "116",
+      "OpenAlex": "W3093235747",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:XoXfffV-tXoC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

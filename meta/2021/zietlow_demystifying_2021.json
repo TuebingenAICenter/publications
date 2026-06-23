@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The performance of Beta-Variational-Autoencoders and their variants on learning semantically meaningful, disentangled representations is unparalleled. On the other hand, there are theoretical arguments suggesting the impossibility of unsupervised disentanglement. In this work, we shed light on the inductive bias responsible for the success of VAE-based architectures. We show that in classical datasets the structure of variance, induced by the generating factors, is conveniently aligned with the latent directions fostered by the VAE objective. This builds the pivotal bias on which the disentangling abilities of VAEs rely. By small, elaborate perturbations of existing datasets, we hide the convenient correlation structure that is easily exploited by a variety of architectures. To demonstrate this, we construct modified versions of standard datasets in which (i) the generative factors are perfectly preserved; (ii) each image undergoes a mild transformation causing a small change of variance; (iii) the leading VAE-based disentanglement architectures fail to produce disentangled representations whilst the performance of a non-variational method remains unchanged.",
+    "archive": "arXiv",
+    "archiveLocation": "2102.06822",
+    "extra": {
+      "Archive ID": "2102.06822",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4394671517",
+      "Pages": "12945--12954",
+      "Scholar": "b-JF-UIAAAAJ:WbkHhVStYXYC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "139"
+    },
+    "itemType": "document"
+  }
+}

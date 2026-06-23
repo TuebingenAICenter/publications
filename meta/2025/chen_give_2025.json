@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Individuals often aim to reverse undesired outcomes in interactions with automated systems, like loan denials, by either implementing system-recommended actions (recourse), or manipulating their features. While providing recourse benefits users and enhances system utility, it also provides information about the decision process that can be used for more effective strategic manipulation, especially when the individuals collectively share such information with each other. We show that this tension leads rational utility-maximizing systems to frequently withhold recourse, resulting in decreased population utility, particularly impacting sensitive groups. To mitigate these effects, we explore the role of recourse subsidies, finding them effective in increasing the provision of recourse actions by rational systems, as well as lowering the potential social cost and mitigating unfairness caused by recourse withholding.",
+    "archive": "arXiv",
+    "archiveLocation": "2504.05891",
+    "conferenceName": "28th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Source": "group_webpage (hardt)",
+      "arXiv": "2504.05891"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics"
+  }
+}

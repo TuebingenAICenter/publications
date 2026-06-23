@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Many settings in machine learning require the selection of a rotation representation. However, choosing a suitable representation from the many available options is challenging. This paper acts as a survey and guide through rotation representations. We walk through their properties that harm or benefit deep learning with gradient-based optimization. By consolidating insights from rotation-based learning, we provide a comprehensive overview of learning functions with rotation representations. We provide guidance on selecting representations based on whether rotations are in the model's input or output and whether the data primarily comprises small angles.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:00",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=L0VoOdjCUb"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:00",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=L0VoOdjCUb"
+      }
+    ],
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4394991821",
+      "Scholar": "b-JF-UIAAAAJ:KUbvn5osdkgC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Forty-First International Conference on Machine Learning"
+  }
+}

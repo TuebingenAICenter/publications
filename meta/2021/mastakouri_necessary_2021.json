@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Causal feature selection aims to identify the subset of features that are direct causes of a target variable. In time series, this task is complicated by the presence of latent common causes, which can induce spurious correlations. We provide necessary and sufficient conditions for identifying the direct causes of a target variable from a set of observed time series, in the presence of latent common causes. We show that under certain assumptions, the direct causes can be identified by testing for conditional independence. We also provide an algorithm for causal feature selection and demonstrate its performance on synthetic and real-world data.",
+    "archive": "arXiv",
+    "archiveLocation": "2005.08543",
+    "extra": {
+      "Archive ID": "2005.08543",
+      "Citations@2026-06-01": "11",
+      "OpenAlex": "W3025657394",
+      "Pages": "7502--7511",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:RXVP-JhfB5kC",
+      "Volume": "139"
+    },
+    "itemType": "document",
+    "libraryCatalog": "PMLR"
+  }
+}

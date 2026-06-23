@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "Scholar": "SrVnrPcAAAAJ:DquSII9TDu4C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.20563'>https://arxiv.org/abs/2512.20563</a><br><a href='https://research.nvidia.com/labs/avg/publication/nguyen.fauth.etal.arxiv2025/'>https://research.nvidia.com/labs/avg/publication/nguyen.fauth.etal.arxiv2025/</a><br><a href='https://ln2697.github.io/lead'>https://ln2697.github.io/lead</a><br><a href='https://github.com/autonomousvision/lead'>https://github.com/autonomousvision/lead</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

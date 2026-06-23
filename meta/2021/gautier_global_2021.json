@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The nonlinear power method is a generalization of the classical power method for the computation of the largest eigenvalue and corresponding eigenvector of a matrix. It is used to compute the induced p,q-norm of a matrix, which is a fundamental problem in numerical linear algebra with applications in data analysis, machine learning, and control theory. In this paper, we study the convergence properties of the nonlinear power method for mixed-subordinate matrix norms. We prove that the method converges globally to a stationary point of the objective function for any initial point in the unit sphere. Furthermore, we show that the method converges to a local maximum under mild conditions on the matrix. We also provide a detailed analysis of the convergence rate and illustrate the performance of the method with numerical experiments.",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W3171992686",
+      "Scholar": "0ZAb3tsAAAAJ:HtEfBTGE9r8C"
+    },
+    "itemType": "journalArticle"
+  }
+}

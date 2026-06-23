@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The K2S challenge was organized in conjunction with the 2022 International Society for Magnetic Resonance in Medicine (ISMRM) annual meeting. The challenge aimed to evaluate the performance of deep learning models for the task of automatic segmentation of knee MRI from undersampled k-space data. The challenge provided a large-scale dataset of knee MRI scans, including both fully sampled and undersampled k-space data, as well as corresponding segmentations. A total of 14 teams participated in the challenge, with methods ranging from traditional iterative reconstruction to end-to-end deep learning approaches. The results showed that deep learning models can achieve high segmentation accuracy even from highly undersampled k-space data, with performance comparable to that achieved from fully sampled data. The challenge highlights the potential of deep learning for accelerating MRI acquisition and improving the efficiency of clinical workflows.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4401572865",
+      "Scholar": "0ZAb3tsAAAAJ:7BrZ7Jt4UNcC"
+    },
+    "itemType": "journalArticle"
+  }
+}

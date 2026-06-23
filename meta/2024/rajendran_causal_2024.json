@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Representation learning aims to extract useful features from data. A common paradigm is to learn representations that are invariant to nuisance factors, often by leveraging causal structure. However, such causal representations may not be sufficient for downstream tasks that require reasoning about the underlying concepts. In this paper, we propose a framework for concept-based representation learning that builds upon causal representation learning. We show that by incorporating concept-based constraints, we can learn representations that are not only causally grounded but also interpretable and useful for a wider range of downstream tasks. We provide theoretical guarantees for our approach and demonstrate its effectiveness on several benchmarks.",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415795991",
+      "Scholar": "DZ-fHPgAAAAJ:VwfM2gf8564C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+  }
+}

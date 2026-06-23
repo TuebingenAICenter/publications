@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present InfiniHuman, a generative model for creating realistic 3D humans with diverse appearances and precise geometric control. Previous 3D human generative models either lack realistic appearance or suffer from a lack of precise control. In this work, we address these limitations by modeling 3D humans with a latent 3D diffusion model on top of a canonical surface-aligned representation. To handle the diverse hairstyles and clothing (e.g. skirts, gowns, and coats) our method learns a localized, articulation-aware implicit representation which is aligned to the SMPL-X body surface. This alignment allows for precise control of 3D human generation with body shape and artist-defined poses. Compared to existing 3D human generative models, our method can generate highly diverse and realistic 3D humans. Our model also supports various downstream applications, including human animation, shape and pose-controlled generation, and text-to-3D human creation.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.11650",
+    "conferenceName": "SIGGRAPH Asia 2025",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4417125861",
+      "Reporter": "Proceedings of the SIGGRAPH Asia 2025 Conference Papers, 1-12, 2025",
+      "Scholar": "OpXMNnMAAAAJ:xtoqd-5pKcoC",
+      "arXiv": "2510.11650"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://yuxuan-xue.com/infini-human/'>https://yuxuan-xue.com/infini-human/</a><br><a href='https://arxiv.org/abs/2510.11650'>https://arxiv.org/abs/2510.11650</a><br><a href='https://www.realtimerendering.com/kesen/siga2025Papers.htm'>https://www.realtimerendering.com/kesen/siga2025Papers.htm</a><br><a href='https://pressroom.asia.siggraph.org/'>https://pressroom.asia.siggraph.org/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "SIGGRAPH Asia 2025 Conference Papers (SA '25)"
+  }
+}

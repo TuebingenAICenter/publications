@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:xtRiw3GOFMkC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.27313'>https://arxiv.org/abs/2510.27313</a><br><a href='https://huggingface.co/papers/2510.27313'>https://huggingface.co/papers/2510.27313</a><br><a href='https://papers.cool/arxiv/2510.27313v2'>https://papers.cool/arxiv/2510.27313v2</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

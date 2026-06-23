@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4411080736",
+      "Scholar": "lPQLk3QAAAAJ:9Nmd_mFXekcC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://xrayinterpreter.com/paper/doi/10.1101/2025.06.05.25329045'>https://xrayinterpreter.com/paper/doi/10.1101/2025.06.05.25329045</a><br><a href='https://sciety.org/articles/activity/10.1101/2025.06.05.25329045'>https://sciety.org/articles/activity/10.1101/2025.06.05.25329045</a><br><a href='https://tuebingen.ai/research'>https://tuebingen.ai/research</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cooperative transport of a payload by multiple mobile manipulators is a complex task due to the high dimensionality of the state space and the non-holonomic constraints of the mobile bases. In this paper, we propose a motion planning framework for a team of mobile manipulators transporting a common payload. We model the system as a single kinematic chain with a closed-loop structure. We use a sampling-based motion planner to find a collision-free path for the payload in the workspace. The motion of the mobile bases and the manipulators is then derived using the inverse kinematics of the closed-loop system. We validate our approach through simulations and experiments with a team of two mobile manipulators.",
+    "conferenceName": "15th IEEE International Conference on Automation Science and Engineering",
+    "extra": {
+      "ISSN": "2161-8089",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "15th IEEE International Conference on Automation Science and Engineering"
+  }
+}

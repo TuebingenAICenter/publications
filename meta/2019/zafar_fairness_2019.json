@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning models are increasingly used to make decisions that have significant impact on individuals' lives, such as in hiring, lending, and policing. However, these models can inadvertently perpetuate or even exacerbate existing societal biases. In this paper, we propose a flexible framework for fair classification that allows for the incorporation of various fairness constraints. Our approach is based on the observation that many fairness definitions can be expressed as constraints on the classification function. We show that these constraints can be incorporated into the learning process by adding a penalty term to the objective function or by using a constrained optimization approach. We demonstrate the effectiveness of our approach on several real-world datasets and show that it can achieve a good trade-off between accuracy and fairness.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

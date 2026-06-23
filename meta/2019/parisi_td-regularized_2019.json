@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Actor-critic methods are a popular class of reinforcement learning algorithms that combine the benefits of policy-based and value-based methods. However, they often suffer from high variance and instability, especially when using function approximation. In this paper, we propose a new class of actor-critic methods that use temporal-difference (TD) regularization to improve the stability and performance of the learning process. We show that our proposed methods can be interpreted as a form of natural policy gradient, and we provide theoretical guarantees for their convergence. We also demonstrate the effectiveness of our methods on a variety of reinforcement learning benchmarks, showing that they outperform existing actor-critic methods in terms of both sample efficiency and final performance.",
+    "extra": {
+      "Editors": "Karsten Borgwardt, Po-Ling Loh, Evimaria Terzi, and Antti Ukkonen",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

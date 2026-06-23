@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the spread of Covid-19 in Germany using causal discovery methods. We aim to identify the causal structure between the number of infected individuals and various interventions, such as school closures, contact bans, and the closure of non-essential shops. We use the LiNGAM algorithm to estimate the causal structure from time series data. Our results suggest that the interventions had a significant causal effect on the spread of the virus, and that the order of interventions matters. We also discuss the limitations of our approach and the potential for future work.",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W3044777530",
+      "Pages": "3153--3163",
+      "Scholar": "DZ-fHPgAAAAJ:HVjPwkwF6E4C"
+    },
+    "itemType": "document"
+  }
+}

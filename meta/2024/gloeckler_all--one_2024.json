@@ -1,0 +1,57 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but can be simulated. Recent advances in neural SBI have enabled efficient inference for complex models, but typically require choosing between different methods depending on the specific inference task, such as parameter estimation, model comparison, or posterior predictive checks. In this work, we introduce All-in-one SBI, a framework that enables all these tasks within a single, unified approach. Our method is based on learning a conditional density estimator that can be used to perform parameter estimation, model comparison, and posterior predictive checks simultaneously. We demonstrate the effectiveness of our approach on a range of synthetic and real-world examples, showing that it achieves competitive performance while providing a more flexible and unified inference pipeline.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.09636",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:34",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=DL79HYCFFq"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:34",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=DL79HYCFFq"
+      }
+    ],
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "Event Place": "Vienna, Austria",
+      "OpenAlex": "W4394867612",
+      "Scholar": "FKOqtF8AAAAJ:S_Qw7xXuMuIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 37</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 37</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

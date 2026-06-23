@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "How well do humans and machines perceive 3D shape and affordances from static images? We introduce the 'Hole-in-the-wall' task, which requires observers to judge whether a 3D object (a 'key') can pass through a hole in a wall. This task requires an understanding of 3D shape and the physical constraints of the environment. We find that humans are highly accurate at this task, whereas state-of-the-art deep neural networks struggle, even when trained on large datasets of 3D objects. Our results suggest that current computer vision models lack a robust representation of 3D shape and physical affordances.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W2973760208",
+      "Scholar": "0z0fNxUAAAAJ:MpfHP-DdYjUC"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of domain generalization (DG), where the goal is to learn a model that performs well on unseen target domains. Existing approaches often rely on empirical risk minimization (ERM) or variants that minimize the average loss across training domains. However, such methods can perform poorly on domains where the model's performance is particularly bad. In this paper, we propose Quantile Risk Minimization (QRM), a framework for DG that minimizes a quantile of the loss distribution across training domains. We show that QRM is equivalent to minimizing a robust objective that is less sensitive to outliers and can provide better worst-case performance guarantees. We provide theoretical analysis of the generalization properties of QRM and demonstrate its effectiveness on several benchmark datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "2207.09944",
+    "extra": {
+      "Archive ID": "2207.09944",
+      "Citations@2026-06-01": "17",
+      "OpenAlex": "W4286588219",
+      "Pages": "17340--17358",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:ZJKMmrYpGLkC",
+      "Volume": "35"
+    },
+    "itemType": "document",
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

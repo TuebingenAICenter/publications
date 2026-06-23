@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of certifying the robustness of a neural network against adversarial perturbations. While most existing work focuses on a specific lp-norm, we propose a method to certify robustness against all lp-norms for p = 1 simultaneously. Our approach is based on the observation that for a fixed lp-norm, the minimal perturbation is related to the dual norm. We derive a convex relaxation of the robust classification problem that provides a lower bound on the minimal perturbation for any lp-norm with p = 1. We show that our method is computationally efficient and provides tight bounds on several benchmark datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "1905.11213",
+    "extra": {
+      "Archive ID": "1905.11213",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4288347168",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:SxCCDk4iOpsC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

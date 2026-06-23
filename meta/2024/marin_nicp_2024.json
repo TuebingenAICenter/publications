@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present Neural ICP (NICP), a novel approach for registering 3D human scans to a template model. Traditional Iterative Closest Point (ICP) methods are robust but often struggle with large deformations and require good initial alignment. Conversely, recent learning-based methods are fast but often lack the precision of optimization-based approaches. NICP bridges this gap by learning a neural field that predicts the optimal correspondence and deformation for a given scan. Our method is trained on a large-scale dataset of human motions and can be applied to unseen subjects and poses. We demonstrate that NICP achieves state-of-the-art performance on standard benchmarks while being significantly faster than traditional optimization-based methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.14024",
+    "extra": {
+      "Book Title": "Lecture notes in computer science",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4404025004",
+      "Publication Title": "Lecture notes in computer science",
+      "Scholar": "OpXMNnMAAAAJ:e_rmSamDkqQC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Lecture notes in computer science</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

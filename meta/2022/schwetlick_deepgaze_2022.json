@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Scan path models aim to predict the sequence of fixations during scene viewing. Two prominent approaches are DeepGaze, a deep neural network (DNN) based model, and SceneWalk, a cognitive model based on the idea of a guidance map. While DeepGaze achieves state-of-the-art performance in predicting fixation locations, SceneWalk provides a more interpretable framework for the underlying cognitive processes. In this paper, we compare these two approaches and investigate what they can learn from each other. We find that DeepGaze can be improved by incorporating a mechanism for inhibition of return, a key feature of SceneWalk. Conversely, SceneWalk can be improved by using the feature representations learned by DeepGaze. Our results suggest that combining the strengths of both approaches leads to better scan path predictions and a deeper understanding of the mechanisms underlying human eye movement control.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4311606139",
+      "Scholar": "0z0fNxUAAAAJ:unp9ATQDT5gC"
+    },
+    "itemType": "journalArticle"
+  }
+}

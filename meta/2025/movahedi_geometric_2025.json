@@ -1,0 +1,54 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models exhibit remarkable generalization capabilities, often attributed to their inductive biases. While recent work has focused on the role of architecture in shaping these biases, the interplay between data geometry and architectural choices remains less understood. In this paper, we investigate the geometric inductive biases of deep networks by analyzing how the interaction between the data manifold and the network architecture influences the learned representations. We propose a framework to quantify these biases and demonstrate that they are not solely determined by the architecture but are significantly shaped by the underlying geometry of the data. Our empirical results across various architectures and datasets highlight the importance of aligning architectural inductive biases with the geometric properties of the data to improve generalization.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.12025",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403577262",
+      "Scholar": "xkuLyHoAAAAJ:k_IJM867U9cC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations"
+  }
+}

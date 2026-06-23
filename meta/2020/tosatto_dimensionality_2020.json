@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Movement primitives are a popular way to represent complex robot motions. They allow for the compact representation of trajectories and facilitate learning from demonstration. However, as the complexity of the task increases, the number of parameters required to represent the movement also increases, leading to the curse of dimensionality. In this paper, we propose a method to reduce the dimensionality of movement primitives in parameter space. We show that by learning a low-dimensional manifold in the parameter space, we can represent complex movements with fewer parameters, while still maintaining the ability to generalize to new situations. We evaluate our method on a variety of simulated and real-world robot tasks and show that it outperforms existing methods in terms of reconstruction accuracy and generalization performance.",
+    "archive": "arXiv",
+    "archiveLocation": "2003.02634",
+    "extra": {
+      "Archive ID": "2003.02634",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2003.02634"
+    },
+    "itemType": "document"
+  }
+}

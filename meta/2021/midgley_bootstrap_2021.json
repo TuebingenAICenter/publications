@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Normalizing flows are a powerful class of generative models that learn a transformation from a simple base distribution to a complex target distribution. However, they are often limited by the choice of the base distribution and the expressivity of the transformation. In this work, we propose a novel method to improve the performance of normalizing flows by bootstrapping the base distribution. We show that our method can be applied to a variety of flow-based models and leads to improved performance on several density estimation tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2111.11510",
+    "conferenceName": "1st ELLIS Machine Learning for Molecule Discovery Workshop",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2111.11510"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "1st ELLIS Machine Learning for Molecule Discovery Workshop"
+  }
+}

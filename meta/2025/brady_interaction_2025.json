@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The ability to decompose complex systems into modular, reusable components is a hallmark of human intelligence. While recent advances in representation learning have made progress in learning disentangled representations, they often struggle to capture the compositional structure of the world. We propose Interaction Asymmetry (IA) as a general principle for learning composable abstractions. IA posits that the causal influence between components of a system is often asymmetric, and that this asymmetry can be exploited to learn modular representations. We formalize this principle and show that it leads to a natural decomposition of systems into independent, reusable modules. We demonstrate the effectiveness of our approach on a range of synthetic and real-world tasks, showing that it outperforms existing methods in terms of both sample efficiency and generalization.",
+    "archive": "arXiv",
+    "archiveLocation": "2411.07784",
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Archive ID": "2411.07784",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4404406434",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:dshw04ExmUIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

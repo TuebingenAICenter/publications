@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The COVID-19 pandemic has highlighted the importance of correctly interpreting case fatality rates (CFRs). A common pitfall is the misinterpretation of aggregated data, which can lead to Simpson's paradox, where a trend appears in different groups of data but disappears or reverses when these groups are combined. In this paper, we analyze the CFRs of COVID-19 in different countries and regions, showing that the observed differences in CFRs can be largely explained by the age distribution of the infected population. We use a mediation analysis framework to disentangle the causal effects of age and other factors on the CFR. Our results demonstrate that once age is accounted for, the paradox disappears, and the remaining differences in CFRs are much smaller. We discuss the implications of these findings for public health policy and the importance of causal inference in the analysis of epidemiological data.",
+    "extra": {
+      "Citations@2026-06-01": "40",
+      "OpenAlex": "W3025013230",
+      "Scholar": "DZ-fHPgAAAAJ:02yGKXRObHkC"
+    },
+    "itemType": "journalArticle"
+  }
+}

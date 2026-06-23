@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Synaptic plasticity rules are often inferred from experimental data by assuming a specific functional form. However, it is unclear whether different plasticity rules can lead to the same network-level dynamics. Here, we show that indistinguishable network dynamics can emerge from unalike plasticity rules. We use a simulation-based inference framework to identify the space of plasticity rules that give rise to the same network-level dynamics. We find that a wide range of plasticity rules can produce the same network-level dynamics, suggesting that inferring plasticity rules from network-level observations is an ill-posed problem. Our results highlight the importance of considering the non-uniqueness of plasticity rules when interpreting experimental data and designing artificial neural networks.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.1101/2023.11.01.565168v1",
+    "extra": {
+      "Archive ID": "10.1101/2023.11.01.565168v1",
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4388384979",
+      "Repository": "bioRxiv",
+      "Scholar": "FKOqtF8AAAAJ:yeKNu01O_4gC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "bioRxiv"
+  }
+}

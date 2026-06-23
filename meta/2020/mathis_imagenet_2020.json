@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning has revolutionized pose estimation, yet the factors that contribute to robust and generalizable models remain poorly understood. Here, we investigate the relationship between ImageNet classification performance and pose estimation performance. We find that models with higher ImageNet top-1 accuracy consistently perform better on pose estimation tasks, both in terms of robustness to image corruptions and generalization to out-of-domain data. Our results suggest that ImageNet pre-training is a powerful proxy for pose estimation performance and that the features learned for classification are highly transferable to pose estimation.",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W3180947652",
+      "Scholar": "0z0fNxUAAAAJ:-jrNzM816MMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Weakly supervised multi-label classification (WSML) aims to learn a multi-label classifier from image-level labels, which are often incomplete. A common approach is to treat missing labels as negative, but this introduces noise. Existing methods typically address this by either estimating the missing labels or by designing robust loss functions. In this paper, we observe that the loss values of the samples are highly informative for identifying the missing labels. Specifically, we find that samples with large loss values are more likely to contain missing positive labels. Based on this observation, we propose a simple yet effective method, called Large Loss Matters (LLM), which utilizes the large loss samples to identify and correct the missing labels. We show that our method achieves state-of-the-art performance on several benchmark datasets, including MS-COCO, Pascal VOC, and NUS-WIDE.",
+    "archive": "arXiv",
+    "archiveLocation": "2206.03740",
+    "conferenceName": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4281868108",
+      "Scholar": "jQl9RtkAAAAJ:UHK10RUVsp4C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

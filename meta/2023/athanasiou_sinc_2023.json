@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Our goal is to synthesize 3D human motions given textual inputs describing multiple simultaneous actions, for example ‘waving hand’ while ‘walking’ at the same time. We refer to generating such simultaneous movements as performing ‘spatial compositions’. In contrast to ‘temporal compositions’ that seek to transition from one action to another in a sequence, spatial compositing requires understanding which body parts are involved with which action. Motivated by the observation that the correspondence between actions and body parts is encoded in powerful language models, we extract this knowledge by prompting GPT-3 with text such as “what parts of the body are moving when someone is doing the action action name?”. Given this action-part mapping, we automatically create new training data by artificially combining body parts from multiple text-motion pairs together. We extend previous work on text-to-motions synthesis to train on spatial compositions, and introduce SINC (“SImultaneous actioN Compositions for 3D human motions”). We experimentally validate that our additional GPT-guided data helps to better learn compositionality compared to training only on existing real data of simultaneous actions, which is limited in quantity.",
+    "archive": "arXiv",
+    "archiveLocation": "2304.10417",
+    "extra": {
+      "Archive ID": "2304.10417",
+      "Citations@2026-06-01": "44",
+      "OpenAlex": "W4387963301",
+      "Pages": "9984--9995",
+      "Scholar": "6NjbexEAAAAJ:7rVtnTjEZJgC"
+    },
+    "itemType": "document"
+  }
+}

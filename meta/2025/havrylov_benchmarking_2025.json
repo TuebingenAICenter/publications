@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICCV (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415030298",
+      "Scholar": "SrVnrPcAAAAJ:lK9BDNCuzFgC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025W/ILR%2BG/html/Havrylov_Benchmarking_Feature_Upsampling_Methods_for_Vision_Foundation_Models_using_Interactive_ICCVW_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025W/ILR%2BG/html/Havrylov_Benchmarking_Feature_Upsampling_Methods_for_Vision_Foundation_Models_using_Interactive_ICCVW_2025_paper.html</a><br><a href='https://arxiv.org/abs/2505.02075'>https://arxiv.org/abs/2505.02075</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

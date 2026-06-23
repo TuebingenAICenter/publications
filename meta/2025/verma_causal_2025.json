@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "Reporter": "NeurIPS 2025 AI for Science Workshop, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:DixNtYelOVEC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=jars4lV48F'>https://openreview.net/forum?id=jars4lV48F</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/125848'>https://neurips.cc/virtual/2025/loc/san-diego/125848</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

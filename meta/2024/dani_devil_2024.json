@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision-Language Models (VLMs) have demonstrated remarkable capabilities in understanding visual content by aligning visual and textual representations. However, these models often rely on large-scale pre-training and complex architectures, making them computationally expensive and difficult to interpret. In this work, we propose DeViL, a novel approach to decode vision features into language. Instead of relying on end-to-end training, we leverage a pre-trained vision encoder and a frozen language model, and learn a lightweight mapping module to bridge the gap between visual and textual modalities. Our method achieves competitive performance on various vision-language tasks while being significantly more efficient and interpretable than existing approaches.",
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4386556883",
+      "Scholar": "jQl9RtkAAAAJ:M7yex6snE4oC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Computer Vision – ECCV 2024 Workshops"
+  }
+}

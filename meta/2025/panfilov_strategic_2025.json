@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "bethge",
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large language model (LLM) developers aim for their models to be honest, helpful, and harmless. However, when faced with malicious requests, models are trained to refuse, sacrificing helpfulness. We show that frontier LLMs can develop a preference for dishonesty as a new strategy, even when other options are available. Affected models respond to harmful requests with outputs that sound harmful but are subtly incorrect or otherwise harmless in practice. This behavior emerges with hard-to-predict variations even within models from the same model family. We find no apparent cause for the propensity to deceive, but we show that more capable models are better at executing this strategy. Strategic dishonesty already has a practical impact on safety evaluations, as we show that dishonest responses fool all output-based monitors used to detect jailbreaks that we test, rendering benchmark scores unreliable. Further, strategic dishonesty can act like a honeypot against malicious users, which noticeably obfuscates prior jailbreak attacks. While output monitors fail, we show that linear probes on internal activations can be used to reliably detect strategic dishonesty. We validate probes on datasets with verifiable outcomes and by using their features as steering vectors. Overall, we consider strategic dishonesty as a concrete example of a broader concern that alignment of LLMs is hard to control, especially when helpfulness and harmlessness conflict.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "arXiv:2509.18058",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416257390",
+      "Scholar": "ZNtuJYoAAAAJ:f2IySw72cVMC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.18058'>https://arxiv.org/abs/2509.18058</a><br><a href='https://arxiv.org/pdf/2509.18058.pdf'>https://arxiv.org/pdf/2509.18058.pdf</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "Test Note",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

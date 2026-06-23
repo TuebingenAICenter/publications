@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Post-hoc explanation methods are widely used to interpret complex machine learning models. However, it is often unclear whether these explanations are faithful to the underlying model or if they are merely artifacts of the explanation method itself. In this paper, we provide a theoretical framework to study the informativeness of post-hoc explanations. We show that for a wide class of explanation methods, informative explanations—defined as explanations that allow for a reconstruction of the model's predictions—only exist if the underlying model is 'simple' in a specific sense. Our results suggest that for complex models, post-hoc explanations may be inherently limited in their ability to provide meaningful insights, potentially leading to a false sense of interpretability.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2508.11441",
+      "Citations@2026-06-01": "2",
+      "Repository": "arXiv",
+      "Scholar": "mMifMdoAAAAJ:QD3KBmkZPeQC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.11441'>https://arxiv.org/abs/2508.11441</a><br><a href='https://doi.org/10.48550/arXiv.2508.11441'>https://doi.org/10.48550/arXiv.2508.11441</a><br><a href='https://dblp.org/rec/journals/corr/abs-2508-11441'>https://dblp.org/rec/journals/corr/abs-2508-11441</a><br><a href='https://www.tml.cs.uni-tuebingen.de/team/luxburg/publications/index.php'>https://www.tml.cs.uni-tuebingen.de/team/luxburg/publications/index.php</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

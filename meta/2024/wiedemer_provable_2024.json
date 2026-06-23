@@ -1,0 +1,52 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Object-centric learning aims to decompose scenes into individual objects, which is widely believed to be a prerequisite for compositional generalization. However, current object-centric models often fail to generalize to novel combinations of objects, even when they achieve high reconstruction quality. In this paper, we provide a theoretical framework to analyze the compositional generalization of object-centric models. We identify a fundamental identifiability gap: even if a model perfectly reconstructs the training data, it may fail to learn the true underlying causal factors of the scene. We prove that this gap can be closed by enforcing a specific form of consistency across different scenes. Based on this, we propose a novel training objective that provably improves compositional generalization. We demonstrate the effectiveness of our approach on several synthetic and real-world datasets, showing that it significantly outperforms existing methods in terms of compositional generalization.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2310.05327",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:48",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=7VPTUWkiDQ"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:48",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=7VPTUWkiDQ"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4387559920",
+      "Scholar": "v-JL-hsAAAAJ:zA6iFVUQeVQC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 24</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 24</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

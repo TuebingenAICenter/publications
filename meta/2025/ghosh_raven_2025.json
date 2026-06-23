@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICIP",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4413277998",
+      "Reporter": "2025 IEEE International Conference on Image Processing (ICIP), 1079-1084, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:_m4KnnXV18oC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2401.06035'>https://arxiv.org/abs/2401.06035</a><br><a href='https://cmsworkshops.com/ICIP2025/view_session.php?SessionID=1064'>https://cmsworkshops.com/ICIP2025/view_session.php?SessionID=1064</a><br><a href='https://eurekamag.com/research/103/055/103055333.php'>https://eurekamag.com/research/103/055/103055333.php</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

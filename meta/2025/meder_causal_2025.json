@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Absolute risk reduction (ARR) and relative risk reduction (RRR) are two common metrics for communicating the effectiveness of medical treatments. Despite their importance, they are often misunderstood, leading to biased decision-making. In this paper, we provide a formal causal analysis of ARR and RRR using the framework of structural causal models. We show that both metrics are functions of the causal effect of a treatment on an outcome, but they differ in their sensitivity to the baseline risk. We demonstrate that RRR is a ratio of causal effects, whereas ARR is a difference of causal effects. We further show that the choice between ARR and RRR depends on the underlying causal structure of the decision problem. Our analysis provides a theoretical foundation for understanding the conditions under which ARR and RRR are appropriate and how they should be interpreted in clinical practice.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.researchgate.net/profile/Charley-Wu-2/publication/381269995_Causal_analysis_of_absolute_and_relative_risk_reductions/links/6668358ea54c5f0b945db5b6/Causal-analysis-of-absolute-and-relative-risk-reductions.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4413962779",
+      "Scholar": "1O2hcVgAAAAJ:p2g8aNsByqUC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://www.sciencedirect.com/science/article/pii/S0022249625000434'>https://www.sciencedirect.com/science/article/pii/S0022249625000434</a><br><a href='https://bmeder.org/publication/2025-09-03_meder_et_al_causal_analysis_risk_reductions/'>https://bmeder.org/publication/2025-09-03_meder_et_al_causal_analysis_risk_reductions/</a><br><a href='https://pure.mpg.de/pubman/item/item_3593098'>https://pure.mpg.de/pubman/item/item_3593098</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Publisher: University of Tübingen</p>\n</div>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

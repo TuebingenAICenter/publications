@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Convolutional neural networks (CNNs) are often considered to be texture-based classifiers, whereas human object recognition is thought to be primarily shape-based. Here, we show that this difference in bias is a major reason for the discrepancy between human and machine robustness. By training CNNs on a stylized-ImageNet dataset, we induce a human-like shape bias. We find that these shape-biased models exhibit a significantly higher robustness to image distortions and corruptions, reaching human-level performance on some tasks. Our results suggest that the shape bias is a key factor for robust object recognition in both biological and artificial systems.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Conference": "VSS 2019",
+      "OpenAlex": "W2973324739",
+      "Scholar": "0z0fNxUAAAAJ:43bX7VzcjpAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

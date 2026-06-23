@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning has revolutionized pose estimation, but models often fail when tested on data from a different distribution than the training set. Here, we investigate the role of pretraining for out-of-domain (OOD) robustness in pose estimation. We systematically evaluate the effect of pretraining on various architectures and datasets. We find that pretraining on large-scale datasets significantly improves OOD robustness, even when the pretraining task is not directly related to pose estimation. Furthermore, we show that the choice of pretraining task and architecture matters, and that transfer learning can be a powerful tool for improving the generalization of pose estimation models.",
+    "conferenceName": "WACV",
+    "extra": {
+      "Citations@2026-06-01": "27",
+      "OpenAlex": "W2976121959",
+      "Scholar": "0z0fNxUAAAAJ:VN7nJs4JPk0C",
+      "Source": "group_webpage (bethge)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}

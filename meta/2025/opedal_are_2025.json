@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We investigate the efficiency of language models (LMs) as reasoners by framing reasoning as a search problem in a logic programming context. We show that LMs can be viewed as search heuristics for logic programs, and we analyze the computational complexity of this search. We find that LMs are often inefficient reasoners, as they struggle to explore the search space effectively, leading to exponential time complexity in the worst case. We propose a framework for improving the efficiency of LMs as reasoners by incorporating logic programming techniques, such as pruning and backtracking, and we demonstrate the effectiveness of our approach on several reasoning tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.25626",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Reporter": "arXiv preprint arXiv:2510.25626, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:kHf6Y_keyIwC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.25626'>https://arxiv.org/abs/2510.25626</a><br><a href='https://neurips.cc/virtual/2025/poster/119215'>https://neurips.cc/virtual/2025/poster/119215</a><br><a href='https://www.research-collection.ethz.ch/entities/publication/5ade2a61-04ea-4d87-9b22-00f59b69313f'>https://www.research-collection.ethz.ch/entities/publication/5ade2a61-04ea-4d87-9b22-00f59b69313f</a><br><a href='https://openreview.net/forum?id=DV5z7VcaUA'>https://openreview.net/forum?id=DV5z7VcaUA</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  }
+}

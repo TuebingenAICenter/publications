@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models have achieved high performance in medical image analysis, but their lack of interpretability remains a barrier to clinical adoption. Counterfactual explanations, which show how an input image would need to change to alter the model's prediction, are a promising approach to provide intuitive explanations. In this work, we propose a method to generate visual counterfactual explanations for disease detection in ophthalmology. We demonstrate that our method can generate realistic and clinically plausible counterfactuals for retinal images. Furthermore, we show that our counterfactuals can be used to identify model biases and improve the robustness of disease detection models.",
+    "conferenceName": "MICCAI 2022",
+    "extra": {
+      "Source": "group_webpage (hein)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2022"
+  }
+}

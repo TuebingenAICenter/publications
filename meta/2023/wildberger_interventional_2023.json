@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Kullback-Leibler (KL) divergence is a fundamental measure of the difference between two probability distributions. In causal inference, we are often interested in how distributions change under interventions. We introduce the interventional KL divergence, which measures the difference between two causal models by comparing their interventional distributions. We show that this divergence satisfies a number of desirable properties, including a chain rule and a data processing inequality. We also show that it can be used to define a causal version of the information bottleneck, and we provide an algorithm for estimating it from observational and interventional data.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4320908306",
+      "Pages": "328--349",
+      "Scholar": "DZ-fHPgAAAAJ:Y2wsZ1s-vmcC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "213"
+    },
+    "itemType": "document"
+  }
+}

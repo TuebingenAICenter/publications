@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Transcranial current stimulation (tCS) is a promising tool for non-invasive brain modulation, yet its efficacy is highly variable across individuals. Here, we show that resting-state electroencephalography (EEG) can be used to stratify individuals based on their behavioral response to tCS. We recorded resting-state EEG from 30 healthy participants before they performed a visual detection task under tCS. We found that the individual alpha frequency (IAF) and the power of the alpha rhythm were predictive of the behavioral response to tCS. Specifically, participants with higher IAF showed a stronger behavioral response to tCS. Our results suggest that resting-state EEG can be used to identify individuals who are more likely to benefit from tCS, which could improve the efficacy of tCS-based interventions.",
+    "archive": "bioRxiv",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks are known to be brittle to distribution shifts. While many methods have been proposed to improve robustness, they often require access to the target distribution during training or are limited to simple synthetic corruptions. In this paper, we propose a self-learning approach to adapt ImageNet-scale models to complex, real-world distribution shifts without access to labels or the target distribution during training. Our method, which we call Self-Learning Adaptation (SLA), leverages the model's own predictions on the target distribution to iteratively refine its representations. We show that SLA significantly improves robustness to a wide range of distribution shifts, including natural corruptions, style changes, and domain shifts, while maintaining high performance on the original ImageNet validation set. We further demonstrate that SLA is complementary to existing robustness techniques and can be used to boost their performance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2104.12928",
+    "callNumber": "arXiv:2104.12928",
+    "extra": {
+      "Archive ID": "2104.12928",
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4287200447",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:GnPB-g6toBAC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "IEEE Xplore"
+  }
+}

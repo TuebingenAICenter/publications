@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning policies from previously recorded data is a promising direction for real-world robotics tasks, as online learning is often infeasible. Dexterous manipulation in particular remains an open problem in its general form. The combination of offline reinforcement learning with large diverse datasets, however, has the potential to lead to a breakthrough in this challenging domain analogously to the rapid progress made in supervised learning in recent years. To coordinate the efforts of the research community toward tackling this problem, we propose a benchmark including: i) a large collection of data for offline learning from a dexterous manipulation platform on two tasks, obtained with capable RL agents trained in simulation; ii) the option to execute learned policies on a real-world robotic system and a simulation for efficient debugging. We evaluate prominent open-sourced offline reinforcement learning algorithms on the datasets and provide a reproducible experimental setup for offline reinforcement learning on real systems.",
+    "archive": "arXiv",
+    "archiveLocation": "2307.15690",
+    "extra": {
+      "Archive ID": "2307.15690",
+      "Citations@2026-06-01": "11",
+      "OpenAlex": "W4385438620",
+      "Scholar": "b-JF-UIAAAAJ:_Ybze24A_UAC"
+    },
+    "itemType": "document"
+  }
+}

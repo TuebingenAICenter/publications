@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Implicit neural representations have shown great potential for 3D shape reconstruction. However, existing methods are typically trained on a fixed set of object classes and struggle to generalize to novel categories. In this paper, we propose Any-Shot GIN, a framework that enables implicit networks to reconstruct 3D shapes of novel classes given only a few observations. Our approach leverages a meta-learning strategy to learn a shape prior that can be adapted to unseen categories with minimal supervision. We demonstrate that our method achieves state-of-the-art performance on few-shot 3D reconstruction tasks across various datasets.",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W4321512625",
+      "Scholar": "jQl9RtkAAAAJ:_Re3VWB3Y0AC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}

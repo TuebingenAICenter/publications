@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4411329579",
+      "Scholar": "kmXOOdsAAAAJ:g5m5HwL7SMYC",
+      "additional_DOI": "https://doi.org/10.2139/ssrn.4942111"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: Available at SSRN 4942111, 0 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

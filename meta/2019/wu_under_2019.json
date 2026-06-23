@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Time pressure is a ubiquitous feature of decision-making in the real world, yet its effect on exploration remains poorly understood. We investigate how time limits influence exploration in a multi-armed bandit task. Participants were given either a generous or a restrictive time limit to make a sequence of choices. We find that time pressure leads to more exploitative behavior, characterized by a reduction in the exploration of uncertain options. This effect is driven by a shift in the underlying decision strategy, with participants under time pressure relying more on simple heuristics rather than more complex, information-seeking strategies. Our results suggest that time pressure acts as a constraint on the cognitive resources available for exploration, leading to a more conservative and less adaptive decision-making process.",
+    "conferenceName": "41st Annual Conference of the Cognitive Science Society",
+    "extra": {
+      "Preprint DOI": "10.31234/osf.io/tsxq9",
+      "Source": "group_webpage (wu)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 41st Annual Conference of the Cognitive Science Society"
+  }
+}

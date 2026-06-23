@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The development of new optimization algorithms for deep learning is a central topic in machine learning research. However, comparing new methods to the state-of-the-art is difficult because results are often reported on different tasks, with different hyperparameter tuning budgets, and different software frameworks. To address this, we introduce DeepOBS, a Deep Learning Optimizer Benchmark Suite. DeepOBS provides a standardized collection of deep learning problems, including data sets, models, and loss functions, that are representative of modern deep learning research. It is built on top of TensorFlow and provides a unified interface for benchmarking optimizers. We demonstrate the utility of DeepOBS by benchmarking several popular optimizers on a variety of tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "1903.05499",
+    "conferenceName": "7th International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Archive ID": "1903.05499",
+      "Citations@2026-06-01": "6",
+      "Event Place": "New Orleans, Louisiana, USA",
+      "OpenAlex": "W2905598457",
+      "Scholar": "UeG5w08AAAAJ:CHSYGLWDkRkC",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "1903.05499"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "7th International Conference on Learning Representations (ICLR)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are increasingly used to assist in writing scientific papers. A critical requirement for scientific writing is the ability to provide accurate citations to support claims. However, LLMs are known to hallucinate, and it is unclear whether they can reliably cite scientific literature. We introduce CiteME, a benchmark for evaluating the citation accuracy of LLMs. CiteME consists of 1,000 scientific claims paired with their ground-truth source papers. We evaluate several state-of-the-art LLMs on their ability to retrieve the correct source paper for a given claim. We find that even the most capable models struggle to accurately cite scientific claims, often retrieving irrelevant or non-existent papers. Our results highlight the need for improved citation mechanisms in LLMs and suggest that CiteME can serve as a valuable tool for evaluating and improving these systems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.12861",
+    "conferenceName": "NeurIPS 2024",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4402346098",
+      "Scholar": "0z0fNxUAAAAJ:jlhcAiayVhoC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

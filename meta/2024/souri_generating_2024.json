@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modern neural networks are often trained on massive datasets that are web scraped with minimal human inspection. As a result of this insecure curation pipeline, an adversary can poison or backdoor the resulting model by uploading malicious data to the internet and waiting for a victim to scrape and train on it. Existing approaches for creating poisons and backdoors start with randomly sampled clean data, called base samples, and then modify those samples to craft poisons. However, some base samples may be significantly more amenable to poisoning than others. As a result, we may be able to craft more potent poisons by carefully choosing the base samples. In this work, we use guided diffusion to synthesize base samples from scratch that lead to significantly more potent poisons and backdoors than previous state-of-the-art attacks. Our Guided Diffusion Poisoning (GDP) base samples can be combined with any downstream poisoning or backdoor attack to boost its effectiveness. Our implementation code is publicly available at: https://github.com/hsouri/GDP .",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "extra": {
+      "Archive ID": "2403.16365",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4393213232",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:HoB7MX3m0LUC",
+      "arXiv": "2403.16365"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

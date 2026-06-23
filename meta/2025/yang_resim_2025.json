@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "How can we reliably simulate future driving scenarios under a wide range of ego driving behaviors? Recent driving world models, developed exclusively on real-world driving data composed mainly of safe expert trajectories, struggle to follow hazardous or non-expert behaviors, which are rare in such data. This limitation restricts their applicability to tasks such as policy evaluation. In this work, we address this challenge by enriching real-world human demonstrations with diverse non-expert data collected from a driving simulator (e.g., CARLA), and building a controllable world model trained on this heterogeneous corpus. Starting with a video generator featuring a diffusion transformer architecture, we devise several strategies to effectively integrate conditioning signals and improve prediction controllability and fidelity. The resulting model, ReSim, enables Reliable Simulation of diverse open-world driving scenarios under various actions, including hazardous non-expert ones. To close the gap between high-fidelity simulation and applications that require reward signals to judge different actions, we introduce a Video2Reward module that estimates a reward from ReSim's simulated future. Our ReSim paradigm achieves up to 44% higher visual fidelity, improves controllability for both expert and non-expert actions by over 50%, and boosts planning and policy selection performance on NAVSIM by 2% and 25%, respectively.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.09981"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417309039",
+      "Scholar": "SrVnrPcAAAAJ:oqD4_j7ulsYC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/poster/117887'>https://neurips.cc/virtual/2025/poster/117887</a><br><a href='https://research.nvidia.com/labs/avg/publication/yang.chitta.etal.neurips2025/'>https://research.nvidia.com/labs/avg/publication/yang.chitta.etal.neurips2025/</a><br><a href='https://arxiv.org/abs/2506.09981'>https://arxiv.org/abs/2506.09981</a><br><a href='https://opendrivelab.com/ReSim'>https://opendrivelab.com/ReSim</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

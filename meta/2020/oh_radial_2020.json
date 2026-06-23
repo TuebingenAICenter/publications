@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bayesian deep learning aims to capture model uncertainty by inferring a posterior distribution over the weights of a neural network. A common approach is variational inference, which approximates the true posterior with a simpler distribution. However, the choice of the variational family is often restricted to mean-field Gaussians for computational tractability, which fails to capture complex correlations between weights. In this paper, we propose a new variational family based on radial and directional distributions. Our approach allows for flexible posterior approximations that can capture dependencies between weights while remaining computationally efficient. We demonstrate the effectiveness of our method on various benchmarks, showing that it achieves competitive performance compared to existing methods while providing better uncertainty estimates.",
+    "conferenceName": "34th Conference on Artificial Intelligence",
+    "extra": {
+      "AAAI Technical Track": "Machine Learning",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 34th Conference on Artificial Intelligence (AAAI)"
+  }
+}

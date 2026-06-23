@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised learning (SSL) with data augmentations has recently achieved remarkable success in learning representations. However, the theoretical underpinnings of why these methods work remain poorly understood. In this paper, we propose a generative model for data augmentations and show that, under this model, contrastive learning and other SSL methods can provably identify the underlying factors of variation. Specifically, we show that SSL learns to separate 'content' (the information shared across augmentations) from 'style' (the information specific to an augmentation). We provide a theoretical framework that explains how the choice of data augmentations determines which features are learned, and we validate our theoretical findings with experiments on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2106.04619",
+    "extra": {
+      "Archive ID": "2106.04619",
+      "Citations@2026-06-01": "38",
+      "OpenAlex": "W4287122975",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:iH-uZ7U-co4C"
+    },
+    "itemType": "document"
+  }
+}

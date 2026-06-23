@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Trajectory optimization for non-linear systems with stochastic dynamics is a challenging problem, especially when the dynamics are unknown. In this paper, we propose a chance-constrained trajectory optimization framework that can handle unknown stochastic dynamics. We use Gaussian Processes to learn the dynamics and their uncertainty from data. The chance constraints are then reformulated into deterministic constraints using the learned dynamics and uncertainty. We demonstrate the effectiveness of our approach on a simulated non-linear system.",
+    "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "11"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
+  }
+}

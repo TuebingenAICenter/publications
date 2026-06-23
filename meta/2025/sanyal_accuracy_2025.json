@@ -1,0 +1,46 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We study the effect of noisy data on out-of-distribution (OOD) generalisation. We show that even small amounts of label noise can lead to models that achieve high accuracy on the training distribution but fail catastrophically on OOD data. We identify a phenomenon we call 'accuracy on the wrong line', where the model learns a decision boundary that is accurate on the training data but is misaligned with the underlying causal structure of the data. We provide theoretical insights into why this happens and propose a simple yet effective method to mitigate this issue.",
+    "archive": "arXiv",
+    "archiveLocation": "2406.19049",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:30",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://arxiv.org/pdf/2411.15958"
+      }
+    ],
+    "conferenceName": "28th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4400163273",
+      "Scholar": "DZ-fHPgAAAAJ:SZM63MrTTgUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

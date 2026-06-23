@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural networks for computer vision extract uninterpretable features despite achieving high accuracy on benchmarks. In contrast, humans can explain their predictions using succinct and intuitive descriptions. To incorporate explainability into neural networks, we train a vision model whose feature representations are text. We show that such a model can effectively classify ImageNet images, and we discuss the challenges we encountered when training it.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2307.00028",
+    "extra": {
+      "Archive ID": "2307.00028",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4383175531",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:j3f4tGmQtD8C"
+    },
+    "itemType": "document"
+  }
+}

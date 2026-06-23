@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Counterfactual explanations are a popular tool to explain the decisions of machine learning models by showing how an input would need to change to change the model's prediction. While many methods exist for tabular data, generating high-quality counterfactuals for images remains challenging. We propose Diffusion Visual Counterfactual Explanations (DVCEs), a method that leverages the generative power of diffusion models to produce realistic and diverse counterfactuals. Our approach optimizes the latent space of a pre-trained diffusion model to find a counterfactual that is close to the original image in the latent space while satisfying the target class constraint. We demonstrate that our method produces high-quality counterfactuals that are more realistic and diverse than existing methods, and we show that they can be used to improve the robustness of classifiers.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2210.11841",
+    "extra": {
+      "Archive ID": "2210.11841",
+      "Citations@2026-06-01": "15",
+      "OpenAlex": "W4307205462",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:cK4Rrx0J3m0C"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

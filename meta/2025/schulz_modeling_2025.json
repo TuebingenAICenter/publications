@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Understanding the complex, non-linear relationships between stimuli, neural activity, and behavior remains a central challenge in neuroscience. While deep generative models, such as variational autoencoders (VAEs), can identify low-dimensional latent structures in neural and behavioral data, they are typically limited to learning the joint distribution of these data. Consequently, they do not accommodate many experimental paradigms where some variables (e.g., stimuli or neural activity) are treated as inputs and others (e.g., neural activity or behavior) as outputs. To address this, we present a masked VAE (mVAE) framework that allows for learning conditional distributions during both training and inference. We demonstrate the mVAE's utility by modeling large-scale neural and behavioral datasets, showing that it can perform tasks such as neural decoding and neural-activity-to-behavior prediction. The mVAE framework offers a flexible and efficient approach for investigating the intricate mappings between varied types of neuroscience data.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2211124725001093"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4395467347",
+      "Scholar": "FKOqtF8AAAAJ:NObE97JSLecC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

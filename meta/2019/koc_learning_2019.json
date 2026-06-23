@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning from demonstrations (LfD) is a powerful tool for teaching robots complex tasks. However, most LfD approaches require a large number of demonstrations or are limited to specific task representations. In this paper, we propose a new LfD framework that combines the benefits of dynamic movement primitives (DMPs) and probabilistic movement primitives (ProMPs) to learn complex tasks from a small number of demonstrations. We evaluate our approach on a table tennis task, where a robot learns to serve a ball. Our experimental results show that the proposed framework can learn the task from as few as five demonstrations and outperforms existing LfD methods in terms of success rate and generalization.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

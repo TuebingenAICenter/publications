@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning accurate forward and inverse dynamics models is a fundamental challenge in robotics. While deep learning approaches have shown great success in learning complex dynamics, they often struggle with long-term stability and data efficiency. In this paper, we propose Action-Conditional Recurrent Kalman Networks (AC-RKNs), a novel architecture that combines the structural benefits of Kalman Filters with the representational power of deep neural networks. AC-RKNs are designed to learn forward and inverse dynamics models in a unified framework. By incorporating a latent state space that is updated via a Kalman filter-like mechanism, our model is able to capture long-term dependencies and maintain stability over long horizons. We demonstrate the effectiveness of our approach on a variety of robotic manipulation tasks, showing that AC-RKNs outperform state-of-the-art methods in terms of both prediction accuracy and data efficiency.",
+    "conferenceName": "Conference on Robot Learning",
+    "extra": {
+      "Editors": "Jens Kober and Fabio Ramos and Claire J. Tomlin",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 4th Conference on Robot Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

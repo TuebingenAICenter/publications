@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Extreme multi-label classification (XML) involves learning a classifier that can tag a data point with the most relevant subset of labels from an extremely large label set. A key challenge in XML is the extreme sparsity of training data for the vast majority of labels. In this paper, we study the robustness of XML algorithms to such data scarcity. We show that for a large class of XML algorithms, the prediction error is bounded by the label-wise training data size. We propose a robust XML algorithm, DiSMEC, which is based on learning a multi-label classifier with a large number of labels. We show that DiSMEC is robust to data scarcity and achieves state-of-the-art performance on several benchmark datasets.",
+    "extra": {
+      "Citations@2026-06-01": "126",
+      "OpenAlex": "W2921113176",
+      "Scholar": "DZ-fHPgAAAAJ:ESN8wY4Sm6AC"
+    },
+    "itemType": "journalArticle"
+  }
+}

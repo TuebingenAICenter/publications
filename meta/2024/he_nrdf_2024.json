@@ -1,0 +1,51 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Learning a prior over articulated poses is a fundamental problem in computer vision, with applications ranging from motion capture to pose estimation. Existing methods often rely on simple parametric models or data-driven approaches that struggle to generalize to unseen poses or complex articulations. In this paper, we introduce Neural Riemannian Distance Fields (NRDF), a novel representation for learning articulated pose priors. NRDF represents the pose distribution as a distance field defined on a Riemannian manifold, where the distance to the manifold of valid poses is learned. By leveraging the Riemannian structure, NRDF can effectively capture the geometry of the pose space and provide a robust prior for various downstream tasks. We demonstrate the effectiveness of NRDF on several benchmarks, showing that it outperforms existing methods in terms of both accuracy and generalization.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.03122",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:39:23",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2403.03122"
+      },
+      {
+        "accessDate": "2025-06-17 19:39:23",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2403.03122"
+      }
+    ],
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4392538832",
+      "Scholar": "OpXMNnMAAAAJ:t7zJ5fGR-2UC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 11</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 11</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

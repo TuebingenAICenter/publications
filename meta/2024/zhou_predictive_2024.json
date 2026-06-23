@@ -1,0 +1,52 @@
+{
+  "custom": {
+    "groups": [
+      "bamler",
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Knowledge tracing (KT) aims to model a student's evolving knowledge state over time to predict their future performance. While recent deep learning models have achieved high predictive accuracy, they often function as black boxes and struggle to scale to the complex, structured domains found in real-world educational settings. We introduce PSI-KT, a framework for Predictive, Scalable, and Interpretable Knowledge Tracing on structured domains. PSI-KT leverages a hierarchical Bayesian approach to model knowledge as a latent state on a directed acyclic graph (DAG) of skills, capturing prerequisite relationships. By combining the predictive power of deep learning with the interpretability of structured probabilistic models, PSI-KT provides a transparent view of student learning trajectories. We demonstrate that PSI-KT achieves state-of-the-art predictive performance while remaining computationally efficient and providing meaningful insights into the structure of knowledge acquisition.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2403.13179",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:36",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=NgaLU2fP5D"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:36",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=NgaLU2fP5D"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4393100222",
+      "Scholar": "1O2hcVgAAAAJ:xtRiw3GOFMkC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

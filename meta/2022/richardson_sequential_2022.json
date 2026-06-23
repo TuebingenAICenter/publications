@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Haptic representation learning is a difficult task in robotics because information can be gathered only by actively exploring the environment over time, and because different actions elicit different object properties. We propose a Sequential Group VAE that leverages object persistence to learn and update latent general representations of multimodal haptic data. As a robot performs sequences of exploratory procedures on an object, the model accumulates data and learns to distinguish between general object properties, such as size and mass, and trial-to-trial variations, such as initial object position. We demonstrate that after very few observations, the general latent representations are sufficiently refined to accurately encode many haptic object properties.",
+    "conferenceName": "CoRL Workshop on Aligning Robot Representations with Humans",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "b-JF-UIAAAAJ:hkOj_22Ku90C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "CoRL Workshop on Aligning Robot Representations with Humans"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Ponto-Geniculo-Occipital (PGO) waves are phasic neural events occurring during REM sleep, which are thought to play a crucial role in memory consolidation. However, the mechanisms by which PGO waves influence cortical plasticity remain elusive. Here, we propose a computational model of PGO waves based on the interaction between the brainstem, the thalamus, and the cortex. Our model suggests that PGO waves act as a bidirectional switch for cortical plasticity, promoting long-term potentiation (LTP) during REM sleep and long-term depression (LTD) during NREM sleep. This mechanism provides a theoretical framework for understanding how sleep-stage-specific neural activity shapes cortical connectivity and supports memory consolidation.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.1101/2021.03.16.432817",
+    "extra": {
+      "Archive ID": "10.1101/2021.03.16.432817",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "document",
+    "libraryCatalog": "bioRxiv"
+  }
+}

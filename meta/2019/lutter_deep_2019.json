@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning dynamics models for control is a key challenge in robotics. While deep learning has shown great success in learning complex dynamics, it often ignores the underlying physical structure of the system. In this paper, we propose Deep Lagrangian Networks (DeLaN), a deep learning framework that learns the Lagrangian of a system. By encoding the Euler-Lagrange equation into the network architecture, we ensure that the learned dynamics are physically consistent. We demonstrate that DeLaN can learn the dynamics of under-actuated systems from data and can be used for energy-based control. We evaluate our approach on a simulated acrobot and a real-world cart-pole system, showing that DeLaN outperforms standard deep learning approaches in terms of data efficiency and control performance.",
+    "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
+  }
+}

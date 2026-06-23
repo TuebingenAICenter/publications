@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bayesian Quadrature (BQ) is a powerful framework for probabilistic numerical integration. However, standard BQ methods rely on Euclidean assumptions, which are often violated when data lies on a low-dimensional manifold embedded in a high-dimensional space. We propose a BQ method that accounts for the geometry of the data manifold by using a Riemannian kernel. We derive a closed-form solution for the integral of the kernel, which allows for efficient computation of the BQ estimator. We demonstrate the effectiveness of our approach on several synthetic and real-world datasets, showing that it outperforms standard BQ methods in terms of accuracy and uncertainty quantification.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4287329059",
+      "Pages": "3459--3468",
+      "Scholar": "UeG5w08AAAAJ:kRWSkSYxWN8C",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "139"
+    },
+    "itemType": "document"
+  }
+}

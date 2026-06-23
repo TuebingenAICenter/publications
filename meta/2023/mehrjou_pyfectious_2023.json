@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The COVID-19 pandemic has highlighted the need for robust tools to evaluate the impact of non-pharmaceutical interventions (NPIs) on the spread of infectious diseases. While many models exist, they often rely on simplifying assumptions that may not capture the complexity of human behavior and social interactions. We introduce Pyfectious, an individual-level simulator designed to model the spread of infectious diseases in a population with realistic social structures. Pyfectious allows for the simulation of various NPIs, such as social distancing, school closures, and contact tracing, and provides a framework for discovering optimal containment policies using reinforcement learning. We demonstrate the utility of Pyfectious by applying it to a synthetic population and showing that it can identify effective intervention strategies that balance disease control with social and economic costs.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W3146087925",
+      "Scholar": "DZ-fHPgAAAAJ:qyUQ_2Xdu-QC"
+    },
+    "itemType": "document"
+  }
+}

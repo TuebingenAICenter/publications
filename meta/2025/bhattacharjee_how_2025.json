@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "SHAP values are a popular tool for explaining machine learning models. A common practice is to use aggregate SHAP values (e.g., the mean absolute SHAP value) to rank features and discard those with low importance. However, it is not well understood when this procedure is safe, i.e., when it does not significantly degrade the model's performance. In this paper, we provide a theoretical framework to analyze the safety of feature discarding based on aggregate SHAP values. We show that for linear models, the procedure is safe under certain conditions on the feature distribution and the model coefficients. We also provide counterexamples where the procedure fails, and we propose a modified procedure that is more robust. Our theoretical findings are supported by experiments on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "2503.23111",
+    "conferenceName": "COLT",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417068779",
+      "Scholar": "mMifMdoAAAAJ:4X0JR2_MtJMC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v291/bhattacharjee25a.html'>https://proceedings.mlr.press/v291/bhattacharjee25a.html</a><br><a href='https://arxiv.org/abs/2503.23111'>https://arxiv.org/abs/2503.23111</a><br><a href='https://dblp.org/rec/journals/corr/abs-2503-23111'>https://dblp.org/rec/journals/corr/abs-2503-23111</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 38th Conference on Learning Theory"
+  }
+}

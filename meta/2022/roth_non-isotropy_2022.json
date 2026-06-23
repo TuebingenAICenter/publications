@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep Metric Learning (DML) aims to learn an embedding space where similar data points are close and dissimilar ones are far apart. While proxy-based methods have recently achieved state-of-the-art performance, they often suffer from the \"collapsing\" of embeddings, where the learned representations occupy only a small subspace of the available hypersphere. This phenomenon, often referred to as the \"isotropy problem\", limits the discriminative power of the learned embeddings. In this paper, we propose a novel regularization technique, Non-isotropy Regularization (NIR), that explicitly encourages the learned embeddings to be non-isotropic, thereby preventing collapse and improving the quality of the learned representations. We demonstrate the effectiveness of our approach on several standard DML benchmarks, where it consistently outperforms existing proxy-based methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2203.08547",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4226398589",
+      "Scholar": "jQl9RtkAAAAJ:WqliGbK-hY8C",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2203.08547"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

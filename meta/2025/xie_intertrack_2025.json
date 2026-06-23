@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We tackle the problem of tracking humans and objects in interaction from a single RGB video. Previous methods rely on known object templates or 3D models, limiting their applicability to a few categories and instances. In this paper, we propose InterTrack, a template-free approach for tracking human-object interactions. Our method jointly estimates the 3D human pose, the 3D shape and pose of unknown objects, and the contact between them, directly from video. To achieve this, we leverage a category-agnostic object representation and a human-object interaction prior. We introduce a novel optimization-based framework that refines the estimated human and object parameters over time, ensuring physical plausibility and temporal consistency. Experimental results on challenging datasets demonstrate that InterTrack achieves state-of-the-art performance in tracking diverse objects in interaction, without requiring any object-specific templates.",
+    "archive": "arXiv",
+    "archiveLocation": "2408.13953",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2408.13953"
+      }
+    ],
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4402701829",
+      "Reporter": "2025 International Conference on 3D Vision (3DV), 1427-1439, 2025",
+      "Scholar": "OpXMNnMAAAAJ:p__nRnzSRKYC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2408.13953'>https://arxiv.org/abs/2408.13953</a><br><a href='https://xiexh20.github.io/'>https://xiexh20.github.io/</a><br><a href='https://pure.mpg.de/pubman/item/item_3633982'>https://pure.mpg.de/pubman/item/item_3633982</a><br><a href='https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/171031'>https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/171031</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "2025 International Conference on 3D Vision (3DV)"
+  }
+}

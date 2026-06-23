@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Online search engines are often viewed as passive observers of human information needs. We challenge this view by arguing that search engines are performative: they do not merely reflect existing information needs, but actively shape them. We introduce a framework to measure the performative power of online search, which we define as the extent to which a search engine's ranking policy influences the distribution of user queries. We operationalize this framework by analyzing a large-scale dataset of search logs and show that search engines exert significant performative power, with ranking policies having a measurable impact on the evolution of user interests over time. Our findings suggest that the design of search algorithms has profound implications for the information ecosystem and that performativity should be a central consideration in the evaluation and regulation of search systems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2405.19073",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415797508",
+      "Scholar": "UqtDdZUAAAAJ:hMod-77fHWUC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Robustness to distribution shifts is a key requirement for the deployment of deep learning models in the real world. While many robustness benchmarks exist, they often focus on synthetic corruptions or specific types of domain shifts. In this work, we introduce ImageNet-D, a new robustness dataset inspired by domain adaptation. ImageNet-D consists of images from the ImageNet validation set that have been filtered to only include samples that are correctly classified by a standard ResNet-50 model, but are misclassified by a model trained on a different domain. We show that ImageNet-D is significantly more challenging than existing robustness benchmarks and that it reveals new insights into the robustness of state-of-the-art models.",
+    "extra": {
+      "Citations@2026-06-01": "15",
+      "Scholar": "v-JL-hsAAAAJ:NaGl4SEjCO4C"
+    },
+    "itemType": "journalArticle"
+  }
+}

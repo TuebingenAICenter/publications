@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Markov decision processes (MDPs) are a standard framework for modeling sequential decision making under uncertainty. In many applications, we are interested in finding a policy that is not only optimal with respect to a given reward function but also robust or exploratory. Entropic regularization is a common technique to achieve these goals by adding an entropy term to the objective function. In this paper, we provide a comprehensive overview of entropic regularization in MDPs. We discuss the theoretical foundations, the relationship to other regularization techniques, and the implications for policy optimization. We also review several algorithms that utilize entropic regularization, including soft actor-critic and path integral control, and discuss their connections to the broader literature on information-theoretic control.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

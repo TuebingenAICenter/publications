@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Building on recent progress at the intersection of combinatorial optimization and deep learning, we propose an end-to-end trainable architecture for deep graph matching that contains unmodified combinatorial solvers. Using the presence of heavily optimized combinatorial solvers together with some improvements in architecture design, we advance state-of-the-art on deep graph matching benchmarks for keypoint correspondence. In addition, we highlight the conceptual advantages of incorporating solvers into deep learning architectures, such as the possibility of post-processing with a strong multi-graph matching solver or the indifference to changes in the training setting. Finally, we propose two new challenging experimental setups.",
+    "extra": {
+      "Citations@2026-06-01": "19",
+      "OpenAlex": "W3013771878",
+      "Pages": "407--424",
+      "Scholar": "b-JF-UIAAAAJ:b0M2c_1WBrUC",
+      "Series": "Lecture Notes in Computer Science, 12373",
+      "Volume": "28"
+    },
+    "itemType": "document"
+  }
+}

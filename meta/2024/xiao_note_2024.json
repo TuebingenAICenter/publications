@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "bamler"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:21",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openreview.net/pdf?id=bwyHf5eery"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4388103534",
+      "Publisher": "University of Tübingen",
+      "Scholar": "LwvdNAgAAAAJ:-f6ydRqryjwC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

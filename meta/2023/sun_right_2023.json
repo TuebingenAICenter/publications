@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models are known to be prone to learning spurious correlations, i.e., relying on features that are predictive in the training set but not causally related to the target. Interpretable machine learning (IML) techniques are often proposed as a solution to detect such behavior. However, it remains unclear whether these techniques are actually capable of identifying when a model relies on spurious correlations. In this work, we systematically evaluate the ability of several popular IML methods to detect spurious correlations in a controlled medical imaging setting. We find that most IML methods fail to reliably indicate whether a model is relying on spurious features, and in some cases, even provide misleading explanations. Our results suggest that IML methods should be used with caution for the purpose of detecting spurious correlations and that further research is needed to develop more robust interpretability tools.",
+    "conferenceName": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "extra": {
+      "Source": "group_webpage (berens)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

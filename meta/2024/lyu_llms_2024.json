@@ -1,0 +1,62 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable performance across various tasks, yet their underlying reasoning processes remain a subject of intense debate. Drawing inspiration from the dual-process theory of human cognition—which distinguishes between fast, intuitive (System 1) and slow, deliberate (System 2) thinking—we investigate whether LLMs exhibit similar cognitive patterns. We propose a causal framework to disentangle these processes in LLMs, specifically within the context of sentiment analysis. By manipulating the input and the model's internal states, we isolate the contributions of intuitive associations versus deliberate reasoning. Our findings reveal that while LLMs are capable of both modes of thinking, their reliance on System 1 versus System 2 is highly sensitive to task complexity and prompt design. This study provides a novel causal perspective on LLM reasoning, offering insights into the mechanisms that drive their performance and limitations.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-25 08:34:05",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "2024.findings-emnlp.547.pdf",
+        "url": "https://aclanthology.org/2024.findings-emnlp.547.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:43:13",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2404.11055v2"
+      },
+      {
+        "accessDate": "2025-06-17 19:43:13",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2404.11055v2"
+      }
+    ],
+    "conferenceName": "EMNLP",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4404781194",
+      "Scholar": "DZ-fHPgAAAAJ:YtoGvxwmUzsC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Findings of the Association for Computational Linguistics: EMNLP"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The evaluation of the robustness of neural networks against adversarial attacks is a crucial task in machine learning. Currently, the robustness is often estimated by evaluating the performance of a set of established attacks. However, we show that this approach can lead to a significant overestimation of the robustness. We propose a randomized gradient-free attack, which we call the Linear Region Attack, and show that it can find adversarial examples in regions where gradient-based attacks fail. We scale up this attack and show that it outperforms established attacks on a variety of models and datasets. Our results suggest that the robustness of neural networks is often overestimated and that more rigorous evaluation methods are needed.",
+    "archive": "arXiv",
+    "archiveLocation": "1903.11359",
+    "extra": {
+      "Archive ID": "1903.11359",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4285052017",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:uJ-U7cs_P_0C"
+    },
+    "itemType": "document",
+    "libraryCatalog": "Springer Link"
+  }
+}

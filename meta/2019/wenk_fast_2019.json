@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Parameter identification in systems of nonlinear ordinary differential equations (ODEs) is a fundamental problem in science and engineering. Gradient matching is a popular approach to avoid the computationally expensive numerical integration of the ODEs during parameter estimation. However, existing gradient matching methods often rely on Gaussian Process (GP) regression, which scales cubically with the number of observations, limiting their applicability to large datasets. In this paper, we propose a novel gradient matching framework that leverages sparse GP approximations to achieve linear scaling in the number of observations. We derive a closed-form objective function that allows for efficient optimization of the ODE parameters. We demonstrate the effectiveness of our approach on several synthetic and real-world benchmarks, showing that it achieves competitive accuracy while being significantly faster than existing methods.",
+    "conferenceName": "22nd International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Kamalika Chaudhuri and Masashi Sugiyama",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics"
+  }
+}

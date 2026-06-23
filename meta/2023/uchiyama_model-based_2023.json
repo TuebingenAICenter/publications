@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cultural evolution is often described as a process of cumulative change, where information is transmitted and refined over generations. However, the cognitive mechanisms that enable this process remain debated. We propose that model-based assimilation—the process of integrating new information into an existing internal model of the world—is a key mechanism for cultural evolution. We formalize this process using a Bayesian framework, where agents update their world models based on observed behavior. We show that this mechanism allows for the transmission of complex world models, and that it can lead to the recombination of different models, resulting in novel cultural traits. We test our model in a series of simulations and show that it can account for key features of cultural evolution, including the emergence of cumulative culture and the recombination of cultural traits.",
+    "archive": "OSF",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4386469685",
+      "Scholar": "1O2hcVgAAAAJ:vV6vV6tmYwMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

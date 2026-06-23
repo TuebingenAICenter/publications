@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "EGU General Assembly",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4392587996",
+      "Publication Title": "EGU General Assembly Conference Abstracts, 2034, 2024",
+      "Scholar": "UeG5w08AAAAJ:KUbvn5osdkgC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: EGU General Assembly Conference Abstracts, 2034, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: EGU General Assembly Conference Abstracts, 2034, 2024 Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

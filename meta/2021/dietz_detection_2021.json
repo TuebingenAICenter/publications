@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Type 2 diabetes (T2D) is a major health burden, and early detection is crucial for preventing complications. We hypothesized that whole-body MRI (WB-MRI) contains information about the metabolic state of a person that can be used to detect T2D. We developed a deep learning model to classify T2D status from WB-MRI scans of 1,322 participants from the German Diabetes Study. Our model achieved an area under the receiver operating characteristic curve (AUROC) of 0.86 for the detection of T2D. The model's performance was robust across different subgroups and was not driven by a single organ or tissue type. Our results demonstrate that WB-MRI, in combination with deep learning, can be used to detect T2D, providing a potential tool for early diagnosis and risk stratification.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

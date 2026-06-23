@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The mouse retina is generally considered to be color-blind, despite the presence of two opsins (M- and S-opsin) in its cones. Here, we show that the mouse retina is capable of color processing. We find that the mouse retina is organized into two functional zones: a ventral region dominated by M-opsin and a dorsal region with a gradient of S-opsin. We show that this organization is reflected in the functional properties of retinal ganglion cells (RGCs). Specifically, we identify a population of RGCs in the dorsal retina that are sensitive to the ratio of M- and S-cone input, a prerequisite for color opponency. These cells are tuned to the spectral composition of the upper visual field, which is dominated by the sky. Our results suggest that the mouse retina is specialized for color vision in the upper visual field, likely to support the detection of aerial predators.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Format": "application/pdf",
+      "Identifier": "10.1038/s41467-020-17113-8",
+      "Issue": "1",
+      "OpenAlex": "W4393827387",
+      "Pages": "3481",
+      "Publication Title": "Nature communications 11 (1), 3481, 2020",
+      "Scholar": "lPQLk3QAAAAJ:hMod-77fHWUC",
+      "Volume": "11"
+    },
+    "itemType": "document"
+  }
+}

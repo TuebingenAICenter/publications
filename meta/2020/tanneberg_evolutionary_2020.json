@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural computers, such as neural Turing machines and differentiable neural computers, have been proposed to overcome the limitations of standard neural networks in tasks requiring algorithmic reasoning. However, these models often struggle to generalize to problem instances that are significantly larger than those seen during training. Here we show that evolutionary training combined with a novel abstraction mechanism allows neural computers to learn algorithms that generalize to problem instances of arbitrary size. We demonstrate this on a range of algorithmic tasks, including sorting, graph traversal and pathfinding, where our approach outperforms existing gradient-based methods in terms of both generalization performance and sample efficiency.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

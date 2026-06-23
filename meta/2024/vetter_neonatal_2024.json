@@ -1,0 +1,60 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Background: Infants with Robin sequence (RS) are at high risk of obstructive sleep apnea (OSA). Early detection of apnea and hypopnea events could facilitate timely intervention. Methods: We developed a machine learning model to predict apnea and hypopnea events in infants with RS using continuous pulse oximetry and heart rate data. We employed Neural Additive Models (NAMs) for time series, which combine the interpretability of generalized additive models with the predictive power of deep neural networks. We evaluated the model on a dataset of 24 infants with RS. Results: The model achieved an area under the precision-recall curve (AUPRC) of 0.68 for predicting apnea and hypopnea events. The NAMs provided interpretable insights into the contribution of different physiological features to the predictions. Conclusions: Our findings suggest that NAMs are a promising approach for predicting apnea and hypopnea in infants with RS, offering a balance between predictive performance and interpretability.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:20",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000678&type=printable"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:20",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000678&type=printable"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4405351239",
+      "Publisher": "University of T'ubingen",
+      "Scholar": "FKOqtF8AAAAJ:P-MJmu9ZMwQC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

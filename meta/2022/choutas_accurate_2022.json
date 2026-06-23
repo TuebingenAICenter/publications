@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "While methods that regress 3D human meshes from images have progressed rapidly, the estimated body shapes often do not capture the true human shape. This is problematic since, for many applications, accurate body shape is as important as pose. The key reason that body shape accuracy lags pose accuracy is the lack of data. While humans can label 2D joints, and these constrain 3D pose, it is not so easy to “label” 3D body shape. Since paired data with images and 3D body shape are rare, we exploit two sources of partial information: (1) we collect internet images of diverse models together with a small set of measurements; (2) we collect semantic shape attributes for a wide range of 3D body meshes and model images. Taken together, these datasets provide sufficient constraints to infer metric 3D shape. We exploit this partial and semantic data in several novel ways to train a neural network, called SHAPY, that regresses 3D human pose and shape from an RGB image. We evaluate SHAPY on public benchmarks but note that they either lack significant body shape variation, ground-truth shape, or clothing variation. Thus, we collect a new dataset for 3D human shape estimation, containing photos of people in the wild for whom we have ground-truth 3D body scans. On this new benchmark, SHAPY significantly outperforms recent state-of-the-art methods on the task of 3D body shape estimation. This is the first demonstration that a 3D body shape regressor can be trained from sparse measurements and easy-to-obtain semantic shape attributes. Our model and data are freely available for research.",
+    "extra": {
+      "Citations@2026-06-01": "63",
+      "OpenAlex": "W4312809617",
+      "Scholar": "6NjbexEAAAAJ:5NtQbJVckFQC"
+    },
+    "itemType": "journalArticle"
+  }
+}

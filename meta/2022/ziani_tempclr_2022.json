@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce TempCLR, a new time-coherent contrastive learning approach for the structured regression task of 3D hand reconstruction. Unlike previous time-contrastive methods for hand pose estimation, our framework considers temporal consistency in its augmentation scheme, and accounts for the differences of hand poses along the temporal direction. Our data-driven method leverages unlabelled videos and a standard CNN, without relying on synthetic data, pseudo-labels, or specialized architectures. Our approach improves the performance of fully-supervised hand reconstruction methods by 15.9% and 7.6% in PA-V2V on the HO-3D and FreiHAND datasets respectively, thus establishing new state-of-the-art performance. Finally, we demonstrate that our approach produces smoother hand reconstructions through time, and is more robust to heavy occlusions compared to the previous state-of-the-art which we show quantitatively and qualitatively.",
+    "conferenceName": "2022 International Conference on 3D Vision (3DV 2022)",
+    "extra": {
+      "Arxiv": "http://arxiv.org/abs/2209.00489",
+      "Code": "https://github.com/eth-ait/tempclr",
+      "Source": "group_webpage (black)",
+      "Video": "https://youtu.be/VSsKx8SnFio"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2022 International Conference on 3D Vision (3DV 2022)"
+  }
+}

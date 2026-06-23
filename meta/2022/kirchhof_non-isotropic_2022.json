@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "17th European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "Tel Aviv, Israel",
+      "OpenAlex": "W4285038779",
+      "Scholar": "jQl9RtkAAAAJ:Fu2w8maKXqMC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Computer Vision - ECCV 2022 - 17th European Conference, Proceedings, Part XXVI",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

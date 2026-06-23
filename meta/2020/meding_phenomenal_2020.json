@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Phenomenal causality refers to the perception of causal relations between objects, such as when one object appears to launch another. While phenomenal causality is often considered a robust, automatic, and modular process, recent research suggests that it is sensitive to the observer's expectations and the context of the scene. In this article, we investigate whether phenomenal causality is also sensitive to the sensory realism of the stimuli. We presented observers with animations of colliding objects that varied in their physical realism and asked them to judge whether they perceived a causal interaction. We found that phenomenal causality is indeed sensitive to sensory realism: observers were more likely to report a causal interaction when the stimuli were physically realistic. This suggests that phenomenal causality is not a purely modular process but is instead integrated with our knowledge of the physical world.",
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "OpenAlex": "W3032875429",
+      "Scholar": "lPQLk3QAAAAJ:lSLTfruPkqcC"
+    },
+    "itemType": "journalArticle"
+  }
+}

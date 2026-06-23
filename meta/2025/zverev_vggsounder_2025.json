@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415194981",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "v-JL-hsAAAAJ:vRqMK49ujn8C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Zverev_VGGSounder_Audio-Visual_Evaluations_for_Foundation_Models_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Zverev_VGGSounder_Audio-Visual_Evaluations_for_Foundation_Models_ICCV_2025_paper.html</a><br><a href='https://vggsounder.github.io/'>https://vggsounder.github.io/</a><br><a href='https://iccv.thecvf.com/virtual/2025/poster/1484'>https://iccv.thecvf.com/virtual/2025/poster/1484</a><br><a href='https://arxiv.org/abs/2508.08237'>https://arxiv.org/abs/2508.08237</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

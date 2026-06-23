@@ -1,0 +1,35 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The diversity of cortical neuron types is characterized by distinct electrophysiological properties, which are thought to be shaped by the differential expression of ion channel genes. However, linking gene expression to neuronal physiology remains challenging due to the complex, non-linear relationship between ion channel conductances and firing patterns. Here, we present a statistical-biophysical modeling framework that integrates single-cell transcriptomics and electrophysiology to infer the functional impact of ion channel gene expression. We apply this framework to cortical neurons and show that it can predict electrophysiological features from gene expression data. Our model reveals that the expression of specific ion channel genes is predictive of neuronal firing patterns and that this relationship is conserved across different cortical layers. These findings provide a mechanistic link between the molecular identity of neurons and their functional properties, offering a powerful tool for understanding the cellular basis of cortical circuit diversity.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41142913/"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4412992953",
+      "Scholar": "FKOqtF8AAAAJ:DOLguN9Lh8sC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://pubmed.ncbi.nlm.nih.gov/41142913/'>https://pubmed.ncbi.nlm.nih.gov/41142913/</a><br><a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12546760/'>https://pmc.ncbi.nlm.nih.gov/articles/PMC12546760/</a><br><a href='https://www.sciencedirect.com/science/article/pii/S2666389925001710'>https://www.sciencedirect.com/science/article/pii/S2666389925001710</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

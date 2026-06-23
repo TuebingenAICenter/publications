@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are often trained on massive, heterogeneous datasets containing information from sources of varying reliability. A critical question is whether LLMs can learn to distinguish between reliable and unreliable sources, and whether they can be incentivized to trust the former over the latter. In this work, we investigate whether implicit meta-learning—a phenomenon where models learn to learn during pre-training—can lead LLMs to develop a preference for more reliable sources. We formalize this setting as a meta-learning problem and show that, under certain conditions, models can indeed learn to identify and prioritize reliable information. We provide theoretical insights into the mechanisms behind this behavior and empirically demonstrate that LLMs trained on datasets with varying source reliability exhibit a tendency to trust more reliable sources, even when the reliability is not explicitly provided. Our findings suggest that implicit meta-learning is a powerful mechanism that can be leveraged to improve the robustness and trustworthiness of LLMs.",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Event Place": "Vienna, Austria",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

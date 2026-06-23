@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Current research in 3D human-scene interaction (3D-HSI) has shown remarkable progress in estimating the 3D human body in 3D scenes from images. However, most methods focus on geometric plausibility (e.g., minimizing penetration), neglecting physical plausibility and the forces governing the interaction. We introduce PhySIC, a method to estimate physically plausible 3D human-scene interaction from a single RGB image. The key idea is to represent the human body as an articulated multi-body system with biomechanical properties and use a physics simulator to estimate the forces and motions consistent with the image. Given a single image, we first estimate the human body and scene geometry. Then, we use a physics-informed optimization that integrates a physics simulator (MuJoCo) into the loop to refine the human pose and estimate the contact forces. Specifically, we represent the human body using the SMPL model and map it to a humanoid with physical properties (mass, inertia, joint limits). To estimate the contact forces, we optimize the humanoid control inputs such that the resulting motion matches the initial image-based pose while simultaneously satisfying the physical constraints of the scene. Since physics is intrinsically temporal, and we only have a single image, we optimize for a short trajectory around the image frame. Our experiments show that PhySIC produces physically plausible interactions with significantly fewer artifacts (e.g., floor penetration, skating, floating) compared to geometric-only methods, even from a single view.",
+    "conferenceName": "SIGGRAPH Asia",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4417124620",
+      "Reporter": "Proceedings of the SIGGRAPH Asia 2025 Conference Papers, 1-12, 2025",
+      "Scholar": "OpXMNnMAAAAJ:Dip1O2bNi0gC",
+      "arXiv": "2510.11649"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://yuxuan-xue.com/physic'>https://yuxuan-xue.com/physic</a><br><a href='https://pradyumnaym.github.io/'>https://pradyumnaym.github.io/</a><br><a href='https://arxiv.org/abs/2510.11649'>https://arxiv.org/abs/2510.11649</a><br><a href='https://www.realtimerendering.com/kesen/siga2025Papers.htm'>https://www.realtimerendering.com/kesen/siga2025Papers.htm</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the SIGGRAPH Asia 2025 Conference Papers"
+  }
+}

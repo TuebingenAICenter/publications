@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Hand, the bearer of human productivity and intelligence, is receiving much attention due to the recent fever of 3D digital avatars. Among different hand morphable models, MANO has been widely used in various vision & graphics tasks. However, MANO disregards textures and accessories, which largely limits its power to synthesize photorealistic & lifestyle hand data. In this paper, we extend MANO with more Diverse Accessories and Rich Textures, namely DART. DART is comprised of 325 exquisite hand-crafted texture maps which vary in appearance and cover different kinds of blemishes, make-ups, and accessories. We also provide the Unity GUI which allows people to render hands with user-specific settings, e.g. pose, camera, background, lighting, and DART textures. In this way, we generate large-scale (800K), diverse, and high-fidelity hand images, paired with perfect-aligned 3D labels, called DARTset. Experiments demonstrate its superiority in generalization and diversity. As a great complement to existing datasets, DARTset could boost hand pose estimation & surface reconstruction tasks. DART and Unity software will be publicly available for research purposes.",
+    "conferenceName": "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Event Place": "New Orleans, Louisiana",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS)"
+  }
+}

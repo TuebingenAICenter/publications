@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Finite-element (FE) models of the human middle ear are powerful tools for understanding hearing mechanics and diagnosing pathologies. However, their clinical utility is limited by the difficulty of tuning model parameters to match subject-specific measurements, a process that is computationally expensive and often relies on manual, subjective adjustments. Here, we propose a simulation-based inference (SBI) framework to automate the subject-specific tuning of middle ear FE models. By training a neural density estimator on synthetic data generated from a population-based FE model, we can rapidly infer the posterior distribution of subject-specific parameters given clinical measurements, such as wideband acoustic immittance. We demonstrate the efficacy of our approach on synthetic data and clinical measurements from human subjects. Our framework provides a robust, objective, and computationally efficient method for personalized middle ear modeling, paving the way for improved diagnostic accuracy in clinical practice.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.nature.com/articles/s41598-025-22164-2"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4415788087",
+      "Scholar": "FKOqtF8AAAAJ:polMJLZb0X8C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41598-025-22164-2'>https://www.nature.com/articles/s41598-025-22164-2</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/41184342/'>https://pubmed.ncbi.nlm.nih.gov/41184342/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

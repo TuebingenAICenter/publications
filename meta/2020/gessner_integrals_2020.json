@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of computing the integral of a Gaussian probability density function over a domain defined by a set of linear inequality constraints. This problem is equivalent to computing the cumulative distribution function of a multivariate Gaussian distribution. While this is a well-studied problem, existing methods often struggle with high-dimensional domains or require expensive numerical integration. We propose a new approach based on the observation that the integral can be expressed as a sequence of one-dimensional integrals. We show that this approach is computationally efficient and provides accurate results even in high dimensions. We demonstrate the effectiveness of our method on a range of synthetic and real-world problems.",
+    "conferenceName": "23rd International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W2981183552",
+      "Scholar": "UeG5w08AAAAJ:XiSMed-E-HIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Biomedical research is a vast and rapidly evolving field. To understand its structure and dynamics, we analyzed 30 million papers from PubMed published between 1990 and 2022. We used a citation-based approach to map the landscape of biomedical research, identifying 1,200 research topics and their evolution over time. We found that the field is highly modular, with topics forming distinct clusters that correspond to biological systems, diseases, and methodologies. We also observed a trend toward increasing interdisciplinarity, with research topics becoming more connected over time. Our results provide a comprehensive overview of the biomedical research landscape and offer insights into the drivers of scientific progress.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:41:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.cell.com/action/showPdf?pii=S266638992400076X"
+      },
+      {
+        "accessDate": "2025-06-17 19:41:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://www.cell.com/action/showPdf?pii=S266638992400076X"
+      }
+    ],
+    "extra": {
+      "Article Number": "100968",
+      "Citations@2026-06-01": "18",
+      "Number": "6",
+      "OpenAlex": "W4364377241",
+      "Publisher": "University of T'ubingen",
+      "Scholar": "lPQLk3QAAAAJ:wbdj-CoPYUoC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 46</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 46</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

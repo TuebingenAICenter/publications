@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Semantic segmentation is a problem which is getting more and more attention in the computer vision community. Nowadays, deep learning methods represent the state of the art to solve this problem, and the trend is to use deeper networks to get higher performance. The drawback with such models is a higher computational cost, which makes it difficult to integrate them on mobile robot platforms. In this work we want to explore how to obtain lighter deep learning models without compromising performance. To do so we will consider the features used in the 3D Entangled Forests algorithm and we will study the best strategies to integrate these within FuseNet deep network. Such new features allow us to shrink the network size without loosing performance, obtaining hence a lighter model which achieves state-of-the-art performance on the semantic segmentation task and represents an interesting alternative for mobile robotics applications, where computational power and energy are limited.",
+    "conferenceName": "2020 25th International Conference on Pattern Recognition (ICPR 2020)",
+    "extra": {
+      "Source": "group_webpage (black)",
+      "month_numeric": "1"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2020 25th International Conference on Pattern Recognition (ICPR 2020)"
+  }
+}

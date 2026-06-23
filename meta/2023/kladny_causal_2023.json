@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of estimating causal effects from a combination of observational and interventional data. We propose a class of matrix-weighted linear estimators that combine these data sources to minimize the mean squared error of the causal effect estimate. Our approach generalizes existing methods, such as the combination of observational data with randomized controlled trials, and allows for the integration of multiple interventional datasets. We provide theoretical guarantees on the performance of our estimators and demonstrate their effectiveness in numerical experiments.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "Evans, Robin J. and Shpitser, Ilya",
+      "OpenAlex": "W4380365843",
+      "Scholar": "DZ-fHPgAAAAJ:dEoS_iHvtpEC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "216"
+    },
+    "itemType": "document"
+  }
+}

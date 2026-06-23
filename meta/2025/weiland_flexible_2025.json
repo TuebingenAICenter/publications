@@ -1,0 +1,37 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Mechanistic knowledge about the physical world is virtually always expressed via partial differential equations (PDEs). Recently, there has been a surge of interest in probabilistic PDE solvers—Bayesian statistical models mostly based on Gaussian process (GP) priors which seamlessly combine empirical measurements and mechanistic knowledge. As such, they quantify uncertainties arising from e.g. noisy or missing data, unknown PDE parameters or discretization error by design. Prior work has established connections to classical PDE solvers and provided solid theoretical guarantees. However, scaling such methods to large-scale problems remains a fundamental challenge primarily due to dense covariance matrices. Our approach addresses the scalability issues by leveraging the Markov property of many commonly used GP priors. It has been shown that such priors are solutions to stochastic PDEs (SPDEs) which when discretized allow for highly efficient GP regression through sparse linear algebra. In this work, we show how to leverage this prior class to make probabilistic PDE solvers practical, even for large-scale nonlinear PDEs, through greatly accelerated inference mechanisms. Additionally, our approach also allows for flexible and physically meaningful priors beyond what can be modeled with covariance functions. Experiments confirm substantial speedups and accelerated convergence of our physics-informed priors in nonlinear settings.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2503.08343"
+      }
+    ],
+    "conferenceName": "The 28th International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414578103",
+      "Scholar": "UeG5w08AAAAJ:kh2fBNsKQNwC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://proceedings.mlr.press/v258/weiland25a.html'>https://proceedings.mlr.press/v258/weiland25a.html</a><br><a href='https://arxiv.org/abs/2503.08343'>https://arxiv.org/abs/2503.08343</a><br><a href='https://timwei.land/publication/gmrf-pde/'>https://timwei.land/publication/gmrf-pde/</a><br><a href='https://dblp.dagstuhl.de/rec/conf/aistats/WeilandPH25.html'>https://dblp.dagstuhl.de/rec/conf/aistats/WeilandPH25.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of The 28th International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

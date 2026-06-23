@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "extra": {
+      "Publication Title": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

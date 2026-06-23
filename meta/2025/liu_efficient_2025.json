@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "While one commonly trains large diffusion models by collecting datasets on target downstream tasks, it is often desired to align and finetune pretrained diffusion models with some reward functions that are either designed by experts or learned from small-scale datasets. Existing post-training methods for reward finetuning of diffusion models typically suffer from lack of diversity in generated samples, lack of prior preservation, and/or slow convergence in finetuning. Inspired by recent successes in generative flow networks (GFlowNets), a class of probabilistic models that sample with the unnormalized density of a reward function, we propose a novel GFlowNet method dubbed Nabla-GFlowNet (abbreviated as ∇-GFlowNet), the first GFlowNet method that leverages the rich signal in reward gradients, together with an objective called ∇-DB plus its variant residual ∇-DB designed for prior-preserving diffusion finetuning. We show that our proposed method achieves fast yet diversity- and prior-preserving finetuning of Stable Diffusion, a large-scale text-conditioned image diffusion model, on different realistic reward functions.",
+    "archive": "arXiv",
+    "archiveLocation": "2412.07775",
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2412.07775"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

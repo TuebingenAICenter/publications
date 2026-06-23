@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The human medial temporal lobe (MTL) is crucial for memory formation, yet the nature of the information represented by neuronal populations in this region remains debated. Here, we show that neuronal population activity in the human MTL contains rich information about the content of complex, naturalistic stimuli. We recorded single-unit activity from the MTL of neurosurgical patients while they watched movie clips. Using a deep learning-based decoding framework, we demonstrate that we can decode movie content from the population activity of MTL neurons with high accuracy. Our results suggest that the human MTL represents complex, naturalistic information in a distributed manner, providing a neural basis for the encoding of episodic memories.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.1101/2024.06.13.598791",
+    "extra": {
+      "Archive ID": "10.1101/2024.06.13.598791",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4413157135",
+      "Scholar": "FKOqtF8AAAAJ:vefPE_iVbj4C"
+    },
+    "itemType": "document"
+  }
+}

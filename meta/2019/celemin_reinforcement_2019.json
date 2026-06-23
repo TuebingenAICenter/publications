@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning motor skills from scratch using reinforcement learning is often time-consuming and requires a large number of interactions with the environment. To speed up the learning process, human guidance can be used to provide information about the desired behavior. In this paper, we propose a framework for reinforcement learning that incorporates human corrective advice. The human provides feedback in the form of corrections to the agent's actions, which are used to update the policy. We evaluate our approach on several simulated and real-world robotic tasks, showing that it significantly improves the learning efficiency compared to standard reinforcement learning methods.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

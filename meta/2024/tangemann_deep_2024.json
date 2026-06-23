@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Moving object segmentation is a fundamental task in biological and computer vision. While classical models rely on spatio-temporal energy filtering, recent deep learning approaches often use feature matching. Here, we compare these two approaches on a challenging dataset of naturalistic videos. We find that deep feature matching outperforms spatio-temporal energy filtering, especially in the presence of complex backgrounds and varying illumination. Our results suggest that deep feature matching is a promising direction for robust moving object segmentation.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4402914882",
+      "Publisher": "University of Tübingen",
+      "Scholar": "0z0fNxUAAAAJ:M0leSnx2MbUC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

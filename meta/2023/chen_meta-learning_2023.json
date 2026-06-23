@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gaussian processes (GPs) are powerful tools for molecular property prediction due to their ability to provide well-calibrated uncertainty estimates. However, standard GPs often struggle with high-dimensional molecular representations and the limited data regimes typical of drug discovery. Deep kernel learning (DKL) addresses this by learning a feature mapping using a neural network, but it is prone to overfitting in low-data settings. In this work, we propose a meta-learning approach to train adaptive deep kernel Gaussian processes. By leveraging a large collection of related molecular property prediction tasks, our method learns a prior over the parameters of the deep kernel, which can be rapidly adapted to new tasks with few data points. We demonstrate that our approach achieves state-of-the-art performance on several molecular property prediction benchmarks, while providing reliable uncertainty estimates.",
+    "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Event Place": "Kigali Rwanda",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR)"
+  }
+}

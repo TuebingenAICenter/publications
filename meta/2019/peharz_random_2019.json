@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Sum-Product Networks (SPNs) are a class of deep probabilistic models that allow for exact and efficient inference. However, learning the structure of SPNs is a challenging task, often requiring complex heuristics. In this paper, we propose Random Sum-Product Networks (RSPNs), a simple and effective approach to learn SPNs. RSPNs are constructed by randomly sampling the structure of the network, and then learning the parameters. We show that RSPNs can be learned very efficiently, and that they achieve competitive performance on a wide range of density estimation tasks. Furthermore, we show that RSPNs can be used as a building block for more complex probabilistic models, such as deep generative models.",
+    "conferenceName": "35th Conference on Uncertainty in Artificial Intelligence",
+    "extra": {
+      "Editors": "Adams, Ryan P. and Gogate, Vibhav",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 35th Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

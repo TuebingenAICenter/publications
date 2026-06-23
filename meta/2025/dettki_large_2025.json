@@ -1,0 +1,44 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Causal reasoning is central to human cognition, enabling us to act in complex environments and learn from sparse data. Human causal reasoning is notably influenced by prior knowledge and by cognitive constraints that favor simplicity. In contrast, the causal reasoning capabilities of Large Language Models (LLMs) remain a subject of active debate. While some argue that LLMs possess human-like or even superior reasoning skills, others claim they merely rely on surface-level associations. We address this question by comparing human and LLM performance across four types of causal reasoning tasks: prediction, intervention, ablation, and counterfactuals. We found that LLMs often outperformed humans in accuracy on prediction and counterfactual tasks, yet most models struggled with the ablation task. Moreover, humans and LLMs exhibited similar patterns of errors, and both displayed a simplicity bias, favoring simpler explanations over more complex ones. These findings suggest that LLMs are not only capable of sophisticated causal reasoning but also share some of the same inductive biases as humans.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.10215",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2502.10215"
+      }
+    ],
+    "conferenceName": "47th Annual Conference of the Cognitive Science Society",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Code+data": "https://github.com/hmd101/causAIign",
+      "OpenAlex": "W4407632791",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "1O2hcVgAAAAJ:D_sINldO8mEC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.10215'>https://arxiv.org/abs/2502.10215</a><br><a href='https://hmd101.github.io/publications/'>https://hmd101.github.io/publications/</a><br><a href='https://hmc-lab.com/publication/'>https://hmc-lab.com/publication/</a><br><a href='https://escholarship.org/uc/item/3t5733z4'>https://escholarship.org/uc/item/3t5733z4</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 47th Annual Conference of the Cognitive Science Society"
+  }
+}

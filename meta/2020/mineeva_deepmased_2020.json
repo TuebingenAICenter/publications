@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Motivation: Metagenomic assembly is a critical step in the analysis of microbiome data. However, the quality of metagenomic assemblies is often poor, and existing tools for evaluating assembly quality are either reference-based or rely on simple heuristics. Results: We present DeepMAsED, a deep learning-based tool for evaluating the quality of metagenomic assemblies. DeepMAsED uses a convolutional neural network to classify contigs as either correctly or incorrectly assembled based on read coverage and k-mer composition. We show that DeepMAsED outperforms existing tools in identifying misassembled contigs and is robust to variations in sequencing depth and community composition.",
+    "extra": {
+      "Citations@2026-06-01": "52",
+      "Issue": "10",
+      "OpenAlex": "W2971850356",
+      "Pages": "3011-3017",
+      "Scholar": "DZ-fHPgAAAAJ:zrJuNqZCf_4C",
+      "Volume": "36"
+    },
+    "itemType": "document"
+  }
+}

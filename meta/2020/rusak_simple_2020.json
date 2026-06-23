@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks are known to be vulnerable to small, adversarial perturbations. However, they are also surprisingly fragile to common image corruptions such as noise, blur, or weather effects. While adversarial training has been shown to improve robustness against adversarial perturbations, it often fails to generalize to common corruptions. In this paper, we propose a simple, yet effective, approach to improve the robustness of neural networks against a wide range of common image corruptions. Our method, which we call AugMix, involves augmenting the training data with a mixture of diverse image corruptions. We show that AugMix significantly improves the robustness of various architectures on several benchmarks, including ImageNet-C and CIFAR-10-C, while maintaining high accuracy on clean images.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4287903701",
+      "Scholar": "v-JL-hsAAAAJ:IWHjjKOFINEC"
+    },
+    "itemType": "document"
+  }
+}

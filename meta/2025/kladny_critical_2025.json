@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "DZ-fHPgAAAAJ:jKDndaUStp4C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.14727'>https://arxiv.org/abs/2512.14727</a><br><a href='https://researchtrend.ai/papers/2512.14727'>https://researchtrend.ai/papers/2512.14727</a><br><a href='https://www.aimodels.fyi/papers/arxiv/critical-perspective-finite-sample-conformal-prediction-theory'>https://www.aimodels.fyi/papers/arxiv/critical-perspective-finite-sample-conformal-prediction-theory</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

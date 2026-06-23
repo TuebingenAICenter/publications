@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks are highly successful at many tasks, but they often rely on 'shortcuts'—decision rules that perform well on standard benchmarks but fail to generalize to more challenging testing conditions, such as real-world scenarios. Here we argue that shortcut learning is a common phenomenon in deep learning and that it is the primary reason for the surprising failures of deep neural networks when they are tested on data that differs even slightly from the training distribution. We provide a conceptual framework for understanding shortcut learning, review evidence for its existence across various domains and discuss how it can be mitigated.",
+    "extra": {
+      "Citations@2026-06-01": "1754",
+      "OpenAlex": "W3016970897",
+      "Scholar": "v-JL-hsAAAAJ:Wp0gIr-vW9MC"
+    },
+    "itemType": "journalArticle"
+  }
+}

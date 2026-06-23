@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Meta-learning aims to learn a prior that can be quickly adapted to new tasks. A common approach is to learn a task embedding that captures the task-specific information. However, existing methods often ignore the model's own capacity and inductive bias when learning the task embedding. In this paper, we propose MATE, a Model-Aware Task Embedding framework for meta-learning. MATE explicitly incorporates the model's parameters into the task embedding process, allowing the task embedding to be aware of the model's current state. We show that MATE can be integrated into various meta-learning algorithms and consistently improves their performance on several benchmarks.",
+    "conferenceName": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+    "extra": {
+      "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICML (Workshop)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7117078954",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "UeG5w08AAAAJ:0izLItjtcgwC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://icml.cc/virtual/2025/48080'>https://icml.cc/virtual/2025/48080</a><br><a href='https://arxiv.org/abs/2512.17720'>https://arxiv.org/abs/2512.17720</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

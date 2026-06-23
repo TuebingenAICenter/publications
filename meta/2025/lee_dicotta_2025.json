@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Continual Test-time Adaptation (CTTA) aims to adapt a pre-trained model to a sequence of target domains without accessing source data. Existing methods often suffer from catastrophic forgetting or error accumulation due to the lack of source supervision and the non-stationary nature of target domains. In this paper, we propose Domain-invariant Learning for Continual Test-time Adaptation (DiCoTTA), which leverages domain-invariant features to mitigate these issues. Specifically, we introduce a novel objective that encourages the model to learn representations that are invariant across different target domains, thereby enhancing the robustness of the adaptation process. Furthermore, we propose a dynamic memory mechanism to store and retrieve domain-specific information, which helps in preserving knowledge from previous domains. Extensive experiments on various benchmarks demonstrate that DiCoTTA consistently outperforms state-of-the-art methods in CTTA scenarios.",
+    "archive": "arXiv",
+    "archiveLocation": "2504.04981",
+    "extra": {
+      "Archive ID": "2504.04981",
+      "Repository": "arXiv",
+      "Source": "group_webpage (joon)",
+      "arXiv": "2504.04981"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

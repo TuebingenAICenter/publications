@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision-Language Models (VLMs) have shown remarkable capabilities in understanding images and text. While their global alignment is well-studied, their ability to localize objects and concepts within an image remains less explored. In this paper, we investigate the emerging localization properties of vision-language transformers. We find that these models, even when trained only on image-text pairs, develop strong grounding capabilities. We propose a simple yet effective method to extract these properties, which we call Grounding Everything (GEM). GEM allows us to localize objects and concepts in an image without any explicit localization supervision. We demonstrate the effectiveness of our approach on several benchmarks, showing that it outperforms existing methods and achieves competitive results with fully supervised models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.00878",
+    "extra": {
+      "Citations@2026-06-01": "123",
+      "Scholar": "pxhCcH0AAAAJ:CHSYGLWDkRkC"
+    },
+    "itemType": "journalArticle"
+  }
+}

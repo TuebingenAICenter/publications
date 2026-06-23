@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contrastive Audio-Visual Masked Autoencoders (CAV-MAE) have shown great promise in learning joint audio-visual representations by masking patches of both modalities and reconstructing them. However, current approaches often rely on global contrastive losses that fail to capture fine-grained temporal and spatial correspondences between audio and visual signals. In this paper, we propose CAV-MAE Sync, a novel framework that improves the alignment of audio-visual representations by introducing a fine-grained synchronization objective. Specifically, we leverage the inherent temporal structure of audio and video to enforce local alignment between audio segments and visual patches. We demonstrate that our approach significantly improves performance on downstream tasks, including audio-visual classification and retrieval, while maintaining the efficiency of the original CAV-MAE architecture.",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "Scholar": "pxhCcH0AAAAJ:mvPsJ3kp5DgC"
+    },
+    "itemType": "journalArticle"
+  }
+}

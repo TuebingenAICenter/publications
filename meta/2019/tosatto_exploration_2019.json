@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "International Joint Conference on Neural Networks (IJCNN)",
+    "extra": {
+      "Event Place": "Budapest, Hungary",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Joint Conference on Neural Networks (IJCNN)"
+  }
+}

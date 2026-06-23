@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present Variational Bayes in Private Settings (VIPS), a framework for performing variational Bayesian inference while preserving differential privacy. Our approach is based on the observation that the variational objective function can be optimized using stochastic gradient descent, and that differential privacy can be maintained by injecting noise into the gradients. We provide a theoretical analysis of the privacy guarantees of VIPS, and demonstrate its effectiveness on a variety of models and datasets, showing that it can achieve good predictive performance while providing strong privacy guarantees.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "5"
+    },
+    "itemType": "journalArticle"
+  }
+}

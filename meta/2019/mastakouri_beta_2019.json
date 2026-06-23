@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Transcranial alternating current stimulation (tACS) is a non-invasive brain stimulation technique that can modulate brain oscillations. While it has been shown that tACS can influence motor performance, the underlying mechanisms remain poorly understood. In this study, we investigated whether the effect of gamma-tACS on motor performance is mediated by changes in beta power. We recorded EEG during a motor task while participants received gamma-tACS or sham stimulation. Our results suggest that gamma-tACS modulates motor performance and that this effect is mediated by changes in beta power, providing evidence for a potential mechanism of action for tACS.",
+    "archive": "arXiv",
+    "archiveLocation": "1905.00319",
+    "extra": {
+      "Archive ID": "1905.00319",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W2943260400",
+      "Pages": "5902--5908",
+      "Scholar": "DZ-fHPgAAAAJ:uL1jBpQtEOcC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "IEEE Xplore"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In many human-robot interaction scenarios, the robot needs to adapt its movement to the human's intent. For example, when handing over an object, the robot should adapt its trajectory to the human's reaching motion. In this paper, we propose a framework for learning intention-aware online adaptation of movement primitives. We model the human's intent as a latent variable and use a Bayesian approach to infer the intent from the observed human motion. Based on this inference, we adapt the robot's movement primitive online. We evaluate our approach in a simulated handover scenario and show that it outperforms a baseline approach that does not account for the human's intent.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

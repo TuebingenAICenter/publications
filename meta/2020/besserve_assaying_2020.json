@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The number of confirmed COVID-19 cases is a key metric for monitoring the pandemic, but it is heavily influenced by the testing strategy and capacity of each country. We propose a model to estimate the true number of infections by accounting for the testing effort. We apply this model to data from several countries and show that it can explain a significant part of the variation in reported case numbers. Our results suggest that the true number of infections is often much higher than the number of confirmed cases, and that the testing effort is a crucial factor in interpreting the reported data.",
+    "archive": "arXiv",
+    "archiveLocation": "2012.01912",
+    "extra": {
+      "Archive ID": "2012.01912",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4287557518",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:evIWqJi0-BEC",
+      "arXiv": "2012.01912"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

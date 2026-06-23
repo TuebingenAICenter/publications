@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416237688",
+      "Scholar": "OpXMNnMAAAAJ:foquWX3nUaYC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.09827'>https://arxiv.org/abs/2511.09827</a><br><a href='https://dblp.org/rec/journals/corr/abs-2511-09827'>https://dblp.org/rec/journals/corr/abs-2511-09827</a><br><a href='https://publikationen.uni-tuebingen.de/xmlui/handle/10900/172332'>https://publikationen.uni-tuebingen.de/xmlui/handle/10900/172332</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

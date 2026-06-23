@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are increasingly used in production environments, where they are expected to perform specific tasks reliably. However, LLMs are susceptible to task drift, where the model's behavior changes over time due to updates, fine-tuning, or environmental shifts, potentially leading to performance degradation or security vulnerabilities. Detecting such drift is challenging because it may not be reflected in standard performance metrics, especially when ground truth labels are unavailable. In this paper, we propose a novel approach to detect task drift in LLMs by analyzing activation deltas—the changes in internal model activations when processing inputs. We demonstrate that these activation deltas are highly sensitive to task-specific changes and can effectively distinguish between benign input variations and actual task drift. Our method is model-agnostic, requires no ground truth labels, and is computationally efficient, making it suitable for real-time monitoring. We evaluate our approach on a variety of LLMs and tasks, showing that it consistently outperforms baseline methods in detecting task drift.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.00799",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W4410609227",
+      "Scholar": "QEiYbDYAAAAJ:sgsej9ZJWHMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

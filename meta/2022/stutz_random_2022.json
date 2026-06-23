@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks (DNNs) are increasingly deployed on resource-constrained hardware, where energy efficiency is critical. One way to improve energy efficiency is to reduce the supply voltage, which, however, increases the probability of bit errors in memory. While random bit errors can be mitigated by training with noise, adversarial bit errors—where an attacker flips specific bits to cause misclassification—pose a significant security threat. In this paper, we propose a novel training framework to improve the robustness of DNNs against both random and adversarial bit errors. We formulate the problem as a min-max optimization problem, where the inner maximization finds the worst-case bit error pattern for a given input, and the outer minimization updates the network weights to be robust against these errors. We show that our approach significantly improves robustness against both random and adversarial bit errors compared to existing methods, while maintaining high accuracy on clean inputs. Furthermore, we demonstrate that our robust models can be deployed on energy-efficient hardware with reduced supply voltage without significant performance degradation.",
+    "archive": "arXiv",
+    "archiveLocation": "2104.08323",
+    "extra": {
+      "Archive ID": "2104.08323",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4287209357",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:8d8msizDQcsC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "IEEE Xplore"
+  }
+}

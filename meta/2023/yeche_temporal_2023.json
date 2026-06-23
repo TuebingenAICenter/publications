@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Early event prediction aims to anticipate the occurrence of a future event as early as possible, given a stream of observations. This task is inherently challenging due to the trade-off between earliness and accuracy. Standard approaches typically rely on a fixed prediction horizon, which forces the model to learn a rigid mapping from observations to labels. In this work, we propose Temporal Label Smoothing (TLS), a novel training objective that relaxes this constraint by dynamically adjusting the target labels based on the time remaining until the event. TLS encourages the model to be more confident as the event approaches, while allowing for uncertainty in the early stages. We demonstrate the effectiveness of TLS on a variety of early event prediction tasks, showing that it consistently improves performance over standard baselines and achieves state-of-the-art results.",
+    "archive": "arXiv",
+    "archiveLocation": "2208.13764",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 40th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Single-cell RNA-seq data are typically normalized by scaling counts to a fixed library size and log-transforming them. This approach is heuristic and does not account for the heteroscedastic nature of count data. Here, we propose using Pearson residuals from regularized negative binomial regression to normalize UMI count data. This method is analytically tractable, computationally efficient, and effectively removes the dependence of mean expression on sequencing depth while stabilizing the variance. We demonstrate that our approach outperforms standard normalization methods in downstream tasks such as principal component analysis, clustering, and trajectory inference.",
+    "extra": {
+      "Citations@2026-06-01": "28",
+      "Issue": "1",
+      "OpenAlex": "W3109556021",
+      "Pages": "1-20",
+      "Scholar": "lPQLk3QAAAAJ:SeFeTyx0c_EC",
+      "Volume": "22"
+    },
+    "itemType": "document"
+  }
+}

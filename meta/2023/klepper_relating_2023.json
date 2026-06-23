@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Graph auto-encoders (GAEs) are a popular class of models for graph representation learning. Despite their empirical success, their theoretical properties are not yet well understood. In this paper, we analyze the behavior of GAEs by relating them to linear models. We show that for a specific choice of the decoder, the GAE objective is equivalent to a linear model that performs a form of graph smoothing. This allows us to interpret the GAE as a method that learns a representation by balancing the reconstruction of the input features and the smoothness of the representation with respect to the graph structure. We further show that this interpretation holds for both the standard GAE and the Variational Graph Auto-Encoder (VGAE). Our theoretical findings are supported by empirical experiments on several benchmark datasets.",
+    "archive": "OpenReview",
+    "extra": {
+      "Archive ID": "Y1eYplvxrE",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4308244652",
+      "Scholar": "mMifMdoAAAAJ:HtEfBTGE9r8C"
+    },
+    "itemType": "document"
+  }
+}

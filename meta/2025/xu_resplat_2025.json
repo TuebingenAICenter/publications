@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Scholar": "SrVnrPcAAAAJ:w2UhwfzvF0QC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.08575'>https://arxiv.org/abs/2510.08575</a><br><a href='https://haofeixu.github.io/resplat/'>https://haofeixu.github.io/resplat/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

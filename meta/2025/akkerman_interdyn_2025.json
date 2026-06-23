@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Predicting the dynamics of interacting objects is essential for both humans and intelligent systems. However, existing approaches are limited to simplified, toy settings and lack generalizability to complex, real-world environments. Recent advances in generative models have enabled the prediction of state transitions based on interventions, but focus on generating a single future state which neglects the continuous dynamics resulting from the interaction. To address this gap, we propose InterDyn, a novel framework that generates videos of interactive dynamics given an initial frame and a control signal encoding the motion of a driving object or actor. Our key insight is that large video generation models can act as both neural renderers and implicit physics “simulators”, having learned interactive dynamics from large-scale video data. To effectively harness this capability, we introduce an interactive control mechanism that conditions the video generation process on the motion of the driving entity. Qualitative results demonstrate that InterDyn generates plausible, temporally consistent videos of complex object interactions while generalizing to unseen objects. Quantitative evaluations show that InterDyn outperforms baselines that focus on static state transitions. This work highlights the potential of leveraging video generative models as implicit physics engines",
+    "archive": "arXiv",
+    "archiveLocation": "2412.11785",
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4405470379",
+      "Reporter": "Proceedings of the Computer Vision and Pattern Recognition Conference, 12467 …, 2025",
+      "Scholar": "6NjbexEAAAAJ:7GbmjkRdlf4C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2412.11785'>https://arxiv.org/abs/2412.11785</a><br><a href='https://interdyn.is.tue.mpg.de/'>https://interdyn.is.tue.mpg.de/</a><br><a href='https://is.mpg.de/publications/interdyn-2025'>https://is.mpg.de/publications/interdyn-2025</a><br><a href='https://dtzionas.com/publication/2025_cvpr_interdyn/'>https://dtzionas.com/publication/2025_cvpr_interdyn/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

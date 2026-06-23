@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multi-label classification (MLC) models are often trained on partially annotated datasets where only a subset of labels is provided for each image. While recent methods have shown success in handling missing labels, they often struggle to provide reliable explanations for their predictions. In this paper, we propose a novel framework to bridge the gap between model explanations and partially annotated MLC. Our approach leverages the available labels to guide the model's attention towards relevant image regions, while simultaneously learning to predict the missing labels. We demonstrate the effectiveness of our method on several benchmark datasets, showing that it not only improves classification performance but also produces more faithful and interpretable explanations compared to existing methods.",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4362655926",
+      "Scholar": "jQl9RtkAAAAJ:zLWjf1WUPmwC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Object-centric representation learning aims to decompose complex scenes into sets of entities. While many heuristic approaches have been proposed, a theoretical understanding of when and why these models succeed remains elusive. In this work, we provide a formal framework for object-centric representation learning based on the principle of independent causal mechanisms. We prove that under certain conditions, object-centric representations are identifiable from observational data. We further show that these conditions are satisfied by a broad class of generative models, including those based on slot-based architectures. Finally, we demonstrate that our theoretical results provide a principled explanation for the success of existing object-centric models and suggest new directions for future research.",
+    "archive": "arXiv",
+    "archiveLocation": "pp. 3038--3062",
+    "extra": {
+      "Archive ID": "2305.14229",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4378509228",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:g5m5HwL7SMYC"
+    },
+    "itemType": "document"
+  }
+}

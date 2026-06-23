@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a framework for machine learning that is fully covariant with respect to the action of a group. In our framework, the input data, the output predictions, and the internal representations are all elements of vector spaces that carry representations of a group G. A model is then a G-equivariant map between these spaces. We show that this framework encompasses many existing approaches, such as convolutional neural networks and graph neural networks, and allows for the construction of new models that are covariant with respect to more general groups, such as the Lorentz group or the group of rigid motions. We also provide a general construction for such maps using the theory of group representations and the Peter-Weyl theorem.",
+    "archive": "OpenReview",
+    "extra": {
+      "Archive ID": "gllUnpYuXg",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W4318908230",
+      "Scholar": "DZ-fHPgAAAAJ:uldgAVOX3EkC"
+    },
+    "itemType": "document"
+  }
+}

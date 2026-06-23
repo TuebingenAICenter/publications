@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce Constant Curvature Graph Convolutional Networks (CCGCNs), a framework for learning on graphs that generalizes Graph Convolutional Networks (GCNs) to spaces of constant curvature, namely spherical and hyperbolic spaces. We propose a novel approach to perform convolutions in these spaces by leveraging the exponential and logarithmic maps, which allow us to map graph data to and from the tangent space of a manifold. We demonstrate that our approach is effective for node classification and link prediction tasks on various datasets, outperforming Euclidean GCNs and other baselines.",
+    "conferenceName": "37th International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 37th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

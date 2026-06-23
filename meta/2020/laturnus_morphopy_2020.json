@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "MorphoPy is a Python package for the analysis of neural morphologies. It provides a set of tools to load, manipulate, and extract morphological features from neural reconstructions. MorphoPy is designed to be modular and extensible, allowing users to easily add new features or analysis methods. It is built on top of the standard Python scientific stack and integrates well with other tools for neural data analysis.",
+    "extra": {
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W3046326894",
+      "Scholar": "lPQLk3QAAAAJ:2P1L_qKh6hAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

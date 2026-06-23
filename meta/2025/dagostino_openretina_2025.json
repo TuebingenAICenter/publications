@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "0z0fNxUAAAAJ:In6cVmBjs0IC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.03.07.642012'>https://sciety.org/articles/activity/10.1101/2025.03.07.642012</a><br><a href='https://open-retina.org/'>https://open-retina.org/</a><br><a href='https://fededagos.me/publications/2025-03-11-openretina/'>https://fededagos.me/publications/2025-03-11-openretina/</a><br><a href='https://pypi.org/project/openretina/0.1.0/'>https://pypi.org/project/openretina/0.1.0/</a><br><a href='https://sciencecast.org/casts/wv2y01qgjmie'>https://sciencecast.org/casts/wv2y01qgjmie</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

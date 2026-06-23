@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Marker-based optical motion capture (mocap) is the “gold standard” method for acquiring accurate 3D human motion in computer vision, medicine, and graphics. The raw output of these systems are noisy and incomplete 3D points or short tracklets of points. To be useful, one must associate these points with corresponding markers on the captured subject; i.e. “labelling”. Given these labels, one can then “solve” for the 3D skeleton or body surface mesh. Commercial auto-labeling tools require a specific calibration procedure at capture time, which is not possible for archival data. Here we train a novel neural network called SOMA, which takes raw mocap point clouds with varying numbers of points, labels them at scale without any calibration data, independent of the capture technology, and requiring only minimal human intervention. Our key insight is that, while labeling point clouds is highly ambiguous, the 3D body provides strong constraints on the solution that can be exploited by a learning-based method. To enable learning, we generate massive training sets of simulated noisy and ground truth mocap markers animated by 3D bodies from AMASS. SOMA exploits an architecture with stacked self-attention elements to learn the spatial structure of the 3D body and an optimal transport layer to constrain the assignment (labeling) problem while rejecting outliers. We extensively evaluate SOMA both quantitatively and qualitatively. SOMA is more accurate and robust than existing state of the art research methods and can be applied where commercial systems cannot. We automatically label over 8 hours of archival mocap data across 4 different datasets captured using various technologies and output SMPL-X body models. The model and data is released for research purposes at https://soma.is.tue.mpg.de/.",
+    "conferenceName": "International Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W3203769524",
+      "Scholar": "6NjbexEAAAAJ:ziRtHtnO-_kC",
+      "Source": "group_webpage (black)",
+      "arxiv": "http://arxiv.org/abs/2110.04431",
+      "code": "https://github.com/nghorbani/soma",
+      "pdf": "https://download.is.tue.mpg.de/soma/SOMA_ICCV21.pdf",
+      "poster": "https://download.is.tue.mpg.de/soma/SOMA_Poster.pdf",
+      "project website": "https://soma.is.tue.mpg.de/",
+      "suppl": "https://download.is.tue.mpg.de/soma/SOMA_Suppmat.pdf",
+      "video": "https://youtu.be/BEFCqIefLA8"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proc. International Conference on Computer Vision (ICCV)"
+  }
+}

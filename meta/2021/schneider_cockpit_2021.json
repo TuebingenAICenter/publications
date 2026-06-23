@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Training deep neural networks is notoriously difficult. Practitioners often rely on trial and error, intuition, and a handful of scalar metrics like the training loss or accuracy to monitor the optimization process. This is insufficient for diagnosing why training fails or how it can be improved. We introduce Cockpit, a tool that provides practitioners with a rich set of visual and quantitative insights into the training process. Cockpit is designed to be practical: it is easy to use, integrates into existing PyTorch workflows, and is computationally efficient. We demonstrate its utility by diagnosing common training pathologies and by providing insights into the optimization dynamics of deep learning models.",
+    "conferenceName": "Advances in Neural Information Processing Systems 34",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W3129585545",
+      "Scholar": "UeG5w08AAAAJ:q3oQSFYPqjQC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 34"
+  }
+}

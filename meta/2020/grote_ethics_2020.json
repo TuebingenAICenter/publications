@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Algorithmic decision-making (ADM) is increasingly used in healthcare. While its potential to improve clinical outcomes is widely acknowledged, it also raises significant ethical concerns. In this paper, we provide a systematic overview of the ethical challenges associated with ADM in healthcare. We argue that these challenges can be structured along three dimensions: (1) the epistemic dimension, which concerns the quality and reliability of the data and the algorithms; (2) the normative dimension, which concerns the values and principles that should guide the development and deployment of ADM; and (3) the social dimension, which concerns the impact of ADM on the doctor-patient relationship and the broader healthcare system. We conclude by outlining a research agenda for the ethical development and implementation of ADM in healthcare.",
+    "extra": {
+      "Citations@2026-06-01": "510",
+      "OpenAlex": "W2991542819",
+      "Scholar": "lPQLk3QAAAAJ:ns9cj8rnVeAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

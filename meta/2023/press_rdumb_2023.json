@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Continual test-time adaptation (CTTA) aims to adapt a pre-trained model to a continuously changing data distribution without access to the source data. While recent methods have shown impressive performance gains, we find that many of them are surprisingly sensitive to the specific implementation of the adaptation process. In this paper, we propose RDumb, a simple baseline that performs no adaptation at all, but instead uses a robustly pre-trained model. We show that RDumb achieves state-of-the-art performance on several standard CTTA benchmarks, often outperforming complex methods that require significant computational resources. Our results suggest that the progress in CTTA may be less about the adaptation algorithms themselves and more about the quality of the pre-trained models. We hope that our findings will encourage the community to re-evaluate the necessity of complex adaptation methods and to focus on more robust pre-training strategies.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.05401",
+    "extra": {
+      "Archive ID": "2306.05401",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4380137019",
+      "Scholar": "0z0fNxUAAAAJ:YB4bud6kWLwC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

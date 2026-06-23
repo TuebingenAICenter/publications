@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Transferring reinforcement learning (RL) agents to new environments is challenging due to the potential for catastrophic failure when the agent encounters out-of-task (OoT) distributions. We propose GalilAI, a framework for detecting OoT distributions in RL by leveraging causal models. GalilAI uses active experimentation to learn a causal model of the environment and uses this model to detect when the agent is in an OoT state. We demonstrate that GalilAI can effectively detect OoT distributions and prevent catastrophic failure in several simulated environments.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4286891108",
+      "Pages": "7518--7530",
+      "Scholar": "DZ-fHPgAAAAJ:PoYW0sSLWnUC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "151"
+    },
+    "itemType": "document"
+  }
+}

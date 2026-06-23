@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Face and body orientation convey important information for us to understand other people's actions, intentions and social interactions. It has been shown that several occipitotemporal areas respond differently to faces or bodies of different orientations. However, whether face and body orientation are processed by partially overlapping or completely separate brain networks remains unclear, as the neural coding of face and body orientation is often investigated separately. Here, we recorded participants’ brain activity using fMRI while they viewed faces and bodies shown from three different orientations, while attending to either orientation or identity information. Using multivoxel pattern analysis we investigated which brain regions process face and body orientation respectively, and which regions encode both face and body orientation in a stimulus-independent manner. We found that patterns of neural responses evoked by different stimulus orientations in the occipital face area, extrastriate body area, lateral occipital complex and right early visual cortex could generalise across faces and bodies, suggesting a stimulus-independent encoding of person orientation in occipitotemporal cortex. This finding was consistent across functionally defined regions of interest and a whole-brain searchlight approach. The fusiform face area responded to face but not body orientation, suggesting that orientation responses in this area are face-specific. Moreover, neural responses to orientation were remarkably consistent regardless of whether participants attended to the orientation of faces and bodies or not. Together, these results demonstrate that face and body orientation are processed in a partially overlapping brain network, with a stimulus-independent neural code for face and body orientation in occipitotemporal cortex.",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W4200303826",
+      "Scholar": "6NjbexEAAAAJ:klLsoiHXwFYC"
+    },
+    "itemType": "journalArticle"
+  }
+}

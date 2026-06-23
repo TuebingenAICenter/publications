@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Atmospheric characterization of exoplanets is a central goal of modern astronomy. It requires solving an inverse problem: inferring physical parameters from observed spectra. This is typically done using Bayesian inference, which is computationally expensive due to the need for millions of forward model evaluations. Simulation-based inference (SBI) has emerged as a promising alternative, allowing for amortized inference. However, current SBI methods often struggle with high-dimensional parameter spaces and complex likelihood surfaces. In this work, we propose a novel approach for atmospheric retrieval using flow matching and neural importance sampling. We demonstrate that our method can accurately infer atmospheric parameters from synthetic spectra, while significantly reducing the computational cost compared to traditional methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2312.08295",
+    "conferenceName": "3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2312.08295"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)"
+  }
+}

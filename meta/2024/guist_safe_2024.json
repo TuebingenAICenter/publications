@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "High-speed robotic manipulation requires robots that are both fast and safe. While traditional rigid robots are often heavy and potentially dangerous, tendon-driven robots offer a promising alternative due to their low moving mass and inherent compliance. However, controlling these systems is challenging due to complex, non-linear dynamics and the unilateral nature of tendon actuation. In this paper, we present a novel tendon-driven robot arm designed for high-speed dynamic motion. We propose a control framework that combines a learned model of the robot's dynamics with a model-predictive control scheme to achieve accurate tracking at high speeds. We demonstrate the effectiveness of our approach through extensive experiments, showing that our robot can perform dynamic tasks with high precision while maintaining safety through its compliant design.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2307.02654",
+    "extra": {
+      "Archive ID": "2307.02654",
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4383604524",
+      "Scholar": "DZ-fHPgAAAAJ:Q7cX_DQK2FYC"
+    },
+    "itemType": "document"
+  }
+}

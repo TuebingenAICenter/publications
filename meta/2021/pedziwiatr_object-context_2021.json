@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Previous research has shown that objects that are inconsistent with their context (e.g., a toaster in a forest) attract more attention than consistent objects. This effect is often explained by the violation of expectations or the increased informativeness of the inconsistent object. Recently, meaning maps have been proposed as a way to quantify the semantic informativeness of image regions and have been shown to predict gaze behavior well. However, it is unclear whether meaning maps can account for the effect of object-context inconsistencies on gaze behavior. Here, we investigated this question by comparing human gaze behavior on images containing consistent and inconsistent objects with predictions from contextualized meaning maps. We found that while meaning maps predicted gaze behavior well for both consistent and inconsistent images, they failed to account for the specific effect of object-context inconsistency on gaze behavior. Our results suggest that object-context inconsistencies affect gaze behavior through mechanisms that are not fully captured by current models of semantic informativeness.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W3197266082",
+      "Scholar": "0z0fNxUAAAAJ:PkcyUWeTMh0C"
+    },
+    "itemType": "journalArticle"
+  }
+}

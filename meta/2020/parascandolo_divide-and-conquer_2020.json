@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Planning in complex environments with sparse rewards is a major challenge in reinforcement learning. Monte Carlo Tree Search (MCTS) is a powerful tool for planning, but its performance degrades in long-horizon tasks. We propose Divide-and-Conquer MCTS (DC-MCTS), a hierarchical planning algorithm that decomposes a long-horizon goal-directed task into a sequence of subgoals. DC-MCTS learns a goal-conditioned policy and a value function to guide the search, and uses a divide-and-conquer strategy to recursively break down the planning problem. We evaluate DC-MCTS on a set of challenging navigation and manipulation tasks, and show that it significantly outperforms standard MCTS and other baselines.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2004.11410",
+    "conferenceName": "International Conference on Learning Representations",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper"
+  }
+}

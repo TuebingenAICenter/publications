@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a novel framework for conditional density estimation based on kernel mean embeddings. By representing conditional distributions as operators in reproducing kernel Hilbert spaces, we avoid the need for density estimation in the traditional sense. We show that the proposed kernel conditional density operator (KCDO) can be estimated from finite samples and provide a theoretical analysis of its convergence properties. Furthermore, we demonstrate that the KCDO can be used to perform various conditional inference tasks, such as conditional sampling, conditional expectation, and conditional mode estimation. We illustrate the effectiveness of our approach on several synthetic and real-world datasets.",
+    "conferenceName": "23rd International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Silvia Chiappa and Roberto Calandra",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "liu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Layer pruning has emerged as a widely adopted technique for improving the efficiency of large language models (LLMs). Although existing methods demonstrate strong performance retention on general knowledge tasks, their effect on long-chain reasoning, a more brittle yet crucial capability, remains largely unexplored. In this work, we study the impact of layer pruning on long-chain reasoning through the lens of test-time scaling, a key mechanism in modern LLMs that enables strong reasoning capacity by allocating more computation at inference time. With extensive experiments, we demonstrate that pruning even one or two layers can severely impair test-time scaling, with performance collapsing drastically on long reasoning benchmarks even when performance on knowledge-intensive and shallow reasoning tasks remains stable. Furthermore, we find that standard supervised fine-tuning remedies fail to recover test-time scaling once it has deteriorated. Through in-depth analyses, we identify the mechanisms underlying this fragility of test-time scaling and highlight the fundamental risks of applying layer pruning to reasoning-intensive LLMs. These findings call for a rethinking of layer pruning strategies and provide insights for developing methods that preserve the robustness of reasoning. We open-source the codebase in https://github.com/keyu-wang-2002/Layer-Pruning-Harms-Inference-Scaling.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.22228",
+    "extra": {
+      "Archive ID": "2510.22228",
+      "Citations@2026-06-01": "3",
+      "Scholar": "73IbXtsAAAAJ:hkOj_22Ku90C"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.22228'>https://arxiv.org/abs/2510.22228</a><br><a href='https://mcanini.github.io/publications/'>https://mcanini.github.io/publications/</a><br><a href='https://repository.kaust.edu.sa/items/ffe2df7e-f202-4f58-b022-3cb6e648f515'>https://repository.kaust.edu.sa/items/ffe2df7e-f202-4f58-b022-3cb6e648f515</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

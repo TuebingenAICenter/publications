@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Saliency models are typically evaluated on datasets that contain strong biases, such as a center bias or a bias towards specific object categories. These biases can lead to an overestimation of model performance and a lack of generalization to real-world scenarios. In this paper, we propose a novel framework to model and quantify saliency dataset bias. We introduce a generative model that learns to disentangle the true saliency from the dataset-specific biases. Our approach allows us to evaluate models on debiased versions of existing datasets and to generate synthetic datasets with controlled biases. We demonstrate that our method significantly improves the evaluation of saliency models and provides insights into the nature of dataset biases.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2505.10169",
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415199642",
+      "Scholar": "0z0fNxUAAAAJ:TesyEGJKHF4C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Kummerer_Modeling_Saliency_Dataset_Bias_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Kummerer_Modeling_Saliency_Dataset_Bias_ICCV_2025_paper.html</a><br><a href='https://arxiv.org/abs/2505.10169'>https://arxiv.org/abs/2505.10169</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

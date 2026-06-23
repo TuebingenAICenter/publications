@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Over-parameterization has been shown to be effective for training deep neural networks. However, it often leads to redundant parameters and unstable training. In this paper, we propose Orthogonal Over-Parameterized Training (OOPT), a novel training framework that encourages the weights of over-parameterized layers to be orthogonal. We show that OOPT can effectively reduce the redundancy of over-parameterized layers and improve the training stability. We also provide a theoretical analysis of the proposed method and demonstrate its effectiveness on various computer vision tasks.",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

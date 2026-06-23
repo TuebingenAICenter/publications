@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Latent variable models are typically defined by a mapping from a simple latent space to a complex data space. While this allows for efficient sampling, it often results in latent spaces that lack geometric structure, making it difficult to perform meaningful operations such as interpolation or distance computation. We propose to enrich the latent space with a Riemannian metric that is induced by the generative model. This allows us to define a geometry that is consistent with the data manifold, enabling us to perform geodesic computations and define meaningful distances in the latent space. We demonstrate the effectiveness of our approach on a variety of generative models and show that it leads to improved interpretability and performance in downstream tasks.",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W3046225809",
+      "Pages": "631--639",
+      "Scholar": "DZ-fHPgAAAAJ:vU07HMfDF0IC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "130"
+    },
+    "itemType": "document"
+  }
+}

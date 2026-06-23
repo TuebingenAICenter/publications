@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In professional motor racing, the driver's individual driving style is a key factor for performance. While vehicle dynamics are well understood, the driver's influence is often treated as a black box. In this paper, we propose a framework to identify and model individual race driving styles. We represent driving styles as a set of parameters in a driver model that maps the vehicle state to steering and pedal inputs. To identify these parameters from data, we use a two-stage approach: first, we estimate the driver's intent using a model-predictive control approach; second, we use a Gaussian process regression to learn the mapping from the vehicle state to the driver's inputs. We evaluate our approach using data from a professional racing simulator and show that our model can accurately predict the driving style of different drivers and that it can be used to generate synthetic driving data that is indistinguishable from human driving.",
+    "extra": {
+      "Publisher": "Taylor & Francis",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

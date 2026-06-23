@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Probabilistic numerical methods for ordinary differential equations (ODEs) provide not only a point estimate of the solution, but also a quantification of the uncertainty arising from the discretization. Gaussian ODE filters are a prominent class of such methods, which treat the ODE as a state-space model and perform Bayesian filtering to infer the solution. Despite their popularity, their convergence properties have remained largely unexplored. In this paper, we provide a rigorous analysis of the convergence rates of Gaussian ODE filters. We show that, under appropriate conditions, the posterior mean of the Gaussian ODE filter converges to the true solution of the ODE at a rate determined by the order of the underlying Taylor expansion and the regularity of the vector field. We also show that the posterior variance contracts at a rate consistent with the error in the posterior mean, which justifies the use of the posterior variance as a measure of uncertainty. Our theoretical results are supported by numerical experiments.",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W2884255148",
+      "Scholar": "UeG5w08AAAAJ:EUQCXRtRnyEC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

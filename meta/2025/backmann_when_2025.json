@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4414585650",
+      "Scholar": "DZ-fHPgAAAAJ:nbe_yQ1PItwC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2505.19212'>https://arxiv.org/abs/2505.19212</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-19212'>https://dblp.org/rec/journals/corr/abs-2505-19212</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

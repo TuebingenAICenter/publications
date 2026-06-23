@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The study of the coupling between continuous signals (e.g., local field potentials) and point processes (e.g., spike trains) is central to understanding neural information processing. While univariate measures such as spike-triggered average or phase-locking value are widely used, they often fail to capture the complexity of neural interactions, particularly in the presence of multiple signals or non-stationary dynamics. We propose a general mathematical framework for quantifying the coupling between continuous signals and point processes, which encompasses both univariate and multivariate scenarios. Our approach is based on the information-theoretic concept of mutual information and its decomposition, allowing for the identification of directed and undirected interactions. We demonstrate the utility of our framework through simulations and applications to experimental data, showing that it provides a more comprehensive and robust characterization of neural coupling than existing methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2005.04034",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2005.04034"
+    },
+    "itemType": "journalArticle"
+  }
+}

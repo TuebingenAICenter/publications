@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The performance of machine learning models on out-of-distribution (OOD) data is often assumed to be positively correlated with their performance on in-distribution (ID) data. This assumption is a cornerstone of model selection and evaluation, where ID validation performance is used as a proxy for OOD generalization. In this paper, we challenge this assumption. We show that ID and OOD performance are sometimes inversely correlated on real-world datasets. We demonstrate this phenomenon on a variety of tasks, including image classification, object detection, and semantic segmentation. We analyze the causes of this inverse correlation and show that it is linked to the model's reliance on spurious correlations. We conclude by discussing the implications of our findings for model selection and evaluation.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2209.00613",
+    "extra": {
+      "Citations@2026-06-01": "84",
+      "Scholar": "kmXOOdsAAAAJ:JV2RwH3_ST0C",
+      "arXiv": "2209.00613"
+    },
+    "itemType": "journalArticle"
+  }
+}

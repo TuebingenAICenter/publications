@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Tactile feedback is essential to make robots more agile and effective in unstructured environments. However, high-resolution tactile skins are not widely available; this is due to the large size of robust sensing units and because many units typically lead to fragility in wiring and to high costs. One route toward high-resolution and robust tactile skins involves the embedding of a few sensor units (taxels) into a flexible surface material and the use of signal processing to achieve sensing with superresolution accuracy. Here, we propose a theory for geometric superresolution to guide the development of tactile sensors of this kind and link it to machine learning techniques for signal processing. This theory is based on sensor isolines and allows us to compute the possible force sensitivity and accuracy in contact position and force magnitude as a spatial quantity before building a sensor. We evaluate the influence of different factors, such as elastic properties of the material, structure design, and transduction methods, using finite element simulations and by implementing real sensors. We empirically determine sensor isolines and validate the theory in two custom-built sensors with 1D and 2D measurement surfaces that use barometric units. Using machine learning methods to infer contact information, our sensors obtain an average superresolution factor of over 100 and 1200, respectively. Our theory can guide future tactile sensor designs and inform various design choices. We propose a theory using taxel value isolines to guide superresolution tactile sensor design and evaluate it empirically.",
+    "extra": {
+      "Citations@2026-06-01": "61",
+      "OpenAlex": "W4213297255",
+      "Scholar": "b-JF-UIAAAAJ:HE397vMXCloC"
+    },
+    "itemType": "journalArticle"
+  }
+}

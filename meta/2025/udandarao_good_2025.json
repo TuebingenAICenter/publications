@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417255529",
+      "Scholar": "0z0fNxUAAAAJ:YPNY0knpFBYC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.08227'>https://arxiv.org/abs/2506.08227</a><br><a href='https://paperswithcode.com/paper/a-good-crepe-needs-more-than-just-sugar'>https://paperswithcode.com/paper/a-good-crepe-needs-more-than-just-sugar</a><br><a href='https://dblp.org/rec/bibtex/journals/corr/abs-2506-08227.html'>https://dblp.org/rec/bibtex/journals/corr/abs-2506-08227.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

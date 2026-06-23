@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "OpXMNnMAAAAJ:IUKN3-7HHlwC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2503.09342'>https://arxiv.org/abs/2503.09342</a><br><a href='https://miraymen.github.io/gaspacho/'>https://miraymen.github.io/gaspacho/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

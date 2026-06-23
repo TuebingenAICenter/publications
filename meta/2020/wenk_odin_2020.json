@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of inferring parameters and latent states of time-continuous dynamical systems from noisy, irregularly sampled observations. While Gaussian processes (GPs) are a powerful tool for regression, they do not naturally incorporate the structural knowledge provided by ordinary differential equations (ODEs). We propose ODIN, a novel framework that leverages the structure of ODEs to perform inference in dynamical systems. By using a GP prior on the derivative of the state, we can formulate the inference problem as a regression task that is informed by the ODE. We show that this approach allows for efficient and accurate parameter and state estimation, even in the presence of sparse and noisy data. We demonstrate the effectiveness of our method on several synthetic and real-world benchmarks.",
+    "archiveLocation": "vol. 34, pp. 6364--6371",
+    "extra": {
+      "AAAI Technical Track": "Machine Learning",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4288577459",
+      "Scholar": "DZ-fHPgAAAAJ:dJZfPYwQHqoC"
+    },
+    "itemType": "document"
+  }
+}

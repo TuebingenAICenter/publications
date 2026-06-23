@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Accurate segmentation of tumor lesions in PET-CT images is a prerequisite for quantitative analysis and therapy monitoring. Deep learning-based segmentation methods typically require large amounts of pixel-wise annotated data, which is time-consuming and expensive to obtain. We propose a weakly supervised approach for the segmentation of tumor lesions in PET-CT images that only requires image-level labels, i.e., information about the presence or absence of a lesion. Our method is based on a multiple instance learning framework and utilizes a class activation mapping approach to generate pseudo-masks for the lesions. We evaluate our method on a dataset of 100 PET-CT scans and show that it achieves competitive results compared to fully supervised methods, while significantly reducing the annotation effort.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "10"
+    },
+    "itemType": "journalArticle"
+  }
+}

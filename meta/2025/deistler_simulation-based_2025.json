@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) has emerged as a powerful framework for performing statistical inference in scientific models where the likelihood function is intractable but the model can be simulated. While the field has matured rapidly, the diversity of methods and software can be daunting for practitioners. This guide provides a comprehensive, practical introduction to SBI. We outline the core concepts, discuss the choice of inference methods, and provide a structured workflow for applying SBI to scientific problems. We further discuss common pitfalls, validation strategies, and the current state of the software ecosystem, aiming to provide a roadmap for researchers across disciplines to effectively leverage SBI in their work.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2508.12939",
+    "extra": {
+      "Archive ID": "2508.12939",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4414493651",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:ipvhVhH6zQ8C"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.12939'>https://arxiv.org/abs/2508.12939</a><br><a href='https://research.google/pubs/simulation-based-inference-a-practical-guide/'>https://research.google/pubs/simulation-based-inference-a-practical-guide/</a><br><a href='https://github.com/sbi-dev/sbi-practical-guide'>https://github.com/sbi-dev/sbi-practical-guide</a><br><a href='https://dblp.uni-trier.de/rec/journals/corr/abs-2508-12939.html'>https://dblp.uni-trier.de/rec/journals/corr/abs-2508-12939.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

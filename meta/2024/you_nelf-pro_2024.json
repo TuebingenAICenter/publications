@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present NeLF-Pro, a novel representation to model and reconstruct light fields in diverse natural scenes that vary in extent and spatial granularity. In contrast to previous fast reconstruction methods that represent the 3D scene globally, we model the light field of a scene as a set of local light field feature probes, parameterized with position and multi-channel 2D feature maps. Our central idea is to bake the scene's light field into spatially varying learnable representations and to query point features by weighted blending of probes close to the camera - allowing for mipmap representation and rendering. We introduce a novel vector-matrix-matrix (VMM) factorization technique that effectively represents the light field feature probes as products of core factors (i.e., VM) shared among local feature probes, and a basis factor (i.e., M) - efficiently encoding internal relationships and patterns within the scene. Experimentally, we demonstrate that NeLF-Pro significantly boosts the performance of feature grid-based representations, and achieves fast reconstruction with better rendering quality while maintaining compact modeling.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:38:59",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2312.13328"
+      },
+      {
+        "accessDate": "2025-06-17 19:38:59",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2312.13328"
+      }
+    ],
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4390136351",
+      "Scholar": "SrVnrPcAAAAJ:KI9T_ytC6pkC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

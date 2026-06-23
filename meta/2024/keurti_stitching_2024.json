@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Compositionality is a hallmark of human intelligence, allowing us to understand complex scenes by decomposing them into objects and their interactions. While recent generative models have made strides in scene decomposition, they often struggle to generalize to novel object configurations or interactions. We propose Stitching Manifolds, a framework that learns to compose object representations into scenes by leveraging interaction. By treating objects as manifolds in a latent space, we learn to 'stitch' these manifolds together based on their physical interactions. We demonstrate that our approach enables zero-shot composition of objects into novel scenes and improves performance on downstream tasks such as scene manipulation and reasoning.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:59:00",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://openreview.net/pdf?id=roehAtQlGX"
+      }
+    ],
+    "conferenceName": "ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Scholar": "DZ-fHPgAAAAJ:VdMmGtrFzgEC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)"
+  }
+}

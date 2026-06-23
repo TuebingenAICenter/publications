@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "22",
+      "Scholar": "0ZAb3tsAAAAJ:wE-fMHVdjMkC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

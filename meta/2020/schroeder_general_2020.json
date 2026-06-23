@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Background: General Movement Assessment (GMA) is a powerful tool to predict Cerebral Palsy (CP). Yet, GMA requires substantial training hampering its implementation in clinical routine. This inspired a world-wide quest for automated GMA. Aim: To test whether a low-cost, marker-less system for three-dimensional motion capture from RGB depth sequences using a whole body infant model may serve as the basis for automated GMA. Study design: Clinical case study at an academic neurodevelopmental outpatient clinic. Subjects: Twenty-nine high-risk infants were recruited and assessed at their clinical follow-up at 2-4 month corrected age (CA). Their neurodevelopmental outcome was assessed regularly up to 12-31 months CA. Outcome measures: GMA according to Hadders-Algra by a masked GMA-expert of conventional and computed 3D body model (“SMIL motion”) videos of the same GMs. Agreement between both GMAs was assessed, and sensitivity and specificity of both methods to predict CP at ≥12 months CA. Results: The agreement of the two GMA ratings was substantial, with κ=0.66 for the classification of definitely abnormal (DA) GMs and an ICC of 0.887 (95% CI 0.762;0.947) for a more detailed GM-scoring. Five children were diagnosed with CP (four bilateral, one unilateral CP). The GMs of the child with unilateral CP were twice rated as mildly abnormal. DA-ratings of both videos predicted bilateral CP well: sensitivity 75% and 100%, specificity 88% and 92% for conventional and SMIL motion videos, respectively. Conclusions: Our computed infant 3D full body model is an attractive starting point for automated GMA in infants at risk of CP.",
+    "extra": {
+      "Citations@2026-06-01": "44",
+      "OpenAlex": "W3017035397",
+      "Scholar": "6NjbexEAAAAJ:7fE6T6CK6bcC"
+    },
+    "itemType": "journalArticle"
+  }
+}

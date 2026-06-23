@@ -1,0 +1,55 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of learning causal representations from observational data. A key challenge in this domain is identifiability: under what conditions can we recover the true causal variables and their structural relationships from data? We introduce the framework of exchangeable mechanisms, a class of causal models where the causal mechanisms are invariant under permutations of the causal variables. We show that this symmetry allows for the identifiability of the causal structure and the underlying representations up to permutation and element-wise transformations. We provide theoretical guarantees for identifiability and demonstrate the effectiveness of our approach on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "2406.14302",
+    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399911706",
+      "Scholar": "v-JL-hsAAAAJ:_xSYboBqXhAC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

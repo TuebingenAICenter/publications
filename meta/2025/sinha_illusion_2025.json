@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Does continued scaling of large language models (LLMs) yield diminishing returns? Real-world value often stems from the length of task an agent can complete. We start this work by observing the simple but counterintuitive fact that marginal gains in single-step accuracy can compound into exponential improvements in the length of a task a model can successfully complete. Then, we argue that failures of LLMs when simple tasks are made longer arise from mistakes in execution, rather than an inability to reason. We propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task. We find that larger models can correctly execute significantly more turns even when small models have 100% single-turn accuracy. We observe that the per-step accuracy of models degrades as the number of steps increases. This is not just due to long-context limitations – curiously, we observe a self-conditioning effect – models become more likely to make mistakes when the context contains their errors from prior turns. Self-conditioning does not reduce by just scaling the model size. In contrast, recent thinking models do not self-condition, and can also execute much longer tasks in a single turn. We conclude by benchmarking frontier thinking models on the length of task they can execute in a single turn. Overall, by focusing on the ability to execute, we hope to reconcile debates on how LLMs can solve complex reasoning problems yet fail at simple tasks when made longer, and highlight the massive benefits of scaling model size and sequential test-time compute for long-horizon tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2509.09677",
+    "callNumber": "arXiv:2509.09677",
+    "extra": {
+      "Archive ID": "2509.09677",
+      "Citations@2026-06-01": "40",
+      "Conference Name": "NeurIPS (Workshop)",
+      "Reporter": "arXiv preprint arXiv:2509.09677, 2025",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:ILKRHgRFtOwC",
+      "arxiv": "2509.09677 [cs]"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.09677'>https://arxiv.org/abs/2509.09677</a><br><a href='https://neurips.cc/virtual/2025/127973'>https://neurips.cc/virtual/2025/127973</a><br><a href='https://github.com/long-horizon-execution/measuring-execution/'>https://github.com/long-horizon-execution/measuring-execution/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

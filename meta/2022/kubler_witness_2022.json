@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a new two-sample test based on the witness function of the Maximum Mean Discrepancy (MMD). While the MMD is a powerful kernel-based test statistic for the two-sample problem, it is often difficult to interpret because it is a single scalar value. By contrast, the witness function provides a localized view of the differences between two distributions. We show that the witness function can be used to construct a powerful two-sample test that is not only interpretable but also competitive with the state-of-the-art. Our test statistic is defined as the supremum of the witness function over a set of functions. We provide a theoretical analysis of the test, including its consistency and asymptotic distribution. We also demonstrate the effectiveness of our test on a variety of synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2102.05573",
+    "extra": {
+      "Archive ID": "2102.05573",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W3166245025",
+      "Pages": "1403--1419",
+      "Scholar": "DZ-fHPgAAAAJ:HvWuJDVxf68C",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "151"
+    },
+    "itemType": "document",
+    "libraryCatalog": "PMLR"
+  }
+}

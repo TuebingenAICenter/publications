@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICML 2021 Workshop on Neglected Assumptions in Causal Inference",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ICML 2021 Workshop on Neglected Assumptions in Causal Inference"
+  }
+}

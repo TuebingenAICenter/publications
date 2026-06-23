@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Political elections have a profound impact on individuals and societies. Optimal voting is thought to be based on informed and deliberate decisions yet, it has been demonstrated that the outcomes of political elections are biased by the perception of candidates’ facial features and the stereotypical traits voters attribute to these. Interestingly, political identification changes the attribution of stereotypical traits from facial features. This study explores whether the perception of body shape elicits similar effects on political trait attribution and whether these associations can be visualized. In Experiment 1, ratings of 3D body shapes were used to model the relationship between perception of 3D body shape and the attribution of political traits such as ‘Republican’, ‘Democrat’, or ‘Leader’. This allowed analyzing and visualizing the mental representations of stereotypical 3D body shapes associated with each political trait. Experiment 2 was designed to test whether political identification of the raters affected the attribution of political traits to different types of body shapes. The results show that humans attribute political traits to the same body shapes differently depending on their own political preference. These findings show that our judgments of others are influenced by their body shape and our own political views. Such judgments have potential political and societal implications.",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W3175047518",
+      "Scholar": "6NjbexEAAAAJ:wEOyVsangm4C"
+    },
+    "itemType": "journalArticle"
+  }
+}

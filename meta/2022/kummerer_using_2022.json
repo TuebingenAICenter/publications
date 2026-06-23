@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Human fixation behavior is driven by a complex interplay of spatial image features and temporal dynamics. While spatial models of saliency have reached high predictive performance, they often ignore the temporal evolution of gaze. Here, we introduce DeepGaze III, a model that combines a deep neural network for spatial feature extraction with a recurrent neural network to model the temporal dynamics of fixation placement. We use DeepGaze III to decompose the contributions of spatial image features and temporal dynamics to fixation placement over time. We find that spatial features are the primary driver of fixation placement, but that temporal dynamics play a significant role, particularly in the early stages of viewing. Our results suggest that the temporal evolution of gaze is not merely a consequence of spatial saliency but reflects a distinct process that is essential for understanding human fixation behavior.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4311556753",
+      "Scholar": "0z0fNxUAAAAJ:EsEWqaRxkBgC"
+    },
+    "itemType": "journalArticle"
+  }
+}

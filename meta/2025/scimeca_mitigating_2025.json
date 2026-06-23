@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning models often rely on spurious correlations, or 'shortcuts', to make predictions, leading to poor generalization on out-of-distribution data. We propose a method to mitigate shortcut learning by generating counterfactual examples that preserve the target label while removing the shortcut features. We use a diffusion model to perform these counterfactual edits, and we train an ensemble of models on the original and counterfactual data. Our approach, which we call Diffusion-based Counterfactual Ensemble (DCE), significantly improves robustness to shortcut learning on several benchmarks, including synthetic datasets and real-world image classification tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2311.16176",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Scholar": "kmXOOdsAAAAJ:u_35RYKgDlwC",
+      "Workshop": "SCSL @ ICLR 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}

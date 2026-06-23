@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Non-linear dynamical systems are ubiquitous in science and engineering, yet identifying their latent state transitions remains a significant challenge. We propose a novel framework for identifying latent state transitions in non-linear dynamical systems by leveraging the Koopman operator theory. Our approach learns a global linear representation of the non-linear dynamics in a latent space, where state transitions are identified as changes in the Koopman operator. We demonstrate the effectiveness of our method on several synthetic and real-world datasets, showing that it outperforms existing methods in identifying latent state transitions and predicting future states.",
+    "archive": "arXiv",
+    "archiveLocation": "2406.03337",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:46:14",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2406.03337v2"
+      }
+    ],
+    "conferenceName": "International Conference on Learning Representations",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399453713",
+      "Publication Title": "arXiv (Cornell University)",
+      "Scholar": "0z0fNxUAAAAJ:orDZ08hpP44C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<div data-schema-version=\"9\"><p>ICLR 2025 poster</p>\n</div>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>ICLR 2025 poster ”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}

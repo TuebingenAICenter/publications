@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning complex motor skills with robots is a challenging task, especially when the robot is actuated by non-linear, compliant actuators such as pneumatic artificial muscles. These actuators are difficult to control due to their non-linear dynamics, hysteresis, and time-varying properties. In this paper, we present a framework for learning to play table tennis from scratch with a robot actuated by pneumatic artificial muscles. We combine a model-based approach for low-level control with a model-free reinforcement learning approach for high-level task learning. We demonstrate that our approach allows the robot to learn to play table tennis in a real-world setting, starting from scratch, without any prior knowledge of the robot's dynamics or the task. We evaluate our approach in a series of experiments, showing that the robot can learn to hit the ball consistently and accurately, and that it can adapt to changes in the environment.",
+    "archive": "arXiv",
+    "archiveLocation": "2006.05935",
+    "extra": {
+      "Archive ID": "2006.05935",
+      "Citations@2026-06-01": "11",
+      "Issue": "6",
+      "OpenAlex": "W4287759384",
+      "Pages": "3850-3860",
+      "Scholar": "DZ-fHPgAAAAJ:LNKHhW0-MVwC",
+      "Volume": "38"
+    },
+    "itemType": "document"
+  }
+}

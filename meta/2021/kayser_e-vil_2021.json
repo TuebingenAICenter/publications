@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "akata",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision-language models have achieved impressive performance on various tasks. However, they are often criticized for being black boxes, as they do not provide explanations for their predictions. To address this, we introduce e-ViL, a benchmark for natural language explanations in vision-language tasks. e-ViL consists of a large-scale dataset of explanations for vision-language tasks, including visual question answering and visual entailment. We also provide a set of metrics to evaluate the quality of the generated explanations. We evaluate several state-of-the-art vision-language models on e-ViL and show that they struggle to generate high-quality explanations, highlighting the need for further research in this area.",
+    "conferenceName": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4287184014",
+      "Scholar": "jQl9RtkAAAAJ:XiSMed-E-HIC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

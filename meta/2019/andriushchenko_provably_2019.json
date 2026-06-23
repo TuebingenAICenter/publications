@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a new approach to train provably robust boosted decision stumps and trees against adversarial attacks. Our method is based on a robust version of the exponential loss which allows us to derive a tight upper bound on the adversarial loss. We show that for decision stumps, the robust loss can be minimized efficiently. For decision trees, we propose a greedy training algorithm that minimizes the robust loss at each split. Our approach provides a certificate of robustness for the final model, meaning that for any input, we can guarantee that the prediction does not change within a given perturbation set. We evaluate our method on several datasets and show that it achieves state-of-the-art robust accuracy for tree-based models, while being significantly faster to train than existing methods.",
+    "archive": "arXiv",
+    "archiveLocation": "1906.03526",
+    "extra": {
+      "Archive ID": "1906.03526",
+      "Citations@2026-06-01": "15",
+      "OpenAlex": "W2948541514",
+      "Scholar": "0ZAb3tsAAAAJ:t7zJ5fGR-2UC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

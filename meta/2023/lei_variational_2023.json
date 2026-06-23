@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning world models that are both predictive and interpretable is a central challenge in artificial intelligence. While deep generative models have shown impressive performance in predicting future states, they often lack the modularity required for robust generalization and causal reasoning. In this work, we propose Variational Causal Dynamics (VCD), a framework for learning modular world models from observational and interventional data. VCD decomposes the world into a set of causal mechanisms, each represented by a latent variable, and learns to predict the dynamics of these mechanisms under interventions. We demonstrate that VCD can discover modular structures in complex environments and generalize to unseen interventions, outperforming existing methods in both predictive accuracy and causal interpretability.",
+    "archive": "OpenReview",
+    "extra": {
+      "Archive ID": "V9tQKYYNK1",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4283379183",
+      "Scholar": "DZ-fHPgAAAAJ:_ac38_dbCqIC"
+    },
+    "itemType": "document"
+  }
+}

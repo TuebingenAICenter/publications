@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Foundation models are increasingly being deployed in healthcare, but their black-box nature and tendency to hallucinate pose significant risks. We argue that current approaches to reliability are insufficient and that a new framework is needed to ensure the safe and effective use of these models in clinical practice.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4404224806",
+      "Scholar": "lPQLk3QAAAAJ:NJ774b8OgUMC"
+    },
+    "itemType": "journalArticle"
+  }
+}

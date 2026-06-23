@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The COVID-19 pandemic highlighted the need for rapid, accurate and scalable tools to support public health decision-making. Artificial intelligence (AI) and machine learning (ML) have emerged as powerful approaches for modelling infectious disease dynamics, offering the potential to improve our understanding of transmission, predict future trends and evaluate the impact of interventions. However, the integration of AI into public health practice remains challenging. Here we review the current state of AI-driven infectious disease modelling, highlighting its strengths, limitations and the critical barriers to its effective deployment. We discuss the importance of data quality, model interpretability, uncertainty quantification and the need for robust validation frameworks. We also outline a roadmap for the future, emphasizing the importance of interdisciplinary collaboration, ethical considerations and the development of AI tools that are transparent, equitable and actionable for public health authorities.",
+    "extra": {
+      "Citations@2026-06-01": "127",
+      "OpenAlex": "W4407722258",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:nELodgEtCAkC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 25</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 14</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

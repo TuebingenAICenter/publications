@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks are vulnerable to adversarial examples, which are inputs with small, human-imperceptible perturbations that cause the model to make incorrect predictions. Existing defenses against adversarial examples mainly focus on robust optimization, which often leads to a trade-off between standard accuracy and adversarial robustness. In this paper, we investigate the adversarial vulnerability of deep neural networks from a causal perspective. We show that adversarial examples are often caused by the model's reliance on non-robust features, which are statistically correlated with the label but are not causally related to it. We propose a causal framework for adversarial robustness, which aims to learn a model that relies on causal features. We further propose a method, called CausalAdv, to learn such a model. Experimental results on several benchmark datasets demonstrate that our method achieves state-of-the-art adversarial robustness while maintaining high standard accuracy.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2106.06196",
+    "extra": {
+      "Archive ID": "2106.06196",
+      "Citations@2026-06-01": "14",
+      "Event Place": "Virtual Conference",
+      "OpenAlex": "W4287120801",
+      "Scholar": "DZ-fHPgAAAAJ:9tlpF3L1tz4C"
+    },
+    "itemType": "document"
+  }
+}

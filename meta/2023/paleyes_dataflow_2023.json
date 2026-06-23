@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning systems are increasingly complex, often involving multiple interconnected components. Understanding the causal relationships between these components is crucial for debugging, maintenance, and ensuring the reliability of these systems. In this paper, we propose to treat dataflow graphs, which are commonly used to represent machine learning pipelines, as complete causal graphs. We argue that the dataflow graph, when augmented with appropriate metadata, can provide a comprehensive view of the causal dependencies within a machine learning system. We demonstrate the utility of this approach through a case study and discuss the implications for AI engineering.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2303.09552",
+    "extra": {
+      "Archive ID": "2303.09552",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4327811126",
+      "Pages": "7--12",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:0D2kpAuYNpwC"
+    },
+    "itemType": "document"
+  }
+}

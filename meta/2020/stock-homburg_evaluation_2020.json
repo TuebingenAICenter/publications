@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ACM/IEEE International Conference on Human-Robot Interaction",
+    "extra": {
+      "Editors": "Tony Belpaeme and James Young and Hatice Gunes and Laurel D. Riek",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
+  }
+}

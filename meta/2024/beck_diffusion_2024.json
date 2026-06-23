@@ -1,0 +1,59 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "hennig",
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Probabilistic numerical methods for ordinary differential equations (ODEs) provide a principled way to quantify uncertainty arising from numerical discretization. When used for parameter estimation in ODE-based models, they allow for a joint treatment of measurement noise and discretization error. However, the resulting posterior distributions are often highly non-convex and multimodal, making standard inference techniques like Markov chain Monte Carlo (MCMC) prone to getting stuck in local optima. We propose diffusion tempering, a novel sampling strategy that combines tempering with a diffusion-based transition kernel to improve exploration of the posterior. We demonstrate that diffusion tempering significantly improves the performance of probabilistic integrators for parameter estimation on a range of challenging ODE models, including systems with chaotic dynamics and high-dimensional parameter spaces.",
+    "archive": "arXiv",
+    "archiveLocation": "2402.12231",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:43:08",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=43HZG9zwaj"
+      },
+      {
+        "accessDate": "2025-06-17 19:43:08",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=43HZG9zwaj"
+      }
+    ],
+    "conferenceName": "41st International Conference on Machine Learning",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "Event Place": "Vienna, Austria",
+      "OpenAlex": "W4391988181",
+      "Scholar": "FKOqtF8AAAAJ:w_ORaKkuc5QC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 5</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

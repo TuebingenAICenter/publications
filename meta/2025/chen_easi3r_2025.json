@@ -1,0 +1,46 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Recent advances in DUSt3R have enabled robust estimation of dense point clouds and camera parameters of static scenes, leveraging Transformer network architectures and direct supervision on large-scale 3D datasets. In contrast, the limited scale and diversity of available 4D datasets present a major bottleneck for training a highly generalizable 4D model. This constraint has driven conventional 4D methods to fine-tune 3D models on scalable dynamic video data with additional geometric priors such as optical flow and depths. In this work, we take an opposite path and introduce Easi3R, a simple yet efficient training-free method for 4D reconstruction. Our approach applies attention adaptation during inference, eliminating the need for from-scratch pre-training or network fine-tuning. We find that the attention layers in DUSt3R inherently encode rich information about camera and object motion. By carefully disentangling these attention maps, we achieve accurate dynamic region segmentation, camera pose estimation, and 4D dense point map reconstruction. Extensive experiments on real-world dynamic videos demonstrate that our lightweight attention adaptation significantly outperforms previous state-of-the-art methods that are trained or finetuned on extensive dynamic datasets.",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2503.24391"
+      }
+    ],
+    "conferenceName": "International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W7160182465",
+      "Scholar": "SrVnrPcAAAAJ:i_7YvbSbtFEC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Easi3R_Estimating_Disentangled_Motion_from_DUSt3R_Without_Training_ICCV_2025_paper.html'>https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Easi3R_Estimating_Disentangled_Motion_from_DUSt3R_Without_Training_ICCV_2025_paper.html</a><br><a href='https://arxiv.org/abs/2503.24391'>https://arxiv.org/abs/2503.24391</a><br><a href='https://easi3r.github.io/'>https://easi3r.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

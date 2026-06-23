@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) has become a powerful tool for performing Bayesian inference in scientific models where the likelihood is intractable but the simulator is available. However, SBI often requires a large number of simulations, which can be prohibitively expensive for complex models. Multifidelity methods address this by leveraging a large number of cheap, low-fidelity simulations alongside a small number of expensive, high-fidelity simulations. In this work, we introduce a novel multifidelity SBI framework that learns to map low-fidelity simulations to high-fidelity ones, allowing for efficient posterior estimation. We demonstrate the effectiveness of our approach on several benchmarks and a complex climate model, showing that it can achieve significant speedups while maintaining high accuracy.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2502.08416",
+      "Source": "group_webpage (macke)",
+      "arXiv": "2502.08416"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

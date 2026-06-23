@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Genome-wide association studies (GWAS) have successfully identified thousands of genetic variants associated with complex traits and diseases. However, interpreting these findings remains challenging because most identified variants are located in non-coding regions, and the causal genes are often unknown. Network propagation (NP) methods have emerged as powerful tools to integrate GWAS results with molecular interaction networks to prioritize candidate genes. Despite their popularity, the diversity of available NP methods and the lack of standardized benchmarking make it difficult for researchers to choose the most appropriate approach for their specific study. In this review, we provide a comprehensive overview of NP methods for GWAS analysis. We categorize existing approaches based on their underlying mathematical framework and discuss their strengths and limitations. We also provide practical guidelines for selecting and applying NP methods, including considerations for network construction, data integration and parameter tuning. Finally, we highlight current challenges and future directions in the field, emphasizing the need for more robust and interpretable NP methods to advance our understanding of the genetic architecture of complex diseases.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "eprint": "https://academic.oup.com/bib/article-pdf/25/2/bbae014/56647573/bbae014.pdf"
+    },
+    "itemType": "journalArticle"
+  }
+}

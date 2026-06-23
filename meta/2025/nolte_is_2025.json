@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "This paper evaluates single-view mesh reconstruction models for their potential in enabling instant digital twin creation for real-time planning and dynamics prediction using physics simulators for robotic manipulation. Recent single-view 3D reconstruction advances offer a promising avenue toward an automated real-to-sim pipeline: directly mapping a single observation of a scene into a simulation instance by reconstructing scene objects as individual, complete, and physically plausible 3D meshes. However, their suitability for physics simulations and robotics applications under immediacy, physical fidelity, and simulation readiness remains underexplored. We establish robotics-specific benchmarking criteria for 3D reconstruction, including handling typical inputs, collision-free and stable geometry, occlusions robustness, and meeting computational constraints. Our empirical evaluation using realistic robotics datasets shows that despite success on computer vision benchmarks, existing approaches fail to meet robotics-specific requirements. We quantitively examine limitations of single-view reconstruction for practical robotics implementation, in contrast to prior work that focuses on multi-view approaches. Our findings highlight critical gaps between computer vision advances and robotics needs, guiding future research at this intersection.",
+    "archive": "arXiv",
+    "archiveLocation": "2505.17966",
+    "extra": {
+      "Archive ID": "2505.17966",
+      "Citations@2026-06-01": "4",
+      "Scholar": "SrVnrPcAAAAJ:tBlTYpvFGQIC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2505.17966'>https://arxiv.org/abs/2505.17966</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-17966.html'>https://dblp.org/rec/journals/corr/abs-2505-17966.html</a><br><a href='https://paperswithcode.com/paper/is-single-view-mesh-reconstruction-ready-for'>https://paperswithcode.com/paper/is-single-view-mesh-reconstruction-ready-for</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

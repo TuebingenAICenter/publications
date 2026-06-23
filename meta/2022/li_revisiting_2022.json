@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Channel pruning is a popular technique for compressing deep neural networks. While many sophisticated methods have been proposed to select important channels, recent studies suggest that simple pruning strategies can perform surprisingly well. In this paper, we revisit random channel pruning. We show that, contrary to common belief, random pruning can achieve competitive performance compared to state-of-the-art methods, provided that the pruned network is retrained properly. We conduct extensive experiments on various architectures and datasets, and demonstrate that random pruning is a strong baseline that should be considered in future research.",
+    "archive": "arXiv",
+    "archiveLocation": "2205.05676",
+    "conferenceName": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2205.05676"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

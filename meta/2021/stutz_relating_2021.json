@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Adversarial training is the state-of-the-art for training adversarially robust neural networks. However, it is well-known that adversarial training often leads to a significant drop in standard accuracy. In this paper, we investigate the relationship between adversarial robustness and the flatness of the loss landscape. We show that adversarial training indeed leads to flatter minima in terms of the loss landscape, but that this flatness is not sufficient to explain the gap between standard and robust generalization. We provide a theoretical analysis showing that the flatness of the loss landscape is related to the robustness of the model, but that this relationship is more complex than previously thought. We also provide extensive empirical evidence supporting our theoretical findings.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2104.04448",
+    "extra": {
+      "Citations@2026-06-01": "29",
+      "OpenAlex": "W3153582542",
+      "Scholar": "0ZAb3tsAAAAJ:QYdC8u9Cj1oC"
+    },
+    "itemType": "journalArticle"
+  }
+}

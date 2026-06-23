@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce the Cultural Alien Sampler (CAS), a framework for open-ended art generation that balances originality and coherence. By leveraging cultural evolution principles, CAS iteratively refines generated artifacts to maintain a balance between novelty and adherence to established aesthetic norms. We demonstrate the effectiveness of our approach through qualitative and quantitative evaluations, showing that CAS produces diverse and coherent art pieces that evolve over time.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.20849",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://openreview.net/forum?id=r87JCp93Vl"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417322606",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "DZ-fHPgAAAAJ:z9bEO1GD3pEC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=r87JCp93Vl'>https://openreview.net/forum?id=r87JCp93Vl</a><br><a href='https://neurips.cc/virtual/2025/129246'>https://neurips.cc/virtual/2025/129246</a><br><a href='https://arxiv.org/abs/2510.20849'>https://arxiv.org/abs/2510.20849</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

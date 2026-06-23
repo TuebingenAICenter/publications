@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Purpose: To introduce a novel method for magnetic resonance imaging (MRI) based on the concept of spread-spectrum (SS) communication. Methods: In SS-MRI, the radiofrequency (RF) excitation is modulated by a pseudo-random noise sequence, spreading the signal over a wide bandwidth. The image is reconstructed from the received signal using a matched filter or an iterative reconstruction algorithm. We demonstrate the feasibility of SS-MRI using numerical simulations and phantom experiments. Results: SS-MRI allows for high-speed imaging with reduced sensitivity to motion and susceptibility artifacts. The method is robust to noise and provides high-quality images even with low signal-to-noise ratios. Conclusion: SS-MRI is a promising technique for fast and robust MRI, with potential applications in clinical and research settings.",
+    "extra": {
+      "Citations@2026-06-01": "15",
+      "OpenAlex": "W2941910807",
+      "Scholar": "DZ-fHPgAAAAJ:Js6xCJvs_BkC"
+    },
+    "itemType": "journalArticle"
+  }
+}

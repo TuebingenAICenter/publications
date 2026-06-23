@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Disclosed is a method including receiving visual input comprising a human within a scene, detecting a pose associated with the human using a trained machine learning model that detects human poses to yield a first output, estimating a shape (and optionally a motion) associated with the human using a trained machine learning model associated that detects shape (and optionally motion) to yield a second output, recognizing the scene associated with the visual input using a trained convolutional neural network which determines information about the human and other objects in the scene to yield a third output, and augmenting reality within the scene by leveraging one or more of the first output, the second output, and the third output to place 2D and/or 3D graphics in the scene.",
+    "callNumber": "US Patent 10,529,137 B1",
+    "extra": {
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "report",
+    "reportType": "Patent"
+  }
+}

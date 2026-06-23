@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Intention recognition is a fundamental requirement for fluent human-robot interaction. In many scenarios, the human's intention is not directly observable and must be inferred from noisy sensor data. While previous approaches often rely on unimodal observations, humans naturally integrate information from multiple modalities to reduce uncertainty. In this paper, we propose a framework for intention recognition that combines information from multiple modalities based on their reliability. We model the human's intention as a latent variable and use a Bayesian framework to update the belief over the intention given multimodal observations. We evaluate our approach in a human-robot collaborative task where the human's intention is to reach for one of several objects. Our results show that the proposed multimodal approach significantly reduces uncertainty and improves the accuracy of intention recognition compared to unimodal baselines.",
+    "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "month_numeric": "11"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
+  }
+}

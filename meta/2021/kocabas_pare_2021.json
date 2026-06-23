@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Despite significant progress, state of the art 3D human pose and shape estimation methods remain sensitive to partial occlusion and can produce dramatically wrong predictions although much of the body is observable. To address this, we introduce a soft attention mechanism, called the Part Attention REgressor (PARE), that learns to predict body-part-guided attention masks. We observe that state-of-the-art methods rely on global feature representations, making them sensitive to even small occlusions. In contrast, PARE's part-guided attention mechanism overcomes these issues by exploiting information about the visibility of individual body parts while leveraging information from neighboring body-parts to predict occluded parts. We show qualitatively that PARE learns sensible attention masks, and quantitative evaluation confirms that PARE achieves more accurate and robust reconstruction results than existing approaches on both occlusion-specific and standard benchmarks.",
+    "conferenceName": "International Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W3156666908",
+      "Scholar": "6NjbexEAAAAJ:hNFvT5Kh_mEC",
+      "Source": "group_webpage (black)",
+      "arXiv": "2104.08527"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proc. International Conference on Computer Vision (ICCV)"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416329855",
+      "Scholar": "DZ-fHPgAAAAJ:0L9qyEHVNWwC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.10840'>https://arxiv.org/abs/2511.10840</a><br><a href='https://www.catalyzex.com/paper/tracing-multilingual-representations-in-llms'>https://www.catalyzex.com/paper/tracing-multilingual-representations-in-llms</a><br><a href='https://www.researchgate.net/publication/397662985_Tracing_Multilingual_Representations_in_LLMs_with_Cross-Layer_Transcoders'>https://www.researchgate.net/publication/397662985_Tracing_Multilingual_Representations_in_LLMs_with_Cross-Layer_Transcoders</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

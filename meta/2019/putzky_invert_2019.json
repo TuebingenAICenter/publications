@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Inverse problems are ubiquitous in science and engineering. They involve recovering an unknown signal from indirect, noisy measurements. Recently, deep learning has shown great promise in solving these problems by learning a mapping from measurements to signals. However, these methods often require large amounts of paired training data, which is frequently unavailable. In this paper, we propose a method to learn to solve inverse problems without paired data. We do this by learning to invert the forward model, which is often known. We show that by learning to invert the forward model, we can also learn to solve the inverse problem. We demonstrate the effectiveness of our method on several inverse problems, including image deblurring and super-resolution.",
+    "conferenceName": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)",
+    "extra": {
+      "Event Place": "Vancouver, Canada",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)"
+  }
+}

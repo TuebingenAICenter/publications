@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "There is growing excitement about the potential of Language Models (LMs) to accelerate scientific discovery. Falsifying hypotheses is key to scientific progress, as it allows claims to be iteratively refined over time. This process requires significant researcher effort, reasoning, and ingenuity. Yet current benchmarks for LMs predominantly assess their ability to generate solutions rather than challenge them. We advocate for developing benchmarks that evaluate this inverse capability — creating counterexamples for subtly incorrect solutions. To demonstrate this approach, we start with the domain of algorithmic problem solving, where counterexamples can be evaluated automatically using code execution. Specifically, we introduce REFUTE, a dynamically updating benchmark that includes recent problems and incorrect submissions from programming competitions, where human experts successfully identified counterexamples. Our analysis finds that the best reasoning agents, even OpenAI o3-mini (high) with code execution feedback, can create counterexamples for only 9% of incorrect solutions in REFUTE, even though ratings indicate its ability to solve up to 48% of these problems from scratch. We hope our work spurs progress in evaluating and enhancing LMs’ ability to falsify incorrect solutions — a capability that is crucial for both accelerating research and making models self-improve through reliable reflective reasoning.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.19414",
+    "conferenceName": "Second Conference on Language Modeling",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W4416045170",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "206vNCEAAAAJ:7T2F9Uy0os0C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://iclr.cc/virtual/2025/10000493'>https://iclr.cc/virtual/2025/10000493</a><br><a href='https://iclr.cc/virtual/2025/workshop/23971'>https://iclr.cc/virtual/2025/workshop/23971</a><br><a href='https://sites.google.com/berkeley.edu/selfimprovingfoundationmodels/accepted-papers'>https://sites.google.com/berkeley.edu/selfimprovingfoundationmodels/accepted-papers</a><br><a href='https://arxiv.org/abs/2502.19414'>https://arxiv.org/abs/2502.19414</a><br><a href='https://falsifiers.github.io/'>https://falsifiers.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Second Conference on Language Modeling"
+  }
+}

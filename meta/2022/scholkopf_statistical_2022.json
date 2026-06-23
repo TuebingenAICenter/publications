@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning has been remarkably successful at finding statistical patterns in large datasets. However, these patterns often fail to generalize when the environment changes, because they do not capture the underlying causal structure of the world. In this paper, we argue that moving from statistical to causal learning is a necessary step for the next generation of AI systems. We review the foundations of causal inference, discuss how they can be integrated into machine learning, and highlight the potential of causal models to improve robustness, interpretability, and data efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2204.00607",
+    "extra": {
+      "Archive ID": "2204.00607",
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4224864030",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:WCWDm03BpewC"
+    },
+    "itemType": "document"
+  }
+}

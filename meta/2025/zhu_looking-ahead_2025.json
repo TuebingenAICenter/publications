@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Learning platforms often rely on algorithmic recommendations to guide users through educational content. While these systems are typically designed to optimize immediate engagement or performance, they may inadvertently shape the long-term learning trajectories of users. In this work, we study the impact of recommendation policies on user learning outcomes by modeling the interaction as a sequential decision-making problem. We introduce a framework for 'looking-ahead' reasoning, where the platform anticipates the future consequences of its recommendations on the user's knowledge state. We characterize the conditions under which looking-ahead policies improve long-term learning compared to myopic baselines and provide empirical evidence on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2511.14745",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Reporter": "NeurIPS 2025, 2025",
+      "Scholar": "UqtDdZUAAAAJ:RGFaLdJalmkC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.14745'>https://arxiv.org/abs/2511.14745</a><br><a href='https://neurips.cc/virtual/2025/poster/119768'>https://neurips.cc/virtual/2025/poster/119768</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

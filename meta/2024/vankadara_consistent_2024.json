@@ -1,0 +1,59 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "In causal inference, confounding is a major obstacle to identifying causal effects from observational data. While many methods exist to adjust for confounding, they often rely on the assumption of no unobserved confounding. In this paper, we propose a new estimator for the strength of unobserved confounding. Our estimator is based on the idea of comparing the observed association between treatment and outcome with the association that would be expected if there were no unobserved confounding. We prove that our estimator is consistent under mild conditions and demonstrate its performance on synthetic and real-world data. Our results show that the estimator is robust to various forms of confounding and provides a reliable measure of confounding strength.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2211.01903",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:26",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://ems.press/content/serial-article-files/48840"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:26",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://ems.press/content/serial-article-files/48840"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403375201",
+      "Scholar": "mMifMdoAAAAJ:NXb4pA-qfm4C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

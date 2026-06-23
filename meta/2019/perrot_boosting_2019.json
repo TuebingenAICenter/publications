@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In comparison-based learning, the goal is to learn a representation or a classifier from triplet comparisons of the form 'object A is more similar to object B than to object C'. While many algorithms have been proposed for this setting, most of them are batch algorithms that do not scale well to large datasets. In this paper, we propose a boosting approach for comparison-based learning. Our algorithm, TripletBoost, iteratively learns a linear combination of simple comparison-based base learners. We provide a theoretical analysis of the convergence of the algorithm and show that it is consistent under mild conditions. Furthermore, we demonstrate that TripletBoost achieves state-of-the-art performance on several benchmark datasets while being significantly faster than existing methods.",
+    "archive": "arXiv",
+    "archiveLocation": "1810.13333",
+    "conferenceName": "IJCAI",
+    "extra": {
+      "Source": "group_webpage (luxburg)",
+      "arXiv": "1810.13333"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose the Homomorphism Autoencoder (HAE), a framework for learning group-structured representations of dynamical systems from observed transitions. By leveraging the concept of group homomorphisms, our model learns to map the state space of a system to a latent space where the dynamics are governed by a group action. This allows the model to capture the underlying symmetries and structural properties of the system, leading to more interpretable and robust representations. We demonstrate the effectiveness of our approach on various tasks, including learning representations of physical systems and grid-world environments, showing that HAE outperforms existing methods in terms of both reconstruction accuracy and the ability to recover the underlying group structure.",
+    "archive": "arXiv",
+    "archiveLocation": "2207.12067",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4288055124",
+      "Scholar": "DZ-fHPgAAAAJ:f057YpkZU4oC"
+    },
+    "itemType": "journalArticle"
+  }
+}

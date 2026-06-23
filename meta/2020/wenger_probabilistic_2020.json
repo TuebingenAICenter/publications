@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Many machine learning problems require the solution of large-scale linear systems. Standard iterative solvers provide a point estimate of the solution. However, in many settings, it is beneficial to quantify the uncertainty about the solution, for example, to inform subsequent decisions or to propagate errors. Probabilistic linear solvers treat the solution of a linear system as an inference problem, providing a posterior distribution over the solution. In this paper, we review the state of the art in probabilistic linear solvers, discuss their theoretical properties, and demonstrate their utility in machine learning applications, including Gaussian process regression and Bayesian optimization.",
+    "conferenceName": "Advances in Neural Information Processing Systems 33",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Code": "https://github.com/JonathanWenger/probabilistic-linear-solvers-for-ml",
+      "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "OpenAlex": "W3093357505",
+      "Scholar": "UeG5w08AAAAJ:eJXPG6dFmWUC",
+      "Source": "group_webpage (schoelkopf)",
+      "Video": "https://www.youtube.com/watch?v=3_1JE91g_3E&feature=youtu.be"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 33"
+  }
+}

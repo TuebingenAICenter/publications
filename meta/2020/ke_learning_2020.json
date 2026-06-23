@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Causal discovery from observational data is a notoriously difficult problem, as the causal structure is generally not identifiable without strong assumptions. Interventional data can help, but in many real-world scenarios, the interventions are unknown or only partially known. In this paper, we propose a framework for learning causal models from data where the interventions are unknown. We introduce a latent variable model that jointly learns the causal structure and the intervention targets. We demonstrate that our approach can recover the true causal structure in synthetic data and outperforms existing methods on real-world benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "1910.01075",
+    "extra": {
+      "Citations@2026-06-01": "227",
+      "Scholar": "DZ-fHPgAAAAJ:5PnCxSpcA8MC",
+      "arXiv": "1910.01075"
+    },
+    "itemType": "journalArticle"
+  }
+}

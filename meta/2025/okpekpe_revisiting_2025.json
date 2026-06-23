@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Associative recall is a fundamental task for evaluating the memory capabilities of sequence models. While Transformers are known to excel at this task, the performance of modern recurrent models (such as SSMs and RNNs) remains less understood. In this work, we revisit associative recall in modern recurrent models. We show that standard recurrent architectures struggle with associative recall due to their limited state capacity and the way they process information. We propose a simple modification to these models that significantly improves their associative recall performance, enabling them to match or outperform Transformers on this task. Our findings suggest that the limitations of recurrent models in associative recall are not inherent to their recurrent nature but rather to their specific architectural design.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2508.19029",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415280671",
+      "Publisher": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:NaGl4SEjCO4C"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

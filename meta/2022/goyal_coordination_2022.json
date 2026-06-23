@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The ability to decompose a complex task into simpler, reusable sub-tasks is a hallmark of human intelligence. In the context of deep learning, this suggests a modular architecture where different modules specialize in different sub-tasks. However, a key challenge is how to coordinate these modules to solve a given task. In this paper, we propose a novel architecture, the Global Workspace (GW), which acts as a communication bottleneck between a set of specialized modules. The GW allows modules to read from and write to a shared memory, enabling them to coordinate their actions. We show that our proposed architecture can learn to solve complex tasks by decomposing them into sub-tasks, and that the learned modules are reusable across different tasks. We evaluate our approach on a variety of tasks, including multi-task reinforcement learning and image classification, and show that it outperforms existing modular architectures.",
+    "conferenceName": "The Tenth International Conference on Learning Representations (ICLR 2022)",
+    "extra": {
+      "Event Place": "Virtual Conference",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Tenth International Conference on Learning Representations (ICLR 2022)"
+  }
+}

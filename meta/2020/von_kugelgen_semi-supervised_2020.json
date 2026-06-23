@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Semi-supervised learning (SSL) aims to improve predictive performance by leveraging unlabeled data. A common assumption in SSL is the cluster assumption, which states that the decision boundary should lie in low-density regions of the marginal distribution of the input. In this paper, we investigate the cluster assumption from a causal perspective. We show that the validity of the cluster assumption depends on the causal direction between the input and the target variable. Specifically, we argue that the cluster assumption is more likely to hold when the causal direction is from the input to the target, and less likely when it is from the target to the input. We formalize this intuition by introducing the conditional cluster assumption, which relates the cluster assumption to the causal structure of the data-generating process. We provide theoretical and empirical evidence supporting our claims.",
+    "archive": "arXiv",
+    "archiveLocation": "1905.12081",
+    "extra": {
+      "Archive ID": "1905.12081",
+      "Citations@2026-06-01": "5",
+      "Note": "also at NeurIPS 2019 Workshop Do the right thing: machine learning and causal inference for improved decision making",
+      "OpenAlex": "W4298170872",
+      "Pages": "1--10",
+      "Scholar": "DZ-fHPgAAAAJ:OzO231GTI64C",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "124"
+    },
+    "itemType": "document"
+  }
+}

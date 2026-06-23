@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are increasingly used as agents in social interactions. However, it remains unclear whether they can engage in strategic, long-term social interaction. Here we show that LLMs can play repeated games—a cornerstone of social psychology and game theory—at a level comparable to or better than humans. We test LLMs across a range of repeated games, including the prisoner’s dilemma, the stag hunt and the snowdrift game. We find that LLMs can adapt their strategies to different opponents, learn from past interactions and cooperate in social dilemmas. Our results suggest that LLMs are capable of sophisticated social reasoning and can be used to study human social behaviour in a controlled, scalable and reproducible manner.",
+    "extra": {
+      "Citations@2026-06-01": "37",
+      "OpenAlex": "W4378718176",
+      "Scholar": "kmXOOdsAAAAJ:GnPB-g6toBAC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://www.nature.com/articles/s41562-025-02172-y'>https://www.nature.com/articles/s41562-025-02172-y</a><br><a href='https://pubmed.ncbi.nlm.nih.gov/40341716/'>https://pubmed.ncbi.nlm.nih.gov/40341716/</a><br><a href='https://arxiv.org/abs/2305.16867'>https://arxiv.org/abs/2305.16867</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

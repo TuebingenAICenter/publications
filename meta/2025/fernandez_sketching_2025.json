@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415332589",
+      "Scholar": "UeG5w08AAAAJ:4hFrxpcac9AC"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.23587'>https://arxiv.org/abs/2509.23587</a><br><a href='https://fdangel.com/cv/cv.html'>https://fdangel.com/cv/cv.html</a><br><a href='https://researchtrend.ai/papers/2509.23587'>https://researchtrend.ai/papers/2509.23587</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

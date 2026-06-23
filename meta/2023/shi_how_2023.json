@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Unsupervised representation learning (URL) has achieved remarkable success in learning useful features from large-scale unlabeled data. However, a critical question remains: how robust are these learned representations to distribution shifts? In this paper, we conduct a systematic empirical study to evaluate the robustness of various URL methods under different types of distribution shifts. We find that while URL methods generally outperform supervised learning under distribution shift, their performance is highly sensitive to the choice of the pretext task and the architecture. Furthermore, we observe that the robustness of URL methods is not necessarily correlated with their performance on the original distribution. Our findings suggest that current URL methods are not inherently robust to distribution shift and highlight the need for more robust representation learning objectives.",
+    "conferenceName": "The Eleventh International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Event Place": "Kigali Rwanda",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Eleventh International Conference on Learning Representations (ICLR)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a new method to analyze multi-subject neuroimaging data, such as fMRI recordings. Our approach, MultiView ICA, assumes that each subject's data is a linear mixture of some shared components and subject-specific noise. We show that under mild conditions, the shared components can be recovered by maximizing the independence of the estimated sources across subjects. We provide a fast algorithm to solve this problem, and demonstrate its effectiveness on both synthetic and real fMRI data, where it outperforms standard methods like Group ICA or Procrustes-based alignment.",
+    "conferenceName": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+    "extra": {
+      "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
+  }
+}

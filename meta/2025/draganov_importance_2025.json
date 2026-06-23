@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised learning (SSL) methods often rely on contrastive or non-contrastive objectives to learn representations. While the role of the alignment and uniformity of embeddings is well-studied, the role of the embedding norm is often overlooked. In this work, we investigate the importance of embedding norms in SSL. We show that the norm of the embeddings is not just a nuisance parameter but carries significant information about the data. We demonstrate that standard SSL methods often suffer from a collapse of the embedding norms, which can be mitigated by simple architectural or objective modifications. We further show that preserving the norm information leads to improved performance on downstream tasks and better robustness to distribution shifts.",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (berens)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning"
+  }
+}

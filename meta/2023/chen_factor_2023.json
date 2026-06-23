@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present Factor Fields, a novel framework for modeling and representing signals. Factor Fields decomposes a signal into a product of factors, each represented by a classical or neural field representation which operates on transformed input coordinates. This decomposition results in a unified framework that accommodates several recent signal representations including NeRF, Plenoxels, EG3D, Instant-NGP, and TensoRF. Additionally, our framework allows for the creation of powerful new signal representations, such as the \"Dictionary Field\" (DiF) which is a second contribution of this paper. Our experiments show that DiF leads to improvements in approximation quality, compactness, and training time when compared to previous fast reconstruction methods. Experimentally, our representation achieves better image approximation quality on 2D image regression tasks, higher geometric quality when reconstructing 3D signed distance fields, and higher compactness for radiance field reconstruction tasks. Furthermore, DiF enables generalization to unseen images/3D scenes by sharing bases across signals during training which greatly benefits use cases such as image regression from sparse observations and few-shot radiance field reconstruction.",
+    "archive": "arXiv",
+    "archiveLocation": "2302.01226",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W4319166037",
+      "Scholar": "SrVnrPcAAAAJ:tz746QTLzJkC"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Disentangled representations are often hypothesized to be a useful starting point for downstream tasks, such as abstract visual reasoning. In this paper, we investigate this hypothesis by evaluating a wide range of state-of-the-art disentanglement methods on the recently proposed Abstract Reasoning Dataset (RAVEN). We find that, contrary to common belief, there is no clear correlation between the disentanglement metrics and the performance on the reasoning task. Furthermore, we show that even the best-performing disentangled models do not consistently outperform simple baselines, suggesting that current disentanglement methods may not be capturing the structural information required for abstract visual reasoning.",
+    "conferenceName": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)",
+    "extra": {
+      "Editors": "H. Wallach and H. Larochelle and A. Beygelzimer and F. d'Alche-Buc and E. Fox and R. Garnett",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)"
+  }
+}

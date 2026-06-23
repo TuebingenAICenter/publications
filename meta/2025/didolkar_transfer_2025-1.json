@@ -1,0 +1,50 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2408.09162v1"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Preprint Title: Zero-Shot Object-Centric Representation Learning</p>\n</div>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+  }
+}

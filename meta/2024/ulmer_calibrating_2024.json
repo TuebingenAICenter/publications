@@ -1,0 +1,54 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are often poorly calibrated: their confidence scores do not reflect the true probability of correctness. Existing calibration methods typically require access to the model's logit outputs or a labeled calibration dataset, which are often unavailable for proprietary models. We propose a novel calibration method that relies solely on the model's generated text. Our approach, which we call Generation-based Calibration (GenCal), uses the model's own generations to estimate its confidence. We show that GenCal significantly improves the calibration of various LLMs across a range of tasks, including question answering and summarization, without requiring any additional training or access to the model's internal states.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2403.05973",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:00:03",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.05973v1"
+      }
+    ],
+    "conferenceName": "ACL",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4392737039",
+      "Scholar": "kmXOOdsAAAAJ:ldfaerwXgEUC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 24</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 24</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  }
+}

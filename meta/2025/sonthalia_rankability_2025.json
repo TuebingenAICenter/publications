@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Visual embeddings are ubiquitous in modern computer vision, serving as the foundation for tasks ranging from image retrieval to zero-shot classification. While these embeddings are often evaluated on downstream tasks, there is a lack of understanding of their intrinsic properties. In this work, we introduce the concept of rankability: the extent to which the relative order of similarities between embeddings aligns with the relative order of semantic distances. We propose a metric to quantify rankability and demonstrate that it is a strong predictor of downstream performance across various tasks and architectures. We further analyze the factors that influence rankability, such as the training objective and the data distribution, and show that rankability can be improved through simple post-processing techniques. Our findings provide a new perspective on the evaluation and design of visual embeddings.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.03683",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.03683?"
+      }
+    ],
+    "conferenceName": "Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Scholar": "kmXOOdsAAAAJ:_xSYboBqXhAC",
+      "arXiv": "2507.03683"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=sPbsnUCyNt'>https://openreview.net/forum?id=sPbsnUCyNt</a><br><a href='https://neurips.cc/virtual/2025/poster/115697'>https://neurips.cc/virtual/2025/poster/115697</a><br><a href='https://arxiv.org/abs/2507.03683'>https://arxiv.org/abs/2507.03683</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

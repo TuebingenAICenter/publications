@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Membership inference attacks (MIAs) aim to determine whether a specific data point was used to train a machine learning model. While MIAs have been extensively studied for classification models, their application to large language models (LLMs) remains under-explored. In this work, we propose a novel MIA for LLMs based on the intuition that a model's loss on a training sample is lower than on its neighbours in the data space. We introduce a neighbourhood comparison attack that compares the loss of a target sample to the loss of its perturbed versions. Our method is model-agnostic, requires no access to the training process, and does not require a reference model trained on a similar distribution. We evaluate our attack on a variety of LLMs and datasets, demonstrating that it consistently outperforms existing baselines, especially in the low-false-positive regime.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4378942358",
+      "Pages": "11330--11343",
+      "Scholar": "DZ-fHPgAAAAJ:rxY-6i_7_qkC"
+    },
+    "itemType": "document"
+  }
+}

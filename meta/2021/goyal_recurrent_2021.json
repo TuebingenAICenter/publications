@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The ability to generalize to out-of-distribution data is a hallmark of human intelligence. We hypothesize that this ability is linked to the modular structure of the world, where different causal mechanisms operate independently. In this paper, we propose Recurrent Independent Mechanisms (RIMs), a modular recurrent neural network architecture where the hidden state is partitioned into multiple independent mechanisms that compete to process information. We show that RIMs are more robust to out-of-distribution data and can learn to ignore irrelevant information, leading to better generalization. We evaluate RIMs on a variety of tasks, including synthetic reasoning tasks, language modeling, and reinforcement learning, and show that they outperform standard recurrent architectures.",
+    "extra": {
+      "Citations@2026-06-01": "80",
+      "OpenAlex": "W2976023236",
+      "Scholar": "DZ-fHPgAAAAJ:HoRspIuzbTgC"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Disentanglement learning aims to separate the independent factors of variation in data. Recent theoretical results show that unsupervised disentanglement is impossible without inductive biases on both the models and the data. In this paper, we investigate the role of weak supervision in the form of data pairs that share a subset of their factors of variation. We show that this form of supervision is sufficient to identify the independent factors of variation for a broad range of models. We propose a simple and effective approach to leverage such data pairs and demonstrate that it leads to state-of-the-art disentanglement performance on several benchmarks. Our results suggest that weak supervision is a powerful and practical tool for disentanglement learning.",
+    "extra": {
+      "Citations@2026-06-01": "96",
+      "Editors": "Hal Daumé III and Aarti Singh",
+      "OpenAlex": "W3005031238",
+      "Scholar": "DZ-fHPgAAAAJ:IjboPtdrXSsC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "119"
+    },
+    "itemType": "document"
+  }
+}

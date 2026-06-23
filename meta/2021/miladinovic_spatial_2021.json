@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Generative image models often rely on autoregressive architectures to capture the complex dependencies between pixels. While powerful, these models are computationally expensive due to their sequential nature. We propose Spatial Dependency Networks (SDNs), a novel neural layer that models spatial dependencies by learning a set of local, spatially-varying filters. SDNs can be integrated into existing generative architectures to improve their modeling capabilities while maintaining computational efficiency. We demonstrate the effectiveness of SDNs on a variety of generative modeling tasks, including image synthesis and density estimation, where they consistently outperform or match state-of-the-art methods.",
+    "conferenceName": "The 9th International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Event Place": "Virtual Conference",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The 9th International Conference on Learning Representations (ICLR)"
+  }
+}

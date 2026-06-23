@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The contextual cueing effect is a well-known phenomenon in visual search, where search performance is faster for repeated displays compared to novel displays. It is often claimed that this effect is implicit, meaning that it occurs without the observer's conscious knowledge of the repeated displays. However, this claim has been challenged by several studies. In this paper, we re-examine the evidence for implicit contextual cueing. We conducted a large-scale experiment with a design that allowed us to measure both search performance and explicit recognition of the repeated displays. Our results show that the contextual cueing effect is strongly correlated with explicit recognition. When we controlled for explicit recognition, the contextual cueing effect disappeared. These findings suggest that the contextual cueing effect may not be as implicit as previously thought and that explicit knowledge of the repeated displays plays a crucial role in the effect.",
+    "extra": {
+      "Citations@2026-06-01": "17",
+      "OpenAlex": "W4387674130",
+      "Scholar": "mMifMdoAAAAJ:fFSKOagxvKUC"
+    },
+    "itemType": "journalArticle"
+  }
+}

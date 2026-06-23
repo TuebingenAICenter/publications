@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Anatomical tracking in medical image data is a fundamental task for many clinical applications. While deep learning-based approaches have shown great potential, they typically require large amounts of manually annotated data, which is time-consuming and expensive to obtain. In this work, we propose a self-supervised learning framework for automated anatomical tracking that minimizes the need for human labeling. Our approach leverages the temporal consistency of anatomical structures in image sequences to learn robust representations without explicit supervision. We demonstrate the effectiveness of our method on multiple datasets, showing that it achieves competitive performance compared to fully supervised approaches while requiring only a fraction of the labeled data.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

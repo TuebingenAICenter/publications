@@ -1,0 +1,36 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "High-contrast imaging (HCI) is a powerful technique for the direct detection of exoplanets. However, the sensitivity of HCI is limited by quasi-static speckles, which are diffraction artifacts that mimic the appearance of planets. To mitigate these, various post-processing algorithms have been developed, often relying on principal component analysis (PCA) or neural networks. While these methods are effective at removing speckles, they often suffer from over-subtraction, where the planetary signal is also attenuated or distorted. In this work, we introduce the Signal-Safe Speckle Subtraction (4S), a novel post-processing framework based on explainable machine learning. 4S is designed to identify and remove speckles while preserving the planetary signal. We demonstrate the effectiveness of 4S by re-analyzing archival VLT/NACO data of the AF Lep system from 2011. We show that 4S successfully recovers the giant exoplanet AF Lep b, which was previously undetected in this dataset. Our results highlight the potential of explainable machine learning to improve the sensitivity and reliability of HCI observations.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2406.01809",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4399405976",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:BgA9TAIr_78C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 3</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

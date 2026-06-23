@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study online convex optimization with adversarial nonlinear constraints. In this setting, a learner aims to minimize a sequence of convex loss functions while satisfying a sequence of nonlinear constraints that are revealed sequentially. We propose a novel algorithm that achieves sublinear regret and sublinear constraint violation. Our algorithm is based on a primal-dual approach that uses a regularized Lagrangian. We provide a theoretical analysis of the regret and constraint violation bounds, and we demonstrate the effectiveness of our approach on several numerical examples.",
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=N6YNe4KxDc",
+    "extra": {
+      "Archive ID": "N6YNe4KxDc",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4379924865",
+      "Scholar": "b-JF-UIAAAAJ:_Re3VWB3Y0AC"
+    },
+    "itemType": "document"
+  }
+}

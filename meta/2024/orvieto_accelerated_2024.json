@@ -1,0 +1,58 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We provide a new Lyapunov function for Polyak’s Heavy-ball method applied to convex quadratic functions. This Lyapunov function is 'accelerated' in the sense that it directly captures the optimal convergence rate of the method, which is faster than the standard rate of gradient descent. We show that this Lyapunov function can be used to provide a simple and direct proof of the convergence of the Heavy-ball method, and we discuss its implications for the design of new optimization algorithms.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007%2Fs11590-024-02119-8.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007%2Fs11590-024-02119-8.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4400018600",
+      "Publisher": "Springer",
+      "Scholar": "xkuLyHoAAAAJ:4DMP91E08xMC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

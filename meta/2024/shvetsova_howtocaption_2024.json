@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large-scale video datasets are essential for training modern video models. However, annotating such data is expensive and time-consuming. While existing datasets often provide instructional or procedural text, these annotations are frequently noisy, inconsistent, or lack the level of detail required for training complex models. In this work, we propose HowToCaption, a framework that leverages Large Language Models (LLMs) to transform existing, noisy video annotations into high-quality, descriptive captions at scale. Our approach utilizes a multi-stage prompting strategy that refines, expands, and structures the original text, resulting in captions that are more informative and better aligned with the visual content. We demonstrate the effectiveness of our method by generating captions for the HowTo100M dataset and show that models trained on these captions achieve superior performance on various downstream tasks, including video-text retrieval and video captioning. Our generated captions and the code to reproduce our results are publicly available.",
+    "archive": "arXiv",
+    "archiveLocation": "2310.04900",
+    "conferenceName": "European Conference on Computer Vision",
+    "extra": {
+      "Citations@2026-06-01": "46",
+      "Scholar": "pxhCcH0AAAAJ:l7t_Zn2s7bgC",
+      "Source": "group_webpage (kuehne)",
+      "arXiv": "2310.04900"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the European Conference on Computer Vision (ECCV)"
+  }
+}

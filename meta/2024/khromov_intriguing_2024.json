@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Lipschitz continuity is a fundamental property of neural networks, often used to guarantee robustness, stability, and generalization. In this work, we revisit the Lipschitz constant of neural networks and uncover several intriguing aspects. First, we show that for a wide class of activation functions, the Lipschitz constant of a neural network is not just a property of the weights, but is also heavily influenced by the input domain. Second, we demonstrate that the standard practice of bounding the Lipschitz constant by the product of the spectral norms of the weight matrices can be extremely loose, and we provide tighter bounds. Finally, we propose a novel method for estimating the Lipschitz constant of a neural network that is both computationally efficient and accurate.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2302.10886",
+    "conferenceName": "The Twelfth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations (ICLR)"
+  }
+}

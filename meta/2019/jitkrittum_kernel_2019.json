@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Generative Adversarial Networks (GANs) are powerful generative models capable of producing high-quality images. However, they are typically black-box models: given a trained generator, it is difficult to find a latent code that produces an image with specific desired features. In this paper, we propose a method to make GANs content-addressable. Given a target image or a set of images, we want to find a latent code that generates an image similar to the target. We formulate this as a kernel mean matching problem in the latent space. We show that our method is effective for finding latent codes that produce images with desired attributes, and for performing image-to-image translation tasks.",
+    "archive": "Proceedings of Machine Learning Research",
+    "archiveLocation": "vol. 97, pp. 3140--3151",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W2946195064",
+      "Scholar": "DZ-fHPgAAAAJ:GOCRXhlsxu4C"
+    },
+    "itemType": "document"
+  }
+}

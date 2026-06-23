@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "How do groups of individuals balance the trade-off between exploring for new information and exploiting known resources? While collective search can be more efficient than individual search, it also introduces the problem of free-riding, where individuals benefit from the information provided by others without contributing their own. We investigate the evolutionary dynamics of cooperation in a collective search task using an agent-based model. We find that cooperation is highly sensitive to the cost of information sharing and the structure of the environment. When the environment is stable, cooperation is easily maintained. However, when the environment is dynamic, cooperation is more fragile and requires specific conditions to persist. Our results provide insights into the conditions that promote or hinder the evolution of cooperation in collective search.",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Code+data": "https://github.com/alantump/adaptiveSharingEvolution",
+      "Scholar": "1O2hcVgAAAAJ:MXK_kJrjxJIC"
+    },
+    "itemType": "journalArticle"
+  }
+}

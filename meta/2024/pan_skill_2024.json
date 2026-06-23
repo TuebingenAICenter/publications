@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In many domains, observed outcomes are the result of a combination of skill and luck. Distinguishing between these two factors is crucial for performance evaluation, decision-making, and learning. In this paper, we propose a framework for decomposing returns into skill and luck components using advantage functions. We show that the advantage function, which measures the expected improvement over a baseline, naturally captures the skill component of a return. We demonstrate the effectiveness of our approach in various settings, including sports, finance, and reinforcement learning, and show that it provides a more robust and interpretable measure of skill than traditional methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2402.12874",
+    "extra": {
+      "Archive ID": "2402.12874",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4392012690",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:_DXyGQxYymYC"
+    },
+    "itemType": "document"
+  }
+}

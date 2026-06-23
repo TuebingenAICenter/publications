@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a method for the inference of Markovian quantum master equations for few-body observables in interacting many-body systems. The approach relies on the observation of the time evolution of a set of local observables and the subsequent reconstruction of the generator of the dynamics. We demonstrate the effectiveness of our method by applying it to a one-dimensional spin chain, where we show that it is possible to accurately learn the master equation even in the presence of strong interactions and for systems that are not in the weak-coupling regime. Our results suggest that this framework is a powerful tool for the characterization of the dynamics of open quantum systems and for the development of reduced-order models for complex quantum many-body dynamics.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4221154095",
+      "Scholar": "b-JF-UIAAAAJ:SdhP9T11ey4C"
+    },
+    "itemType": "document"
+  }
+}

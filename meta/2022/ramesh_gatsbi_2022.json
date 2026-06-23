@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but simulation is possible. Recent approaches to SBI have focused on learning conditional density estimators, such as normalizing flows, to approximate the posterior distribution. However, these methods often struggle with high-dimensional data or complex, multi-modal posteriors. We propose GATSBI, a framework for SBI that leverages generative adversarial networks (GANs) to learn the posterior distribution. By framing SBI as a conditional density estimation problem, GATSBI can handle complex, high-dimensional data and provides a flexible way to incorporate prior knowledge. We demonstrate the effectiveness of GATSBI on several benchmark problems and show that it outperforms existing SBI methods in terms of accuracy and robustness.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2203.06481",
+    "conferenceName": "The Tenth International Conference on Learning Representations (ICLR 2022)",
+    "extra": {
+      "Archive ID": "2203.06481",
+      "Citations@2026-06-01": "6",
+      "Event Place": "Virtual Conference",
+      "OpenAlex": "W4221149707",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:h-xndbdg2koC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "The Tenth International Conference on Learning Representations (ICLR 2022)"
+  }
+}

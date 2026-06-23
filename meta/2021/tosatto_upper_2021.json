@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Nadaraya-Watson estimator is a well-known non-parametric method for regression. While its asymptotic properties are well-studied, finite-sample bounds are often loose or require strong assumptions. In this paper, we derive a new upper bound on the bias of the Nadaraya-Watson estimator under the assumption that the regression function is Lipschitz continuous. We show that this bound is tighter than existing ones and holds for a wide range of kernel functions. We also provide a discussion on the implications of our result for the choice of the bandwidth parameter.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

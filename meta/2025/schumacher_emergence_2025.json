@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Humans show unparalleled ability when maneuvering diverse terrains. While reinforcement learning (RL) has shown great promise for musculoskeletal simulation in the development of robust controllers, complex behaviors are only achievable under extensive use of motion data. We demonstrate that the combination of a recent RL algorithm with a biologically plausible reward is capable of learning controllers for 4 different musculoskeletal models and achieves locomotion with up to 90 muscles without demonstrations. Our controllers generalize to diverse and unseen terrains, while only a single adaptive objective function is needed for training. We validate our findings on four models in two different simulators. The RL agents perform robustly with complex 3D models, where reflex-controllers are difficult to apply, and produce close-to-natural motion. This is a first step for the motor control, biomechanics, and rehabilitation communities to generate complex human movements with RL, without using motion data or simple unrepresentative models.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4408318418",
+      "Scholar": "b-JF-UIAAAAJ:q3CdL3IzO_QC",
+      "arXiv": "2309.02976"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

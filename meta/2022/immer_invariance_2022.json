@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks are often required to be invariant to certain transformations of the input. While data augmentation is the standard approach to enforce such invariances, it can be computationally expensive and does not guarantee exact invariance. In this work, we propose a method to learn invariant representations by marginalizing over the transformation group using a differentiable Laplace approximation. Our approach allows for efficient training and provides a principled way to incorporate prior knowledge about invariances. We demonstrate the effectiveness of our method on several benchmarks, showing that it achieves competitive performance while being more robust to distribution shifts.",
+    "conferenceName": "Advances in Neural Information Processing Systems",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2202.10638"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 35"
+  }
+}

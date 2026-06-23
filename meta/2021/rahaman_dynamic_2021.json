@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose Neural Interpreters, a framework for modular and compositional computation. Neural Interpreters consist of a set of reusable neural modules and a controller that dynamically selects and executes these modules to solve a given task. This allows the model to adapt its computation to the input, leading to improved generalization and interpretability. We demonstrate the effectiveness of our approach on a variety of tasks, including symbolic reasoning, image classification, and reinforcement learning, where it outperforms monolithic baselines and existing modular architectures.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W3214485347",
+      "Scholar": "DZ-fHPgAAAAJ:zSm6S6IE-zAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

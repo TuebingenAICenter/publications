@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Adversarial Vision Challenge (AVC) was a competition held at NeurIPS 2018. The goal of the challenge was to foster the development of robust image classification models and to better understand the vulnerability of such models to adversarial perturbations. The challenge consisted of three tracks: (1) Untargeted Adversarial Attack, (2) Targeted Adversarial Attack, and (3) Robust Model Defense. In this paper, we describe the design of the challenge, the datasets used, the evaluation metrics, and provide an overview of the winning approaches.",
+    "extra": {
+      "Citations@2026-06-01": "50",
+      "OpenAlex": "W2887859706",
+      "Publication Title": "The NeurIPS'18 Competition, 129-153, 2020",
+      "Scholar": "v-JL-hsAAAAJ:0EnyYjriUFMC"
+    },
+    "itemType": "bookSection"
+  }
+}

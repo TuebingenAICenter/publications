@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Adversarial training is currently the most effective defense against adversarial attacks. However, it is often observed that adversarial training leads to a significant drop in standard accuracy on clean data. This phenomenon is often referred to as the robustness-accuracy trade-off. In this paper, we investigate the relationship between adversarial robustness and generalization. We show that the robustness-accuracy trade-off is not inherent to adversarial training, but rather a consequence of the specific way adversarial training is formulated. We propose a new adversarial training objective that disentangles robustness and generalization, allowing us to improve robustness without sacrificing standard accuracy. We demonstrate the effectiveness of our approach on several benchmark datasets and show that it outperforms existing methods.",
+    "archive": "arXiv",
+    "archiveLocation": "1812.00740",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "extra": {
+      "Citations@2026-06-01": "19",
+      "OpenAlex": "W2902031012",
+      "Scholar": "0ZAb3tsAAAAJ:0KyAp5RtaNEC",
+      "Source": "group_webpage (hein)",
+      "arXiv": "1812.00740"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}

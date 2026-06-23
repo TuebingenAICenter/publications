@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "Paris, France",
+      "OpenAlex": "W4380551062",
+      "Scholar": "jQl9RtkAAAAJ:vbGhcppDl1QC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings 2023 IEEE/CVF INTERNATIONAL CONFERENCE ON COMPUTER VISION (ICCV 2023)"
+  }
+}

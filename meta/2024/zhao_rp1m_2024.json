@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce RP1M, a large-scale motion dataset for piano playing with bi-manual dexterous robot hands. The dataset contains 1 million frames of high-quality motion data, captured from a human pianist using a motion capture system and retargeted to a pair of dexterous robot hands. We provide the dataset to facilitate research in dexterous manipulation, imitation learning, and music generation. We also provide a set of baseline models for motion retargeting and piano playing.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403012165",
+      "Scholar": "DZ-fHPgAAAAJ:ebVesCmVcMYC"
+    },
+    "itemType": "document"
+  }
+}

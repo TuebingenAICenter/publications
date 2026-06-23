@@ -1,0 +1,46 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We introduce Sourcerer, a framework for estimating source distributions in inverse problems where the forward model is a black-box simulator. Sourcerer leverages the principle of maximum entropy to identify the most parsimonious source distribution consistent with observed data. By utilizing sample-based approximations, we avoid the need for explicit likelihood evaluations, making the method applicable to a wide range of complex simulators. We demonstrate the effectiveness of Sourcerer on several challenging inverse problems, showing that it provides robust and accurate estimates of the underlying source distributions.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2402.07808",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:58:57",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/a1caa7bf30226ac9370889d00cbd74da-Paper-Conference.pdf"
+      }
+    ],
+    "conferenceName": "Advances in Neural Information Processing Systems 37 (NeurIPS 2024)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Editors": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+      "OpenAlex": "W4415796589",
+      "Scholar": "FKOqtF8AAAAJ:MDQ-9Oe3GGUC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 37 (NeurIPS 2024)"
+  }
+}

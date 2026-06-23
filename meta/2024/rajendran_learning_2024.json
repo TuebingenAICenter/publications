@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Foundation models have demonstrated remarkable capabilities in learning representations that are useful for a wide range of downstream tasks. However, these representations are often opaque, making it difficult to understand the concepts they capture. Causal representation learning, on the other hand, aims to learn representations that correspond to the underlying causal factors of the data-generating process. In this paper, we propose a framework that unifies these two paradigms. We show that by leveraging the causal structure of the data, we can learn representations that are not only useful for downstream tasks but also interpretable in terms of causal concepts. We demonstrate the effectiveness of our approach on a variety of tasks, including image classification, object detection, and causal discovery.",
+    "archive": "arXiv",
+    "archiveLocation": "2402.09236",
+    "extra": {
+      "Archive ID": "2402.09236",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4391835954",
+      "Scholar": "DZ-fHPgAAAAJ:o2RX7q-SfW0C",
+      "arXiv": "2402.09236"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

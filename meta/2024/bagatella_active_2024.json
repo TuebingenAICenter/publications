@@ -1,0 +1,52 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Generalist policies, trained on diverse datasets, have shown remarkable capabilities in robotics. However, adapting these policies to new, unseen tasks remains a challenge. Standard fine-tuning often requires large amounts of task-specific data, which is expensive to collect. In this work, we propose Active Fine-Tuning (AFT), a framework that enables generalist policies to efficiently adapt to new tasks by actively selecting the most informative data for fine-tuning. We introduce a novel acquisition function based on the expected information gain about the optimal policy parameters. We demonstrate that AFT significantly outperforms standard fine-tuning and other active learning baselines in various robotic manipulation tasks, requiring fewer environment interactions to achieve high performance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.05026",
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 07:57:30",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text",
+        "url": "https://arxiv.org/pdf/2410.05026"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

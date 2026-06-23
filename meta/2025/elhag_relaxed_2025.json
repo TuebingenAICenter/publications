@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Incorporating equivariance as an inductive bias into deep learning architectures to take advantage of the data symmetry has been successful in multiple applications, such as chemistry and dynamical systems. In particular, roto-translations are crucial for effectively modeling geometric graphs and molecules, where understanding the 3D structures enhances generalization. However, equivariant models often pose challenges due to their high computational complexity. In this paper, we introduce REMUL, a training procedure for approximating equivariance with multitask learning. We show that unconstrained models (which do not build equivariance into the architecture) can learn approximate symmetries by minimizing an additional simple equivariance loss. By formulating equivariance as a new learning objective, we can control the level of approximate equivariance in the model. Our method achieves competitive performance compared to equivariant baselines while being 10x faster at inference and 2.5x at training.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.17878",
+    "extra": {
+      "Citations@2026-06-01": "15",
+      "Scholar": "9LajlSsAAAAJ:3s1wT3WcHBgC"
+    },
+    "itemType": "journalArticle"
+  }
+}

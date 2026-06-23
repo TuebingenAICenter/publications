@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Symbolic regression (SR) is a type of regression analysis that searches the space of mathematical expressions to find a model that best fits a given dataset. Unlike traditional regression methods, SR does not assume a functional form for the model, but rather discovers it from the data. This makes SR a powerful tool for scientific discovery, as it can produce interpretable models that are often more accurate than those produced by traditional methods. In 2022, we organized the first competition on interpretable symbolic regression for data science at the Genetic and Evolutionary Computation Conference (GECCO). The competition aimed to evaluate the state-of-the-art in SR algorithms on a set of diverse and challenging datasets. This paper provides an analysis of the competition, including the datasets, the participating algorithms, and the results. We also discuss the lessons learned and provide recommendations for future competitions.",
+    "archive": "arXiv",
+    "archiveLocation": "2304.01117",
+    "extra": {
+      "Archive ID": "2304.01117",
+      "Source": "group_webpage (martius)",
+      "arXiv": "2304.01117"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The retina is the first stage of visual processing in vertebrates. Over the past decade, our understanding of retinal function has been transformed by the application of large-scale functional imaging and molecular profiling, which have revealed a much higher degree of cell-type diversity and functional complexity than previously appreciated. In this Review, we discuss how these new insights are reshaping our view of the retina as a sophisticated signal-processing device. We highlight how the retina's functional architecture is conserved across species, yet also adapted to the specific ecological niches of different animals, and we discuss how these findings provide a blueprint for understanding the principles of neural circuit computation.",
+    "extra": {
+      "Citations@2026-06-01": "357",
+      "OpenAlex": "W2989730456",
+      "Scholar": "lPQLk3QAAAAJ:O3NaXMp0MMsC"
+    },
+    "itemType": "journalArticle"
+  }
+}

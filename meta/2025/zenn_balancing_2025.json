@@ -1,0 +1,62 @@
+{
+  "custom": {
+    "groups": [
+      "bamler"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d4dd00154k"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d4dd00154k"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W4399657478",
+      "Publisher": "University of Tübingen",
+      "Scholar": "LwvdNAgAAAAJ:mB3voiENLucC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p><a href='https://pubs.rsc.org/en/content/articlehtml/2025/dd/d4dd00154k'>https://pubs.rsc.org/en/content/articlehtml/2025/dd/d4dd00154k</a><br><a href='https://arxiv.org/abs/2406.08075'>https://arxiv.org/abs/2406.08075</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

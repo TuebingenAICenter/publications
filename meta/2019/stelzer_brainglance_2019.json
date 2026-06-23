@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a new visualization tool called Brainglance that allows for a quick and intuitive assessment of group-level MRI data. Brainglance creates a compact representation of the entire brain by combining structural and functional information into a single image. It is particularly useful for quality control and for identifying outliers in large datasets. The tool is implemented as a Python package and is freely available.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

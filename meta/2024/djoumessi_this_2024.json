@@ -1,0 +1,40 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:00:13",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-031-72117-5_67.pdf"
+      }
+    ],
+    "conferenceName": "MICCAI",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4400025061",
+      "Scholar": "lPQLk3QAAAAJ:dQ2og3OwTAUC",
+      "additional_DOI": "https://doi.org/10.48550/arxiv.2406.15168"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

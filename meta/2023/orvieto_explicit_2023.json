@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the effect of noise injection in the training of overparametrized models. We show that, in the limit of small noise, the training dynamics of stochastic gradient descent (SGD) with noise injection can be described by a stochastic differential equation (SDE). We prove that this SDE is equivalent to a gradient flow on a regularized objective function, where the regularization term is explicitly given by the Fisher information matrix of the noise distribution. We further show that this regularization term can be interpreted as a form of implicit regularization that favors flat minima. We provide theoretical guarantees for the convergence of the training dynamics and demonstrate the effectiveness of our approach on a variety of tasks, including image classification and language modeling.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2206.04613",
+    "extra": {
+      "Citations@2026-06-01": "46",
+      "Scholar": "xkuLyHoAAAAJ:3fE2CSJIrl8C"
+    },
+    "itemType": "journalArticle"
+  }
+}

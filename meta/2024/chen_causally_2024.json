@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "10.48550/arXiv.2212.10678",
+    "conferenceName": "NeurIPS 2024 Workshop on Causality and Language Models (CaLM)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "NeurIPS 2024 Workshop on Causality and Language Models (CaLM)"
+  }
+}

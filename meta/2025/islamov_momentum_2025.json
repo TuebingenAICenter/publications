@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Nesterov's Accelerated Gradient (NAG) method is a cornerstone of optimization in machine learning. Recently, the Nesterov's Gradient Normalization (NGN) method has been proposed as a robust alternative, which is invariant to the scale of the gradient. However, NGN requires a careful choice of the step-size, which is often difficult to tune. In this paper, we propose a momentum-based adaptation of the NGN step-size, which we call Momentum-NGN (M-NGN). We show that M-NGN is robust to the choice of the step-size and achieves state-of-the-art performance on a variety of optimization problems, including deep learning and convex optimization. We also provide a theoretical analysis of the convergence of M-NGN and show that it achieves the optimal convergence rate for smooth convex functions.",
+    "archive": "arXiv",
+    "archiveLocation": "2508.15071",
+    "conferenceName": "NeurIPS 2025",
+    "extra": {
+      "Source": "group_webpage (orvieto)",
+      "arXiv": "2508.15071"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}

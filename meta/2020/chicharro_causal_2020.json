@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a framework for causal discovery based on the principle of the Information Bottleneck (IB). We show that the causal structure of a system can be identified by finding a representation of the observed variables that is maximally informative about the future, while being minimally informative about the past, given the current state. This approach allows us to identify causal relationships without assuming any specific functional form for the underlying dynamics. We demonstrate the effectiveness of our method on synthetic and real-world data, showing that it outperforms existing methods in terms of accuracy and robustness.",
+    "archive": "arXiv",
+    "archiveLocation": "2010.05375",
+    "extra": {
+      "Archive ID": "2010.05375",
+      "Source": "group_webpage (schoelkopf)",
+      "arXiv": "2010.05375"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This textbook provides a comprehensive introduction to the field of trustworthy machine learning. It covers the fundamental concepts, challenges, and methods for building machine learning systems that are reliable, robust, fair, and interpretable. The book is designed for students and practitioners who want to understand the theoretical foundations and practical applications of trustworthy machine learning.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2310.08215",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "Scholar": "kmXOOdsAAAAJ:NaGl4SEjCO4C",
+      "Type": "Textbook"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this paper, we present an active visual SLAM approach for omnidirectional robots. The goal is to generate control commands that allow such a robot to simultaneously localize itself and map an unknown environment while maximizing the amount of information gained and consuming as low energy as possible. Leveraging the robot’s independent translation and rotation control, we introduce a multi-layered approach for active V-SLAM. The top layer decides on informative goal locations and generates highly informative paths to them. The second and third layers actively re-plan and execute the path, exploiting the continuously updated map and local features information. Moreover, we introduce two utility formulations to account for the presence of obstacles in the field of view and the robot’s location. Through rigorous simulations, real robot experiments, and comparisons with state-of-the-art methods, we demonstrate that our approach achieves similar coverage results with lesser overall map entropy. This is obtained while keeping the traversed distance up to 39% shorter than the other methods and without increasing the wheels’ total rotation amount. Code and implementation details are provided as open-source and all the generated data is available online for consultation.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "OpenAlex": "W3139000454",
+      "Pages": "104102",
+      "Scholar": "6NjbexEAAAAJ:08Fspu5RUkwC",
+      "Volume": "154"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The vertebrate fovea is a specialized retinal region that supports high-acuity vision. While foveae are common in primates and some birds, they are generally considered absent in teleost fish. Here, we show that the zebrafish retina features a specialized area of high cone density in the ventro-temporal retina that shares key structural and functional features with the primate fovea. This area is characterized by a local increase in cone density, a specialized cone mosaic, and a reduction in the number of rods. We show that this area is essential for prey-capture behavior, as it is the primary site for the detection of small, UV-rich prey. Our results suggest that fovea-like specializations are a conserved feature of the vertebrate retina and that they may have evolved independently in different lineages to support high-acuity vision.",
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "OpenAlex": "W3170426616",
+      "Scholar": "lPQLk3QAAAAJ:J_g5lzvAfSwC"
+    },
+    "itemType": "journalArticle"
+  }
+}

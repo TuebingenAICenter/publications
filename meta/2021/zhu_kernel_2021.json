@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Distributionally Robust Optimization (DRO) aims to find a decision that performs well under the worst-case distribution within an ambiguity set. In this paper, we consider an ambiguity set defined by a ball of probability distributions centered at a reference distribution, measured by the Maximum Mean Discrepancy (MMD). We derive a generalized duality theorem for this MMD-based DRO problem, which allows us to reformulate the inner maximization problem as a finite-dimensional convex optimization problem. Based on this duality, we propose a stochastic approximation algorithm to solve the DRO problem using only samples from the reference distribution. We provide convergence guarantees for the proposed algorithm and demonstrate its effectiveness on several machine learning tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2006.06981",
+    "extra": {
+      "Archive ID": "2006.06981",
+      "Citations@2026-06-01": "11",
+      "OpenAlex": "W3034772830",
+      "Pages": "280--288",
+      "Scholar": "DZ-fHPgAAAAJ:dyZR9UOKqjkC",
+      "Series": "Proceedings of Machine Learning Research",
+      "Volume": "130"
+    },
+    "itemType": "document"
+  }
+}

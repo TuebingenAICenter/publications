@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The invention relates to a method for force inference of a sensor arrangement for sensing forces, to a method for training a feed-forward neural network, to a force inference module, and to a sensor arrangement.",
+    "extra": {
+      "Patent number": "PCT/EP2021/050231",
+      "Source": "group_webpage (martius)"
+    },
+    "itemType": "report",
+    "reportType": "Patent"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning models are frequently updated to improve their performance. However, in many real-world applications, such updates can be disruptive if the new model's predictions are inconsistent with the old model's predictions. This is particularly problematic in systems where downstream components rely on the stability of the model's output. We propose a framework for backward-compatible prediction updates that allows for improving the performance of a model while maintaining consistency with the predictions of a legacy model. Our approach is based on a probabilistic formulation that allows us to trade off performance and compatibility. We demonstrate the effectiveness of our approach on several image classification tasks and show that it can significantly improve compatibility without sacrificing performance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2107.01057",
+    "extra": {
+      "Archive ID": "2107.01057",
+      "Citations@2026-06-01": "10",
+      "OpenAlex": "W3177924560",
+      "Pages": "116--128",
+      "Scholar": "DZ-fHPgAAAAJ:UYVqw3KJhpsC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

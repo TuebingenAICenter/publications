@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gravitational-wave inference is computationally expensive, requiring millions of waveform evaluations to map out the posterior distribution of source parameters. We introduce a method for rapid and reliable Bayesian inference that combines neural density estimation with importance sampling. We train a normalizing flow to approximate the posterior distribution, and then use importance sampling to correct for the approximation error, ensuring that the final results are statistically exact. We demonstrate that our method produces accurate posteriors for binary black hole mergers, with a speedup of several orders of magnitude compared to standard stochastic sampling methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2210.05686",
+    "extra": {
+      "Archive ID": "2210.05686",
+      "Citations@2026-06-01": "1",
+      "Issue": "17",
+      "OpenAlex": "W4306176111",
+      "Pages": "171403",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:G887dSk7Sz8C",
+      "Volume": "130"
+    },
+    "itemType": "document",
+    "libraryCatalog": "APS Journals"
+  }
+}

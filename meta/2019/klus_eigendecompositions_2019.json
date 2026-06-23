@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Transfer operators, such as the Perron-Frobenius and Koopman operators, are powerful tools for analyzing the global dynamics of nonlinear systems. Since these operators are infinite-dimensional, they are typically approximated using finite-dimensional matrices. In this paper, we propose a framework for approximating transfer operators using reproducing kernel Hilbert spaces (RKHS). We show that the eigendecomposition of the transfer operator can be computed by solving a regularized kernel eigenvalue problem. This approach is closely related to kernel principal component analysis and kernel canonical correlation analysis. We demonstrate the effectiveness of our method on several examples, including the identification of metastable sets and the computation of Koopman eigenfunctions.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

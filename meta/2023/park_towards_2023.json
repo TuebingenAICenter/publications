@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Empirical process theory for scalar-valued functions is a cornerstone of modern statistical learning theory. However, many contemporary machine learning tasks, such as multi-task learning, structured prediction, and kernel methods, involve vector-valued functions. In this paper, we develop an empirical process theory for vector-valued functions by extending the notion of metric entropy to this setting. Specifically, we provide upper bounds on the metric entropy of H\\\"older and Sobolev spaces of vector-valued functions. Our results are based on a novel covering number analysis that leverages the geometry of the output space. We demonstrate the utility of our results by providing generalization error bounds for vector-valued kernel ridge regression and multi-task learning.",
+    "conferenceName": "International Conference on Algorithmic Learning Theory",
+    "extra": {
+      "Editors": "Agrawal, Shipra and Orabona, Francesco",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 34th International Conference on Algorithmic Learning Theory",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

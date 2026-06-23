@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We consider the problem of optimizing a black-box function defined over the output space of a deep generative model. This is a challenging task because the function is typically expensive to evaluate and the generative model is complex. We propose a new method, Weighted Retraining (WR), which addresses this problem by iteratively retraining the generative model on a weighted dataset of samples that have high function values. We show that WR is sample-efficient and can be used to optimize functions in high-dimensional spaces. We demonstrate the effectiveness of our method on a variety of tasks, including optimizing the properties of molecules and generating images with specific attributes.",
+    "conferenceName": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+    "extra": {
+      "Editors": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Menschen mit Magersucht leben in ständiger Angst, zuzunehmen. Betroffene tun oft alles dafür, um keinesfalls mehr zu wiegen – selbst wenn sie bereits unter den gesundheitlichen Folgen leiden oder im Alltag eingeschränkt sind. Forschende des Max-Planck-Instituts für Intelligente Systeme und des Universitätsklinikums Tübingen haben ein Virtual-Reality-Tool entwickelt, mit dem sich eine Gewichtszunahme simulieren lässt. Die Forschungsergebnisse deuten darauf hin, dass die wiederholte Auseinandersetzung mit virtuellem gesundem Gewicht Personen mit Magersucht hilft, ihre Angst vor einer Gewichtzunahme zu reduzieren. ENGLISH: People with anorexia live in constant fear of gaining weight. They often do everything in their power to avoid putting on weight, even if they are already suffering from the health consequences or are restricted in their daily lives. Computer Vision researchers at the Max Planck Institute for Intelligent Systems and the University Hospital Tübingen have developed a virtual reality tool that can be used to simulate weight gain. The research suggests that repeated exposure to a healthy bodyweight in virtual reality helps people with anorexia nervosa reduce their fear of gaining weight.",
+    "extra": {
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "report"
+  }
+}

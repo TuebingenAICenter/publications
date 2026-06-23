@@ -1,0 +1,62 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Citations are a fundamental metric for measuring the impact of scientific work. However, the citation process is complex and influenced by many factors, such as the quality of the paper, the reputation of the authors, and the visibility of the venue. In this paper, we propose CausalCite, a causal formulation of paper citations. We model the citation process as a structural causal model (SCM) and use it to identify the causal effect of a paper's quality on its citation count. We show that our model can effectively disentangle the causal effect of quality from other confounding factors. We also demonstrate the utility of our model in a variety of tasks, including predicting citation counts and identifying influential papers.",
+    "archive": "ACL Anthology",
+    "archiveLocation": "2024.findings-acl.497",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:12:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.findings-acl.497.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 16:12:37",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://aclanthology.org/2024.findings-acl.497.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Editors": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+      "Event Place": "Bangkok, Thailand",
+      "OpenAlex": "W4402670003",
+      "Publisher": "MPI-IS",
+      "Scholar": "DZ-fHPgAAAAJ:T_frEdlQoi4C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Scanpath prediction models aim to predict the sequence of fixations an observer makes when viewing an image. While recent deep learning models have achieved impressive performance, it remains unclear how these models make their decisions and whether they rely on similar features as the human visual system. Here, we probe the decision-making process of a state-of-the-art scanpath prediction model by analyzing its internal representations and comparing them to human eye-tracking data. We find that the model's predictions are driven by a combination of low-level image features and high-level semantic information, and that its decision-making process exhibits some similarities to human behavior. However, we also identify significant differences, suggesting that current models still lack a full understanding of the complex cognitive processes underlying human scanpath generation.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "0z0fNxUAAAAJ:BzfGm06jWhQC"
+    },
+    "itemType": "journalArticle"
+  }
+}

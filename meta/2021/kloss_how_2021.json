@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In many robotic applications, it is crucial to maintain a belief about the state of a system, which serves as input for planning and decision making and provides feedback during task execution. Bayesian Filtering algorithms address this state estimation problem, but they require models of process dynamics and sensory observations and the respective noise characteristics of these models. Recently, multiple works have demonstrated that these models can be learned by end-to-end training through differentiable versions of recursive filtering algorithms. In this work, we investigate the advantages of differentiable filters (DFs) over both unstructured learning approaches and manually-tuned filtering algorithms, and provide practical guidance to researchers interested in applying such differentiable filters. For this, we implement DFs with four different underlying filtering algorithms and compare them in extensive experiments. Specifically, we (i) evaluate different implementation choices and training approaches, (ii) investigate how well complex models of uncertainty can be learned in DFs, (iii) evaluate the effect of end-to-end training through DFs and (iv) compare the DFs among each other and to unstructured LSTM models.",
+    "extra": {
+      "Citations@2026-06-01": "74",
+      "Scholar": "b-JF-UIAAAAJ:nb7KW1ujOQ8C"
+    },
+    "itemType": "journalArticle"
+  }
+}

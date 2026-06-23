@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The ability to acquire and refine motor skills is a fundamental aspect of human behavior. While the neural correlates of motor skill acquisition have been extensively studied during task execution, the neural signatures of motor skill in the resting brain remain less understood. In this paper, we investigate whether motor skill levels can be predicted from resting-state electroencephalography (EEG) data. We analyze resting-state EEG recordings from subjects who have undergone a motor learning task. Using a machine learning approach, we demonstrate that motor skill levels can be decoded from resting-state brain activity. Our results suggest that motor skill is reflected in the intrinsic functional organization of the brain, providing new insights into the neural basis of motor learning and potential biomarkers for neurorehabilitation.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W2963032559",
+      "Scholar": "DZ-fHPgAAAAJ:MARohxuQWaQC"
+    },
+    "itemType": "document"
+  }
+}

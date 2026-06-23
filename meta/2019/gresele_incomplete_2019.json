@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of identifying latent sources from multiple observed views, where each view is a nonlinear transformation of the same underlying sources. This is a generalization of Independent Component Analysis (ICA) to the nonlinear and multi-view setting. We show that, under certain conditions, the latent sources are identifiable up to a permutation and element-wise transformations. Our results provide a theoretical foundation for multi-view representation learning and suggest that the availability of multiple views can alleviate the fundamental non-identifiability of nonlinear ICA.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4288351422",
+      "Scholar": "DZ-fHPgAAAAJ:Zx2yaX5tUAoC"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Causal discovery from observational data is a notoriously difficult problem, as many causal structures are observationally equivalent. Interventions can help to resolve these ambiguities, but they are often costly or difficult to perform. In this work, we propose a framework for learning causal models that actively selects interventions to efficiently identify the underlying causal structure. We introduce a novel objective function that combines a causal discovery loss with an information-theoretic acquisition function, allowing the model to learn both the causal structure and the optimal intervention policy simultaneously. We demonstrate the effectiveness of our approach on a variety of synthetic and real-world causal discovery tasks, showing that it significantly outperforms existing methods in terms of sample efficiency and accuracy.",
+    "extra": {
+      "Citations@2026-06-01": "16",
+      "OpenAlex": "W3197621371",
+      "Scholar": "DZ-fHPgAAAAJ:XgxCa-OkTKAC"
+    },
+    "itemType": "document"
+  }
+}

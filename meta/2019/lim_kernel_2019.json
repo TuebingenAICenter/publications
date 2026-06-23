@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a kernel-based statistical test to compare multiple models given samples from a target distribution. The proposed test, called the Kernel Stein Test for Multiple Model Comparison (KST-MMC), is based on the Stein operator and does not require the normalization constant of the target distribution. We show that the proposed test can be used to compare multiple models simultaneously and control the family-wise error rate. We provide theoretical guarantees on the consistency of the test and demonstrate its effectiveness on several synthetic and real-world datasets.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "Event Place": "Vancouver, Canada",
+      "OpenAlex": "W2970167010",
+      "Scholar": "DZ-fHPgAAAAJ:W6lDjji-Y3sC"
+    },
+    "itemType": "journalArticle"
+  }
+}

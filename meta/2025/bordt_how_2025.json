@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Data contamination, where test data leaks into the training set, is a major concern for large language models (LLMs). While many detection methods have been proposed, they often rely on heuristics or specific assumptions about the contamination process. In this paper, we provide a theoretical framework to understand the impact of data contamination on model performance. We show that the effect of contamination is surprisingly limited under standard conditions, and that models can 'forget' contaminated data if the training process is sufficiently long or if the data is not perfectly memorized. We provide theoretical bounds on the generalization error and validate our findings with empirical experiments on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.03249",
+    "extra": {
+      "Archive ID": "2410.03249",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4403893791",
+      "Repository": "arXiv",
+      "Scholar": "mMifMdoAAAAJ:artPoR2Yc-kC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

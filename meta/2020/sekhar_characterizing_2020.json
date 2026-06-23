@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Electrical stimulation of the retina is a promising approach to restore vision in patients suffering from retinal degenerative diseases. However, the neural code of the retina is complex, and the responses of retinal ganglion cells (RGCs) to electrical stimulation are highly variable. To better understand and predict these responses, we used generalized linear models (GLMs) to characterize the responses of RGCs to electrical stimulation. We recorded the responses of RGCs in the isolated mouse retina to electrical stimulation using a multi-electrode array. We then fitted GLMs to the recorded spike trains, using the stimulus waveform and the history of the cell's own spiking activity as inputs. We found that the GLMs could accurately predict the responses of RGCs to electrical stimulation, capturing both the deterministic and stochastic components of the responses. Our results demonstrate that GLMs are a powerful tool for characterizing the responses of RGCs to electrical stimulation and could be used to optimize stimulation strategies for retinal prostheses.",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "OpenAlex": "W3025726308",
+      "Scholar": "FKOqtF8AAAAJ:CLhUwle04lcC"
+    },
+    "itemType": "journalArticle"
+  }
+}

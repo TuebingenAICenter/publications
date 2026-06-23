@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "With the rise of Large Language Models (LLMs) and their ubiquitous deployment in diverse domains, measuring language model behavior on realistic data is imperative. For example, a company deploying a client-facing chatbot must ensure that the model will not respond to client requests with profanity. Current evaluations approach this problem using small, domain-specific datasets with human-curated labels. These evaluation sets are often sampled from a narrow and simplified distribution, and data sources can unknowingly be leaked into the training set. To alleviate these issues in traditional evaluation, we propose a complementary framework for additional self-sensitivity evaluation of LLMs by analyzing their sensitivity or invariance to transformations on the input text. Self-sensitivity evaluation can directly monitor LLM behavior on datasets collected in-the-wild or streamed during live model deployment. We demonstrate self-sensitivity evaluation strategies for measuring closed-book knowledge, toxicity, long-range context dependence, in addition to sensitivity to grammatical structure and tokenization errors. When comparisons to similar human-labeled benchmarks are available, we find strong correlations between self-sensitivity and human-supervised evaluations. The self-sensitivity paradigm complements current evaluation strategies that rely on labeled data.",
+    "extra": {
+      "Citations@2026-06-01": "12",
+      "OpenAlex": "W4382173247",
+      "Scholar": "206vNCEAAAAJ:738O_yMBCRsC"
+    },
+    "itemType": "document"
+  }
+}

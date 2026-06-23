@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Probabilistic neural networks are a popular tool for estimating heteroscedastic aleatoric uncertainty. They are typically trained by maximizing the log-likelihood of a Gaussian distribution with a variance predicted by the network. In this work, we identify a common failure mode of this approach: if the network is not sufficiently expressive or the training data is noisy, the predicted variance can collapse to zero or explode, leading to poor uncertainty estimates. We analyze the causes of this behavior and propose a simple and effective solution: a lower bound on the predicted variance. We demonstrate that this simple fix significantly improves the quality of uncertainty estimates on a variety of regression tasks.",
+    "archive": "OpenReview",
+    "extra": {
+      "Archive ID": "aPOpXlnV1T",
+      "Citations@2026-06-01": "39",
+      "OpenAlex": "W4221157442",
+      "Scholar": "b-JF-UIAAAAJ:t6usbXjVLHcC"
+    },
+    "itemType": "document"
+  }
+}

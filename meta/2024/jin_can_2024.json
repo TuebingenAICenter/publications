@@ -1,0 +1,51 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable performance on various natural language processing tasks. However, their ability to perform causal reasoning—a hallmark of human intelligence—remains under-explored. In this paper, we investigate whether LLMs can infer causation from correlation. We curate a comprehensive benchmark, CausalBench, which consists of causal discovery tasks from diverse domains, including social science, medical science, and economics. We evaluate a range of state-of-the-art LLMs on CausalBench and find that while they show some promise, they still struggle to consistently infer causal relationships from observational data. We further analyze the factors that contribute to their performance and discuss the implications of our findings for the development of more robust and reliable causal reasoning systems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.05836",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:42:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=vqIH0ObdqL"
+      },
+      {
+        "accessDate": "2025-06-17 19:42:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=vqIH0ObdqL"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "23",
+      "OpenAlex": "W4380356267",
+      "Scholar": "DZ-fHPgAAAAJ:oM9rj33-3hoC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 138</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 138</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

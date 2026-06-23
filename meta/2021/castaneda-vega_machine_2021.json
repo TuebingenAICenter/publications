@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Translational research in stroke is hampered by the lack of reliable biomarkers that can be compared between preclinical models and patients. We aimed to identify common stroke features between mice and humans using machine learning (ML) on longitudinal PET imaging data. Methods: We performed longitudinal [18F]DPA-752 PET imaging in a mouse model of transient middle cerebral artery occlusion (tMCAO) and in stroke patients. We developed a ML pipeline to classify stroke-affected versus healthy tissue based on PET intensity profiles. We then evaluated the cross-species transferability of the ML models. Results: The ML models achieved high classification accuracy in both species (AUC 0.9). We identified a common signature of stroke-affected tissue characterized by increased [18F]DPA-752 uptake, which was consistent between mice and humans. The cross-species transferability was successful, as models trained on mouse data could classify human stroke lesions and vice versa. Conclusion: Our results demonstrate that ML can identify common stroke features between species using PET imaging, providing a promising tool for translational stroke research.",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

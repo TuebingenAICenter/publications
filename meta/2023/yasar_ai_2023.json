@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "As AI technology advances rapidly, concerns over the risks of bigness in digital markets are also growing. The EU's Digital Markets Act (DMA) aims to address these risks. Still, the current framework may not adequately cover generative AI systems that could become gateways for AI-based services. This paper argues for integrating certain AI software as core platform services and classifying certain developers as gatekeepers under the DMA. We also propose an assessment of gatekeeper obligations to ensure they cover generative AI services. As the EU considers generative AI-specific rules and possible DMA amendments, this paper provides insights towards diversity and openness in generative AI services.",
+    "archive": "arXiv",
+    "archiveLocation": "2308.02033",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (hardt)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 40th International Conference on Machine Learning"
+  }
+}

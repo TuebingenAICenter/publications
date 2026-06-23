@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Serverless computing has emerged as a promising paradigm for executing parallel applications in the cloud. However, the inherent limitations of serverless platforms, such as restricted execution time and memory, pose challenges for long-running and resource-intensive tasks. Task farming is a common pattern for parallelizing such workloads, but managing the elasticity of serverless workers is complex. In this paper, we present a self-tuning approach for serverless task farming that employs proactive elasticity control. Our approach dynamically adjusts the number of serverless workers based on the workload characteristics and the performance requirements of the application. We evaluate our approach using a variety of benchmarks and demonstrate that it significantly improves performance and reduces costs compared to static and reactive elasticity strategies.",
+    "extra": {
+      "Source": "group_webpage (martius)"
+    },
+    "itemType": "journalArticle"
+  }
+}

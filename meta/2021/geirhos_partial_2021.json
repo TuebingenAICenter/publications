@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks have achieved human-level performance on many computer vision tasks. However, it is widely believed that they still rely on different features than humans, as evidenced by their vulnerability to adversarial attacks and their reliance on texture rather than shape. Here, we show that this gap can be partially closed by training models on a larger, more diverse dataset and by using a more robust training procedure. We find that these models are more similar to humans in their reliance on shape, their robustness to common corruptions, and their error patterns. Our results suggest that the gap between human and machine vision is not insurmountable and can be reduced by better training data and procedures.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2106.07411",
+    "extra": {
+      "Archive ID": "2106.07411",
+      "Citations@2026-06-01": "63",
+      "OpenAlex": "W3172887788",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:bEWYMUwI8FkC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

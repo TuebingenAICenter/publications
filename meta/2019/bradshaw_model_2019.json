@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The discovery of new molecules with desirable properties is a fundamental problem in chemistry and drug design. Recent work has focused on using generative models to propose new molecular structures. However, many of these models propose molecules that are difficult or impossible to synthesize. We introduce a model that searches for molecules by navigating the space of chemical reactions, rather than the space of molecular graphs. This ensures that all generated molecules are synthesizable by construction. We demonstrate that our model can be used to optimize molecular properties, and that it outperforms existing methods in terms of the synthesizability of the generated molecules.",
+    "conferenceName": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 32"
+  }
+}

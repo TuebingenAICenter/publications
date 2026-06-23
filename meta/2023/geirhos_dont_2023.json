@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Feature visualization is a popular technique for interpreting deep neural networks. It aims to provide human-understandable insights into what a network has learned by generating images that maximally activate specific neurons or layers. However, we show that feature visualizations can be highly unreliable. We demonstrate that for a wide range of standard visualization methods, the generated images can be manipulated to look like almost anything while still producing the same activation, or conversely, that very different activations can produce visually similar images. We argue that these findings call into question the reliability of feature visualizations as a tool for interpreting deep neural networks and suggest that they should be used with caution.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.04719",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:43:20",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=s0Jvdolv2I"
+      }
+    ],
+    "conferenceName": "ICML",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "OpenAlex": "W4380136051",
+      "Scholar": "v-JL-hsAAAAJ:pqnbT2bcN3wC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 27</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

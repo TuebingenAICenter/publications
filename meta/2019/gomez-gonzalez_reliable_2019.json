@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this paper, we present a robust and reliable real-time ball tracking system for robot table tennis. The system is designed to operate in a high-speed environment where the ball moves at velocities of up to 10 m/s. We propose a multi-stage approach that combines a fast, heuristic-based detection method with a robust, model-based tracking algorithm. The detection stage uses a combination of background subtraction and color-based filtering to identify potential ball candidates. The tracking stage employs a Kalman filter to estimate the ball's state and a data association algorithm to handle occlusions and false positives. We evaluate our system on a real robot table tennis setup and demonstrate that it can track the ball with high accuracy and reliability in real-time.",
+    "extra": {
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W3104187952",
+      "Scholar": "DZ-fHPgAAAAJ:lHDkRtKMBJAC"
+    },
+    "itemType": "journalArticle"
+  }
+}

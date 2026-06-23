@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In many situations, groups of people make decisions by voting. A common rule is the majority rule. However, majority rule ignores the confidence of the individual voters. In this paper, we investigate whether group decisions can be improved by using confidence-weighted majority voting. We propose a model for confidence-weighted majority voting and compare it to standard majority voting. We show that confidence-weighted majority voting can improve the accuracy of group decisions, especially when the individual voters have different levels of expertise or when the task is difficult. We also discuss the conditions under which confidence-weighted majority voting is most effective.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2005.00039",
+    "extra": {
+      "Citations@2026-06-01": "22",
+      "OpenAlex": "W3022033160",
+      "Scholar": "mMifMdoAAAAJ:4MWp96NkSFoC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "SpringerLink"
+  }
+}

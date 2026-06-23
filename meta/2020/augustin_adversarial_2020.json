@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "It has been observed that explanations of standard deep neural networks are often noisy and do not align well with human perception. While adversarial training improves robustness, it has been shown that it also leads to more interpretable gradients. In this paper, we investigate the effect of adversarial training on the explainability of deep neural networks. We show that adversarial training on the in-distribution alone is not sufficient to obtain high-quality explanations. Instead, we propose to perform adversarial training on both in- and out-distribution data. We demonstrate that this approach leads to significantly more interpretable gradients and improves the robustness of the explanations. We evaluate our method on several datasets and show that it outperforms existing methods in terms of both robustness and explainability.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2003.09461",
+    "extra": {
+      "Archive ID": "2003.09461",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4287825122",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:p__nRnzSRKYC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

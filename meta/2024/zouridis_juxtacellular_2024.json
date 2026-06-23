@@ -1,0 +1,58 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The locus coeruleus (LC) is the primary source of norepinephrine in the mammalian brain and plays a critical role in arousal, attention, and cognitive control. Despite its importance, the functional properties of LC neurons in vivo remain incompletely understood, partly due to the difficulty of identifying these neurons during extracellular recordings. Here, we describe a method for juxtacellular labeling of LC neurons in the anesthetized mouse, which allows for the subsequent histological identification of the recorded cells. We show that this technique enables the reliable identification of tyrosine hydroxylase-positive LC neurons. Furthermore, we characterize the electrophysiological properties of these identified neurons, including their spontaneous firing rates, waveform characteristics, and responses to sensory stimuli. Our results provide a framework for future studies aiming to link the activity of specific LC neurons to their functional roles in behavior and cognition.",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:37:28",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ejn.16368"
+      },
+      {
+        "accessDate": "2025-06-17 19:37:28",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ejn.16368"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4399685541",
+      "Publisher": "University of Tübingen",
+      "Scholar": "lPQLk3QAAAAJ:1yQoGdGgb4wC"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

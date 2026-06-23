@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The field of adversarial robustness has seen a surge of interest in recent years, with many defenses proposed against adversarial examples. However, evaluating the robustness of these defenses has proven to be difficult, as many defenses that were initially thought to be robust were later shown to be vulnerable to stronger attacks. In this paper, we discuss the challenges of evaluating adversarial robustness and provide a set of guidelines for researchers to follow when evaluating their defenses. We also provide a library of attacks and defenses to facilitate the evaluation of new defenses.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:1902.06705",
+    "extra": {
+      "Archive ID": "1902.06705",
+      "Citations@2026-06-01": "581",
+      "OpenAlex": "W2913848079",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:kNdYIx-mwKoC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}

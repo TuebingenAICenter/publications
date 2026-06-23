@@ -1,0 +1,57 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:48:49",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-031-73235-5_4.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:48:49",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-031-73235-5_4.pdf"
+      }
+    ],
+    "conferenceName": "ECCV",
+    "extra": {
+      "Citations@2026-06-01": "10",
+      "Scholar": "SrVnrPcAAAAJ:TGkaJS32XoUC",
+      "additional_DOI": "https://doi.org/10.48550/arxiv.2403.17933"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 7</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen additional_DOI: https://doi.org/10.48550/arxiv.2403.17933</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen additional_DOI: https://doi.org/10.48550/arxiv.2403.17933</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

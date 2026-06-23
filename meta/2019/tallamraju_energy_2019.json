@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this work, we consider a multi-wheeled payload transport system. Each of the wheels can be selectively actuated. When they are not actuated, wheels are free moving and do not consume battery power. The payload transport system is modeled as an actuated multi-agent system, with each wheel-motor pair as an agent. Kinematic and dynamic models are developed to ensure that the payload transport system moves as desired. We design optimization formulations to decide on the number of wheels to be active and which of the wheels to be active so that the battery is conserved and the wear on the motors is reduced. Our multi-level control framework over the agents ensures that near-optimal number of agents is active for the payload transport system to function. Through simulation studies we show that our solution ensures energy efficient operation and increases the distance traveled by the payload transport system, for the same battery power. We have built the payload transport system and provide results for preliminary experimental validation.",
+    "conferenceName": "28th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "extra": {
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "28th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+  }
+}

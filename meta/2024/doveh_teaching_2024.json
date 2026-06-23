@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision-Language Models (VLMs) have demonstrated remarkable capabilities in understanding images and text. However, their ability to perform precise object localization based on few-shot in-context examples remains limited. In this work, we introduce IPLoc, a novel approach to teach VLMs to localize specific objects from in-context examples. We propose a simple yet effective method that leverages the VLM's inherent ability to process visual and textual information to perform object localization. We demonstrate that our approach significantly improves the localization performance of VLMs on a variety of benchmarks, outperforming existing methods while requiring minimal training.",
+    "archive": "arXiv",
+    "archiveLocation": "2411.13317",
+    "conferenceName": "ICCV",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "Scholar": "pxhCcH0AAAAJ:bnK-pcrLprsC",
+      "Source": "group_webpage (kuehne)",
+      "arXiv": "2411.13317"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+  }
+}

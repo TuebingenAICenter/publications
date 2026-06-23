@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Object-centric learning aims to decompose scenes into individual objects, which is hypothesized to be a key step towards human-level intelligence. While recent methods have shown impressive results in scene decomposition, their impact on downstream tasks remains under-explored. In this work, we systematically evaluate the generalization and robustness of object-centric models on a variety of downstream tasks. We find that object-centric models do not consistently outperform standard monolithic architectures. In fact, we identify a trade-off between scene decomposition quality and downstream performance. We further show that object-centric models are not inherently more robust to distribution shifts than monolithic models. Our results suggest that current object-centric models may not yet be capturing the right inductive biases for general-purpose representation learning.",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "OpenAlex": "W3175036511",
+      "Pages": "5221--5285",
+      "Scholar": "DZ-fHPgAAAAJ:J2bekHtxHrEC",
+      "Volume": "162"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Semi-supervised learning (SSL) aims to improve the performance of a model by leveraging a large amount of unlabeled data in addition to a small amount of labeled data. While many empirical successes have been reported, the theoretical understanding of when and how much unlabeled data can improve the performance remains limited. In this paper, we study the sample complexity of SSL in the agnostic PAC learning framework. We provide a general lower bound on the excess risk of any SSL algorithm, which depends on the relationship between the hypothesis class and the data distribution. Our results show that for many common hypothesis classes, the unlabeled data can only provide a limited improvement in the sample complexity, and in some cases, no improvement at all. We also provide matching upper bounds for several cases, demonstrating the tightness of our lower bounds. Our findings suggest that the effectiveness of SSL is highly dependent on the alignment between the hypothesis class and the underlying data distribution, and provide a theoretical foundation for understanding the limitations of SSL.",
+    "conferenceName": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
+  }
+}

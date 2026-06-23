@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Single-molecule localization microscopy (SMLM) provides nanometer-scale resolution by localizing individual fluorophores. However, current methods struggle with dense emitter environments, where overlapping point spread functions (PSFs) lead to localization errors or require long acquisition times to ensure sparsity. Here we present DECODE, a deep learning-based approach for SMLM that enables fast and accurate localization of emitters in dense environments. DECODE uses a deep neural network to predict the positions and uncertainties of emitters directly from raw image data. We demonstrate that DECODE achieves high localization accuracy and precision, even in extremely dense conditions, and is significantly faster than existing methods. We apply DECODE to various SMLM datasets, including 3D and multi-color imaging, and show that it enables high-quality reconstructions from shorter acquisition times, thereby reducing photobleaching and increasing temporal resolution.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416184589",
+      "Scholar": "FKOqtF8AAAAJ:V63Ir2N1OTwC",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "journalArticle"
+  }
+}

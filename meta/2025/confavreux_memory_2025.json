@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Synaptic plasticity is the primary mechanism of learning and memory in the brain. Over several decades, experimental and theoretical studies have revealed many types of plasticity, categorized by the properties of the pre- and postsynaptic neurons they involve. However, distinct types are typically studied in isolation, yet they always interact. This interaction has never been examined at scale because of the astronomical number of potential mechanisms. Here, we present a mathematical framework and an automated software tool to discover sets of rules – encompassing excitatory, inhibitory, and homeostatic plasticity – that enable a specific circuit function. We apply this tool to the problem of learning associative memory in a spiking recurrent neural network. We discover thousands of distinct and functional multi-type rule-sets, which satisfy the task while maintaining biological plausibility. These rule-sets differ substantially in their constituent rules, but collectively form a low-dimensional manifold in the space of all possible mechanisms. Notably, different rule-sets achieve a functional memory through diverse circuit mechanisms, where different synapse types contribute differently to memory storage and circuit stability. Our findings reveal a fundamental degeneracy in the plasticity rules that can support learning, suggesting that the brain might employ a wide variety of solutions to the same functional challenge.",
+    "archive": "bioRxiv",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/04/2025.05.28.656584.full.pdf"
+      }
+    ],
+    "extra": {
+      "Archive ID": "bioRxiv: 2025.05.28.656584",
+      "Citations@2026-06-01": "2",
+      "OpenAlex": "W4410854305",
+      "Scholar": "FKOqtF8AAAAJ:b2kfBsK7yCQC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "bioRxiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.05.28.656584'>https://sciety.org/articles/activity/10.1101/2025.05.28.656584</a><br><a href='https://colab.ws/articles/10.1101%2F2025.05.28.656584'>https://colab.ws/articles/10.1101%2F2025.05.28.656584</a><br><a href='https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/170772'>https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/170772</a><br><a href='https://goncalveslab.sites.vib.be/en/publications'>https://goncalveslab.sites.vib.be/en/publications</a><br><a href='https://sciencecast.org/casts/4vwb875hr2ck'>https://sciencecast.org/casts/4vwb875hr2ck</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

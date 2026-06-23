@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Counterfactual fairness is a popular criterion for algorithmic fairness that relies on causal models to ensure that a decision is independent of a protected attribute in a counterfactual sense. A key assumption in most existing work is that the causal model is fully specified and that there is no unmeasured confounding. In this paper, we relax this assumption and study the sensitivity of counterfactual fairness to unmeasured confounding. We provide a framework to bound the degree of counterfactual unfairness when the causal model is misspecified due to unmeasured common causes. We demonstrate our approach on synthetic and real-world data, showing that it can provide useful bounds on the potential unfairness of a model.",
+    "conferenceName": "35th Conference on Uncertainty in Artificial Intelligence",
+    "extra": {
+      "Editors": "Adams, Ryan P. and Gogate, Vibhav",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 35th Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

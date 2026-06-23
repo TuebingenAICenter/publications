@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the acceleration of first-order optimization methods on Riemannian manifolds from a continuous-time perspective. We derive a class of second-order ordinary differential equations (ODEs) that model accelerated gradient descent on manifolds, generalizing the Euclidean Nesterov acceleration. We show that these ODEs can be discretized to obtain practical algorithms, and we provide convergence guarantees for the resulting methods. Our approach provides a unified framework for understanding and designing accelerated Riemannian optimization algorithms.",
+    "conferenceName": "23rd International Conference on Artificial Intelligence and Statistics",
+    "extra": {
+      "Editors": "Silvia Chiappa and Roberto Calandra",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

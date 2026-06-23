@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In reinforcement learning, agents often have to deal with high-dimensional observations that contain information irrelevant to the task. We propose Causal Influence Detection (CID), a method that learns to identify which parts of the environment are causally influenced by the agent's actions. By focusing on these parts, the agent can ignore irrelevant information, which significantly improves sample efficiency and generalization. We demonstrate the effectiveness of CID on a variety of tasks, including complex control problems and environments with distracting visual input.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2106.03443",
+    "extra": {
+      "Archive ID": "2106.03443",
+      "Citations@2026-06-01": "9",
+      "OpenAlex": "W3173555766",
+      "Pages": "22905--22918",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:LPZeul_q3PIC",
+      "Volume": "34"
+    },
+    "itemType": "document",
+    "libraryCatalog": "NeurIPS Proceedings"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a novel kernel-based test for conditional moment restrictions, which are ubiquitous in econometrics and statistics. Our test statistic is based on the maximum moment restriction (MMR), which is defined as the supremum of the conditional moment over a reproducing kernel Hilbert space. We show that the MMR can be computed in closed form, leading to a test that is computationally efficient and does not require the estimation of nuisance parameters or the choice of instrumental functions. We provide a theoretical analysis of the test, including its consistency and asymptotic distribution under the null hypothesis. Experimental results on synthetic and real-world data demonstrate that the proposed test outperforms existing methods in terms of power and computational efficiency.",
+    "conferenceName": "36th International Conference on Uncertainty in Artificial Intelligence",
+    "extra": {
+      "Editors": "Jonas Peters and David Sontag",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 36th International Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

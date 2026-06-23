@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a novel approach for filtering in switching linear dynamical systems (SLDS). By combining variational inference with a switching linear dynamical model, we derive a filtering algorithm that is both computationally efficient and capable of capturing complex, non-linear dynamics. Our method, which we call Switching Linear Dynamics for Variational Bayes Filtering (SLD-VBF), uses a variational approximation to the posterior distribution of the latent states and the switching variables. We demonstrate the effectiveness of our approach on several challenging synthetic and real-world datasets, showing that it outperforms existing methods in terms of both accuracy and computational efficiency.",
+    "conferenceName": "36th International Conference on Machine Learning",
+    "extra": {
+      "Editors": "Chaudhuri, Kamalika and Salakhutdinov, Ruslan",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 36th International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}

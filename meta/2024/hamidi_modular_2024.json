@@ -1,0 +1,61 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Curriculum learning is a powerful paradigm for training neural networks, yet designing effective curricula remains a significant challenge. We propose Modular Growth of Hierarchical Networks (MGHN), a novel framework that automates curriculum design by growing network architectures in tandem with task complexity. Inspired by the modular and hierarchical organization of biological brains, MGHN starts with a small, simple network and incrementally adds modules to solve increasingly complex tasks. We demonstrate that MGHN is efficient, general, and robust across a variety of reinforcement learning and supervised learning tasks. Our results show that MGHN outperforms standard curriculum learning methods and static architectures, providing a scalable approach to building complex, hierarchical representations.",
+    "archive": "arXiv",
+    "archiveLocation": "2406.06262",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:38:15",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/55/2461237/isal_a_00780.pdf"
+      },
+      {
+        "accessDate": "2025-06-17 19:38:15",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/55/2461237/isal_a_00780.pdf"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4402157709",
+      "Publisher": "University of Tübingen",
+      "Scholar": "1O2hcVgAAAAJ:u9iWguZQMMsC",
+      "arXiv": "2406.06262"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

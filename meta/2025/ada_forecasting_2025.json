@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2512.01987",
+    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416969241",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "b-JF-UIAAAAJ:86PQX7AUzd4C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/poster/120177'>https://neurips.cc/virtual/2025/poster/120177</a><br><a href='https://arxiv.org/abs/2512.01987'>https://arxiv.org/abs/2512.01987</a><br><a href='https://is.mpg.de/publications/adamaruguozt25'>https://is.mpg.de/publications/adamaruguozt25</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

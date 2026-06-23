@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bethge",
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Perceiving the world in terms of objects and tracking them through time is a crucial prerequisite for reasoning and scene understanding. Recently, several methods have been proposed for unsupervised learning of object-centric representations. However, since these models were evaluated on different downstream tasks, it remains unclear how they compare in terms of basic perceptual abilities such as detection, figure-ground segmentation and tracking of objects. To close this gap, we design a benchmark with four data sets of varying complexity and seven additional test sets featuring challenging tracking scenarios relevant for natural videos. Using this benchmark, we compare the perceptual abilities of four object-centric approaches: ViMON, a video-extension of MONet, based on recurrent spatial attention, OP3, which exploits clustering via spatial mixture models, as well as TBA and SCALOR, which use explicit factorization via spatial transformers. Our results suggest that the architectures with unconstrained latent representations learn more powerful representations in terms of object detection, segmentation and tracking than the spatial transformer based architectures. We also observe that none of the methods are able to gracefully handle the most challenging tracking scenarios despite their synthetic nature, suggesting that our benchmark may provide fruitful guidance towards learning more robust object-centric video representations.",
+    "extra": {
+      "Conference": "35th Conference on Neural Information Processing Systems (NeurIPS 2021)",
+      "Conference Name": "NeurIPS",
+      "Proceedings Title": "Advances in Neural Information Processing Systems",
+      "Source": "group_webpage (geiger)"
+    },
+    "itemType": "journalArticle"
+  }
+}

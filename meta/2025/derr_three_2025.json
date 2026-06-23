@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Fueled by discussions around \"trustworthiness\" and algorithmic fairness, calibration of predictive systems has regained scholars attention. The vanilla definition and understanding of calibration is, simply put, on all days on which the rain probability has been predicted to be p, the actual frequency of rain days was p. However, the increased attention has led to an immense variety of new notions of \"calibration.\" Some of the notions are incomparable, serve different purposes, or imply each other. In this work, we provide two accounts which motivate calibration: self-realization of forecasted properties and precise estimation of incurred losses of the decision makers relying on forecasts. We substantiate the former via the reflection principle and the latter by actuarial fairness. For both accounts we formulate prototypical definitions via properties $\\Gamma$ of outcome distributions, e.g., the mean or median. The prototypical definition for self-realization, which we call $\\Gamma$-calibration, is equivalent to a certain type of swap regret under certain conditions. These implications are strongly connected to the omniprediction learning paradigm. The prototypical definition for precise loss estimation is a modification of decision calibration adopted from Zhao et al. [73]. For binary outcome sets both prototypical definitions coincide under appropriate choices of reference properties. For higher-dimensional outcome sets, both prototypical definitions can be subsumed by a natural extension of the binary definition, called distribution calibration with respect to a property. We conclude by commenting on the role of groupings in both accounts of calibration often used to obtain multicalibration. In sum, this work provides a semantic map of calibration in order to navigate a fragmented terrain of notions and definitions.",
+    "archive": "arXiv",
+    "archiveLocation": "2504.18395",
+    "extra": {
+      "Archive ID": "2504.18395",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416381180",
+      "Repository": "arXiv",
+      "Scholar": "G4MBruQAAAAJ:EsO17nB32j8C",
+      "arXiv": "2504.18395"
+    },
+    "itemType": "document",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2504.18395'>https://arxiv.org/abs/2504.18395</a><br><a href='https://dblp.org/rec/journals/corr/abs-2504-18395'>https://dblp.org/rec/journals/corr/abs-2504-18395</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}

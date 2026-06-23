@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The rapid pace of progress in machine learning has led to a proliferation of models, making it increasingly difficult to evaluate them on lifelong learning benchmarks. Current evaluation practices are computationally expensive, often requiring full retraining or extensive inference passes for every new model. We introduce a framework for efficient lifelong model evaluation that leverages the structure of lifelong learning benchmarks to significantly reduce the computational cost of evaluation. Our approach, which we call Sort-and-Search, enables the evaluation of new models on lifelong benchmarks with a fraction of the compute required by standard methods. We demonstrate the effectiveness of our approach on a range of lifelong learning benchmarks, showing that it can achieve significant speedups while maintaining high accuracy.",
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "OpenAlex": "W4415796870",
+      "Scholar": "0z0fNxUAAAAJ:lg2tdxc6qMwC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+  }
+}

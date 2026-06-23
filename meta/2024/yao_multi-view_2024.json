@@ -1,0 +1,51 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Causal representation learning aims to recover the underlying causal variables and their causal structure from high-dimensional observations. Existing methods typically assume that all causal variables are observed in the data. However, in many real-world scenarios, some causal variables are unobserved, leading to partial observability. In this paper, we study the identifiability of causal representations under partial observability using multi-view data. We show that, under certain conditions, the latent causal variables can be identified up to a component-wise transformation, even when some variables are not observed in any view. We propose a novel framework, Multi-View Causal Representation Learning (MVCRL), to learn these representations and demonstrate its effectiveness on synthetic and real-world datasets.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2311.04056",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 19:47:17",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=OGtnhKQJms"
+      },
+      {
+        "accessDate": "2025-06-17 19:47:17",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=OGtnhKQJms"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "OpenAlex": "W4388514808",
+      "Scholar": "b-JF-UIAAAAJ:uWiczbcajpAC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 36</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 36</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Twelfth International Conference on Learning Representations"
+  }
+}

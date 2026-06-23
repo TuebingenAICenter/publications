@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Annotating object ground truth in videos is vital for several downstream tasks in robot perception and machine learning, such as for evaluating the performance of an object tracker or training an image-based object detector. The accuracy of the annotated instances of the moving objects on every image frame in a video is crucially important. Achieving that through manual annotations is not only very time consuming and labor intensive, but is also prone to high error rate. State-of-the-art annotation methods depend on manually initializing the object bounding boxes only in the first frame and then use classical tracking methods, e.g., adaboost, or kernelized correlation filters, to keep track of those bounding boxes. These can quickly drift, thereby requiring tedious manual supervision. In this paper, we propose a new annotation method which leverages a combination of a learning-based detector (SSD) and a learning-based tracker (RE). Through this, we significantly reduce annotation drifts, and, consequently, the required manual supervision. We validate our approach through annotation experiments using our proposed annotation method and existing baselines on a set of drone video frames. Source code and detailed information on how to run the annotation program can be found at https://github.com/robot-perception-group/smarter-labelme",
+    "conferenceName": "Intelligent Autonomous Systems 18",
+    "extra": {
+      "Project": "https://github.com/robot-perception-group/smarter-labelme",
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Intelligent Autonomous Systems 18",
+    "seriesTitle": "Lecture Notes in Networks and Systems"
+  }
+}

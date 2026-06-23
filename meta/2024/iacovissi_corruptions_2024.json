@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Corruption is notoriously widespread in data collection. Despite extensive research, the existing literature on corruption predominantly focuses on specific settings and learning scenarios, lacking a unified view. There is still a limited understanding of how to effectively model and mitigate corruption in machine learning problems. In this work, we develop a general theory of corruption from an information-theoretic perspective - with Markov kernels as a foundational mathematical tool. We generalize the definition of corruption beyond the concept of distributional shift: corruption includes all modifications of a learning problem, including changes in model class and loss function. We will focus here on changes in probability distributions. First, we construct a provably exhaustive framework for pairwise Markovian corruptions. The framework not only allows us to study corruption types based on their input space, but also serves to unify prior works on specific corruption models and establish a consistent nomenclature. Second, we systematically analyze the consequences of corruption on learning tasks by comparing Bayes risks in the clean and corrupted scenarios. This examination sheds light on complexities arising from joint and dependent corruptions on both labels and attributes. Notably, while label corruptions affect only the loss function, more intricate cases involving attribute corruptions extend the influence beyond the loss to affect the hypothesis class. Third, building upon these results, we investigate mitigations for various corruption types. We expand the existing loss-correction results for label corruption, and identify the necessity to generalize the classical corruption-corrected learning framework to a new paradigm with weaker requirements. Within the latter setting, we provide a negative result for loss correction in the attribute and the joint corruption case.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2307.08643",
+    "extra": {
+      "Archive ID": "2307.08643",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4384648532",
+      "Repository": "arXiv",
+      "Scholar": "G4MBruQAAAAJ:H-nlc5mcmJQC"
+    },
+    "itemType": "document"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Automatically generated passwords and passphrases are a cornerstone of IT security. Yet, these passphrases are often hard to remember and see only limited adoption. In this work, we use large language models to generate passphrases with rigorous security guarantees via the computation of the entropy of the output as a metric of the security of the passphrase. We then present a range of practical methods to generate language model outputs with sufficient entropy: raising entropy through in-context examples and generation through a new top-q truncation method. We further verify the influence of prompt construction in steering the output topic and grammatical structure. Finally, we conduct user studies to determine the adoption rates for these LLM-generated passphrases in practice.",
+    "conferenceName": "The 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4411119908",
+      "Scholar": "206vNCEAAAAJ:tzM49s52ZIMC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>num_citations: 2025-07-31 : 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The 2025 Annual Conference of the Nations of the Americas Chapter of the ACL"
+  }
+}
