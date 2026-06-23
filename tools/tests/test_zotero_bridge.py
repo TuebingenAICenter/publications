@@ -162,3 +162,20 @@ def test_multi_paragraph_abstract_does_not_break_the_split():
     # split_entries itself yields exactly the two entries, not five blank-line shards.
     a_text = next(e.bib for e in entries if "2025" in e.citekey)
     assert len(entry.split_entries(a_text)) == 1
+
+
+def test_roundtrip_tolerates_colliding_citekeys():
+    # Regression: two distinct publications can carry the same explicit citationKey
+    # (e.g. both came from a prior import). to_bibtex honors explicit keys verbatim
+    # (no -N disambiguation), so the exported entries collide. Per-file uniqueness is
+    # the diff job's placement concern, not the bridge's — from_store_entries must
+    # still round-trip them (a single combined parse would reject the duplicate keys).
+    items = [
+        JournalArticle(title="First", date="2023", creators=[], citationKey="dup2023"),
+        JournalArticle(title="Second", date="2023", creators=[], citationKey="dup2023"),
+    ]
+    entries = zotero_bridge.to_store_entries(items)
+    assert [e.citekey for e in entries] == ["dup2023", "dup2023"]  # they collide
+
+    back_items, _ = zotero_bridge.from_store_entries(entries)
+    assert {i.title for i in back_items} == {"First", "Second"}

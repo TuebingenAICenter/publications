@@ -171,40 +171,39 @@ def from_store_entries(
     :func:`to_store_entries` added one) is stripped back out — it is a pointer, never
     store data, so it must not survive into a re-exported ``zotero`` half.
 
-    Each entry's carried ``citekey`` is the key (it is the store filename stem and
-    equals the citekey inside ``bib`` by construction), so the round-trip is keyed
-    end to end without re-parsing the bib.
+    Each entry is parsed **on its own** — one ``from_bibtex`` per ``bib``, with that
+    entry's ``zotero`` half overlaid under its carried ``citekey`` and its ``custom``
+    half applied to the resulting item(s). Entries are deliberately *not* joined into
+    one BibTeX string: citekeys are unique per store *file* but can collide across
+    entries (they are derived from creators/title/date, and store-wide uniqueness is
+    the diff job's placement concern, not the bridge's), and a single combined parse
+    would reject the duplicates and could not map a sidecar to the right item.
     """
-    bib_texts: list[str] = []
-    zotero_map: dict[str, dict] = {}
-    custom_map: dict[str, dict] = {}
-    for entry in entries:
-        bib_texts.append(entry.bib.rstrip("\n"))
-        zotero_half = entry.sidecar.get("zotero", {})
-        if zotero_half:
-            zotero_map[entry.citekey] = zotero_half
-        custom_map[entry.citekey] = entry.sidecar.get("custom", {})
-
-    items = from_bibtex("\n\n".join(bib_texts), sidecar=zotero_map or None)
-
+    items: list[ZoteroItem] = []
     collections_by_name: dict[str, ZoteroCollection] = {}
-    for item in items:
-        item.attachments = [
-            att
-            for att in item.attachments
-            if not (
-                att.linkMode == "linked_url"
-                and att.title == SIDECAR_ATTACHMENT_TITLE
-            )
-        ]
-        custom = custom_map.get(item.citationKey, {})
-        if custom.get("mentions_ai_center") is True:
-            item.tags.append(Tag(tag=MENTIONS_AI_CENTER_TAG))
-        for name in custom.get("groups", []):
-            collection = collections_by_name.get(name)
-            if collection is None:
-                collection = ZoteroCollection(name=name)
-                collections_by_name[name] = collection
-            collection.add(item)
+    for entry in entries:
+        zotero_half = entry.sidecar.get("zotero", {})
+        custom = entry.sidecar.get("custom", {})
+        parsed = from_bibtex(
+            entry.bib, sidecar={entry.citekey: zotero_half} if zotero_half else None
+        )
+        for item in parsed:
+            item.attachments = [
+                att
+                for att in item.attachments
+                if not (
+                    att.linkMode == "linked_url"
+                    and att.title == SIDECAR_ATTACHMENT_TITLE
+                )
+            ]
+            if custom.get("mentions_ai_center") is True:
+                item.tags.append(Tag(tag=MENTIONS_AI_CENTER_TAG))
+            for name in custom.get("groups", []):
+                collection = collections_by_name.get(name)
+                if collection is None:
+                    collection = ZoteroCollection(name=name)
+                    collections_by_name[name] = collection
+                collection.add(item)
+        items.extend(parsed)
 
     return items, list(collections_by_name.values())
