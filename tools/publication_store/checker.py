@@ -42,10 +42,7 @@ import sys
 from pathlib import Path
 
 from . import entry, sidecar
-
-
-def bib_paths(repo_root: Path) -> list[Path]:
-    return sorted((Path(repo_root) / "entries").rglob("*.bib"))
+from .store import bib_paths, meta_path_for, meta_paths
 
 
 def entry_errors(repo_root: Path) -> list[str]:
@@ -53,8 +50,7 @@ def entry_errors(repo_root: Path) -> list[str]:
     repo_root = Path(repo_root)
     errors: list[str] = []
     for bib_path in bib_paths(repo_root):
-        shard, stem = bib_path.parent.name, bib_path.stem
-        meta_path = repo_root / "meta" / shard / f"{stem}.json"
+        meta_path = meta_path_for(bib_path, repo_root)
         errors.extend(entry.check_entry(bib_path, meta_path, repo_root))
     return errors
 
@@ -71,7 +67,7 @@ def orphan_sidecar_errors(repo_root: Path) -> list[str]:
     repo_root = Path(repo_root)
     meta_dir = repo_root / "meta"
     errors: list[str] = []
-    for meta_path in sorted(meta_dir.rglob("*.json")):
+    for meta_path in meta_paths(repo_root):
         rel = meta_path.relative_to(repo_root)
         shard_rel = meta_path.relative_to(meta_dir).with_suffix(".bib")
         if (repo_root / "entries" / shard_rel).exists():
