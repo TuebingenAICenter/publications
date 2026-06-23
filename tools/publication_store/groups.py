@@ -65,6 +65,7 @@ from pathlib import Path
 
 from . import entry, sidecar
 from .diff_job import NormalizeError, normalize_changed
+from .store import bib_paths, meta_path_for
 
 
 def slug_of(path: Path, root: Path) -> str | None:
@@ -284,9 +285,9 @@ def _entry_memberships(root: Path) -> list[tuple[str, str, list[str]]]:
     """
     root = Path(root)
     out: list[tuple[str, str, list[str]]] = []
-    for bib_path in sorted((root / "entries").rglob("*.bib")):
+    for bib_path in bib_paths(root):
         year, citekey = bib_path.parent.name, bib_path.stem
-        meta_path = root / "meta" / year / f"{citekey}.json"
+        meta_path = meta_path_for(bib_path, root)
         if not meta_path.exists():
             continue
         try:

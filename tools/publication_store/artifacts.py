@@ -6,17 +6,23 @@ build artifacts, never committed, always reproducible from ``entries/**`` +
 green ``main``), warns + skips anything that won't parse, and never fails the
 merge. It reasons about nothing: no dedup, no matching, no enrichment.
 
-Three artifacts, each a pure ``(repo_root) -> (text/obj, warnings)`` function with
-no git, no argparse, no I/O:
+Four artifacts, each a pure ``(repo_root) -> (payload, warnings)`` function with no
+git, no argparse, no I/O of its own (``main`` writes them out):
 
 - :func:`compile_all_bib` — every entry in one deterministic, citekey-sorted
   ``all.bib``. (Relocated here from ``checker.py`` so the S1–S5 gate stays pure.)
 - :func:`compile_group_bibs` — one ``<slug>.bib`` per PI group, holding the entries
   whose sidecar ``custom.groups`` contains that slug (a co-owned paper appears in
-  both). The only compiler that parses bibs.
+  both).
 - :func:`compile_meta_json` — a lossless ``{citekey: <verbatim sidecar>}`` join of
   every ``meta/**`` sidecar. No bib parsing, no field selection: a single-file
   mirror of the overlay data.
+- :func:`compile_rdf` — the **full** library in one Zotero-importable ``library.rdf``:
+  every entry's lossless ``zotero`` half plus ``custom.groups`` rebuilt into Zotero
+  collections and the ``mentionsAICenter`` tag re-added (via the
+  :mod:`publication_store.store` / :mod:`publication_store.zotero_bridge` round-trip).
+  Unlike ``all.bib`` it carries group membership + tags, so it re-imports into the
+  Zotero GUI as the whole library.
 
 Deps stay ``zotero-rdf`` + ``jsonschema`` (no ``publib``); the slug vocabulary is
 **not** enforced — group bibs are emitted for whatever slugs actually appear in
@@ -27,22 +33,20 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
+import tempfile
 from pathlib import Path
 
-from zotero_rdf import BibtexParseError, from_bibtex, to_bibtex
+from zotero_rdf import BibtexParseError, export_to_rdf, from_bibtex, to_bibtex
 
 from . import entry, sidecar
-from .checker import bib_paths
+from .store import bib_paths, meta_path_for, meta_paths
+from .zotero_bridge import StoreEntry, from_store_entries
 
-# The three artifact kinds, in emit order. Used both as the ``--only`` vocabulary
-# and as the default (emit all three).
-ARTIFACT_KINDS = ("all-bib", "group-bibs", "meta-json")
-
-
-def _meta_path_for(bib_path: Path, repo_root: Path) -> Path:
-    """The sidecar path paired with ``bib_path`` (S1: same shard + stem)."""
-    return repo_root / "meta" / bib_path.parent.name / f"{bib_path.stem}.json"
+# The artifact kinds, in emit order. Used both as the ``--only`` vocabulary and as
+# the default (emit all of them).
+ARTIFACT_KINDS = ("all-bib", "group-bibs", "meta-json", "rdf")
 
 
 def compile_all_bib(repo_root: Path) -> tuple[str, list[str]]:
@@ -94,7 +98,7 @@ def compile_group_bibs(repo_root: Path) -> tuple[dict[str, str], list[str]]:
     buckets: dict[str, dict[str, object]] = {}
     for path in bib_paths(repo_root):
         rel = str(path.relative_to(repo_root))
-        meta_path = _meta_path_for(path, repo_root)
+        meta_path = meta_path_for(path, repo_root)
         try:
             data = json.loads(meta_path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError) as exc:
@@ -146,9 +150,8 @@ def compile_meta_json(repo_root: Path) -> tuple[dict[str, dict], list[str]]:
     """
     repo_root = Path(repo_root)
     warnings: list[str] = []
-    meta_dir = repo_root / "meta"
     by_key: dict[str, dict] = {}
-    for meta_path in sorted(meta_dir.rglob("*.json")):
+    for meta_path in meta_paths(repo_root):
         rel = str(meta_path.relative_to(repo_root))
         try:
             data = json.loads(meta_path.read_text(encoding="utf-8"))
@@ -163,10 +166,73 @@ def compile_meta_json(repo_root: Path) -> tuple[dict[str, dict], list[str]]:
     return by_key, warnings
 
 
+def _rdf_bytes(items, collections) -> bytes:
+    """Serialize a library to Zotero RDF/XML bytes.
+
+    ``zotero_rdf.export_to_rdf`` only writes to a path (it postprocesses to bytes for
+    the ``rdf:resource`` import workaround), so we round-trip through a temp file and
+    read the bytes back — keeping :func:`compile_rdf` a pure ``(root) -> (bytes,
+    warnings)`` like its siblings.
+    """
+    with tempfile.NamedTemporaryFile(suffix=".rdf", delete=False) as tmp:
+        tmp_path = tmp.name
+    try:
+        export_to_rdf(items, tmp_path, collections=collections)
+        return Path(tmp_path).read_bytes()
+    finally:
+        os.unlink(tmp_path)
+
+
+def compile_rdf(repo_root: Path) -> tuple[bytes, list[str]]:
+    """Compile the whole store into one Zotero-importable RDF library (not a gate).
+
+    Returns ``(rdf_bytes, warnings)``. Unlike ``all.bib`` (items only) and the group
+    bibs (split per slug), this is the **full lossless library in one file**: every
+    entry's ``zotero`` half overlaid via ``from_bibtex``, ``custom.groups`` rebuilt
+    into Zotero collections, and the ``mentionsAICenter`` tag re-added — exactly the
+    round-trip :mod:`publication_store.zotero_bridge` /
+    :mod:`publication_store.store` define, so the file re-imports into the Zotero GUI
+    with its groups + tags intact. A file that won't parse, or a sidecar that won't
+    read/validate, is warned + skipped (won't happen on a green store). Each surviving
+    ``.bib`` is pre-validated to parse (the tolerance filter) so the single
+    :func:`from_store_entries` over the survivors — which dedups collections across the
+    batch — never raises.
+    """
+    repo_root = Path(repo_root)
+    warnings: list[str] = []
+    entries: list[StoreEntry] = []
+    for path in bib_paths(repo_root):
+        rel = str(path.relative_to(repo_root))
+        meta_path = meta_path_for(path, repo_root)
+        meta_rel = str(meta_path.relative_to(repo_root))
+        try:
+            data = json.loads(meta_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            warnings.append(f"{meta_rel} is not readable JSON ({exc}) — skipped")
+            continue
+        message = sidecar.validation_error(data, meta_rel, repo_root)
+        if message is not None:
+            warnings.append(f"{message} — skipped")
+            continue
+        text = path.read_text(encoding="utf-8")
+        try:
+            items = from_bibtex(text)
+        except BibtexParseError as exc:
+            warnings.append(f"{rel} does not parse as BibTeX ({exc}) — skipped")
+            continue
+        if len(items) != 1:
+            warnings.append(f"{rel} holds {len(items)} entries — skipped")
+            continue
+        entries.append(StoreEntry(citekey=path.stem, bib=text, sidecar=data))
+
+    items, collections = from_store_entries(entries)
+    return _rdf_bytes(items, collections), warnings
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description="Compile the publication store into joined build artifacts "
-        "(all.bib / <group>.bib / meta.json). Read-only, never a gate."
+        "(all.bib / <group>.bib / meta.json / library.rdf). Read-only, never a gate."
     )
     ap.add_argument("--root", type=Path, default=Path.cwd(), help="repo root (default: cwd)")
     ap.add_argument(
@@ -214,6 +280,12 @@ def main() -> None:
             encoding="utf-8",
         )
         print(f"wrote {out / 'meta.json'} ({len(meta)} entries)")
+
+    if "rdf" in kinds:
+        rdf, w = compile_rdf(root)
+        warnings.extend(w)
+        (out / "library.rdf").write_bytes(rdf)
+        print(f"wrote {out / 'library.rdf'}")
 
     for warning in warnings:
         print(f"::warning::{warning}")

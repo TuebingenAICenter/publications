@@ -74,9 +74,10 @@ reconstruct the original item) and **`custom`** (the open report layer: status,
 provenance, review, group ownership, …). A bare `{}` is the valid empty sidecar. See
 [`schema/sidecar.schema.json`](schema/sidecar.schema.json) for the exact contract.
 
-A compiled `all.bib`, per-group `<group>.bib` views, and a consumer-facing `meta.json`
-are **optional build artifacts** — emitted on demand (`pubstore-compile`), **never
-committed**. The `groups/` symlink tree is likewise a derived browse view, rebuilt from
+A compiled `all.bib`, per-group `<group>.bib` views, a consumer-facing `meta.json`, and
+a full Zotero-importable `library.rdf` (the whole library in one file, with group
+collections + tags) are **optional build artifacts** — emitted on demand
+(`pubstore-compile`), **never committed**. The `groups/` symlink tree is likewise a derived browse view, rebuilt from
 `custom.groups`. The per-file `entries/`/`meta/` pairs are the only source of truth.
 
 ## The store contract (S1–S5)
@@ -123,7 +124,7 @@ and exposing the CLIs as `console_scripts`:
 |---|---|
 | `pubstore-normalize` | Per-MR diff job (mutating): normalize the changed `.bib` files into the store. |
 | `pubstore-check` | Full-store gate (read-only): verify S1–S5. The required status check. |
-| `pubstore-compile` | Add-on (read-only): emit `all.bib` / `<group>.bib` / `meta.json` artifacts. |
+| `pubstore-compile` | Add-on (read-only): emit `all.bib` / `<group>.bib` / `meta.json` / `library.rdf` artifacts. |
 | `pubstore-groups` | Add-on: `associate` (per-MR group drop → `custom.groups`) and `rebuild-mirror` (regenerate the `groups/` symlink view). |
 
 The shared per-entry logic lives in `publication_store/entry.py` (S1/S4 for one entry);
