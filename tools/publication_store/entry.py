@@ -38,6 +38,10 @@ from zotero_rdf import BibtexParseError, from_bibtex, to_bibtex
 from . import sidecar
 
 _CITEKEY_RE = re.compile(r"^@\w+\{([^,]+),", re.MULTILINE)
+# Entry boundary in `to_bibtex` output: a blank line directly before an `@entry`
+# start. Anchored on the `@…{` shape so a blank line inside a field value (a
+# multi-paragraph abstract) is never mistaken for a boundary.
+_ENTRY_BOUNDARY_RE = re.compile(r"\n\s*\n(?=@\w+\{)")
 _YEAR_RE = re.compile(r"^\s*year\s*=\s*\{?(\d{4})", re.MULTILINE)
 UNDATED = "undated"
 
@@ -71,13 +75,18 @@ def derive_path(item_year: str, citekey: str) -> tuple[Path, Path]:
 def split_entries(bib_string: str) -> list[tuple[str, str]]:
     """Split ``to_bibtex`` output into ``(citekey, entry_text)`` pairs.
 
-    Operates on the *formatter's own* output (blank-line separated, one entry per
-    block), not on arbitrary contributor text — the per-item split that matters
+    Operates on the *formatter's own* output (entries joined by a blank line, one
+    per block), not on arbitrary contributor text — the per-item split that matters
     (one ``.bib`` per parsed ``ZoteroItem``) already happened in
     :func:`canonical_entries` via ``from_bibtex`` → ``to_bibtex``.
+
+    The boundary is a blank line **followed by an ``@entry`` start**, not any blank
+    line: a multi-paragraph field value (e.g. an ``abstract`` with a blank line
+    between paragraphs) is valid BibTeX the formatter emits verbatim, so a plain
+    ``"\\n\\n"`` split would tear such an entry apart.
     """
     pairs: list[tuple[str, str]] = []
-    for chunk in bib_string.split("\n\n"):
+    for chunk in _ENTRY_BOUNDARY_RE.split(bib_string.strip()):
         chunk = chunk.strip()
         if not chunk:
             continue
