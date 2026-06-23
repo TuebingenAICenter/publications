@@ -84,16 +84,13 @@ symlink tree is likewise a derived browse view, rebuilt from `custom.groups`. Th
 Every merge to `main` publishes a snapshot
 [release](https://github.com/TuebingenAICenter/publications/releases/latest) with each
 compiled view attached as its own asset. These links always resolve to the **latest**
-release, so they never go stale — no tag in the URL:
+release:
 
+- **[`all.bib`](https://github.com/TuebingenAICenter/publications/releases/latest/download/all.bib)**
+  — every entry as one BibTeX file.
 - **[`library.rdf`](https://github.com/TuebingenAICenter/publications/releases/latest/download/library.rdf)**
   — the whole library in one file; import straight into Zotero (groups become
   collections, tags included).
-- **[`all.bib`](https://github.com/TuebingenAICenter/publications/releases/latest/download/all.bib)**
-  — every entry as one BibTeX file.
-- **[`meta.json`](https://github.com/TuebingenAICenter/publications/releases/latest/download/meta.json)**
-  — the joined sidecars, keyed by citekey (the `custom` report layer + lossless `zotero`
-  overlay).
 - **`<group>.bib`** — one BibTeX file per PI group, e.g.
   [`bethge.bib`](https://github.com/TuebingenAICenter/publications/releases/latest/download/bethge.bib),
   [`schoelkopf.bib`](https://github.com/TuebingenAICenter/publications/releases/latest/download/schoelkopf.bib).
