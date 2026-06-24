@@ -111,8 +111,10 @@ ingestion shape: **one branch + one PR per publication** against the store repo,
 the full canonical pair. No local clone — it commits via the GitHub Git Data API. The
 same invocation runs on the scraper's monthly cron and locally for staging.
 
-Idempotent: it skips any item whose citekey is already in the store *or* whose branch
-already exists, so re-runs only file the remaining delta.
+Idempotent. The store's citekey set is read once; per item it either **adds** (citekey
+not in the store), **updates** (citekey in the store but the emitted pair differs byte
+for byte), **renames** (see below), or **skips** (pair byte-identical, or a branch for
+that op already exists). Re-runs only file the remaining delta.
 
 ```bash
 pubstore-publish <export.rdf> --repo OWNER/REPO \
@@ -122,9 +124,38 @@ pubstore-publish <export.rdf> --repo OWNER/REPO \
 - `rdf` — the Zotero RDF export (groups carried as collections).
 - `--repo` — `OWNER/REPO` of the store, e.g. `TuebingenAICenter/publications` (required).
 - `--base` — base branch to open PRs against (default `main`).
-- `--limit` — cap the number of PRs *created* this run (skips don't count against it).
+- `--limit` — cap the number of PRs *opened* this run — adds + updates + renames (skips
+  don't count against it).
 - `--dry-run` — compute and log; still queries the remote for the skip checks, but opens
   no PR.
+
+Each op uses its own branch namespace so concurrent open PRs never collide: adds on
+`<citekey>`, updates on `update/<citekey>`, renames on `rename/<citekey>`.
+
+### Identity, updates, and renames
+
+The **citekey is the store identity**. An item's pair is keyed by it, so keeping it stable
+across metadata edits is what makes updates (rather than accidental duplicates) work.
+
+- **Pin your citation keys.** With dynamic (unpinned) keys, correcting an author, title,
+  or year *recomputes* the citekey — the corrected item then looks like a brand-new add
+  and the old entry is silently orphaned. Pin keys in Zotero (Better BibTeX → **Pin BibTeX
+  key**, which writes `Citation Key: <key>` into the item's *extra*); a pinned key survives
+  any metadata edit, so a correction becomes a clean in-place **update** PR. `pubstore-publish`
+  **warns** (non-blocking) and lists every item whose key was auto-generated, so you can pin
+  it.
+- **Deliberate renames** (you really do want a new citekey for an existing publication):
+  add a line to the item's *extra* in Zotero:
+
+  ```
+  Replaces: <old_citekey>
+  ```
+
+  On publish, the item opens a `rename/<new_citekey>` PR that writes the new pair **and
+  deletes the superseded `<old_citekey>` pair in the same commit**; the PR body names what
+  it supersedes. The marker is operational only — it is stripped from the stored entry. If
+  `<old_citekey>` isn't in the store, the run logs a `::warning::` and falls back to a
+  normal add/update.
 
 ### Tokens — what it needs and where to find them
 
@@ -142,6 +173,13 @@ otherwise it falls back to a plain token:
 
 Store these as secrets in the repo that runs the job (the scraper,
 `tueai_publication_scraping`), not in source.
+
+The App installation must grant **Contents: read & write** *and* **Pull requests: read &
+write** on the store repo. Missing the latter surfaces as `403 Resource not accessible by
+integration` on the `POST .../pulls` step *after* the branch/commit already landed (so it
+leaves an orphan branch). Add the permission in the App settings, approve the update on the
+installation, then delete any orphan branches before re-running. Verify with
+`gh api /repos/OWNER/REPO/installation --jq '.permissions'`.
 
 **2. Plain token (local / manual staging).** Simpler for a one-off run from your machine:
 
