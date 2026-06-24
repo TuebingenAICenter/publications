@@ -10,6 +10,10 @@ dependencies = [
     "zotero-rdf @ git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git",
     # Validates sidecars against schema/sidecar.schema.json (the public contract).
     "jsonschema>=4",
+    # pubstore-publish: drives the store repo via the GitHub Git Data API (no clone)
+    # and mints App-installation auth in-process (vendors the JWT handling, so no
+    # separate PyJWT). Only pubstore-publish imports it, and lazily.
+    "PyGithub>=2",
 ]
 
 [project.optional-dependencies]
@@ -24,6 +28,8 @@ pubstore-normalize = "publication_store.diff_job:main"
 pubstore-check = "publication_store.checker:main"
 # Add-on (read-only): compile joined build artifacts (all.bib / <group>.bib / meta.json).
 pubstore-compile = "publication_store.artifacts:main"
+# Producer (mutating, remote): one branch + PR per item against the store repo.
+pubstore-publish = "publication_store.publish:main"
 # Add-on: group directories. `associate` (per-MR diff job) unions a groups/<slug>/ drop's
 # slug into the entry's custom.groups (the source of truth); `rebuild-mirror` (its own
 # push-to-main workflow) regenerates the groups/<slug>/ symlink browse mirror from it.
