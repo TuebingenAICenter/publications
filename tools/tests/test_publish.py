@@ -30,6 +30,7 @@ class FakePublisher:
         self._fail_on = set(fail_on)
         self.created: list[tuple[str, object, str, str]] = []  # (branch, pair, title, body)
         self.renamed_from: list[tuple[str, str]] = []  # (branch, old_citekey)
+        self.labels: dict[str, list[str]] = {}  # branch -> labels applied
 
     def seed(self, store_entry, *, changed=False):
         """Register ``store_entry`` as already in the store.
@@ -52,17 +53,19 @@ class FakePublisher:
     def branch_exists(self, branch: str) -> bool:
         return branch in self._branches
 
-    def create_entry_pr(self, branch, pair, *, title, body, commit_message):
+    def create_entry_pr(self, branch, pair, *, title, body, commit_message, labels=()):
         if branch in self._fail_on:
             raise RuntimeError("boom")
         self.created.append((branch, pair, title, body))
+        self.labels[branch] = list(labels)
         self._branches.add(branch)
         return f"https://example.test/pr/{branch}"
 
-    def create_rename_pr(self, branch, pair, *, old_citekey, title, body, commit_message):
+    def create_rename_pr(self, branch, pair, *, old_citekey, title, body, commit_message, labels=()):
         if branch in self._fail_on:
             raise RuntimeError("boom")
         self.created.append((branch, pair, title, body))
+        self.labels[branch] = list(labels)
         self.renamed_from.append((branch, old_citekey))
         self._branches.add(branch)
         self._stored.pop(old_citekey, None)  # the old pair is deleted by the same commit
@@ -192,11 +195,43 @@ def test_pr_body_surfaces_title_authors_groups():
     col = ZoteroCollection(name="bethge")
     col.add(item)
     (se,) = to_store_entries([item], [col])
-    body = publish.build_pr_body(se, publish.emit.emit_pair(se).bib_text)
+    body = publish.build_pr_body(se, publish.emit.emit_pair(se))
 
     assert "Predictive Coding" in body
     assert "Jane Smith" in body
     assert "bethge" in body
+    assert "#### How to review" in body  # checklist present
+    assert "```bibtex" in body  # bibtex embedded
+
+
+def test_update_body_shows_a_diff():
+    (se,) = _entries([("A", "2025", ["bethge"])])
+    pub = FakePublisher().seed(se, changed=True)  # stored pair differs (STALE BIB/META)
+    publish.publish_entries(pub, [se])
+
+    branch, _pair, _title, body = pub.created[0]
+    assert branch == f"update/{se.citekey}"
+    assert "#### What changed" in body
+    assert "```diff" in body
+    assert "STALE BIB" in body  # the before-text appears in the unified diff
+
+
+def test_labels_cover_op_kind_type_and_each_group():
+    (se,) = _entries([("A", "2025", ["bethge", "schoelkopf"])])
+    pub = FakePublisher()
+    publish.publish_entries(pub, [se])
+
+    labels = pub.labels[se.citekey]
+    assert "new" in labels
+    assert "type:journalArticle" in labels
+    assert "group:bethge" in labels and "group:schoelkopf" in labels
+
+
+def test_update_and_rename_carry_their_op_label():
+    entries = _entries([("A", "2025", ["g"])])
+    pub = FakePublisher().seed(entries[0], changed=True)
+    publish.publish_entries(pub, entries)
+    assert "update" in pub.labels[f"update/{entries[0].citekey}"]
 
 
 def test_pr_title_reads_new_publication_title_by_author():
@@ -242,9 +277,51 @@ def test_extract_and_strip_replaces_helpers():
     assert publish._extract_replaces("nothing here") is None
     assert publish._extract_replaces(None) is None
 
-    stripped = publish._strip_replaces("Citation Key: x\nReplaces: bar\nfoo: y")
+    stripped = publish._strip_markers("Citation Key: x\nReplaces: bar\nfoo: y")
     assert "Replaces" not in stripped
     assert "Citation Key: x" in stripped and "foo: y" in stripped
+
+
+def test_extract_and_strip_duplicates_helpers():
+    assert publish._extract_duplicates("Possible-Duplicates: foo_2020@0.94, bar_2019@0.8") == [
+        ("foo_2020", 0.94),
+        ("bar_2019", 0.8),
+    ]
+    # bare citekey (no score) and a malformed score both degrade to None
+    assert publish._extract_duplicates("Possible-Duplicates: foo_2020, bar@oops") == [
+        ("foo_2020", None),
+        ("bar", None),
+    ]
+    assert publish._extract_duplicates("nothing here") == []
+    assert publish._extract_duplicates(None) == []
+
+    # _strip_markers removes both operational markers, keeps real extra data
+    stripped = publish._strip_markers("Citation Key: x\nPossible-Duplicates: a@0.9\nReplaces: b")
+    assert "Possible-Duplicates" not in stripped and "Replaces" not in stripped
+    assert "Citation Key: x" in stripped
+
+
+def test_build_publish_items_reads_duplicates_and_strips_marker():
+    (pi,) = publish.build_publish_items(
+        [_article("Dup", "2025", extra="Possible-Duplicates: six_dup_2024@0.97")], []
+    )
+    assert pi.duplicates == [("six_dup_2024", 0.97)]
+    assert "Possible-Duplicates" not in pi.entry.bib  # operational, never stored
+
+
+def test_duplicates_surface_in_pr_body_but_never_a_label():
+    (pi,) = publish.build_publish_items(
+        [_article("Dup", "2025", extra="Possible-Duplicates: six_dup_2024@0.97, other_2023")], []
+    )
+    pub = FakePublisher()
+    publish.publish_entries(pub, [pi])
+
+    branch, _pair, _title, body = pub.created[0]
+    assert "Possible duplicates already in the store" in body
+    assert "`six_dup_2024` — score 0.97" in body
+    assert "`other_2023`" in body  # bare candidate rendered without a score
+    # The hint lives in the body only — it must never become a label.
+    assert not any("duplicate" in label for label in pub.labels[branch])
 
 
 def test_build_publish_items_reads_pin_status_and_replaces():

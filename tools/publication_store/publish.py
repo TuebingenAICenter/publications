@@ -22,6 +22,12 @@ Mechanics (decision 5 in the task plan):
   Citekeys are ``[a-z0-9_-]`` ⇒ valid branch names. Because the citekey *is* the
   identity, a metadata edit that recomputes an unpinned key would orphan the old entry —
   so the run also **warns** on auto-generated (unpinned) keys.
+- **Duplicate hints (render-only).** This CLI never computes similarity (``publib`` stays
+  out of its dependency set and the CI image). Instead it *consumes* a
+  ``Possible-Duplicates: key@score, …`` *extra* line, written upstream by the similarity
+  scan that owns ``publib`` (the scraper), and surfaces those candidates as a warning in
+  the PR body (no label). Like ``Replaces:``, the marker is stripped from the stored
+  entry.
 - **Auth anywhere.** App-installation auth minted in-process from env
   (``PUBBOT_APP_ID`` / ``PUBBOT_PRIVATE_KEY`` / ``PUBBOT_INSTALLATION_ID``) so the job
   needs no GitHub-Actions tooling; a plain ``--token`` / ``GITHUB_TOKEN`` is the
@@ -36,6 +42,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import difflib
 import os
 import re
 import sys
@@ -53,11 +60,15 @@ if TYPE_CHECKING:
     from .emit import EmittedPair
     from .zotero_bridge import StoreEntry
 
-#: An ``extra`` line that declares this item supersedes an existing store entry under a
-#: different citekey — the explicit, operator-controlled rename signal (a metadata edit
-#: that changes the citekey, e.g. a year correction, would otherwise read as a new add
-#: leaving the old entry stale). Co-located with the item in Zotero, so it rides the RDF.
-_REPLACES_LINE_RE = re.compile(r"(?i)^\s*replaces\s*:")
+#: ``extra`` marker lines that are *operational* signals for the publisher, not
+#: publication data — read off the raw item and stripped from every stored entry.
+#: ``Replaces:`` declares a rename (this item supersedes an existing entry under a
+#: different citekey — a metadata edit that changes an unpinned key would otherwise read
+#: as a new add, leaving the old entry stale). ``Possible-Duplicates:`` carries the
+#: similarity scan's candidate matches (``citekey@score`` pairs, computed upstream where
+#: ``publib`` lives — never in this CLI) so the PR can surface them for review. Both are
+#: co-located with the item in Zotero, so they ride the RDF/extra round-trip.
+_MARKER_LINE_RE = re.compile(r"(?i)^\s*(replaces|possible-duplicates)\s*:")
 
 
 # --------------------------------------------------------------------------- #
@@ -80,9 +91,19 @@ class StorePublisher(Protocol):
         """Whether ``refs/heads/<branch>`` already exists on the remote."""
 
     def create_entry_pr(
-        self, branch: str, pair: EmittedPair, *, title: str, body: str, commit_message: str
+        self,
+        branch: str,
+        pair: EmittedPair,
+        *,
+        title: str,
+        body: str,
+        commit_message: str,
+        labels: Iterable[str] = (),
     ) -> str:
-        """Commit the pair on a new branch off the base and open a PR; return its URL."""
+        """Commit the pair on a new branch off the base and open a PR; return its URL.
+
+        ``labels`` are applied to the opened PR, each created on the repo first if it
+        does not already exist (the GitHub API rejects unknown labels)."""
 
     def create_rename_pr(
         self,
@@ -93,6 +114,7 @@ class StorePublisher(Protocol):
         title: str,
         body: str,
         commit_message: str,
+        labels: Iterable[str] = (),
     ) -> str:
         """Like :meth:`create_entry_pr` but the same commit also *deletes* the old
         entry's ``.bib`` + ``.json`` pair (looked up by ``old_citekey``), so a rename
@@ -110,6 +132,7 @@ class GitHubStorePublisher:
         self._repo = repo
         self._base = base_branch
         self._index_cache: dict[str, tuple[str, str]] | None = None
+        self._labels_seen: set[str] = set()  # labels ensured to exist this run
 
     def _base_sha(self) -> str:
         return self._repo.get_branch(self._base).commit.sha
@@ -169,7 +192,22 @@ class GitHubStorePublisher:
             ),
         ]
 
-    def _open_pr(self, branch, elements, *, title, body, commit_message) -> str:
+    def _ensure_label(self, name: str) -> None:
+        """Create ``name`` on the repo if absent — the add-labels API rejects unknown
+        labels (the web UI's auto-create is UI-only). Idempotent and cached per run; a
+        ``422`` means another concurrent run already created it."""
+        if name in self._labels_seen:
+            return
+        from github import GithubException
+
+        try:
+            self._repo.create_label(name, _label_color(name))
+        except GithubException as exc:
+            if exc.status != 422:  # 422 == already exists
+                raise
+        self._labels_seen.add(name)
+
+    def _open_pr(self, branch, elements, *, title, body, commit_message, labels=()) -> str:
         """tree → commit → ref → PR off the base, from a ready list of tree elements."""
         base_sha = self._base_sha()
         base_tree = self._repo.get_git_tree(base_sha)
@@ -178,17 +216,23 @@ class GitHubStorePublisher:
         commit = self._repo.create_git_commit(commit_message, tree, [parent])
         self._repo.create_git_ref(f"refs/heads/{branch}", commit.sha)
         pr = self._repo.create_pull(title=title, body=body, head=branch, base=self._base)
+        labels = list(labels)
+        if labels:
+            for name in labels:
+                self._ensure_label(name)
+            pr.add_to_labels(*labels)
         return pr.html_url
 
     def create_entry_pr(
-        self, branch: str, pair: EmittedPair, *, title: str, body: str, commit_message: str
+        self, branch, pair, *, title, body, commit_message, labels=()
     ) -> str:
         return self._open_pr(
-            branch, self._pair_elements(pair), title=title, body=body, commit_message=commit_message
+            branch, self._pair_elements(pair), title=title, body=body,
+            commit_message=commit_message, labels=labels,
         )
 
     def create_rename_pr(
-        self, branch, pair, *, old_citekey, title, body, commit_message
+        self, branch, pair, *, old_citekey, title, body, commit_message, labels=()
     ) -> str:
         from github import InputGitTreeElement
 
@@ -204,7 +248,8 @@ class GitHubStorePublisher:
                         InputGitTreeElement(path=path, mode="100644", type="blob", sha=None)
                     )
         return self._open_pr(
-            branch, elements, title=title, body=body, commit_message=commit_message
+            branch, elements, title=title, body=body,
+            commit_message=commit_message, labels=labels,
         )
 
 
@@ -271,26 +316,166 @@ def build_pr_title(bib_text: str, citekey: str, *, action: str = "New") -> str:
     return f'{action} Publication: "{title}" by {byline}{suffix}'
 
 
-def build_pr_body(store_entry: StoreEntry, bib_text: str, *, replaces: str | None = None) -> str:
-    """The reviewer-facing PR body: paper title, authors, and group associations.
-
-    Title and authors come from the canonical bib; groups come straight from the
-    entry's ``custom.groups`` (so a multi-group item still surfaces all its PIs in its
-    single PR). On a rename, ``replaces`` names the superseded citekey whose pair this
-    PR deletes, so the reviewer sees the swap.
-    """
+def _item_meta(bib_text: str, *, year: str) -> tuple[str, str, str, str]:
+    """``(title, itemType, year, authors)`` for the header, all from the canonical bib."""
     items = from_bibtex(bib_text)
-    title = items[0].title if items else ""
-    authors = _authors(bib_text)
-    groups = store_entry.sidecar.get("custom", {}).get("groups", [])
-    lines = [
-        f"**Title:** {title or '—'}",
-        f"**Authors:** {authors or '—'}",
-        f"**Groups:** {', '.join(groups) if groups else '—'}",
+    item = items[0] if items else None
+    title = (item.title if item else "") or "—"
+    item_type = (item.itemType if item else "") or "—"
+    return title, item_type, year, _authors(bib_text) or "—"
+
+
+def _details(summary: str, content: str, *, open: bool = False) -> str:
+    """A collapsible ``<details>`` block (rendered by GitHub's Markdown)."""
+    tag = "<details open>" if open else "<details>"
+    return f"{tag}<summary><b>{summary}</b></summary>\n\n{content}\n\n</details>"
+
+
+def _diff_block(summary: str, old: str, new: str, *, open: bool = False) -> str:
+    """A collapsible unified-diff block; ``(no change)`` when the two texts are equal."""
+    diff = "\n".join(
+        difflib.unified_diff(old.splitlines(), new.splitlines(), "before", "after", lineterm="")
+    )
+    return _details(summary, f"```diff\n{diff or '(no change)'}\n```", open=open)
+
+
+def _duplicates_block(duplicates: list[tuple[str, float | None]]) -> str:
+    """A prominent blockquote listing the scan's possible-duplicate candidates.
+
+    Each line is the candidate's citekey and, when the scan supplied one, its similarity
+    score (0–1, two decimals). Best-first, as the scan emitted them.
+    """
+    lines = ["> ⚠️ **Possible duplicates already in the store** — check before merging:"]
+    for citekey, score in duplicates:
+        suffix = f" — score {score:.2f}" if score is not None else ""
+        lines.append(f"> - `{citekey}`{suffix}")
+    return "\n".join(lines)
+
+
+def _checklist(
+    action: str, *, citekey: str, replaces: str | None, has_duplicates: bool
+) -> list[str]:
+    """The reviewer to-do items for an add / update / rename PR."""
+    dup = (
+        ["Confirm this is **not** one of the possible duplicates listed above"]
+        if has_duplicates
+        else []
+    )
+    if action == "Update":
+        return ["The change(s) shown above are intended and correct", *dup]
+    base = [
+        "This is a genuine publication authored by a member of an AI Center group "
+        "(**reject** if not)",
+        "Title, authors, year, and venue are correct",
+        "Group association(s) are correct",
     ]
-    if replaces:
-        lines.append(f"**Supersedes:** `{replaces}` (its files are removed in this PR)")
+    if action == "Rename" and replaces:
+        return [
+            f"`{replaces}` and `{citekey}` are the same publication (the old entry is removed)",
+            *base,
+            *dup,
+        ]
+    return [*base, "Not a duplicate of an existing entry under a different citekey", *dup]
+
+
+def build_pr_body(
+    store_entry: StoreEntry,
+    pair: EmittedPair,
+    *,
+    action: str = "New",
+    old_pair: tuple[str, str] | None = None,
+    replaces: str | None = None,
+    duplicates: list[tuple[str, float | None]] | None = None,
+) -> str:
+    """The reviewer-facing PR body: a self-contained view of what the PR does.
+
+    Carries an inline header (title, authors, type, groups, citekey — all from the
+    canonical bib + ``custom.groups``, so a multi-group item surfaces all its PIs), a
+    per-action review checklist, and the BibTeX in a collapsible block. ``action`` is
+    ``"New"`` / ``"Update"`` / ``"Rename"``:
+
+    * **Update** — ``old_pair`` is the stored ``(bib, meta)``; a collapsible BibTeX diff
+      (open) and sidecar diff (collapsed) show exactly what changed.
+    * **Rename** — ``replaces`` names the superseded citekey whose pair this PR deletes,
+      shown as an ``old → new`` swap so the reviewer sees the supersession.
+    * ``duplicates`` — ``(citekey, score)`` candidates from the upstream similarity scan
+      (the ``Possible-Duplicates:`` marker), surfaced as a prominent warning + a checklist
+      item so a likely re-submission is caught before merge.
+    """
+    year = pair.bib_path.parent.name
+    title, item_type, year, authors = _item_meta(pair.bib_text, year=year)
+    groups = store_entry.sidecar.get("custom", {}).get("groups", [])
+    citekey = store_entry.citekey
+
+    lines: list[str] = []
+    if action == "Rename" and replaces:
+        lines += [
+            "### Rename Publication",
+            "",
+            f"`{replaces}` → **`{citekey}`**",
+            "",
+            f"**Supersedes** `{replaces}` — its `.bib` + `.json` are deleted in this PR.",
+        ]
+    else:
+        lines += [f"### {action} Publication", "", f'**"{title}"** — {year}']
+
+    lines += [
+        "",
+        f"**Authors:** {authors}",
+        f"**Type:** `{item_type}` • "
+        f"**Groups:** {', '.join(groups) if groups else '—'} • "
+        f"**Citekey:** `{citekey}`",
+    ]
+
+    if duplicates:
+        lines += ["", _duplicates_block(duplicates)]
+
+    if action == "Update" and old_pair is not None:
+        old_bib, old_meta = old_pair
+        lines += [
+            "",
+            "#### What changed",
+            _diff_block("BibTeX diff", old_bib, pair.bib_text, open=True),
+            "",
+            _diff_block("Sidecar diff", old_meta, pair.meta_text),
+        ]
+
+    lines += ["", "#### How to review"]
+    lines += [
+        f"- [ ] {item}"
+        for item in _checklist(
+            action, citekey=citekey, replaces=replaces, has_duplicates=bool(duplicates)
+        )
+    ]
+
+    bib_label = "Full BibTeX (after)" if action == "Update" else "BibTeX"
+    lines += ["", _details(bib_label, f"```bibtex\n{pair.bib_text.rstrip()}\n```")]
     return "\n".join(lines) + "\n"
+
+
+# --------------------------------------------------------------------------- #
+# Labels — filterable axes on each PR (group slug, item type, op kind)
+# --------------------------------------------------------------------------- #
+#: A fixed hex color per label axis so the PR list reads at a glance (no leading ``#``).
+#: Axis-less labels (``new`` / ``update`` / ``rename``) take the ``action`` color.
+_LABEL_COLORS = {"action": "5319e7", "type": "0e8a16", "group": "1d76db"}
+
+
+def _label_color(name: str) -> str:
+    """The color for a label, keyed off its ``<axis>:`` prefix (action labels are bare)."""
+    axis = name.split(":", 1)[0] if ":" in name else "action"
+    return _LABEL_COLORS.get(axis, _LABEL_COLORS["action"])
+
+
+def _labels_for(action: str, bib_text: str, groups: Iterable[str]) -> list[str]:
+    """The filter labels for a PR: the op kind (``new`` / ``update`` / ``rename``), the
+    ``type:<itemType>``, and one ``group:<slug>`` per owning group."""
+    items = from_bibtex(bib_text)
+    labels = [action.lower()]
+    if items and items[0].itemType:
+        labels.append(f"type:{items[0].itemType}")
+    labels += [f"group:{g}" for g in groups]
+    return labels
 
 
 # --------------------------------------------------------------------------- #
@@ -306,11 +491,16 @@ class PublishItem:
     * ``pinned`` — whether the citekey is explicit/pinned (a ``Citation Key:`` in extra
       or a ``citationKey`` field) rather than auto-generated. An auto-generated key
       drifts when author/title/year are edited, so the warn guard surfaces these.
+    * ``duplicates`` — ``(citekey, score)`` candidates from a ``Possible-Duplicates:``
+      extra line, written upstream by the similarity scan (where ``publib`` lives). Like
+      ``replaces`` it is operational, stripped from the stored entry, and surfaced only
+      in the PR.
     """
 
     entry: StoreEntry
     replaces: str | None = None
     pinned: bool = True
+    duplicates: list[tuple[str, float | None]] = field(default_factory=list)
 
 
 def _is_pinned(item: ZoteroItem) -> bool:
@@ -328,11 +518,36 @@ def _extract_replaces(extra: str | None) -> str | None:
     return None
 
 
-def _strip_replaces(extra: str | None) -> str | None:
-    """``extra`` without its ``Replaces:`` line(s) — the marker never enters the store."""
+def _extract_duplicates(extra: str | None) -> list[tuple[str, float | None]]:
+    """Candidate duplicates from a ``Possible-Duplicates: key@score, key2@score2`` line.
+
+    Each comma-separated entry is a citekey, optionally suffixed ``@<score>`` (a float the
+    scan attached); a malformed/absent score yields ``None``. Order is preserved (the scan
+    emits best-first). Returns ``[]`` when the line is absent.
+    """
+    for key, value in parse_extra(extra or "").items():
+        if key.lower() == "possible-duplicates" and value:
+            out: list[tuple[str, float | None]] = []
+            for chunk in value.split(","):
+                citekey, _, raw_score = chunk.strip().partition("@")
+                citekey = citekey.strip()
+                if not citekey:
+                    continue
+                try:
+                    score = float(raw_score) if raw_score.strip() else None
+                except ValueError:
+                    score = None
+                out.append((citekey, score))
+            return out
+    return []
+
+
+def _strip_markers(extra: str | None) -> str | None:
+    """``extra`` without its operational marker line(s) (``Replaces:`` /
+    ``Possible-Duplicates:``) — they never enter the store."""
     if not extra:
         return extra
-    return "\n".join(ln for ln in extra.splitlines() if not _REPLACES_LINE_RE.match(ln))
+    return "\n".join(ln for ln in extra.splitlines() if not _MARKER_LINE_RE.match(ln))
 
 
 def build_publish_items(
@@ -340,22 +555,24 @@ def build_publish_items(
 ) -> list[PublishItem]:
     """RDF ``items`` (+ collections) → ``PublishItem``\\ s, one per item, in order.
 
-    Reads each item's ``Replaces:`` and pin status *before* serialization, strips the
-    ``Replaces:`` marker from a copy so it never lands in the store, then runs the
-    normal :func:`to_store_entries`. ``to_store_entries`` preserves input order, so the
-    per-item signals zip back onto the resulting entries.
+    Reads each item's ``Replaces:`` / ``Possible-Duplicates:`` markers and pin status
+    *before* serialization, strips the operational markers from a copy so they never land
+    in the store, then runs the normal :func:`to_store_entries`. ``to_store_entries``
+    preserves input order, so the per-item signals zip back onto the resulting entries.
     """
     cleaned: list[ZoteroItem] = []
-    signals: list[tuple[str | None, bool]] = []
+    signals: list[tuple[str | None, bool, list[tuple[str, float | None]]]] = []
     for item in items:
-        signals.append((_extract_replaces(item.extra), _is_pinned(item)))
+        signals.append(
+            (_extract_replaces(item.extra), _is_pinned(item), _extract_duplicates(item.extra))
+        )
         copied = copy.deepcopy(item)
-        copied.extra = _strip_replaces(copied.extra)
+        copied.extra = _strip_markers(copied.extra)
         cleaned.append(copied)
     entries = to_store_entries(cleaned, collections)
     return [
-        PublishItem(entry, replaces=replaces, pinned=pinned)
-        for entry, (replaces, pinned) in zip(entries, signals)
+        PublishItem(entry, replaces=replaces, pinned=pinned, duplicates=duplicates)
+        for entry, (replaces, pinned, duplicates) in zip(entries, signals)
     ]
 
 
@@ -419,6 +636,7 @@ def publish_entries(
         try:
             pair = emit.emit_pair(store_entry)
             old = pub_item.replaces
+            dups = pub_item.duplicates
 
             # Rename takes precedence: an explicit Replaces marker whose target is in the
             # store supersedes it, even when the new citekey itself is brand new.
@@ -434,24 +652,29 @@ def publish_entries(
                     if dry_run:
                         summary.renamed.append((citekey, "(dry-run)"))
                         continue
+                    groups = store_entry.sidecar.get("custom", {}).get("groups", [])
                     url = publisher.create_rename_pr(
                         branch,
                         pair,
                         old_citekey=old,
                         title=build_pr_title(pair.bib_text, citekey, action="Update"),
-                        body=build_pr_body(store_entry, pair.bib_text, replaces=old),
+                        body=build_pr_body(
+                            store_entry, pair, action="Rename", replaces=old, duplicates=dups
+                        ),
                         commit_message=f"feat: rename {old} -> {citekey}",
+                        labels=_labels_for("rename", pair.bib_text, groups),
                     )
                     summary.renamed.append((citekey, url))
                     continue
 
             if citekey in in_store:
-                if publisher.stored_pair(citekey) == (pair.bib_text, pair.meta_text):
+                old_pair = publisher.stored_pair(citekey)
+                if old_pair == (pair.bib_text, pair.meta_text):
                     summary.skipped_unchanged.append(citekey)
                     continue
                 action, branch, verb, bucket = "Update", f"update/{citekey}", "update", summary.updated
             else:
-                action, branch, verb, bucket = "New", citekey, "add", summary.created
+                old_pair, action, branch, verb, bucket = None, "New", citekey, "add", summary.created
 
             if publisher.branch_exists(branch):
                 summary.skipped_branch_exists.append(citekey)
@@ -459,12 +682,16 @@ def publish_entries(
             if dry_run:
                 bucket.append((citekey, "(dry-run)"))
                 continue
+            groups = store_entry.sidecar.get("custom", {}).get("groups", [])
             url = publisher.create_entry_pr(
                 branch,
                 pair,
                 title=build_pr_title(pair.bib_text, citekey, action=action),
-                body=build_pr_body(store_entry, pair.bib_text),
+                body=build_pr_body(
+                    store_entry, pair, action=action, old_pair=old_pair, duplicates=dups
+                ),
                 commit_message=f"feat: {verb} {citekey}",
+                labels=_labels_for("new" if action == "New" else "update", pair.bib_text, groups),
             )
             bucket.append((citekey, url))
         except Exception as exc:  # one bad item must not sink the whole run

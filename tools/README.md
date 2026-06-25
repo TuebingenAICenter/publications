@@ -157,6 +157,33 @@ across metadata edits is what makes updates (rather than accidental duplicates) 
   `<old_citekey>` isn't in the store, the run logs a `::warning::` and falls back to a
   normal add/update.
 
+### PR contents and labels
+
+Each PR is self-contained for review without opening the Files tab. The body carries an
+inline header (title, authors, type, groups, citekey), a per-action review checklist, the
+BibTeX in a collapsible block, and — on an **update** — a collapsible diff of the `.bib`
+and sidecar so the reviewer sees exactly what changed.
+
+Every PR also gets filter **labels** (created on the repo if missing, hence the
+**Issues: write** permission above): the op kind (`new` / `update` / `rename`),
+`type:<itemType>`, and one `group:<slug>` per owning group.
+
+### Duplicate hints
+
+`pubstore-publish` does **not** compute similarity itself — that keeps `publib` (and its
+dependency weight) out of this tool and the CI image. Instead it *renders* candidates an
+upstream similarity scan supplies via a `Possible-Duplicates:` *extra* line on the item:
+
+```
+Possible-Duplicates: <citekey>@<score>, <citekey>@<score>
+```
+
+(`@<score>` is optional.) The scan — which owns `publib` (e.g. in the scraper) — writes
+this marker before export; on publish, the candidates surface as a prominent **"Possible
+duplicates already in the store"** warning in the PR body and an extra review-checklist
+item (no label — the hint lives in the body only). Like `Replaces:`, the marker is
+operational only and is stripped from the stored entry.
+
 ### Tokens — what it needs and where to find them
 
 Authentication is resolved from the environment (no flags needed in production). It
@@ -174,18 +201,23 @@ otherwise it falls back to a plain token:
 Store these as secrets in the repo that runs the job (the scraper,
 `tueai_publication_scraping`), not in source.
 
-The App installation must grant **Contents: read & write** *and* **Pull requests: read &
-write** on the store repo. Missing the latter surfaces as `403 Resource not accessible by
-integration` on the `POST .../pulls` step *after* the branch/commit already landed (so it
-leaves an orphan branch). Add the permission in the App settings, approve the update on the
-installation, then delete any orphan branches before re-running. Verify with
+The App installation must grant **Contents: read & write**, **Pull requests: read &
+write**, *and* **Issues: read & write** on the store repo. The first two cover the
+branch/commit and the `POST .../pulls`; **Issues: write** is needed because PR labels
+(and creating any missing label) go through the issues API. Missing **Pull requests**
+surfaces as `403 Resource not accessible by integration` on the `POST .../pulls` step
+*after* the branch/commit already landed (so it leaves an orphan branch); missing
+**Issues** surfaces as the same `403` on the label step *after* the PR is open (the PR
+survives, just unlabeled). Add the permission in the App settings, approve the update on
+the installation, then delete any orphan branches before re-running. Verify with
 `gh api /repos/OWNER/REPO/installation --jq '.permissions'`.
 
 **2. Plain token (local / manual staging).** Simpler for a one-off run from your machine:
 
 - `--token <TOKEN>`, or set `GITHUB_TOKEN` in the environment.
 - Use a fine-grained personal access token scoped to the store repo with
-  **Contents: read & write** and **Pull requests: read & write**, from
+  **Contents: read & write**, **Pull requests: read & write**, and **Issues: read &
+  write** (for PR labels), from
   GitHub → *Settings → Developer settings → Personal access tokens*.
 
 If neither form is fully supplied the command exits with an actionable message and does
