@@ -12,10 +12,14 @@ which credentials it needs and where to get them.
 ## Install
 
 ```bash
-pip install ./tools                 # the CLIs
+pip install ./tools                 # the deterministic CLIs (no GitHub deps)
+pip install "./tools[publish]"      # + PyGithub, needed only by pubstore-publish
 pip install -e "tools/[test]"       # editable + pytest, for working on the tools
 pytest tools/tests                  # the pr1–pr14 fixtures (run manually; not in CI)
 ```
+
+`pubstore-publish` is the only CLI that needs PyGithub; it lives behind the `[publish]`
+extra so images that only run the check/compile/normalize jobs stay slim.
 
 All commands take `--root` (the store repo root, default: the current directory). Run
 them from a checkout of the store, or point `--root` at one.
@@ -109,7 +113,9 @@ pubstore-groups rebuild-mirror [--check] [--root .]
 Producer (mutating, **remote**). Turns a Zotero RDF export into the store's go-forward
 ingestion shape: **one branch + one PR per publication** against the store repo, carrying
 the full canonical pair. No local clone — it commits via the GitHub Git Data API. The
-same invocation runs on the scraper's monthly cron and locally for staging.
+same invocation runs on the scraper's monthly cron and locally for staging. Install with
+the `[publish]` extra (`pip install "./tools[publish]"`) — it's the only CLI that pulls in
+PyGithub.
 
 Idempotent. The store's citekey set is read once; per item it either **adds** (citekey
 not in the store), **updates** (citekey in the store but the emitted pair differs byte

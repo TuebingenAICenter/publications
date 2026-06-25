@@ -269,7 +269,13 @@ def make_publisher(
     actionable message if neither is fully supplied. ``github`` is imported lazily so
     the module (and its pure publish loop) import without PyGithub installed.
     """
-    from github import Auth, Github
+    try:
+        from github import Auth, Github
+    except ModuleNotFoundError as exc:
+        raise SystemExit(
+            "pubstore-publish needs PyGithub: install the extra with "
+            "`pip install publication-store[publish]`"
+        ) from exc
 
     if app_id and private_key and installation_id:
         auth = Auth.AppAuth(int(app_id), private_key).get_installation_auth(int(installation_id))

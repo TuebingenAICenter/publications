@@ -10,13 +10,14 @@ dependencies = [
     "zotero-rdf @ git+https://gitlab.mlcloud.uni-tuebingen.de/robin.ruff/zotero-rdf-python.git",
     # Validates sidecars against schema/sidecar.schema.json (the public contract).
     "jsonschema>=4",
-    # pubstore-publish: drives the store repo via the GitHub Git Data API (no clone)
-    # and mints App-installation auth in-process (vendors the JWT handling, so no
-    # separate PyJWT). Only pubstore-publish imports it, and lazily.
-    "PyGithub>=2",
 ]
 
 [project.optional-dependencies]
+# pubstore-publish only: drives the store repo via the GitHub Git Data API (no clone)
+# and mints App-installation auth in-process (vendors the JWT handling, so no separate
+# PyJWT). Imported lazily, so installs that never run pubstore-publish (e.g. the
+# check/compile image) can skip it: `pip install tools/[publish]` to opt in.
+publish = ["PyGithub>=2"]
 # Manual-only developer harness: `pip install -e tools/[test]` then `pytest tools/tests`.
 # Deliberately not wired into any CI — the store gate that runs in CI is pubstore-check.
 test = ["pytest>=8"]
