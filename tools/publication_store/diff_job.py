@@ -67,7 +67,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import entry
+from . import emit, entry
 from .sidecar import split_sidecar
 
 
@@ -319,10 +319,7 @@ def normalize_changed(repo_root: Path, changed_bibs: list[Path]):
             bib_path.parent.mkdir(parents=True, exist_ok=True)
             meta_path.parent.mkdir(parents=True, exist_ok=True)
             bib_path.write_text(entry_text, encoding="utf-8")
-            meta_path.write_text(
-                json.dumps({"zotero": zotero, "custom": custom}, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-                encoding="utf-8",
-            )
+            meta_path.write_text(emit.render_sidecar(zotero, custom), encoding="utf-8")
             written.extend([bib_path, meta_path])
 
     # Delete raw drops and relocation leftovers (source bib no longer a target).
