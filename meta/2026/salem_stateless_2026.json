@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are typically deployed as stateless services, where each request is processed independently. This design choice is intended to ensure privacy and prevent cross-user data leakage. In this paper, we demonstrate that this assumption of statelessness is flawed. We introduce a novel class of attacks that exploit the implicit memory of LLMs to establish a hidden channel between users. Specifically, we show that an attacker can encode information into the model's weights during a fine-tuning or prompt-injection phase, which can then be retrieved by a victim user in a subsequent, seemingly independent request. We analyze the mechanism of this implicit memory, demonstrate its feasibility across various model architectures, and discuss potential mitigation strategies.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.08563",
+    "callNumber": "arXiv:2602.08563",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7128556314",
+      "Scholar": "QEiYbDYAAAAJ:BPS1z4jHU5cC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
