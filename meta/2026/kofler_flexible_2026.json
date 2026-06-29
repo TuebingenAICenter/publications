@@ -1,0 +1,53 @@
+{
+  "custom": {
+    "groups": [
+      "dax",
+      "macke",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Gravitational-wave data analysis relies on accurate and efficient methods to extract physical information from noisy detector signals, yet the increasing rate and complexity of observations represent a growing challenge. Deep learning provides a powerful alternative to traditional inference, but existing neural models typically lack the flexibility to handle variations in data analysis settings. Such variations accommodate imperfect observations or are required for specialized tests, and could include changes in detector configurations, overall frequency ranges, or localized cuts. We introduce a flexible transformer-based architecture paired with a training strategy that enables adaptation to diverse analysis settings at inference time. Applied to parameter estimation, we demonstrate that a single flexible model—called Dingo-T1—can (i) analyze 48 binary black holes from the third LIGO-Virgo-KAGRA Observing Run under a wide range of analysis configurations, (ii) enable systematic studies of how detector and frequency configurations impact inferred posteriors, and (iii) perform inspiral-merger-ringdown consistency tests probing general relativity. Dingo-T1 also improves median sample efficiency on real events from a baseline of 1.4% to 4.2%. Our approach thus demonstrates flexible and scalable inference with a principled framework for handling missing or incomplete data—key capabilities for current and next-generation observatories.",
+    "archive": "arXiv",
+    "archiveID": "2512.02968",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2512.02968"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Conference Name": "NeurIPS (Workshop)",
+      "OpenAlex": "W4417011601",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "VRBv6mEAAAAJ:lSLTfruPkqcC",
+      "arXiv": "2512.02968"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.02968'>https://arxiv.org/abs/2512.02968</a><br><a href='https://ml4physicalsciences.github.io/2025'>https://ml4physicalsciences.github.io/2025</a><br><a href='https://neurips.cc/virtual/2025/workshop/109577'>https://neurips.cc/virtual/2025/workshop/109577</a><br><a href='https://www.annalenakofler.com/papers/'>https://www.annalenakofler.com/papers/</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.02968'>https://arxiv.org/abs/2512.02968</a><br><a href='https://pure.mpg.de/pubman/item/item_3684247'>https://pure.mpg.de/pubman/item/item_3684247</a><br><a href='https://doi.org/10.5281/zenodo.17726076'>https://doi.org/10.5281/zenodo.17726076</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.02968'>https://arxiv.org/abs/2512.02968</a><br><a href='https://pure.mpg.de/pubman/item/item_3684247'>https://pure.mpg.de/pubman/item/item_3684247</a><br><a href='https://doi.org/10.5281/zenodo.17726076'>https://doi.org/10.5281/zenodo.17726076</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "repository": "arXiv"
+  }
+}
