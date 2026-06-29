@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The EU AI Act mandates that high-risk AI systems must be tested for performance, including accuracy and robustness. However, the Act remains vague on how to measure performance at the individual level. In this paper, we argue that predictive multiplicity—the phenomenon that many different models can achieve similar aggregate performance while making different predictions for individual instances—poses a fundamental challenge to individual performance assessment. We show that without further constraints, individual performance metrics are inherently unstable. We propose a framework to quantify this instability and discuss its implications for the AI Act's compliance requirements.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.11944",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7128864990",
+      "Scholar": "mMifMdoAAAAJ:1lhNe0rCu4AC",
+      "arXiv": "2602.11944"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
