@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are typically trained with a uniform learning rate (LR) across all layers. However, we observe that the gradients of different layers exhibit distinct heavy-tail behaviors, suggesting that a single LR is suboptimal. In this paper, we propose Heavy-Tail Guided Layerwise Learning Rates (HT-LLR), a novel approach that dynamically assigns layer-specific learning rates based on the heavy-tail properties of layer-wise gradients. Specifically, we analyze the tail index of the gradient distribution for each layer and adjust the LR accordingly. Extensive experiments on various LLM architectures and tasks demonstrate that HT-LLR consistently outperforms uniform LR strategies, achieving faster convergence and better final performance. Our method is computationally efficient and can be easily integrated into existing training pipelines.",
+    "extra": {
+      "Scholar": "73IbXtsAAAAJ:ZfRJV9d4-WMC"
+    },
+    "itemType": "journalArticle"
+  }
+}
