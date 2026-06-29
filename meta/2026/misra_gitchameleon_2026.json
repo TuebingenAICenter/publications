@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable capabilities in code generation. However, their practical utility is often hindered by the rapid evolution of software ecosystems, where library version updates frequently introduce breaking changes. Current benchmarks for code generation often overlook this temporal dimension, evaluating models on static snapshots of codebases. To address this, we introduce GitChameleon, a novel benchmark designed to evaluate the robustness of AI code generation models against Python library version incompatibilities. GitChameleon consists of a diverse set of real-world coding tasks paired with multiple versions of their dependencies, allowing for a systematic assessment of how well models adapt to API changes and deprecated functionality. We evaluate several state-of-the-art LLMs on GitChameleon and find that they struggle significantly when faced with version-specific constraints, often hallucinating non-existent API calls or failing to adapt to updated library signatures. Our findings highlight the critical need for incorporating temporal awareness and dependency management into the training and evaluation of code-generating models.",
+    "archive": "arXiv",
+    "archiveID": "2507.12367",
+    "extra": {
+      "ArxivID": "2507.12367",
+      "Citations@2026-06-01": "0",
+      "Conference Name": "NeurIPS (Workshop)",
+      "OpenAlex": "W4414384564",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "xkuLyHoAAAAJ:ZHo1McVdvXMC"
+    },
+    "itemType": "preprint",
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/131646'>https://neurips.cc/virtual/2025/131646</a><br><a href='https://arxiv.org/abs/2411.05830'>https://arxiv.org/abs/2411.05830</a><br><a href='https://research.google/pubs/gitchameleon-20-evaluating-ai-code-generation-against-python-library-version-incompatibilities/'>https://research.google/pubs/gitchameleon-20-evaluating-ai-code-generation-against-python-library-version-incompatibilities/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
