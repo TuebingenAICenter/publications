@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive models, offering potential advantages in non-autoregressive generation and global coherence. However, their inference speed remains a significant bottleneck, often requiring many sampling steps to achieve high-quality text. While existing decoding strategies like beam search can improve generation quality, they often incur substantial computational costs. In this work, we propose Confidence-Switched Position Beam Search (SOAR), a novel decoding framework that dynamically switches between search and acceleration modes based on the model's confidence. By identifying positions where the model is uncertain, SOAR selectively applies beam search to refine these tokens while accelerating generation at high-confidence positions. We demonstrate that SOAR significantly improves the generation quality of DLMs while maintaining competitive inference speeds, outperforming existing decoding methods across various benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.10953",
+    "extra": {
+      "Scholar": "73IbXtsAAAAJ:uLbwQdceFCQC",
+      "https": "//github.com/duterscmy/SOAR"
+    },
+    "itemType": "journalArticle"
+  }
+}
