@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Generating realistic hand motions from text is a challenging task due to the high degrees of freedom of the hand and the subtle nuances of hand-object interactions. Existing methods often rely on limited, lab-captured datasets, which restricts their ability to generalize to in-the-wild scenarios. In this paper, we introduce CLUTCH, a novel framework that leverages the power of large-scale pre-trained language models to unlock text-conditioned hand motion modeling in the wild. Our approach utilizes a contextualized language model to encode the semantic information of the input text, which is then used to guide the generation of hand motions. We demonstrate that CLUTCH significantly outperforms existing methods on standard benchmarks and shows superior generalization capabilities on in-the-wild data. Furthermore, we introduce a new large-scale dataset of text-hand motion pairs, which we believe will facilitate future research in this direction.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.17770",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7131191408",
+      "Scholar": "OpXMNnMAAAAJ:HIFyuExEbWQC"
+    },
+    "itemType": "journalArticle"
+  }
+}
