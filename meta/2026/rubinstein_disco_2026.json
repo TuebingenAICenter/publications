@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Dataset condensation aims to compress large datasets into a small set of synthetic samples that retain the performance of models trained on the original data. While existing methods focus on training efficiency, we identify a critical limitation: they often fail to capture the diversity of the original data, leading to poor evaluation performance on unseen test sets. We introduce DISCO (Diversifying Sample Condensation), a novel framework that explicitly optimizes for diversity in the condensed set. By leveraging a determinantal point process (DPP) objective, DISCO encourages the selection of samples that cover the feature space more effectively. Our experiments demonstrate that DISCO significantly outperforms state-of-the-art condensation methods across various benchmarks, particularly in scenarios where model evaluation requires high fidelity to the original data distribution.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.07959",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Code": "https://github.com/arubique/disco-public",
+      "Project": "https://arubique.github.io/disco-site/",
+      "Reporter": "arXiv preprint arXiv:2510.07959, 2025",
+      "Scholar": "kmXOOdsAAAAJ:EUQCXRtRnyEC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://iclr.cc/virtual/2026/poster/10009382'>https://iclr.cc/virtual/2026/poster/10009382</a><br><a href='https://arxiv.org/abs/2510.07959'>https://arxiv.org/abs/2510.07959</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
