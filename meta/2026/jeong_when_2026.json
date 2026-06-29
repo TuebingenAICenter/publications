@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion models have demonstrated remarkable capabilities in generating high-quality images. However, a persistent challenge remains in their ability to generate multiple objects, often leading to issues such as object merging or omission. In this work, we investigate the conditions under which diffusion models learn to generate multiple objects. We analyze the training dynamics and the role of cross-attention mechanisms in binding objects to their respective spatial locations. Our findings reveal that the model's ability to generate multiple objects is heavily influenced by the training data distribution and the complexity of the prompts. We propose a simple yet effective intervention to improve multi-object generation without requiring additional training or fine-tuning.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.00273",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:1qzjygNMrQYC",
+      "arXiv": "2605.00273"
+    },
+    "itemType": "journalArticle"
+  }
+}
