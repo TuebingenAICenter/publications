@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Compositional generalization—the ability to recognize novel combinations of known concepts—is a hallmark of human intelligence. While deep learning models have achieved impressive performance on standard benchmarks, they often struggle to generalize compositionally. In this work, we investigate the necessary conditions for compositional generalization in embedding models. We formalize the problem through the lens of representation learning and identify key properties of the embedding space that facilitate compositional reasoning. Our theoretical analysis reveals that linear separability of primitive concepts is a necessary condition for compositional generalization. We validate our findings through extensive experiments on synthetic and real-world datasets, demonstrating that models satisfying these conditions exhibit superior compositional generalization performance.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.24264",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:uWQEDVKXjbEC"
+    },
+    "itemType": "journalArticle"
+  }
+}
