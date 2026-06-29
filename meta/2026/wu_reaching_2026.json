@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "mendler-duenner"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2603.12137",
+    "conferenceName": "NetSci",
+    "extra": {
+      "Source": "group_webpage (mendler-duenner)",
+      "arXiv": "2603.12137"
+    },
+    "itemType": "conferencePaper"
+  }
+}
