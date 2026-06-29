@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present Human3R, a novel framework for high-fidelity 3D human reconstruction from sparse, unconstrained, and potentially noisy images. Unlike existing methods that rely on multi-view consistency or template-based priors, Human3R leverages a generative 3D prior to recover detailed geometry and appearance. Our approach effectively handles challenging poses, occlusions, and varying lighting conditions, enabling robust reconstruction in diverse real-world scenarios. We demonstrate that Human3R achieves state-of-the-art performance on standard benchmarks and generalizes well to in-the-wild data.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.06219",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "24",
+      "Reporter": "arXiv preprint arXiv:2510.06219, 2025",
+      "Scholar": "OpXMNnMAAAAJ:PoWvk5oyLR8C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=y7duXr0JXF'>https://openreview.net/forum?id=y7duXr0JXF</a><br><a href='https://iclr.cc/virtual/current/papers.html'>https://iclr.cc/virtual/current/papers.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Fourteenth International Conference on Learning Representations"
+  }
+}
