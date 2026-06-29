@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "3D Gaussian Splatting (3DGS) achieves state-of-the-art image quality and real-time performance in novel view synthesis but often suffers from a suboptimal spatial distribution of primitives. This issue stems from cloning-based densification, which propagates Gaussians along existing geometry, limiting exploration and requiring many primitives to adequately cover the scene. We present ConeGS, an image-space-informed densification framework that is independent of existing scene geometry state. ConeGS first creates a fast Instant Neural Graphics Primitives (iNGP) reconstruction as a geometric proxy to estimate per-pixel depth. During the subsequent 3DGS optimization, it identifies high-error pixels and inserts new Gaussians along the corresponding viewing cones at the predicted depth values, initializing their size according to the cone diameter. A pre-activation opacity penalty rapidly removes redundant Gaussians, while a primitive budgeting strategy controls the total number of primitives, either by a fixed budget or by adapting to scene complexity, ensuring high reconstruction quality. Experiments show that ConeGS consistently enhances reconstruction quality and rendering performance across Gaussian budgets, with especially strong gains under tight primitive constraints where efficient placement is crucial.",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416158472",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "SrVnrPcAAAAJ:rqnDXT1GswoC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://baranowskibrt.github.io/conegs/'>https://baranowskibrt.github.io/conegs/</a><br><a href='https://arxiv.org/abs/2511.06810'>https://arxiv.org/abs/2511.06810</a><br><a href='https://www.cvlibs.net/publications.php?firstname=anpei&lastname=chen&layout=avg'>https://www.cvlibs.net/publications.php?firstname=anpei&lastname=chen&layout=avg</a><br><a href='https://openreview.net/profile?id=~Andreas_Geiger1'>https://openreview.net/profile?id=~Andreas_Geiger1</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}
