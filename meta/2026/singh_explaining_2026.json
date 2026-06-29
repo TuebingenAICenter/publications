@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Grokking, the phenomenon where neural networks generalize long after achieving zero training error, remains a central mystery in deep learning. We provide a theoretical framework to explain grokking in Transformers by analyzing the interplay between the model's inductive bias and the task structure. We show that grokking can be understood as a phase transition in the optimization landscape, driven by the competition between different components of the model's inductive bias. Our results suggest that grokking is not a unique property of specific architectures but a general consequence of the alignment between the model's inductive bias and the underlying data distribution.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.06702",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7128408861",
+      "Scholar": "xkuLyHoAAAAJ:bFI3QPDXJZMC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
