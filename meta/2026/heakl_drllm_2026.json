@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, but their computational cost remains a significant barrier to widespread deployment. While Mixture-of-Experts (MoE) models have emerged as a popular solution by activating only a subset of parameters per token, they often suffer from high memory overhead due to the need to load all experts into memory. In this work, we propose Dr.LLM, a novel framework that introduces Dynamic Layer Routing (DLR) to LLMs. Instead of activating a fixed set of layers for every input, Dr.LLM learns to route tokens through a subset of layers based on their complexity and the task requirements. This approach allows for adaptive computation, where simpler queries are processed by fewer layers, while more complex ones utilize the full capacity of the model. We demonstrate that Dr.LLM achieves significant computational savings without compromising performance across a range of benchmarks. Furthermore, we show that our method is compatible with existing LLM architectures and can be easily integrated into pre-trained models with minimal fine-tuning.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.12773",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Scholar": "kmXOOdsAAAAJ:b0M2c_1WBrUC",
+      "arXiv": "2510.12773"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.12773'>https://arxiv.org/abs/2510.12773</a><br><a href='https://github.com/parameterlab/dr-llm'>https://github.com/parameterlab/dr-llm</a><br><a href='https://huggingface.co/papers/2510.12773'>https://huggingface.co/papers/2510.12773</a><br><a href='https://www.catalyzex.com/paper/dr-llm-dynamic-layer-routing-in-llms'>https://www.catalyzex.com/paper/dr-llm-dynamic-layer-routing-in-llms</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
