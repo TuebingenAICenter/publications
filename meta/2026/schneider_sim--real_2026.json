@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "2nd German Robotics Conference (GRC)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Event Place": "Cologne, Germany",
+      "OpenAlex": "W7154427156",
+      "Scholar": "DZ-fHPgAAAAJ:ADj4jZSmIC0C",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2nd German Robotics Conference (GRC)"
+  }
+}
