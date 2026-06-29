@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We study the convergence of stochastic optimization algorithms under (L0, L1)-smoothness, a condition that generalizes standard L-smoothness by allowing the gradient to be non-Lipschitz. We provide a unified analysis of stochastic gradient descent (SGD) and its adaptive variants, such as Adam, using the framework of stochastic differential equations (SDEs). Our analysis reveals how the interplay between noise, compression, and adaptivity affects the convergence rate. We show that under (L0, L1)-smoothness, adaptivity can be detrimental in the presence of heavy-tailed noise, and we propose a modified adaptive algorithm that achieves optimal convergence rates.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.00181",
+    "conferenceName": "ICML 2026",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "xkuLyHoAAAAJ:ldfaerwXgEUC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://icml.cc/virtual/2025/47633'>https://icml.cc/virtual/2025/47633</a><br><a href='https://arxiv.org/abs/2506.00181'>https://arxiv.org/abs/2506.00181</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 43rd International Conference on Machine Learning"
+  }
+}
