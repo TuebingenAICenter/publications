@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "3D human pose estimation has seen remarkable progress, yet current models often struggle when deployed in the open world, where they encounter diverse, unseen scenarios. To systematically evaluate and improve the robustness of these models, we introduce STAGE, a generative AI-based toolkit for auditing 3D human pose estimators. STAGE leverages large-scale text-to-image and image-to-image diffusion models to generate diverse, photorealistic, and physically plausible synthetic data, specifically targeting challenging scenarios that are underrepresented in existing datasets. By providing a flexible framework for data generation and model evaluation, STAGE enables researchers to identify failure modes, quantify model performance across various conditions, and ultimately build more reliable 3D pose estimation systems. We demonstrate the effectiveness of STAGE by auditing several state-of-the-art pose estimators and showing that our generated data can be used to improve their performance in challenging open-world settings.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2408.16536",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "OpenAlex": "W4402712021",
+      "Scholar": "OpXMNnMAAAAJ:vbGhcppDl1QC"
+    },
+    "itemType": "journalArticle"
+  }
+}
