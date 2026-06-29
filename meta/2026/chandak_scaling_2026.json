@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "hardt"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "High-stakes decision making involves reasoning under uncertainty about the future. In this work, we train language models to make predictions on open-ended forecasting questions. To scale up training data, we synthesize novel forecasting questions from global events reported in daily news, using a fully automated, careful curation recipe. We train the Qwen3 thinking models on our dataset, OpenForesight. To prevent leakage of future information during training and evaluation, we use an offline news corpus, both for data generation and retrieval in our forecasting system. Guided by a small validation set, we show the benefits of retrieval, and an improved reward function for reinforcement learning (RL). Once we obtain our final forecasting system, we perform held-out testing between May to August 2025. Our specialized model, OpenForecaster 8B, matches much larger proprietary models, with our training improving the accuracy, calibration, and consistency of predictions. We find calibration improvements from forecasting training generalize across popular benchmarks. We open-source all our models, code, and data to make research on language model forecasting broadly accessible.",
+    "archive": "arXiv",
+    "archiveID": "2512.25070",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Conference Name": "NeurIPS (Workshop)",
+      "OpenAlex": "W7118051809",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "206vNCEAAAAJ:TIZ-Mc8IlK0C",
+      "arxiv": "2512.25070 [cs]"
+    },
+    "itemType": "preprint",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=91SrFSFNki'>https://openreview.net/forum?id=91SrFSFNki</a><br><a href='https://nips.cc/virtual/2025/124577'>https://nips.cc/virtual/2025/124577</a><br><a href='https://arxiv.org/abs/2512.25070'>https://arxiv.org/abs/2512.25070</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
