@@ -1,0 +1,49 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Contrastive Language-Image Pre-training (CLIP) models have demonstrated remarkable zero-shot performance on various downstream tasks. However, the extent to which these models rely on compositional reasoning versus simple feature matching remains a subject of debate. In this work, we investigate the sensitivity of CLIP to word order and syntactic structure. We find that CLIP's text encoder is surprisingly robust to word shuffling, behaving like a bag-of-words model in cross-modal retrieval tasks. Conversely, we show that the same model exhibits significant sensitivity to word order in uni-modal settings, such as when evaluated on natural language understanding benchmarks. We provide a theoretical analysis and empirical evidence to explain this discrepancy, suggesting that the contrastive objective encourages the model to prioritize global semantic alignment over fine-grained syntactic structure in the cross-modal space.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.03566",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:13:13",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2502.03566v2"
+      }
+    ],
+    "callNumber": "arXiv:2502.03566",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "17",
+      "Scholar": "kmXOOdsAAAAJ:fPk4N6BV_jEC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=DldwXCCP25'>https://openreview.net/forum?id=DldwXCCP25</a><br><a href='https://arxiv.org/abs/2502.03566'>https://arxiv.org/abs/2502.03566</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}
