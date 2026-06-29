@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2605.08179",
+    "conferenceName": "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
+  }
+}
