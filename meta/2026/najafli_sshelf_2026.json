@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "GCPR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4407248385",
+      "Scholar": "SrVnrPcAAAAJ:X4-KO54GjGYC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://link.springer.com/book/10.1007/978-3-032-12840-9?page=3'>https://link.springer.com/book/10.1007/978-3-032-12840-9?page=3</a><br><a href='https://arxiv.org/abs/2502.04318'>https://arxiv.org/abs/2502.04318</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
