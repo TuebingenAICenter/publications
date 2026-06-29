@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Scaling laws have emerged as a powerful tool for predicting the performance of deep learning models. While empirical scaling laws for model size and data volume are well-established, the role of hyperparameters remains less understood. In this work, we derive hyperparameter scaling laws from first principles using modern optimization theory. We show that for a wide class of optimization algorithms, the optimal learning rate and batch size follow power-law relationships with respect to the model and data scale. Our theoretical results are supported by extensive experiments on language models and vision transformers, demonstrating that our derived laws accurately predict optimal hyperparameter settings across several orders of magnitude.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2603.15958",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "xkuLyHoAAAAJ:xtRiw3GOFMkC"
+    },
+    "itemType": "journalArticle"
+  }
+}
