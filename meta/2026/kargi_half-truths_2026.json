@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Similarity-based retrieval systems, such as CLIP, rely on the assumption that the similarity between a query and a document is a reliable proxy for relevance. In this paper, we show that this assumption is fundamentally flawed. We introduce 'half-truths'—queries that are partially correct but misleading—and demonstrate that they can be used to manipulate similarity-based retrieval systems to return irrelevant or harmful content. We show that this vulnerability is widespread across state-of-the-art models and propose a simple yet effective defense mechanism.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.23906",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:OU6Ihb5iCvQC",
+      "arXiv": "2602.23906"
+    },
+    "itemType": "journalArticle"
+  }
+}
