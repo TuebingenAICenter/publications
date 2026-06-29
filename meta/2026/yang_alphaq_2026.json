@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Mixture-of-Experts (MoE) architectures scale computation via sparse expert activations, yet they remain memory-bound because all expert weights must reside in memory. Mixed-precision quantization can substantially reduce this footprint, but existing quantization methods estimate expert importance and assign bits based on calibration data. For frontier MoE LLMs, however, the original training data (and thus its true training distribution) is proprietary and inaccessible. Thus, any calibration set is at best a surrogate and may yield a biased or incomplete view of expert utilization, leading to suboptimal bit allocation. To address these problems, we propose AlphaQ, a novel calibration-free bit-allocation method for MoE quantization. AlphaQ is inspired by Heavy-Tailed Self-Regularization (HT-SR) theory; and it is based on a simple but effective principle: experts with more heavy-tailed weight spectra tend to be better trained, and therefore merit higher bits, and vice versa. We find that different MoE variants can exhibit substantial cross-expert quality variability, calling for a nuanced bit allocation, that is difficult to achieve with limited/biased calibration data. By leveraging HT-SR theory, AlphaQ incorporates expert-wise spectral heavy-tailedness and formulates mixed-precision quantization as a budget-constrained optimization problem that minimizes total quantization error under a global bit-budget constraint. Empirical results on DeepSeekV2-Lite, Qwen1.5-MoE, and Mixtral-8 x 7B show that AlphaQ consistently outperforms calibration-based baselines under matched bit budgets. Notably, on Qwen1.5-MoE, AlphaQ achieves near full-precision accuracy, with an average expert precision of 3.5 bits, while delivering more than 4 x memory compression.",
+    "extra": {
+      "Scholar": "9LajlSsAAAAJ:g3aElNc5_aQC"
+    },
+    "itemType": "journalArticle"
+  }
+}
