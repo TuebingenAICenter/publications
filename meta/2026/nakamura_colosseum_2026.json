@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cooperative multi-agent systems (MAS) are increasingly deployed in high-stakes environments, such as autonomous driving and power grid management. While these systems are designed to cooperate, agents may deviate from their prescribed policies to collude, potentially leading to catastrophic outcomes. Detecting such collusion is challenging because agents can coordinate their actions to hide their intent. In this paper, we introduce Colosseum, a framework for auditing collusion in cooperative MAS. Colosseum leverages a novel game-theoretic formulation to identify collusive behavior by analyzing the agents' joint policies and their impact on the system's performance. We demonstrate that Colosseum can effectively detect collusion in various MAS settings, including those with complex constraints and large state spaces. Our empirical results show that Colosseum outperforms existing methods in both detection accuracy and computational efficiency, providing a robust tool for ensuring the integrity of cooperative MAS.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.15198",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7130482151",
+      "Scholar": "QEiYbDYAAAAJ:IHkkN1K1AlAC",
+      "arXiv": "2602.15198"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
