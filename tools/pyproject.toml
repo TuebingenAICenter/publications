@@ -13,10 +13,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-# pubstore-publish only: drives the store repo via the GitHub Git Data API (no clone)
-# and mints App-installation auth in-process (vendors the JWT handling, so no separate
-# PyJWT). Imported lazily, so installs that never run pubstore-publish (e.g. the
-# check/compile image) can skip it: `pip install tools/[publish]` to opt in.
+# The remote CLIs (pubstore-publish, pubstore-sweep): drive the store repo over the
+# GitHub API (no clone) and mint App-installation auth in-process (vendors the JWT
+# handling, so no separate PyJWT). Imported lazily, so installs that never run them
+# (e.g. the check/compile image) can skip it: `pip install tools/[publish]` to opt in.
 publish = ["PyGithub>=2"]
 # Manual-only developer harness: `pip install -e tools/[test]` then `pytest tools/tests`.
 # Deliberately not wired into any CI — the store gate that runs in CI is pubstore-check.
@@ -31,6 +31,8 @@ pubstore-check = "publication_store.checker:main"
 pubstore-compile = "publication_store.artifacts:main"
 # Producer (mutating, remote): one branch + PR per item against the store repo.
 pubstore-publish = "publication_store.publish:main"
+# Reviewer (mutating, remote): accept/reject publication PRs left open past a threshold.
+pubstore-sweep = "publication_store.sweep:main"
 # Add-on: group directories. `associate` (per-MR diff job) unions a groups/<slug>/ drop's
 # slug into the entry's custom.groups (the source of truth); `rebuild-mirror` (its own
 # push-to-main workflow) regenerates the groups/<slug>/ symlink browse mirror from it.
