@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-pretraining, the practice of pretraining a model on unlabeled data using a self-supervised objective before fine-tuning on a downstream task, has become a cornerstone of modern machine learning. Despite its empirical success, the theoretical mechanisms underlying its effectiveness remain poorly understood, particularly for sequence classification. In this work, we provide a theoretical analysis of self-pretraining for sequence classification. We show that self-pretraining can be viewed as a form of representation learning that aligns the model's internal representations with the underlying structure of the data. We further demonstrate that this alignment leads to improved generalization performance on downstream tasks. Our theoretical findings are supported by extensive empirical experiments on a variety of sequence classification benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.21070",
+    "extra": {
+      "Scholar": "xkuLyHoAAAAJ:35N4QoGY0k4C",
+      "arXiv": "2605.21070"
+    },
+    "itemType": "journalArticle"
+  }
+}
