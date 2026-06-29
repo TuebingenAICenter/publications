@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive models for text generation. Despite their success, the underlying mechanism of how DLMs generate text remains under-explored. In this paper, we investigate the internal dynamics of DLMs during the iterative denoising process. We discover a phenomenon we term \"early knowledge emergence\": DLMs often determine the final output tokens at very early stages of the denoising process, long before the final decoding steps. Specifically, we find that the model's internal representations at early denoising steps contain sufficient information to predict the final output with high accuracy. Based on this observation, we propose Prophet, a novel decoding strategy that leverages these early-stage predictions to guide the generation process. Prophet significantly improves the efficiency and quality of DLMs, achieving state-of-the-art performance on various benchmarks while reducing the number of required denoising steps.",
+    "archive": "arXiv",
+    "archiveLocation": "2508.19982",
+    "extra": {
+      "Citations@2026-06-01": "37",
+      "Scholar": "73IbXtsAAAAJ:7T2F9Uy0os0C"
+    },
+    "itemType": "journalArticle"
+  }
+}
