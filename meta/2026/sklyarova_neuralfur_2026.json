@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Reconstructing realistic animal fur geometry from images is a challenging task due to the fine-scale details, self-occlusion, and view-dependent appearance of fur. In contrast to human hairstyle reconstruction, there are also no datasets that could be leveraged to learn a fur prior for different animals. In this work, we present a first multi-view-based method for high-fidelity 3D fur modeling of animals using a strand-based representation, leveraging the general knowledge of a vision language model. Given calibrated multi-view RGB images, we first reconstruct a coarse surface geometry using traditional multi-view stereo techniques. We then use a visual question answering (VQA) system to retrieve information about the realistic length structure of the fur for each part of the body. We use this knowledge to construct the animal’s furless geometry and grow strands atop it. The fur reconstruction is supervised with both geometric and photometric losses computed from multi-view images. To mitigate orientation ambiguities stemming from the Gabor filters that are applied to the input images, we additionally utilize the VQA to guide the strands' growth direction and their relation to the gravity vector that we incorporate as a loss. With this new schema of using a VQA model to guide 3D reconstruction from multi-view inputs, we show generalization across a variety of animals with different fur types.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.12481",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "6NjbexEAAAAJ:qStMeLs7OP8C",
+      "arXiv": "2601.12481"
+    },
+    "itemType": "journalArticle"
+  }
+}
