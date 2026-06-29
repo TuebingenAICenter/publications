@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Discrete diffusion models have recently emerged as a promising alternative to autoregressive models for language modeling. However, their scaling behavior remains poorly understood compared to the well-established power-law scaling of autoregressive transformers. In this work, we perform a systematic empirical study of the scaling properties of discrete diffusion language models. We train models with varying parameter counts, dataset sizes, and compute budgets, and find that they follow predictable scaling laws similar to those of autoregressive models. We further investigate the impact of the diffusion process design, such as the noise schedule and the transition matrix, on the scaling performance. Our results suggest that discrete diffusion models can achieve competitive performance with autoregressive models at scale, while offering distinct advantages in terms of generation flexibility and control.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.10858",
+    "conferenceName": "The Fourteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417297081",
+      "Scholar": "xkuLyHoAAAAJ:pyW8ca7W8N0C"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.10858'>https://arxiv.org/abs/2512.10858</a><br><a href='https://huggingface.co/papers/2512.10858'>https://huggingface.co/papers/2512.10858</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Fourteenth International Conference on Learning Representations (ICLR)"
+  }
+}
