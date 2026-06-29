@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multi-agent systems (MAS) are increasingly deployed in complex, real-world environments, yet evaluation frameworks remain largely focused on individual model performance rather than system-level dynamics. We introduce MASEval, a comprehensive evaluation framework designed to assess multi-agent systems as holistic entities. MASEval provides a suite of benchmarks and metrics that capture emergent behaviors, communication efficiency, and collaborative robustness. By shifting the focus from isolated model capabilities to integrated system performance, MASEval enables more accurate predictions of how multi-agent systems will behave in deployment. We demonstrate the utility of our framework through extensive experiments on diverse multi-agent tasks, showing that system-level evaluation reveals critical failure modes that model-centric metrics overlook.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.08835",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Scholar": "kmXOOdsAAAAJ:geHnlv5EZngC",
+      "arXiv": "2603.08835"
+    },
+    "itemType": "journalArticle"
+  }
+}
