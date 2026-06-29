@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Streaming motion synthesis aims to generate long-term, continuous human motion from a stream of input signals, such as text or action labels. Existing methods often struggle with long-term consistency and the trade-off between responsiveness and motion quality. We introduce ActionPlan, a novel framework for streaming motion synthesis that incorporates frame-level action planning to guide the generation process. By explicitly modeling future action sequences, our method achieves superior temporal coherence and responsiveness to dynamic inputs. We demonstrate the effectiveness of ActionPlan on standard benchmarks, showing significant improvements in motion quality and consistency compared to state-of-the-art approaches.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2603.13500",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "OpXMNnMAAAAJ:mNrWkgRL2YcC"
+    },
+    "itemType": "journalArticle"
+  }
+}
