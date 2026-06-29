@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Human motion generation has made significant progress, yet existing methods often struggle with fine-grained control and the ability to compose motions at a part-level. In this paper, we introduce FrankenMotion, a novel framework for part-level human motion generation and composition. By decomposing human motion into independent part-level components, our approach enables the generation of complex, multi-part motions by stitching together motion primitives. We demonstrate that our method allows for intuitive control over individual body parts, facilitating the creation of diverse and realistic human motions that are difficult to achieve with holistic generation models. Extensive experiments show that FrankenMotion outperforms state-of-the-art methods in both motion quality and controllability.",
+    "archive": "arXiv",
+    "archiveID": "2601.10909",
+    "archiveLocation": "arXiv:2601.10909",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7127934686",
+      "Scholar": "OpXMNnMAAAAJ:OTTXONDVkokC"
+    },
+    "itemType": "preprint",
+    "repository": "arXiv"
+  }
+}
