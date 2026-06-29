@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Wearable technology has shown notable promise for tracking human motion, offering valuable insights for fields ranging from biomechanics to healthcare. Traditional motion capture systems, however, are often bulky and disruptive, making them impractical for daily use. Advances in textile-based sensing offer a promising alternative, enabling seamless integration of air- and sweat-permeable sensors into everyday clothing. Here, a sensorized textile suit designed for unobtrusive full-body motion capture is presented. The suit is capable of accurately tracking complex movements without interfering with routine activities. This wearable, using an individual-customized network of fabric-based sensors, autonomously identifies and monitors movement angles and patterns, providing insights into physical range, activity frequency, and exertion levels. Language models are shown to interpret motion data into descriptive language, enhancing its potential for real-world applications. This sensorized textile suit and corresponding algorithms represent a step forward in accessible, continuous movement monitoring in the form of everyday clothing, opening avenues for studying human behavior and health in natural environments. YSuit is a fully textile suit for accurate, customizable, washable, and comfortable anywhere full-body motion capture.",
+    "extra": {
+      "Data": "https://huggingface.co/datasets/HuanboSun/YSuit",
+      "Scholar": "6NjbexEAAAAJ:LYW2S8xaXYEC"
+    },
+    "itemType": "journalArticle"
+  }
+}
