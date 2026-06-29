@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Building convincing digital humans is central to the vision of shared virtual worlds for AR, VR, and telepresence. Yet, despite rapid progress in 3D vision, today’s virtual humans often fall into a physical \"uncanny valley”—bodies float above or penetrate objects, motions ignore balance and biomechanics, and human object interactions miss the rich contact patterns that make behavior look real. Enforcing physics through simulation is possible, but remains too slow, restrictive, and brittle for real-world, in-the-wild settings. This thesis argues that physical realism does not require full simulation. Instead, it can emerge from the same principles humans rely on every day: intuitive physics and contact. Inspired by insights from biomechanics and cognitive science, I present a unified framework that embeds these ideas directly into learning-based 3D human modeling. In this thesis, I present a suite of methods that bridge the gap between 3D human reconstruction and physical plausibility. I first introduce IPMAN, which incorporates differentiable biomechanical cues, such as center of mass and center of pressure, to produce stable, balanced, and grounded static poses. I then extend this framework to dynamic motion with HUMOS, a shape-conditioned motion generation model that accounts for how individual physiology influences movement, without requiring paired training data. Moving beyond locomotion, I address complex human-object interactions with DECO, a 3D contact detector that estimates dense, vertex-level contact across the full body surface. Finally, I present PICO, which establishes contact correspondences between the human body and arbitrary objects to recover full 3D interactions from single images. Together, these contributions bring physics-aware human modeling closer to practical deployment. The result is a step toward digital humans that not only look right, but move and interact with the world in ways that feel intuitively real.",
+    "extra": {
+      "Source": "group_webpage (black)"
+    },
+    "itemType": "thesis"
+  }
+}
