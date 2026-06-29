@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveID": "2507.14748",
+    "archiveLocation": "2507.14748",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4416838970",
+      "Scholar": "v-JL-hsAAAAJ:B3FOqHPlNUQC"
+    },
+    "itemType": "preprint",
+    "notes": [
+      {
+        "note": "<p><a href='http://arxiv.org/abs/2507.14748v1'>http://arxiv.org/abs/2507.14748v1</a><br><a href='https://dblp.org/rec/journals/corr/abs-2507-14748.html'>https://dblp.org/rec/journals/corr/abs-2507-14748.html</a><br><a href='https://www.alphaxiv.org/abs/2507.14748'>https://www.alphaxiv.org/abs/2507.14748</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
