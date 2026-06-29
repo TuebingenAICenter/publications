@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are increasingly used for decision-making tasks, yet they often struggle to express uncertainty or communicate their internal confidence. While techniques like logit-based calibration exist, they are often inaccessible in closed-source models. We introduce SelfReflect, a framework that enables LLMs to communicate their internal answer distribution through natural language. By prompting the model to reflect on its own generation process, we show that LLMs can produce calibrated probability estimates that correlate with their actual accuracy. We evaluate SelfReflect across multiple benchmarks and show that it consistently outperforms baseline methods in uncertainty estimation, providing a reliable way to assess model confidence without requiring access to internal logit values.",
+    "archive": "arXiv",
+    "archiveLocation": "2505.20295",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "kmXOOdsAAAAJ:SP6oXDckpogC"
+    },
+    "itemType": "journalArticle"
+  }
+}
