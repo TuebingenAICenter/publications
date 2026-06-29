@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Vision-Language Models (LVLMs) have demonstrated remarkable capabilities in understanding single images. However, their performance often degrades when processing multiple images, a phenomenon we attribute to the insufficient separation of visual information in the input sequence. In this paper, we introduce Delimiter Token Scaling (DTS), a simple yet effective method to enhance multi-image understanding by scaling the number of delimiter tokens between images. We find that increasing the number of delimiter tokens significantly improves the model's ability to distinguish between different images and their respective contents. We conduct extensive experiments on various multi-image benchmarks, demonstrating that DTS consistently improves performance across different LVLM architectures. Our findings suggest that the design of input sequences is a critical factor in multi-image understanding, and that scaling delimiter tokens is a promising direction for future research.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.01984",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:KxtntwgDAa4C",
+      "arXiv": "2602.01984"
+    },
+    "itemType": "journalArticle"
+  }
+}
