@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present ELITE, a novel framework for efficient and high-fidelity head avatar reconstruction from a monocular video. Existing methods often struggle with the trade-off between reconstruction quality and training efficiency, or require extensive per-subject optimization. ELITE addresses these challenges by introducing a learned initialization strategy combined with test-time generative adaptation. By leveraging a pre-trained generative model, our approach learns a robust prior for head geometry and appearance, which is then refined during test-time to capture subject-specific details. This dual-stage process enables rapid convergence and superior visual quality compared to state-of-the-art methods. We demonstrate the effectiveness of ELITE on various challenging sequences, showing its capability to produce realistic head avatars with expressive facial motions.",
+    "archive": "arXiv",
+    "archiveID": "2601.10200",
+    "archiveLocation": "arXiv:2601.10200",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7128076362",
+      "Scholar": "OpXMNnMAAAAJ:mlAyqtXpCwEC"
+    },
+    "itemType": "preprint"
+  }
+}
