@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "ICML 2026",
+    "extra": {
+      "Source": "group_webpage (liu)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 43rd International Conference on Machine Learning"
+  }
+}
