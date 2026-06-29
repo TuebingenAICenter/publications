@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Implicit learning, where models learn to perform tasks without explicit supervision, has become a cornerstone of modern machine learning. However, most existing methods are tailored to specific architectures or problem domains. In this work, we introduce Universal Algorithm-Implicit Learning (UAIL), a framework that enables models to learn algorithms implicitly across diverse tasks and architectures. By leveraging a novel meta-learning objective, UAIL allows models to adapt to new tasks by inferring the underlying algorithmic structure from data. We demonstrate the effectiveness of UAIL on a range of benchmarks, showing that it consistently outperforms existing implicit learning approaches and generalizes well to unseen tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.14761",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (joon)",
+      "arXiv": "2602.14761"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the International Conference on Machine Learning"
+  }
+}
