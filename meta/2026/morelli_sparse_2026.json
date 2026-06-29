@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Fine-tuning large vision-language models like CLIP often leads to catastrophic forgetting and a loss of interpretability. We propose a novel fine-tuning framework that leverages Sparse Autoencoders (SAEs) to decompose the latent space of CLIP into interpretable features. By applying sparse constraints on the latent activations during fine-tuning, we demonstrate that our method preserves the original model's robustness while enabling fine-grained control over the model's behavior. We show that our approach achieves state-of-the-art performance on several downstream tasks while maintaining high interpretability, as evidenced by qualitative and quantitative analysis of the learned features.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2605.15961",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:5ugPr518TE4C",
+      "arXiv": "2605.15961"
+    },
+    "itemType": "journalArticle"
+  }
+}
