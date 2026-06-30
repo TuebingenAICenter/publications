@@ -144,7 +144,7 @@ and exposing the CLIs as `console_scripts`:
 | `pubstore-normalize` | Per-MR diff job (mutating): normalize the changed `.bib` files into the store. |
 | `pubstore-check` | Full-store gate (read-only): verify S1–S5. The required status check. |
 | `pubstore-compile` | Add-on (read-only): emit `all.bib` / `<group>.bib` / `meta.json` / `library.rdf` artifacts. |
-| `pubstore-publish` | Producer (mutating, remote): open one branch + PR per publication from a Zotero RDF export against the store repo. The only CLI that needs credentials. |
+| `pubstore-publish` | Producer (mutating, remote): open one branch + PR per publication from a Zotero RDF export against the store repo. The only CLI that needs credentials, and the only one needing the `[publish]` extra (`pip install "./tools[publish]"`). |
 | `pubstore-groups` | Add-on: `associate` (per-MR group drop → `custom.groups`) and `rebuild-mirror` (regenerate the `groups/` symlink view). |
 
 See [`tools/README.md`](tools/README.md) for the per-CLI operator's guide (invocation,

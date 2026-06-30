@@ -264,23 +264,22 @@ def make_publisher(
 ) -> GitHubStorePublisher:
     """Build a :class:`GitHubStorePublisher`, minting App-installation auth in-process.
 
-    App credentials (all three of ``app_id`` / ``private_key`` / ``installation_id``)
-    take precedence; otherwise a plain ``token``. Raises ``SystemExit`` with an
-    actionable message if neither is fully supplied. ``github`` is imported lazily so
-    the module (and its pure publish loop) import without PyGithub installed.
+    Credentials are resolved by :func:`publication_store._github.github_repo` (App env
+    vars take precedence over a plain ``token``); see it for the precedence and the
+    ``SystemExit`` failure modes.
     """
-    from github import Auth, Github
+    from ._github import github_repo
 
-    if app_id and private_key and installation_id:
-        auth = Auth.AppAuth(int(app_id), private_key).get_installation_auth(int(installation_id))
-    elif token:
-        auth = Auth.Token(token)
-    else:
-        raise SystemExit(
-            "no credentials: set PUBBOT_APP_ID + PUBBOT_PRIVATE_KEY + "
-            "PUBBOT_INSTALLATION_ID, or pass --token / set GITHUB_TOKEN"
-        )
-    return GitHubStorePublisher(Github(auth=auth).get_repo(repo_name), base_branch)
+    return GitHubStorePublisher(
+        github_repo(
+            repo_name,
+            token=token,
+            app_id=app_id,
+            private_key=private_key,
+            installation_id=installation_id,
+        ),
+        base_branch,
+    )
 
 
 # --------------------------------------------------------------------------- #

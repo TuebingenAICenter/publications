@@ -2,7 +2,7 @@
 
 The installable CLIs that keep the publication store in canonical form and move data in
 and out of it. One package (`publication-store`, see [`pyproject.toml`](pyproject.toml))
-pinning `zotero-rdf-python` + `jsonschema`, exposing five `console_scripts`.
+pinning `zotero-rdf-python` + `jsonschema`, exposing six `console_scripts`.
 
 For the store layout, the S1–S5 contract, and the contributor workflow, see the
 [repository README](../README.md). This file is the operator's guide to the CLIs
@@ -12,19 +12,25 @@ which credentials it needs and where to get them.
 ## Install
 
 ```bash
-pip install ./tools                 # the CLIs
+pip install ./tools                 # the deterministic CLIs (no GitHub deps)
+pip install "./tools[publish]"      # + PyGithub, for pubstore-publish / pubstore-sweep
 pip install -e "tools/[test]"       # editable + pytest, for working on the tools
 pytest tools/tests                  # the pr1–pr14 fixtures (run manually; not in CI)
 ```
+
+`pubstore-publish` and `pubstore-sweep` are the only CLIs that need PyGithub; both live
+behind the `[publish]` extra so images that only run the check/compile/normalize jobs stay
+slim.
 
 All commands take `--root` (the store repo root, default: the current directory). Run
 them from a checkout of the store, or point `--root` at one.
 
 ## Credentials at a glance
 
-Four of the five CLIs are **deterministic and secret-free** — they only read and write
-files in your checkout and never reach the network. The lone exception is
-`pubstore-publish`, which opens PRs against the store repo on GitHub.
+Four of the six CLIs are **deterministic and secret-free** — they only read and write
+files in your checkout and never reach the network. The two exceptions are
+`pubstore-publish`, which opens PRs against the store repo on GitHub, and `pubstore-sweep`,
+which merges/closes them.
 
 | CLI | Touches GitHub? | Needs a token? |
 |---|---|---|
@@ -33,6 +39,7 @@ files in your checkout and never reach the network. The lone exception is
 | `pubstore-compile` | no | no |
 | `pubstore-groups` | no | no |
 | `pubstore-publish` | **yes** | **yes** — see [its section](#pubstore-publish) |
+| `pubstore-sweep` | **yes** | **yes** — see [its section](#pubstore-sweep) |
 
 ---
 
@@ -109,7 +116,9 @@ pubstore-groups rebuild-mirror [--check] [--root .]
 Producer (mutating, **remote**). Turns a Zotero RDF export into the store's go-forward
 ingestion shape: **one branch + one PR per publication** against the store repo, carrying
 the full canonical pair. No local clone — it commits via the GitHub Git Data API. The
-same invocation runs on the scraper's monthly cron and locally for staging.
+same invocation runs on the scraper's monthly cron and locally for staging. Install with
+the `[publish]` extra (`pip install "./tools[publish]"`) — it's the only CLI that pulls in
+PyGithub.
 
 Idempotent. The store's citekey set is read once; per item it either **adds** (citekey
 not in the store), **updates** (citekey in the store but the emitted pair differs byte
@@ -222,3 +231,62 @@ the installation, then delete any orphan branches before re-running. Verify with
 
 If neither form is fully supplied the command exits with an actionable message and does
 nothing.
+
+---
+
+## `pubstore-sweep`
+
+Reviewer (mutating, **remote**). The companion to `pubstore-publish`: it works the backlog
+of per-item PRs that the monthly cron leaves open. For publication PRs older than a
+threshold it applies one **required** policy — `--on-expiry accept` squash-merges the
+stale-but-green ones, `--on-expiry reject` closes them — so the per-item PR volume doesn't
+pile up unbounded. No local clone; it acts over the GitHub API. Install with the
+`[publish]` extra (it shares PyGithub with `pubstore-publish`).
+
+```bash
+pubstore-sweep --repo OWNER/REPO --on-expiry {accept,reject} \
+    [--older-than 30d] [--label new --label update ...] \
+    [--limit N] [--dry-run] [--token ...]
+```
+
+- `--repo` — `OWNER/REPO` of the store (required).
+- `--on-expiry` — **required**, no default; the run must state its intent (`accept` or
+  `reject`). Run two crons with different policies/ages if you ever need both.
+- `--older-than` — age threshold, measured from the PR's **creation** time. Accepts `30d` /
+  `2w` / `12h` / a bare integer (days). Default `30d`, matching the monthly publish cadence.
+- `--label` — repeatable; the op-kind label(s) that mark a PR as a publication PR (default
+  `new`, `update`, `rename`). Only PRs carrying one of these are ever touched.
+- `--limit` — cap the number of PRs *acted on* this run (merges + closes); skips and
+  not-yet-expired PRs don't count, so a re-run continues through the rest.
+- `--dry-run` — report the expired PRs and the action each *would* get, change nothing.
+  This is also the **fetch/list** mode for seeing the backlog.
+
+### Accept never forces a merge
+
+On `--on-expiry accept`, only a **cleanly mergeable** expired PR is merged. One that is
+expired but failing checks, conflicted, or behind base is **skipped and reported** (a
+`::warning::` with the reason) and left open for a human — the sweep never overrides a
+red PR. Merges are **squash** (each store PR is a single commit) and the head branch is
+deleted afterward.
+
+### Reject
+
+On `--on-expiry reject`, each expired PR gets a short comment explaining the timeout, is
+closed, and its head branch is deleted. Deleting the branch matters: it lets a later
+`pubstore-publish` of the same citekey re-open the PR cleanly (publish skips a citekey
+whose branch still exists).
+
+### Tokens
+
+Identical to [`pubstore-publish`](#tokens--what-it-needs-and-where-to-find-them) — the same
+App-installation env vars (`PUBBOT_APP_ID` / `PUBBOT_PRIVATE_KEY` / `PUBBOT_INSTALLATION_ID`)
+take precedence, else a plain `--token` / `GITHUB_TOKEN`. The same three permissions are
+required: **Contents: read & write**, **Pull requests: read & write** (merge/close and the
+branch delete), and **Issues: read & write** (the rejection comment goes through the issues
+API). If neither credential form is fully supplied the command exits with an actionable
+message and does nothing.
+
+The recurring run is a cron in the scraper repo (`tueai_publication_scraping`), mirroring
+the publish cron: `pip install "publication-store[publish]"`, then
+`pubstore-sweep --repo TuebingenAICenter/publications --on-expiry accept`. It also runs
+locally/manually with a `--token`.
