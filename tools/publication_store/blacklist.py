@@ -25,9 +25,12 @@ item is already in the store, which ``library.rdf`` already excludes.
 
 Like ``publish``/``sweep`` the remote sits behind a :class:`Blacklister` protocol so the
 pure core (:func:`collect_blacklist`) is testable with an in-memory fake — no network in
-the test suite. Unlike them, the real impl also ``git clone``\\ s the store: deletion
-detection needs *history*, which the no-clone API path deliberately avoids. That is a
-once-a-month cost, so it shells out to the ``git`` binary — no new Python dependency.
+the test suite. Unlike them, the real impl also ``git clone``\\ s the store: all *content*
+(PR ``.bib``\\ s **and** deletion history) is read from that one clone, and the GitHub API
+is used only for PR *metadata* (op-kind label, merged-vs-closed) — the part with no git
+representation. That keeps the run off the per-PR REST fan-out that tripped GitHub's
+secondary rate limits. It is a once-a-month cost, so it shells out to the ``git`` binary —
+no new Python dependency (see :class:`GitHubBlacklister` for the two-pass split).
 
 Self-dedup is deliberately omitted: duplicates across sources only shrink nothing and
 ``new_publications`` dedups against the blacklist at consumption time anyway, so multi-
@@ -60,6 +63,12 @@ DEFAULT_CURATED_GLOB = "blacklist/*.bib"
 _YEAR_RE = re.compile(r"\b(\d{4})\b")
 
 
+def _stderr(exc: subprocess.CalledProcessError) -> str:
+    """First line of a failed git command's stderr, for a compact error record."""
+    text = (exc.stderr or "").strip()
+    return text.splitlines()[0] if text else f"git exited {exc.returncode}"
+
+
 # --------------------------------------------------------------------------- #
 # The sources, behind a protocol (real impl: GitHub + clone; tests: a fake)
 # --------------------------------------------------------------------------- #
@@ -80,12 +89,25 @@ class Blacklister(Protocol):
 
 
 class GitHubBlacklister:
-    """A :class:`Blacklister` over a real store repo: GitHub API for the PR scans, a
-    once-per-run ``git clone`` for the deletion + curated scans.
+    """A :class:`Blacklister` over a real store repo, reading **all content from one
+    local clone** and hitting the GitHub API only for PR *metadata*.
 
-    Holds a ``github.Repository.Repository`` (PR scans), plus the ``OWNER/REPO`` name and
-    a bearer token used to clone over HTTPS. The clone is lazy and shared between
-    :meth:`deleted_bibs` and :meth:`curated_bibs`.
+    The insight the design turns on: a PR's *content* (the ``.bib`` it adds) is
+    recoverable from git — ``refs/pull/N/head`` stays fetchable after branch deletion —
+    while a PR's *metadata* (its op-kind label, merged-vs-closed) has no git
+    representation and must come from the API. So each PR scan is two passes:
+
+    * a **metadata pass** — one paginated ``get_pulls(state=…)`` listing whose page
+      payload already carries ``number``/``labels``/``merged_at``/``head.sha``/``base.sha``
+      inline, so it filters to in-scope PRs with *zero* per-PR REST calls; and
+    * a **content pass** — a local ``git diff base…head`` + ``git show`` against the
+      shared clone, replacing the old per-PR ``get_files()`` + ``get_contents()`` fan-out
+      (``≥2`` REST calls each, which tripped GitHub's secondary rate limits).
+
+    Holds a ``github.Repository.Repository`` (metadata pass), plus the ``OWNER/REPO`` name
+    and a bearer token used to clone/fetch over HTTPS. The clone is lazy and shared across
+    all four sources. Per-PR read failures (a GC'd head, an orphaned base) are collected
+    in :attr:`errors` and skipped, never sinking the run.
     """
 
     def __init__(
@@ -105,48 +127,108 @@ class GitHubBlacklister:
         self._include = [Path(p) for p in include]
         self._curated_glob = curated_glob
         self._clone_dir: Path | None = None
+        #: (source, message) for PRs skipped mid-run; merged into the run's
+        #: :class:`BlacklistSummary` by :func:`collect_blacklist` (duck-typed).
+        self.errors: list[tuple[str, str]] = []
 
-    # -- PR scans (API, no clone) -------------------------------------------- #
-    def _pr_bibs(self, state: str, *, unmerged_only: bool) -> list[str]:
-        """``.bib`` text added by every op-kind PR in ``state``, read at ``pr.head.sha``.
+    # -- PR scans (metadata: API; content: local git) ----------------------- #
+    def _pr_meta(self, state: str, *, unmerged_only: bool) -> list[tuple[int, str, str]]:
+        """``(number, head_sha, base_sha)`` for in-scope op-kind PRs in ``state``.
 
-        ``refs/pull/N/head`` persists after branch deletion, so rejected/swept PRs stay
-        readable. Files the PR *removes* are skipped (they'd 404 at head); only ``entries/
-        **/*.bib`` blobs are read.
+        A single ``get_pulls`` listing; both SHAs and the label/merged filter come off the
+        page payload, so this makes no per-PR call.
         """
-        out: list[str] = []
+        meta: list[tuple[int, str, str]] = []
         for pr in self._repo.get_pulls(state=state):
             labels = {label.name for label in pr.labels}
             if not (labels & self._op_labels):
                 continue
             if unmerged_only and pr.merged_at is not None:
                 continue
-            for f in pr.get_files():
-                if f.status == "removed":
-                    continue
-                if f.filename.startswith("entries/") and f.filename.endswith(".bib"):
-                    blob = self._repo.get_contents(f.filename, ref=pr.head.sha)
-                    out.append(blob.decoded_content.decode("utf-8"))
+            meta.append((pr.number, pr.head.sha, pr.base.sha))
+        return meta
+
+    def _fetch_pr_heads(self, numbers: list[int], *, source: str) -> set[int]:
+        """Fetch the given PRs' head commits into the clone.
+
+        One batched ``git fetch`` when every ``refs/pull/N/head`` resolves; on failure
+        (e.g. a ref GitHub has since GC'd) fall back to per-PR fetches so one bad ref only
+        drops its own PR. Returns the set of PR numbers whose head is now local.
+        """
+        if not numbers:
+            return set()
+        refspecs = [f"refs/pull/{n}/head:refs/pr/{n}" for n in numbers]
+        try:
+            self._git("fetch", "--quiet", "origin", *refspecs)
+            return set(numbers)
+        except subprocess.CalledProcessError:
+            fetched: set[int] = set()
+            for n in numbers:
+                try:
+                    self._git("fetch", "--quiet", "origin", f"refs/pull/{n}/head:refs/pr/{n}")
+                    fetched.add(n)
+                except subprocess.CalledProcessError as exc:
+                    self.errors.append((source, f"PR #{n}: head unfetchable: {_stderr(exc)}"))
+            return fetched
+
+    def _pr_diff_bibs(self, head_sha: str, base_sha: str) -> list[str]:
+        """``.bib`` text the PR *introduces* — its ``entries/**/*.bib`` additions/mods.
+
+        ⚠️ A PR head commit carries the whole repo tree, so we diff **against base**, not
+        list the head tree. Three-dot ``base…head`` diffs the merge-base→head, isolating
+        the PR's own changes; ``--diff-filter=AM`` keeps additions/modifications and drops
+        deletions — the faithful local twin of the old ``get_files()`` + ``status !=
+        "removed"`` filter. ``--no-renames`` is essential: otherwise a PR that deletes one
+        entry and adds a *similar* one has the addition folded into a rename (``R``) and
+        dropped, losing a real blacklist item (GitHub's ``get_files`` likewise reported
+        such a file "renamed", not "removed", so the old path read it too). Raises
+        ``CalledProcessError`` if ``base_sha`` is unreachable (orphaned by a force-push);
+        the caller records that PR and moves on.
+        """
+        names = self._git(
+            "diff", "--name-only", "--no-renames", "--diff-filter=AM",
+            f"{base_sha}...{head_sha}", "--", "entries",
+        )
+        out: list[str] = []
+        for path in names.splitlines():
+            path = path.strip()
+            if path.startswith("entries/") and path.endswith(".bib"):
+                out.append(self._git("show", f"{head_sha}:{path}"))
+        return out
+
+    def _pr_bibs(self, state: str, *, unmerged_only: bool, source: str) -> list[str]:
+        meta = self._pr_meta(state, unmerged_only=unmerged_only)
+        fetched = self._fetch_pr_heads([n for n, _, _ in meta], source=source)
+        out: list[str] = []
+        for number, head_sha, base_sha in meta:
+            if number not in fetched:
+                continue  # head unfetchable — already recorded in errors
+            try:
+                out.extend(self._pr_diff_bibs(head_sha, base_sha))
+            except subprocess.CalledProcessError as exc:  # orphaned base, etc.
+                self.errors.append((source, f"PR #{number}: {_stderr(exc)}"))
         return out
 
     def open_pr_bibs(self) -> list[str]:
-        return self._pr_bibs("open", unmerged_only=False)
+        return self._pr_bibs("open", unmerged_only=False, source="open_prs")
 
     def closed_pr_bibs(self) -> list[str]:
-        return self._pr_bibs("closed", unmerged_only=True)
+        return self._pr_bibs("closed", unmerged_only=True, source="closed_prs")
 
     # -- clone-backed scans -------------------------------------------------- #
     def _clone(self) -> Path:
-        """Blobless clone of the store (full commit graph, blobs fetched on demand).
+        """Full clone of the store (all history, full blobs), shared by every source.
 
-        Shallow would drop the deletion history we need; ``--filter=blob:none`` keeps the
-        graph while deferring blob download to the ``git show`` reads.
+        Shallow would drop the deletion history the store-file scan needs. Full blobs
+        (no ``--filter=blob:none``) are the deliberate choice: the store is tiny ``.bib``/
+        ``.json`` text, and a blobless clone would re-fetch each blob over the network on
+        every ``git show`` — defeating the point of reading content locally.
         """
         if self._clone_dir is None:
             dest = Path(tempfile.mkdtemp(prefix="pubstore-blacklist-"))
             url = f"https://x-access-token:{self._token}@github.com/{self._repo_name}.git"
             subprocess.run(
-                ["git", "clone", "--filter=blob:none", "--quiet", url, str(dest)],
+                ["git", "clone", "--quiet", url, str(dest)],
                 check=True,
                 capture_output=True,
             )
@@ -220,6 +302,28 @@ class BlacklistSummary:
         return self.open_prs + self.closed_prs + self.deletions + self.curated
 
 
+#: Human-readable ``Blacklist Reason:`` value stamped into each item's ``extra`` field,
+#: keyed by the source that produced it — so a reviewer opening ``blacklist.rdf`` in Zotero
+#: can see *why* an item is suppressed (rejected PR vs deletion vs …) without re-deriving it.
+_BLACKLIST_REASON = {
+    "open_prs": "open new-publication PR",
+    "closed_prs": "closed (rejected) new-publication PR",
+    "deletions": "deleted from the store",
+    "curated": "hand-curated blacklist entry",
+}
+
+
+def _stamp_reason(item: ZoteroItem, reason: str) -> None:
+    """Append a ``Blacklist Reason: <reason>`` line to ``item.extra``.
+
+    Uses Zotero's ``Label: value`` extra convention (so it round-trips and shows in the
+    GUI) and preserves any existing ``extra`` content rather than overwriting it. Chosen
+    over a tag deliberately: a tag would blend into the item's real tag set.
+    """
+    line = f"Blacklist Reason: {reason}"
+    item.extra = f"{item.extra}\n{line}" if item.extra else line
+
+
 def _year(item: ZoteroItem) -> int | None:
     """First 4-digit year in ``item.date``, or ``None`` when undated/unparseable."""
     if not item.date:
@@ -246,9 +350,11 @@ def collect_blacklist(
     """Union the four sources into blacklist items + a per-source :class:`BlacklistSummary`.
 
     Each source's bibs are parsed independently: one unparseable bib is recorded in
-    ``summary.errors`` (tagged with its source) and skipped — it never sinks the run. An
-    optional ``since_year`` prunes items older than that publication year (undated kept).
-    Order is source-by-source, items in source order; no self-dedup (see module docstring).
+    ``summary.errors`` (tagged with its source) and skipped — it never sinks the run. Each
+    surviving item is stamped with a ``Blacklist Reason:`` line in its ``extra`` naming the
+    source. An optional ``since_year`` prunes items older than that publication year
+    (undated kept). Order is source-by-source, items in source order; no self-dedup (see
+    module docstring).
     """
     summary = BlacklistSummary()
     items: list[ZoteroItem] = []
@@ -268,9 +374,15 @@ def collect_blacklist(
                 continue
             for item in parsed:
                 if _in_year_range(item, since_year):
+                    _stamp_reason(item, _BLACKLIST_REASON[source])
                     items.append(item)
                     count += 1
         setattr(summary, source, count)
+
+    # Fold in any source-side read failures (a GC'd PR head, an orphaned base): the pure
+    # loop above only isolates *parse* errors, but a clone-backed source can fail to even
+    # produce a bib. Duck-typed so the in-memory fake (no ``errors``) is unaffected.
+    summary.errors.extend(getattr(src, "errors", ()))
 
     return items, summary
 
