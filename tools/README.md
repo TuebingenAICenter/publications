@@ -13,24 +13,26 @@ which credentials it needs and where to get them.
 
 ```bash
 pip install ./tools                 # the deterministic CLIs (no GitHub deps)
-pip install "./tools[publish]"      # + PyGithub, for pubstore-publish / pubstore-sweep
+pip install "./tools[publish]"      # + PyGithub, for pubstore-{publish,sweep,blacklist}
 pip install -e "tools/[test]"       # editable + pytest, for working on the tools
 pytest tools/tests                  # the pr1–pr14 fixtures (run manually; not in CI)
 ```
 
-`pubstore-publish` and `pubstore-sweep` are the only CLIs that need PyGithub; both live
-behind the `[publish]` extra so images that only run the check/compile/normalize jobs stay
-slim.
+`pubstore-publish`, `pubstore-sweep`, and `pubstore-blacklist` are the CLIs that need
+PyGithub; all live behind the `[publish]` extra so images that only run the
+check/compile/normalize jobs stay slim. `pubstore-blacklist` additionally shells out to the
+`git` binary for its clone (present on any CI image with a git checkout) — no extra Python
+dependency.
 
 All commands take `--root` (the store repo root, default: the current directory). Run
 them from a checkout of the store, or point `--root` at one.
 
 ## Credentials at a glance
 
-Four of the six CLIs are **deterministic and secret-free** — they only read and write
-files in your checkout and never reach the network. The two exceptions are
-`pubstore-publish`, which opens PRs against the store repo on GitHub, and `pubstore-sweep`,
-which merges/closes them.
+Four of the seven CLIs are **deterministic and secret-free** — they only read and write
+files in your checkout and never reach the network. The three exceptions are
+`pubstore-publish`, which opens PRs against the store repo on GitHub, `pubstore-sweep`,
+which merges/closes them, and `pubstore-blacklist`, which reads the repo's PRs + history.
 
 | CLI | Touches GitHub? | Needs a token? |
 |---|---|---|
@@ -40,6 +42,7 @@ which merges/closes them.
 | `pubstore-groups` | no | no |
 | `pubstore-publish` | **yes** | **yes** — see [its section](#pubstore-publish) |
 | `pubstore-sweep` | **yes** | **yes** — see [its section](#pubstore-sweep) |
+| `pubstore-blacklist` | **yes** (read-only + clone) | **yes** — see [its section](#pubstore-blacklist) |
 
 ---
 
@@ -290,3 +293,63 @@ The recurring run is a cron in the scraper repo (`tueai_publication_scraping`), 
 the publish cron: `pip install "publication-store[publish]"`, then
 `pubstore-sweep --repo TuebingenAICenter/publications --on-expiry accept`. It also runs
 locally/manually with a `--token`.
+
+## `pubstore-blacklist`
+
+Producer (**read-only**, remote + clone). Builds `blacklist.rdf`: the items a human has
+already *adjudicated away*, so the scraper's incremental dedup
+(`publib.new_publications(scraped, store, blacklist)`) stops re-proposing them under a
+drifted citekey that `pubstore-publish`'s exact-citekey skip can't catch. It writes only the
+RDF — it never merges, closes, or comments. Install with the `[publish]` extra (shares
+PyGithub); it also shells out to the `git` binary for a blobless clone (deletion detection
+needs history, which the no-clone API path can't reach).
+
+```bash
+pubstore-blacklist --repo OWNER/REPO [--out blacklist.rdf] \
+    [--label new ...] [--since-year YYYY] [--include path.bib ...] \
+    [--dry-run] [--token ...]
+```
+
+- `--repo` — `OWNER/REPO` of the store (required).
+- `--out` — output RDF path (default `blacklist.rdf`).
+- `--label` — repeatable op-kind label marking a blacklist-eligible PR (default `new`;
+  `update` / `rename` presuppose the item is already in the store, which `library.rdf`
+  already excludes).
+- `--since-year` — drop blacklist items published before this year (undated kept), keeping
+  the artifact ~constant-size instead of growing with every closed PR and deletion ever.
+- `--include` — repeatable extra local hand-curated `.bib` to fold in (on top of the
+  in-repo `blacklist/*.bib`).
+- `--dry-run` — print the per-source counts and write nothing.
+
+### The four sources
+
+All are reconstructed identically (`.bib` text → `from_bibtex` → `ZoteroItem`), unioned,
+then exported:
+
+1. **open** `new` PRs — in-flight, so a paper with an open PR isn't re-proposed under a
+   drifted key;
+2. **closed-unmerged** `new` PRs — deliberate rejections. Safe *because* `pubstore-sweep`
+   defaults to `--on-expiry accept`: a timed-out PR is **merged**, not closed, so a
+   closed-unmerged PR is a real human "NO";
+3. **store-file deletions** over git history — the post-merge "undo": a citekey present
+   somewhere in history but **absent from `entries/` at HEAD**. Keyed on the citekey being
+   gone (not on a blob changing), so an in-place metadata fix, a delete-then-re-add, and a
+   rename all correctly stay off the list;
+4. **hand-curated** entries — an in-repo `blacklist/*.bib` a human maintains (plus any
+   `--include` paths), version-controlled and PR-reviewed alongside the store.
+
+One unparseable bib is reported (a `::warning::`) and skipped, never sinking the run; the
+command exits 1 if any parse error occurred. There is deliberately **no self-dedup**:
+`new_publications` dedups against the blacklist at consumption time anyway, so cross-source
+repeats are harmless.
+
+### Tokens
+
+Identical to [`pubstore-publish`](#tokens--what-it-needs-and-where-to-find-them) — the same
+App-installation env vars take precedence, else a plain `--token` / `GITHUB_TOKEN`. It reads
+PRs and clones, so **Contents: read** and **Pull requests: read** suffice (no write scope).
+
+The recurring run is a cron in the scraper repo, before `pubstore-publish`:
+`pubstore-blacklist --repo TuebingenAICenter/publications --out blacklist.rdf --since-year YYYY`,
+then the scraper feeds `blacklist.rdf` to `new_publications` (the `--blacklist-rdf` wiring is
+a separate follow-up). It also runs locally/manually with a `--token`.
