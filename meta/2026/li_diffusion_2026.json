@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive models, offering unique advantages in non-autoregressive generation. However, their decoding process, which typically involves iterative refinement, remains computationally expensive and less understood. In this paper, we investigate the internal dynamics of DLMs during the generation process and discover a surprising phenomenon: the model often 'knows' the final output sequence at a very early stage of the diffusion process, long before the final decoding steps are completed. We term this phenomenon 'early-stage convergence'. Based on this insight, we propose Prophet, a novel decoding strategy that leverages this early-stage knowledge to accelerate the generation process without sacrificing performance. Specifically, Prophet identifies the early-stage tokens that have already converged and freezes them, thereby reducing the number of required denoising steps. Extensive experiments on various benchmarks demonstrate that Prophet significantly speeds up the generation process of DLMs while maintaining or even improving generation quality. Our findings provide new insights into the generation mechanism of DLMs and offer a practical approach to enhancing their efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2508.19982",
+    "extra": {
+      "Citations@2026-06-01": "37",
+      "Scholar": "73IbXtsAAAAJ:7T2F9Uy0os0C"
+    },
+    "itemType": "journalArticle"
+  }
+}
