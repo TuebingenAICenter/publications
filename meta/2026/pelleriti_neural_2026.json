@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Certifying the nonnegativity of polynomials is a fundamental problem in mathematics and computer science, with applications ranging from control theory to combinatorial optimization. The standard approach is to use Sum-of-Squares (SOS) programming, which relies on semidefinite programming (SDP). However, SDP solvers scale poorly with the number of variables and the degree of the polynomial. In this work, we propose Neural Sum-of-Squares (Neural-SOS), a novel framework that leverages Transformers to learn to certify the nonnegativity of polynomials. By framing the problem as a sequence-to-sequence task, our model learns to predict the coefficients of an SOS decomposition directly from the coefficients of the input polynomial. We demonstrate that our approach can generalize to unseen polynomials and significantly outperform traditional solvers in terms of speed, while maintaining high accuracy in certification.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.13444",
+    "extra": {
+      "Scholar": "73IbXtsAAAAJ:1yQoGdGgb4wC",
+      "https": "//arxiv.org/pdf/2510.13444"
+    },
+    "itemType": "journalArticle"
+  }
+}
