@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Dataset condensation aims to compress large datasets into small, representative subsets that maintain model performance. While existing methods focus on training efficiency, we identify a critical, overlooked application: efficient model evaluation. We introduce DISCO (Diversifying Sample Condensation), a novel framework designed to create small, diverse evaluation sets that accurately estimate the performance of models on the full dataset. By optimizing for diversity in the feature space, DISCO significantly outperforms random sampling and existing condensation techniques in predicting model accuracy across various architectures and datasets. Our approach enables rapid model selection and hyperparameter tuning, reducing evaluation costs by orders of magnitude while maintaining high correlation with full-dataset performance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.07959",
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Code": "https://github.com/arubique/disco-public",
+      "Project": "https://arubique.github.io/disco-site/",
+      "Reporter": "arXiv preprint arXiv:2510.07959, 2025",
+      "Scholar": "kmXOOdsAAAAJ:EUQCXRtRnyEC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://iclr.cc/virtual/2026/poster/10009382'>https://iclr.cc/virtual/2026/poster/10009382</a><br><a href='https://arxiv.org/abs/2510.07959'>https://arxiv.org/abs/2510.07959</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
