@@ -1,0 +1,38 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Reconstructing the 4D motion of humans and objects from monocular video is a fundamental challenge in computer vision. Existing methods often rely on category-specific priors, such as parametric human body models or object templates, which limit their applicability to novel objects or complex interactions. In this paper, we present CARI4D, a category-agnostic framework for 4D reconstruction of human-object interaction. Our approach leverages a unified representation for both humans and objects, enabling the reconstruction of arbitrary objects without requiring category-specific templates. We introduce a novel interaction-aware motion representation that captures the dynamic relationship between the human and the object, facilitating accurate tracking and reconstruction even under significant occlusion and complex contact. Extensive experiments on challenging datasets demonstrate that CARI4D achieves state-of-the-art performance in both human and object reconstruction, significantly outperforming existing category-specific and category-agnostic methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.15186",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2512.11988"
+      }
+    ],
+    "conferenceName": "CVPR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417447127",
+      "Scholar": "OpXMNnMAAAAJ:XoXfffV-tXoC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.11988'>https://arxiv.org/abs/2512.11988</a><br><a href='https://nvlabs.github.io/CARI4D/'>https://nvlabs.github.io/CARI4D/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
