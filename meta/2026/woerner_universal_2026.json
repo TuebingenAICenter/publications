@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Implicit learning, where models learn to represent data through the optimization of an objective function rather than explicit architectural design, has become a cornerstone of modern machine learning. However, current implicit models are often tied to specific algorithmic structures, limiting their universality. In this paper, we introduce Universal Algorithm-Implicit Learning (UAIL), a framework that decouples the learning process from the underlying optimization algorithm. By treating the optimization process itself as a learnable component, UAIL enables models to adapt their implicit representations to a wide range of tasks and architectures. We demonstrate the effectiveness of our approach across several benchmarks, showing that UAIL achieves state-of-the-art performance while maintaining computational efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.14761",
+    "conferenceName": "International Conference on Machine Learning",
+    "extra": {
+      "Source": "group_webpage (joon)",
+      "arXiv": "2602.14761"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Proceedings of the International Conference on Machine Learning"
+  }
+}
