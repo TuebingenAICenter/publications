@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415272271",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "SrVnrPcAAAAJ:d4tt_xEv1X8C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=aMs6FtNaY5'>https://openreview.net/forum?id=aMs6FtNaY5</a><br><a href='https://arxiv.org/abs/2509.26645'>https://arxiv.org/abs/2509.26645</a><br><a href='https://rover-xingyu.github.io/TTT3R/'>https://rover-xingyu.github.io/TTT3R/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
