@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive models, offering non-autoregressive generation capabilities. However, their decoding process often suffers from a trade-off between generation quality and inference speed. In this paper, we propose Search or Accelerate (SOAR), a novel decoding strategy for DLMs that dynamically switches between beam search and accelerated sampling based on the model's confidence. By leveraging confidence-based switching, SOAR effectively balances the exploration of high-quality sequences with the efficiency of fast sampling. We demonstrate the effectiveness of SOAR across various language modeling tasks, showing significant improvements in both generation quality and inference speed compared to existing decoding methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.10953",
+    "extra": {
+      "Code": "https://github.com/duterscmy/SOAR",
+      "Scholar": "73IbXtsAAAAJ:uLbwQdceFCQC"
+    },
+    "itemType": "journalArticle"
+  }
+}
