@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Muon optimizer has recently emerged as a powerful alternative to Adam for training large-scale neural networks, demonstrating superior performance in various settings. However, Muon's reliance on frequent singular value decomposition (SVD) operations can be computationally expensive, and its sensitivity to hyperparameter settings remains a challenge. In this work, we introduce Muown, a novel variant of Muon that replaces the costly SVD-based update with a more efficient row-norm control mechanism. We provide a theoretical analysis of the convergence properties of Muown and demonstrate its effectiveness through extensive empirical evaluations on large-scale language model training tasks. Our results show that Muown achieves comparable or better performance than Muon while significantly reducing the computational overhead, making it a more practical choice for training large-scale models.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.10797",
+    "extra": {
+      "Scholar": "xkuLyHoAAAAJ:P5F9QuxV20EC",
+      "arXiv": "2605.10797"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
