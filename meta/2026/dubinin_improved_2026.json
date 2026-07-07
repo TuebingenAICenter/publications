@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Linear Recurrent Networks (LRNs) have emerged as a powerful alternative to Transformers, offering linear-time inference and competitive performance. However, their state-space representation often relies on diagonal matrices, which can limit the expressivity of the hidden state transitions. In this work, we propose a novel approach to improve state mixing in LRNs by introducing higher-order and block diagonal structures. We demonstrate that these modifications allow for more complex interactions between hidden state dimensions while maintaining the computational efficiency of linear recurrence. Our experiments show that the proposed architectures achieve superior performance on long-range dependency tasks compared to standard diagonal LRNs.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.12021",
+    "extra": {
+      "Scholar": "xkuLyHoAAAAJ:_xSYboBqXhAC",
+      "arXiv": "2602.12021"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
