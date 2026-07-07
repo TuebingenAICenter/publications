@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce NESSiE, the NEceSsary SafEty benchmark for large language models (LLMs). With minimal test cases of information and access security, NESSiE reveals safety-relevant failures that should not exist, given the low complexity of the tasks. NESSiE is intended as a lightweight, easy-to-use sanity check for language model safety and, as such, is not sufficient for guaranteeing safety in general – but we argue that passing this test is necessary for any deployment. However, even state-of-the-art LLMs do not reach 100% on NESSiE and thus fail our necessary condition of language model safety, even in the absence of adversarial attacks. Our Safe & Helpful (SH) metric allows for direct comparison of the two requirements, showing models are biased toward being helpful rather than safe. We further find that disabled reasoning for some models, but especially a benign distraction context degrade model performance. Overall, our results underscore the critical risks of deploying such models as autonomous agents in the wild. We make the dataset, package and plotting code publicly available.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.16756",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "206vNCEAAAAJ:XoXfffV-tXoC",
+      "arXiv": "2602.16756"
+    },
+    "itemType": "journalArticle"
+  }
+}
