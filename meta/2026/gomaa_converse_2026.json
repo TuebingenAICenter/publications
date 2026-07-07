@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The rapid proliferation of autonomous agents necessitates robust safety evaluation frameworks. While existing benchmarks focus on single-turn or human-agent interactions, agent-to-agent (A2A) communication introduces unique safety challenges, particularly regarding contextual risks where information is leaked or misused across multi-turn, multi-agent dialogues. We introduce ConVerse, a comprehensive benchmark designed to evaluate contextual safety in A2A conversations. ConVerse features a taxonomy of 12 distinct contextual safety risks, covering scenarios such as unauthorized data sharing, persona hijacking, and malicious influence. We curate a dataset of 1,200 multi-turn A2A dialogues and develop a multi-faceted evaluation pipeline that leverages both model-based and rule-based metrics. Our experiments reveal that state-of-the-art LLMs exhibit significant vulnerabilities to contextual safety threats, with success rates for adversarial agents reaching up to 78% in specific scenarios. We further demonstrate that existing safety alignment techniques are insufficient to mitigate these risks, highlighting the urgent need for specialized safety protocols in A2A systems.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.05359",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7155383124",
+      "Publication Title": "Findings of the Association for Computational Linguistics: EACL 2026",
+      "Scholar": "QEiYbDYAAAAJ:Gb6Hms-Uo9kC"
+    },
+    "itemType": "document",
+    "libraryCatalog": "arXiv"
+  }
+}
