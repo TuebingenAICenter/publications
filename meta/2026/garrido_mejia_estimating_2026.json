@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2409.01794",
+    "conferenceName": "Fifth Conference on Causal Learning and Reasoning",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Fifth Conference on Causal Learning and Reasoning"
+  }
+}
