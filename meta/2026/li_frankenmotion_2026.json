@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Human motion generation has made significant progress, yet existing methods often struggle with fine-grained control and the ability to compose motions from different sources. We introduce FrankenMotion, a novel framework for part-level human motion generation and composition. By decomposing human motion into part-specific components, our method enables the independent generation and seamless recombination of body part movements. We demonstrate that FrankenMotion achieves superior performance in motion quality and controllability compared to state-of-the-art approaches, offering a flexible tool for complex motion synthesis.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2601.10909",
+    "extra": {
+      "Archive ID": "2601.10909",
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7127934686",
+      "Scholar": "OpXMNnMAAAAJ:OTTXONDVkokC",
+      "publicationTitle": "Conference on Computer Vision and Pattern Recognition (CVPR)"
+    },
+    "itemType": "preprint"
+  }
+}
