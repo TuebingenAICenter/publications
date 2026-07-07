@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The linear propagation assumption, which posits that the influence of a perturbation propagates linearly through a neural network, is a cornerstone of many interpretability and attribution methods. In this work, we challenge this assumption by demonstrating that the dynamics of neural network activations under perturbation are inherently non-linear and carry significant structural information. We introduce a novel framework that leverages these non-linear dynamics to reveal the underlying causal structure of the network. Our experiments show that this approach provides more faithful explanations than existing linear methods and offers new insights into the internal representations of deep models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2601.21601",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "kmXOOdsAAAAJ:nb7KW1ujOQ8C"
+    },
+    "itemType": "journalArticle"
+  }
+}
