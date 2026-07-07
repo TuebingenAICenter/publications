@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Compositional generalization—the ability to understand novel combinations of known concepts—is a hallmark of human intelligence. While deep learning models have achieved impressive performance on various tasks, their ability to generalize compositionally remains limited. In this work, we investigate the necessary conditions for compositional generalization in embedding models. We formalize the problem using a structural causal model and identify a set of conditions on the data distribution and the model architecture that are required for successful compositional generalization. We validate our theoretical findings through extensive experiments on synthetic and real-world datasets, demonstrating that models satisfying these conditions exhibit superior compositional generalization performance.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.24264",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:uWQEDVKXjbEC"
+    },
+    "itemType": "journalArticle"
+  }
+}
