@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Preference elicitation algorithms have long relied on structured representations of user preferences: rankings of items, ratings, or simple binary interactions (e.g., views). Over the years, we've slowly become aware of the limitations and biases these representations entail. Users form preferences over items' features rather than items themselves. In this paper, we explore natural language as a first-class preference representation, beyond a mere cold-start aid. We study three parallel representations of user preferences: (i) a user-item interaction matrix, (ii) free-form text profiles describing users' preferences, and (iii) interpretable tabular features derived by an LLM from these text profiles. Our findings unfold in three parts. First, text-based predictors substantially outperform collaborative filtering in the cold-start regime and remain competitive as interaction histories grow. Second, most of the predictive signal in text can be retained in a compact, interpretable tabular representation. Third, the three representations are complementary: Simple ensembles that combine them consistently achieve the strongest performance.",
+    "conferenceName": "The Fourteenth International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Source": "group_webpage (hardt)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "The Fourteenth International Conference on Learning Representations (ICLR)"
+  }
+}
