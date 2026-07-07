@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Streaming motion synthesis aims to generate long-term human motion in real-time, which is crucial for interactive applications like VR/AR and robotics. Existing methods often struggle with long-term consistency and the trade-off between generation speed and motion quality. In this paper, we propose ActionPlan, a novel framework for future-aware streaming motion synthesis. Instead of directly predicting the next pose, ActionPlan introduces a frame-level action planning module that predicts a sequence of future action tokens. These tokens act as a high-level guide for the motion generator, ensuring long-term coherence while maintaining real-time performance. We demonstrate that our approach significantly outperforms state-of-the-art methods in terms of motion quality and temporal consistency on standard benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2603.13500",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "OpXMNnMAAAAJ:mNrWkgRL2YcC"
+    },
+    "itemType": "journalArticle"
+  }
+}
