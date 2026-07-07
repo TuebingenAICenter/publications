@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, yet their computational cost remains a significant barrier to widespread deployment. While existing methods like model pruning and distillation reduce the model size, they often sacrifice performance. In this work, we introduce Dr.LLM, a novel framework that enables dynamic layer routing for LLMs. Instead of executing all layers for every input, Dr.LLM learns to route tokens through a subset of layers based on the input complexity. We propose a lightweight routing mechanism that predicts the optimal path for each token, effectively balancing performance and computational efficiency. Our experiments on various benchmarks demonstrate that Dr.LLM achieves significant speedups while maintaining competitive performance compared to dense models. Furthermore, we show that Dr.LLM can be easily integrated into existing LLM architectures, making it a practical solution for efficient inference.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.12773",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Scholar": "kmXOOdsAAAAJ:b0M2c_1WBrUC",
+      "arXiv": "2510.12773"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.12773'>https://arxiv.org/abs/2510.12773</a><br><a href='https://github.com/parameterlab/dr-llm'>https://github.com/parameterlab/dr-llm</a><br><a href='https://huggingface.co/papers/2510.12773'>https://huggingface.co/papers/2510.12773</a><br><a href='https://www.catalyzex.com/paper/dr-llm-dynamic-layer-routing-in-llms'>https://www.catalyzex.com/paper/dr-llm-dynamic-layer-routing-in-llms</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
