@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are increasingly fine-tuned on domain-specific data to improve their performance on downstream tasks. While this process is generally considered benign, we demonstrate that it can inadvertently lead to a 'privacy collapse,' where the model's ability to maintain contextual privacy—the principle that information should only be disclosed in appropriate contexts—is severely compromised. We show that even fine-tuning on seemingly innocuous, non-sensitive data can cause the model to leak private information that was present in its pre-training data but was previously protected by the model's contextual awareness. We analyze this phenomenon through the lens of representation learning and show that fine-tuning can distort the model's internal representations, making it easier to extract sensitive information. We propose a mitigation strategy based on differential privacy and demonstrate its effectiveness in preventing privacy collapse.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.15220",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7125459600",
+      "Scholar": "kmXOOdsAAAAJ:P5F9QuxV20EC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
