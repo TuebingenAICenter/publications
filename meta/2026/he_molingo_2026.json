@@ -1,0 +1,39 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Text-to-motion generation has made significant strides, yet current methods often struggle with fine-grained semantic alignment between text and motion, leading to motion that lacks precision or fails to capture the nuances of the input description. We introduce MoLingo, a novel framework designed to enhance motion-language alignment by leveraging a motion-language model that learns a joint embedding space. By utilizing a contrastive learning objective, MoLingo aligns motion sequences with their corresponding textual descriptions, enabling more accurate and expressive motion synthesis. Our approach demonstrates superior performance on standard benchmarks, achieving state-of-the-art results in both motion quality and text-motion alignment.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.13840",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2512.13840"
+      }
+    ],
+    "conferenceName": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4417464900",
+      "Scholar": "OpXMNnMAAAAJ:Ug5p-4gJ2f0C"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.13840'>https://arxiv.org/abs/2512.13840</a><br><a href='https://hynann.github.io/molingo/MoLingo.html'>https://hynann.github.io/molingo/MoLingo.html</a><br><a href='https://dblp.org/rec/journals/corr/abs-2512-13840'>https://dblp.org/rec/journals/corr/abs-2512-13840</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
