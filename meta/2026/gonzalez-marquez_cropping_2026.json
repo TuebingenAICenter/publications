@@ -1,0 +1,34 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised learning of text embeddings typically relies on data augmentation to create positive pairs of text spans. Dropout is the standard augmentation method, but it is often criticized for being too weak. In this paper, we show that cropping—a simple augmentation that consists of taking random contiguous spans of text—consistently outperforms dropout across a wide range of settings. We demonstrate this on several datasets and architectures, including BERT and RoBERTa. We also show that cropping is more robust to the choice of hyperparameters and that it leads to better transfer performance on downstream tasks. Our results suggest that cropping should be the default augmentation strategy for self-supervised training of text embeddings.",
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=gVRsIh9x7W",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/abs/2508.03453"
+      }
+    ],
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "lPQLk3QAAAAJ:BwyfMAYsbu0C"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.03453'>https://arxiv.org/abs/2508.03453</a><br><a href='https://www.aimodels.fyi/papers/arxiv/cropping-outperforms-dropout-as-augmentation-strategy-training'>https://www.aimodels.fyi/papers/arxiv/cropping-outperforms-dropout-as-augmentation-strategy-training</a><br><a href='https://chatpaper.com/es/chatpaper/paper/173591'>https://chatpaper.com/es/chatpaper/paper/173591</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
