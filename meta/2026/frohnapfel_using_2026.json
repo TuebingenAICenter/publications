@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The EU AI Act introduces strict requirements for high-risk AI systems, including the assessment of their performance. However, the Act remains vague on how to measure this performance at the individual level. In this paper, we argue that predictive multiplicity—the phenomenon that many different models can achieve similar aggregate performance while making different predictions for individual instances—poses a significant challenge to these requirements. We show that this multiplicity allows for the selection of models that are favorable to specific stakeholders, potentially undermining the fairness and reliability of AI systems. We propose a framework to measure individual performance that accounts for predictive multiplicity and discuss its implications for the implementation of the AI Act.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.11944",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7128864990",
+      "Scholar": "mMifMdoAAAAJ:1lhNe0rCu4AC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
