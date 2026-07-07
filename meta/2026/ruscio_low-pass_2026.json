@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Flow Matching typically relies on white noise sources, a choice often misaligned with the power spectra of natural data, which tend to decay with frequency. To address this, we introduce Low-Pass Flow Matching, a variant of Flow Matching based on an operator-modulated interpolant. This formulation induces a timevarying spectral bias that transitions from the source spectrum to a frequencydecaying bias as the path approaches the data. We validate our method on unconditional image generation tasks, including the scientific Galaxy10 dataset. Empirically, we show that our method is particularly effective when paired with adaptive ODE solvers, where it improves or preserves sample quality while substantially reducing sampling cost compared to standard baselines.",
+    "extra": {
+      "Scholar": "9LajlSsAAAAJ:hMsQuOkrut0C"
+    },
+    "itemType": "journalArticle"
+  }
+}
