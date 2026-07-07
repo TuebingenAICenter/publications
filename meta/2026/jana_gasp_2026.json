@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have demonstrated remarkable capabilities in code generation, yet they often struggle with complex, multi-step programming tasks. Existing approaches to improve coding performance typically rely on supervised fine-tuning on high-quality datasets or reinforcement learning from human feedback (RLHF), both of which are limited by the availability of expert-written code. In this work, we introduce Guided Asymmetric Self-Play (GASP), a framework that enables LLMs to improve their coding abilities through autonomous interaction. GASP employs two agents: a generator that attempts to solve coding problems and a critic that evaluates the solutions and provides feedback. By framing the interaction as an asymmetric game, we allow the agents to co-evolve, with the critic learning to identify subtle bugs and the generator learning to produce more robust code. We demonstrate that GASP significantly outperforms existing baselines on competitive programming benchmarks, achieving state-of-the-art results without requiring additional human-annotated data.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2603.15957",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7139146298",
+      "Scholar": "xkuLyHoAAAAJ:CHSYGLWDkRkC"
+    },
+    "itemType": "journalArticle"
+  }
+}
