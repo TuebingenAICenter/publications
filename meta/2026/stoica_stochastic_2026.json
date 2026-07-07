@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Gig platforms often use algorithmic pricing to determine worker pay. We study a phenomenon we call stochastic wage suppression, where platforms use the stochasticity of worker supply to suppress wages below the competitive equilibrium. We show that this is a robust feature of platforms that use dynamic pricing to match supply and demand. We then analyze how workers can organize to counteract this suppression. We show that collective action, even by a small fraction of workers, can significantly increase wages and improve worker welfare. We provide a theoretical framework for understanding these dynamics and validate our findings with empirical data from a major gig platform.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7154938666",
+      "Scholar": "UqtDdZUAAAAJ:J_g5lzvAfSwC"
+    },
+    "itemType": "journalArticle"
+  }
+}
