@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Warmup-Stable-Decay (WSD) has recently emerged as a powerful learning rate schedule for training large language models, enabling efficient continued pre-training and adaptation. Despite its empirical success, the theoretical underpinnings of WSD remain poorly understood. In this work, we provide a comprehensive analysis of WSD, showing that its dynamics are universal and extend well beyond the Transformer architecture. We derive a closed-form solution for the training dynamics of WSD in the context of linear models and show that it effectively acts as a form of implicit regularization. We further validate our findings on a wide range of architectures, including MLPs and CNNs, demonstrating that WSD consistently outperforms standard decay schedules. Our results provide a theoretical justification for the use of WSD and offer practical insights for its application in diverse deep learning tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2601.09000",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "Scholar": "xkuLyHoAAAAJ:70eg2SAEIzsC",
+      "Venue": "NeurIPS HiLD 2025"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
