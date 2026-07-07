@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Contrastive Language-Image Pre-training (CLIP) models have demonstrated remarkable zero-shot performance on various downstream tasks. However, the extent to which these models rely on compositional reasoning versus simple feature matching remains a subject of debate. In this work, we investigate the internal representations of CLIP by analyzing its sensitivity to word order. We find that CLIP behaves like a bag-of-words model in its cross-modal alignment, where the order of words in a prompt has minimal impact on the image-text similarity score. Conversely, we show that the uni-modal text encoder of CLIP retains significant sensitivity to word order, suggesting that the bag-of-words behavior is an emergent property of the cross-modal contrastive objective rather than a limitation of the text encoder itself. We provide extensive empirical evidence across multiple datasets and model architectures to support our findings.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.03566",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:13:13",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2502.03566v2"
+      }
+    ],
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "17",
+      "Scholar": "kmXOOdsAAAAJ:fPk4N6BV_jEC"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=DldwXCCP25'>https://openreview.net/forum?id=DldwXCCP25</a><br><a href='https://arxiv.org/abs/2502.03566'>https://arxiv.org/abs/2502.03566</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Fourteenth International Conference on Learning Representations"
+  }
+}
