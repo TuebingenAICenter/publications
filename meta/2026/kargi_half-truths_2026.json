@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Similarity-based retrieval systems, such as those powered by CLIP, are increasingly used to search through large-scale image and text databases. These systems rely on the assumption that the similarity score between a query and a retrieved item is a reliable indicator of relevance. In this paper, we show that this assumption is often violated by 'half-truths'—retrieved items that are partially relevant but misleading. We demonstrate that these half-truths can significantly degrade the performance of similarity-based retrieval systems, and we propose a simple yet effective method to mitigate this issue.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.23906",
+    "extra": {
+      "Code": "https://github.com/kargibora/CS-CLIP",
+      "Scholar": "kmXOOdsAAAAJ:OU6Ihb5iCvQC"
+    },
+    "itemType": "journalArticle"
+  }
+}
