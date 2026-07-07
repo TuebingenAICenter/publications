@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modern deep learning models often rely on global representations, which can hinder their ability to perform fine-grained tasks or provide interpretability. In this work, we introduce MaskInversion, a novel approach to extract localized embeddings from pre-trained models by optimizing explainability maps. Instead of relying on standard feature maps, we invert the explainability process to identify the specific input regions that contribute most to a given representation. By optimizing a mask that highlights these regions, we can extract embeddings that are spatially grounded and semantically meaningful. We demonstrate the effectiveness of MaskInversion across various tasks, including object localization, part segmentation, and fine-grained classification, showing that our method consistently outperforms existing techniques in capturing localized information without requiring additional training or fine-tuning.",
+    "archive": "arXiv",
+    "archiveLocation": "2407.20034",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Conference": "ICLR 2026",
+      "Scholar": "pxhCcH0AAAAJ:XiSMed-E-HIC"
+    },
+    "itemType": "journalArticle"
+  }
+}
