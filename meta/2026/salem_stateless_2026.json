@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are typically deployed as stateless services, where each request is processed independently without retaining information from previous interactions. This design is often assumed to provide privacy and security benefits, as the model does not 'remember' past user inputs. In this paper, we challenge this assumption by demonstrating that LLMs can exhibit implicit memory, allowing them to act as a hidden channel that persists information across independent requests. We introduce a novel attack vector where an adversary can encode information into the model's internal state through a series of seemingly benign prompts. This information can then be retrieved by the same or a different user, effectively bypassing the stateless nature of the service. We evaluate our attack on several state-of-the-art LLMs and show that it is highly effective, stealthy, and difficult to detect. Our findings highlight a significant security vulnerability in the deployment of LLMs and call for new defenses to mitigate the risks posed by implicit memory.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.08563",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7128556314",
+      "Scholar": "QEiYbDYAAAAJ:BPS1z4jHU5cC"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
