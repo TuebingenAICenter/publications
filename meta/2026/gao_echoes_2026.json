@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+    "extra": {
+      "Project": "https://decart-4d.github.io/",
+      "Source": "group_webpage (schoelkopf)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the ACM on Computer Graphics and Interactive Techniques: PACM-CGIT"
+  }
+}
