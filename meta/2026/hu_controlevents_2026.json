@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "WACV",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W7160336533",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "OpXMNnMAAAAJ:SpbeaW3--B0C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.22864'>https://arxiv.org/abs/2509.22864</a><br><a href='https://yuxuan-xue.com/controlevents/'>https://yuxuan-xue.com/controlevents/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
