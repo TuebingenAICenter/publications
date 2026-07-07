@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We present Human3R, a novel approach for reconstructing high-fidelity 3D humans from sparse, unconstrained, and potentially monocular video inputs. Unlike existing methods that often struggle with occlusions, complex motions, or limited viewpoints, Human3R leverages a robust generative prior to synthesize consistent 3D human representations across diverse scenes. By integrating a temporal-aware optimization framework, our method achieves state-of-the-art performance in both geometry reconstruction and appearance synthesis, enabling the creation of photorealistic digital humans from minimal data.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.06219",
+    "conferenceName": "The Fourteenth International Conference on Learning Representations",
+    "extra": {
+      "Citations@2026-06-01": "24",
+      "Reporter": "arXiv preprint arXiv:2510.06219, 2025",
+      "Scholar": "OpXMNnMAAAAJ:PoWvk5oyLR8C"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=y7duXr0JXF'>https://openreview.net/forum?id=y7duXr0JXF</a><br><a href='https://iclr.cc/virtual/current/papers.html'>https://iclr.cc/virtual/current/papers.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "The Fourteenth International Conference on Learning Representations"
+  }
+}
