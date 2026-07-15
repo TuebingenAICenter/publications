@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Hands play a central role in daily life, yet modeling natural hand motions remains underexplored. Existing methods that tackle text-to-hand-motion generation or hand animation captioning rely on studio-captured datasets with limited actions and contexts, making them costly to scale to \"in-the-wild\" settings. Further, contemporary models and their training schemes struggle to capture animation fidelity with text-motion alignment. To address this, we (1) introduce '3D Hands in the Wild' (3D-HIW), a dataset of 32K 3D hand-motion sequences and aligned text, and (2) propose CLUTCH, an LLM-based hand animation system with two critical innovations: (a) SHIFT, a novel VQ-VAE architecture to tokenize hand motion, and (b) a geometric refinement stage to finetune the LLM. To build 3D-HIW, we propose a data annotation pipeline that combines vision-language models (VLMs) and state-of-the-art 3D hand trackers, and apply it to a large corpus of egocentric action videos covering a wide range of scenarios. To fully capture motion in-the-wild, CLUTCH employs SHIFT, a part-modality decomposed VQ-VAE, which improves generalization and reconstruction fidelity. Finally, to improve animation quality, we introduce a geometric refinement stage, where CLUTCH is co-supervised with a reconstruction loss applied directly to decoded hand motion parameters. Experiments demonstrate state-of-the-art performance on text-to-motion and motion-to-text tasks, establishing the first benchmark for scalable in-the-wild hand motion modelling. Code, data and models will be released.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.17770",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7131191408",
+      "Scholar": "OpXMNnMAAAAJ:HIFyuExEbWQC",
+      "Venue": "arXiv preprint arXiv:2602.17770, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
