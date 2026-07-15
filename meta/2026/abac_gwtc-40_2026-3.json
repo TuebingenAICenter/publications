@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates <= 10^-3 yr^-1 from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2-5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to m_g <= 1.92x10^-23 eV/c^2. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2603.19020",
+    "extra": {
+      "Archive ID": "2603.19020",
+      "Citations@2026-07-13": "5",
+      "Scholar": "VRBv6mEAAAAJ:zA6iFVUQeVQC",
+      "Venue": "arXiv preprint arXiv:2603.19020, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
