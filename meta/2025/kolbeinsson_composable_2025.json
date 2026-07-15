@@ -5,10 +5,18 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Test-time interventions for language models can enhance factual accuracy, mitigate harmful outputs, and improve model efficiency without costly retraining. But despite a flood of new methods, different types of interventions are largely developing independently. In practice, multiple interventions must be applied sequentially to the same model, yet we lack standardized ways to study how interventions interact. We fill this gap by introducing composable interventions, a framework to study the effects of using multiple interventions on the same language models, featuring new metrics and a unified codebase. Using our framework, we conduct extensive experiments and compose popular methods from three emerging intervention categories -- Knowledge Editing, Model Compression, and Machine Unlearning. Our results from 310 different compositions uncover meaningful interactions: compression hinders editing and unlearning, composing interventions hinges on their order of application, and popular general-purpose metrics are inadequate for assessing composability. Taken together, our findings showcase clear gaps in composability, suggesting a need for new multi-objective interventions.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.06483",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "12",
-      "Scholar": "73IbXtsAAAAJ:f2IySw72cVMC"
+      "Citations@2026-07-13": "12",
+      "Full author list": "Arinbjörn Kolbeinsson, Kyle O'Brien, Tianjin Huang, Shanghua Gao, Shiwei Liu, Jonathan Richard Schwarz, Anurag Vaidya, Faisal Mahmood, Marinka Zitnik, Tianlong Chen, Thomas Hartvigsen",
+      "Scholar": "73IbXtsAAAAJ:f2IySw72cVMC",
+      "Venue": "ICLR 2025; arXiv preprint arXiv:2407.06483, 2025"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
