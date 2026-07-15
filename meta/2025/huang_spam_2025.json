@@ -5,13 +5,17 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Large Language Model (LLM) training is frequently interrupted by loss spikes, which can lead to training instability or even divergence. Existing solutions often rely on gradient clipping or learning rate warm-up, which may not be sufficient to mitigate severe spikes. In this paper, we propose Spike-Aware Adam with Momentum (SPAM), a novel optimizer that detects loss spikes and resets the momentum buffer to stabilize training. SPAM identifies spikes by monitoring the loss trajectory and resets the momentum when a spike is detected, effectively preventing the optimizer from overshooting. We demonstrate that SPAM significantly improves the stability of LLM training across various architectures and scales, outperforming standard Adam and other stabilization techniques. Our code is available at https://github.com/TianjinYellow/SPAM-Optimizer.",
+    "abstractNote": "Large Language Models (LLMs) have demonstrated exceptional performance across diverse tasks, yet their training remains highly resource-intensive and susceptible to critical challenges such as training instability. A predominant source of this instability stems from gradient and loss spikes, which disrupt the learning process, often leading to costly interventions like checkpoint recovery and experiment restarts, further amplifying inefficiencies. This paper presents a comprehensive investigation into gradient spikes observed during LLM training, revealing their prevalence across multiple architectures and datasets. Our analysis shows that these spikes can be up to 1000x larger than typical gradients, substantially deteriorating model performance. To address this issue, we propose Spike-Aware Adam with Momentum Reset SPAM, a novel optimizer designed to counteract gradient spikes through momentum reset and spike-aware gradient clipping. Extensive experiments, including both pre-training and fine-tuning, demonstrate that SPAM consistently surpasses Adam and its variants across various tasks, including (1) LLM pre-training from 60M to 1B, (2) 4-bit LLM pre-training,(3) reinforcement learning, and (4) Time Series Forecasting. Additionally, SPAM facilitates memory-efficient training by enabling sparse momentum, where only a subset of momentum terms are maintained and updated. When operating under memory constraints, SPAM outperforms state-of-the-art memory-efficient optimizers such as GaLore and Adam-Mini. Our work underscores the importance of mitigating gradient spikes in LLM training and introduces an effective optimization strategy that enhances both training stability and resource efficiency at scale.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2501.06842",
+    "archiveLocation": "2501.06842",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "31",
-      "Scholar": "73IbXtsAAAAJ:tOudhMTPpwUC"
+      "Citations@2026-07-13": "38",
+      "Scholar": "73IbXtsAAAAJ:tOudhMTPpwUC",
+      "Venue": "ICLR 2025; arXiv preprint arXiv:2501.06842, 2025"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
