@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Expert writing feedback from experienced researchers is critical for early-career scholars to improve their manuscripts, yet high-quality feedback often remains scarce because reviewing research papers is labor-intensive. Emerging AI-powered writing assistants largely focus on grammar fixes or simulating peer review with final scores, yet they fall short of providing concrete, actionable suggestions that help students improve their papers during drafting. We present PaperMentor, a human-centered writing assistant system that delivers actionable suggestions as Overleaf-native inline comments while leaving the actual writing entirely to human authors. PaperMentor integrates an expert skill library carefully curated from established researchers’ writing advice with 12 specialized agents covering different aspects of paper writing, such as formatting compliance, phrasing accuracy, and terminology consistency. In a user study (n=14), 90.6% of the generated comments were rated actionable and 67.5% were rated valid, significantly outperforming a GPT-5.2 baseline without the skill library. We release PaperMentor as open source for public use.",
+    "archive": "ACL Anthology",
+    "archiveLocation": "2026.acl-demo.39",
+    "conferenceName": "Annual Meeting of the Association for Computational Linguistics",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "Scholar": "DZ-fHPgAAAAJ:0_dNHEfHC9YC",
+      "Venue": "Proceedings of the 64th Annual Meeting of the Association for Computational …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "proceedingsTitle": "Proceedings of the Annual Meeting of the Association for Computational Linguistics"
+  }
+}
