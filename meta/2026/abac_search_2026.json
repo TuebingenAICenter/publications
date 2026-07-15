@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a search for gravitational waves from inspiraling, planetary-mass ultra-compact binaries using data from the first part of the fourth observing run of LIGO, Virgo and KAGRA. Finding no evidence of such systems, we determine the maximum distance reach for such objects and their merger rate densities. Then, we identify classes of primordial black-hole mass distributions for which these rate limits can be translated into relevant constraints on the mass distribution of primordial black holes, assuming that they compose all of dark matter, in the mass range [10−6,10−3]M⊙. Our constraints for the class of primordial-black-hole mass distribution functions f(m) we consider reach down to f(m)∼0.1. They are consistent with existing microlensing results in the planetary-mass range, provide a complementary probe to sub-solar mass objects, and are publicly available.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.19911",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Scholar": "VRBv6mEAAAAJ:vV6vV6tmYwMC",
+      "Venue": "arXiv preprint arXiv:2511.19911, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}
