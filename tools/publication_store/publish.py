@@ -87,6 +87,12 @@ class StorePublisher(Protocol):
         no-op while a changed one becomes an update PR.
         """
 
+    def blob_url(self, citekey: str) -> str | None:
+        """A GitHub blob URL for an in-store citekey's ``.bib``, else ``None``.
+
+        Lets the PR body render Possible-Duplicates candidates as clickable links to
+        the existing store entry."""
+
     def branch_exists(self, branch: str) -> bool:
         """Whether ``refs/heads/<branch>`` already exists on the remote."""
 
@@ -168,6 +174,13 @@ class GitHubStorePublisher:
         bib = self._repo.get_contents(bib_path, ref=self._base).decoded_content.decode("utf-8")
         meta = self._repo.get_contents(meta_path, ref=self._base).decoded_content.decode("utf-8")
         return (bib, meta)
+
+    def blob_url(self, citekey: str) -> str | None:
+        paths = self._entry_index().get(citekey)
+        if paths is None:
+            return None
+        bib_path, _ = paths
+        return f"{self._repo.html_url}/blob/{self._base}/{bib_path}"
 
     def branch_exists(self, branch: str) -> bool:
         from github import GithubException
@@ -338,16 +351,23 @@ def _diff_block(summary: str, old: str, new: str, *, open: bool = False) -> str:
     return _details(summary, f"```diff\n{diff or '(no change)'}\n```", open=open)
 
 
-def _duplicates_block(duplicates: list[tuple[str, float | None]]) -> str:
+def _duplicates_block(
+    duplicates: list[tuple[str, float | None]],
+    links: dict[str, str] | None = None,
+) -> str:
     """A prominent blockquote listing the scan's possible-duplicate candidates.
 
     Each line is the candidate's citekey and, when the scan supplied one, its similarity
-    score (0–1, two decimals). Best-first, as the scan emitted them.
+    score (0–1, two decimals). Best-first, as the scan emitted them. A citekey present in
+    ``links`` renders as a Markdown link to its store ``.bib``; otherwise as plain code.
     """
+    links = links or {}
     lines = ["> ⚠️ **Possible duplicates already in the store** — check before merging:"]
     for citekey, score in duplicates:
         suffix = f" — score {score:.2f}" if score is not None else ""
-        lines.append(f"> - `{citekey}`{suffix}")
+        url = links.get(citekey)
+        label = f"[`{citekey}`]({url})" if url else f"`{citekey}`"
+        lines.append(f"> - {label}{suffix}")
     return "\n".join(lines)
 
 
@@ -385,12 +405,14 @@ def build_pr_body(
     old_pair: tuple[str, str] | None = None,
     replaces: str | None = None,
     duplicates: list[tuple[str, float | None]] | None = None,
+    dup_links: dict[str, str] | None = None,
 ) -> str:
     """The reviewer-facing PR body: a self-contained view of what the PR does.
 
     Carries an inline header (title, authors, type, groups, citekey — all from the
     canonical bib + ``custom.groups``, so a multi-group item surfaces all its PIs), a
-    per-action review checklist, and the BibTeX in a collapsible block. ``action`` is
+    per-action review checklist, and the BibTeX in a plain (non-collapsible) code block.
+    ``action`` is
     ``"New"`` / ``"Update"`` / ``"Rename"``:
 
     * **Update** — ``old_pair`` is the stored ``(bib, meta)``; a collapsible BibTeX diff
@@ -432,7 +454,7 @@ def build_pr_body(
     ]
 
     if duplicates:
-        lines += ["", _duplicates_block(duplicates)]
+        lines += ["", _duplicates_block(duplicates, dup_links)]
 
     if action == "Update" and old_pair is not None:
         old_bib, old_meta = old_pair
@@ -453,7 +475,7 @@ def build_pr_body(
     ]
 
     bib_label = "Full BibTeX (after)" if action == "Update" else "BibTeX"
-    lines += ["", _details(bib_label, f"```bibtex\n{pair.bib_text.rstrip()}\n```")]
+    lines += ["", f"#### {bib_label}", f"```bibtex\n{pair.bib_text.rstrip()}\n```"]
     return "\n".join(lines) + "\n"
 
 
@@ -650,6 +672,9 @@ def publish_entries(
             pair = emit.emit_pair(store_entry)
             old = pub_item.replaces
             dups = pub_item.duplicates
+            # Clickable links for the duplicate candidates that resolve to a store entry
+            # (unknown citekeys render as plain code in the body).
+            dup_links = {ck: url for ck, _ in dups if (url := publisher.blob_url(ck))}
 
             # Rename takes precedence: an explicit Replaces marker whose target is in the
             # store supersedes it, even when the new citekey itself is brand new.
@@ -672,7 +697,8 @@ def publish_entries(
                         old_citekey=old,
                         title=build_pr_title(pair.bib_text, citekey, action="Update"),
                         body=build_pr_body(
-                            store_entry, pair, action="Rename", replaces=old, duplicates=dups
+                            store_entry, pair, action="Rename", replaces=old,
+                            duplicates=dups, dup_links=dup_links,
                         ),
                         commit_message=f"feat: rename {old} -> {citekey}",
                         labels=_labels_for(
@@ -704,7 +730,8 @@ def publish_entries(
                 pair,
                 title=build_pr_title(pair.bib_text, citekey, action=action),
                 body=build_pr_body(
-                    store_entry, pair, action=action, old_pair=old_pair, duplicates=dups
+                    store_entry, pair, action=action, old_pair=old_pair,
+                    duplicates=dups, dup_links=dup_links,
                 ),
                 commit_message=f"feat: {verb} {citekey}",
                 labels=_labels_for(
