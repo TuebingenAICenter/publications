@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Conditional average treatment effect (CATE) estimation is the de facto gold standard for targeting a treatment to a heterogeneous population. The method estimates treatment effects up to an error ε > 0 in each of M different strata of the population, targeting individuals in decreasing order of estimated treatment effect until the budget runs out. In general, this method requires O(M/ε²) samples. This is best possible if the goal is to estimate all treatment effects up to an ε error. In this work, we show how to achieve the same total treatment effect as CATE with only O(M/ε) samples for natural distributions of treatment effects. The key insight is that coarse estimates suffice for near-optimal treatment allocations. In addition, we show that budget flexibility can further reduce the sample complexity of allocation. Finally, we evaluate our algorithm on various real-world RCT datasets. In all cases, it finds nearly optimal treatment allocations with surprisingly few samples. Our work highlights the fundamental distinction between treatment effect estimation and treatment allocation: the latter requires far fewer samples.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.05597",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7123371296",
+      "Scholar": "adnTgaAAAAAJ:RfUwGJFMQ-0C",
+      "Venue": "arXiv preprint arXiv:2601.05597, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
