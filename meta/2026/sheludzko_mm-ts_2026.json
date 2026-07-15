@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contrastive learning has become a fundamental approach in both uni-modal and multi-modal frameworks. This learning paradigm pulls positive pairs of samples closer while pushing negatives apart. In the uni-modal setting (e.g., image-based learning), previous research has shown that the strength of these forces can be controlled through the temperature parameter. In this work, we propose Multi-Modal Temperature and Margin Schedules (MM-TS), extending the concept of uni-modal temperature scheduling to multi-modal contrastive learning. Our method dynamically adjusts the temperature in the contrastive loss during training, modulating the attraction and repulsion forces in the multi-modal setting. Additionally, recognizing that standard multi-modal datasets often follow imbalanced, long-tail distributions, we adapt the temperature based on the local distribution of each training sample. Specifically, samples from dense clusters are assigned a higher temperature to better preserve their semantic structure. Furthermore, we demonstrate that temperature scheduling can be effectively integrated within a max-margin framework, thereby unifying the two predominant approaches in multi-modal contrastive learning: InfoNCE loss and max-margin objective. We evaluate our approach on four widely used image- and video-language datasets, Flickr30K, MSCOCO, EPIC-KITCHENS-100, and YouCook2, and show that our dynamic temperature and margin schedules improve performance and lead to new state-of-the-art results in the field.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.08202",
+    "conferenceName": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "extra": {
+      "Scholar": "pxhCcH0AAAAJ:_B80troHkn4C",
+      "Venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}
