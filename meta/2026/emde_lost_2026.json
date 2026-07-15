@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:PELIpwtuRlgC",
+      "Venue": "International Conference on Machine Learning (ICML)",
+      "Workshop": "Statistical Frameworks for Uncertainty in Agentic Systems"
+    },
+    "itemType": "conferencePaper"
+  }
+}
