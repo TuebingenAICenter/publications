@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "While many algorithms for diversity maximization under imitation constraints are online in nature, many applications require offline algorithms without environment interactions. Tackling this problem in the offline setting, however, presents significant challenges that require non-trivial, multi-stage optimization processes with non-stationary rewards. In this work, we present a novel offline algorithm that enhances diversity using an objective based on Van der Waals (VdW) force and successor features, and eliminates the need to learn a previously used skill discriminator. Moreover, by conditioning the value function and policy on a pre-trained Functional Reward Encoding (FRE), our method allows for better handling of non-stationary rewards and provides zero-shot recall of all skills encountered during training, significantly expanding the set of skills learned in prior work. Consequently, our algorithm benefits from receiving a consistently strong diversity signal (VdW), and enjoys more stable and efficient training. We demonstrate the effectiveness of our method in generating diverse skills for two robotic tasks in simulation: locomotion of a quadruped and local navigation with obstacle traversal.",
+    "archive": "arXiv",
+    "archiveLocation": "2501.04426",
+    "conferenceName": "European Workshop on Reinforcement Learning (EWRL)",
+    "extra": {
+      "Archive ID": "10.5281/zenodo.13899776",
+      "Citations@2026-06-01": "5",
+      "Citations@2026-07-13": "3",
+      "OpenAlex": "W4406231444",
+      "Scholar": "b-JF-UIAAAAJ:oNZyr7d5Mn4C",
+      "Venue": "arXiv preprint arXiv:2501.04426, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Workshop on Reinforcement Learning (EWRL)"
+  }
+}
