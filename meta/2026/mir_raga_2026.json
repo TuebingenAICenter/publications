@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We study the problem of physically plausible shadow casting when animating 3D Gaussian Splatting (3DGS) avatars, either individually or in multi-avatar and object-interaction scenarios, within existing 3DGS scenes. In contrast to prior methods that rely on binary hit tests and mesh-based shadow casters, our method performs shadow computation entirely in Gaussian space, without requiring any mesh reconstruction. We introduce RAGA, a Ray-Traced Gaussian Shadow Casting formulation based on exact ray–Gaussian line integrals. For each occluding Gaussian, we integrate the opacity profile along the shadow ray and normalize by the theoretical maximum integral, producing a weight that captures how the ray traverses the occluder rather than merely whether an intersection occurred. To reduce temporal variance from clothing deformations in animated avatars, we further introduce an avatar proxy representation that stabilizes shadow casting while preserving visual fidelity. We implement RAGA using custom CUDA kernels integrated with the NVIDIA OptiX framework; as such, our shadow tracer runs at rates of about 50 FPS. We evaluate on single-avatar, multi-avatar, and avatar–object interaction scenarios across multiple datasets, demonstrating substantially improved shadow realism, temporal stability, and scene coherence.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.29329",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Scholar": "OpXMNnMAAAAJ:yMeIxYmEMEAC",
+      "Venue": "arXiv preprint arXiv:2606.29329, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}
