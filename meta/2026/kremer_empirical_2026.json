@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Some of the central problems in robust and causal machine learning, including learning under covariate shifts and instrumental variable regression, can be expressed as conditional moment restrictions (CMR). By restricting the conditional expectation of a signed error metric, models identified via CMR exhibit robustness against shifts in the distribution of the conditioning variable. In practice, this generally results in an ill-posed problem, as it requires the solution of an over-identified infinite-dimensional system of equations. For the unconditional case, empirical likelihood estimators have emerged as general and powerful tools to address over-identified moment restriction problems. These methods learn a model along with an approximation of the population distribution by means of minimizing a φ-divergence constrained by the moment restrictions. The main goal of this work is to advance the state-of-the art in CMR estimation by extending and refining the idea of empirical likelihood estimation in several directions. First, we generalize the classical framework to conditional moment restrictions using a functional formulation, that leverages modern machine learning models. Then, we extend the principle to alternative distributional distance notions based on kernel methods and optimal transport. The resulting estimators exhibit superior small sample properties and robustness against data corruptions at training time and adversarial attacks at test time, respectively. Finally, drawing inspiration from the close relation between empirical likelihood estimation and distributionally robust optimization (DRO), we provide an application of kernel-based DRO on chance-constrained programming.",
+    "archive": "TOBIAS-lib",
+    "archiveLocation": "http://hdl.handle.net/10900/180527",
+    "extra": {
+      "Source": "group_webpage (schoelkopf)",
+      "URN": "urn:nbn:de:bsz:21-dspace-1805275"
+    },
+    "itemType": "thesis",
+    "libraryCatalog": "TOBIAS-lib"
+  }
+}
