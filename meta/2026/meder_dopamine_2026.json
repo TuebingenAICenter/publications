@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Exploration is essential for learning and decision-making, yet its computational mechanisms and neurobiological underpinnings remain debated. A prominent distinction is between directed exploration (driven by uncertainty) and random exploration (driven by noise). Here, we investigate the role of dopamine in these two forms of exploration by testing patients with Parkinson’s disease (PD) on and off dopaminergic medication, alongside healthy controls. Using a computational model of exploration, we find that dopamine depletion in PD leads to a specific increase in directed exploration, while random exploration remains unaffected. These results suggest that dopamine plays a selective role in modulating uncertainty-driven exploration, providing new insights into the neurobiology of decision-making and the cognitive symptoms of Parkinson’s disease.",
+    "archive": "PsyArXiv",
+    "archiveLocation": "y2buv_v1",
+    "extra": {
+      "Archive ID": "10.31234/osf.io/y2buv_v1",
+      "Citations@2026-06-01": "1",
+      "Citations@2026-07-13": "1",
+      "Code+data": "https://github.com/charleywu/gridsearch_parkinsons",
+      "OpenAlex": "W4416114448",
+      "Preprint": "https://osf.io/preprints/psyarxiv/y2buv_v1",
+      "Repository": "PsyArXiv",
+      "Scholar": "1O2hcVgAAAAJ:WA5NYHcadZ8C",
+      "Venue": "PsyArXiv, 2025"
+    },
+    "itemType": "preprint",
+    "notes": [
+      {
+        "note": "<p><a href='https://bmeder.org/publication/2025-11-11_meder_et_al_dopamine_depletion_pd_exploration/'>https://bmeder.org/publication/2025-11-11_meder_et_al_dopamine_depletion_pd_exploration/</a><br><a href='https://sciety.org/articles/activity/10.31234/osf.io/y2buv_v1'>https://sciety.org/articles/activity/10.31234/osf.io/y2buv_v1</a><br><a href='https://osf.io/y2buv_v1'>https://osf.io/y2buv_v1</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
