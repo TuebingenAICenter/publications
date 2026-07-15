@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion language models (DLMs) have recently emerged as competitive alternatives to autoregressive (AR) language models, yet differences in their activation dynamics remain poorly understood. We characterize these dynamics in LLaDA-8B and identify a striking layer-collapse property: a few early layers exhibit highly similar, collapsed activation patterns dominated by a single large super-outlier persisting over a long token range. Despite its apparent redundancy, this outlier is critical: pruning it causes outputs to degrade into repetitive random token loops. Paradoxically, layers in LLaDA contain more redundant representations overall, with redundancy most pronounced in earlier layers -- the reverse of AR models, where deeper layers grow redundant due to undertraining. Our analysis indicates that layer collapse in DLMs is not driven by undertraining but by overtraining: a dominant outlier becomes an indispensable information carrier while remaining representations collapse into redundant structure. These findings have strong practical implications, verified through controlled pre-training experiments. DLMs are surprisingly robust to compression: LLaDA under 3-bit GPTQ quantization drops only -1.8% on GSM8K, whereas Llama-3.1-8B drops -64.7%. Optimal sparsity allocation also reverses between families: at 50% average sparsity, allocating more to early layers in LLaDA yields +8.4% over the reverse strategy, while the same allocation costs Llama -8.4%. Our findings reveal that the DLM training objective fundamentally reshapes layer dynamics relative to AR models, with direct consequences for compression and deployment.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2605.06366",
+    "extra": {
+      "Archive ID": "2605.06366",
+      "Citations@2026-07-13": "1",
+      "Repository": "arXiv",
+      "Scholar": "73IbXtsAAAAJ:_Re3VWB3Y0AC",
+      "Venue": "arXiv preprint arXiv:2605.06366, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
