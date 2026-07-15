@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We investigate grokking in transformers through the lens of inductive bias: dispositions arising from architecture or optimization that let the network prefer one solution over another. We first show that architectural choices such as the position of Layer Normalization (LN) strongly modulates grokking speed. This modulation is explained by isolating how LN on specific pathways shapes shortcut-learning and attention entropy. Subsequently, we study how different optimization settings modulate grokking, inducing distinct interpretations of previously proposed controls such as readout scale. Particularly, we find that using readout scale as a control for lazy training can be confounded by learning rate and weight decay in our setting. Accordingly, we show that features evolve continuously throughout training, suggesting grokking in transformers can be more nuanced than a lazy-to-rich transition of the learning regime. Finally, we show how generalization predictably emerges with feature compressibility in grokking, across different modulators of inductive bias. Our code is released at this https URL.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.06702",
+    "callNumber": "arXiv:2602.06702",
+    "extra": {
+      "Archive ID": "2602.06702",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7128408861",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:bFI3QPDXJZMC",
+      "Venue": "arXiv preprint arXiv:2602.06702, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
