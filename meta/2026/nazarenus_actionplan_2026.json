@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present ActionPlan, a unified motion diffusion framework that bridges real-time streaming with high-quality offline generation within a single model. The core idea is to introduce a per-frame action plan: the model predicts frame-level text latents that act as dense semantic anchors throughout denoising, and uses them to denoise the full motion sequence with combined semantic and motion cues. To support this structured workflow, we design latent-specific diffusion steps, allowing each motion latent to be denoised independently and sampled in flexible orders at inference. As a result, ActionPlan can run in a history-conditioned, future-aware mode for real-time streaming, while also supporting high-quality offline generation. The same mechanism further enables zero-shot motion editing and in-betweening without additional models. Experiments demonstrate that our real-time streaming is 5.25× faster while also achieving 18% motion quality improvement over the best previous method in terms of FID.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "callNumber": "arXiv:2603.13500",
+    "extra": {
+      "Archive ID": "2603.13500",
+      "Citations@2026-07-13": "2",
+      "Repository": "arXiv",
+      "Scholar": "OpXMNnMAAAAJ:mNrWkgRL2YcC",
+      "Venue": "arXiv preprint arXiv:2603.13500, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
