@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Understanding how humans move their eyes to gather visual information is a central question in neuroscience, cognitive science, and vision research. While recent deep learning (DL) models achieve state-of-the-art performance in predicting human scanpaths, their underlying decision processes remain opaque. At an opposite end of the modeling spectrum, cognitively inspired mechanistic models aim to explain scanpath behavior through interpretable cognitive mechanisms but lag far behind in predictive accuracy. In this work, we bridge this gap by using a high-performing deep model—DeepGaze III—to discover and test mechanisms that improve a leading mechanistic model, SceneWalk. By identifying individual fixations where DeepGaze III succeeds and SceneWalk fails, we isolate behaviorally meaningful discrepancies and use them to motivate targeted extensions of the mechanistic framework. These include time-dependent temperature scaling, saccadic momentum and an adaptive cardinal attention bias: Simple, interpretable additions that substantially boost predictive performance. With these extensions, SceneWalk’s explained variance on the MIT1003 dataset doubles from 35% to 70%, setting a new state of the art in mechanistic scanpath prediction. Our findings show how performance-optimized neural networks can serve as tools for cognitive model discovery, offering a new path toward interpretable and high-performing models of visual behavior.",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Citations@2026-07-13": "3",
+      "Scholar": "0z0fNxUAAAAJ:kUhpeDhEZMUC",
+      "Venue": "Advances in Neural Information Processing Systems 38, 56646-56675, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}
