@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine Learning research, including work promoting fair or equitable algorithms, often relies on the concept of a data-generating probability distribution. The standard presumption is that since data points are 'sampled from' such a distribution, one can learn from observed data about this distribution and, thus, predict future data points which are also drawn from it. We argue, however, that such true probability distributions do not exist and that the rhetoric around them is harmful in social settings. We show that alternative frameworks focusing directly on relevant populations rather than abstract distributions are available and leave classical learning theory almost unchanged. Furthermore, we argue that the assumption of true probabilities or data-generating distributions can be misleading and obscure both the choices made and the goals pursued in machine learning practice. Based on these considerations, we suggest avoiding the assumption of data-generating probability distributions in the social world.",
+    "archive": "arXiv",
+    "archiveLocation": "2407.17395",
+    "conferenceName": "Conference on Fairness, Accountability, and Transparency (FACCT)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "OpenAlex": "W4402426682",
+      "Scholar": "G4MBruQAAAAJ:mSXQG6lSlFkC",
+      "Venue": "The 2026 ACM Conference on Fairness, Accountability, and Transparency, 5219-5236, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACM Digital Library",
+    "proceedingsTitle": "Conference on Fairness, Accountability, and Transparency (FACCT)"
+  }
+}
