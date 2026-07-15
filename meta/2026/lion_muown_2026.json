@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Muon has emerged as a strong competitor to AdamW for language model pre-training, yet its behavior at scale is sensitive to weight decay. Recent work has observed that, for Muon without decoupled weight decay, the spectral norm of weight matrices drifts upward over training. Through a decomposition of the spectral norm into a row-magnitude factor and a row-coherence factor, we identify the former as the empirical driver of this drift under Muon, while the latter remains well-behaved along the trajectory. Motivated by this diagnosis, we introduce Muown, a drop-in replacement for Muon that treats the row-magnitude vector as an explicit optimizer variable, updating it under the ℓ∞ geometry induced by the decomposition, while applying Muon unchanged to the remaining direction component. We prove that Muown attains the optimal non-convex rates in both deterministic and stochastic regimes under a dual norm aligned with the underlying geometries and with a stochastic noise coefficient that empirically remains below that of Muon throughout training. Across GPT-style pre-training on FineWeb-Edu with model sizes from 124M up to 2.7B parameters, Muown improves perplexity over Muon, SOAP, AdamW, and Lion. It also widens the plateau of near-optimal learning rates across model scales, reduces sensitivity to weight decay, and avoids the spectral norm drift at negligible step-time overhead when appropriately sharded.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2605.10797",
+    "callNumber": "arXiv:2605.10797",
+    "extra": {
+      "Archive ID": "2605.10797",
+      "Citations@2026-07-13": "2",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:P5F9QuxV20EC",
+      "Venue": "arXiv preprint arXiv:2605.10797, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
