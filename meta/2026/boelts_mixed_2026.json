@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural Posterior Estimation (NPE) enables rapid parameter inference for complex simulators with intractable likelihoods. NPE trains an inference network to estimate a probability density over parameters given data, typically assumed to be continuous. However, many scientific models involve parameter spaces that are mixed, that is, they contain both discrete and continuous dimensions. We address this limitation by extending NPE to mixed parameter spaces through an inference network that jointly handles discrete and continuous parameters. The inference network factorizes the joint posterior into discrete and continuous components, combining an autoregressive classifier for the discrete parameters with a generative model for the continuous parameters, trained jointly under a single simulation-based objective. In addition, we propose a diagnostic tool to assess the calibration of the mixed posterior approximation. Across tractable toy examples and real-world scientific simulators, our joint inference approach yields accurate and calibrated posteriors. The inference framework is available in the sbi Python package.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.13551",
+    "extra": {
+      "Archive ID": "arXiv:2605.13551",
+      "Scholar": "FKOqtF8AAAAJ:H8haQKU-3ZsC",
+      "Venue": "arXiv preprint arXiv:2605.13551, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
