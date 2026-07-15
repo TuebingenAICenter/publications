@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Curriculum learning (CL), motivated by the intuition that learning in increasing order of difficulty should ease generalization, is commonly adopted both in pre-training and post-training of large language models (LLMs). The intuition of CL is particularly compelling for compositional reasoning, where complex problems are built from elementary inference rules; however, the actual impact of CL on such tasks remains largely underexplored. We present a systematic empirical study of CL for post-training of LLMs, using synthetic arithmetic and logical benchmarks where difficulty is characterized by reasoning complexity rather than surface-level proxies. Surprisingly, across multiple model families and curriculum schedules, we find no robust advantage in difficulty-based sequencing over standard random sampling in either accuracy or response length. These findings persist across both supervised fine-tuning (SFT) and reinforcement learning (RL) methods. Our study suggests that, in the context of deductive reasoning, the specific ordering of training examples plays a negligible role in achieving compositional generalization, challenging the practical utility of curriculum-based post-training.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.27226",
+    "callNumber": "arXiv:2603.27226",
+    "extra": {
+      "Archive ID": "2603.27226",
+      "Scholar": "DZ-fHPgAAAAJ:VwjN40uvqCUC",
+      "Venue": "arXiv preprint arXiv:2603.27226, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
