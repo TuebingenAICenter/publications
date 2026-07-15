@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Existing approaches to 3D semantic urban scene generation predominantly rely on voxel-based representations, which are bound by fixed resolution, challenging to edit, and memory-intensive in their dense form. In contrast, we advocate for a primitive-based paradigm where urban scenes are represented using compact, semantically meaningful 3D elements that are easy to manipulate and compose. To this end, we introduce PrITTI, a latent diffusion model that leverages vectorized object primitives and rasterized ground surfaces for generating diverse, controllable, and editable 3D semantic urban scenes. This hybrid representation yields a structured latent space that facilitates object- and ground-level manipulation. Experiments on KITTI-360 show that primitive-based representations unlock the full capabilities of diffusion transformers, achieving state-of-the-art 3D scene generation quality with lower memory requirements, faster inference, and greater editability than voxel-based methods. Beyond generation, PrITTI supports a range of downstream applications, including scene editing, inpainting, outpainting, and photo-realistic street-view synthesis.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.19117",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4414682844",
+      "Scholar": "SrVnrPcAAAAJ:SrKkpNFED5gC",
+      "Venue": "arXiv e-prints, arXiv: 2506.19117, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.19117'>https://arxiv.org/abs/2506.19117</a><br><a href='https://raniatze.github.io/pritti/'>https://raniatze.github.io/pritti/</a><br><a href='https://huggingface.co/papers/2506.19117'>https://huggingface.co/papers/2506.19117</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
