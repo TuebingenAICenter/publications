@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Autonomous vehicles must operate safely in the real world, where errors can have severe consequences. Although modern end-to-end driving policies excel in routine scenarios, their reliability is limited by the scarcity of safety-critical \"long-tail\" events in real driving datasets. These rare interactions define the practical safety boundary of the learned policy, yet they are difficult to collect at scale in the real world. Here we show that this fundamental limitation can be addressed by post-training pre-trained driving models on synthesized high-stakes interactions. We introduce World Engine, a generative framework that reconstructs high-fidelity interactive environments from real-world logs and systematically extrapolates them into realistic safety-critical variations. This paradigm enables reinforcement-based post-training to align policies with safety constraints, circumventing the physical risks inherent in real-world exploration. On a public benchmark built on nuPlan, World Engine substantially reduces failures in rare safety-critical scenarios and yields significantly larger gains than scaling pre-training data alone. Furthermore, when deployed on a production-scale autonomous driving system, the resulting policy reduces simulated collisions and demonstrates measurable improvements in on-road testing, showing that post-training on synthesized, safety-critical interactions offers a scalable and effective pathway to safer autonomous driving.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2606.19836",
+    "extra": {
+      "Archive ID": "2606.19836",
+      "Citations@2026-07-13": "1",
+      "Repository": "https://github.com/OpenDriveLab/WorldEngine",
+      "Scholar": "SrVnrPcAAAAJ:qPeb-qHga9sC",
+      "Venue": "arXiv preprint arXiv:2606.19836, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
