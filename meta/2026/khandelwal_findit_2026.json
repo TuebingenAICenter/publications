@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multimodal large language models (MLLMs) are predominantly evaluated on free-form vision-language tasks such as visual question answering, captioning, and summarization. However, their practical use is rapidly expanding to more structured computer vision settings, where users prompt models to perform localization-centric tasks such as object detection, often within larger agentic or decision-making systems. Despite this shift, there is currently no standardized benchmark that systematically evaluates these capabilities at scale. In this work, we introduce the first comprehensive benchmark specifically designed to assess the promptable localization abilities of generalist MLLMs. Our benchmark spans four core task categories: object detection, referring expression detection, instance-level detection, and video-based detection. To enable consistent and fair evaluation, we develop a unified framework that standardizes inputs, enforces parsable bounding box outputs, and defines transparent evaluation protocols across tasks. Using this suite, we evaluate a diverse set of open-source and proprietary MLLMs, providing an in-depth analysis of their performance and limitations. Beyond accuracy, we examine models’ ability to adhere to output format specifications, showing that current systems are highly sensitive to formatting constraints and often fail to generalize even to minor variations. Our results highlight both the strengths and shortcomings of state-of-the-art MLLMs in localization settings, and point toward important directions for improving multimodal model design and evaluation.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.04282",
+    "extra": {
+      "Archive ID": "2606.04282",
+      "Scholar": "pxhCcH0AAAAJ:WqliGbK-hY8C",
+      "Venue": "arXiv preprint arXiv:2606.04282, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
