@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "It has been suggested that generative image models such as diffusion models can improve performance on clinically relevant tasks by offering deep learning models supplementary training data. However, most conditional diffusion models treat disease stages as independent classes, ignoring the continuous nature of disease progression. This mismatch is problematic in medical imaging because continuous pathological processes are typically only observed through coarse, discrete but ordered labels as in ophthalmology for diabetic retinopathy (DR). We propose an ordinal latent diffusion model for generating color fundus images that explicitly incorporates the ordered structure of DR severity into the generation process. Instead of categorical conditioning, we used a scalar disease representation, enabling a smooth transition between adjacent stages. We evaluated our approach using visual realism metrics and classification-based clinical consistency analysis on the EyePACS dataset. Compared to a standard conditional diffusion model, our model reduced the Fréchet inception distance for four of the five DR stages and increased the quadratic weighted κ from 0.79 to 0.87. Furthermore, interpolation experiments showed that the model captured a continuous spectrum of disease progression learned from ordered, coarse class labels.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.24013",
+    "extra": {
+      "Archive ID": "2602.24013",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7133267483",
+      "Repository": "arXiv",
+      "Scholar": "lPQLk3QAAAAJ:4MWp96NkSFoC",
+      "Venue": "arXiv preprint arXiv:2602.24013, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint"
+  }
+}
