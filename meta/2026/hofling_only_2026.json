@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neuroscientists and computer vision researchers use model-brain alignment benchmarks to compare artificial and biological vision systems. These benchmarks rank models according to alignment measures such as the similarity of representational geometry or the predictability of neural responses from model activations. However, recent works have identified a number of problems with these rankings, among them their lack of discriminative power and robustness, raising the conceptual question of what it means for a model to be brain-aligned. Here we introduce alignment patterns -- characteristic functional relationship profiles of each brain region to all others -- and propose that models should reproduce these patterns to qualify as brain-aligned. First, we apply a standard benchmarking pipeline to a broad spectrum of vision models of the BOLD Moments video fMRI dataset across visual regions of interest (ROIs). We find diverse models appear equivalent in their brain alignment, reflecting the lack of discriminative power of conventional alignment benchmarking pipelines. In contrast, alignment pattern analysis (APA) is a second-order structural consistency test: a model aligned to a given ROI should reproduce that ROI's characteristic cross-region alignment profile. Applying APA, we find that, while these patterns are highly stable across brains of different subjects, even top-ranked models often fail to capture them. Finally, we argue for a clearer distinction between the criteria a model must meet to serve as a tool versus as a computational model for human visual cortex. Conventional alignment measures may be sufficient for identifying neurally predictive models, but claims about computational or algorithmic similarity may require a stronger basis of evidence, including the reproducibility of relational alignment patterns.",
+    "archive": "arXiv",
+    "archiveLocation": "2604.21780",
+    "extra": {
+      "Archive ID": "2604.21780",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7155654137",
+      "Repository": "arXiv",
+      "Scholar": "0z0fNxUAAAAJ:vnF2_uLGgtgC",
+      "Venue": "arXiv preprint arXiv:2604.21780, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
