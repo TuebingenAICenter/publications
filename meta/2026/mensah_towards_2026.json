@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via self-supervised learning (SSL). However, many of these models rely on architectures that offer limited interpretability, a critical issue in high-stakes domains such as medical imaging. We propose Dual-IFM, a foundation model that is interpretable-by-design via a BagNet backbone whose small receptive fields generate class evidence maps that are faithful to the model's decision-making process. Additionally, Dual-IFM incorporates a 2D projection layer during pretraining that enables direct visualization of the representation space, providing a dataset-level view of the learned structure including meaningful clinical clusters as well as potential spurious correlations. We trained Dual-IFM on over 800,000 color fundus photographs from various sources to learn generalizable representations for different downstream tasks. Our model achieves performance comparable to RETFound, which has 16x more parameters, while providing interpretable predictions on out-of-distribution data. These results suggest that large-scale SSL pretraining paired with inherent interpretability can lead to robust representations for retinal imaging.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.18846",
+    "callNumber": "arXiv:2603.18846",
+    "extra": {
+      "Archive ID": "2603.18846",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7140000811",
+      "Repository": "arXiv",
+      "Scholar": "lPQLk3QAAAAJ:L7CI7m0gUJcC",
+      "Venue": "arXiv e-prints, arXiv: 2603.18846, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
