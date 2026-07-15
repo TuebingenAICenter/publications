@@ -390,7 +390,8 @@ def build_pr_body(
 
     Carries an inline header (title, authors, type, groups, citekey — all from the
     canonical bib + ``custom.groups``, so a multi-group item surfaces all its PIs), a
-    per-action review checklist, and the BibTeX in a collapsible block. ``action`` is
+    per-action review checklist, and the BibTeX in a plain (non-collapsible) code block.
+    ``action`` is
     ``"New"`` / ``"Update"`` / ``"Rename"``:
 
     * **Update** — ``old_pair`` is the stored ``(bib, meta)``; a collapsible BibTeX diff
@@ -453,7 +454,7 @@ def build_pr_body(
     ]
 
     bib_label = "Full BibTeX (after)" if action == "Update" else "BibTeX"
-    lines += ["", _details(bib_label, f"```bibtex\n{pair.bib_text.rstrip()}\n```")]
+    lines += ["", f"#### {bib_label}", f"```bibtex\n{pair.bib_text.rstrip()}\n```"]
     return "\n".join(lines) + "\n"
 
 
