@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Understanding the parameter dynamics under gradient-based training has been central to explaining implicit regularization and generalization in deep learning, with balancedness of layers — defined as the difference between the left Gramian of a layer and the right Gramian of the next layer — playing a key role in many exist-ing analyses. We present a unified and substantially more general framework for studying layer-balancedness and parameter-norm dynamics across a broad class of neural architectures. Modeling networks as compositions of learnable Hilbert-Schmidt operators interleaved with fixed positive-homogeneous nonlinearities, we show that consecutive layers without nonlinearities in-between converge exponentially fast toward a balanced state under weight decay. Furthermore, we derive a general expression for the time evolution of the squared-norm of each learnable layer, showing that parameter-norm dynamics reduce to a single scalar quantity: the inner product between the network output and the negative gradient of the loss with respect to it. Our framework recovers existing results as special cases while extending them to architectures beyond the reach of prior, architecture-specific analyses. Finally, it connects parameter evolution to function-space dynamics, which can be studied, for example, using the NTK theory and mean-field analysis.",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Scholar": "xkuLyHoAAAAJ:NhqRSupF_l8C",
+      "Venue": "Workshop on Scientific Methods for Understanding Deep Learning, 2026",
+      "Workshop": "Scientific Methods for Understanding Deep Learning (Sci4DL)"
+    },
+    "itemType": "conferencePaper"
+  }
+}
