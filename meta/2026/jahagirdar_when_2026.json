@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Current autoregressive Vision Language Models (VLMs) usually rely on a large number of visual tokens to represent images, resulting in a need for more compute especially at inference time. To address this problem, we propose Mask-LLaVA, a framework that leverages different levels of visual features to create a compact yet information-rich visual representation for autoregressive VLMs. Namely, we combine mask-based object representations together with global tokens and local patch tokens. While all tokens are used during training, it shows that the resulting model can flexibly drop especially the number of mask-based object-tokens at test time, allowing to adapt the number of tokens during inference without the need to retrain the model and without a significant drop in performance. We evaluate the proposed approach on a suite of standard benchmarks showing results competitive to current token efficient methods and comparable to the original LLaVA baseline using only a fraction of visual tokens. Our analysis demonstrates that combining multi-level features enables efficient learning with fewer tokens while allowing dynamic token selection at test time for good performance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.04864",
+    "extra": {
+      "Archive ID": "2602.04864",
+      "Repository": "arXiv",
+      "Scholar": "pxhCcH0AAAAJ:Mojj43d5GZwC",
+      "Venue": "arXiv preprint arXiv:2602.04864, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
