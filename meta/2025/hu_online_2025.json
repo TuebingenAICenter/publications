@@ -5,11 +5,21 @@
     ]
   },
   "zotero": {
+    "abstractNote": "We formalize the problem of online learning-unlearning, where a model is updated sequentially in an online setting while accommodating unlearning requests between updates. After a data point is unlearned, all subsequent outputs must be statistically indistinguishable from those of a model trained without that point. We present two online learner-unlearner (OLU) algorithms, both built upon online gradient descent (OGD). The first, passive OLU, leverages OGD's contractive property and injects noise when unlearning occurs, incurring no additional computation. The second, active OLU, uses an offline unlearning algorithm that shifts the model toward a solution excluding the deleted data. Under standard convexity and smoothness assumptions, both methods achieve regret bounds comparable to those of standard OGD, demonstrating that one can maintain competitive regret bounds while providing unlearning guarantees.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2505.08557",
     "extra": {
+      "Archive ID": "2505.08557",
       "Citations@2026-06-01": "1",
-      "Scholar": "DZ-fHPgAAAAJ:GeK8YprAuG8C"
+      "Citations@2026-07-13": "2",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:GeK8YprAuG8C",
+      "Venue": "arXiv preprint arXiv:2505.08557, 2025",
+      "arXiv": "2505.08557"
     },
-    "itemType": "document",
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2505.08557'>https://arxiv.org/abs/2505.08557</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-08557'>https://dblp.org/rec/journals/corr/abs-2505-08557</a><br></p>",
