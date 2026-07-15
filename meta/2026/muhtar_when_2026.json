@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recent work has demonstrated the curse of depth in large language models (LLMs), where later layers contribute less to learning and representation than earlier layers. Such under-utilization is linked to the accumulated growth of variance in Pre-Layer Normalization, which can push deep blocks toward near-identity behavior. In this paper, we provide evidence that sparsity-like mechanisms can dampen variance propagation and are associated with improved depth utilization Our investigation covers two sources of sparsity: (i) implicit sparsity, which emerges from training and data conditions, including weight sparsity induced by weight decay and attention sparsity induced by long-context inputs; and (ii) explicit sparsity, which is enforced by architectural design, including key/value-sharing in Grouped-Query Attention and expert-activation sparsity in Mixtureof-Experts. Our claim is thoroughly supported by controlled depth-scaling experiments and targeted layer effectiveness interventions. Across settings, we observe a consistent relationship: mechanisms with reduced effective interaction density tend to exhibit lower output variance and better layer differentiation. We eventually distill our findings into a practical rule-of-thumb recipe for training depth-effective LLMs, yielding a notable 4.6 accuracy improvement on downstream tasks. Our results suggest that sparsity-like design choices are an important and previously underemphasized factor in effective depth scaling for LLMs.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.15389",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Scholar": "73IbXtsAAAAJ:_Ybze24A_UAC",
+      "Venue": "ICML 2026, 2026",
+      "arXiv": "2603.15389"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
