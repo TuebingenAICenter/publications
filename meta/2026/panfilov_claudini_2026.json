@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We show that AI agents are capable of discovering novel algorithms for adversarial attacks against LLMs, advancing the state of the art on white-box jailbreaking and prompt injection evaluations. We deploy frontier agents, such as Claude Code and Codex, in an autoresearch loop with access to a library of 30+ prior methods and an evaluation script with a fixed compute budget. We show this pipeline to be effective in jailbreaking OpenAI's GPT-OSS-Safeguard-20B and in prompt injections against Meta-SecAlign-70B, an adversarially robust model. For GPT-OSS-Safeguard, the best agent-discovered method achieves up to 80% attack success rate on CBRN queries, compared to <50% for existing methods. For SecAlign, it achieves 100% ASR, while the best prior automated methods only achieve 82%. Notably, in our setting, attack methods are developed on unrelated surrogate models for a pure random-target token-forcing task, yet generalize directly to prompt injection on the adversarially trained model. Finally, we trace the lineage of methods developed during autoresearch, characterizing the agents' strategies and failure modes. Adversarial ML has long held that defenses must be evaluated against attacks tailored to them; autoresearch automates this principle, and we argue it should be the minimum bar for defense evaluation going forward.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.24511",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-07-13": "8",
+      "Scholar": "ZNtuJYoAAAAJ:738O_yMBCRsC",
+      "Venue": "ICML 2026 Workshop on Agents in the Wild, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
