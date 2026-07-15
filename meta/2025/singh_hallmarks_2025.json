@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose a fresh take on understanding the mechanisms of neural networks by analyzing the rich directional structure of optimization trajectories, represented by their pointwise parameters. Towards this end, we introduce some natural notions of the complexity of optimization trajectories, both qualitative and quantitative, which hallmark the directional nature of optimization in neural networks: when is there redundancy, and when exploration. We use them to reveal the inherent nuance and interplay involved between various optimization choices, such as momentum and weight decay. Further, the trajectory perspective helps us see the effect of scale on regularizing the directional nature of trajectories, and as a by-product, we also observe an intriguing heterogeneity of Q,K,V dynamics in the middle attention layers in LLMs and which is homogenized by scale. Importantly, we put the significant directional redundancy observed to the test by demonstrating that training only scalar batchnorm parameters some while into training matches the performance of training the entire network, which thus exhibits the potential of hybrid optimization schemes that are geared towards efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.07379",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4392780902",
+      "Scholar": "DZ-fHPgAAAAJ:Wwb8F1fYdGUC",
+      "Venue": "ICML 2024 Workshop on Theoretical Foundations of Foundation Models, 0",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
