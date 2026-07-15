@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Understanding human visual attention on a scene over time has applications in domains such as autonomous driving, interface design, inferring cognitive states. Modeling human visual scanpaths has historically relied on specialized architectures with hand-crafted geometric priors. While these architectures successfully model fixation sequences, their rigid structural biases restrict easy extendability and flexible conditioning. For instance, integrating task-specific instructions or adapting to distinct viewer identities traditionally requires custom, disjoint architectural additions. We address this limitation by framing scanpath prediction purely as a discrete sequence modeling task. By mapping spatial coordinates into an autoregressive vocabulary, we leverage the pretrained representations of Large Vision-Language Models (LVLMs). This formulation naturally absorbs diverse factors of variation: simple prompting modifications allow for global conditioning, such as providing viewer identities to capture personalized biases, or task-specific objectives (like free-viewing versus visual search). The framework can also easily integrate the modeling of per-fixation attributes, such as individual fixation durations alongside spatial locations. Crucially, this autoregressive alignment enables the scalable, exact computation of per-fixation log-likelihoods, directly equivalent to the commonly used Information Gain (IG) metric. Our model, DeepGaze3.5-VL, establishes a new state-of-the-art across multiple datasets, achieving 2.18 bits of IG on MIT1003, a 46% improvement over matched-backbone DeepGaze III. This advantage persists even when baselines use identical high-capacity vision encoders. Beyond predictive performance, our generative framework serves as a powerful computational tool for direct behavioral interventions, allowing for controlled in-silico simulations that would be experimentally difficult or impossible to conduct in vivo. We demonstrate this ability by performing controlled interventions on the durations of pre-saccadic fixations, recovering known oculomotor phenomena purely from data.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.02083",
+    "extra": {
+      "Archive ID": "2607.02083",
+      "Scholar": "0z0fNxUAAAAJ:XAp-VaTZjjwC",
+      "Venue": "arXiv preprint arXiv:2607.02083, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
