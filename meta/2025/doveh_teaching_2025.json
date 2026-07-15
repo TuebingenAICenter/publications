@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision-Language Models (VLMs) have shown remarkable capabilities across diverse visual tasks, including image recognition, video understanding, and Visual Question Answering (VQA) when explicitly trained for these tasks. Despite these advances, we find that present-day VLMs (including the proprietary GPT-4o) lack a fundamental cognitive ability: learning to localize specific objects in a scene by taking into account the context. In this work, we focus on the task of few-shot personalized localization, where a model is given a small set of annotated images (in-context examples) -- each with a category label and bounding box -- and is tasked with localizing the same object type in a query image. Personalized localization can be particularly important in cases of ambiguity of several related objects that can respond to a text or an object that is hard to describe with words. To provoke personalized localization abilities in models, we present a data-centric solution that fine-tunes them using carefully curated data from video object tracking datasets. By leveraging sequences of frames tracking the same object across multiple shots, we simulate instruction-tuning dialogues that promote context awareness. To reinforce this, we introduce a novel regularization technique that replaces object labels with pseudo-names, ensuring the model relies on visual context rather than prior knowledge. Our method significantly enhances the few-shot localization performance of recent VLMs ranging from 7B to 72B in size, without sacrificing generalization, as demonstrated on several benchmarks tailored towards evaluating personalized localization abilities. This work is the first to explore and benchmark personalized few-shot localization for VLMs -- exposing critical weaknesses in present-day VLMs, and laying a foundation for future research in context-driven vision-language applications.",
+    "archive": "arXiv",
+    "archiveLocation": "2411.13317",
+    "conferenceName": "International Conference on Computer Vision (ICCV)",
+    "extra": {
+      "Citations@2026-06-01": "6",
+      "Citations@2026-07-13": "9",
+      "Scholar": "pxhCcH0AAAAJ:vRqMK49ujn8C",
+      "Source": "group_webpage (kuehne)",
+      "Venue": "SEED 72, 71.16, 0",
+      "arXiv": "2411.13317"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Computer Vision (ICCV)"
+  }
+}
