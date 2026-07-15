@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Influential benchmarks incentivize competing model developers to strategically allocate post-training resources toward improvements on the leaderboard, a phenomenon dubbed benchmaxxing or training on the test task. In this work, we initiate a principled study of the incentive structure that benchmarks induce. We model benchmarking as a Stackelberg game between a benchmark designer who chooses an evaluation protocol and multiple model developers who compete simultaneously in a subgame given by the designer's choice. Each competitor has a model of unknown latent quality and can inflate its observed score by allocating resources to benchmark-specific improvements. First, we prove that current benchmarks induce games for which no Nash equilibrium between model developers exists. This result suggests one explanation for why current practice leads to misaligned incentives, prompting model developers to strategize in opaque ways. However, we prove that under mild conditions, a recently proposed evaluation protocol, called tune-before-test, induces a benchmark with a unique Nash equilibrium that ranks models by latent quality. This positive result demonstrates that benchmarks need not set bad incentives, even if current evaluations do.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.08371",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7134860536",
+      "Scholar": "adnTgaAAAAAJ:X5YyAB84Iw4C",
+      "Venue": "arXiv preprint arXiv:2603.08371, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
