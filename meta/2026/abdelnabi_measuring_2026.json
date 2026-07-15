@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The benchmarks used to evaluate AI agents in security-critical roles suffer from crucial weaknesses. Building on recent empirical evidence, we characterize three core challenges that undermine security evaluations: benchmark vulnerabilities, temporal staleness, and runtime uncertainty. We then outline practical directions toward building more robust and trustworthy evaluation frameworks.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CR",
+    "callNumber": "arXiv:2605.22568",
+    "extra": {
+      "Archive ID": "2605.22568",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7162218151",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:xii_ZKWM4-0C",
+      "Venue": "arXiv preprint arXiv:2605.22568, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
