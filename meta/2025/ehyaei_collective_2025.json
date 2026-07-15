@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Counterfactual explanations provide individuals with cost-optimal recommendations to achieve their desired outcomes. However, when a significant number of individuals seek similar state modifications, this individual-centric approach can inadvertently create competition and introduce unforeseen costs. Additionally, disregarding the underlying data distribution may lead to recommendations that individuals perceive as unusual or impractical. To address these challenges, we propose a novel framework that extends standard counterfactual explanations by incorporating a population dynamics model. This framework penalizes deviations from equilibrium after individuals follow the recommendations, effectively mitigating externalities caused by correlated changes across the population. By balancing individual modification costs with their impact on others, our method ensures a more equitable and efficient outcome. We show how this approach reframes the counterfactual explanation problem from an individual-centric task to a collective optimization problem. Augmenting our theoretical insights, we design and implement scalable algorithms for computing collective counterfactuals, showcasing their effectiveness and advantages over existing recourse methods, particularly in aligning with collective objectives.",
+    "archive": "arXiv",
+    "archiveLocation": "2402.04579",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
+    "extra": {
+      "Also known as": "Collective counterfactual explanations via optimal transport",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4391673033",
+      "Scholar": "s8xc2K4AAAAJ:8k81kl-MbHgC",
+      "Venue": "Advances in Neural Information Processing Systems 38, 50485-50516, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
+  }
+}
