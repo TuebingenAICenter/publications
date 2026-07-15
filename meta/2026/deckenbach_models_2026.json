@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi",
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The validity of AI safety evaluations depends on models behaving consistently across controlled and deployment settings. Prior work has identified test-time contextual cues, such as hypothetical scenarios, as a source of verbalized evaluation awareness and subsequent behavioral shift. In this paper, we investigate a potential explanation of this phenomenon: evaluation meta-knowledge, defined as parametric knowledge about the structural traits that characterize evaluations. Similar to dataset contamination, where benchmark exposure leads to higher performance through memorization, we hypothesize that models trained on texts describing evaluation practices may implicitly learn to recognize and respond to evaluation-like contexts, for instance, through exposure to scientific articles or social media posts about AI benchmarking. To test this, we fine-tune models on synthetic documents describing evaluation traits such as verifiable structures or moral dilemmas. Evaluating this fine-tuned model on five safety benchmarks, we find that it is significantly safer than the base model and control model. This behavioral shift persists even when restricting the analysis to responses lacking explicit verbalization of evaluation awareness. Our results demonstrate that evaluation meta-knowledge may inflate safety benchmark performance, introducing a novel confounder that is independent of explicit memorization or verbalized evaluation awareness, thus, challenging to detect. These findings have important implications for the design and interpretation of AI safety evaluations.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.28591",
+    "extra": {
+      "Archive ID": "2605.28591",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7162817543",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:urP0JZOBBUsC",
+      "Venue": "arXiv preprint arXiv:2605.28591, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
