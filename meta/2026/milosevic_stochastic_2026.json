@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose stochastic decision horizons (SDH), a theoretically grounded framework for solving constrained RL problems with every-step constraint satisfaction, a desirable property in many real-world applications. In SDH, a constraint violation yields an effective shortening of horizon via a state-action continuation probability. Using Control as Inference, we develop the first off-policy and regularized algorithms for RL with instantaneous constraints. We identify two principled semantics for what counts as a decision after a violation. Absorbing-state semantics end the decision process, so only surviving decisions pay entropy cost, yielding max-entropy AS-SAC. Virtual-termination keeps the decision process alive while stopping reward credit, yielding KL-regularized VT-MPO. To connect SDH with CMDPs, we track how violations accumulate along trajectories (their violation-depth profile). SDH effectively weights each trajectory by the exponential of its total violation; this matches an additive CMDP budget exactly when violations occur at a single characteristic scale, and we pinpoint where it cannot: when rare, deep violations mix with frequent, shallow ones. Experiments validate the theory. On the 90-muscle H2190 humanoid (Hyfydy), VT-MPO matches state-of-the-art gait realism with 4x fewer environment steps and substantially more stable training. On Safety Gymnasium, violation-depth profiles correctly identify the regimes in which SDH delivers strong reward-violation trade-offs.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.04599",
+    "callNumber": "arXiv:2602.04599",
+    "extra": {
+      "Archive ID": "2602.04599",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7128095964",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:rmuvC79q63oC",
+      "Venue": "arXiv preprint arXiv:2602.04599, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
