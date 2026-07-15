@@ -5,14 +5,18 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Compositional reasoning is a fundamental capability for Vision-Language Models (VLMs). While recent benchmarks have attempted to evaluate this, they often suffer from issues such as data contamination, limited scope, or lack of fine-grained control. In this paper, we introduce ConMe, a new benchmark designed to rigorously evaluate the compositional reasoning capabilities of modern VLMs. ConMe consists of a diverse set of tasks that require models to understand and reason about the relationships between objects, attributes, and actions in images. We find that while current VLMs show impressive performance on general visual tasks, they still struggle with complex compositional reasoning, highlighting the need for more robust evaluation and training strategies.",
+    "abstractNote": "Compositional Reasoning (CR) entails grasping the significance of attributes, relations, and word order. Recent Vision-Language Models (VLMs), comprising a visual encoder and a Large Language Model (LLM) decoder, have demonstrated remarkable proficiency in such reasoning tasks. This prompts a crucial question: have VLMs effectively tackled the CR challenge? We conjecture that existing CR benchmarks may not adequately push the boundaries of modern VLMs due to the reliance on an LLM-only negative text generation pipeline. Consequently, the negatives produced either appear as outliers from the natural language distribution learned by VLMs' LLM decoders or as improbable within the corresponding image context. To address these limitations, we introduce ConMe -- a compositional reasoning benchmark and a novel data generation pipeline leveraging VLMs to produce `hard CR Q&A'. Through a new concept of VLMs conversing with each other to collaboratively expose their weaknesses, our pipeline autonomously generates, evaluates, and selects challenging compositional reasoning questions, establishing a robust CR benchmark, also subsequently validated manually. Our benchmark provokes a noteworthy, up to 33%, decrease in CR performance compared to preceding benchmarks, reinstating the CR challenge even for state-of-the-art VLMs.",
     "archive": "arXiv",
     "archiveLocation": "2406.08164",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "20",
+      "Citations@2026-07-13": "23",
       "Scholar": "pxhCcH0AAAAJ:fQNAKQ3IYiAC",
-      "Venue": "NeurIPS D&B 2024"
+      "Venue": "Advances in Neural Information Processing Systems 37, 22927-22946, 2024"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
