@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Convolutional neural networks (CNNs) achieve state-of-the-art performance in medical image analysis yet remain opaque, limiting adoption in high-stakes clinical settings. Existing approaches face a fundamental trade-off: post-hoc methods provide unfaithful approximate explanations, while inherently interpretable architectures are faithful but often sacrifice predictive performance. We introduce TTE-CAM, a test-time framework that bridges this gap by converting pretrained black-box CNNs into self-explainable models via a convolution-based replacement of their classification head, initialized from the original weights. The resulting model preserves black-box predictive performance while delivering built-in faithful explanations competitive with post-hoc methods, both qualitatively and quantitatively.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.26885",
+    "callNumber": "arXiv:2603.26885",
+    "extra": {
+      "Archive ID": "2603.26885",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7148177196",
+      "Repository": "arXiv",
+      "Scholar": "lPQLk3QAAAAJ:EYYDruWGBe4C",
+      "Venue": "arXiv preprint arXiv:2603.26885, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
