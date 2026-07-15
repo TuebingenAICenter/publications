@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The recent empirical success of the Muon optimizer has renewed interest in non-Euclidean optimization, typically justified by similarities with second-order methods, and linear minimization oracle (LMO) theory. In this paper, we challenge this geometric narrative through three contributions, demonstrating that precise geometric structure is not the key factor affecting optimization performance. First, we introduce Freon, a family of optimizers based on Schatten (quasi-)norms, powered by a novel, provably optimal QDWH-based iterative approximation. Freon naturally interpolates between SGD and Muon, while smoothly extrapolating into the quasi-norm regime. Empirically, the best-performing Schatten parameters for GPT-2 lie strictly within the quasi-norm regime, and thus cannot be represented by any unitarily invariant LMO. Second, noting that Freon performs well across a wide range of exponents, we introduce Kaon, an absurd optimizer that replaces singular values with random noise. Despite lacking any coherent geometric structure, Kaon matches Muon's performance and retains classical convergence guarantees, proving that strict adherence to a precise geometry is practically irrelevant. Third, having shown that geometry is not the primary driver of performance, we demonstrate it is instead controlled by two local quantities: alignment and descent potential. Ultimately, each optimizer must tune its step size around these two quantities. While their dynamics are difficult to predict a-priori, evaluating them within a stochastic random feature model yields a precise insight: Muon succeeds not by tracking an ideal global geometry, but by guaranteeing step-size optimality.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.11181",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7163029234",
+      "Scholar": "UeG5w08AAAAJ:2VqYfGB8ITEC",
+      "Venue": "arXiv preprint arXiv:2605.11181, 2026",
+      "publicationTitle": "Universit@tsbibliothek Tübingen"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
+  }
+}
