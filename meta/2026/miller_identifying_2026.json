@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "With recent progress on fine-tuning language models around a fixed sparse autoencoder, we disentangle the decoder matrix into almost orthogonal features. This reduces interference and superposition between the features, while keeping performance on the target dataset essentially unchanged. Our orthogonality penalty leads to identifiable features, ensuring the uniqueness of the decomposition. Further, we find that the distance between embedded feature explanations increases with stricter orthogonality penalty, a desirable property for interpretability. Invoking the Independent Causal Mechanisms principle, we argue that orthogonality promotes modular representations amenable to causal intervention. We empirically show that these increasingly orthogonalized features allow for isolated interventions.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.04718",
+    "extra": {
+      "Archive ID": "2602.04718",
+      "Scholar": "DZ-fHPgAAAAJ:--G0sfWZqeYC",
+      "Venue": "Neural Information Processing Systems (NeurIPS)"
+    },
+    "itemType": "preprint"
+  }
+}
