@@ -50,6 +50,11 @@ class FakePublisher:
     def stored_pair(self, citekey):
         return self._stored.get(citekey)
 
+    def blob_url(self, citekey: str) -> str | None:
+        if citekey in self._stored:
+            return f"https://example.test/blob/entries/2025/{citekey}.bib"
+        return None
+
     def branch_exists(self, branch: str) -> bool:
         return branch in self._branches
 
@@ -322,6 +327,23 @@ def test_duplicates_surface_in_pr_body_but_never_a_label():
     assert "`other_2023`" in body  # bare candidate rendered without a score
     # The hint lives in the body only — it must never become a label.
     assert not any("duplicate" in label for label in pub.labels[branch])
+
+
+def test_duplicate_candidate_in_store_renders_as_link():
+    """A possible-duplicate citekey that resolves in the store renders as a Markdown
+    link to its .bib; an unknown one stays plain code."""
+    known = publish.build_publish_items([_article("Known Paper", "2024")], [])[0].entry
+    (pi,) = publish.build_publish_items(
+        [_article("Dup", "2025", extra=f"Possible-Duplicates: {known.citekey}@0.91, ghost_2019@0.7")],
+        [],
+    )
+    pub = FakePublisher().seed(known)
+    publish.publish_entries(pub, [pi])
+
+    _branch, _pair, _title, body = pub.created[0]
+    url = pub.blob_url(known.citekey)
+    assert f"[`{known.citekey}`]({url}) — score 0.91" in body  # resolves → link
+    assert "`ghost_2019` — score 0.70" in body  # unknown citekey → plain code
 
 
 def test_build_publish_items_reads_pin_status_and_replaces():
