@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Existing 3D clothed avatar reconstruction methods achieve high visual fidelity but ignore geometric structure and physical plausibility. They either model clothed humans as a single deformable surface or attempt garment disentanglement without enforcing geometric constraints, resulting in ambiguous garment boundaries and no control over stacking or layer ordering. To address these limitations, we introduce DAMA (Disentangled body-Anchored Gaussians for Controllable Multi-layered Avatars), a 3D avatar reconstruction method that produces physically plausible clothed avatars through a dedicated representation and reconstruction method. At the representation level, we bind Gaussians to SMPL-X faces using barycentric in-plane coordinates and a positive normal offset. Based on this parameterization, the reconstruction method lifts 2D segmentations to body-anchored Gaussians, refines layers using topology-guided correction, and jointly optimizes geometry and appearance. DAMA is the first Gaussian avatar reconstruction method from multi-view images to achieve physically plausible layering, clean garment separation, and explicit stacking control. On the full 4D-DRESS dataset (82 scans), it achieves state-of-the-art performance in geometry reconstruction, garment separation, penetration rate, and penetration depth. The representation further supports user-defined garment reordering and fast conversion of body-conforming garments to simulation-ready meshes.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.21001",
+    "conferenceName": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Scholar": "OpXMNnMAAAAJ:OcBU2YAGkTUC",
+      "Venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
+      "Workshop": "PhysHuman Workshop @ CVPR 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
