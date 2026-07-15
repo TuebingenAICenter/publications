@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "ludwig",
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Solar thermal systems (STS) present a promising avenue for low-carbon heat generation, with a well-running system providing heat at minimal cost and carbon emissions. However, STS can exhibit faults due to improper installation, maintenance, or operation, often resulting in a substantial reduction in efficiency or even damage to the system. As monitoring at the individual level is economically prohibitive for small-scale systems, automated monitoring and fault detection should be used to address such issues. Recent advances in data-driven anomaly detection, particularly in time series analysis, offer a cost-effective solution by leveraging existing sensors to identify abnormal system states. Here, we propose a probabilistic reconstruction-based framework for anomaly detection. We evaluate our method on the publicly available PaSTS dataset of operational domestic STS, which features real-world complexities and diverse fault types. Our experiments show that reconstruction-based methods can detect faults in domestic STS both qualitatively and quantitatively, while generalizing to previously unseen systems. We also demonstrate that our model outperforms both simple and more complex deep learning baselines. Additionally, we show that heteroscedastic uncertainty estimation is essential to fault detection performance. Finally, we discuss the engineering overhead required to unlock these improvements and make a case for simple deep learning models.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.10296",
+    "extra": {
+      "Archive ID": "2511.10296",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "Conference": "EGU General Assembly 2024",
+      "OpenAlex": "W4416437083",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:L7CI7m0gUJcC",
+      "Venue": "arXiv preprint arXiv:2511.10296, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
