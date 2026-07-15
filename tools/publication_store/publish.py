@@ -403,6 +403,11 @@ def build_pr_body(
     """
     year = pair.bib_path.parent.name
     title, item_type, year, authors = _item_meta(pair.bib_text, year=year)
+    # itemType is authoritative in the sidecar, not the .bib: collapsing types
+    # (preprint/presentation/patent/… → @misc) re-import as "document" through the
+    # lossy bib projection, so read the true type off the sidecar and fall back to
+    # the bib-derived one only if it is somehow absent.
+    item_type = store_entry.sidecar.get("zotero", {}).get("itemType") or item_type
     groups = store_entry.sidecar.get("custom", {}).get("groups", [])
     citekey = store_entry.citekey
 
@@ -466,13 +471,22 @@ def _label_color(name: str) -> str:
     return _LABEL_COLORS.get(axis, _LABEL_COLORS["action"])
 
 
-def _labels_for(action: str, bib_text: str, groups: Iterable[str]) -> list[str]:
+def _labels_for(
+    action: str, bib_text: str, groups: Iterable[str], *, item_type: str | None = None
+) -> list[str]:
     """The filter labels for a PR: the op kind (``new`` / ``update`` / ``rename``), the
-    ``type:<itemType>``, and one ``group:<slug>`` per owning group."""
-    items = from_bibtex(bib_text)
+    ``type:<itemType>``, and one ``group:<slug>`` per owning group.
+
+    ``item_type`` is the authoritative sidecar itemType; pass it so a collapsing type
+    (preprint/… → ``@misc`` → ``document`` through the lossy bib) labels correctly.
+    Falls back to the bib-derived type when not supplied.
+    """
+    if not item_type:
+        items = from_bibtex(bib_text)
+        item_type = items[0].itemType if items else None
     labels = [action.lower()]
-    if items and items[0].itemType:
-        labels.append(f"type:{items[0].itemType}")
+    if item_type:
+        labels.append(f"type:{item_type}")
     labels += [f"group:{g}" for g in groups]
     return labels
 
@@ -661,7 +675,10 @@ def publish_entries(
                             store_entry, pair, action="Rename", replaces=old, duplicates=dups
                         ),
                         commit_message=f"feat: rename {old} -> {citekey}",
-                        labels=_labels_for("rename", pair.bib_text, groups),
+                        labels=_labels_for(
+                            "rename", pair.bib_text, groups,
+                            item_type=store_entry.sidecar.get("zotero", {}).get("itemType"),
+                        ),
                     )
                     summary.renamed.append((citekey, url))
                     continue
@@ -690,7 +707,10 @@ def publish_entries(
                     store_entry, pair, action=action, old_pair=old_pair, duplicates=dups
                 ),
                 commit_message=f"feat: {verb} {citekey}",
-                labels=_labels_for("new" if action == "New" else "update", pair.bib_text, groups),
+                labels=_labels_for(
+                    "new" if action == "New" else "update", pair.bib_text, groups,
+                    item_type=store_entry.sidecar.get("zotero", {}).get("itemType"),
+                ),
             )
             bucket.append((citekey, url))
         except Exception as exc:  # one bad item must not sink the whole run
