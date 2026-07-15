@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Warmup Stable Decay (WSD) learning rate scheduler has recently become popular, largely due to its good performance and flexibility when training large language models. It remains an open question whether the remarkable performance of WSD - using a decaying learning rate for only a fraction of training compared to cosine decay - is a phenomenon specific to transformer-based language models that can potentially offer new theoretical insights into their training dynamics. Inspired by the usage of learning rate schedulers as a new lens into understanding landscape geometry (e.g., river valley, connected minima, progressive sharpening), in this work we compare the WSD path of the Adam optimizer on a Pythia-like language model to that of a small CNN trained to classify CIFAR10 images. We observe most training signals, optimizer path features, and sharpness dynamics to be qualitatively similar in such architectures. This consistency points to shared geometric characteristics of the loss landscapes of old and new nonconvex problems, and hints to future research questions around the geometry of high dimensional optimization problems.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.09000",
+    "conferenceName": "Neural Information Processing Systems (NEURIPS)",
+    "extra": {
+      "Citations@2026-07-13": "5",
+      "Scholar": "xkuLyHoAAAAJ:70eg2SAEIzsC",
+      "Venue": "arXiv preprint arXiv:2601.09000, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Neural Information Processing Systems (NEURIPS)"
+  }
+}
