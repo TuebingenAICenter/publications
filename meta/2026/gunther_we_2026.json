@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "luxburg"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Algorithmic explanations are intended to help stakeholders understand opaque algorithmic decisions, but in practice, they often fall short. First, the meaning of algorithmic explanations is often not what one might intuitively expect, so expert knowledge is required to interpret them correctly. Second, recent work has shown that popular explanation algorithms are uninformative about the behavior of complex decision functions. Together, these issues create a gap between what explanations appear to convey and what they actually provide. In this work, we propose Explanation Cards for Explanation Algorithms, which augment standard explanations with complementary information about robustness and validity, as well as clear instructions for interpretation. The complementary information can render otherwise uninformative explanations practically useful, while also helping to detect cases where they are not. Importantly, the interpretation instructions in explanation cards shift responsibility from users to providers: Rather than expecting users to recognize what can and cannot be concluded from an explanation, the explanation card explicitly states the validity and limitations of the provided explanation.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2606.16786",
+    "callNumber": "arXiv:2606.16786",
+    "extra": {
+      "Archive ID": "2606.16786",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7165064278",
+      "Repository": "arXiv",
+      "Scholar": "mMifMdoAAAAJ:jgBuDB5drN8C",
+      "Venue": "arXiv preprint arXiv:2606.16786, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
