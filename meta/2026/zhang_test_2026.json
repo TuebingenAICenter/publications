@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Post-cutoff performance decay of LLMs has been widely interpreted as a temporal signal for benchmark contamination, where public information released before the training cutoff may have been included into training corpora and inflated model performance by memorization. We critically examine this view and demonstrate that this temporal signal is highly sensitive to how benchmark questions are constructed, even if the underlying source material remains invariant. Specifically, we show that LLM-transformed questions can produce remarkably different temporal patterns compared to fill-in-the-blank (cloze) questions directly retrieved from the very same documents. We validate this effect on prior benchmarks that report clear post-cutoff decay (LiveCodeBench), and show that a simple LLM-driven transformation of the same problems can effectively remove the temporal pattern. We further provide a mechanistic understanding of this phenomenon using influence function analysis. Overall, our results suggest that post-cutoff performance decay is a sensitive contamination signal, motivating more robust contamination probes for reliable LLM evaluation.",
+    "conferenceName": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "extra": {
+      "Citations@2026-09-01": "1",
+      "OpenAlex": "W4414968375",
+      "Scholar": "DZ-fHPgAAAAJ:1pey-SaUeH0C",
+      "Venue": "Proceedings of the 64th Annual Meeting of the Association for Computational …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Annual Meeting of the Association for Computational Linguistics"
+  }
+}
