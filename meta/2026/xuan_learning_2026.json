@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language model (LLM) agents are increasingly deployed in long-running settings where improving through experience at test time becomes essential. We use test-time learning (TTL) to describe a deployment-time learning paradigm that complements pre-training and post-training. TTL occurs when an agent adapts its behavior during inference without costly retraining, leveraging feedback from its environment or internal state to improve performance on subsequent tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2606.08656",
+    "extra": {
+      "Archive ID": "2606.08656",
+      "Scholar": "DZ-fHPgAAAAJ:jv8D7fDxOUYC"
+    },
+    "itemType": "preprint"
+  }
+}
