@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present COmpetitive Mechanisms for Efficient Transfer (COMET), a modular world model which leverages reusable, independent mechanisms across different environments. COMET is trained on multiple environments with varying dynamics via a two-step process: competition and composition. This enables the model to recognise and learn transferable mechanisms. Specifically, in the competition phase, COMET is trained with a winner-takes-all gradient allocation, encouraging the emergence of independent mechanisms. These are then re-used in the composition phase, where COMET learns to re-compose learnt mechanisms in ways that capture the dynamics of intervened environments. In so doing, COMET explicitly reuses prior knowledge, enabling efficient and interpretable adaptation. We evaluate COMET on environments with image-based observations. In contrast to competitive baselines, we demonstrate that COMET captures recognisable mechanisms without supervision. Moreover, we show that COMET is able to adapt to new environments with varying numbers of objects with improved sample efficiency compared to more conventional finetuning approaches.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.15109",
+    "conferenceName": "Causal and Object-Centric Representations for Robotics Workshop at CVPR",
+    "extra": {
+      "Also known as": "Compete and Compose: Learning Independent Mechanisms for Modular World Models",
+      "Citations@2026-09-01": "1",
+      "Scholar": "DZ-fHPgAAAAJ:5Ls86DqQQHUC",
+      "Venue": "Causal and Object-Centric Representations for Robotics Workshop at CVPR 2024, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Causal and Object-Centric Representations for Robotics Workshop at CVPR"
+  }
+}
