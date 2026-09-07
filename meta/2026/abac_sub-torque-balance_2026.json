@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present the results of a search for continuous gravitational waves from the low-mass X-ray binary Scorpius X-1 using LIGO data from the first part of the fourth LIGO-Virgo-KAGRA observing run. By applying the resampling version of the cross-correlation pipeline to search for signal frequencies f_0 between 25 and 200 Hz (corresponding to neutron star spin frequencies of 12.5 to 100 Hz for GW due to triaxiality, or ~15-20 to ~120-150 Hz for GW due to r-modes), we set upper limits below the standard torque balance level, independent of neutron star spin inclination, for 50 Hz≲ f_0≲200 Hz. While uncertainties in the modelling of torque and equation of state limit the strength of our inference, our results nonetheless argue against torque balance in this spin range for a neutron star described by a hadronic equation of state. The most sensitive upper limits on the gravitational wave amplitude h_0, at the upper end of the frequency band searched, approach 5x10^-26 marginalized over inclination angle and 2x10^-26 assuming the most favorable inclination. The marginalized upper limits correspond to a sensitivity depth of 70-75 Hz^-1/2, improving sensitivity considerably over previous searches. Expressed as constraints on the triaxial deformation of the neutron star, the limits correspond to an ellipticity of 3x10^-5 if the GW frequency f_0 is 75 Hz and 3x10^-6 if f_0=200 Hz, approaching deformations which could be supported by ordinary nuclear matter. Outliers from the search were ruled out as potential signals by a combination of hierarchical followup and analysis of additional data from later in the observing run.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.07765",
+    "extra": {
+      "Archive ID": "2607.07765",
+      "Scholar": "VRBv6mEAAAAJ:nb7KW1ujOQ8C",
+      "Venue": "arXiv preprint arXiv:2607.07765, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
