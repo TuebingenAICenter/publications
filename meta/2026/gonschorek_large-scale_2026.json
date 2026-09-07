@@ -6,12 +6,15 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We present the ALL-GCL dataset, a large-scale resource of functional two-photon Ca2+-imaging recordings with rich meta-data information from more than 80,000 cells in the ganglion cell layer of the mouse retina.",
     "extra": {
       "Citations@2026-06-01": "2",
-      "OpenAlex": "W4417170708",
-      "Scholar": "lPQLk3QAAAAJ:BUYA1_V_uYcC"
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7202141367",
+      "Scholar": "lPQLk3QAAAAJ:BUYA1_V_uYcC",
+      "Venue": "Scientific Data 13 (1), 1170, 2026"
     },
-    "itemType": "document",
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p><a href='https://www.biorxiv.org/content/10.64898/2025.12.04.691221v1'>https://www.biorxiv.org/content/10.64898/2025.12.04.691221v1</a><br><a href='https://huggingface.co/datasets/eulerlab/all-gcl'>https://huggingface.co/datasets/eulerlab/all-gcl</a><br><a href='https://github.com/eulerlab/all-GCL-manuscript'>https://github.com/eulerlab/all-GCL-manuscript</a><br><a href='https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602203299652850'>https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602203299652850</a><br></p>",
