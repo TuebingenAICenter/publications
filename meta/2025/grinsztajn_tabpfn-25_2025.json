@@ -5,12 +5,20 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The first tabular foundation model, TabPFN, and its successor TabPFNv2 have impacted tabular AI substantially, with dozens of methods building on it and hundreds of applications across different use cases. This report introduces TabPFN-2.5, the next generation of our tabular foundation model, built for datasets with up to 50,000 data points and 2,000 features, a 20x increase in data cells compared to TabPFNv2. TabPFN-2.5 is now the leading method for the industry standard benchmark TabArena (which contains datasets with up to 100,000 training data points), substantially outperforming tuned tree-based models and matching the accuracy of AutoGluon 1.4, a complex four-hour tuned ensemble that even includes the previous TabPFNv2. Remarkably, default TabPFN-2.5 has a 100% win rate against default XGBoost on small to medium-sized classification datasets (<=10,000 data points, 500 features) and a 87% win rate on larger datasets up to 100K samples and 2K features (85% for regression). For production use cases, we introduce a new distillation engine that converts TabPFN-2.5 into a compact MLP or tree ensemble, preserving most of its accuracy while delivering orders-of-magnitude lower latency and plug-and-play deployment. This new release will immediately strengthen the performance of the many applications and methods already built on the TabPFN ecosystem.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.08667",
     "extra": {
+      "Archive ID": "2511.08667",
       "Citations@2026-06-01": "1",
+      "Citations@2026-09-01": "1",
       "OpenAlex": "W4416234289",
-      "Scholar": "DZ-fHPgAAAAJ:59zRXzCADgwC"
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:rlEvZsTixIQC",
+      "Venue": "EurIPS 2025 Workshop: AI for Tabular Data, 2025"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2511.08667'>https://arxiv.org/abs/2511.08667</a><br><a href='https://huggingface.co/papers/2511.08667'>https://huggingface.co/papers/2511.08667</a><br><a href='https://www.researchgate.net/publication/397555905_TabPFN-25_Advancing_the_State_of_the_Art_in_Tabular_Foundation_Models'>https://www.researchgate.net/publication/397555905_TabPFN-25_Advancing_the_State_of_the_Art_in_Tabular_Foundation_Models</a><br></p>",
