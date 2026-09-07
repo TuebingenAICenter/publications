@@ -6,7 +6,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Visual embeddings are ubiquitous in modern computer vision, serving as the foundation for tasks ranging from image retrieval to zero-shot classification. While these embeddings are often evaluated on downstream tasks, there is a lack of understanding of their intrinsic properties. In this work, we introduce the concept of rankability: the extent to which the relative order of similarities between embeddings aligns with the relative order of semantic distances. We propose a metric to quantify rankability and demonstrate that it is a strong predictor of downstream performance across various tasks and architectures. We further analyze the factors that influence rankability, such as the training objective and the data distribution, and show that rankability can be improved through simple post-processing techniques. Our findings provide a new perspective on the evaluation and design of visual embeddings.",
+    "abstractNote": "We study whether visual embedding models capture continuous, ordinal attributes along linear directions, which we term rank axes. We define a model as rankable for an attribute if projecting embeddings onto such an axis preserves the attribute's order. Across 7 popular encoders and 9 datasets with attributes like age, crowd count, head pose, aesthetics, and recency, we find that many embeddings are inherently rankable. Surprisingly, a small number of samples, or even just two extreme examples, often suffice to recover meaningful rank axes, without full-scale supervision. These findings open up new use cases for image ranking in vector databases and motivate further study into the structure and learning of rankable embeddings.",
     "archive": "arXiv",
     "archiveLocation": "2507.03683",
     "attachments": [
@@ -19,10 +19,12 @@
         "url": "https://arxiv.org/pdf/2507.03683?"
       }
     ],
-    "conferenceName": "Neural Information Processing Systems (NeurIPS)",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "3",
+      "Citations@2026-09-01": "5",
       "Scholar": "kmXOOdsAAAAJ:_xSYboBqXhAC",
+      "Venue": "NeurIPS 2025, 2025",
       "arXiv": "2507.03683"
     },
     "itemType": "conferencePaper",
@@ -34,6 +36,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
