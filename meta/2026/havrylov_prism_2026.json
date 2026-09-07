@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "End-to-end autonomous driving (E2E AD) systems integrate perception, prediction, and planning into a single differentiable architecture. While these models show great promise, their standard training often relies on output-only supervision, which can lead to weak gradients for the hidden layers of increasingly complex models. Recent works have integrated vision-language model (VLM) supervision for latent features to address this, yielding substantial empirical gains, yet leaving the underlying theoretical mechanisms poorly understood. Our investigation into this methodology reveals that the resulting performance gains stem not from VLM reasoning capabilities, as previously assumed, but rather from the latent connections forged between the E2E AD model and ground-truth (GT) data during training. Building on this insight, we propose a probabilistic deep supervision framework that regularizes intermediate latent representations directly from GT data. By treating model latents as reparameterizable distributions, we optimize the architecture via the Evidence Lower Bound (ELBO). Our evaluations conducted on the nuScenes dataset demonstrate that supervising trajectory-related latents with future GT paths consistently improves planning performance. Using identical training data and E2E architectures, our method achieves an 8% reduction in planning L2 error and a 3% decrease in collision rates compared to competitive vectorized baselines, all while incurring negligible computational overhead.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.01201",
+    "conferenceName": "International Conference on Intelligent Robots and Systems (IROS)",
+    "extra": {
+      "Scholar": "SrVnrPcAAAAJ:3MwzVuqRcA0C",
+      "Venue": "arXiv preprint arXiv:2608.01201, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Intelligent Robots and Systems (IROS)"
+  }
+}
