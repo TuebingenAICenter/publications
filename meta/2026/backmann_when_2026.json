@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Recent advances in LLMs have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a critical concern. While prior work has examined LLMs’ moral judgment and strategic behavior separately, there is limited understanding of how they act when moral imperatives directly conflict with profit incentives. We introduce Moral Behavior in Social Dilemma Simulation (MoralSim) to evaluate how LLMs behave in the prisoner’s dilemma and public goods game embedded in morally charged contexts, varying moral framing, opponent behavior, and survival pressure across nine models. Beyond measuring behavior, we estimate the causal effect of each factor via average treatment effects (ATEs) and analyze agents’ own reasoning traces to characterize the motives behind their choices. We find that no model remains consistently moral, with cooperation rates ranging from 7.9% to 76.3%. Game structure and moral framing are the strongest causal drivers of moral behavior, while reasoning-trace analysis reveals distinct motive profiles across models, ranging from predominantly payoff-maximizing to moral- and reputation-oriented. Together, these results expose the situational brittleness of current LLMs' moral behavior and the risk of deploying them where profit incentives conflict with ethical guidelines.",
+    "archive": "arXiv",
+    "archiveLocation": "2505.19212",
+    "extra": {
+      "Archive ID": "2505.19212",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W4414585650",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:nbe_yQ1PItwC",
+      "Venue": "arXiv preprint arXiv:2505.19212, 2025"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2505.19212'>https://arxiv.org/abs/2505.19212</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-19212'>https://dblp.org/rec/journals/corr/abs-2505-19212</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
