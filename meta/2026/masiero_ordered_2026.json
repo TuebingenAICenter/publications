@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "3D human registration has historically been treated as a regression task, assuming a unique ground-truth alignment exists between the template and an input point cloud. In reality, acquisition noise, occlusions, and unknown soft tissue dynamics introduce inherent ambiguity into human scans. Regression-based methods consequently converge to an average prediction, often failing to represent a plausible geometry. In our work, we embrace such uncertainty by modeling the registration as a distribution of alignments. We propose ODin, which formulates registration as a 3D diffusion process that generates a point cloud aligned with the target geometry while preserving template semantics through consistent point ordering. To achieve this, ODin relies on global, local, and positional conditioning, guiding each point to its correct location. Our experiments demonstrate that such a generative formulation not only outperforms its regression-based baseline, but also establishes a new state of the art, surpassing highly engineered methods while reducing the registration time by two-thirds. Pre-trained models and code are available at this https URL.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.05804",
+    "conferenceName": "German Conference on Pattern Recognition (GCPR)",
+    "extra": {
+      "Code/Data": "https://riccardomarin.github.io/odin/",
+      "Scholar": "OpXMNnMAAAAJ:P7Ujq4OLJYoC",
+      "Venue": "arXiv preprint arXiv:2608.05804, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "German Conference on Pattern Recognition (GCPR)"
+  }
+}
