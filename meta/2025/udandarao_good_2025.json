@@ -6,18 +6,26 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "We investigate 17 benchmarks (e.g. SugarCREPE, VALSE) commonly used for measuring compositional understanding capabilities of vision-language models (VLMs). We scrutinize design choices in their construction, including data source (e.g. MS-COCO) and curation procedures (e.g. constructing negative images/captions), uncovering several inherent biases across most benchmarks. We find that blind heuristics (e.g. token-length, log-likelihood under a language model) perform on par with CLIP models, indicating that these benchmarks do not effectively measure compositional understanding. We demonstrate that the underlying factor is a distribution asymmetry between positive and negative images/captions, induced by the benchmark construction procedures. To mitigate these issues, we provide a few key recommendations for constructing more robust vision-language compositional understanding benchmarks, that would be less prone to such simple attacks.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.08227",
+    "conferenceName": "International Conference on Computer Vision and Pattern Recognition (CVPR)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
       "OpenAlex": "W4417255529",
-      "Scholar": "0z0fNxUAAAAJ:YPNY0knpFBYC"
+      "Scholar": "0z0fNxUAAAAJ:YPNY0knpFBYC",
+      "Venue": "arXiv preprint arXiv:2506.08227, 2025"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2506.08227'>https://arxiv.org/abs/2506.08227</a><br><a href='https://paperswithcode.com/paper/a-good-crepe-needs-more-than-just-sugar'>https://paperswithcode.com/paper/a-good-crepe-needs-more-than-just-sugar</a><br><a href='https://dblp.org/rec/bibtex/journals/corr/abs-2506-08227.html'>https://dblp.org/rec/bibtex/journals/corr/abs-2506-08227.html</a><br></p>",
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }
