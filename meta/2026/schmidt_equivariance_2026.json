@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We propose Equivariance by Contrast (EbC) to learn equivariant embeddings from observation pairs (y, g · y), where g is drawn from a finite group acting on the data. Our method jointly learns a latent space and a group representation in which group actions correspond to invertible linear maps -- without relying on group-specific inductive biases. We validate our approach on the infinite dSprites dataset with structured transformations defined by the finite group G:= (R_m × Z_n × Z_n), combining discrete rotations and periodic translations. The resulting embeddings exhibit high-fidelity equivariance, with group operations faithfully reproduced in latent space. On synthetic data, we further validate the approach on the non-abelian orthogonal group O(n) and the general linear group GL(n). We also provide a theoretical proof for identifiability. While broad evaluation across diverse group types on real-world data remains future work, our results constitute the first successful demonstration of general-purpose encoder-only equivariant learning from group action observations alone, including non-trivial non-abelian groups and a product group motivated by modeling affine equivariances in computer vision.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.21706",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Citations@2026-09-01": "2",
+      "Reporter": "arXiv preprint arXiv:2510.21706, 2025",
+      "Scholar": "0z0fNxUAAAAJ:Vno172sVVMwC",
+      "Venue": "Advances in Neural Information Processing Systems 38, 71760-71800, 2026"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.21706'>https://arxiv.org/abs/2510.21706</a><br><a href='https://neurips.cc/virtual/2025/poster/116330'>https://neurips.cc/virtual/2025/poster/116330</a><br><a href='https://dynamical-inference.ai/publication/ebc/'>https://dynamical-inference.ai/publication/ebc/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}
