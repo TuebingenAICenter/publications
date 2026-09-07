@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Autoregressive perception models trained to localize visual entities under the open-vocabulary setting are mostly trained using Supervised fine-tuning (SFT) with maximum likelihood, yet it optimizes a proxy objective (per-token cross-entropy) that is fundamentally misaligned with perception metrics such as precision and recall. In this paper, we explore post-training reinforcement learning (RL), specifically GRPO, to directly align these models with their evaluation metrics. Building up on the recently introduced Falcon Perception, we design an RL framework that addresses perception-specific challenges: reward design for set-structured outputs and multi-head sampling control. We discover multiple benefits from RL for perception: first, RL unlocks state-of-the-art performance in very dense scenes (up to 500 objects per scene), a regime where most existing systems degrade sharply or collapse; furthermore it fixes common issues in autoregressive perception models like mask repetitions and removes almost entirely the need for NMS and coordinate deduplication, which improve both performance and efficiency and remove the need for hyperparameters tuning; overall, we notice improvements on all levels of difficulties in referring expression segmentation (on PBench and SACO-Gold), and we find an elegant way to preserve the knowledge of whether an object exists or not (as evaluated by MCC) without training on negative samples. We show that a simple reward that penalizes false negatives and positives is sufficient. We develop two hybrid self-annotation pipelines, respectively tailored for difficult referring expressions and very dense scenes, and show their benefits on RL-training. Model weights are released as a Falcon Perception revision. Datasets will be published.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.18881",
+    "extra": {
+      "Archive ID": "2608.18881",
+      "Scholar": "pxhCcH0AAAAJ:PR6Y55bgFSsC",
+      "Venue": "arXiv preprint arXiv:2608.18881, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
