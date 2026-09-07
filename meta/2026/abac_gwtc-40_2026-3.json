@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We analyze data from 142 of the 218 gravitational-wave (GW) sources in the fourth LIGO-Virgo-KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-4.0) to estimate the Hubble constant H0 jointly with the population properties of merging compact binaries. We measure the luminosity distance and redshifted masses of GW sources directly; in contrast, we infer GW source redshifts statistically through (i) location of features in the compact object mass spectrum and merger rate evolution, and (ii) identifying potential host galaxies in the GW localization volume. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We also constrain parameterized deviations from general relativity that affect GW propagation, specifically those modifying the dependence of a GW signal on the source luminosity distance. Assuming our fiducial model for the source-frame mass distribution and using GW candidates detected up to the end of the fourth observing run (O4a), together with the GLADE+ all-sky galaxy catalog, we estimate H0 = 75.4+12.8-9.1 (75.4+24.5-13.3) km s-1 Mpc-1. This value is reported as a median with 68.3% (90%) symmetric credible interval, and includes combination with the H0 measurement from GW170817 and its electromagnetic counterpart. Using a parametrization of modified GW propagation in terms of the magnitude parameter Ξ0, we estimate Ξ0 = 1.4+1.0-0.4 (1.4+2.8-0.6), where Ξ0 = 1 recovers the behavior of general relativity.",
+    "extra": {
+      "Citations@2026-06-01": "17",
+      "Citations@2026-09-01": "1",
+      "OpenAlex": "W7172494905",
+      "Scholar": "VRBv6mEAAAAJ:ns9cj8rnVeAC",
+      "Venue": "The Astrophysical Journal Letters 1007 (1), L17, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
