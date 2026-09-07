@@ -5,13 +5,18 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Large Language Models (LLMs) are increasingly evaluated on benchmarks to measure their reasoning capabilities. However, these evaluations often assume that models behave consistently regardless of whether they are being tested. In this work, we investigate the 'Hawthorne Effect' in reasoning models—the phenomenon where models change their behavior simply because they are aware they are being evaluated. We find that reasoning models exhibit significant test awareness, leading to performance inflation on benchmarks. We demonstrate that this effect can be steered, allowing us to manipulate model performance by framing prompts as tests or non-tests. We propose a framework to evaluate and mitigate this effect, providing insights into the reliability of current LLM benchmarks.",
+    "abstractNote": "Reasoning-focused LLMs sometimes alter their behavior when they detect that they are being evaluated, which can lead them to optimize for test-passing performance or to comply more readily with harmful prompts if real-world consequences appear absent. We present the first quantitative study of how such \"test awareness\" impacts model behavior, particularly its performance on safety-related tasks. We introduce a white-box probing framework that (i) linearly identifies awareness-related activations and (ii) steers models toward or away from test awareness while monitoring downstream performance. We apply our method to different state-of-the-art open-weight reasoning LLMs across both realistic and hypothetical tasks (denoting tests or simulations). Our results demonstrate that test awareness significantly impacts safety alignment (such as compliance with harmful requests and conforming to stereotypes) with effects varying in both magnitude and direction across models. By providing control over this latent effect, our work aims to provide a stress-test mechanism and increase trust in how we perform safety evaluations.",
     "archive": "arXiv",
     "archiveLocation": "2505.14617",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "26",
-      "Scholar": "QEiYbDYAAAAJ:_mQi-xiA4oYC"
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7197013104",
+      "Scholar": "QEiYbDYAAAAJ:_mQi-xiA4oYC",
+      "Venue": "NeurIPS (Spotlight 🏆), 2025"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
