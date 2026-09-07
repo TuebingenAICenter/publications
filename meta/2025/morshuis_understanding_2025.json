@@ -5,10 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "MR imaging is a valuable diagnostic tool allowing to non-invasively visualize patient anatomy and pathology with high soft-tissue contrast. However, MRI acquisition is typically time-consuming, leading to patient discomfort and increased costs to the healthcare system. Recent years have seen substantial research effort into the development of methods that allow for accelerated MRI acquisition while still obtaining a reconstruction that appears similar to the fully-sampled MR image. However, for many applications a perfectly reconstructed MR image may not be necessary, particularly, when the primary goal is a downstream task such as segmentation. This has led to growing interest in methods that aim to perform segmentation directly on accelerated MRI data. Despite recent advances, existing methods have largely been developed in isolation, without direct comparison to one another, often using separate or private datasets, and lacking unified evaluation standards. To date, no high-quality, comprehensive comparison of these methods exists, and the optimal strategy for segmenting accelerated MR data remains unknown. This paper provides the first unified benchmark for the segmentation of undersampled MRI data comparing 7 approaches. A particular focus is placed on comparing one-stage approaches, that combine reconstruction and segmentation into a unified model, with two-stage approaches, that utilize established MRI reconstruction methods followed by a segmentation network. We test these methods on two MRI datasets that include multi-coil k-space data as well as a human-annotated segmentation ground-truth. We find that simple two-stage methods that consider data-consistency lead to the best segmentation scores, surpassing complex specialized methods that are developed specifically for this task.",
+    "archive": "arXiv",
+    "archiveLocation": "2508.18975",
     "extra": {
-      "Scholar": "0ZAb3tsAAAAJ:AzKEL7Gb_04C"
+      "Scholar": "0ZAb3tsAAAAJ:CNPyR2KL9-0C",
+      "Venue": "arXiv e-prints, arXiv: 2508.18975, 2025"
     },
-    "itemType": "document",
+    "itemType": "journalArticle",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2508.18975'>https://arxiv.org/abs/2508.18975</a><br><a href='https://dblp.org/rec/journals/corr/abs-2508-18975'>https://dblp.org/rec/journals/corr/abs-2508-18975</a><br></p>",
