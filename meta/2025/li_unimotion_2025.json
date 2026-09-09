@@ -6,19 +6,23 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Human motion modeling has traditionally been split into two distinct paradigms: motion synthesis, which focuses on generating realistic motion sequences, and motion understanding, which focuses on analyzing and interpreting existing motion data. While both tasks share the underlying goal of learning a rich representation of human movement, they are typically addressed by separate architectures and training objectives. In this paper, we propose UniMotion, a unified framework that bridges these two paradigms. UniMotion leverages a single transformer-based architecture to perform both motion synthesis and understanding tasks. By treating motion as a sequence of tokens and employing a shared latent space, our model learns to both generate diverse and plausible motion sequences from various conditions and extract meaningful representations for downstream tasks such as motion classification and retrieval. We demonstrate that UniMotion achieves state-of-the-art performance on multiple benchmarks for both synthesis and understanding, highlighting the benefits of a unified approach to human motion modeling.",
+    "abstractNote": "We introduce Unimotion, the first unified multi-task human motion model capable of both flexible motion control and frame-level motion understanding. While existing works control avatar motion with global text conditioning, or with fine-grained per frame scripts, none can do both at once. In addition, none of the existing works can output frame-level text paired with the generated poses. In contrast, Unimotion allows to control motion with global text, or local frame-level text, or both at once, providing more flexible control for users. Importantly, Unimotion is the first model which by design outputs local text paired with the generated poses, allowing users to know what motion happens and when, which is necessary for a wide range of applications. We show Unimotion opens up new applications: 1.) Hierarchical control, allowing users to specify motion at different levels of detail, 2.) Obtaining motion text descriptions for existing MoCap data or YouTube videos 3.) Allowing for editability, generating motion from text, and editing the motion via text edits. Moreover, Unimotion attains state-of-the-art results for the frame-level text-to-motion task on the established HumanML3D dataset.",
     "archive": "arXiv",
     "archiveLocation": "2409.15904",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
     "extra": {
       "Archive ID": "2409.15904",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "Note": "oral",
       "OpenAlex": "W4403808826",
-      "Pages": "240-249",
       "Repository": "arXiv",
-      "Scholar": "OpXMNnMAAAAJ:ILKRHgRFtOwC"
+      "Scholar": "OpXMNnMAAAAJ:ILKRHgRFtOwC",
+      "Venue": "2025 International Conference on 3D Vision (3DV), 240-249, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
   }
 }
