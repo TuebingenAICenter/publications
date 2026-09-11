@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Looped architectures provide an inductive bias toward learning step-by-step procedures for tasks that require compositional reasoning. The number of effective layers reached by looping determines the quality of the solution these models find. Like deep architectures, looped architectures are prone to a signal propagation problem induced by depth as the halting decision is postponed. In this paper, we address this signal propagation issue using pre-norm layers and residual scaling. Building on these architectural modifications, we propose FPRM, a Transformer-based Fixed-Point Reasoning Model that uses fixed-point convergence as an end-to-end halting mechanism in a looped architecture. We show that fixed-point halting allows FPRM to adapt its compute to task difficulty. FPRM is effective on common reasoning benchmarks, namely Sudoku, Maze, state-tracking, and ARC-AGI.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.18206",
+    "conferenceName": "AdaptFM: Resource-Adaptive Foundation Model Inference (AdaptFM)",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "OpenAlex": "W7165031142",
+      "Scholar": "9LajlSsAAAAJ:TIZ-Mc8IlK0C",
+      "Venue": "AdaptFM: Resource-Adaptive Foundation Model Inference, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv"
+  }
+}
