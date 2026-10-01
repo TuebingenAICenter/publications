@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2608.09512",
+    "conferenceName": "International Workshop on Active Inference (IWAI)",
+    "extra": {
+      "arXiv": "2608.09512"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Workshop on Active Inference (IWAI)"
+  }
+}
