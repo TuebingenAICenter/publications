@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This position paper argues that the defining properties of open-ended AI systems introduce a distinct and underexplored class of safety challenges. We analyze the risks associated with open-ended, self-propagating AI agents and argue that safety must be a prerequisite for their deployment.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.04512",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Archive ID": "2502.04512",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7165729801",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:q0uBw5dMOAkC",
+      "Venue": "ICML, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
