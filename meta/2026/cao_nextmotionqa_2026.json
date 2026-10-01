@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Reliable evaluation of human motion understanding is fundamental to advancing embodied AI, robotics, and animation. However, existing benchmarks suffer from coarse semantic granularity, undifferentiated difficulty, limited annotation quality, and pervasive answer ambiguity, leaving them unable to diagnose where current models fail. To bridge this gap, we introduce NextMotionQA, a comprehensive benchmark that leverages vision-language models (VLMs) for semi-automated, expert-verified dataset. NextMotionQA features three complementary tasks: multiple-choice question answering, video captioning, and fine-grained error correction. Each task is systematically structured across three core semantic axes and stratified into three task complexity levels. Our extensive evaluation of twelve representative VLMs uncovers critical capability gaps and weakness that remain invisible under conventional, single-task evaluations. In a complementary direction, recent work has begun using VLMs as judges for text-to-motion evaluation; we ask whether they show the same degradation under harder tasks. We find that VLMs align strongly with expert ratings on coarse criteria (Cohen's \\kappa=0.70) but break down on fine-grained, part-level judgment (\\kappa=0.10), validating the paradigm in its strong regime while clarifying its limits.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2606.04773",
+    "extra": {
+      "Archive ID": "2606.04773",
+      "Scholar": "OpXMNnMAAAAJ:fFSKOagxvKUC",
+      "Venue": "arXiv preprint arXiv:2606.04773, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
