@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulating rigid-body dynamics with contact in a fast, massively vectorizable, and smoothly differentiable manner is highly desirable in robotics. An important bottleneck faced by existing differentiable simulation frameworks is contact manifold generation: representing the volume of intersection between two colliding geometries via a discrete set of properly distributed contact points. A major factor contributing to this bottleneck is that the related routines of commonly used robotics simulators were not designed with vectorization and differentiability as a primary concern, and thus rely on logic and control flow that hinder these goals. We instead propose a framework designed from the ground up with these goals in mind, by trying to strike a middle ground between: i) convex primitive based approaches used by common robotics simulators (efficient but not differentiable), and ii) mollified vertex-face and edge-edge unsigned distance-based approaches used by barrier methods (differentiable but inefficient). Concretely, we propose: i) a representative set of smooth analytical signed distance primitives to implement vertex-face collisions, and ii) a novel differentiable edge-edge collision routine that can provide signed distances and signed contact normals. The proposed framework is evaluated via a set of didactic experiments and benchmarked against the collision detection routine of the well-established Mujoco XLA framework, where we observe a significant speedup. Supplementary videos can be found at this https URL, where a reference implementation in JAX will also be made available at the conclusion of the review process.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.20304",
+    "extra": {
+      "Archive ID": "2602.20304",
+      "Citations@2026-07-13": "1",
+      "OpenAlex": "W7131476145",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:bz8QjSJIRt4C",
+      "Venue": "arXiv preprint arXiv:2602.20304, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
