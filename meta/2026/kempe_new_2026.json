@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The primary focus of this workshop is to strengthen the analytical foundations of associative memory while exploring its emerging role in the design of agentic AI systems. By bringing together researchers from optimization and deep learning, statistical physics, neuroscience and machine learning systems, the workshop aims to catalyze cross-disciplinary exchange, identify open problems, and foster collaboration toward advancing the theoretical and practical frontiers of associative memory. A central goal is to build a cohesive community at the intersection of these fields, one that unites rigorous mathematical foundations with scalable architectures and applications where associative memories serve as the core drivers of reasoning, adaptation, and intelligent behavior.",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Citations@2026-10-01": "3",
+      "Scholar": "pxhCcH0AAAAJ:4fKUyHm3Qg0C",
+      "Venue": "ICLR 2025 Workshop Proposals, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
