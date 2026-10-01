@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "ludwig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Masked Token Models (MTMs) are a highly efficient paradigm for pre-training large-scale models in video and language domains. Designed to learn representations on inherently sparse or strongly subsampled data, MTMs can be a promising choice for weather and climate prediction over long horizons. Despite their advantageous design properties these models have not yet found widespread adoption in climate science. We partly attribute this to limitations of the prevalent choice to use masking strategies that are uniform over time, which biases the learned representations toward spatial interpolation.",
+    "conferenceName": "European Geosciences Union General Assembly (EGU)",
+    "extra": {
+      "Scholar": "by3EWqIAAAAJ:eq2jaN3J8jMC",
+      "Venue": "EGU26, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Geosciences Union General Assembly (EGU)"
+  }
+}
