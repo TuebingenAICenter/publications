@@ -5,15 +5,22 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Differential privacy (DP) is the gold standard for privacy-preserving data analysis. However, the utility of DP mechanisms often degrades significantly when the data is high-dimensional or complex. A common strategy to mitigate this is to perform non-private pre-processing on the data before applying a DP mechanism. While this approach is widely used in practice, its privacy implications are often poorly understood. In this work, we provide a theoretical framework to analyze the privacy guarantees of DP mechanisms when applied to non-privately pre-processed data. We show that if the pre-processing function satisfies certain stability properties, the composition of the pre-processing and the DP mechanism can still provide strong privacy guarantees. We demonstrate the utility of our framework by applying it to several common pre-processing techniques, including dimensionality reduction and feature selection, and show that it leads to improved privacy-utility trade-offs in practice.",
+    "abstractNote": "When analyzing Differentially Private (DP) machine learning pipelines, the potential privacy cost of data-dependent pre-processing is frequently overlooked in privacy accounting. In this work, we propose a general framework to evaluate the additional privacy cost incurred by non-private data-dependent pre-processing algorithms. Our framework establishes upper bounds on the overall privacy guarantees by utilising two new technical notions: a variant of DP termed Smooth DP and the bounded sensitivity of the pre-processing algorithms. In addition to the generic framework, we provide explicit overall privacy guarantees for multiple data-dependent pre-processing algorithms, such as data imputation, quantization, deduplication, standard scaling and PCA, when used in combination with several DP algorithms. Notably, this framework is also simple to implement, allowing direct integration into existing DP pipelines.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.13041",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
       "OpenAlex": "W4393064086",
-      "Pages": "19402--19437",
       "Scholar": "DZ-fHPgAAAAJ:lAFTa7HQ20YC",
-      "Series": "Proceedings of Machine Learning Research",
-      "Volume": "235"
+      "Venue": "arXiv preprint arXiv:2403.13041, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "PMLR",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
