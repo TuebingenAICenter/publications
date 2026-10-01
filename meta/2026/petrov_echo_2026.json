@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Modeling human-object interactions (HOI) from an egocentric perspective is a critical yet challenging task, particularly when relying on sparse signals from wearable devices like smart glasses and watches. We present ECHO, the first unified framework to jointly recover human pose, object motion, and contact dynamics solely from head and wrist tracking. To tackle the underconstrained nature of this problem, we introduce a novel tri-variate diffusion process with independent noise schedules that models the mutual dependencies between the human, object, and interaction modalities. This formulation allows ECHO to operate with flexible input configurations, making it robust to intermittent tracking and capable of leveraging partial observations. Crucially, it enables training on a combination of large-scale human motion datasets and smaller HOI collections, learning strong priors while capturing interaction nuances. Furthermore, we employ a smooth inpainting inference mechanism that enables the generation of temporally consistent interactions for arbitrarily long sequences. Extensive evaluations demonstrate that ECHO achieves state-of-the-art performance, significantly outperforming existing methods lacking such flexibility.",
+    "archive": "arXiv",
+    "archiveLocation": "2508.21556",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4415991076",
+      "Scholar": "OpXMNnMAAAAJ:i2xiXl-TujoC",
+      "Venue": "arXiv preprint arXiv:2508.21556, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.21556'>https://arxiv.org/abs/2508.21556</a><br><a href='https://mcml.ai/publications/pgm%2B25/'>https://mcml.ai/publications/pgm%2B25/</a><br><a href='https://tobias-lib.uni-tuebingen.de/xmlui/handle/10900/171026'>https://tobias-lib.uni-tuebingen.de/xmlui/handle/10900/171026</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}
