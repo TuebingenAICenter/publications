@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers. In particular, Muown separates each weight matrix into row magnitudes and an un-normalized direction variable, updating the former with Adam and the latter with Muon. We show that the directional update of Muown is equivalent to a Riemannian step on the normalized directions, while the magnitude of the un-normalized parameterization only modulates the angular step size. This explains the step-size stability of Muown and suggests making the angular step size explicit. The resulting method, AngularMuown, optimizes directly over the normalized directions and uses a schedulable angular multiplier decoupled from the radial magnitude update. AngularMuown improves over Muown and, at the time of writing, a preliminary version is leading the per-optimizer category of the modded nanoGPT speedrunning competition. Further experiments on Qwen2-0.5B, and 1.1B parameter mixture-of-experts models confirm the algorithm scales beyond small models.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2606.23637",
+    "extra": {
+      "Archive ID": "2606.23637",
+      "Citations@2026-07-13": "1",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:WbkHhVStYXYC",
+      "Venue": "arXiv preprint arXiv:2606.23637, 2026",
+      "arXiv": "2606.23637"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
