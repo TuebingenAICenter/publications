@@ -6,13 +6,15 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Uncertainty estimation is crucial for reliable machine learning. While many methods exist to quantify uncertainty, they often conflate different sources of uncertainty, such as aleatoric (data-inherent) and epistemic (model-inherent) uncertainty. Recent works have proposed methods to disentangle these, but a systematic evaluation of their performance across different tasks is lacking. In this work, we introduce a comprehensive benchmark for uncertainty disentanglement. We curate a diverse set of tasks, including classification, regression, and out-of-distribution detection, and evaluate a wide range of disentanglement methods. Our results reveal that no single method consistently outperforms others across all tasks, highlighting the need for specialized uncertainty estimation methods tailored to specific tasks. We provide a unified framework and codebase to facilitate future research in this direction.",
+    "abstractNote": "Uncertainty quantification, once a singular task, has evolved into a spectrum of tasks, including abstained prediction, out-of-distribution detection, and aleatoric uncertainty quantification. The latest goal is disentanglement: the construction of multiple estimators that are each tailored to one and only one source of uncertainty. This paper presents the first benchmark of uncertainty disentanglement. We reimplement and evaluate a comprehensive range of uncertainty estimators, from Bayesian over evidential to deterministic ones, across a diverse range of uncertainty tasks on ImageNet. We find that, despite recent theoretical endeavors, no existing approach provides pairs of disentangled uncertainty estimators in practice. We further find that specialized uncertainty tasks are harder than predictive uncertainty tasks, where we observe saturating performance. Our results provide both practical advice for which uncertainty estimators to use for which specific task, and reveal opportunities for future research toward task-centric and disentangled uncertainties.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2402.19460",
-    "conferenceName": "NeurIPS 2024",
+    "archiveLocation": "2402.19460",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
     "extra": {
       "Citations@2026-06-01": "118",
-      "Scholar": "kmXOOdsAAAAJ:2P1L_qKh6hAC"
+      "Citations@2026-07-13": "128",
+      "Scholar": "kmXOOdsAAAAJ:2P1L_qKh6hAC",
+      "Venue": "Advances in Neural Information Processing Systems (NeurIPS)"
     },
     "itemType": "conferencePaper",
     "notes": [
@@ -27,6 +29,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
   }
 }
