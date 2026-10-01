@@ -5,13 +5,20 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Causal inference typically relies on the assumption of independent and identically distributed (i.i.d.) data. However, many real-world datasets are not i.i.d. but rather exchangeable. De Finetti's representation theorem states that an infinite exchangeable sequence is a mixture of i.i.d. sequences. This suggests that causal inference for exchangeable data can be framed as a hierarchical model where we first infer the latent distribution (the \"de Finetti measure\") and then perform causal inference conditional on this measure. In this paper, we formalize this intuition. We define causal effects for exchangeable data and show that they can be identified under a set of conditions that generalize the standard assumptions of causal inference. We provide a practical framework for estimating these effects and demonstrate its utility on synthetic and real-world data.",
-    "archiveLocation": "pp. 127317--127345",
+    "abstractNote": "We study causal effect estimation in a setting where the data are not i.i.d. (independent and identically distributed). We focus on exchangeable data satisfying an assumption of independent causal mechanisms. Traditional causal effect estimation frameworks, e.g., relying on structural causal models and do-calculus, are typically limited to i.i.d. data and do not extend to more general exchangeable generative processes, which naturally arise in multi-environment data. To address this gap, we develop a generalized framework for exchangeable data and introduce a truncated factorization formula that facilitates both the identification and estimation of causal effects in our setting. To illustrate potential applications, we introduce a causal Pólya urn model and demonstrate how intervention propagates effects in exchangeable data settings. Finally, we develop an algorithm that performs simultaneous causal discovery and effect estimation given multi-environment data.",
+    "archive": "arXiv",
+    "archiveLocation": "2405.18836",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4399197607",
-      "Scholar": "DZ-fHPgAAAAJ:al3mEprNw24C"
+      "Scholar": "DZ-fHPgAAAAJ:al3mEprNw24C",
+      "Venue": "Advances in Neural Information Processing Systems 37, 127317-127345, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "NeurIPS Proceedings",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
