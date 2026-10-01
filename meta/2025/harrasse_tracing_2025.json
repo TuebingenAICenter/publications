@@ -6,18 +6,27 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Multilingual Large Language Models (LLMs) can process many languages, yet how they internally represent this diversity remains unclear. Do they form shared multilingual representations with language-specific decoding, and if so, why does performance favor the dominant training language? To address this, we train models on different multilingual mixtures and analyze their internal mechanisms using Cross-Layer Transcoders (CLTs) and Attribution Graphs. Our results reveal multilingual shared representations: the model employs highly similar features across languages, while language-specific decoding emerges in later layers. Training models without English shows identical multilingual shared space structures. Decoding relies partly on a small set of high-frequency features in the final layers, which linearly encode language identity from early layers. Intervening on these features allows one language to be suppressed and another substituted. Finally, to explain non-English failures, we perform a Model-Diffing experiment: underperformance arises from dim late-layer features, weak middle-layer clusters, and tokenizer bias toward English that forces early layers to specialize in word reassembly. Finetuning strengthens these features and their links, improving token assembly and language-specific decoding, providing a mechanistic explanation for multilingual gaps. Our models and CLTs are available at this https URL and this https URL. Our code is available at: this https URL.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2511.10840",
+    "conferenceName": "Actionable Interpretability Workshop at the International Conference on Machine Learning (ICML)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4416329855",
-      "Scholar": "DZ-fHPgAAAAJ:0L9qyEHVNWwC"
+      "Scholar": "DZ-fHPgAAAAJ:0L9qyEHVNWwC",
+      "Venue": "arXiv preprint arXiv:2511.10840, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2511.10840'>https://arxiv.org/abs/2511.10840</a><br><a href='https://www.catalyzex.com/paper/tracing-multilingual-representations-in-llms'>https://www.catalyzex.com/paper/tracing-multilingual-representations-in-llms</a><br><a href='https://www.researchgate.net/publication/397662985_Tracing_Multilingual_Representations_in_LLMs_with_Cross-Layer_Transcoders'>https://www.researchgate.net/publication/397662985_Tracing_Multilingual_Representations_in_LLMs_with_Cross-Layer_Transcoders</a><br></p>",
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Actionable Interpretability Workshop at the International Conference on Machine Learning (ICML)"
   }
 }
