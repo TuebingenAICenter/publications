@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "While existing feed-forward Gaussian splatting models offer computational efficiency and can generalize to sparse view settings, their performance is fundamentally constrained by relying on a single forward pass for inference. We propose ReSplat, a feed-forward recurrent Gaussian splatting model that iteratively refines 3D Gaussians without explicitly computing gradients. Our key insight is that the Gaussian splatting rendering error serves as a rich feedback signal, guiding the recurrent network to learn effective Gaussian updates. This feedback signal naturally adapts to unseen data distributions at test time, enabling robust generalization across datasets, view counts, and image resolutions. To initialize the recurrent process, we introduce a compact reconstruction model that operates in a 16x subsampled space, producing 16x fewer Gaussians than previous per-pixel Gaussian models. This substantially reduces computational overhead and allows for efficient Gaussian updates. Extensive experiments across varying number of input views (2, 8, 16, 32), resolutions (256x256 to 540x960), and datasets (DL3DV, RealEstate10K, and ACID) demonstrate that our method achieves state-of-the-art performance while significantly reducing the number of Gaussians and improving the rendering speed.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.08575",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Citations@2026-06-01": "11",
+      "Citations@2026-07-13": "17",
+      "Scholar": "SrVnrPcAAAAJ:w2UhwfzvF0QC",
+      "Venue": "arXiv preprint arXiv:2510.08575, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.08575'>https://arxiv.org/abs/2510.08575</a><br><a href='https://haofeixu.github.io/resplat/'>https://haofeixu.github.io/resplat/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}
