@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Distributed stochastic optimization intertwines (i) stochastic gradient noise, (ii) communication compression, and (iii) adaptive/normalized updates. While each factor has been studied in isolation, their joint effect under realistic assumptions remains poorly understood. In this work, we develop a unified theoretical framework for Distributed Compressed SGD (DCSGD) and its sign variant Distributed SignSGD (DSignSGD) under the recently introduced (L0, L1)-smoothness condition. From a conceptual perspective, we show that the first- and second-order modified equations from the literature do not accurately model the discrete-time step-size/stability restrictions, especially under (L0,L1)-smoothness. From a technical perspective, we propose new first-order SDEs by carefully incorporating curvature-dependent terms into their drift: This helps capture the fine-grained relationship between learning rate restrictions, gradient noise, compression, and the geometry of the loss landscape. Importantly, we do so under general gradient noise assumptions, including heavy-tailed and affine-variance regimes, which extend beyond the classical bounded-variance setting. Our results suggest that normalizing the updates of DCSGD emerges as a natural condition for stability, with the degree of normalization precisely determined by the gradient noise structure, the landscape's regularity, and the compression rate. In contrast, DSignSGD converges even under heavy-tailed noise with standard learning rate schedules. Together, these findings offer both new theoretical insights and perspectives, and practical guidance.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.00181",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4414888715",
+      "Scholar": "xkuLyHoAAAAJ:ldfaerwXgEUC",
+      "Venue": "High-dimensional Learning Dynamics 2025, 0",
+      "publicationTitle": "ArXiv.org"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
