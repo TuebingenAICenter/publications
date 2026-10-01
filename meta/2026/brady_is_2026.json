@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "It has been hypothesized that achieving the data efficiency of human visual perception requires a generative approach in which internal representations result from inverting a decoder. Yet today's most successful vision models are non-generative, relying on an encoder that maps images to representations without decoder inversion. This raises the question of whether generation is necessary for data-efficient machine perception. To address this, we study to what extent generative and non-generative methods can achieve compositional generalization, a hallmark of human data efficiency. Under a compositional generative process, we formally characterize the inductive biases required for compositional generalization in decoder-based (generative) and encoder-based (non-generative) methods. We show theoretically that the inductive biases required for an encoder are substantially more complex and generally infeasible to impose explicitly through architectural constraints or regularization. By contrast, the decoder biases take a simple form that can be enforced directly. These results suggest that compositional generalization may be substantially easier to achieve through a generative paradigm of learning and inverting a decoder rather than learning an encoder directly. We examine our theoretical findings empirically by training a range of generative and non-generative methods on synthetic image data. We find that non-generative methods often fail to generalize compositionally and require large-scale pretraining to improve generalization. By comparison, generative methods yield gains in generalization without requiring additional data.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.08854",
+    "extra": {
+      "Archive ID": "2512.08854",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4417529360",
+      "Publication Title": "arXiv (Cornell University)",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:8AbLer7MMksC",
+      "Venue": "ICML 2026, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "Failed to Revise: Web search found the paper as an arXiv preprint (arXiv:2512.08854, posted Dec 9, 2025) and an OpenReview entry showing it as a submission to ICLR 2026 (Submission #20239, submitted Sep 19, 2025; revised Jan 26, 2026). I could not find any public record of an accepted publication or proceedings entry. Because the venue is therefore ambiguous (preprint + under review) and no confirmed acceptance/publication exists, I cannot confidently assign a publication venue.",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
