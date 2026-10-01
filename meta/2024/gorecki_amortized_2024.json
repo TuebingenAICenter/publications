@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) provides a powerful framework for inferring posterior distributions of stochastic simulators in a wide range of domains. In many settings, however, the posterior distribution is not the end goal itself -- rather, the derived parameter values and their uncertainties are used as a basis for deciding what actions to take. Unfortunately, because posterior distributions provided by SBI are (potentially crude) approximations of the true posterior, the resulting decisions can be suboptimal. Here, we address the question of how to perform Bayesian decision making on stochastic simulators, and how one can circumvent the need to compute an explicit approximation to the posterior. Our method trains a neural network on simulated data and can predict the expected cost given any data and action, and can, thus, be directly used to infer the action with lowest cost. We apply our method to several benchmark problems and demonstrate that it induces similar cost as the true posterior distribution. We then apply the method to infer optimal actions in a real-world simulator in the medical neurosciences, the Bayesian Virtual Epileptic Patient, and demonstrate that it allows to infer actions associated with low cost after few simulations.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2312.02674",
+    "extra": {
+      "Archive ID": "2312.02674",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-10-01": "3",
+      "OpenAlex": "W4389421659",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:2TuIPqOg0e0C",
+      "Venue": "Transactions on Machine Learning Research (TMLR), 2024"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
