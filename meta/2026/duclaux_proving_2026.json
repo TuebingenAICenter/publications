@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Open Source Game Theory (OSGT) is a framework for designing agents that can cooperate in environments where they can inspect each other's source code. While OSGT has been studied theoretically, its practical implementation remains challenging. In this work, we formalize the core concepts of OSGT in the Lean 4 theorem prover. We provide a formal definition of proof-based agents and prove that they can achieve cooperation in the Prisoner's Dilemma. Our formalization provides a rigorous foundation for OSGT and paves the way for verifying more complex cooperative strategies.",
+    "conferenceName": "AI for Math Workshop: Toward Self-Evolving Scientific Agents (AI4MATH)",
+    "extra": {
+      "Scholar": "DZ-fHPgAAAAJ:q5Ewq_saJAcC",
+      "Venue": "3rd AI for Math Workshop: Toward Self-Evolving Scientific Agents, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "AI for Math Workshop: Toward Self-Evolving Scientific Agents (AI4MATH)"
+  }
+}
