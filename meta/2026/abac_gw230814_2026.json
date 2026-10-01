@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "GW230814, detected by the LIGO Livingston observatory with a signal-to-noise ratio of 42.4, represents the loudest gravitational-wave signal in the GWTC-4.0 catalog. Its source is consistent with a binary black hole coalescence with component masses m_1 = 33.7^{+2.9}_{-2.2} M_sun, m_2=29.9^{+2.1}_{-2.8} M_sun, and a small effective inspiral spin chi_eff = -0.01^{+0.06}_{-0.07}. The high signal-to-noise ratio enabled us to detect an l=|m|=4 mode in the inspiral-merger-ringdown signal for the first time (with log_10 BF~1 ), and enables a range of tests of consistency between theoretical predictions and the observed waveform. While most of these tests show agreement with theoretical predictions, there are suggestions of minor deviations in the ringdown phase. Simulations that incorporate general relativity and realistic detector noise reproduce similar deviations, suggesting they do not constitute evidence for a breakdown of general relativity. The observation of GW230814 demonstrates that the unprecedented sensitivity of the detectors enables highly significant detections with a single observatory. However, without corroborating data from a multi-detector network, the ability to draw rigorous conclusions about fundamental physics remains severely limited.",
+    "archive": "arXiv",
+    "archiveLocation": "2509.07348",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "Scholar": "VRBv6mEAAAAJ:1sJd4Hv_s6UC",
+      "Venue": "The Astrophysical Journal Letters 1004 (2), L23, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
