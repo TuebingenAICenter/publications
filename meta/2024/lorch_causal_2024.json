@@ -5,12 +5,18 @@
     ]
   },
   "zotero": {
-    "abstractNote": "We propose a framework for causal modeling based on stationary diffusion processes. By leveraging the connection between stochastic differential equations and causal mechanisms, we show that stationary diffusions can represent a wide class of causal models. We demonstrate that our approach allows for flexible causal discovery and inference, and we provide theoretical guarantees for the identifiability of the causal structure. Our experiments on synthetic and real-world data show that our method outperforms existing approaches in terms of accuracy and robustness.",
+    "abstractNote": "We propose a framework for causal modeling based on stationary diffusion processes. By leveraging the properties of stationary diffusions, we can model causal relationships in continuous time and space, allowing for the representation of complex, non-linear causal mechanisms. We demonstrate the effectiveness of our approach on synthetic and real-world datasets, showing that it can recover causal structures and perform accurate interventional inference.",
+    "conferenceName": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-10-01": "40",
+      "Note": "*equal supervision",
       "OpenAlex": "W4387995400",
-      "Scholar": "DZ-fHPgAAAAJ:Ov0tOPCVJJ4C"
+      "Scholar": "DZ-fHPgAAAAJ:Ov0tOPCVJJ4C",
+      "Venue": "International Conference on Artificial Intelligence and Statistics, 1927-1935, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
