@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Learning-based quadrupedal locomotion typically relies on complex reward formulations that entangle task specification, operational limits, gait preference, and terrain adaptation within a single optimization objective. We instead treat these functions through distinct mechanisms: rewards for task specification, constraints for operational limits, energy minimization for gait preference, and exteroceptive perception for adapting energy use to terrain difficulty. We show that these components jointly enable efficient, terrain-adaptive locomotion, and that removing each component exposes a distinct failure mode. Our formulation removes explicit gait priors (including air-time, contact-count, and foot-clearance targets) in favor of emergent behavior. Compared to a conventional complex-reward baseline, our formulation achieves comparable terrain traversal while reducing cost of transport by 56% and operational-limit violations by 96%. The resulting policies transfer zero-shot to a physical Unitree Go2 using LiDAR-based elevation mapping. Project website with videos: this https URL.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2606.15896",
+    "callNumber": "arXiv:2606.15896",
+    "extra": {
+      "Archive ID": "2606.15896",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7165064178",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:LO7wyVUgiFcC",
+      "Venue": "arXiv preprint arXiv:2606.15896, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
