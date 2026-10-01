@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "LIGO, Virgo, KAGRA, and GEO 600 form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center (GWOSC). This paper describes open data from this network, including the addition of data from the second part of the fourth observing run (O4b) and selected periods from the preceding engineering run (ER16), which were collected from times spanning April 6th, 2024 to January 28th, 2025. The public data set includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and new analysis data products in the online GWOSC release associated with version 5.0 of the Gravitational-Wave Transient Catalog.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.27090",
+    "extra": {
+      "Citations@2026-06-01": "20",
+      "Citations@2026-07-13": "29",
+      "Scholar": "VRBv6mEAAAAJ:P5F9QuxV20EC",
+      "Venue": "The Astrophysical Journal 1004 (2), 232, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
