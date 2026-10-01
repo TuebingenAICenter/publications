@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Machine learning (ML) is transforming healthcare, but safe clinical decisions demand reliable uncertainty estimates that standard ML models fail to provide. Conformal prediction (CP) is a popular tool that allows users to turn heuristic uncertainty estimates into uncertainty estimates with statistical guarantees. CP works by converting predictions of a ML model, together with a calibration sample, into prediction sets that are guaranteed to contain the true label with any desired probability. An often cited advantage is that CP theory holds for calibration samples of arbitrary size, suggesting that uncertainty estimates with practically meaningful statistical guarantees can be achieved even if only small calibration sets are available. We question this promise by showing that, although the statistical guarantees hold for calibration sets of arbitrary size, the practical utility of these guarantees does highly depend on the size of the calibration set. This observation is relevant in medical domains because data is often scarce and obtaining large calibration sets is therefore infeasible. We corroborate our critique in an empirical demonstration on a medical image classification task.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2512.14727",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Citations@2026-07-13": "1",
+      "Scholar": "DZ-fHPgAAAAJ:jKDndaUStp4C",
+      "Venue": "Artificial Intelligence in Medicine 180, 103462, 2026"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2512.14727'>https://arxiv.org/abs/2512.14727</a><br><a href='https://researchtrend.ai/papers/2512.14727'>https://researchtrend.ai/papers/2512.14727</a><br><a href='https://www.aimodels.fyi/papers/arxiv/critical-perspective-finite-sample-conformal-prediction-theory'>https://www.aimodels.fyi/papers/arxiv/critical-perspective-finite-sample-conformal-prediction-theory</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
