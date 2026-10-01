@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "As language models evolve into autonomous agents that act and communicate on behalf of users, ensuring safety in multi-agent ecosystems becomes a central challenge. Interactions between personal assistants and external service providers expose a core tension between utility and protection: effective collaboration requires information sharing, yet every exchange creates new attack surfaces. We introduce ConVerse, a dynamic benchmark for evaluating privacy and security risks in agent-agent interactions. ConVerse spans three practical domains (travel, real estate, insurance) with 12 user personas and over 864 contextually grounded attacks (611 privacy, 253 security). Unlike prior single-agent settings, it models autonomous, multi-turn agent-to-agent conversations where malicious requests are embedded within plausible discourse. Privacy is tested through a three-tier taxonomy assessing abstraction quality, while security attacks target tool use and preference manipulation. Evaluating seven state-of-the-art models reveals persistent vulnerabilities; privacy attacks succeed in up to 88% of cases and security breaches in up to 60%, with stronger models leaking more. By unifying privacy and security within interactive multi-agent contexts, ConVerse reframes safety as an emergent property of communication.",
+    "archive": "ACL Anthology",
+    "archiveLocation": "2026.findings-eacl.170",
+    "conferenceName": "Findings of the Association for Computational Linguistics: EACL 2026",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7155383124",
+      "Scholar": "QEiYbDYAAAAJ:Gb6Hms-Uo9kC",
+      "Venue": "Findings of EACL, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "proceedingsTitle": "Findings of the Association for Computational Linguistics: EACL 2026"
+  }
+}
