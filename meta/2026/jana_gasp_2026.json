@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius",
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Asymmetric self-play has emerged as a promising paradigm for post-training large language models, where a teacher continually generates questions for a student to solve at the edge of the student's learnability. Although these methods promise open-ended data generation bootstrapped from no human data, they suffer from one major problem: not all problems that are hard to solve are interesting or informative to improve the overall capabilities of the model. Current asymmetric self-play methods are goal-agnostic with no real grounding. We propose Guided Asymmetric Self-Play (GASP), where grounding is provided by real-data goalpost questions that are identified to pose a hard exploration challenge to the model. During self-play, the teacher first generates an easier variant of a hard question, and then a harder variant of that easier question, with the goal of gradually closing the gap to the goalpost throughout training. Doing so, we improve pass@20 on LiveCodeBench (LCB) by 2.5% over unguided asymmetric self-play, and through the curriculum constructed by the teacher, we manage to solve hard goalpost questions that remain out of reach for all baselines.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.15957",
+    "extra": {
+      "Accepted to ICLR 2026 workshops": "Recursive Self-Improvement (RSI) and Lifelong Learning.",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7139146298",
+      "Scholar": "xkuLyHoAAAAJ:CHSYGLWDkRkC",
+      "Venue": "arXiv preprint arXiv:2603.15957, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv"
+  }
+}
