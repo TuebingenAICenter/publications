@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recent studies suggest that the deeper layers of Large Language Models (LLMs) contribute little to representation learning and can often be removed without significant performance loss. However, such claims are typically drawn from narrow evaluations and may overlook important aspects of model behavior. In this work, we present a systematic study of depth utilization across diverse dimensions, including evaluation protocols, task categories, and model architectures. Our analysis confirms that very deep layers are generally less effective than earlier ones, but their contributions vary substantially with the evaluation setting. Under likelihood-based metrics without generation, pruning most layers preserves performance, with only the initial few being critical. By contrast, generation-based evaluation uncovers indispensable roles for middle and deeper layers in enabling reasoning and maintaining long-range coherence. We further find that knowledge and retrieval are concentrated in shallow components, whereas reasoning accuracy relies heavily on deeper layers -- yet can be reshaped through distillation. These results highlight that depth usage in LLMs is highly heterogeneous and context-dependent, underscoring the need for task-, metric-, and model-aware perspectives in both interpreting and compressing large models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.02091",
+    "conferenceName": "International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "extra": {
+      "Citations@2026-06-01": "13",
+      "Citations@2026-07-13": "18",
+      "Scholar": "73IbXtsAAAAJ:ye4kPcJQO24C",
+      "Venue": "ICASSP 2026, arXiv preprint arXiv:2510.02091, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  }
+}
