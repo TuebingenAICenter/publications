@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "InferenceBench measures whether autonomous CLI agents can act as ML systems engineers in a genuinely open-ended setting. Each run gives the agent a base LLM, a single NVIDIA H100, a wall-clock budget, and a scenario-specific objective; the agent must deliver a running, OpenAI-compatible inference server that maximizes the scenario's primary metric while passing both a quality gate and an integrity gate. Unlike narrower benchmarks where the action space collapses to hyperparameter tuning over a known recipe, inference systems engineering forces real composition choices such as inference framework, attention backend, quantization format, KV-cache layout, scheduler tuning under brittle infrastructure where wrong combinations fail.",
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=UNudgkp1Jp",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:tS2w5q8j5-wC",
+      "Venue": "ICML 2026 Workshop on Agents in the Wild (Spotlight), 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
