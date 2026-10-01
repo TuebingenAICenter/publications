@@ -5,17 +5,22 @@
     ]
   },
   "zotero": {
+    "abstractNote": "This document presents a study on mitigating data contamination in the evaluation of large language models (LLMs) by employing a reasoning-driven synthesis approach. The authors synthesized 1,643 multi-step reasoning questions from 20,277 arXiv papers, demonstrating that their method effectively resists contamination and maintains performance stability across various model families. They advocate for a shift towards reasoning-driven benchmarks that prioritize genuine problem-solving abilities over memorization, and provide open-source resources for reproducibility.",
+    "conferenceName": "First Workshop on Foundations of Reasoning in Language Models (FoGen)",
     "extra": {
       "Citations@2026-06-01": "1",
-      "Scholar": "DZ-fHPgAAAAJ:1pey-SaUeH0C"
+      "Citations@2026-07-13": "1",
+      "Scholar": "DZ-fHPgAAAAJ:1pey-SaUeH0C",
+      "Venue": "First Workshop on Foundations of Reasoning in Language Models, 2025"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2509.00072'>https://arxiv.org/abs/2509.00072</a><br><a href='https://jglobal.jst.go.jp/en/public/202502210844732806'>https://jglobal.jst.go.jp/en/public/202502210844732806</a><br><a href='https://www.aimodels.fyi/papers/arxiv/beyond-memorization-reasoning-driven-synthesis-as-mitigation'>https://www.aimodels.fyi/papers/arxiv/beyond-memorization-reasoning-driven-synthesis-as-mitigation</a><br></p>",
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "First Workshop on Foundations of Reasoning in Language Models (FoGen)"
   }
 }
