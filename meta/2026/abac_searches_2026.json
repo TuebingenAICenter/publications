@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We report on a gravitational wave search for compact binary coalescences involving at least one component with mass between 0.2 M_sun to 1 M_sun, and ratio of component masses between 0.1 and 1. The analysis uses data collected by the LIGO detectors between May 24 2023 15:00 UTC and January 16 2024 16:00 UTC. No statistically significant sub-solar mass candidates were identified by the participating search algorithms. We report the detection sensitivity of the current searches to the target sub-solar mass black hole population, while also reporting the sensitivity of the search to low-mass neutron star binaries for the first time. With the absence of detections, we place upper limits on the merger rate of sub-solar mass black holes, ranging from 110 Gpc^-3 yr^-1 to 10000 Gpc^-3 yr^-1 at 90% confidence. We use the merger rate limits to constrain two illustrative dark matter scenarios that can form sub-solar mass compact objects: primordial black holes, and dark black holes forming in a dissipative dark matter model. For late-forming primordial black hole binaries, our search excludes the fraction of dark matter in primordial black holes to be 1 for masses above 0.9 M_sun. In the early-formation scenario, we limit this fraction to be <= 7% at 1 M_sun, and <= 40% at 0.35 M_sun. For the dissipative model, the excluded region in the parameter space of dark matter fraction in dark black holes and their minimum possible mass extends down to (1.2 to 1.3) x 10^-5 when the minimum mass is 1 M_sun. For binary neutron stars that include sub-solar mass components, we estimate the sensitive space-time hypervolume to be 10^-3 Gpc^3 yr, and report the upper limit on their merger rate for a simple, fixed population as ~86 Gpc^-3 yr^-1.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2605.05444",
+    "callNumber": "arXiv:2605.05444",
+    "extra": {
+      "Archive ID": "2605.05444",
+      "Citations@2026-07-13": "1",
+      "Repository": "arXiv",
+      "Scholar": "VRBv6mEAAAAJ:xtRiw3GOFMkC",
+      "Venue": "arXiv preprint arXiv:2605.05444, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
