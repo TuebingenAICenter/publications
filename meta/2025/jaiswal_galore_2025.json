@@ -5,10 +5,17 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Modern Large Language Models (LLMs) are composed of matrices with billions of elements, making their storage and processing quite demanding in terms of computational resources and memory usage. Being significantly large, such matrices can often be expressed in low-rank format with potential to relax resource requirements. Unlike prior works which focus on developing novel matrix decomposition algorithms, in this work we first study the emergence of low-rank structures across matrices within different layers of LLMs and establish a consequential relationship between the gradient dynamics and emerging low-rank expressiveness of matrices. Our findings reveal that different layers exhibit varying levels of converged low-rank structure, necessitating a non-uniform rank reduction across them to minimize performance drop due to compression. In view of that, we present Weight Low-Rank Projection (WeLore) that unifies weight compression and memory-efficient fine-tuning as ONE, in a data-agnostic and one-shot way. WeLore capitalizes the heavy-tail distribution of singular values to identify a suitable rank reduction ratio for matrices within LLMs. Going beyond only as a compression technique, WeLore categorizes weight matrices into Low-rank Components (LRCs) and Non-Low-rank Components (N-LRCs) based on their ability to express themselves as low-rank. Our gradient perspective and extensive experiments illustrate that LRCs tend to have better finetuning capabilities and can closely mimic (sometimes outperform) the training loss trajectory and performance of full-finetuning with notable memory and compute footprint reduction. For example, finetuning a 50% compressed LLaMa-2 7B model using only a fraction of parameters in LRCs (WeLore) can outperform its full finetuning with ∼3× better throughput and ∼0.6× GPU requirement.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.11239",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
     "extra": {
       "Citations@2026-06-01": "42",
-      "Scholar": "73IbXtsAAAAJ:b0M2c_1WBrUC"
+      "Citations@2026-07-13": "42",
+      "Scholar": "73IbXtsAAAAJ:b0M2c_1WBrUC",
+      "Venue": "ICML 2025, arXiv preprint arXiv:2407.11239, 2025"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
   }
 }
