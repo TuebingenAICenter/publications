@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Emergent misalignment (EM) is a phenomenon in which models generalize with narrow fine-tuning, leading to broad (yet uneven) misalignment across evaluation questions. We study EM and its variability directly through the components of fine-tuning: training dynamics, model priors, and data. (1) We first explored how in-domain training loss relates to out-of-domain alignment scores across datasets and model families. Then, we tried to induce potential alternative local minima through different learning schedules for one narrow fine-tuning, but did not find strong runs with better broad alignment scores conditioned on similar or lower training loss. (2) We found that although the mean and standard deviations of the misaligned model scores are usually statistically different from those of the pre-trained model, there are some potential signals on overall positive correlation. The evaluation prompt-only activations from both the pre-trained and the original instruct models (prior to narrow fine-tuning) could predict fine-grained alignment scores after narrow fine-tuning. (3) Finally, we compared activation deltas before and after narrow fine-tuning and found moderate-to-high subspace overlap and similarity between the resulting activation shifts for training and evaluation prompts. Subspace overlaps between training and evaluation prompt activations correlate with their shifts' similarities when measuring with the last prompt-token activations. The train-evaluation data prompt overlap is controlled against overlap computed from random vectors and evaluation prompts activations.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.20814",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:5Ul4iDaHHb8C",
+      "Venue": "International Conference on Machine Learning (ICML), 2026"
+    },
+    "itemType": "conferencePaper"
+  }
+}
