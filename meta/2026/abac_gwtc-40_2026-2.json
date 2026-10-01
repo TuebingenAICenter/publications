@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We detail the population properties of merging compact objects using 158 mergers from the cumulative Gravitational-Wave Transient Catalog 4.0, which includes three types of binary mergers: binary neutron star, neutron star--black hole binary, and binary black hole mergers. We resolve multiple over- and under-densities in the black hole mass distribution: features persist at primary masses of 10 M_sun and 35 M_sun with a possible third feature at ~ 20 M_sun. These are departures from an otherwise power-law-like continuum that steepens above 35 M_sun. Binary black holes with primary masses near 10 M_sun are more likely to have less massive secondaries, with a mass ratio distribution peaking at q = 0.74+0.13-0.13, potentially a signature of stable mass transfer during binary evolution. Black hole spins are inferred to be non-extremal, with 90% of black holes having chi < 0.57, and preferentially aligned with binary orbits, implying many merging binaries form in isolation. However, we find a significant fraction, 0.24-0.42, of binaries have negative effective inspiral spins, suggesting many could be formed dynamically in gas-free environments. We find evidence for correlation between effective inspiral spin and mass ratio, though it is unclear if this is driven by variation in the mode of the distribution or the width.",
+    "archive": "arXiv",
+    "archiveLocation": "2508.18083",
+    "extra": {
+      "Citations@2026-06-01": "34",
+      "Citations@2026-07-13": "44",
+      "Scholar": "VRBv6mEAAAAJ:TFP_iSt0sucC",
+      "Venue": "The Astrophysical Journal Letters 1005 (2), L51, 2026",
+      "arXiv": "2508.18083"
+    },
+    "itemType": "journalArticle"
+  }
+}
