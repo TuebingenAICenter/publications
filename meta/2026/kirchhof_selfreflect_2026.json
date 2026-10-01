@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The common approach to communicate a large language model's (LLM) uncertainty is to add a percentage number or a hedging word to its response. But is this all we can do? Instead of generating a single answer and then hedging it, an LLM that is fully transparent to the user needs to be able to reflect on its internal belief distribution and output a summary of all options it deems possible, and how likely they are. To test whether LLMs possess this capability, we develop the SelfReflect metric, an information-theoretic distance between a given summary and a distribution over answers. In interventional and human studies, we find that SelfReflect indicates even slight deviations, yielding a fine measure of faithfulness between a summary string and an LLM's actual internal distribution over answers. With SelfReflect, we make a resounding negative observation: modern LLMs are, across the board, incapable of revealing what they are uncertain about, neither through reasoning, nor chains-of-thoughts, nor explicit finetuning. However, we do find that LLMs are able to generate faithful summaries of their uncertainties if we help them by sampling multiple outputs and feeding them back into the context. This simple approach shines a light at the universal way of communicating LLM uncertainties whose future development the SelfReflect score enables.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2505.20295",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "Scholar": "kmXOOdsAAAAJ:SP6oXDckpogC",
+      "Venue": "arXiv preprint arXiv:2505.20295, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Workshop on Reliable and Responsible Foundation Models (RRFMs)"
+  }
+}
