@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present HAPTIC, an approach that infers coherent 4D hand trajectories from monocular videos. Current video-based hand pose reconstruction methods primarily focus on improving frame-wise 3D pose using adjacent frames rather than studying consistent 4D hand trajectories in space. Despite the additional temporal cues, they generally underperform compared to image-based methods due to the scarcity of annotated video data. To address these issues, we repurpose a state-of-the-art image-based transformer to take in multiple frames and directly predict a coherent trajectory. We introduce two types of lightweight attention layers: cross-view self-attention to fuse temporal information, and global cross-attention to bring in larger spatial context. Our method infers 4D hand trajectories similar to the ground truth while maintaining strong 2D reprojection alignment. We apply the method to both egocentric and allocentric videos. It significantly outperforms existing methods in global trajectory accuracy while being comparable to the state-of-the-art in single-image pose estimation.",
+    "archive": "arXiv",
+    "archiveLocation": "2501.08329",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-07-13": "12",
+      "Scholar": "6NjbexEAAAAJ:wmBOIy6d62IC",
+      "Venue": "2026 International Conference on 3D Vision (3DV), 860-870, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}
