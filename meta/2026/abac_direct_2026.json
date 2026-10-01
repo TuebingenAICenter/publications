@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a search of data from the first part of the fourth observing run of LIGO-Virgo-KAGRA for three kinds of dark matter—dilatons (spin-0), dark photons (spin-1), and axion-like particles (pseudoscalar).",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Citations@2026-10-01": "2",
+      "Scholar": "VRBv6mEAAAAJ:70eg2SAEIzsC",
+      "Venue": "Physical Review Letters 137 (13), 131001, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
