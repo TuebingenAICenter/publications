@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Ensuring that AI agents behave safely and beneficially when interacting with other parties has emerged as one of the central challenges of modern AI safety. While mechanism design, as the theory of designing rules to align individual and collective objectives, can incentivize cooperative behavior, it is still an open question whether it alone is sufficient to maximize LLM agents’ social welfare. In this work, we investigate the interplay between mechanism design and agent prosociality. We first theoretically demonstrate a 'cooperation gap': even with optimal mechanisms, selfish agents fail to achieve the social optimum in environments with incontractible information. We then empirically evaluate this gap across two game-theoretic benchmarks, TableGames and GovSimContract, using a diverse set of frontier LLMs. Our results show that the cooperation gap is pervasive, and that mechanism design and agent prosociality are complementary: prosociality is essential when environments are not fully contractible. Finally, we find that frontier models are not inherently prosocial, highlighting the need for explicit alignment interventions to foster cooperative AI.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.GT",
+    "callNumber": "arXiv:2605.08426",
+    "extra": {
+      "Archive ID": "2605.08426",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:jEt36SqvAKIC",
+      "Venue": "arXiv preprint arXiv:2605.08426, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
