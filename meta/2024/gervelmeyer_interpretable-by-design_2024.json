@@ -5,13 +5,19 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Deep learning models have shown great promise in survival analysis, but their black-box nature often limits their clinical adoption. We propose a novel interpretable-by-design deep survival model that combines the flexibility of deep neural networks with the interpretability of additive models. Our approach learns a non-linear representation of the input features and models the hazard function as a sum of interpretable components. We demonstrate the effectiveness of our model on several clinical datasets, showing that it achieves competitive performance while providing insights into the contribution of individual features to the predicted survival risk.",
+    "abstractNote": "In the elderly, degenerative diseases often develop differently over time for individual patients. For optimal treatment, physicians and patients would like to know how much time is left for them until symptoms reach a certain stage. However, compared to simple disease detection tasks, disease progression modeling has received much less attention. In addition, most existing models are black-box models which provide little insight into the mechanisms driving the prediction. Here, we introduce an interpretable-by-design survival model to predict the progression of age-related macular degeneration (AMD) from fundus images. Our model not only achieves state-of-the-art prediction performance compared to black-box models but also provides a sparse map of local evidence of AMD progression for individual patients. Our evidence map faithfully reflects the decision-making process of the model in contrast to widely used post-hoc saliency methods. Furthermore, we show that the identified regions mostly align with established clinical AMD progression markers. We believe that our method may help to inform treatment decisions and may lead to better insights into imaging biomarkers indicative of disease progression.",
+    "conferenceName": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "Conference": "MICCAI 2024",
       "OpenAlex": "W4400522063",
-      "Scholar": "lPQLk3QAAAAJ:JQOojiI6XY0C"
+      "Scholar": "lPQLk3QAAAAJ:JQOojiI6XY0C",
+      "Venue": "International Conference on Medical Image Computing and Computer-Assisted …, 2024",
+      "publicationTitle": "medRxiv"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+    "seriesTitle": "Lecture Notes in Computer Science"
   }
 }
