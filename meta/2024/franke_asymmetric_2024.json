@@ -5,15 +5,16 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Mice are dichromats, possessing M- and S-opsins. While it is known that their retina contains color-opponent ganglion cells, it remains unclear how this information is processed in the visual cortex. Here, we show that the mouse visual cortex contains a diverse population of color-opponent neurons. We find that these neurons are not uniformly distributed across the visual field. Instead, they are asymmetrically distributed, with a higher density of S-cone-dominated color-opponent neurons in the dorsal visual field, which corresponds to the sky. This distribution is well-suited for detecting aerial predators against the sky. Our results suggest that the mouse visual system is adapted to the statistics of its natural environment, supporting the idea that color vision is optimized for ethologically relevant tasks.",
+    "abstractNote": "Color is an important visual feature that informs behavior, and the retinal basis for color vision has been studied across various vertebrate species. While many studies have investigated how color information is processed in visual brain areas of primate species, we have limited understanding of how it is organized beyond the retina in other species, including most dichromatic mammals. In this study, we systematically characterized how color is represented in the primary visual cortex (V1) of mice. Using large-scale neuronal recordings and a luminance and color noise stimulus, we found that more than a third of neurons in mouse V1 are color-opponent in their receptive field center, while the receptive field surround predominantly captures luminance contrast. Furthermore, we found that color-opponency is especially pronounced in posterior V1 that encodes the sky, matching the statistics of natural scenes experienced by mice. Using unsupervised clustering, we demonstrate that the asymmetry in color representations across cortex can be explained by an uneven distribution of green-On/UV-Off color-opponent response types that are represented in the upper visual field. Finally, a simple model with natural scene-inspired parametric stimuli shows that green-On/UV-Off color-opponent response types may enhance the detection of “predatory”-like dark UV-objects in noisy daylight conditions.",
     "extra": {
       "Article Number": "RP89996",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4402278168",
-      "Publication Title": "eLife 12, RP89996, 2024",
       "Scholar": "lPQLk3QAAAAJ:5ugPr518TE4C",
-      "Volume": "12"
+      "Type": "journalArticle",
+      "Venue": "eLife 12, RP89996, 2024"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
