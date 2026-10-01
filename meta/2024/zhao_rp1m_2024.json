@@ -5,12 +5,18 @@
     ]
   },
   "zotero": {
-    "abstractNote": "We introduce RP1M, a large-scale motion dataset for piano playing with bi-manual dexterous robot hands. The dataset contains 1 million frames of high-quality motion data, captured from a human pianist using a motion capture system and retargeted to a pair of dexterous robot hands. We provide the dataset to facilitate research in dexterous manipulation, imitation learning, and music generation. We also provide a set of baseline models for motion retargeting and piano playing.",
+    "abstractNote": "It has been a long-standing research goal to endow robot hands with human-level dexterity. Bi-manual robot piano playing constitutes a task that combines challenges from dynamic tasks, such as generating fast while precise motions, with slower but contact-rich manipulation problems. Although reinforcement learning based approaches have shown promising results in single-task performance, these methods struggle in a multi-song setting. Our work aims to close this gap and, thereby, enable imitation learning approaches for robot piano playing at scale. To this end, we introduce the Robot Piano 1 Million (RP1M) dataset, containing bi-manual robot piano playing motion data of more than one million trajectories. We formulate finger placements as an optimal transport problem, thus, enabling automatic annotation of vast amounts of unlabeled songs. Benchmarking existing imitation learning approaches shows that such approaches reach state-of-the-art robot piano playing performance by leveraging RP1M.",
+    "conferenceName": "Conference on Robot Learning (CORL)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4403012165",
-      "Scholar": "DZ-fHPgAAAAJ:ebVesCmVcMYC"
+      "Scholar": "DZ-fHPgAAAAJ:ebVesCmVcMYC",
+      "Venue": "arXiv preprint arXiv:2408.11048, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 8th Annual Conference on Robot Learning (CORL)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
