@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "geiping",
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "With the success of deep learning in the past decade, neural networks transitioned from simple layer stacking to sophisticated, highly complex designs. This article provides an overview of such deep learning architectures for sequence modeling, with a focus on their core mathematical principles: 1) we review the evolution of common sequence models from recurrent neural networks (RNNs), to Transformers, and modern state-space models (SSMs), exploring their foundational components such as gating, attention, and linear dynamical systems mechanisms. 2) We present general linear sequence mixers as a unifying framework to highlight the relationship between architectures and compare them in terms of inductive biases and algorithmic complexity. 3) We examine how practical considerations such as parallelizability and hardware awareness dictate their success. Finally, we discuss their impact on diverse fields of signal processing, including time-series analysis, natural language, and computer vision.",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7164490748",
+      "Scholar": "xkuLyHoAAAAJ:p2g8aNsByqUC",
+      "Venue": "IEEE Signal Processing Magazine 43 (3), 115-129, 2026"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "Infoscience"
+  }
+}
