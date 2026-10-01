@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "wu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Most neural models of causality assume static causal graphs, failing to capture the dynamic and sparse nature of physical interactions where causal relationships emerge and dissolve over time. We introduce the Causal Process Framework and its neural implementation, Causal Process Models (CPMs), for learning sparse, time-varying causal graphs from visual observations. Unlike traditional approaches that maintain dense connectivity, our model explicitly constructs causal edges only when objects actively interact, dramatically improving both interpretability and computational efficiency. We achieve this by casting dynamic interaction-graph construction for world modeling as a multi-agent reinforcement learning problem, where specialized agents sequentially decide which objects are causally connected at each timestep. Our key innovation is a structured representation that factorizes object and force vectors along three learned dimensions (mutability, causal relevance, and control relevance), enabling the automatic discovery of semantically meaningful encodings. We demonstrate that a CPM significantly outperforms dense graph baselines on physical prediction tasks, particularly for longer horizons and varying object counts.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.13920",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2507.13920"
+      }
+    ],
+    "conferenceName": "Conference on Causal Learning and Reasoning (CLeaR)",
+    "extra": {
+      "Editors": "Bijan Mazaheri, Niels Richard Hanson",
+      "Scholar": "1O2hcVgAAAAJ:JoZmwDi-zQgC",
+      "Venue": "5th Conference on Causal Learning and Reasoning (CLeaR), 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Fifth Conference on Causal Learning and Reasoning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}
