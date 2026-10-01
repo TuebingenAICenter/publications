@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "By precisely quantifying both the benefits and drawbacks of temporal processing, our work provides the community with clear, actionable insights into when and why temporal information should be modeled for more robust and accurate video saliency prediction. An in-depth analysis revealing our model's sensitivities to complex temporal dynamics, including hand-object interactions and varied camera motions, which allows us to isolate the specific contributions of temporal cues.",
+    "conferenceName": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7160275339",
+      "Scholar": "0z0fNxUAAAAJ:aDl3D7KC1E4C",
+      "Venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}
