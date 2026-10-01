@@ -5,11 +5,16 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Reliable wind speed data is crucial for applications such as estimating local (future) wind power. Global Climate Models (GCMs) and Regional Climate Models (RCMs) provide forecasts over multi-decadal periods. However, their outputs vary substantially, and higher-resolution models come with increased computational demands. In this study, we analyze how the spatial resolution of different GCMs and RCMs affects the reliability of simulated wind speeds and wind power, using ERA5 data as a reference. We present a systematic procedure for model evaluation for wind resource assessment as a downstream task. Our results show that higher-resolution GCMs and RCMs do not necessarily preserve wind speeds more accurately. Instead, the choice of model, both for GCMs and RCMs, is more important than the resolution or GCM boundary conditions. The IPSL model preserves the wind speed distribution particularly well in Europe, producing the most accurate wind power forecasts relative to ERA5 data.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2411.11630",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4408466088",
-      "Scholar": "by3EWqIAAAAJ:t6usbXjVLHcC"
+      "Scholar": "by3EWqIAAAAJ:t6usbXjVLHcC",
+      "Venue": "Environmental Research Letters 20 (4), 044032, 2025"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
