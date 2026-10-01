@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The temporal order of a sequence of events has been thought to be reflected in the ordered firing of neurons at different phases of theta oscillations, a phenomenon known as phase precession. Here we show that in human hippocampal and entorhinal neurons, as well as in recurrent neural networks trained on sequence memory tasks, the phase of firing does not reliably encode the temporal order of items in a sequence. Instead, we find that phase of firing is primarily determined by the item's identity and the overall sequence structure, rather than its specific position within the sequence. Our results challenge the generality of phase precession as a mechanism for temporal sequence coding in humans and suggest that alternative mechanisms may be at play.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.1101/2022.09.25.509370",
+    "extra": {
+      "Archive ID": "10.1101/2022.09.25.509370",
+      "Citations@2026-06-01": "10",
+      "Citations@2026-10-01": "37",
+      "OpenAlex": "W4297338429",
+      "Repository": "bioRxiv",
+      "Scholar": "FKOqtF8AAAAJ:dyiPZ63SVtYC",
+      "Venue": "Nature Neuroscience, 1-10, 2025"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "bioRxiv"
+  }
+}
