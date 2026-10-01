@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "ARC tests in-context rule induction: given a few input-output demonstrations, a model must infer the hidden rule and apply it to a new query. While many approaches express ARC rules through language, code, or symbolic programs, ARC itself is visual-symbolic: rules appear as grid transitions over objects, colors, shapes, and spatial relations. We introduce Loop-OWM, an object-centric world-modeling architecture that learns these rules as composable transitions over structured states. It combines color-prototype slots, demonstration-conditioned task summaries, and a looped transition model with dense propagation and slot-conditioned correction. On both ARC-1 and ARC-2, Loop-OWM outperforms non-looped and looped baselines with comparable or fewer parameters. These results suggest that ARC rules can be learned not only as language descriptions or searched programs, but also as transitions over visual-symbolic world states.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.12316",
+    "extra": {
+      "Archive ID": "2606.12316",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7164615081",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:17ZO-CJnx_8C",
+      "Venue": "arXiv preprint arXiv:2606.12316, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
