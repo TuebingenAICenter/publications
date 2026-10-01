@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "For safety-critical applications, it is crucial to audit 3D human pose estimators before deployment. Will the system break down if the weather or the clothing changes? Is it robust regarding gender and age? To answer these questions and more, we need controlled studies with images that differ in a single attribute, but real benchmarks cannot provide such pairs. We thus present STAGE, a GenAI data toolkit for auditing 3D human pose estimators. For STAGE, we develop the first GenAI image creator with accurate 3D pose control and propose a novel evaluation strategy to isolate and quantify the effects of single factors such as gender, ethnicity, age, clothing, location, and weather. Enabled by STAGE, we generate a series of benchmarks to audit, for the first time, the sensitivity of popular pose estimators towards such factors. Our results show that natural variations can severely degrade pose estimator performance, raising doubts about their readiness for open-world deployment. We aim to highlight these robustness issues and establish STAGE as a benchmark to quantify them.",
+    "archive": "arXiv",
+    "archiveLocation": "2408.16536",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "OpenAlex": "W4402712021",
+      "Scholar": "OpXMNnMAAAAJ:vbGhcppDl1QC",
+      "Venue": "arXiv preprint arXiv:2408.16536, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}
