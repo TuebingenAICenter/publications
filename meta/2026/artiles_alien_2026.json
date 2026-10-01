@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Scientific discovery is constrained not only by what is true, but by what is cognitively available to the researchers currently exploring a field. Many directions are coherent in light of the literature yet unlikely to be proposed because no existing community occupies the right combination of concepts, methods, and intuitions. Modern language models inherit this bias, recombining high-density regions of the literature when prompted for novel ideas. We introduce a framework that targets the complementary region, which we call the alien space of science, where directions are plausible under the structure of existing knowledge but unlikely under the distribution of existing researchers. Our method first decomposes papers into granular conceptual units and clusters them into a shared vocabulary of idea atoms. It then learns two complementary models over this vocabulary. A coherence model scores whether a combination of atoms forms a viable research direction, and an availability model scores whether any existing author community is positioned to produce a given combination. Sampling alien directions then reduces to ranking atom combinations that maximize coherence while minimizing availability. On a corpus of 16,068 peer-reviewed LLM papers from NeurIPS, ICLR, ICML, and major NLP venues, the resulting sampler explores a 3.5 - 7 x broader effective atom vocabulary than frontier LLM ideation baselines without sacrificing coherence, and produces ideas that match or exceed those baselines under blind LLM, human, and downstream experimental evaluation. By separating scientific plausibility from community availability, our framework points toward AI ideation that complements rather than merely accelerates human science, expanding exploration into coherent directions that the current community may overlook.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.01092",
+    "callNumber": "arXiv:2603.01092",
+    "extra": {
+      "Archive ID": "2603.01092",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:1jRQbpGgOMsC",
+      "Venue": "arXiv preprint arXiv:2603.01092, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
