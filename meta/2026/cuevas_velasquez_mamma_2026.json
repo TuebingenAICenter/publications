@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present MAMMA, a markerless motion-capture pipeline that accurately recovers SMPL-X parameters from multi-view video. Our approach consist of MammaNet, a novel transformer-based dense landmark estimator that predicts 2D surface landmarks, uncertainty, visibility, and contact probabilities. Our network learns per-landmark embeddings which help it handle complex and out-of-distribution poses. To train this network, we introduce MammaSyn, a large-scale synthetic dataset featuring complex multi-person interactions and ground-truth dense landmarks. To match the predicted dense landmarks across views, we compute the symmetric epipolar distance between them and find the optimal matches. Finally, MAMMA uses the predicted and matched 2D landmarks to optimise the SMPL-X paramters. MAMMA leverages the predicted uncertainty and contact information, allowing it to avoid pose priors and complex loss terms.",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "4",
+      "Scholar": "6NjbexEAAAAJ:TWu9ukPC6OgC",
+      "Venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
