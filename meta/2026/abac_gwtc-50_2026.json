@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Gravitational-Wave Transient Catalog (GWTC) is a collection of candidate gravitational-wave transient signals identified and characterized by the LIGO-Virgo-KAGRA Collaboration. Producing the contents of the GWTC from detector data requires complex analysis methods. These comprise techniques to model the signal; identify the transients in the data; evaluate the quality of the data and mitigate possible instrumental issues; infer the parameters of each transient; compare the data with the waveform models for compact binary coalescences, and handle the large amount of results associated with all these different analyses. In this paper, we describe the methods employed to produce the catalog's fifth release, GWTC-5.0, focusing on the analysis of the second part of the fourth observing run of LIGO, Virgo and KAGRA.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.27224",
+    "extra": {
+      "Citations@2026-06-01": "33",
+      "Citations@2026-10-01": "52",
+      "Scholar": "VRBv6mEAAAAJ:738O_yMBCRsC",
+      "Venue": "The Astrophysical Journal Letters 1004 (2), L21, 2026",
+      "arXiv": "2605.27224"
+    },
+    "itemType": "journalArticle"
+  }
+}
