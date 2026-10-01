@@ -5,16 +5,20 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Offline reinforcement learning (RL) from observational data is often hindered by hidden confounding, which violates the standard assumption of unconfoundedness. While recent works have proposed methods to handle hidden confounding, they typically rely on strong identifiability assumptions, such as the existence of proxy variables or specific structural constraints. In this work, we study the problem of offline RL under nonidentifiable hidden confounding, where the causal effect of actions on rewards is not point-identifiable. We propose Delphic, a framework that learns a set of plausible policies by leveraging the partial identification of the optimal policy. We provide theoretical guarantees on the performance of our approach and demonstrate its effectiveness on a range of offline RL benchmarks.",
+    "abstractNote": "Offline reinforcement learning (RL) aims to learn optimal policies from static datasets. A major challenge in this setting is the presence of hidden confounders, which violate the standard assumption of unconfoundedness and lead to biased policy evaluation and sub-optimal policy learning. While recent works have addressed this by leveraging instrumental variables or proxy variables, they often rely on strong identifiability assumptions that are difficult to satisfy in practice. In this work, we introduce Delphic, a novel framework for offline RL under nonidentifiable hidden confounding. Delphic leverages the structure of the causal graph to learn a representation that is invariant to the hidden confounder, while still being predictive of the reward. We provide theoretical guarantees for the identifiability of the optimal policy under our framework and demonstrate its effectiveness on a range of challenging offline RL benchmarks.",
     "archive": "arXiv",
     "archiveLocation": "2306.01157",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Archive ID": "2306.01157",
       "Citations@2026-06-01": "2",
+      "Citations@2026-10-01": "24",
       "OpenAlex": "W4379469361",
       "Repository": "arXiv",
-      "Scholar": "DZ-fHPgAAAAJ:1NEBFUVDtJoC"
+      "Scholar": "DZ-fHPgAAAAJ:1NEBFUVDtJoC",
+      "Venue": "International Conference on Learning Representations 2024, 2768-2796, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
