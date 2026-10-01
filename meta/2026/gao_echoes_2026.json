@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Memory is not merely the storage of data; it is the scaffolding of reality. When biological memory fades, the world does not simply turn black; it regresses into an unrecognizable chaos. Echoes of the Prior is an interactive installation that attempts to visualize this subjective phenomenology of forgetting. By inducing controlled synaptic decay within a Feed-Forward 3D Reconstruction model, we create an artistic analogy for the erosion of the brain's predictive priors. We position the Neural Network not as a tool for engineering, but as a cognitive proxy - a silicon brain whose structural degeneration evokes the disorienting, poetic, and terrifying experience of losing one's grip on the world. Ultimately, we offer this framework as a catalyst, inviting the wider community to explore the uncharted potential of neuromorphic aesthetics in visualizing the fragility of intelligence.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.12340",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7164488865",
+      "Scholar": "SrVnrPcAAAAJ:G36d5HCDkJYC",
+      "Venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques 9 (3 …, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
