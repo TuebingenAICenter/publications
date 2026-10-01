@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large audio-language models (LALMs) show strong zero-shot performance on tasks such as audio question answering, but still lag behind specialized systems on discriminative tasks such as audio classification. Recent work shows that sparse subsets of attention heads can serve as discriminative feature extractors for few-shot classification, but existing methods weight all selected heads equally. We propose Class-Conditional Sparse Attention Vectors for Large Audio-Language Models (CALM), a few-shot classifier that learns class-conditional importance weights over attention heads. By treating heads as class-specific experts and aggregating them with reliability-weighted soft voting, CALM allows different classes to rely on different subsets of heads. Across diverse few-shot audio, audiovisual, visual, and spoofing benchmarks, CALM consistently outperforms state-of-the-art uniform-voting baselines, with gains of up to 14.52, 1.53, and 8.35 absolute points on audio, audiovisual, and spoofing tasks, respectively.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.07077",
+    "callNumber": "arXiv:2602.07077",
+    "extra": {
+      "Archive ID": "2602.07077",
+      "Citations@2026-07-13": "1",
+      "Repository": "arXiv",
+      "Scholar": "pxhCcH0AAAAJ:AXPGKjj_ei8C",
+      "Venue": "arXiv preprint arXiv:2602.07077, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
