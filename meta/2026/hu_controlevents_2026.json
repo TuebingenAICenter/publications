@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In recent years, event cameras have gained significant attention due to their bio-inspired properties, such as high temporal resolution and high dynamic range. However, obtaining large-scale labeled ground-truth data for event-based vision tasks remains challenging and costly. In this paper, we present ControlEvents, a diffusion-based generative model designed to synthesize high-quality event data guided by diverse control signals such as class text labels, 2D skeletons, and 3D body poses. Our key insight is to leverage the diffusion prior from foundation models, such as Stable Diffusion, enabling high-quality event data generation with minimal fine-tuning and limited labeled data. Our method streamlines the data generation process and significantly reduces the cost of producing labeled event datasets. We demonstrate the effectiveness of our approach by synthesizing event data for visual recognition, 2D skeleton estimation, and 3D body pose estimation. Our experiments show that the synthesized labeled event data enhances model performance in all tasks. Additionally, our approach can generate events based on unseen text labels during training, illustrating the powerful text-based generation capabilities inherited from foundation models.",
+    "conferenceName": "Winter Conference on Applications of Computer Vision (WACV)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7160336533",
+      "Scholar": "OpXMNnMAAAAJ:SpbeaW3--B0C",
+      "Venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Winter Conference on Applications of Computer Vision (WACV)"
+  }
+}
