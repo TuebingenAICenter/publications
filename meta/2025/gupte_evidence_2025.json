@@ -1,0 +1,33 @@
+{
+  "custom": {
+    "groups": [
+      "dax",
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Binary black holes (BBHs) in eccentric orbits produce distinct modulations in the emitted gravitational waves (GWs). The measurement of orbital eccentricity can provide robust evidence for dynamical binary formation channels. We analyze 57 GW events from the first, second, and third observing runs of the Laser Interferometer Gravitational-Wave Observatory (LIGO)-Virgo-Kamioka Gravitational Wave Detector (KAGRA) (LVK) Collaboration using a multipolar aligned-spin inspiral-merger-ringdown waveform model with two eccentric parameters: eccentricity and relativistic anomaly (assuming a quasicircular merger-ringdown). This is made computationally feasible with the machine-learning code dingo, which accelerates inference by 2–3 orders of magnitude compared to traditional inference techniques. First, when using a uniform prior on the eccentricity, we find eccentric aligned-spin against quasicircular aligned-spin log10 Bayes factors of 1.84 to 4.75 (depending on the glitch mitigation) for GW200129, 3.0 for GW190701 and 1.77 for GW200208_22. We infer egw,10 Hz (egw,20 Hz) to be 0.27−0.12+0.10 (0.16−0.05+0.04) to 0.17−0.13+0.14 (0.1−0.04+0.05) for GW200129, 0.54−0.30+0.12 (0.31−0.13+0.12) for GW190701 and 0.39−0.23+0.23 (0.21−0.08+0.08) for GW200208_22. Second, we find log10 Bayes factors between the eccentric aligned-spin versus quasicircular precessin",
+    "archive": "arXiv",
+    "archiveLocation": "2404.14286",
+    "extra": {
+      "Archive ID": "2404.14286",
+      "Citations@2026-06-01": "17",
+      "Citations@2026-07-13": "24",
+      "OpenAlex": "W4395065776",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:eJjLl3UG7CkC",
+      "Venue": "Physical Review D 112 (10), 104045, 2025",
+      "arXiv": "2404.14286"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "APS",
+    "notes": [
+      {
+        "note": "<p><a href='https://journals.aps.org/prd/accepted/10.1103/vpyp-nvfp'>https://journals.aps.org/prd/accepted/10.1103/vpyp-nvfp</a><br><a href='https://arxiv.org/abs/2404.14286'>https://arxiv.org/abs/2404.14286</a><br><a href='https://pure.mpg.de/pubman/item/item_3588443'>https://pure.mpg.de/pubman/item/item_3588443</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
