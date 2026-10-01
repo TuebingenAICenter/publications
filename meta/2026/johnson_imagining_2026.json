@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Although artificial intelligence (AI) has become increasingly smart, its wisdom has not kept pace. In this opinion article, we examine what is known about human wisdom and sketch a vision of its AI counterpart. We introduce human wisdom as strategies for solving intractable problems—those outside the scope of analytic techniques—including both ‘object-level’ strategies, such as heuristics (for managing problems), and ‘metacognitive’ strategies, such as intellectual humility, perspective-taking, or context adaptability (for managing object-level task fit). We argue that AI systems particularly struggle with this type of metacognition. Wise metacognition would lead to AI that is more robust to novel environments, explainable to users, cooperative with others, and safer by risking fewer misaligned goals with human users. We discuss how wise AI might be benchmarked, trained, and implemented.",
+    "archive": "PubMed",
+    "archiveLocation": "PMID: 41760502",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Citations@2026-07-13": "4",
+      "OpenAlex": "W4404356212",
+      "Scholar": "DZ-fHPgAAAAJ:f0J-wGb7OGEC",
+      "Venue": "Trends in Cognitive Sciences, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "journalArticle"
+  }
+}
