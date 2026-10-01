@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Transcoder attribution graphs are usually trained to explain why a model assigns high probability to a particular next token. We introduce Concept-Targeted Attribution (CTA), which instead trains attribution graphs with respect to a linear probe direction. CTA therefore yields probe-specific circuits that explain why an internal concept representation arises in a prompt, independently of whether it is expressed in the generated token. Using Cross-Layer Transcoders, we show that these probe-targeted graphs contain predictive structure: graph-level features predict probe accuracy across four widely studied concept categories (ρ=0.91, R2=0.84), while local features identify the sparse components driving per-prompt classification. This connects probe performance to interpretable circuit structure, allowing us to ask not only whether a probe works, but which internal computations make it work. Causal ablations further show that probe-targeted and logit-targeted graphs capture functionally distinct mechanisms. Removing probe-relevant features reduces internal concept scores while largely preserving generated tokens, whereas removing logit-relevant features changes the generated token in 92% to 100% of cases with near-zero effect on probe scores. CTA provides a framework for moving from behavioral probe accuracy to mechanistic explanations of probe performance, enabling more detailed audits of internal concept representations, including safety-critical ones.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.27510",
+    "extra": {
+      "Archive ID": "2608.27510",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:yQDGOTALptIC",
+      "Venue": "arXiv preprint arXiv:2608.27510, 2026",
+      "arXiv": "2608.27510"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
