@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Model compression is increasingly essential for deploying large language models (LLMs), yet existing comparative studies largely focus on pruning and quantization evaluated primarily on knowledge-centric benchmarks. Thus, we introduce UniComp, a unified evaluation framework for comparing pruning, quantization, and knowledge distillation. UniComp evaluates compressed models along three dimensions: performance, reliability, and efficiency, using a diverse set of capability- and safety-oriented benchmarks together with a hardware-aware efficiency analysis. Through evaluation of seven compression techniques across over 40 datasets, we observe (i) a consistent knowledge bias, where factual recall is largely preserved while multi-step reasoning, multilingual, and instruction-following capabilities degrade; (ii) a deployment-critical performance-reliability decoupling, where retained performance does not indicate preserved safety, fairness and privacy; and (iii) that task-specific calibration can yield up to 50% relative improvement in reasoning performance in pruned models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.09130",
+    "conferenceName": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "extra": {
+      "Citations@2026-10-01": "2",
+      "Scholar": "SrVnrPcAAAAJ:BW2nPTmhBn4C",
+      "Venue": "arXiv preprint arXiv:2602.09130, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  }
+}
