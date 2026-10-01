@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The Adam optimizer is a cornerstone of modern deep learning, yet the empirical necessity of each of its individual components is often taken for granted. This paper presents a focused investigation into the role of bias-correction, a feature whose contribution remains poorly understood. Through a series of systematic ablations on vision and language modelling tasks, we demonstrate that the conventional wisdom surrounding bias correction is misleading. In particular, we demonstrate that in the optimal hyper-parameter configuration, the inclusion of bias correction leads to no improvement in final test performance. Moreover, unless appropriate learning rate scheduling is implemented, the inclusion of bias correction can sometimes be detrimental to performance. We further reinterpret bias correction as a form of implicit learning rate scheduling whose behaviour is strongly dependent on the choice of smoothing hyper-parameters beta_1, beta_2 in [0,1). Our findings challenge the universal inclusion of this component.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.20516",
+    "conferenceName": "Principles of Generative Modeling (PriGM)",
+    "extra": {
+      "Archive ID": "arXiv:2511.20516",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4416776614",
+      "Scholar": "xkuLyHoAAAAJ:a0OBvERweLwC",
+      "Venue": "EurIPS 2025 Workshop on Principles of Generative Modeling (PriGM), 0"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.20516'>https://arxiv.org/abs/2511.20516</a><br><a href='https://www.aimodels.fyi/papers/arxiv/adam-simplified-bias-correction-simplified'>https://www.aimodels.fyi/papers/arxiv/adam-simplified-bias-correction-simplified</a><br><a href='https://jglobal.jst.go.jp/public/202502212155205311'>https://jglobal.jst.go.jp/public/202502212155205311</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Principles of Generative Modeling (PriGM)"
+  }
+}
