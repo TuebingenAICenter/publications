@@ -5,11 +5,21 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Medical imaging cohorts are often confounded by factors such as acquisition devices, hospital sites, patient backgrounds, and many more. As a result, deep learning models tend to learn spurious correlations instead of causally related features, limiting their generalizability to new and unseen data. This problem can be addressed by minimizing dependence measures between intermediate representations of task-related and non-task-related variables. These measures include mutual information, distance correlation, and the performance of adversarial classifiers. Here, we benchmark such dependence measures for the task of preventing shortcut learning. We study a simplified setting using Morpho-MNIST and a medical imaging task with CheXpert chest radiographs. Our results provide insights into how to mitigate confounding factors in medical imaging.",
+    "archive": "arXiv",
+    "archiveLocation": "2407.18792",
+    "conferenceName": "International Workshop on Machine Learning in Medical Imaging (MLMI)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4401201014",
-      "Scholar": "lPQLk3QAAAAJ:uLbwQdceFCQC"
+      "Scholar": "lPQLk3QAAAAJ:uLbwQdceFCQC",
+      "Venue": "International Workshop on Machine Learning in Medical Imaging, 53-62, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "SpringerLink",
+    "proceedingsTitle": "International Workshop on Machine Learning in Medical Imaging (MLMI)",
+    "seriesTitle": "Lecture Notes in Computer Science"
   }
 }
