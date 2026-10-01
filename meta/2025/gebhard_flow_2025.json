@@ -1,24 +1,24 @@
 {
   "custom": {
     "groups": [
-      "dax",
       "schoelkopf"
     ]
   },
   "zotero": {
-    "abstractNote": "Atmospheric retrieval is a cornerstone of exoplanetary science, aiming to infer the chemical composition and physical properties of exoplanetary atmospheres from observed spectra. Traditionally, this is achieved through Bayesian inference using nested sampling or Markov chain Monte Carlo methods, which are computationally expensive due to the need for thousands of forward model evaluations. Recent advances in simulation-based inference (SBI) have enabled faster retrieval by amortizing the inference process. However, these methods often struggle with the high dimensionality and complex likelihood landscapes of atmospheric models, and they frequently lack robust uncertainty quantification. In this work, we introduce a novel approach to atmospheric retrieval based on flow matching, a generative modeling framework that learns to map a simple base distribution to the posterior distribution. We demonstrate that flow matching provides a flexible and efficient way to perform SBI, offering superior performance in terms of accuracy and reliability compared to existing methods. Furthermore, we propose an adaptive noise level strategy that allows the model to handle varying levels of observational noise, leading to more robust and reliable retrievals. We validate our approach on synthetic and real-world exoplanetary spectra, showing that it achieves state-of-the-art performance while significantly reducing the computational cost of atmospheric retrieval.",
+    "abstractNote": "Inferring atmospheric properties of exoplanets from observed spectra is key to understanding their formation, evolution, and habitability. Since traditional Bayesian approaches to atmospheric retrieval (e.g., nested sampling) are computationally expensive, a growing number of machine learning (ML) methods such as neural posterior estimation (NPE) have been proposed. We seek to make ML-based atmospheric retrieval (1) more reliable and accurate with verified results, and (2) more flexible with respect to the underlying neural networks and the choice of the assumed noise models. First, we adopt flow matching posterior estimation (FMPE) as a new ML approach to atmospheric retrieval. FMPE maintains many advantages of NPE, but provides greater architectural flexibility and scalability. Second, we use importance sampling (IS) to verify and correct ML results, and to compute an estimate of the Bayesian evidence. Third, we condition our ML models on the assumed noise level of a spectrum (i.e., error bars), thus making them adaptable to different noise models. Both our noise level-conditional FMPE and NPE models perform on par with nested sampling across a range of noise levels when tested on simulated data. FMPE trains about 3 times faster than NPE and yields higher IS efficiencies. IS successfully corrects inaccurate ML results, identifies model failures via low efficiencies, and provides accurate estimates of the Bayesian evidence. FMPE is a powerful alternative to NPE for fast, amortized, and parallelizable atmospheric retrieval. IS can verify results, thus helping to build confidence in ML-based approaches, while also facilitating model comparison via the evidence ratio. Noise level conditioning allows design studies for future instruments to be scaled up, for example, in terms of the range of signal-to-noise ratios.",
     "archive": "arXiv",
     "archiveLocation": "2410.21477",
     "extra": {
       "Archive ID": "2410.21477",
       "Citations@2026-06-01": "0",
-      "Journal Abbreviation": "A&A",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4404340722",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:atgDo0Ffd_sC",
       "Source": "group_webpage (dax)",
-      "Volume": "693"
+      "Venue": "Astronomy & Astrophysics 693, A42, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
