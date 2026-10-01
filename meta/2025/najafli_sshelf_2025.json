@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Reconstructing unbounded outdoor scenes from sparse outward-facing views poses significant challenges due to minimal view overlap. Previous methods often lack cross-scene understanding and their primitive-centric formulations overload local features to compensate for missing global context, resulting in blurriness in unseen parts of the scene. We propose sshELF, a fast, single-shot pipeline for sparse-view 3D scene reconstruction via hierarchal extrapolation of latent features. Our key insights is that disentangling information extrapolation from primitive decoding allows efficient transfer of structural patterns across training scenes. Our method: (1) learns cross-scene priors to generate intermediate virtual views to extrapolate to unobserved regions, (2) offers a two-stage network design separating virtual view generation from 3D primitive decoding for efficient training and modular model design, and (3) integrates a pre-trained foundation model for joint inference of latent features and texture, improving scene understanding and generalization. sshELF can reconstruct 360 degree scenes from six sparse input views and achieves competitive results on synthetic and real-world datasets. We find that sshELF faithfully reconstructs occluded regions, supports real-time rendering, and provides rich latent features for downstream applications. The code will be released.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.04318",
+    "conferenceName": "German Conference on Pattern Recognition (GCPR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4407248385",
+      "Scholar": "SrVnrPcAAAAJ:X4-KO54GjGYC",
+      "Venue": "DAGM German Conference on Pattern Recognition, 550-567, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "German Conference on Pattern Recognition (GCPR)"
+  }
+}
