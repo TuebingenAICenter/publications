@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ludwig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Accurate assessment of long-term wind power potential requires high-resolution wind speed data, yet most climate projections operate at spatial resolutions that are too coarse for local wind power estimation. Statistical downscaling methods can bridge this gap by increasing the spatial resolution of climate models. In this paper, we evaluate the performance of various deep learning models for downscaling wind speed data and their impact on long-term wind power assessment. We compare different architectures, including convolutional neural networks and diffusion models, on their ability to preserve the distributional and physical properties of wind speeds. Our results demonstrate that advanced generative models significantly improve the accuracy of wind power potential estimates compared to traditional interpolation and standard regression-based downscaling methods.",
+    "extra": {
+      "Citations@2026-07-13": "12",
+      "Scholar": "by3EWqIAAAAJ:5awf1xo2G04C",
+      "Venue": "KI-Künstliche Intelligenz 40 (1), 27-39, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
