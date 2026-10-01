@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Convolutional neural networks (CNNs) are widely used for high-stakes applications like medicine, often surpassing human performance. However, most explanation methods rely on post-hoc attribution, approximating the decision-making process of already trained black-box models. These methods are often sensitive, unreliable, and fail to reflect true model reasoning, limiting their trustworthiness in critical applications. In this work, we introduce SoftCAM, a straightforward yet effective approach that makes standard CNN architectures inherently interpretable. By removing the global average pooling layer and replacing the fully connected classification layer with a convolution-based class evidence layer, SoftCAM preserves spatial information and produces explicit class activation maps that form the basis of the model’s predictions. Evaluated on three medical datasets spanning three imaging modalities, SoftCAM maintains classification performance while significantly improving both the qualitative and quantitative explanation compared to existing post-hoc methods.",
+    "archive": "arXiv",
+    "archiveLocation": "2505.17748",
+    "conferenceName": "International Conference on Medical Imaging with Deep Learning (MIDL)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Scholar": "lPQLk3QAAAAJ:AvfA0Oy_GE0C",
+      "Venue": "Medical Imaging with Deep Learning, 433-467, 2026"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2505.17748'>https://arxiv.org/abs/2505.17748</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-17748.html'>https://dblp.org/rec/journals/corr/abs-2505-17748.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of The 9th International Conference on Medical Imaging with Deep Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}
