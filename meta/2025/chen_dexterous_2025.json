@@ -5,11 +5,18 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Endowing robot hands with human-level dexterity has been a long-standing goal in robotics. Bimanual robotic piano playing represents a particularly challenging task: it is high-dimensional, contact-rich, and requires fast, precise control. We present OmniPianist, the first agent capable of performing nearly one thousand music pieces via scalable, human-demonstration-free learning. Our approach is built on three core components. First, we introduce an automatic fingering strategy based on Optimal Transport (OT), allowing the agent to autonomously discover efficient piano-playing strategies from scratch without demonstrations. Second, we conduct large-scale Reinforcement Learning (RL) by training more than 2,000 agents, each specialized in distinct music pieces, and aggregate their experience into a dataset named RP1M++, consisting of over one million trajectories for robotic piano playing. Finally, we employ a Flow Matching Transformer to leverage RP1M++ through large-scale imitation learning, resulting in the OmniPianist agent capable of performing a wide range of musical pieces. Extensive experiments and ablation studies highlight the effectiveness and scalability of our approach, advancing dexterous robotic piano playing at scale.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.02504",
     "extra": {
+      "Archive ID": "2511.02504",
       "Citations@2026-06-01": "2",
-      "Scholar": "DZ-fHPgAAAAJ:iTIPypF6y-oC"
+      "Citations@2026-07-13": "4",
+      "Scholar": "DZ-fHPgAAAAJ:iTIPypF6y-oC",
+      "Venue": "arXiv preprint arXiv:2511.02504, 2025"
     },
-    "itemType": "document",
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2511.02504'>https://arxiv.org/abs/2511.02504</a><br><a href='https://dblp.uni-trier.de/rec/journals/corr/abs-2511-02504.html'>https://dblp.uni-trier.de/rec/journals/corr/abs-2511-02504.html</a><br></p>",
