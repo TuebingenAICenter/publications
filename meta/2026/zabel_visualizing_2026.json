@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "t-distributed Stochastic Neighbour Embedding (t-SNE) is a cornerstone for visualizing high-dimensional biological data, where each high-dimensional data point is represented as a point in a two-dimensional map. However, this static map provides no information about the stability of the visual layout, the features that influence it, or the impact of uncertainty in the input data. This work introduces a computational framework that allows one to extend the standard t-SNE plot by visual clues about the stability of the t-SNE embedding. First, we perform a sensitivity analysis to determine feature influence: by combining the Implicit Function Theorem with automatic differentiation, our method computes the",
+    "archive": "PMC",
+    "archiveLocation": "PMC12808344",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "OpenAlex": "W7117984536",
+      "Scholar": "UeG5w08AAAAJ:umqufdRvDiIC",
+      "Venue": "Frontiers in Bioinformatics 5, 1719516, 2025"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "PubMed"
+  }
+}
