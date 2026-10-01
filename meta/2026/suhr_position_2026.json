@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "samadi"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) have achieved remarkable results on a range of standardized tests originally designed to assess human cognitive and psychological traits, such as intelligence and personality. While these results are often interpreted as strong evidence of human-like characteristics in LLMs, this paper argues that such interpretations constitute an ontological error. Human psychological and educational tests are theory-driven measurement instruments, calibrated to a specific human population. Applying these tests to non-human subjects without empirical validation, risks mischaracterizing what is being measured. Furthermore, a growing trend frames AI performance on benchmarks as measurements of traits such as ``intelligence'', despite known issues with validity, data contamination, cultural bias and sensitivity to superficial prompt changes. We argue that interpreting benchmark performance as measurements of human-like traits, lacks sufficient theoretical and empirical justification. This leads to our position: Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead. We call for the development of principled, AI-specific evaluation frameworks tailored to AI systems. Such frameworks might build on existing frameworks for constructing and validating psychometrics tests, or could be created entirely from scratch to fit the unique context of AI.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.23009",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Citations@2026-07-13": "2",
+      "Scholar": "s8xc2K4AAAAJ:9ZlFYXVOiuMC",
+      "Venue": "Forty-third International Conference on Machine Learning Position Paper Track, 2026"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2507.23009'>https://arxiv.org/abs/2507.23009</a><br><a href='https://chatpaper.com/paper/172060'>https://chatpaper.com/paper/172060</a><br><a href='https://www.aimodels.fyi/papers/arxiv/stop-evaluating-ai-human-tests-develop-principled'>https://www.aimodels.fyi/papers/arxiv/stop-evaluating-ai-human-tests-develop-principled</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
