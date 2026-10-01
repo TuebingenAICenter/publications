@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are increasingly used as sources of historical information, motivating the need for scalable audits on contested events and politically charged narratives in settings that mirror real user interactions. We introduce HistoricalMisinfo, a curated dataset of 500 contested events from 45 countries, each paired with a factual reference narrative and a documented revisionist reference narrative. To approximate real-world usage, we instantiate each event in 11 prompt scenarios that reflect common communication settings (e.g., questions, textbooks, social posts, policy briefs). Using an LLM-as-a-judge protocol that compares model outputs to the two references, we evaluate LLMs varying across model architectures in two conditions: (i) neutral user prompts that ask for factually accurate information, and (ii) robustness prompts in which the user explicitly requests the revisionist version of the event. Under neutral prompts, models are generally closer to factual references, though the resulting scores should be interpreted as reference-alignment signals rather than definitive evidence of human-interpretable revisionism. Robustness prompting yields a strong and consistent effect: when the user requests the revisionist narrative, all evaluated models show sharply higher revisionism scores, indicating limited resistance or self-correction. HistoricalMisinfo provides a practical foundation for benchmarking robustness to revisionist framing and for guiding future work on more precise automatic evaluation of contested historical claims to ensure a sustainable integration of AI systems within society.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.17433",
+    "extra": {
+      "Archive ID": "2602.17433",
+      "Citations@2026-07-13": "2",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:dDWX_BJh2WwC",
+      "Venue": "arXiv preprint arXiv:2602.17433, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
