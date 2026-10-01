@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Understanding how the brain controls movement requires a detailed model of the body that the brain inhabits. For the fruit fly Drosophila melanogaster, a model organism for neuroscience, we lack a physics-based simulation that captures the full complexity of its body and its interactions with the environment. Here we present FlySim, a high-fidelity, whole-body physics simulation of the fruit fly. FlySim integrates a detailed musculoskeletal model, a realistic exoskeleton and a physics engine to simulate locomotion in complex environments. We demonstrate that FlySim can reproduce a wide range of locomotor behaviours, including walking, climbing and righting, and that it can be used to study the biomechanical basis of these behaviours. We further show that FlySim can be used to close the loop between neural activity and behaviour, by driving the simulation with neural recordings from the fly brain. FlySim provides a powerful tool for investigating the neural control of movement and the biomechanics of locomotion in a tractable model system.",
+    "extra": {
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.03.11.584515"
+    },
+    "itemType": "journalArticle"
+  }
+}
