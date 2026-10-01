@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The rapid adoption of LLM-based agentic systems has produced a rich ecosystem of frameworks (smolagents, LangGraph, AutoGen, CAMEL, LlamaIndex, i.a.). Yet many existing benchmarks are model-centric: they fix the agentic setup and do not compare other system components. We argue that implementation decisions substantially impact performance, including choices such as topology, orchestration logic, and error handling. MASEval addresses this evaluation gap with a Python library that treats the entire agentic system as the unit of analysis. Important design decisions such as harness and context engineering are first-class citizens. MASEval helps practitioners identify the best implementation for their use case and researchers systematically study agentic systems, opening new avenues for principled system design. Through the first systematic system-level comparison across 3 benchmarks, 3 models, and 3 frameworks, we find that, across models of comparable cost and capability, framework choice matters as much as model choice. MASEval is available under the MIT licence at https://github.com/maseval/MASEval.",
+    "archive": "ACL Anthology",
+    "archiveLocation": "2026.acl-demo.34",
+    "conferenceName": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "extra": {
+      "Citations@2026-07-13": "3",
+      "Scholar": "kmXOOdsAAAAJ:geHnlv5EZngC",
+      "Venue": "Proceedings of the 64th Annual Meeting of the Association for Computational …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "proceedingsTitle": "Annual Meeting of the Association for Computational Linguistics (ACL)"
+  }
+}
