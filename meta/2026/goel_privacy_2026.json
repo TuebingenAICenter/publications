@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "joon",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Finetuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents.",
+    "archive": "ACL Anthology",
+    "archiveLocation": "2026.acl-long.400",
+    "conferenceName": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7125459600",
+      "Scholar": "kmXOOdsAAAAJ:P5F9QuxV20EC",
+      "Venue": "Proceedings of the 64th Annual Meeting of the Association for Computational …, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "proceedingsTitle": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  }
+}
