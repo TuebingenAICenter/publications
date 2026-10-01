@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Accurate capture of human-object interaction from ubiquitous sensors like RGB cameras is important for applications in human understanding, gaming, and robot learning. However, inferring 4D interactions from a single RGB view is highly challenging due to the unknown object and human information, depth ambiguity, occlusion, and complex motion, which hinder consistent 3D and temporal reconstruction. Previous methods simplify the setup by assuming ground truth object template or constraining to a limited set of object categories. We present CARI4D, the first category-agnostic method that reconstructs spatially and temporarily consistent 4D human-object interaction at metric scale from monocular RGB videos. To this end, we propose a pose hypothesis selection algorithm that robustly integrates the individual predictions from foundation models, jointly refine them through a learned render-and-compare paradigm to ensure spatial, temporal and pixel alignment, and finally reasoning about intricate contacts for further refinement satisfying physical constraints. Experiments show that our method outperforms prior art by 38% on in-distribution dataset and 36% on unseen dataset in terms of reconstruction error. Our model generalizes beyond the training categories and thus can be applied zero-shot to in-the-wild internet videos. Our code and pretrained models will be publicly released.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.11988",
+    "conferenceName": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4417447127",
+      "Scholar": "OpXMNnMAAAAJ:XoXfffV-tXoC",
+      "Venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
