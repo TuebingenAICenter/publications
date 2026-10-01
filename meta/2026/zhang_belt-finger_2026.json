@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Parallel-jaw grippers are the default manipulator choice in robotics because they are simple, robust, and inexpensive. Their limited in-hand mobility, however, often forces large arm motions and restricts dexterous manipulation in confined workspaces. We present a parallel-gripper upgrade: a double-soft-belt-based finger module that preserves standard opening/closing while adding three in-hand degrees of freedom (DoF): translation, pitch, and roll. The mechanism is deliberately kept simple and engineered for inexpensive manufacturing and straightforward integration, preserving the reliability and precise control of traditional parallel grippers while greatly broadening the range of manipulation capabilities. To demonstrate the utility of the added DoFs, we integrate the gripper in two control pipelines. First, we adapt a model predictive controller for in-hand manipulation of known objects. Second, we introduce a lightweight teleoperation interface that enables simultaneous control of the robot arm and gripper (10 DoFs total) with minimal hardware. Across a suite of challenging manipulation tasks executed via teleoperation, MPC, and trained policies, the proposed gripper consistently improves dexterity and task feasibility compared to a conventional parallel gripper.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.20193",
+    "extra": {
+      "Archive ID": "arXiv:2606.20193",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7167934181",
+      "Scholar": "b-JF-UIAAAAJ:anf4URPfarAC",
+      "Venue": "arXiv preprint arXiv:2606.20193, 2026",
+      "publicationTitle": "Universit@tsbibliothek Tübingen"
+    },
+    "itemType": "preprint"
+  }
+}
