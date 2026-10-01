@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Positional information is essential for language modeling. Softmax Transformers with Rotary Position Embeddings (RoPE) encode it with fixed-angle rotations, while linear Transformers rely on input-dependent gates that only decay past key-value norms. We provide a theoretical argument for the necessity of a rotation and decay component in well-performing sequence models, and observe that the missing ingredient in linear models is precisely the rotation that softmax attention performs implicitly. We introduce Selective Rotary Position Embedding (Selective RoPE), an input-dependent, learnable rotary embedding that generalizes RoPE to arbitrary angles and composes seamlessly with decay gates. Equipping gated linear attention with Selective RoPE yields a complex-valued recurrent layer that can be implemented efficiently with the “RoPE trick”. On synthetic benchmarks (MQAR, copying, state tracking) and 370M-parameter language-model pre-training, the method improves recall, downstream accuracy, and expressivity while adding minimal architectural overhead.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.17388",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Citations@2026-07-13": "6",
+      "Scholar": "xkuLyHoAAAAJ:cFHS6HbyZ2cC",
+      "Venue": "arXiv preprint arXiv:2511.17388, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.17388'>https://arxiv.org/abs/2511.17388</a><br><a href='https://arxiv.org/pdf/2511.17388.pdf'>https://arxiv.org/pdf/2511.17388.pdf</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
