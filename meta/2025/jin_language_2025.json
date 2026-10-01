@@ -5,16 +5,21 @@
     ]
   },
   "zotero": {
-    "abstractNote": "As large language models (LLMs) are increasingly deployed globally, it is critical to understand whether their moral judgments align with human values across different cultures. We introduce a multilingual trolley problem dataset, covering 12 languages and 14 cultures, to evaluate the moral alignment of LLMs. We find that while LLMs show a high degree of moral consistency across languages, they also exhibit significant cultural biases. Our results suggest that current alignment techniques may not be sufficient to ensure cross-cultural moral alignment, and we propose a framework for future research in this direction.",
+    "abstractNote": "We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ countries, we develop a cross-lingual corpus of moral dilemma vignettes in over 100 languages called MultiTP. This dataset enables the assessment of LLMs' decision-making processes in diverse linguistic contexts. Our analysis explores the alignment of 19 different LLMs with human judgments, capturing preferences across six moral dimensions: species, gender, fitness, status, age, and the number of lives involved. By correlating these preferences with the demographic distribution of language speakers and examining the consistency of LLM responses to various prompt paraphrasings, our findings provide insights into cross-lingual and ethical biases of LLMs and their intersection. We discover significant variance in alignment across languages, challenging the assumption of uniform moral reasoning in AI systems and highlighting the importance of incorporating diverse perspectives in AI ethics. The results underscore the need for further research on the integration of multilingual dimensions in responsible AI research to ensure fair and equitable AI interactions worldwide.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2407.02273",
+    "archiveLocation": "2407.02273",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Archive ID": "2407.02273",
       "Citations@2026-06-01": "1",
+      "Citations@2026-07-13": "1",
       "OpenAlex": "W4400374334",
       "Repository": "arXiv",
-      "Scholar": "DZ-fHPgAAAAJ:fGf7eakw1skC"
+      "Scholar": "DZ-fHPgAAAAJ:LpJ4L8tw5K0C",
+      "Venue": "International Conference on Learning Representations 2025, 18831-18860, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
