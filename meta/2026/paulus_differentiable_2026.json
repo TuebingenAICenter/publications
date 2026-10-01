@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contact forces introduce discontinuities into robot dynamics that severely limit the use of simulators for gradient-based optimization. Penalty-based simulators such as MuJoCo, soften contact resolution to enable gradient computation. However, realistically simulating hard contacts requires stiff solver settings, which leads to incorrect simulator gradients when using automatic differentiation. Contrarily, using non-stiff settings strongly increases the sim-to-real gap. We analyze penalty-based simulators to pinpoint why gradients degrade under hard contacts. Building on these insights, we propose DiffMJX, which couples adaptive time integration with penalty-based simulation to substantially improve gradient accuracy. A second challenge is that contact gradients vanish when bodies separate. To address this, we introduce contacts from distance (CFD) which combines penalty-based simulation with straight-through estimation. By applying CFD exclusively in the backward pass, we obtain informative pre-contact gradients while retaining physical realism.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.14186",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "Note": "*equal contribution",
+      "OpenAlex": "W4415311613",
+      "Scholar": "b-JF-UIAAAAJ:kh2fBNsKQNwC",
+      "Venue": "The Fourteenth International Conference on Learning Representations, 2026",
+      "publicationTitle": "ArXiv.org"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
