@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modern LLM pre-training consumes vast amounts of compute and training data, making the scaling behavior, or scaling laws, of different models a key distinguishing factor. Discrete diffusion language models (DLMs) have been proposed as an alternative to autoregressive language models (ALMs). However, their scaling behavior has not yet been fully explored, with prior work suggesting that they require more data and compute to match the performance of ALMs. We study the scaling behavior of DLMs on different noise types by smoothly interpolating between masked and uniform diffusion while paying close attention to crucial hyperparameters such as batch size and learning rate. Our experiments reveal that the scaling behavior of DLMs strongly depends on the noise type and is considerably different from ALMs. While all noise types converge to similar loss values in compute-bound scaling, we find that uniform diffusion requires more parameters and less data for compute-efficient training compared to masked diffusion, making them a promising candidate in data-bound settings. We scale our uniform diffusion model up to 10B parameters trained for 10^22 FLOPs, confirming the predicted scaling behavior and making it the largest publicly known uniform diffusion model to date.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.10858",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4417297081",
+      "Scholar": "xkuLyHoAAAAJ:pyW8ca7W8N0C",
+      "Venue": "arXiv preprint arXiv:2512.10858, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "OpenReview",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
