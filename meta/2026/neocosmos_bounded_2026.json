@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "ludwig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In community detection, many methods require the user to specify the number of clusters in advance since an exhaustive search over all possible values is computationally infeasible. While some classical algorithms can infer this number directly from the data, this is typically not the case for graph neural networks (GNNs): even when a desired number of clusters is specified, standard GNN-based methods often fail to return the exact number due to the way they are designed. In this work, we address this limitation by introducing a flexible and principled way to control the number of communities discovered by GNNs. Rather than assuming the true number of clusters is known, we propose a framework that allows the user to specify a plausible range and enforce these bounds during training. However, if the user wants an exact number of clusters, it may also be specified and reliably returned.",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4417143338",
+      "Scholar": "by3EWqIAAAAJ:WqliGbK-hY8C",
+      "Venue": "Journal of Physics: Complexity 7 (2), 025005, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
