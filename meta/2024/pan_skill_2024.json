@@ -5,16 +5,21 @@
     ]
   },
   "zotero": {
-    "abstractNote": "In many domains, observed outcomes are the result of a combination of skill and luck. Distinguishing between these two factors is crucial for performance evaluation, decision-making, and learning. In this paper, we propose a framework for decomposing returns into skill and luck components using advantage functions. We show that the advantage function, which measures the expected improvement over a baseline, naturally captures the skill component of a return. We demonstrate the effectiveness of our approach in various settings, including sports, finance, and reinforcement learning, and show that it provides a more robust and interpretable measure of skill than traditional methods.",
+    "abstractNote": "Learning from off-policy data is essential for sample-efficient reinforcement learning. In the present work, we build on the insight that the advantage function can be understood as the causal effect of an action on the return, and show that this allows us to decompose the return of a trajectory into parts caused by the agent's actions (skill) and parts outside of the agent's control (luck). Furthermore, this decomposition enables us to naturally extend Direct Advantage Estimation (DAE) to off-policy settings (Off-policy DAE). The resulting method can learn from off-policy trajectories without relying on importance sampling techniques or truncating off-policy actions. We draw connections between Off-policy DAE and previous methods to demonstrate how it can speed up learning and when the proposed off-policy corrections are important. Finally, we use the MinAtar environments to illustrate how ignoring off-policy corrections can lead to suboptimal policy optimization performance.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2402.12874",
+    "archiveLocation": "2402.12874",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Archive ID": "2402.12874",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4392012690",
       "Repository": "arXiv",
-      "Scholar": "DZ-fHPgAAAAJ:_DXyGQxYymYC"
+      "Scholar": "DZ-fHPgAAAAJ:_DXyGQxYymYC",
+      "Venue": "International Conference on Learning Representations 2024, 9282-9304, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
