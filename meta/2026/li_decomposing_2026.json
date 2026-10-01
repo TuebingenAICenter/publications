@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi",
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Frontier language models sometimes recognize that they are being evaluated and adjust their behavior, undermining validity of benchmark results. Yet the field studies it without a shared foundation, conflating properties of the evaluation with properties of the model, and detection with behavioral response. We ground evaluation awareness in social psychology, decomposing it into an environment component (how recognizable the task is) and a model component that separates recognition from propensity to act on it. We operationalize the environment component through eight categorized trigger factors, such as placeholder entities and grading-style output formats, and study recognition and behavior through chain-of-thought monitoring. Across nine frontier models and four benchmarks, recognition rates depend on the specific pairing of model and benchmark rather than on either in isolation. Recognition rarely leads to behavioral change, and when it does, the direction depends on the type of evaluation perceived. Models are also more sensitive to safety than capability evaluations, placing safety benchmark validity at greater risk. To study which factors each model is sensitive to and how they interact, we propose EvalAwareBench, a factor-controlled benchmark of 100 paired safety-capability tasks where each of the eight factors can be independently toggled, varying evaluative signals while holding the underlying request fixed. Through EvalAwareBench, we find that no single factor uniformly affects all models, but stacking factors progressively raises evaluation awareness across all of them. Our framework and EvalAwareBench provide the tools to measure, attribute, and mitigate evaluation awareness, pointing to behavioral consistency under recognition as a promising path forward.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2605.23055",
+    "extra": {
+      "Archive ID": "2605.23055",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7162475259",
+      "Publication Title": "arXiv (Cornell University)",
+      "Repository": "arXiv",
+      "Scholar": "ZNtuJYoAAAAJ:4fKUyHm3Qg0C",
+      "Venue": "arXiv preprint arXiv:2605.23055, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
