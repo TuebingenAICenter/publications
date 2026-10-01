@@ -5,9 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Version 4.0 of the Gravitational-Wave Transient Catalog (GWTC-4.0) adds new candidates detected by the LIGO, Virgo, and KAGRA observatories during the first part of the fourth observing run (O4a). We report on 181 gravitational-wave candidates, including 166 binary black hole mergers, 12 binary neutron star mergers, and 3 neutron star-black hole mergers. We provide updated estimates of the merger rates and mass distributions of these populations.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2508.18082",
     "extra": {
       "Citations@2026-06-01": "133",
-      "Scholar": "VRBv6mEAAAAJ:maZDTaKrznsC"
+      "Citations@2026-10-01": "357",
+      "Scholar": "VRBv6mEAAAAJ:maZDTaKrznsC",
+      "Venue": "arXiv preprint arXiv:2508.18082, 2025"
     },
     "itemType": "journalArticle"
   }
