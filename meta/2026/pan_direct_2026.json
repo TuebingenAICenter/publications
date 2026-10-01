@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Direct Advantage Estimation (DAE) has been shown to improve the sample efficiency of deep reinforcement learning algorithms. However, its reliance on full environment observability limits its applicability in realistic settings, and its requirement to model transition probabilities incurs substantial computational overhead for high-dimensional observations. In the present work, we address both limitations. First, we extend the theoretical framework of DAE to partially observable domains with minimal modifications. Second, we reduce its computational complexity by introducing discrete latent dynamics models that efficiently approximate transition probabilities. We evaluate our approach on the Arcade Learning Environment and find that DAE scales effectively with function approximator capacity while retaining high sample efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2606.20411",
+    "conferenceName": "Reinforcement Learning Conference (RLC)",
+    "extra": {
+      "Scholar": "DZ-fHPgAAAAJ:jXLDEt3wmJwC",
+      "Venue": "arXiv preprint arXiv:2606.20411, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Reinforcement Learning Conference (RLC)"
+  }
+}
