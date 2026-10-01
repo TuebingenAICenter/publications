@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) have demonstrated remarkable progress in generating functional code, leading to numerous AI-based coding assistant tools. However, their reliance on the perplexity objective during both training and inference primarily emphasizes functionality, often at the expense of efficiency—an essential consideration for real-world coding tasks. Interestingly, we observed that well-trained LLMs inherently possess knowledge about code efficiency, but this potential remains underutilized with standard decoding approaches. To address this, we design strategic prompts to activate the model’s embedded efficiency understanding, effectively using LLMs as efficiency critiques to guide code generation toward higher efficiency without sacrificing—and sometimes even improving—functionality, all without the need for costly real code execution. Extensive experiments on benchmark datasets (EffiBench, HumanEval+, COFFE, Mercury) across multiple representative code models demonstrate up to a 70.6% reduction in average execution time and a 13.6% decrease in maximum memory usage, highlighting the computational efficiency and practicality of our approach compared to existing alternatives.",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}
