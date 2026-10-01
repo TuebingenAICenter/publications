@@ -6,18 +6,24 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "AdaBoost sequentially fits so-called weak learners to minimize an exponential loss, which penalizes misclassified data points more severely than other loss functions like cross-entropy. Paradoxically, AdaBoost generalizes well in practice as the number of weak learners grows. In the present work, we introduce Penalized Exponential Loss (PENEX), a new formulation of the multi-class exponential loss that is theoretically grounded and, in contrast to the existing formulation, amenable to optimization via first-order methods, making it a practical objective for training neural networks. We demonstrate that PENEX effectively increases margins of data points, which can be translated into a generalization bound. Empirically, across computer vision and language tasks, PENEX improves neural network generalization in low-data regimes, matching and in some settings outperforming established regularizers at comparable computational cost. Our results highlight the potential of the exponential loss beyond its application in AdaBoost.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.02107",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4414820817",
-      "Scholar": "DZ-fHPgAAAAJ:pzJoL9iqVMkC"
+      "Scholar": "DZ-fHPgAAAAJ:pzJoL9iqVMkC",
+      "Venue": "arXiv preprint arXiv:2510.02107, 2025"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2510.02107'>https://arxiv.org/abs/2510.02107</a><br><a href='https://dblp.uni-trier.de/rec/journals/corr/abs-2510-02107.html'>https://dblp.uni-trier.de/rec/journals/corr/abs-2510-02107.html</a><br><a href='https://www.catalyzex.com/paper/penex-adaboost-inspired-neural-network'>https://www.catalyzex.com/paper/penex-adaboost-inspired-neural-network</a><br></p>",
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
   }
 }
