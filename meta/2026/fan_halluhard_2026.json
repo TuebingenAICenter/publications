@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) still produce plausible-sounding but ungrounded factual claims, a problem that worsens in multi-turn dialogue as context grows and early errors cascade. We introduce HalluHard, a challenging multi-turn hallucination benchmark with 950 seed questions spanning four high-stakes domains: legal cases, research questions, medical guidelines, and coding. We operationalize groundedness by requiring inline citations for factual assertions. To support reliable evaluation in open-ended settings, we propose a judging pipeline that iteratively retrieves evidence via web search. It can fetch, filter, and parse full-text sources (including PDFs) to assess whether cited material actually supports the generated content. Across a diverse set of frontier proprietary and open-weight models, hallucinations remain substantial even with web search, with content-grounding errors persisting at high rates. Finally, we show that hallucination behavior is shaped by model capacity, turn position, effective reasoning, and the type of knowledge required.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.01031",
+    "conferenceName": "ICML 2026 Workshop on Epistemic Intelligence in Machine Learning",
+    "extra": {
+      "Citations@2026-07-13": "12",
+      "Scholar": "ZNtuJYoAAAAJ:dshw04ExmUIC",
+      "Venue": "ICML 2026 Workshop on Epistemic Intelligence in Machine Learning, 2026"
+    },
+    "itemType": "conferencePaper"
+  }
+}
