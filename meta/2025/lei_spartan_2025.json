@@ -5,15 +5,22 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Capturing the interactions between entities in a structured way plays a central role in world models that flexibly adapt to changes in the environment. Recent works motivate the benefits of models that explicitly represent the structure of interactions and formulate the problem as discovering local causal structures. In this work, we demonstrate that reliably capturing these relationships in complex settings remains challenging. To remedy this shortcoming, we postulate that sparsity is a critical ingredient for the discovery of such local structures. To this end, we present the SPARse TrANsformer World model (SPARTAN), a Transformer-based world model that learns context-dependent interaction structures between entities in a scene. By applying sparsity regularisation on the attention patterns between object-factored tokens, SPARTAN learns sparse, context-dependent interaction graphs that accurately predict future object states. We further extend our model to adapt to sparse interventions with unknown targets in the dynamics of the environment. This results in a highly interpretable world model that can efficiently adapt to changes. Empirically, we evaluate SPARTAN against the current state-of-the-art in object-centric world models in observation-based environments and demonstrate that our model can learn local causal graphs that accurately reflect the underlying interactions between objects, achieving significantly improved few-shot adaptation to dynamics changes, as well as robustness against distractors.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2411.06890",
+    "archiveLocation": "2411.06890",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Archive ID": "2411.06890",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4404402378",
       "Repository": "arXiv",
-      "Scholar": "DZ-fHPgAAAAJ:XRth-JKzQvcC"
+      "Scholar": "DZ-fHPgAAAAJ:fJm6x8J4LekC",
+      "Venue": "Advances in Neural Information Processing Systems 38, 154089-154114, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "NeurIPS Proceedings",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
