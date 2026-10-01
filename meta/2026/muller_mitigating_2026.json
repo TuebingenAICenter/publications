@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Although deep learning models in medical imaging often achieve excellent classification performance, they can rely on shortcut learning, exploiting spurious correlations or confounding factors that are not causally related to the target task. This poses risks in clinical settings, where models must generalize across institutions, populations, and acquisition conditions. Feature disentanglement is a promising approach to mitigate shortcut learning by separating task-relevant information from confounder-related features in latent representations. In this study, we systematically evaluated feature disentanglement methods for mitigating shortcuts in medical imaging, including adversarial learning and latent space splitting based on dependence minimization. We assessed classification performance and disentanglement quality using latent space analyses across one artificial and two medical datasets with natural and synthetic confounders. We also examined robustness under varying levels of confounding and compared computational efficiency across methods. We found that shortcut mitigation methods improved classification performance under strong spurious correlations during training. Latent space analyses revealed differences in representation quality not captured by classification metrics, highlighting the strengths and limitations of each method. Model reliance on shortcuts depended on the degree of confounding in the training data. The best-performing models combine data-centric rebalancing with model-centric disentanglement, achieving stronger and more robust shortcut mitigation than rebalancing alone while maintaining similar computational efficiency. The project code is publicly available at this https URL.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.18502",
+    "callNumber": "arXiv:2602.18502",
+    "extra": {
+      "Archive ID": "2602.18502",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7131320331",
+      "Repository": "arXiv",
+      "Scholar": "lPQLk3QAAAAJ:ML0RJ9NH7IQC",
+      "Venue": "arXiv preprint arXiv:2602.18502, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
