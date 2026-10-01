@@ -10,11 +10,14 @@
     "archiveLocation": "2504.04981",
     "extra": {
       "Archive ID": "2504.04981",
+      "Citations@2026-10-01": "1",
       "Repository": "arXiv",
+      "Scholar": "kmXOOdsAAAAJ:WqliGbK-hY8C",
       "Source": "group_webpage (joon)",
+      "Venue": "arXiv preprint arXiv:2504.04981, 2025",
       "arXiv": "2504.04981"
     },
-    "itemType": "document",
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv"
   }
 }
