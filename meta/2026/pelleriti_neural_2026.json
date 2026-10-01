@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Certifying nonnegativity of polynomials is a well-known NP-hard problem with direct applications spanning non-convex optimization, control, robotics, and beyond. A sufficient condition for nonnegativity is the Sum of Squares (SOS) property, i.e., it can be written as a sum of squares of other polynomials. In practice, however, certifying the SOS criterion remains computationally expensive and often involves solving a Semidefinite Program (SDP), whose dimensionality grows quadratically in the size of the monomial basis of the SOS expression; hence, various methods to reduce the size of the monomial basis have been proposed. In this work, we introduce the first learning-augmented algorithm to certify the SOS criterion. To this end, we train a Transformer model that predicts an almost-minimal monomial basis for a given polynomial, thereby drastically reducing the size of the corresponding SDP. Our overall methodology comprises three key components: efficient training dataset generation of over 100 million SOS polynomials, design and training of the corresponding Transformer architecture, and a systematic fallback mechanism to ensure correct termination, which we analyze theoretically. We validate our approach on over 200 benchmark datasets, achieving speedups of over 100x compared to state-of-the-art solvers and enabling the solution of instances where competing approaches fail. Our findings provide novel insights towards transforming the practical scalability of SOS programming.",
+    "archive": "arXiv",
+    "archiveLocation": "2510.13444",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Scholar": "73IbXtsAAAAJ:1yQoGdGgb4wC",
+      "Venue": "ICLR 2026, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
