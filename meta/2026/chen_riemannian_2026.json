@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Representations on the Symmetric Positive Definite (SPD) manifold have garnered significant attention across different applications. In contrast, the manifold of full-rank correlation matrices, a normalized alternative to SPD matrices, remains largely underexplored. This paper introduces Riemannian networks over the correlation manifold, leveraging five recently developed correlation geometries. We systematically extend basic layers, including Multinomial Logistic Regression (MLR), Fully Connected (FC), and convolutional layers, to these geometries. Besides, we present methods for accurate backpropagation for two correlation geometries. Experiments comparing our approach against existing SPD and Grassmannian networks demonstrate its effectiveness.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.19073",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "DZ-fHPgAAAAJ:AVuyoiFtmP8C",
+      "Venue": "arXiv preprint arXiv:2605.19073, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
