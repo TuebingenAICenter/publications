@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Whether navigating a building, operating a robot, or playing a game, an agent that acts effectively in an environment must first learn an internal model of how that environment works. Partially-observable Markov decision processes (POMDPs) provide a flexible modeling class for such internal world models, but learning them from observation-action trajectories alone is challenging and typically requires extensive environment interaction. We ask whether language-model priors can reduce costly interaction by leveraging prior knowledge, and introduce Pinductor (POMDP-inductor): an LLM proposes candidate POMDP models from a few observation-action trajectories and iteratively refines them to optimize a belief-based likelihood score. Despite using strictly less information, Pinductor matches the performance and sample efficiency of LLM-based POMDP learning methods that assume privileged access to the hidden state, while significantly surpassing the sample efficiency of tabular POMDP baselines. Further results show that performance scales with LLM capability and degrades gracefully as semantic information about the environment is withheld. Together, these results position language-model priors as a practical tool for sample-efficient world-model learning under partial observability, and a step toward generalist agents in real-world environments.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.13740",
+    "callNumber": "arXiv:2605.13740",
+    "extra": {
+      "Archive ID": "2605.13740",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7163025763",
+      "Repository": "GitHub",
+      "Scholar": "UeG5w08AAAAJ:WJVC3Jt7v1AC",
+      "Venue": "arXiv preprint arXiv:2605.13740, 2026",
+      "publicationTitle": "Universit@tsbibliothek Tübingen"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
