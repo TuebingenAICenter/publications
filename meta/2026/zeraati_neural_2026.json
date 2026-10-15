@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Neural activity fluctuates over a wide range of timescales within and across brain areas. Experimental observations suggest that diverse neural timescales reflect information in dynamic environments. However, how timescales are defined and measured from brain recordings vary across the literature. Moreover, these observations do not specify the mechanisms underlying timescale variations, nor whether specific timescales are necessary for neural computation and brain function. Here, we synthesize three directions where computational approaches can distill the broad set of empirical observations into quantitative and testable theories: We review (i) how different data analysis methods quantify timescales across distinct behavioral states and recording modalities, (ii) how biophysical models provide mechanistic explanations for the emergence of diverse timescales, and (iii) how task-performing networks and machine learning models uncover the functional relevance of neural timescales. This integrative computational perspective thus complements experimental investigations, providing a holistic view on how neural timescales reflect the relationship between brain structure, dynamics, and behavior.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2409.02684",
+    "extra": {
+      "Archive ID": "2409.02684",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4403160382",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:u1IMlZnpNFQC",
+      "Venue": "Nature Neuroscience, 1-14, 2026",
+      "publicationTitle": "Nature Neuroscience"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
+  }
+}
