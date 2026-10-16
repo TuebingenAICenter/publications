@@ -1,0 +1,28 @@
+{
+  "custom": {
+    "groups": [
+      "abebe",
+      "mendler-duenner"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We propose and analyze a unified framework that interleaves peer-to-peer opinion dynamics with performative effects of learning systems. While network theory studies how opinions evolve via social connections, and performative prediction examines how learning systems interplay with individuals’ opinions, neither captures the emergent dynamics when these forces co-evolve. We model this interplay as a recursive feedback loop: a platform’s predictions influence individual opinions, which then evolve through social interactions before forming the training data for the next platform model update. We demonstrate that this co-evolution induces a novel equilibrium that qualitatively differs from standard network equilibria. Specifically, we show that standard predictive objectives act as a “homogenizing force\" driving networks toward consensus even under conditions where classical opinion-dynamics models lead to disagreement. Further, we demonstrate how learning under partial observations creates spillover effects among individuals, even if individuals are not susceptible to peer-influence. Finally, we study a platform that systematically deviates from standard predictive objectives, and demonstrate how classical opinion-dynamics models underestimate the equilibrium response to node-level interventions. We complement our theoretical findings with semi-synthetic simulations on social network data. Combined, our results illuminate performativity as an important, so far neglected, qualifying factor in social networks.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.12137",
+    "callNumber": "arXiv:2603.12137",
+    "extra": {
+      "Archive ID": "2603.12137",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7135429269",
+      "Publication Title": "ArXiv.org",
+      "Repository": "arXiv",
+      "Scholar": "sDHHglIAAAAJ:P7Ujq4OLJYoC",
+      "Venue": "arXiv e-prints, arXiv: 2603.12137, 2026",
+      "arXiv": "2603.12137",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
