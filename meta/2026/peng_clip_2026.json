@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Compositional benchmarks track progress on CLIP-based compositional reasoning. Each new method reports higher scores than the last, but it is unclear whether the improvements reflect generalization to novel bindings or memorization of bindings already seen during training. To find out, we run two analyses: a synthetic ground-truth study with curated fully-seen, partially-unseen, and fully-unseen binding splits; and extension to three real compositional benchmarks (ARO VG-A, BiVLC, VisMin) using binding-overlap with COCO as a proxy for the alignment-training distribution. On the synthetic dataset, accuracy drops monotonically from fully-seen to fully-unseen across nine CLIP backbones. On ARO VG-A, positive captions overlap COCO bindings nearly twice as often as their attribute-swapped negatives (79.8% vs. 41.8%); only 1.2% of samples have no COCO-overlapping bindings. Restricting evaluation to the splits where this asymmetry vanishes by construction (those where all or none of the bindings overlap COCO) reorders the leaderboard and produces a rank-flip among models. The accuracy drop from seen to unseen bindings broadly replicates on BiVLC and VisMin, though with greater noise. Compositional benchmarks should report performance on these shortcut-free splits; otherwise reported improvements overstate how much CLIP has learned to bind.",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "kmXOOdsAAAAJ:olpn-zPbct0C",
+      "Venue": "ICML 2026 Workshop on Combining Theory and Benchmarks: Towards A Virtuous …, 0"
+    },
+    "itemType": "conferencePaper"
+  }
+}
