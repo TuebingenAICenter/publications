@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Tree search is a fundamental tool for planning, as many sequential decision-making problems can be framed as searching over tree-structured spaces. We propose an uncertainty-guided tree search algorithm for settings where the reward function is a log-likelihood function of the paths. Due to the combinatorial explosion of the tree size, the set of paths for which one can obtain rewards is sparse, particularly when the likelihood is obtained through expensive evaluations, such as by querying a large language model. We address this challenge by deriving an probabilistic search heuristic based on regularity assumptions for the likelihood. Unlike existing tree search methods, the proposed method can perform backtracking and trade-off exploration with exploitation, and yet does not require expensive roll-outs, or sophisticated Bayesian inference. Through extensive on-model and off-model experiments on timely, large-scale practical applications, we demonstrate that our method identifies paths with high likelihood while requiring fewer costly evaluations.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2407.03951",
+    "callNumber": "arXiv:2407.03951",
+    "extra": {
+      "Archive ID": "2407.03951",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:sNmaIFBj_lkC",
+      "Venue": "arXiv preprint arXiv:2407.03951, 2024"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
