@@ -5,16 +5,20 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Generating realistic 3D human-object interactions is a fundamental challenge in computer vision and graphics. Existing methods often struggle to model the complex, long-range dependencies between humans and objects, or rely on simplified representations that fail to capture the nuances of physical contact. We introduce TriDi, a novel generative framework for 3D human-object interaction synthesis. TriDi leverages a trilateral diffusion process that jointly models the human, the object, and their interaction. By factorizing the diffusion process into three interconnected branches, our model effectively captures the spatial and semantic relationships between the entities. We demonstrate that TriDi outperforms state-of-the-art methods in generating diverse and physically plausible 3D human-object interactions, as evaluated on standard benchmarks.",
+    "abstractNote": "Modeling 3D human-object interaction (HOI) is a problem of great interest for computer vision and a key enabler for virtual and mixed-reality applications. Existing methods work in a one-way direction: some recover plausible human interactions conditioned on a 3D object; others recover the object pose conditioned on a human pose. Instead, we provide the first unified model - TriDi which works in any direction. Concretely, we generate Human, Object, and Interaction modalities simultaneously with a new three-way diffusion process, allowing to model seven distributions with one network. We implement TriDi as a transformer attending to the various modalities' tokens, thereby discovering conditional relations between them. The user can control the interaction either as a text description of HOI or a contact map. We embed these two representations into a shared latent space, combining the practicality of text descriptions with the expressiveness of contact maps. Using a single network, TriDi unifies all the special cases of prior work and extends to new ones, modeling a family of seven distributions. Remarkably, despite using a single model, TriDi generated samples surpass one-way specialized baselines on GRAB and BEHAVE in terms of both qualitative and quantitative metrics, and demonstrating better diversity. We show the applicability of TriDi to scene population, generating objects for human-contact datasets, and generalization to unseen object geometry.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2412.06334",
+    "conferenceName": "International Conference on Computer Vision (ICCV)",
     "extra": {
       "Archive ID": "2412.06334",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4405917893",
       "Repository": "arXiv",
-      "Scholar": "OpXMNnMAAAAJ:TIZ-Mc8IlK0C"
+      "Scholar": "OpXMNnMAAAAJ:TIZ-Mc8IlK0C",
+      "Venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision …, 2025"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Computer Vision (ICCV)"
   }
 }
