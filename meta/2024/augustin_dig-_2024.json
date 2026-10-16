@@ -2,50 +2,20 @@
   "custom": {
     "groups": [
       "hein"
-    ],
-    "mentions_ai_center": true
+    ]
   },
   "zotero": {
-    "abstractNote": "Understanding the decision-making process of deep neural networks is crucial for their safe deployment. Existing interpretability methods often struggle to provide meaningful insights into the internal representations of complex models. We propose Diffusion Guidance for Investigating Networks (DiG-IN), a novel framework that leverages the generative power of diffusion models to probe and visualize the internal logic of classifiers. By using the classifier's output as guidance for the diffusion process, DiG-IN can generate images that maximize specific neuron activations or class probabilities, revealing the features that a model relies on. We demonstrate the effectiveness of DiG-IN in uncovering differences between classifiers, visualizing individual neurons, and generating visual counterfactual explanations. Our approach provides a flexible and powerful tool for model analysis, offering new perspectives on the inner workings of deep learning models.",
+    "abstractNote": "While deep learning has led to huge progress in complex image classification tasks like ImageNet, unexpected failure modes, e.g. via spurious features, call into question how reliably these classifiers work in the wild. Furthermore, for safety-critical tasks the black-box nature of their decisions is problematic, and explanations or at least methods which make decisions plausible are needed urgently. In this paper, we address these problems by generating images that optimize a classifier-derived objective using a framework for guided image generation. We analyze the behavior and decisions of image classifiers by visual counterfactual explanations (VCEs), detection of systematic mistakes by analyzing images where classifiers maximally disagree, and visualization of neurons to verify potential spurious features. In this way, we validate existing observations, e.g. the shape bias of adversarially robust models, as well as novel failure modes, e.g. systematic errors of zero-shot CLIP classifiers, or identify harmful spurious features. Moreover, our VCEs outperform previous work while being more versatile.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2311.17833",
-    "attachments": [
-      {
-        "accessDate": "2025-06-17 16:17:50",
-        "linkMode": "3",
-        "mimeType": "application/pdf",
-        "path": null,
-        "title": "Submitted Version",
-        "url": "https://arxiv.org/pdf/2311.17833"
-      },
-      {
-        "accessDate": "2025-06-17 16:17:50",
-        "linkMode": "3",
-        "mimeType": "application/pdf",
-        "path": null,
-        "title": "Submitted Version",
-        "url": "https://arxiv.org/pdf/2311.17833"
-      }
-    ],
-    "conferenceName": "CVPR",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "extra": {
-      "Citations@2026-06-01": "0",
-      "OpenAlex": "W4389218000",
-      "Scholar": "0ZAb3tsAAAAJ:QUX0mv85b1cC"
+      "Also known as": "Analyzing and Explaining Image Classifiers via Diffusion Guidance",
+      "Citations@2026-09-01": "5",
+      "Scholar": "0ZAb3tsAAAAJ:ce2CqMG-AY4C",
+      "Venue": "CVPR, 2024"
     },
     "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
-        "relations": null,
-        "tags": null
-      }
-    ],
-    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }
