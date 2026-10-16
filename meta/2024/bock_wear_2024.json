@@ -5,10 +5,16 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Research has shown the complementarity of camera- and inertial-based data for modeling human activities, yet datasets with both egocentric video and inertial-based sensor data remain scarce. In this paper, we introduce WEAR, an outdoor sports dataset for both vision- and inertial-based human activity recognition (HAR). Data from 22 participants performing a total of 18 different workout activities was collected with synchronized inertial (acceleration) and camera (egocentric video) data recorded at 11 different outside locations. WEAR provides a challenging prediction scenario in changing outdoor environments using a sensor placement, in line with recent trends in real-world applications. Benchmark results show that through our sensor placement, each modality interestingly offers complementary strengths and weaknesses in their prediction performance. Further, in light of the recent success of single-stage Temporal Action Localization (TAL) models, we demonstrate their versatility of not only being trained using visual data, but also using raw inertial data and being capable to fuse both modalities by means of simple concatenation.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2304.05088",
     "extra": {
       "Citations@2026-06-01": "81",
-      "Scholar": "pxhCcH0AAAAJ:a0OBvERweLwC"
+      "Citations@2026-07-13": "89",
+      "Scholar": "pxhCcH0AAAAJ:a0OBvERweLwC",
+      "Venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
     },
-    "itemType": "journalArticle"
+    "itemType": "journalArticle",
+    "libraryCatalog": "ACM Digital Library"
   }
 }
