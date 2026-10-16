@@ -5,17 +5,21 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Segment Anything Models (SAM) have shown impressive zero-shot performance on image segmentation tasks. However, their robustness to adversarial attacks remains largely unexplored. In this paper, we introduce the first prompt-agnostic adversarial attack on SAM. We show that it is possible to generate a single universal adversarial perturbation that, when added to an image, causes the model to produce incorrect segmentations for any prompt provided by the user. We demonstrate the effectiveness of our attack on the SAM architecture and show that it can be used to bypass the model's safety filters. Our results highlight the vulnerability of foundation models to adversarial attacks and call for more robust training procedures.",
+    "abstractNote": "General purpose segmentation models are able to generate (semantic) segmentation masks from a variety of prompts, including visual (points, boxed, etc.) and textual (object names) ones. In particular, input images are pre-processed by an image encoder to obtain embedding vectors which are later used for mask predictions. Existing adversarial attacks target the end-to-end tasks, i.e. aim at altering the segmentation mask predicted for a specific image-prompt pair. However, this requires running an individual attack for each new prompt for the same image. We propose instead to generate prompt-agnostic adversarial attacks by maximizing the ℓ2-distance, in the latent space, between the embedding of the original and perturbed images. Since the encoding process only depends on the image, distorted image representations will cause perturbations in the segmentation masks for a variety of prompts. We show that even imperceptible ℓ∞-bounded perturbations of radius ε=1/255 are often sufficient to drastically modify the masks predicted with point, box and text prompts by recently proposed foundation models for segmentation. Moreover, we explore the possibility of creating universal, i.e. non image-specific, attacks which can be readily applied to any input without further computational cost.",
     "archive": "arXiv",
-    "archiveLocation": "2311.14450",
+    "archiveLocation": "arXiv:2311.14450",
+    "conferenceName": "IEEE Conference on Secure and Trustworthy Machine Learning (SATML)",
     "extra": {
       "Archive ID": "2311.14450",
       "Citations@2026-06-01": "0",
+      "Citations@2026-10-01": "14",
       "OpenAlex": "W4389072909",
       "Repository": "arXiv",
-      "Scholar": "0ZAb3tsAAAAJ:RoXSNcbkSzsC"
+      "Scholar": "0ZAb3tsAAAAJ:RoXSNcbkSzsC",
+      "Venue": "2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 425-442, 2024"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "IEEE Conference on Secure and Trustworthy Machine Learning (SATML)"
   }
 }
