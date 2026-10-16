@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hardt",
+      "mendler-duenner"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Digital labor platforms are increasingly used to procure human input, ranging from annotating data and red-teaming AI models, to ride-sharing and food delivery. A central concern in such markets is the ability of platforms to suppress wages by exploiting the abundance of low-cost labor. To study this exploitation pattern, we introduce a novel posted-price procurement model with coverage objectives. A platform seeks to complete M tasks by posting prices to sequentially arriving workers, each of whom accepts a task if it exceeds their private cost. First, we show that under natural assumptions on the workers’ estimated cost, there exists a simple pricing strategy for the platform to cover all M tasks with wait time O(M), while paying only a O(log(M)/M) fraction of the total cost of labor. This result highlights how platforms can exploit workers’ uncertainty about the cost of labor to effectively suppress wages. Then, we study collective action as a lever to increase wages and promote welfare in digital labor markets. In particular, we show how a small coalition of targeted low-cost workers who commit to a price floor forces the platform’s total spending from logarithmic to linear in M. In contrast, a randomly sampled coalition of equal size remains largely ineffective. We complement our theory with synthetic experiments, showcasing the benefits of collective action across different market regimes.",
+    "archive": "arXiv",
+    "archiveLocation": "2604.15962",
+    "conferenceName": "The Web Conference (WWW)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7154938666",
+      "Scholar": "UqtDdZUAAAAJ:J_g5lzvAfSwC",
+      "Venue": "Proceedings of the ACM Web Conference 2026, 408-419, 2026",
+      "arXiv": "2604.15962"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the ACM Web Conference"
+  }
+}
