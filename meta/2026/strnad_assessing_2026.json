@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "hennig",
+      "ludwig"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The European electricity power grid is transitioning towards renewable energy sources, characterized by an increasing share of off- and onshore wind and solar power. However, the weather dependency of these energy sources poses a challenge to grid stability, with so-called Dunkelflaute events -- periods of low wind and solar power generation -- being of particular concern due to their potential to cause electricity supply shortages. In this study, we investigate the impact of these events on the German electricity production in the years and decades to come. For this purpose, we adapt a recently developed generative deep learning framework to downscale climate simulations from the CMIP6 ensemble. We first compare their statistics to the historical record taken from ERA5 data. Next, we use these downscaled simulations to assess plausible future occurrences of Dunkelflaute events in Germany under the optimistic low (SSP2-4.5) and high (SSP5-8.5) emission scenarios. Our analysis indicates that both the frequency and duration of Dunkelflaute events in Germany in the ensemble mean are projected to remain largely unchanged compared to the historical period. This suggests that, under the considered climate scenarios, the associated risk is expected to remain stable throughout the century.",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7135172541",
+      "Scholar": "UeG5w08AAAAJ:a9-T7VOCCH8C",
+      "Venue": "Environmental Data Science 5, e11, 2026"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.24788'>https://arxiv.org/abs/2509.24788</a><br><a href='https://dblp.org/rec/journals/corr/abs-2509-24788'>https://dblp.org/rec/journals/corr/abs-2509-24788</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
