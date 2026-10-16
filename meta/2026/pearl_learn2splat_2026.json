@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "3D Gaussian Splatting (3DGS) optimization is most commonly performed using standard optimizers (Adam, SGD). While stable across diverse scenes, standard optimizers are general-purpose and not tailored to the structure of the problem. In particular, they produce independent parameter updates that do not capture the structural and spatial relationships within a scene, leading to inefficient optimization and slow convergence. Recent works introduced learned optimizers that predict correlated updates informed by inter-parameter and inter-Gaussian dependencies. However, these methods are trained for a fixed number of optimization iterations and rely on manually scheduled learning rates to avoid degradation. In this paper, we introduce a learned optimizer for 3DGS that avoids degradation over extended optimization horizons without auxiliary mechanisms. To enable this, we propose a meta-learning scheme that extends the optimization horizon via a checkpoint buffer and an optimizer rollout strategy, combined with an architecture that encodes gradient scale information in its latent states. Results show improved early novel view synthesis quality while remaining stable over long horizons, with zero-shot generalization to unseen reconstruction settings. To support our findings, we introduce the first unified framework for training and evaluating both learned and conventional optimizers across sparse and dense view settings.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "callNumber": "arXiv:2605.15760",
+    "extra": {
+      "Archive ID": "2605.15760",
+      "Scholar": "OpXMNnMAAAAJ:KbBQZpvPDL4C",
+      "Venue": "arXiv preprint arXiv:2605.15760, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
