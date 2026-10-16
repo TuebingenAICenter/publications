@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce MoLingo, a text-to-motion (T2M) model that generates realistic, lifelike human motion by denoising in a continuous latent space. Recent works perform latent space diffusion, either on the whole latent at once or auto-regressively over multiple latents. In this paper, we study how to make diffusion on continuous motion latents work best. We focus on two questions: (1) how to build a semantically aligned latent space so diffusion becomes more effective, and (2) how to best inject text conditioning so the motion follows the description closely. We propose a semantic-aligned motion encoder trained with frame-level text labels so that latents with similar text meaning stay close, which makes the latent space more diffusion-friendly. We also compare single-token conditioning with a multi-token cross-attention scheme and find that cross-attention gives better motion realism and text-motion alignment. With semantically aligned latents, auto-regressive generation, and cross-attention text conditioning, our model sets a new state of the art in human motion generation on standard metrics and in a user study. We will release our code and models for further research and downstream usage.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.13840",
+    "conferenceName": "International Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "OpenAlex": "W4417464900",
+      "Scholar": "OpXMNnMAAAAJ:3htObqc8RwsC",
+      "Venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
