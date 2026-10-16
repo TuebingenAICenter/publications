@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a method for consistent lighting and shadows when animated 3D Gaussian Splatting (3DGS) avatars interact with 3DGS scenes or with dynamic objects inserted into otherwise static scenes. Our key contribution is Deep Gaussian Shadow Maps (DGSM), a modern analogue of the classical shadow mapping algorithm tailored to the volumetric 3DGS representation. Building on the classic deep shadow mapping idea, we show that 3DGS admits closed form light accumulation along light rays, enabling volumetric shadow computation without meshing. For each estimated light, we tabulate transmittance over concentric radial shells and store them in octahedral atlases, which modern GPUs can sample in real time per query to attenuate affected scene Gaussians and thus cast and receive shadows consistently. To relight moving avatars, we approximate the local environment illumination with HDRI probes represented in a spherical harmonic (SH) basis and apply a fast per Gaussian radiance transfer, avoiding explicit BRDF estimation or offline optimization. We demonstrate environment consistent lighting for avatars from AvatarX and ActorsHQ, composited into ScanNet++, DL3DV, and SuperSplat scenes, and show interactions with inserted objects. Across single and multi avatar settings, DGSM and SH relighting operate fully in the volumetric 3DGS representation, yielding coherent shadows and relighting while avoiding meshing.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.01660",
+    "callNumber": "arXiv:2601.01660",
+    "extra": {
+      "Archive ID": "2601.01660",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7119235646",
+      "Repository": "arXiv",
+      "Scholar": "OpXMNnMAAAAJ:edDO8Oi4QzsC",
+      "Venue": "arXiv preprint arXiv:2601.01660, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
