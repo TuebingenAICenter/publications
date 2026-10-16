@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Training deep neural networks (DNNs) under high sparsity remains challenging, as model performance often degrades significantly once sparsity exceeds.",
+    "conferenceName": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
+    "extra": {
+      "Scholar": "73IbXtsAAAAJ:uJ-U7cs_P_0C",
+      "Venue": "Joint European Conference on Machine Learning and Knowledge Discovery in …, 2026"
+    },
+    "itemType": "conferencePaper"
+  }
+}
