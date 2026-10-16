@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "dax",
+      "macke",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multiple formation pathways have been proposed for the origin of binary black holes (BBHs). These include isolated binary evolution and dynamical assembly in dense stellar environments such as nuclear or globular star clusters. Yet, the fraction of BBHs originating from each channel remains uncertain. One way to constrain this fraction is by investigating the orbital eccentricities of the BH coalescences detected by the LIGO-Virgo-KAGRA (LVK) Collaboration. We analyze 84 BBHs from the first part of the fourth LVK observing run (O4a) using a multipolar, eccentric, aligned-spin effective-one-body waveform model. We perform parameter inference with neural posterior estimation and nested sampling. After incorporating astrophysical prior odds and comparing to the quasicircular precessing-spin hypothesis, we find that no candidates reach a high enough significance to claim a confident detection of eccentricity. We use these upper limits to explore a model, in which all O4a BBHs originate from single-single gravitational wave (GW) captures. We perform hierarchical inference on the velocity dispersion of the host environment of the BBHs and find σ < 19.7 km/s (95% credible upper bound). This disfavors single-single capture in nuclear star clusters (approximately 20-200 km/s) as the dominant source of all observed BBH mergers. Our analysis also jointly infers the mass, spin and redshift distributions and takes into account selection effects due to using quasi-circular templates for BBH detection. Our results place improved constraints on the number of eccentric BBHs and highlight the importance of eccentricity measurements in disentangling compact-binary formation channels in current and future GW detectors.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.29019",
+    "extra": {
+      "Associated software DOI": "10.5281/zenodo.21221949",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7167486602",
+      "Scholar": "VRBv6mEAAAAJ:D03iK_w7-QYC",
+      "Venue": "arXiv preprint arXiv:2603.29019, 2026",
+      "Version Number": "v2"
+    },
+    "itemType": "computerProgram",
+    "libraryCatalog": "arXiv"
+  }
+}
