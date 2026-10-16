@@ -5,14 +5,20 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Selection bias is a pervasive issue in causal inference and machine learning, often leading to spurious correlations and biased estimates. While existing methods for detecting selection bias primarily focus on static data, many real-world datasets are sequential. In this paper, we investigate the problem of detecting and identifying selection structure in sequential data. We first define the selection structure in a sequential setting, which characterizes how the selection mechanism depends on the observed variables and the underlying causal process. We then propose a novel framework to detect the presence of selection bias and identify the selection structure by leveraging the conditional independence properties of the observed data. We provide theoretical guarantees for the identifiability of the selection structure under certain conditions. Finally, we demonstrate the effectiveness of our proposed method through extensive experiments on both synthetic and real-world datasets.",
+    "abstractNote": "We argue that the selective inclusion of data points based on latent objectives is common in practical situations, such as music sequences. Since this selection process often distorts statistical analysis, previous work primarily views it as a bias to be corrected and proposes various methods to mitigate its effect. However, while controlling this bias is crucial, selection also offers an opportunity to provide a deeper insight into the hidden generation process, as it is a fundamental mechanism underlying what we observe. In particular, overlooking selection in sequential data can lead to an incomplete or overcomplicated inductive bias in modeling, such as assuming a universal autoregressive structure for all dependencies. Therefore, rather than merely viewing it as a bias, we explore the causal structure of selection in sequential data to delve deeper into the complete causal process. Specifically, we show that selection structure is identifiable without any parametric assumptions or interventional experiments. Moreover, even in cases where selection variables coexist with latent confounders, we still establish the nonparametric identifiability under appropriate structural conditions. Meanwhile, we also propose a provably correct algorithm to detect and identify selection structures as well as other types of dependencies. The framework has been validated empirically on both synthetic data and real-world music.",
+    "archive": "arXiv",
+    "archiveLocation": "2407.00529",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4400343209",
-      "Pages": "61498--61525",
       "Scholar": "DZ-fHPgAAAAJ:k1NOPUYh3VEC",
-      "Volume": "235"
+      "Venue": "arXiv preprint arXiv:2407.00529, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
