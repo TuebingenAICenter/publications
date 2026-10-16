@@ -5,18 +5,23 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Large Language Models (LLMs) are increasingly deployed in sensitive domains, necessitating strict adherence to privacy norms. Contextual Integrity (CI) provides a robust framework for evaluating privacy by considering the context in which information is shared. However, existing privacy alignment techniques for LLMs often rely on static rules or simple instruction tuning, which struggle to capture the nuanced, context-dependent nature of privacy. In this work, we introduce a novel framework to enforce Contextual Integrity in LLMs. We first formalize CI as a reasoning task, enabling models to evaluate information flows against context-specific norms. We then propose a reinforcement learning approach to align LLMs with these norms, leveraging a reward model trained on CI-based feedback. Our experiments demonstrate that our approach significantly improves the model's ability to adhere to privacy norms across diverse contexts while maintaining utility, outperforming existing baselines in both privacy preservation and reasoning capabilities.",
+    "abstractNote": "As the era of autonomous agents making decisions on behalf of users unfolds, ensuring contextual integrity (CI) -- what is the appropriate information to share while carrying out a certain task -- becomes a central question to the field. We posit that CI demands a form of reasoning where the agent needs to reason about the context in which it is operating. To test this, we first prompt LLMs to reason explicitly about CI when deciding what information to disclose. We then extend this approach by developing a reinforcement learning (RL) framework that further instills in models the reasoning necessary to achieve CI. Using a synthetic, automatically created, dataset of only ~700 examples but with diverse contexts and information disclosure norms, we show that our method substantially reduces inappropriate information disclosure while maintaining task performance across multiple model sizes and families. Importantly, improvements transfer from this synthetic dataset to established CI benchmarks such as PrivacyLens that has human annotations and evaluates privacy leakage of AI assistants in actions and tool calls.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2506.04245",
+    "archiveLocation": "2506.04245",
     "callNumber": "arXiv:2506.04245",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Archive ID": "2506.04245",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4416378769",
       "Repository": "arXiv",
-      "Scholar": "QEiYbDYAAAAJ:qPeb-qHga9sC"
+      "Scholar": "QEiYbDYAAAAJ:qPeb-qHga9sC",
+      "Venue": "NeurIPS, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
