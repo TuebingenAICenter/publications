@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We analyze the variance of temporal difference (TD) learning using the phased setting with tabular representation, and show that one of the mechanisms behind its ability to reduce variance is by effectively aggregating over a larger number of independent trajectories. Based on this insight, we demonstrate that (1) the variance of TD is asymptotically bounded from above by Monte Carlo (MC) estimators, and (2) shorter horizon updates incurs less variance for a fixed number of samples. Beyond TD, we show that Direct Advantage Estimation (DAE), a method for estimating the advantage function, can be seen as a type of regression-adjusted control variate, which achieves a tighter bound on the variance compared to TD in the large-sample limit. Finally, we numerically illustrate the behaviors of these estimators with carefully designed environments.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.20357",
+    "conferenceName": "Reinforcement Learning Conference (RLC)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Citations@2026-07-13": "1",
+      "Reporter": "Eighteenth European Workshop on Reinforcement Learning, 2025",
+      "Scholar": "DZ-fHPgAAAAJ:3Y8oUG17k5cC",
+      "Venue": "arXiv preprint arXiv:2606.20357, 2026",
+      "arXiv": "2606.20357"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=AvxecjmCtI'>https://openreview.net/forum?id=AvxecjmCtI</a><br><a href='https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/program/'>https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/program/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Reinforcement Learning Conference (RLC)"
+  }
+}
