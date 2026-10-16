@@ -5,16 +5,16 @@
     ]
   },
   "zotero": {
-    "abstractNote": "We propose a simple framework for object recognition that treats the task as a next-token prediction problem, similar to how large language models are trained. We represent images as sequences of discrete tokens and train a transformer to predict the next token in the sequence, conditioned on the image patches. This approach allows us to leverage the powerful capabilities of transformer architectures and the vast amount of data available for training language models. We show that our method achieves competitive performance on standard object recognition benchmarks, while being significantly simpler and more scalable than traditional approaches.",
+    "abstractNote": "We present an approach to pose object recognition as next token prediction. The idea is to apply a language decoder that auto-regressively predicts the text tokens from image embeddings to form labels. To ground this prediction process in auto-regression, we customize a non-causal attention mask for the decoder, incorporating two key features: modeling tokens from different labels to be independent, and treating image tokens as a prefix. This masking mechanism inspires an efficient method - one-shot sampling - to simultaneously sample tokens of multiple labels in parallel and rank generated labels by their probabilities during inference. To further enhance the efficiency, we propose a simple strategy to construct a compact decoder by simply discarding the intermediate blocks of a pretrained language model. This approach yields a decoder that matches the full model's performance while being notably more efficient.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2312.02142",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "extra": {
-      "Archive ID": "2312.02142",
-      "Citations@2026-06-01": "0",
-      "OpenAlex": "W4389364490",
-      "Repository": "arXiv",
-      "Scholar": "206vNCEAAAAJ:lSLTfruPkqcC"
+      "Citations@2026-10-01": "21",
+      "Scholar": "206vNCEAAAAJ:lSLTfruPkqcC",
+      "Venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR …, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }
