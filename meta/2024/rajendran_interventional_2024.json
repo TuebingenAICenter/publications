@@ -5,12 +5,20 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Linear Time-Invariant (LTI) systems are a fundamental class of dynamical systems. While the problem of identifying the parameters of an LTI system from observational data is well-studied, it is known that without further assumptions, the system is only identifiable up to a similarity transformation. In this work, we study the identifiability of Gaussian LTI systems under interventions. We show that even with a single interventional distribution, we can identify the system parameters up to a permutation and scaling of the latent components, provided the noise is non-Gaussian or the system is driven by independent sources. We provide a comprehensive analysis of the identifiability conditions and propose an algorithm for parameter estimation. Our results bridge the gap between classical system identification and modern causal representation learning.",
+    "abstractNote": "We investigate the relationship between system identification and intervention design in dynamical systems. While previous research demonstrated how identifiable representation learning methods, such as Independent Component Analysis (ICA), can reveal cause-effect relationships, it relied on a passive perspective without considering how to collect data. Our work shows that in Gaussian Linear Time-Invariant (LTI) systems, the system parameters can be identified by introducing diverse intervention signals in a multi-environment setting. By harnessing appropriate diversity assumptions motivated by the ICA literature, our findings connect experiment design and representational identifiability in dynamical systems. We corroborate our findings on synthetic and (simulated) physical data. Additionally, we show that Hidden Markov Models, in general, and (Gaussian) LTI systems, in particular, fulfil a generalization of the Causal de Finetti theorem with continuous parameters.",
+    "archive": "arXiv",
+    "archiveLocation": "2311.18048",
+    "conferenceName": "Conference on Causal Learning and Reasoning (CLeaR)",
     "extra": {
       "Citations@2026-06-01": "1",
+      "Citations@2026-10-01": "9",
+      "Editors": "Francesco Locatello, Vanessa Didelez",
       "OpenAlex": "W4389260677",
-      "Scholar": "v-JL-hsAAAAJ:fPk4N6BV_jEC"
+      "Scholar": "v-JL-hsAAAAJ:fPk4N6BV_jEC",
+      "Venue": "Causal Learning and Reasoning, 41-70, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Third Conference on Causal Learning and Reasoning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
