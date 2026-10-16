@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Indirect Prompt Injection attacks exploit the inherent limitation of Large Language Models (LLMs) to distinguish between instructions and data in their inputs. Despite numerous defense proposals, the systematic evaluation against adaptive adversaries remains limited, even when successful attacks can have wide security and privacy implications, and many real-world LLM-based applications remain vulnerable. We present the results of LLMail-Inject, a public challenge simulating a realistic scenario in which participants adaptively attempted to inject malicious instructions into emails in order to trigger unauthorized tool calls in an LLM-based email assistant. The challenge spanned multiple defense strategies, LLM architectures, and retrieval configurations, resulting in a dataset of 208,095 unique attack submissions from 839 participants. We release the challenge code, the full dataset of submissions, and our analysis demonstrating how this data can provide new insights into the instruction-data separation problem. We hope this will serve as a foundation for future research towards practical structural solutions to prompt injection.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.09956",
+    "conferenceName": "Findings of the Association for Computational Linguistics (EMNLP)",
+    "extra": {
+      "Archive ID": "2506.09956",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W4417308938",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:wGzT3bKASkAC",
+      "Venue": "EMNLP Findings, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Findings of the Association for Computational Linguistics (EMNLP)"
+  }
+}
