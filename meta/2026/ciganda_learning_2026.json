@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Age-specific fertility rates (ASFRs) provide the most extensive record of reproductive change, but their aggregate nature obscures the individual-level behavioral mechanisms that drive fertility trends. To bridge this micro-macro divide, we introduce a likelihood-free Bayesian framework that couples a demographically interpretable, individual-level simulation model of the reproductive process with Sequential Neural Posterior Estimation (SNPE). We show that this framework successfully recovers core behavioral parameters governing contemporary fertility, including preferences for family size, reproductive timing, and contraceptive failure, using only ASFRs. The framework's effectiveness is validated on cohorts from four countries with diverse fertility regimes. Most compellingly, the model, estimated solely on aggregate data, successfully predicts out-of-sample distributions of individual-level outcomes, including age at first sex, desired family size, and birth intervals. Because our framework yields complete synthetic life histories, it significantly reduces the data requirements for building microsimulation models and enables behaviorally explicit demographic forecasts.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.22607",
+    "attachments": [
+      {
+        "accessDate": null,
+        "linkMode": "3",
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.22607"
+      }
+    ],
+    "callNumber": "arXiv:2506.22607",
+    "extra": {
+      "Archive ID": "2506.22607",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7139942396",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:ZyBjE3zI-i8C",
+      "Venue": "Journal of the Royal Statistical Society Series A: Statistics in Society …, 2026"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.22607'>https://arxiv.org/abs/2506.22607</a><br><a href='https://papers.cool/arxiv/2506.22607'>https://papers.cool/arxiv/2506.22607</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506.22607'>https://dblp.org/rec/journals/corr/abs-2506.22607</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
