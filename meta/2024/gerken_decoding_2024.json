@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We studied 2286 neurons recorded from the hippocampus, during a full-length movie. Our results demonstrate an approach for reliably decoding movie features in the human MTL, and suggest that the brain uses a population code.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.1101/2024.06.13.598791v1",
+    "extra": {
+      "Archive ID": "10.1101/2024.06.13.598791v1",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-10-01": "4",
+      "OpenAlex": "W4413157135",
+      "Scholar": "FKOqtF8AAAAJ:vefPE_iVbj4C",
+      "Venue": "bioRxiv, 2024.06. 13.598791, 2024"
+    },
+    "itemType": "preprint"
+  }
+}
