@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Model-based reinforcement learning (RL) leverages learned world models to plan ahead or train in imagination. Recently, this approach has significantly improved sample efficiency and performance across various challenging domains ranging from playing games to controlling robots. However, there are fundamental limits to how accurate the long-term predictions of a world model can be, for example due to unstable environment dynamics or partial observability. These issues are further exacerbated by the compounding error problem. Model-based RL is therefore currently limited to short rollouts with the world model, and consequently struggles with long-horizon problems. We argue that this limitation can be addressed by modeling the outcome of temporally extended skills instead of the effect of primitive actions. To this end, we propose a mutual-information-based skill learning objective that ensures predictable, diverse, and task-related behavior. The resulting skills compensate for perturbations and drifts, enabling stable long-horizon planning. We design a sample-efficient hierarchical agent consisting of model predictive control with an abstract skill world model on the higher level, and skill execution on the lower level. We demonstrate that our approach, Stable Planning with Temporally Extended Skills (SPlaTES), solves a range of challenging long-horizon continuous control problems, outperforming competitive model-based and skill-based methods.",
+    "extra": {
+      "Citations@2026-09-01": "6",
+      "Scholar": "b-JF-UIAAAAJ:Ug5p-4gJ2f0C",
+      "Venue": "Reinforcement Learning Conference, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}
