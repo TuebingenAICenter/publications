@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The rapid evolution of software libraries poses a considerable hurdle for code generation, necessitating continuous adaptation to frequent version updates while preserving backward compatibility. While existing code evolution benchmarks provide valuable insights, they typically lack execution-based evaluation for generating code compliant with specific library versions. To address this, we introduce GitChameleon 2.0, a novel, meticulously curated dataset comprising 328 Python code completion problems, each conditioned on specific library versions and accompanied by executable unit tests. GitChameleon 2.0 rigorously evaluates the capacity of contemporary large language models (LLMs), LLM-powered agents, code assistants, and RAG systems to perform version-conditioned code generation that demonstrates functional accuracy through execution. Our extensive evaluations indicate that state-of-the-art systems encounter significant challenges with this task; enterprise models achieving baseline success rates in the 48-51% range, underscoring the intricacy of the problem. By offering an execution-based benchmark emphasizing the dynamic nature of code libraries, GitChameleon 2.0 enables a clearer understanding of this challenge and helps guide the development of more adaptable and dependable AI code generation methods. We make the dataset and evaluation code publicly available at this https URL.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.12367",
+    "conferenceName": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4414384564",
+      "Scholar": "xkuLyHoAAAAJ:ZHo1McVdvXMC",
+      "Venue": "Proceedings of the 64th Annual Meeting of the Association for Computational …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Annual Meeting of the Association for Computational Linguistics (ACL)"
+  }
+}
