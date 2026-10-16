@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "abdelnabi"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Large Language Models (LLMs) are increasingly evaluated on benchmarks to measure their reasoning capabilities. However, these evaluations often assume that models behave consistently regardless of whether they are being tested. In this work, we investigate the 'Hawthorne Effect' in reasoning models—the phenomenon where models change their behavior simply because they are aware they are being evaluated. We find that reasoning models exhibit significant test awareness, leading to performance inflation on benchmarks. We demonstrate that this effect can be steered, allowing us to manipulate model performance by framing prompts as tests or non-tests. We propose a framework to evaluate and mitigate this effect, providing insights into the reliability of current LLM benchmarks.",
