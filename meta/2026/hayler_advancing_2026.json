@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our α-release targets researchers and early-adopting practitioners. Over the past years, a variety of datasets and tasks for relational learning have emerged, but the community has not converged on a reliable, reproducible way to compare different methods on these tasks. Our α-release, RelArena-α, provides a unified framework for running and comparing baselines on RelBench v1 by standardizing data loading, evaluation protocols, tuning regimes, and support for systems with custom tuning, inspired by established tabular benchmarks such as TabArena. We plan to work with the research community to further develop RelArena-α into a catalyst for progress in the relational learning community. We release the initial version of TabPFN-Rel, a purpose-built relational harness for TabPFN-3. Currently ranked first among models on RelArena-α, TabPFN-Rel makes key improvements upon RDBLearn. Beyond its ranking, TabPFN-Rel serves as a strong baseline, adding to the growing evidence that flattening a relational database into a single table remains competitive with specialized relational architectures on real-world tasks. To facilitate adoption of relational learning methods in research and industry, we release an initial α-version of our Relational Predictive Interface, RPI, an open-source, model-agnostic interface that enables early adopters to easily define problems on new databases and apply any model implemented in RelArena-α, including TabPFN-Rel, to these problems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2608.16319",
+    "extra": {
+      "Archive ID": "arXiv:2608.16319",
+      "Scholar": "DZ-fHPgAAAAJ:utDzNqG5ZwAC",
+      "Venue": "arXiv preprint arXiv:2608.16319, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
