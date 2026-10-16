@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Low-field MRI scanners offer a portable and cost-effective alternative to high-field systems, but they suffer from lower signal-to-noise ratios and reduced contrast, complicating automated image segmentation. In this work, we propose a symmetric nnU-Net ResEnc architecture to segment brain regions in low-field pediatric brain MR images. Our approach leverages the structural symmetry of the brain to improve segmentation performance. We evaluate our method on the Low-Field Pediatric Brain MRI Segmentation Challenge dataset, demonstrating competitive results compared to standard nnU-Net baselines.",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7125498953",
+      "Scholar": "0ZAb3tsAAAAJ:s9ia6_kGH2AC",
+      "Venue": "MICCAI Challenge on Low Field Pediatric Brain Magnetic Resonance Image …, 2025"
+    },
+    "itemType": "bookSection",
+    "libraryCatalog": "SpringerLink"
+  }
+}
