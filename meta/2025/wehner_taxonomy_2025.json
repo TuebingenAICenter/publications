@@ -5,18 +5,20 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Representation Engineering (RepE) has emerged as a promising paradigm for interpreting and steering Large Language Models (LLMs) by manipulating their internal representations. Despite its growing popularity, the field lacks a unified framework, making it difficult to compare methods, understand their capabilities, and identify open challenges. In this survey, we provide a comprehensive taxonomy of RepE, categorizing existing methods based on their core mechanisms: reading, intervening, and training. We systematically analyze the opportunities RepE offers for model interpretability, safety, and control, while also critically evaluating the current limitations and open research questions. By synthesizing the state-of-the-art, we aim to provide a structured foundation for future research in this rapidly evolving domain.",
+    "abstractNote": "Representation Engineering (RepE) is a novel paradigm for controlling the behavior of LLMs. Unlike traditional approaches that modify inputs or fine-tune the model, RepE directly manipulates the model's internal representations. As a result, it may offer more effective, interpretable, data-efficient, and flexible control over models' behavior. We present the first comprehensive survey of RepE for LLMs, reviewing the rapidly growing literature to address key questions: What RepE methods exist and how do they differ? For what concepts and problems has RepE been applied? What are the strengths and weaknesses of RepE compared to other methods? To answer these, we propose a unified framework describing RepE as a pipeline comprising representation identification, operationalization, and control. We posit that while RepE methods offer significant potential, challenges remain, including managing multiple concepts, ensuring reliability, and preserving models' performance. Towards improving RepE, we identify opportunities for experimental and methodological improvements and construct a guide for best practices.",
     "archive": "arXiv",
-    "archiveLocation": "cs.CL",
+    "archiveLocation": "2502.19649",
     "extra": {
       "Archive ID": "2502.19649",
       "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
       "OpenAlex": "W4415313826",
       "Repository": "arXiv",
       "Scholar": "QEiYbDYAAAAJ:txeM2kYbVNMC",
-      "Status": "TMLR 2025 Survey Certification"
+      "Status": "TMLR 2025 Survey Certification",
+      "Venue": "TMLR - Survey certification🏆, 2025"
     },
-    "itemType": "document",
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv"
   }
 }
