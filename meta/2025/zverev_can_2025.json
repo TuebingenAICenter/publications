@@ -5,13 +5,17 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Large Language Models (LLMs) are increasingly used as components in complex systems, where they process inputs that contain both instructions and data. A common security concern is that an LLM might fail to distinguish between the two, leading to prompt injection attacks. In this work, we investigate the problem of instruction-data separation in LLMs. We first formalize the concept of instruction-data separation and propose a taxonomy of failure modes. We then introduce a benchmark for evaluating the ability of LLMs to separate instructions from data. Our experiments reveal that even state-of-the-art LLMs struggle with this task, and that the problem is more nuanced than previously thought. We conclude by discussing potential mitigation strategies and future research directions.",
+    "abstractNote": "Instruction-tuned Large Language Models (LLMs) show impressive results in numerous practical applications, but they lack essential safety features that are common in other areas of computer science, particularly an explicit separation of instructions and data. This makes them vulnerable to manipulations such as indirect prompt injections and generally unsuitable for safety-critical tasks. Surprisingly, there is currently no established definition or benchmark to quantify this phenomenon. In this work, we close this gap by introducing a formal measure for instruction-data separation and an empirical variant that is calculable from a model's outputs. We also present a new dataset, SEP, that allows estimating the measure for real-world models. Our results on various LLMs show that the problem of instruction-data separation is real: all models fail to achieve high separation, and canonical mitigation techniques, such as prompt engineering and fine-tuning, either fail to substantially improve separation or reduce model utility.",
     "archive": "arXiv",
     "archiveLocation": "2403.06833",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "75",
-      "Scholar": "QEiYbDYAAAAJ:z6xuaG2dYH0C"
+      "Citations@2026-07-13": "86",
+      "Scholar": "QEiYbDYAAAAJ:z6xuaG2dYH0C",
+      "Venue": "ICLR, 2025"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
