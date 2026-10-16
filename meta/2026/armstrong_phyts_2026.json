@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce PhyTS, a benchmark suite of precision scientific time series datasets for machine learning, spanning experiments in gravitational-wave detection, dark matter searches, neutrino mass determination, and exoplanet discovery. Despite their diverse scientific goals, these domains share a common challenge: recovering weak, structured signals and estimating underlying physical parameters from noise-dominated measurements. Unlike standard sequence modeling benchmarks such as audio and speech, these data exhibit non-Gaussian and nonstationary noise, long-range temporal correlations, detector-specific systematics, irregular sampling, and signals that are sparse, weak, or only partially modeled. As a result, they provide a challenging testbed for evaluating whether modern AI methods can support downstream scientific inference. We provide standardized tasks, data splits, and evaluation protocols for denoising, signal recovery, and parameter inference across physics domains, along with baseline results. By unifying diverse weak-signal inference problems under a common framework, this benchmark aims to enable reproducible evaluation and accelerate the development of more robust, interpretable, and physically grounded methods for scientific time series analysis.",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}
