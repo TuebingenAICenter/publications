@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modeling motion for articulated objects of arbitrary skeleton topology remains difficult: existing motion generators target a fixed human skeleton, and prior adaptations either fail to share a vocabulary across rigs or discard motion detail through global pooling. Our key observation is that while joint-level motion does not correspond cleanly across species, motion of functional joint groups does—a human arm, a wolf foreleg, and a bird wing share semantic motion structure despite differences in joint count and connectivity, a correspondence that joint names (e.g., “forearm”, “wing_L1”) partially expose even when topology does not. We introduce SAMoR (Skeleton-Aware Motion Representation for Articulated Objects), a cross-topology motion representation that encodes each motion segment as a small fixed number (K=8) of part tokens shared across arbitrary skeletons. SAMoR takes three input signals—per-joint motion features, kinematic graph structure, and joint-name embeddings—and processes them with a graph-transformer encoder, then compresses the resulting heterogeneous per-joint features into part-level tokens via cross-attention pooling and residual vector quantization, yielding a discrete motion codebook shared across rigs. To prevent the part queries from collapsing into redundant global representations, we introduce a topology-agnostic attention supervision loss, combined with joint-name dropout.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "extra": {
+      "Archive ID": "2607.02148",
+      "Repository": "arXiv",
+      "Scholar": "OpXMNnMAAAAJ:r_AWSJRzSzQC",
+      "Venue": "arXiv preprint arXiv:2607.02148, 2026",
+      "arXiv": "2607.02148"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
