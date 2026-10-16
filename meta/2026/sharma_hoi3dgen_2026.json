@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modeling and generating 3D human-object interactions from text is crucial for applications in AR, XR, and gaming. Existing approaches often rely on score distillation from text-to-image models, but their results suffer from the Janus problem and do not follow text prompts faithfully due to the scarcity of high-quality interaction data. We introduce Hoi3DGen, a framework that generates high-quality textured meshes of human-object interaction that follow the input interaction descriptions precisely. We first curate realistic and high-quality interaction data leveraging multimodal large language models, and then create a full text-to-3D pipeline, which achieves orders-of-magnitude improvements in interaction fidelity. Our method surpasses baselines by 4-15x in text consistency and 3-7x in 3D model quality, exhibiting strong generalization to diverse categories and interaction types, while maintaining high-quality 3D generation.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.12126",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Project page": "https://virtualhumans.mpi-inf.mpg.de/hoi3dgen/",
+      "Scholar": "OpXMNnMAAAAJ:4vMrXwiscB8C",
+      "Venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
