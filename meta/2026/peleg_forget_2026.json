@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine unlearning in LLMs is the targeted removal of specific knowledge while preserving all other capabilities, critical for privacy and safety. Yet existing benchmarks measure it unreliably. They miss knowledge that resurfaces under paraphrased or indirect queries, a failure we call under-forgetting, and lack the semantic, syntactic, and lexical probes needed to verify that unrelated knowledge is preserved, a failure we call over-forgetting. Both failures reflect an asymmetric generalization problem. Forget evaluation must cover diverse query formulations of the same target facts, testing whether forgetting holds beyond exact training prompts. Retain evaluation must probe a far larger and implicitly defined set, namely every fact disjoint from the forget target. The retain set thus defines the effective forget set, yet current datasets provide no fine-grained annotation of this forget-retain boundary. We address this with SUITE, an evaluation protocol and training corpus that captures forget-retain structure for real-world factual domains. Methods trained on SUITE improve substantially, showing that training data is as important as algorithmic design. Building on the obtained insights, we introduce JensUn++, an unlearning algorithm that achieves the best forget-retain utility trade-off across three LLMs, in both sequential and joint unlearning settings.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.09236",
+    "extra": {
+      "Archive ID": "2607.09236",
+      "Repository": "arXiv",
+      "Scholar": "0ZAb3tsAAAAJ:dAp6zn-oMfAC",
+      "Venue": "Advances in Neural Information Processing Systems (NeurIPS)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
