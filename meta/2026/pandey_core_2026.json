@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "European Chapter of the Association for Computational Linguistics (EACL)",
+    "extra": {
+      "Editors": "Demberg, Vera and Inui, Kentaro and Marquez, Lluís"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the European Chapter of the Association for Computational Linguistics (EACL)"
+  }
+}
