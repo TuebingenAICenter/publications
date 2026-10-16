@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recent progress in Large Language Model (LLM) technology has changed our role in interacting with these models. Instead of primarily testing these models with questions we already know answers to, we are now using them for queries where the answers are unknown to us, driven by human curiosity. This shift highlights the growing need to understand curiosity-driven human questions -- those that are more complex, open-ended, and reflective of real-world needs. To this end, we present Quriosity, a collection of 13K naturally occurring questions from three diverse sources: human-to-search-engine queries, human-to-human interactions, and human-to-LLM conversations. Our comprehensive collection enables a rich understanding of human curiosity across various domains and contexts. Our analysis reveals a significant presence of causal questions (up to 42%) in the dataset, for which we develop an iterative prompt improvement framework to identify all causal queries and examine their unique linguistic properties, cognitive complexity and source distribution. We also lay the groundwork for exploring efficient identifiers of causal questions, providing six efficient classification models.",
+    "archive": "ACL Anthology",
+    "conferenceName": "International Joint Conference on Natural Language Processing (IJCNLP)",
+    "extra": {
+      "Citations@2026-10-01": "6",
+      "Note": "*equal contribution",
+      "Scholar": "DZ-fHPgAAAAJ:eZ3Jd4XgJWUC",
+      "Venue": "Proceedings of the 14th International Joint Conference on Natural Language …, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics"
+  }
+}
