@@ -5,17 +5,22 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Conceptual blending is a fundamental cognitive process that allows humans to create new meanings by combining existing concepts. While human creativity is often constrained by cognitive biases and cultural availability, generative AI models offer the potential to explore a much larger space of concept combinations. In this work, we introduce 'Alien Recombination', a framework for exploring concept blends that lie beyond the scope of human cognitive availability. We leverage large-scale text-to-image models to generate visual art based on these 'alien' blends and evaluate them through a series of human-subject experiments. Our results demonstrate that AI-generated alien blends can elicit novel aesthetic experiences and challenge human conceptual boundaries, suggesting a new paradigm for human-AI collaborative creativity.",
+    "abstractNote": "While AI models have demonstrated remarkable capabilities in constrained domains like game strategy, their potential for genuine creativity in open-ended domains like art remains debated. We explore this question by examining how AI can transcend human cognitive limitations in visual art creation. Our research hypothesizes that visual art contains a vast unexplored space of conceptual combinations, constrained not by inherent incompatibility, but by cognitive limitations imposed by artists' cultural, temporal, geographical and social contexts. To test this hypothesis, we present the Alien Recombination method, a novel approach utilizing fine-tuned large language models to identify and generate concept combinations that lie beyond human cognitive availability. The system models and deliberately counteracts human availability bias, the tendency to rely on immediately accessible examples, to discover novel artistic combinations. This system not only produces combinations that have never been attempted before within our dataset but also identifies and generates combinations that are cognitively unavailable to all artists in the domain. Furthermore, we translate these combinations into visual representations, enabling the exploration of subjective perceptions of novelty. Our findings suggest that cognitive unavailability is a promising metric for optimizing artistic novelty, outperforming merely temperature scaling without additional evaluation criteria. This approach uses generative models to connect previously unconnected ideas, providing new insight into the potential of framing AI-driven creativity as a combinatorial problem.",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2411.11494",
+    "archiveLocation": "2411.11494",
+    "conferenceName": "NeurIPS Workshop on Creativity and Generative AI",
     "extra": {
       "Archive ID": "2411.11494",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "Event Place": "Vancouver, Canada",
       "OpenAlex": "W4404570967",
       "Repository": "arXiv",
-      "Scholar": "DZ-fHPgAAAAJ:ltZ93CXAWXIC"
+      "Scholar": "DZ-fHPgAAAAJ:ltZ93CXAWXIC",
+      "Venue": "arXiv preprint arXiv:2411.11494, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Workshop on Creativity and Generative AI"
   }
 }
