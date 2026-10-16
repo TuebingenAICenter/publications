@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Fine-tuning large language models (LLMs) on narrowly misaligned data generalizes to broadly misaligned behavior, a phenomenon termed emergent misalignment (EM). While prior work has found a correlation between harmful behavior and self-assessment in emergently misaligned models, it remains unclear how consistent this correspondence is across tasks and whether it varies across fine-tuning domains. We characterize the consistency of the EM persona by fine-tuning Qwen 2.5 32B Instruct on six narrowly misaligned domains (e.g., insecure code, risky financial advice, bad medical advice) and administering experiments including harmfulness evaluation, self-assessment, choosing between two descriptions of AI systems, output recognition, and score prediction. Our results reveal two distinct patterns: coherent-persona models, in which harmful behavior and self-reported misalignment are coupled, and inverted-persona models, which produce harmful outputs while identifying as aligned AI systems. These findings reveal a more fine-grained picture of the effects of emergent misalignment, calling into question the consistency of the EM persona.",
+    "archive": "arXiv",
+    "archiveLocation": "2604.28082",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:l7t_Zn2s7bgC",
+      "Venue": "ICML 2026 Workshop on Epistemic Intelligence in Machine Learning, 2026",
+      "arXiv": "2604.28082"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv"
+  }
+}
