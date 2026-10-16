@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We introduce the Cultural Alien Sampler (CAS), a framework for open-ended art generation that balances originality and coherence. By leveraging cultural evolution principles, CAS iteratively refines generated artifacts to maintain a balance between novelty and adherence to established aesthetic norms. We demonstrate the effectiveness of our approach through qualitative and quantitative evaluations, showing that CAS produces diverse and coherent art pieces that evolve over time.",
