@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Vision-as-inverse-graphics, the concept of reconstructing images into editable programs, remains challenging for Vision-Language Models (VLMs), which inherently lack fine-grained spatial grounding in one-shot settings. To address this, we introduce VIGA (Vision-as-Inverse-Graphics Agent), an interleaved multimodal reasoning framework where symbolic logic and visual perception actively cross-verify each other. VIGA operates through a tightly coupled code-render-inspect loop: synthesizing symbolic programs, projecting them into visual states, and inspecting discrepancies to guide iterative edits. Equipped with high-level semantic skills and an evolving multimodal memory, VIGA sustains evidence-based modifications over long horizons. This training-free, task-agnostic framework seamlessly supports 2D document generation, 3D reconstruction, multi-step 3D editing, and 4D physical interaction. Finally, we introduce BlenderBench, a challenging visual-to-code benchmark. Empirically, VIGA substantially improves accuracy compared with one-shot baselines in BlenderGym (35.32%), SlideBench (117.17%) and our proposed BlenderBench (124.70%).",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2601.11109",
+    "extra": {
+      "Archive ID": "2601.11109",
+      "Citations@2026-07-13": "15",
+      "Scholar": "6NjbexEAAAAJ:_sH1KHQ1xKcC",
+      "Venue": "arXiv preprint arXiv:2601.11109, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
