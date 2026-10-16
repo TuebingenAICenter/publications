@@ -5,12 +5,13 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Individual fairness requires that similar individuals be treated similarly. However, defining similarity is challenging, especially in the presence of causal relationships. In this paper, we propose a novel causal fair metric that leverages causal models to define similarity between individuals. We show that our metric is robust to adversarial perturbations and can be used to train fair models. We demonstrate the effectiveness of our approach on several real-world datasets.",
+    "abstractNote": "Despite the essential need for comprehensive considerations in responsible AI, factors like robustness, fairness, and causality are often studied in isolation. Adversarial perturbation, used to identify vulnerabilities in models, and individual fairness, aiming for equitable treatment of similar individuals, despite initial differences, both depend on metrics to generate comparable input data instances. Previous attempts to define such joint metrics often lack general assumptions about data or structural causal models and were unable to reflect counterfactual proximity. To address this, our paper introduces a causal fair metric formulated based on causal structures encompassing sensitive attributes and protected causal perturbation. To enhance the practicality of our metric, we propose metric learning as a method for metric estimation and deployment in real-world problems in the absence of structural causal models. We also demonstrate the application of our novel metric in classifiers. Empirical evaluation of real-world and synthetic datasets illustrates the effectiveness of our proposed metric in achieving an accurate classifier with fairness, resilience to adversarial perturbations, and a nuanced understanding of causal relationships.",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4388093498",
-      "Scholar": "s8xc2K4AAAAJ:hqOjcs7Dif8C"
+      "Scholar": "s8xc2K4AAAAJ:M3ejUd6NZC8C",
+      "Venue": "Transactions on Machine Learning Research, 2025"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
