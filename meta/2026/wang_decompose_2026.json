@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable abilities when analyzing images, yet translating these capabilities to few-shot image classification remains challenging. To bridge this gap, we present DeCoDe, a simple yet effective technique that enables off-the-shelf MLLMs to act as strong few-shot classifiers without any additional training. Our approach builds on the idea of few-shot classification as a set of pairwise image comparisons, decomposing the task into a set of binary decisions. Given a query image and a support image from a candidate class, the MLLM is prompted to decide whether the two images depict the same class. The logit corresponding to an affirmative response is then used as a similarity score to assign the query image to the most likely class. While this already yields good results, we show that providing additional high-level information, such as the data domain, to the model further improves performance. Our evaluation provides an extensive analysis of various inference variants on a suite of twelve datasets, six established and six newly curated few-shot benchmarks spanning across diverse domains. The results show that the proposed simple decomposition technique can turn off-the-shelf MLLMs into powerful few-shot learners, significantly outperforming current state-of-the-art few-shot methods on both standard and novel domains.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.00125",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Code": "https://github.com/yunhanwang1105/DeCoDe",
+      "Scholar": "pxhCcH0AAAAJ:VL0QpB8kHFEC",
+      "Venue": "arXiv preprint arXiv:2607.00125, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv"
+  }
+}
