@@ -5,13 +5,20 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The rapid advancement of Large Language Models (LLMs) has sparked intense debate regarding the prevalence of bias in these models and its mitigation. Yet, as exemplified by both results on debiasing methods in the literature and reports of alignment-related defects from the wider community, bias remains a poorly understood topic despite its practical relevance. To enhance the understanding of the internal causes of bias, we analyse LLM bias through the lens of causal fairness analysis, which enables us to both comprehend the origins of bias and reason about its downstream consequences and mitigation. To operationalize this framework, we propose a prompt-based method for the extraction of confounding and mediating attributes which contribute to the LLM decision process. By applying Activity Dependency Networks (ADNs), we then analyse how these attributes influence an LLM’s decision process. We apply our method to LLM ratings of argument quality in political debates. We find that the observed disparate treatment can at least in part be attributed to confounding and mitigating attributes and model misalignment, and discuss the consequences of our findings for human-AI alignment and bias mitigation.",
     "archive": "ACL Anthology",
     "archiveLocation": "2024.nlp4pi-1.15",
+    "conferenceName": "Workshop on NLP for Positive Impact (NLP4PI)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-10-01": "18",
+      "Note": "*equal contribution",
       "OpenAlex": "W4388747936",
-      "Scholar": "DZ-fHPgAAAAJ:Yea2hB8LYAgC"
+      "Scholar": "DZ-fHPgAAAAJ:Yea2hB8LYAgC",
+      "Venue": "Proceedings of the Third Workshop on NLP for Positive Impact, 152-178, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "proceedingsTitle": "Proceedings of the Third Workshop on NLP for Positive Impact"
   }
 }
