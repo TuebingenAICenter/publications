@@ -5,11 +5,20 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Cardiovascular disease (CVD) risk prediction models are essential for identifying high-risk individuals and guiding preventive actions. However, existing models struggle with the challenges of real-world clinical practice as they oversimplify patient profiles, rely on rigid input schemas, and are sensitive to distribution shifts. We developed AdaCVD, an adaptable CVD risk prediction framework built on large language models extensively fine-tuned on over half a million participants from the UK Biobank. In benchmark comparisons, AdaCVD surpasses established risk scores and standard machine learning approaches, achieving state-of-the-art performance. Crucially, for the first time, it addresses key clinical challenges across three dimensions: it flexibly incorporates comprehensive yet variable patient information; it seamlessly integrates both structured data and unstructured text; and it rapidly adapts to new patient populations using minimal additional data. In stratified analyses, it demonstrates robust performance across demographic, socioeconomic, and clinical subgroups, including underrepresented cohorts. AdaCVD offers a promising path toward more flexible, AI-driven clinical decision support tools suited to the realities of heterogeneous and dynamic healthcare environments.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.AI",
+    "callNumber": "arXiv:2505.24655",
     "extra": {
+      "Archive ID": "2505.24655",
       "Citations@2026-06-01": "5",
-      "Scholar": "DZ-fHPgAAAAJ:Rz4odBi1C0wC"
+      "Citations@2026-07-13": "6",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:Rz4odBi1C0wC",
+      "Venue": "arXiv preprint arXiv:2505.24655, 2025"
     },
-    "itemType": "document",
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2505.24655'>https://arxiv.org/abs/2505.24655</a><br><a href='https://dblp.org/rec/journals/corr/abs-2505-24655'>https://dblp.org/rec/journals/corr/abs-2505-24655</a><br><a href='https://www.catalyzex.com/paper/adaptable-cardiovascular-disease-risk'>https://www.catalyzex.com/paper/adaptable-cardiovascular-disease-risk</a><br></p>",
