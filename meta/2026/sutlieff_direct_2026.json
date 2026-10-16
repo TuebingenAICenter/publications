@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We report the direct imaging discovery of a third exoplanet in the β Pictoris system. We detect β Pictoris d in non-coronagraphic observations obtained with VLT/ERIS as well as multi-epoch archival datasets from JWST/NIRCam and VLT/SPHERE. Astrometric measurements over an 11-year baseline demonstrate that it is consistent with a gravitationally-bound source with orbital motion. Joint multi-planet orbit fits of all three planets in the system yield a semi-major axis of 26.0+2.2−6.1 au and inclination 89.0+0.7−0.6 deg for planet d. β Pictoris d has a larger orbital semi-major axis than the other known planets in the system, but is coplanar with the inner two planets, and its orbit is consistent with sculpting the inner edge of the debris disk. β Pictoris d has a contrast of ΔL′=12.11±0.15 mag, with colors and luminosity that closely match those of 51 Eri b, another exoplanet in the β Pictoris moving group. Its VLT/ERIS and JWST/NIRCam colors are distinct from those of free-floating planetary-mass objects of a similar age and temperature. Its red F410M−F444W color indicates strong CO2 absorption in its atmosphere and suggests significant enhancement in metals compared to free-floating objects. From the ATMO hot-start evolutionary models, we estimate an effective temperature of 600+45−60 K and mass of 2.4±0.6 MJup, which also closely matches similar estimates for 51 Eri b. β Pictoris d is among the lowest-mass exoplanets imaged from the ground. This discovery highlights the deep sensitivity achievable with ground-based imaging in the mid-infrared and the discovery potential of future high-contrast observations with the Extremely Large Telescope.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.23801",
+    "extra": {
+      "Archive ID": "2606.23801",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7165973405",
+      "Scholar": "DZ-fHPgAAAAJ:ov8qWdt4VJkC",
+      "Venue": "arXiv preprint arXiv:2606.23801, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
