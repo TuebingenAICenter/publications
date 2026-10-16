@@ -7,7 +7,7 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Scaling laws describe the predictable decrease in test loss with increasing compute, parameters, or data. Recent research has shown that the loss on one dataset (e.g., SlimPajama) often follows a linear relationship with the loss on another dataset (e.g., C4) when compute is varied. This phenomenon, which we refer to as loss-to-loss scaling, is observed across models trained on the same data distribution but differs for models trained on different data distributions. In this work, we investigate the factors that determine loss-to-loss scaling laws. We first show that these scaling laws are consistent across a wide range of model architectures (e.g., Transformers, RWKVs, State-Space Models) and model sizes if they are trained on the same data. In contrast, the data distribution has a significant impact: even subtle changes in data composition lead to distinct lines. Through a series of controlled experiments, we show that the slope and intercept of the loss-to-loss scaling law are determined by the relative data quality and the data overlap between the training and test distributions. Our findings suggest that loss-to-loss scaling laws can serve as a powerful tool to characterize and compare data distributions, offering a lens through which to understand the complex interplay between data and model performance.",
+    "abstractNote": "Scaling laws guide the development of large language models (LLMs) by offering estimates for the optimal balance of model size, tokens, and compute. More recently, loss-to-loss scaling laws that relate losses across pretraining datasets and downstream tasks have emerged as a powerful tool for understanding and improving LLM performance and generalization. In this work, we investigate which factors most strongly influence loss-to-loss scaling. Our experiments reveal that the pretraining data determines the scaling trend. In contrast, model size, optimization hyperparameters, tokenizer and even significant architectural differences, such as between transformer-based models like Llama and state-space models like Mamba, generally have limited impact. Consequently, practitioners should carefully curate pretraining datasets for optimal downstream performance, while architectures and other settings can be freely optimized for training efficiency.",
     "archive": "arXiv",
     "archiveLocation": "2502.12120",
     "attachments": [
@@ -20,16 +20,19 @@
         "url": "https://arxiv.org/pdf/2502.12120"
       }
     ],
+    "conferenceName": "International Conference on Machine Learning (ICML)",
     "extra": {
       "Archive ID": "2502.12120",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4407759068",
-      "Publication Title": "arXiv (Cornell University)",
       "Repository": "arXiv",
-      "Scholar": "v-JL-hsAAAAJ:Tiz5es2fbqcC",
-      "arXiv": "2502.12120"
+      "Scholar": "0z0fNxUAAAAJ:x21FZCSn4ZoC",
+      "Venue": "ICML 2025, 2025",
+      "arXiv": "2502.12120",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {
@@ -47,6 +50,8 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
