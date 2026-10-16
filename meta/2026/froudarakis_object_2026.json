@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Despite variations in appearance, we recognize objects robustly. Neuronal populations responding to objects presented under varying transformations form object manifolds, and hierarchically organized visual areas are hypothesized to untangle pixel intensities into linearly decodable object representations. However, the associated changes in the geometry of the object manifolds along the cortex remain unknown. Using home cage training, we showed that mice are capable of invariant object recognition. We recorded the responses of thousands of neurons to measure the information about object identity across the visual cortex and found that the lateral areas LM, LI, and AL carry more linearly decodable object information compared to other visual areas. We applied the theory of linear separability of manifolds and found that the increase in classification capacity is associated with a decrease in the dimension and radius of the object manifold, identifying features of the population code that enable invariant object coding.",
+    "extra": {
+      "Citations@2026-07-13": "45",
+      "OpenAlex": "W3073499157",
+      "Scholar": "lPQLk3QAAAAJ:TIZ-Mc8IlK0C",
+      "Venue": "BioRxiv, 2020.08. 20.258798, 2021"
+    },
+    "itemType": "journalArticle"
+  }
+}
