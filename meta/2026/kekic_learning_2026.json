@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Why do reinforcement learning (RL) policies fail or succeed? This is a challenging question due to the complex, high-dimensional nature of agent-environment interactions. In this work, we take a causal perspective on explaining the behavior of RL policies by viewing the states, actions, and rewards as variables in a low-level causal model. We introduce random perturbations to policy actions during execution and observe their effects on the cumulative reward, learning a simplified high-level causal model that explains these relationships. To this end, we develop a nonlinear Causal Model Reduction framework that ensures approximate interventional consistency, meaning the simplified high-level model responds to interventions in a similar way as the original complex system. We prove that for a class of nonlinear causal models, there exists a unique solution that achieves exact interventional consistency, ensuring learned explanations reflect meaningful causal patterns. Experiments on both synthetic causal models and practical RL tasks-including pendulum control and robot table tennis-demonstrate that our approach can uncover important behavioral patterns, biases, and failure modes in trained RL policies.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.14901",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4417433087",
+      "Scholar": "DZ-fHPgAAAAJ:6cRkBLN27MIC",
+      "Venue": "arXiv preprint arXiv:2507.14901, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
