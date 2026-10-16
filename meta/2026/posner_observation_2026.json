@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recent advances in foundation models have transformed AI for Science, enabling remarkably accurate predictive performance across domains ranging from protein folding to weather forecasting. Yet prediction alone does not constitute scientific discovery. Scientific understanding depends on uncovering the reusable explanatory mechanisms that generate observations, whereas contemporary machine learning remains fundamentally organised around predictive mappings rather than explanatory structure. In this paper, we argue that scientific discovery is fundamentally a problem of knowledge organisation. To this end, we introduce Mechanistic World Models, a new design paradigm that places reusable mechanisms at the centre of representation, computation and learning. Drawing on insights from the philosophy of science, we derive the computational capabilities required for discovery, identify the design principles and inductive pressures that encourage explanatory knowledge to emerge, and formalise the anatomy of a mechanism-centric world model. Finally, we show how diverse research directions including mechanistic interpretability, causal representation learning, equation discovery and modular architectures capture complementary ingredients of this paradigm while lacking a unified framework. We propose Mechanistic World Models as a conceptual foundation and computational blueprint for moving AI beyond predictive forecasting towards autonomous scientific discovery.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.12474",
+    "callNumber": "arXiv:2607.12474",
+    "extra": {
+      "Archive ID": "2607.12474",
+      "Citations@2026-09-01": "1",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:BohJfZfAf6oC",
+      "Venue": "arXiv preprint arXiv:2607.12474, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
