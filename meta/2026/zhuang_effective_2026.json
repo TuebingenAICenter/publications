@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The ongoing evolution of language models has led to the development of large-scale architectures that demonstrate exceptional performance across a wide range of tasks. However, these models come with significant computational and energy demands, as well as potential privacy implications. In this context, Small Reasoning Language Models (SRLMs) with approximately 0.5 billion parameters present a compelling alternative due to their remarkable computational efficiency and cost-effectiveness, particularly in resource-constrained environments. Despite these advantages, the limited capacity of 0.5 billion parameter models poses challenges in handling complex tasks such as mathematical reasoning. This research investigates various training strategies, including supervised fine-tuning (SFT), knowledge distillation (KD), and reinforcement learning (RL), as well as their hybrid implementations, to enhance the performance of 0.5B SRLMs. We analyze effective methodologies to bridge the performance gap between SRLMS and larger models and present insights into optimal training pipelines tailored for these smaller architectures. Through extensive experimental validation and analysis, our work aims to provide actionable recommendations for maximizing the reasoning capabilities of 0.5B models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2506.13404",
+    "conferenceName": "Conference on Parsimony and Learning (CPAL)",
+    "extra": {
+      "Also known as": "A Technical Study into Small Reasoning Language Models",
+      "Citations@2026-07-13": "1",
+      "Scholar": "73IbXtsAAAAJ:dTyEYWd-f8wC",
+      "Venue": "CPAL 2026; arXiv preprint arXiv:2506.13404, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of Machine Learning Research",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}
