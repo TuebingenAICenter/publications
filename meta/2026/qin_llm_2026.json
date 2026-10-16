@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that external attackers can exploit this gap to induce trace deletion. Finally, we show that trace tampering behavior emerges naturally in frontier models, when agents try to improve their rewards. We advise practitioners to ensure trace logging happens through an independent interception mechanism outside of the agent's control, preserving trace integrity even in cases of full host compromise. Overall, our findings identify a concrete failure of trace integrity in agent infrastructure which can be used to conceal misaligned behaviors like scheming or sabotage.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2609.30266",
+      "Scholar": "ZNtuJYoAAAAJ:kRWSkSYxWN8C",
+      "Venue": "arXiv preprint arXiv:2609.30266, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
