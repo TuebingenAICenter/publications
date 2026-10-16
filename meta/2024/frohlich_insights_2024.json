@@ -9,14 +9,18 @@
     "archive": "arXiv",
     "archiveLocation": "arXiv:2306.14624",
     "callNumber": "arXiv:2306.14624",
+    "conferenceName": "Conference on Fairness, Accountability, and Transparency (FAccT)",
     "extra": {
       "Archive ID": "2306.14624",
       "Citations@2026-06-01": "2",
+      "Citations@2026-10-01": "14",
       "OpenAlex": "W4382323232",
       "Repository": "arXiv",
-      "Scholar": "G4MBruQAAAAJ:lQh10hhnIEIC"
+      "Scholar": "G4MBruQAAAAJ:lQh10hhnIEIC",
+      "Venue": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and …, 2024"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Conference on Fairness, Accountability, and Transparency (FAccT)"
   }
 }
