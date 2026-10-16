@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Parameter-efficient finetuning (PEFT) has emerged as a practical solution for adapting large foundation models by updating only a small subset of parameters, and yet existing evaluations largely focus on downstream task performance while overlooking the preservation of pretrained capabilities. In this work, we argue that PEFT should be evaluated through the lens of the stability-plasticity dilemma, which characterizes the fundamental trade-off between efficient task adaptation (plasticity) and resistance to forgetting (stability). To this end, we introduce PEFT-Arena, a unified benchmark that jointly measures downstream performance and general capability retention. Our results show that all PEFT methods exhibit inherent stability-plasticity trade-offs and that different methods produce distinct trade-off patterns, indicating that neither metric alone is sufficient for evaluation. Besides external task-level assessment, we also propose to analyze the spectral geometry of weight updates to uncover the underlying mechanisms that govern the plasticity-stability trade-off. Our results show that PEFT methods achieving better trade-offs exhibit more structured and predictable spectral dynamics, highlighting spectral regularity as an intrinsic factor governing stability and as a guiding principle of the design of future PEFT algorithms. Inspired by the stability-plasticity trade-off, we exploit interpolation between the PEFT-tuned model and the base model. We find that such interpolated models often achieve a better trade-off than either model alone.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2605.28819",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Scholar": "DZ-fHPgAAAAJ:2GvbujVKL5cC",
+      "Venue": "arXiv preprint arXiv:2605.28819, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
