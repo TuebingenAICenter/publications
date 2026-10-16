@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "To characterize the dynamical behavior of many-body quantum systems, one is usually interested in the evolution of so-called order-parameters rather than in characterizing the full quantum state. In many situations, these quantities coincide with the expectation value of local observables, such as the magnetization or the particle density. In experiment, however, these expectation values can only be obtained with a finite degree of accuracy due to the effects of the projection noise. Here, we utilize a machine-learning approach to infer the dynamical generator governing the evolution of local observables in a many-body system from noisy data. To benchmark our method, we consider a variant of the quantum Ising model and generate synthetic experimental data, containing the results of N projective measurements at M sampling points in time, using the time-evolving block-decimation algorithm. As we show, across a wide range of parameters the dynamical generator of local observables can be approximated by a Markovian quantum master equation. Our method is not only useful for extracting effective dynamical generators from many-body systems, but may also be applied for inferring decoherence mechanisms of quantum simulation and computing platforms.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2306.03935",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Citations@2026-10-01": "16",
+      "OpenAlex": "W4379933169",
+      "Scholar": "b-JF-UIAAAAJ:ZfRJV9d4-WMC",
+      "Venue": "Physical Review Applied 21 (4), L041001, 2024"
+    },
+    "itemType": "journalArticle"
+  }
+}
