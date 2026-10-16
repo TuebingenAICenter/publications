@@ -5,17 +5,22 @@
     ]
   },
   "zotero": {
-    "abstractNote": "State Space Models (SSMs) like Mamba have recently emerged as a promising alternative to Transformers for sequence modeling. While their performance on large-scale pre-training is well-documented, their behavior in low-data regimes remains under-explored. In this work, we investigate the low-shot transferability of Vision Mamba ([V]-Mamba) models. We find that [V]-Mamba exhibits competitive performance compared to Vision Transformers (ViT) in low-shot settings, while offering computational advantages. We provide empirical evidence across multiple datasets and analyze the factors contributing to this transferability.",
+    "abstractNote": "The strength of modern large-scale neural networks lies in their ability to efficiently adapt to new tasks with few examples. Although extensive research has investigated the transferability of Vision Transformers (ViTs) to various downstream tasks under diverse constraints, this study shifts focus to explore the transfer learning potential of [V]-Mamba. We compare its performance with ViTs across different few-shot data budgets and efficient transfer methods. Our analysis yields three key insights into [V]-Mamba's few-shot transfer performance: (a) [V]-Mamba demonstrates superior or equivalent few-shot learning capabilities compared to ViTs when utilizing linear probing (LP) for transfer, (b) Conversely, [V]-Mamba exhibits weaker or similar few-shot learning performance compared to ViTs when employing visual prompting (VP) as the transfer method, and (c) We observe a weak positive correlation between the performance gap in transfer via LP and VP and the scale of the [V]-Mamba model. This preliminary analysis lays the foundation for more comprehensive studies aimed at furthering our understanding of the capabilities of [V]-Mamba variants and their distinctions from ViTs.",
     "archive": "arXiv",
     "archiveLocation": "2403.10696",
+    "conferenceName": "International Conference on Computer Vision and Pattern Recognition (CVPR)",
     "extra": {
       "Archive ID": "2403.10696",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4392971970",
       "Repository": "arXiv",
-      "Scholar": "xkuLyHoAAAAJ:R3hNpaxXUhUC"
+      "Scholar": "xkuLyHoAAAAJ:R3hNpaxXUhUC",
+      "Venue": "arXiv preprint arXiv:2403.10696, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
   }
 }
