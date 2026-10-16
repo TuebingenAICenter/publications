@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ludwig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Earth System Models (ESM) are our main tool for projecting the impacts of climate change. However, running these models at sufficient resolution for local-scale risk-assessments is not computationally feasible. Deep learning-based super-resolution models offer a promising solution to downscale ESM outputs to higher resolutions by learning from data. Yet, due to regional variations in climatic processes, these models typically require retraining for each geographical area-demanding high-resolution observational data, which is unevenly available across the globe. This highlights the need to assess how well these models generalize across geographic regions. To address this, we introduce RainShift, a dataset and benchmark for evaluating downscaling under geographic distribution shifts. We evaluate state-of-the-art downscaling approaches including GANs and diffusion models in generalizing across data gaps between the Global North and Global South. Our findings reveal substantial performance drops in out-of-distribution regions, depending on model and geographic area. While expanding the training domain generally improves generalization, it is insufficient to overcome shifts between geographically distinct regions. We show that addressing these shifts through, for example, domain adaptation can improve spatial generalization. Our work advances the global applicability of downscaling methods and represents a step toward reducing inequities in access to high-resolution climate information.",
+    "extra": {
+      "Citations@2026-07-13": "10",
+      "Scholar": "by3EWqIAAAAJ:9vf0nzSNQJEC",
+      "Venue": "Scientific Reports 16 (1), 3733, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
