@@ -5,9 +5,13 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Graph Neural Networks (GNNs) have emerged as powerful tools for analyzing graph-structured data, but their widespread adoption in critical applications is hindered by inherent biases related to sensitive attributes such as gender and race. While existing debiasing approaches typically focus on either modifying input graphs or incorporating fairness constraints into model objectives, we propose Fair Sparse GNN (FS-GNN), a novel framework that simultaneously enhances fairness and efficiency through joint sparsification of both input graphs and model architectures. Our approach iteratively identifies and removes less informative edges from input graphs while pruning redundant weights from the GNN model, guided by carefully designed fairness-aware objective functions. Through extensive experiments on real-world datasets, we demonstrate that FS-GNN achieves superior fairness metrics (reducing Statistical Parity from 7.94 to 0.6) while maintaining competitive prediction accuracy compared to state-of-the-art methods. Additionally, our theoretical analysis reveals distinct fairness implications of graph versus architecture sparsification, providing insights for future fairness-aware GNN designs. The proposed method not only advances fairness in GNNs but also offers substantial computational benefits through reduced model complexity, with FLOPs reductions ranging from 24% to 67%.",
     "extra": {
+      "Article number": "130641",
       "Citations@2026-06-01": "4",
-      "Scholar": "73IbXtsAAAAJ:WA5NYHcadZ8C"
+      "Citations@2026-07-13": "4",
+      "Scholar": "73IbXtsAAAAJ:WA5NYHcadZ8C",
+      "Venue": "Neurocomputing 648, 130641, 2025"
     },
     "itemType": "journalArticle"
   }
