@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Biophysical neuron models link measurements of neural activity to underlying cellular mechanisms. Yet, a central challenge is that the kinetics of many ion channels are poorly characterized, and practical simplifications -- omitting channels or reducing morphological detail -- introduce systematic gaps between model and biology. Bridging these gaps requires approaches that can flexibly discover unmodeled dynamics while preserving mechanistic interpretability. Here, we introduce a hybrid modeling framework that embeds neural ordinary differential equations into conductance-based biophysical models to capture unknown currents or mis-specified channel kinetics. By parameterizing the neural ODE in terms of voltage-dependent steady-state and time-constant functions, we recover interpretable gating dynamics directly from voltage recordings without assuming a functional form. We show that the hybrid model fits the gating kinetics of 2400 ion channel models and recovers unknown gating dynamics from single current-clamp recordings, generalizing to out-of-distribution stimulus regimes under realistic inputs and parameter misspecification. We also use our method to reduce a multicompartment model of a cortical neuron into a single-compartment hybrid model with a learned axial current, yielding up to an order of magnitude lower computational cost. Together, our results establish a plug-and-play framework for selectively replacing unknown components of conductance-based models with neural ODEs while preserving their mechanistic structure.",
+    "archive": "arXiv",
+    "archiveLocation": "2606.16693",
+    "extra": {
+      "Archive ID": "2606.16693",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7167951059",
+      "Publication Title": "Universit@tsbibliothek Tubingen",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:9UF2BbDYXHIC",
+      "Venue": "arXiv preprint arXiv:2606.16693, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
