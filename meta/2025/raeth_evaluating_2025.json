@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "ludwig"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "extra": {
