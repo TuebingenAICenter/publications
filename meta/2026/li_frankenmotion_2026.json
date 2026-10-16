@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Human motion generation from text prompts has made remarkable progress in recent years. However, existing methods primarily rely on either sequence-level or action-level descriptions due to the absence of fine-grained, part-level motion annotations. This limits their controllability over individual body parts. In this work, we construct a high-quality motion dataset with atomic, temporally-aware part-level text annotations, leveraging the reasoning capabilities of large language models (LLMs). Unlike prior datasets that either provide synchronized part captions with fixed time segments or rely solely on global sequence labels, our dataset captures asynchronous and semantically distinct part movements at fine temporal resolution. Based on this dataset, we introduce a diffusion-based part-aware motion generation framework, namely FrankenMotion, where each body part is guided by its own temporally-structured textual prompt. This is, to our knowledge, the first work to provide atomic, temporally-aware part-level motion annotations and have a model that allows motion generation with both spatial (body part) and temporal (atomic action) control. Experiments demonstrate that FrankenMotion outperforms all previous baseline models adapted and retrained for our setting, and our model can compose motions unseen during training.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.10909",
+    "conferenceName": "International Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7127934686",
+      "Scholar": "OpXMNnMAAAAJ:OTTXONDVkokC",
+      "Venue": "arXiv preprint arXiv:2601.10909, 2026",
+      "publicationTitle": "Universit@tsbibliothek Tubingen"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
