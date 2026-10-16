@@ -1,13 +1,12 @@
 {
   "custom": {
     "groups": [
-      "macke",
-      "schoelkopf"
+      "macke"
     ],
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "High-density extracellular recordings provide a rich source of information about the electrical activity of neurons. However, inferring the underlying biophysical parameters of multi-compartment Hodgkin-Huxley (HH) models from these recordings remains a significant challenge due to the high dimensionality of the parameter space and the computational cost of simulating these models. We propose a simulation-based inference (SBI) framework to identify the parameters of multi-compartment HH models from high-density extracellular voltage recordings. Our approach leverages a neural posterior estimator to learn the mapping from extracellular voltage traces to the posterior distribution over biophysical parameters. We demonstrate that our method can accurately recover the parameters of multi-compartment models in synthetic data and show that it can be applied to experimental recordings from retinal ganglion cells. Our framework provides a scalable and efficient tool for characterizing the biophysical properties of neurons from extracellular recordings.",
+    "abstractNote": "Multi-compartment Hodgkin-Huxley models are biophysical models of how electrical signals propagate throughout a neuron, and they form the basis of our knowledge of neural computation at the cellular level. However, these models have many free parameters that must be estimated for each cell, and existing fitting methods rely on intracellular voltage measurements that are highly challenging to obtain in vivo. Recent advances in neural recording technology with high-density probes and arrays enable dense sampling of extracellular voltage from many sites surrounding a neuron, allowing indirect measurement of many compartments of a cell simultaneously. Here, we propose a method for inferring the underlying membrane voltage, biophysical parameters, and the neuron's position relative to the probe, using extracellular measurements alone. We use an Extended Kalman Filter to infer membrane voltage and channel states using efficient, differentiable simulators. Then, we learn the model parameters by maximizing the marginal likelihood using gradient-based methods. We demonstrate the performance of this approach using simulated data and real neuron morphologies.",
     "archive": "arXiv",
     "archiveLocation": "2506.20233",
     "attachments": [
@@ -20,13 +19,15 @@
         "url": "https://arxiv.org/pdf/2506.20233"
       }
     ],
-    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
       "Event Place": "San Diego Convention Center and Mexico City",
       "OpenAlex": "W4414624896",
       "Scholar": "FKOqtF8AAAAJ:-TLX1-BxFiYC",
-      "Source": "group_webpage (schoelkopf)"
+      "Source": "group_webpage (schoelkopf)",
+      "Venue": "Thirty-Ninth Conference on Neural Information Processing Systems (NeurIPS), 2025"
     },
     "itemType": "conferencePaper",
     "notes": [
@@ -36,6 +37,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
