@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Diffusion Language Models (DLMs) generate text by iteratively denoising a masked sequence, repeatedly deciding which positions to commit at each step. Standard decoding follows a greedy rule: unmask the most confident positions, yet this local choice can lock the model into a suboptimal unmasking order, especially on reasoning-heavy prompts. We present SOAR, a training-free decoding algorithm that adapts its behavior to the model's uncertainty. When confidence is low, SOAR briefly widens the search over alternative unmasking decisions to avoid premature commitments; when confidence is high, it collapses the search and decodes many positions in parallel to reduce the number of denoising iterations. Across mathematical reasoning and code generation benchmarks (GSM8K, MBPP, HumanEval) on Dream-7B and LLaDA-8B, SOAR improves generation quality while maintaining competitive inference speed, offering a practical way to balance quality and efficiency in DLM decoding. Our Code is available at this https URL",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.10953",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "73IbXtsAAAAJ:uLbwQdceFCQC",
+      "Venue": "International Conference on Machine Learning (ICML)"
+    },
+    "itemType": "conferencePaper"
+  }
+}
