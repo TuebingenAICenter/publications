@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised learning (SSL) has achieved remarkable success in representation learning. However, most state-of-the-art methods rely on large batch sizes or memory banks to store representations, which can be computationally expensive and memory-intensive. In this work, we propose a memory-efficient parametric instance discrimination approach that avoids the need for large batch sizes or memory banks. Our method, which we call Occam's Razor for SSL, learns a parametric model of the data distribution, allowing for efficient instance discrimination. We demonstrate that our approach achieves competitive performance on standard benchmarks while significantly reducing memory requirements.",
+    "extra": {
+      "Scholar": "v-JL-hsAAAAJ:5Ul4iDaHHb8C",
+      "Venue": "Transactions on Machine Learning Research (TMLR)"
+    },
+    "itemType": "journalArticle"
+  }
+}
