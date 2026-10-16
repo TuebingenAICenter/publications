@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The angular distribution of gravitational-wave power from persistent sources may exhibit anisotropies arising from the large-scale structure of the Universe. This motivates directional searches for astrophysical and cosmological gravitational-wave backgrounds, as well as continuous-wave emitters. We present results of such a search using data from the first observing run through the first portion of the fourth observing run of the LIGO-Virgo-KAGRA Collaborations. We apply gravitational-wave radiometer techniques to generate skymaps and search for both narrowband and broadband persistent gravitational-wave sources. Additionally, we use spherical harmonic decomposition to probe spatially extended sources. No evidence of persistent gravitational-wave signals is found, and we set the most stringent constraints to date on such emissions. For narrowband point sources, our sensitivity estimate to effective strain amplitude lies in the range (0.03 - 8.4) x 10^-24 across all sky and frequency range (20 - 160) Hz. For targeted sources -- Scorpius X-1, SN 1987A, the Galactic Center, Terzan 5, and NGC 6397 -- we constrain the strain amplitude with best limits ranging from ~ 1.1 x 10^-25 to 6.5 x 10^-24. For persistent broadband sources, we constrain the gravitational-wave flux F_{alpha, n}^{95%, UL}(25 Hz) < (0.008 - 5.5) x 10^-8 erg cm^-2 s^-1 Hz^-1, depending on the sky direction n and spectral index alpha=0, 2/3, 3. Finally, for extended sources, we place upper limits on the strain angular power spectrum C_l^{1/2} < (0.63 - 17) x 10^-10 sr^-1.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2510.17487",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Citations@2026-07-13": "6",
+      "Scholar": "VRBv6mEAAAAJ:O3NaXMp0MMsC",
+      "Venue": "Physical Review D 114 (2), 022001, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
