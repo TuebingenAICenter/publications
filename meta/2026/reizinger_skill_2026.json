@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "brendel",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised feature learning and pretraining methods in reinforcement learning (RL) often rely on information-theoretic principles, termed mutual information skill learning (MISL). These methods aim to learn a representation of the environment while also incentivizing exploration thereof. However, the role of the representation and mutual information parametrization in MISL is not yet well understood theoretically. Our work investigates MISL through the lens of identifiable representation learning by focusing on the Contrastive Successor Features (CSF) method. We prove that CSF can provably recover the environment's ground-truth features up to a linear transformation due to the inner product parametrization of the features and skill diversity in a discriminative sense. This first identifiability guarantee for representation learning in RL also helps explain the implications of different mutual information objectives and the downsides of entropy regularizers. We empirically validate our claims in MuJoCo and DeepMind Control and show how CSF provably recovers the ground-truth features both from states and pixels.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.14748",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "Note": "*equal contribution",
+      "OpenAlex": "W4416838970",
+      "Scholar": "v-JL-hsAAAAJ:B3FOqHPlNUQC",
+      "Venue": "ICLR 2026, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
