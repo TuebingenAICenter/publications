@@ -5,13 +5,19 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Contact planning is a fundamental challenge in legged locomotion, requiring the selection of contact locations and timings that ensure stability and feasibility. Traditional methods often rely on simplified models or heuristic-based approaches, which can limit the agility of the robot. In this work, we propose a novel approach to contact planning using diffusion models. We learn a generative model that can sample diverse and feasible contact plans for a given task. Our method is able to generate contact plans that are consistent with the robot's dynamics and the environment, enabling agile locomotion in complex scenarios. We demonstrate the effectiveness of our approach on a quadruped robot, showing that it can generate contact plans that lead to successful locomotion in challenging environments.",
+    "abstractNote": "Legged robots have become capable of performing highly dynamic maneuvers in the past few years. However, agile locomotion in highly constrained environments such as stepping stones is still a challenge. In this paper, we propose a combination of model-based control, search, and learning to design efficient control policies for agile locomotion on stepping stones. In our framework, we use nonlinear model predictive control (NMPC) to generate whole-body motions for a given contact plan. To efficiently search for an optimal contact plan, we propose to use Monte Carlo tree search (MCTS). While the combination of MCTS and NMPC can quickly find a feasible plan for a given environment (a few seconds), it is not yet suitable to be used as a reactive policy. Hence, we generate a dataset for optimal goal-conditioned policy for a given scene and learn it through supervised learning. In particular, we leverage the power of diffusion models in handling multi-modality in the dataset. We test our proposed framework on a scenario where our quadruped robot Solo12 successfully jumps to different goals in a highly constrained environment.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.03639",
+    "conferenceName": "International Conference on Humanoid Robots (HUMANOIDS)",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
       "OpenAlex": "W4392576153",
-      "Pages": "637-644",
-      "Scholar": "DZ-fHPgAAAAJ:-rJzQCqpPy8C"
+      "Scholar": "DZ-fHPgAAAAJ:-rJzQCqpPy8C",
+      "Venue": "2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids …, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "IEEE Xplore",
+    "proceedingsTitle": "International Conference on Humanoid Robots (HUMANOIDS)"
   }
 }
