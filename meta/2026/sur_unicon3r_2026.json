@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce UniCon3R (Unified Contact-aware 3D Reconstruction), a unified feed-forward framework for online human-scene 4D reconstruction from monocular videos. Recent feed-forward methods enable real-time world-coordinate human motion and scene reconstruction, but they often produce physically implausible artifacts such as bodies floating above the ground or penetrating parts of the scene. The key reason is that existing approaches fail to model physical interactions between the human and the environment. A natural next step is to predict human-scene contact as an auxiliary output — yet we find this alone is not sufficient: contact must actively correct the reconstruction. To address this, we explicitly model interaction by inferring 3D contact from the human pose and scene geometry and use the contact as a corrective cue for generating the final pose. This enables UniCon3R to jointly recover high-fidelity scene geometry and spatially aligned 3D humans within the scene. Experiments on standard human-centric video benchmarks such as RICH, EMDB, 3DPW and SLOPER4D show that UniCon3R outperforms state-of-the-art baselines on physical plausibility and global human motion estimation while achieving real-time online inference. We experimentally demonstrate that contact serves as a powerful internal prior rather than just an external metric, thus establishing a new paradigm for physically grounded joint human-scene reconstruction.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2604.19923",
+    "extra": {
+      "Archive ID": "2604.19923",
+      "Repository": "https://github.com/surtantheta/UniCon3R",
+      "Scholar": "6NjbexEAAAAJ:94rQ0kDLHKYC",
+      "Venue": "arXiv e-prints, arXiv: 2604.19923, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
