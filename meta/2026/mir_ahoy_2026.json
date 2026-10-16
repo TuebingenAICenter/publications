@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present AHOY, a method for reconstructing complete, animatable 3D Gaussian avatars from in-the-wild monocular video despite heavy occlusion. Existing methods assume unoccluded input: a fully visible subject, often in a canonical pose. This excludes the vast majority of real-world footage where people are routinely occluded by furniture, objects, or other people. Reconstructing from such footage poses fundamental challenges: large body regions may never be observed, and multi-view supervision per pose is unavailable. We address these challenges with four contributions: (i) a hallucination-as-supervision pipeline that uses identity-finetuned diffusion models to generate dense supervision for previously unobserved body regions; (ii) a two-stage canonical-to-pose-dependent architecture that bootstraps from sparse observations to full pose-dependent Gaussian maps; (iii) a map-pose/LBS-pose decoupling that absorbs multi-view inconsistencies from the generated data; (iv) a head/body split supervision strategy that preserves facial identity. We evaluate on YouTube videos and on multi-view capture data with significant occlusion and demonstrate state-of-the-art reconstruction quality. We also demonstrate that the resulting avatars are robust enough to be animated with novel poses and composited into 3DGS scenes captured using cell-phone video.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.17975",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "Scholar": "OpXMNnMAAAAJ:cWzG1nlazyYC",
+      "Venue": "arXiv preprint arXiv:2603.17975, 2026",
+      "arXiv": "2603.17975"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}
