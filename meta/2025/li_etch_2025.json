@@ -5,13 +5,15 @@
     ]
   },
   "zotero": {
-    "abstractNote": "itting a body to a 3D clothed human point cloud is a common yet challenging task. Traditional optimization-based approaches use multi-stage pipelines that are sensitive to pose initialization, while recent learning-based methods often struggle with generalization across diverse poses and garment types. We propose Equivariant Tightness Fitting for Clothed Humans, or ETCH, a novel pipeline that estimates cloth-to-body surface mapping through locally approximate SE(3) equivariance, encoding tightness as displacement vectors from the cloth surface to the underlying body. Following this mapping, pose-invariant body features regress sparse body markers, simplifying clothed human fitting into an inner-body marker fitting task. Extensive experiments on CAPE and 4D-Dress show that ETCH significantly outperforms state-of-the-art methods – both tightness-agnostic and tightness-aware – in body fitting accuracy on loose clothing (16.7% ~ 69.5%) and shape accuracy (average 49.9%). Our equivariant tightness design can even reduce directional errors by (67.2% ~ 89.8%) in one-shot (or out-of-distribution) settings (~ 1% data). Qualitative results demonstrate strong generalization of ETCH, regardless of challenging poses, unseen shapes, loose clothing, and non-rigid dynamics.",
+    "abstractNote": "Fitting a body to a 3D clothed human point cloud is a common yet challenging task. Traditional optimization-based approaches use multi-stage pipelines that are sensitive to pose initialization, while recent learning-based methods often struggle with generalization across diverse poses and garment types. We propose Equivariant Tightness Fitting for Clothed Humans, or ETCH, a novel pipeline that estimates cloth-to-body surface mapping through locally approximate SE(3) equivariance, encoding tightness as displacement vectors from the cloth surface to the underlying body. Following this mapping, pose-invariant body features regress sparse body markers, simplifying clothed human fitting into an inner-body marker fitting task. Extensive experiments on CAPE and 4D-Dress show that ETCH significantly outperforms state-of-the-art methods -- both tightness-agnostic and tightness-aware -- in body fitting accuracy on loose clothing (16.7% ~ 69.5%) and shape accuracy (average 49.9%). Our equivariant tightness design can even reduce directional errors by (67.2% ~ 89.8%) in one-shot (or out-of-distribution) settings (~ 1% data). Qualitative results demonstrate strong generalization of ETCH, regardless of challenging poses, unseen shapes, loose clothing, and non-rigid dynamics.",
     "archive": "arXiv",
-    "archiveLocation": "2503.10624",
-    "conferenceName": "International Conference on Computer Vision",
+    "archiveLocation": "arXiv:2503.10624",
+    "conferenceName": "International Conference on Computer Vision (ICCV)",
     "extra": {
       "Citations@2026-06-01": "8",
+      "Citations@2026-10-01": "11",
       "Scholar": "6NjbexEAAAAJ:oA8UEeFZdjYC",
+      "Venue": "2025 IEEE/CVF International Conference on Computer Vision (ICCV), 8264-8274, 2025",
       "arXiv": "2503.10624"
     },
     "itemType": "conferencePaper",
@@ -22,6 +24,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+    "proceedingsTitle": "International Conference on Computer Vision (ICCV)"
   }
 }
