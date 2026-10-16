@@ -176,9 +176,53 @@ inline header (title, authors, type, groups, citekey), a per-action review check
 BibTeX in a collapsible block, and — on an **update** — a collapsible diff of the `.bib`
 and sidecar so the reviewer sees exactly what changed.
 
+The header also carries a clickable link to the paper, so a reviewer can open it straight
+from the PR. When the entry's stored `.bib` `url` already points at a PDF, that link is
+labelled **PDF**; when it is a *landing page* whose PDF address is deterministic, the PDF
+is derived and labelled with its source (e.g. **ARXIV PDF**), with the original landing
+page kept one line below as **Link**:
+
+```markdown
+**ARXIV PDF:** [https://arxiv.org/pdf/2401.12345](https://arxiv.org/pdf/2401.12345)
+**Link:** [https://arxiv.org/abs/2401.12345](https://arxiv.org/abs/2401.12345)
+```
+
+Recognized landing pages are arXiv (`/abs/…`), OpenReview (`/forum?id=…`), ACL Anthology,
+PMLR, and NeurIPS (both the current and legacy abstract paths). Anything unrecognized — a
+DOI page, a group homepage, an institutional repository — is shown as **Link** rather than
+guessed at. The derivation is pure (no network) and lives in `publish._pdf_link`.
+
 Every PR also gets filter **labels** (created on the repo if missing, hence the
 **Issues: write** permission above): the op kind (`new` / `update` / `rename`),
 `type:<itemType>`, and one `group:<slug>` per owning group.
+
+#### Backfilling bodies on already-open PRs
+
+PR bodies are rendered once, at open time, so PRs opened before the link line was added do
+not carry it. `publication_store.backfill_pr_bodies` is a **one-off, manual** script that
+regenerates the body of each open publisher PR (a bare `<citekey>`, `update/<citekey>`, or
+`rename/<citekey>` branch — bot branches like `codex/…` are skipped) from the pair
+committed on the PR head. It needs the `[publish]` extra (PyGithub), so run it through the
+`tools` project:
+
+```bash
+# preview ONE PR (prints the proposed body in full; writes nothing)
+uv run --project tools --extra publish python -m publication_store.backfill_pr_bodies \
+  --repo TuebingenAICenter/publications --pr 1184
+
+# all open PRs: dry run lists what would change, --apply writes
+uv run --project tools --extra publish python -m publication_store.backfill_pr_bodies \
+  --repo TuebingenAICenter/publications
+uv run --project tools --extra publish python -m publication_store.backfill_pr_bodies \
+  --repo TuebingenAICenter/publications --apply
+```
+
+It defaults to a dry run and is **idempotent** (an already-current body is not reported).
+Note that it replaces each body wholesale, so reviewer additions — an edited body, ticked
+checkboxes — are not preserved. Not wired into any workflow.
+
+Auth is the same as the other remote CLIs: `PUBBOT_APP_ID` + `PUBBOT_PRIVATE_KEY` +
+`PUBBOT_INSTALLATION_ID`, or a plain `GITHUB_TOKEN` / `--token`.
 
 ### Duplicate hints
 

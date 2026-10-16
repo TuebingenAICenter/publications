@@ -49,6 +49,7 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TYPE_CHECKING, Iterable, Protocol
+from urllib.parse import parse_qs, urlsplit
 
 from zotero_rdf import ZoteroCollection, ZoteroItem, from_bibtex, parse_zotero_rdf
 from zotero_rdf.conversion import parse_extra
@@ -328,13 +329,190 @@ def build_pr_title(bib_text: str, citekey: str, *, action: str = "New") -> str:
     return f'{action} Publication: "{title}" by {byline}{suffix}'
 
 
-def _item_meta(bib_text: str, *, year: str) -> tuple[str, str, str, str]:
-    """``(title, itemType, year, authors)`` for the header, all from the canonical bib."""
+def _item_meta(bib_text: str, *, year: str) -> tuple[str, str, str, str, str | None]:
+    """``(title, itemType, year, authors, url)`` for the header, from the canonical bib.
+
+    ``url`` is the entry's stored landing-page link (``None`` when the bib has none);
+    it is the input to :func:`_pdf_link`.
+    """
     items = from_bibtex(bib_text)
     item = items[0] if items else None
     title = (item.title if item else "") or "—"
     item_type = (item.itemType if item else "") or "—"
-    return title, item_type, year, _authors(bib_text) or "—"
+    url = _clean_url(item.url if item else None) or None
+    return title, item_type, year, _authors(bib_text) or "—", url
+
+
+# --------------------------------------------------------------------------- #
+# PDF links — derive a direct-PDF link for the reviewer when the stored bib URL is
+# a *landing page* rather than the PDF itself.
+# --------------------------------------------------------------------------- #
+#: Hosts recognized by name. ``www.`` is stripped before matching, so these are the
+#: registrable forms only. arXiv serves several host aliases.
+_ARXIV_HOSTS = frozenset({"arxiv.org", "export.arxiv.org"})
+_OPENREVIEW_HOSTS = frozenset({"openreview.net"})
+_ACL_HOSTS = frozenset({"aclanthology.org"})
+_PMLR_HOSTS = frozenset({"proceedings.mlr.press"})
+#: NeurIPS is recognized by path shape (``/paper_files/paper/<year>/hash/<hash>``)
+#: rather than host, since the proceedings domain has moved between years.
+_NEURIPS_HOSTS = frozenset({"proceedings.neurips.cc", "papers.nips.cc"})
+
+#: ``/abs/<id>`` | ``/pdf/<id>`` | ``/html/<id>`` — all three carry the same arXiv id
+#: (the landing, PDF, and HTML copies of one preprint). A trailing ``.pdf`` and any
+#: version suffix (``v2``) are preserved. Non-greedy so only the id is captured.
+_ARXIV_PATH_RE = re.compile(r"^/(?:abs|pdf|html)/(?P<id>[^/?#]+?)(?:\.pdf)?/?$", re.I)
+#: ACL Anthology: ``/<year>.<venue>.<n>`` — the PDF is the same path plus ``.pdf``.
+_ACL_PATH_RE = re.compile(r"^/(?P<id>\d{4}\.[a-z0-9-]+\.[a-z0-9.-]+?)/?$", re.I)
+#: PMLR: ``/v<vol>/<paper>.html`` — the PDF is a per-paper *directory*,
+#: ``/v<vol>/<paper>/<paper>.pdf`` (not the sibling ``/v<vol>/<paper>.pdf``).
+_PMLR_PATH_RE = re.compile(r"^/(?P<vol>v\d+)/(?P<stem>[^/?#]+)\.html$", re.I)
+#: Volumes whose PDFs PMLR no longer serves from its own host but from the mlresearch
+#: GitHub assets (the PMLR pages for these link to raw.githubusercontent). Verified
+#: against the store's PMLR entries; PMLR adds a volume per venue per year, so a brand
+#: new volume may need adding here — the failure mode is mild (the derived PDF 404s
+#: while the entry's own landing page stays linked as **Link**).
+_PMLR_GITHUB_VOLUMES = frozenset({"v235", "v244", "v258", "v267", "v270"})
+#: NeurIPS abstract pages. The modern form is
+#: ``/paper_files/paper/<year>/hash/<hash>-Abstract-Conference.html`` in the ``/hash/``
+#: namespace; the PDF sibling is deterministic (the ``-Paper-Conference.pdf`` name).
+#: The legacy (pre-2022) form is ``/paper/<year>/hash/<hash>-Abstract.html``, whose PDF
+#: is ``/paper/<year>/file/<hash>-Paper.pdf``. An even older ``/paper/<n>-<slug>`` form
+#: carries the slug rather than a hash and takes a bare ``.pdf``.
+_NEURIPS_PATH_RE = re.compile(
+    r"^/paper_files/paper/(?P<year>\d{4})/hash/(?P<hash>[0-9a-f]+)", re.I
+)
+_NEURIPS_LEGACY_ABSTRACT_RE = re.compile(
+    r"^/paper/(?P<year>\d{4})/hash/(?P<hash>[0-9a-f]+)-Abstract\.html$", re.I
+)
+_NEURIPS_LEGACY_SLUG_RE = re.compile(
+    r"^/paper/(?P<num>\d+)-(?P<slug>[^/?#]+?)(?:\.pdf)?$", re.I
+)
+
+#: BibTeX character escapes that can ride inside a stored ``url`` field — the NeurIPS
+#: ``paper\_files`` among them. The backslash is ``.bib``-syntax, not part of the URL,
+#: and ``from_bibtex`` does not strip it, so it is removed here before a link is either
+#: rendered or rewritten (otherwise the PR would point at a 404).
+_BIB_ESCAPE_RE = re.compile(r"\\([_&%#$~])")
+
+
+def _clean_url(url: str | None) -> str | None:
+    """A stored bib ``url`` with BibTeX character escapes removed (``\\_`` → ``_``)."""
+    return _BIB_ESCAPE_RE.sub(r"\1", url) if url else url
+
+
+def _looks_like_pdf(url: str) -> bool:
+    """Whether *url* already points at a PDF (a ``.pdf`` path or a ``/pdf/`` segment).
+
+    Deliberately the same heuristic as ``publib``'s ``_is_pdf_url`` (which cannot be
+    imported here — ``publib`` is not a dependency of this CLI): the extension form
+    covers most publishers, and the ``/pdf/`` segment covers arXiv's extensionless
+    ``arxiv.org/pdf/<id>``.
+    """
+    path = urlsplit(url).path.lower()
+    return path.endswith(".pdf") or "/pdf/" in path
+
+
+def _with_suffix(url: str, suffix: str) -> str:
+    """``url`` with its path replaced by ``path + suffix`` (query/fragment dropped)."""
+    parts = urlsplit(url)
+    return f"{parts.scheme}://{parts.netloc}{parts.path}{suffix}"
+
+
+def _pdf_link(url: str | None) -> tuple[str, str] | None:
+    """Derive a direct-PDF link for *url*, or ``None`` when we cannot do better.
+
+    Returns ``(label, pdf_url)`` where *label* names the source for the PR body
+    (``"ARXIV PDF"``, ``"OPENREVIEW PDF"``, …) or the plain ``"PDF"`` for a link
+    that already points at a PDF. When the stored URL is a *landing page* whose PDF
+    address is deterministic, that address is derived here; otherwise — including a
+    URL we do not recognize, or a rewrite we are not sure about — ``None`` is
+    returned so the caller shows the original link rather than a guessed one.
+
+    Recognized derivations (all verified against the store's actual URL shapes):
+
+    * **arXiv** — ``/abs/<id>`` (or ``/pdf/<id>``) → ``/pdf/<id>``.
+    * **OpenReview** — ``/forum?id=<id>`` → ``/pdf?id=<id>``.
+    * **ACL Anthology** — ``/<id>`` → ``/<id>.pdf``.
+    * **PMLR** — ``/v<vol>/<paper>.html`` → ``/v<vol>/<paper>/<paper>.pdf`` (per-paper
+      dir); for the volumes PMLR now serves from its GitHub assets, the equivalent
+      ``raw.githubusercontent.com/mlresearch/v<vol>/…`` URL.
+    * **NeurIPS** — ``/paper_files/paper/<year>/hash/<hash>-Abstract[-Conference].html``
+      → ``…/file/<hash>-Paper[-Conference].pdf`` (2022+ keeps ``-Conference``; 2021 does
+      not); legacy ``/paper/<year>/hash/<hash>-Abstract.html`` →
+      ``/paper/<year>/file/<hash>-Paper.pdf``; legacy slug ``/paper/<n>-<slug>`` → ``.pdf``.
+
+    An unrecognized host — a DOI page, a university group page, a repository landing
+    page — deliberately yields ``None`` rather than a guess.
+    """
+    url = _clean_url(url)
+    if not url:
+        return None
+    parts = urlsplit(url)
+    host = (parts.hostname or "").lower().removeprefix("www.")
+    path = parts.path or ""
+
+    if host in _ARXIV_HOSTS:
+        match = _ARXIV_PATH_RE.match(path)
+        if match:
+            return "ARXIV PDF", f"https://arxiv.org/pdf/{match.group('id')}"
+
+    if host in _OPENREVIEW_HOSTS:
+        if path.lower().startswith("/pdf"):
+            return "PDF", url
+        if path.lower().startswith("/forum"):
+            ids = parse_qs(parts.query).get("id")
+            if ids and ids[0]:
+                return "OPENREVIEW PDF", f"https://openreview.net/pdf?id={ids[0]}"
+
+    if host in _ACL_HOSTS and not path.lower().endswith(".pdf"):
+        match = _ACL_PATH_RE.match(path)
+        if match:
+            return "ACL ANTHOLOGY PDF", f"https://aclanthology.org/{match.group('id')}.pdf"
+
+    if host in _PMLR_HOSTS:
+        match = _PMLR_PATH_RE.match(path)
+        if match:
+            vol, stem = match.group("vol"), match.group("stem")
+            if vol.lower() in _PMLR_GITHUB_VOLUMES:
+                return (
+                    "PMLR PDF",
+                    f"https://raw.githubusercontent.com/mlresearch/{vol}/main/assets/{stem}/{stem}.pdf",
+                )
+            return (
+                "PMLR PDF",
+                f"https://proceedings.mlr.press/{vol}/{stem}/{stem}.pdf",
+            )
+
+    if host in _NEURIPS_HOSTS:
+        match = _NEURIPS_PATH_RE.match(path)
+        if match:
+            year, digest = match.group("year"), match.group("hash")
+            # The abstract filename carries the suffix the PDF shares: the 2022+
+            # proceedings use `-Abstract-Conference.html` → `-Paper-Conference.pdf`,
+            # while 2021 uses `-Abstract.html` → `-Paper.pdf`.
+            suffix = "Paper-Conference" if "-abstract-conference" in path.lower() else "Paper"
+            return (
+                "NEURIPS PDF",
+                "https://proceedings.neurips.cc/paper_files/paper/"
+                f"{year}/file/{digest}-{suffix}.pdf",
+            )
+        match = _NEURIPS_LEGACY_ABSTRACT_RE.match(path)
+        if match:
+            year, digest = match.group("year"), match.group("hash")
+            return (
+                "NEURIPS PDF",
+                f"https://proceedings.neurips.cc/paper/{year}/file/{digest}-Paper.pdf",
+            )
+        match = _NEURIPS_LEGACY_SLUG_RE.match(path)
+        if match:
+            return (
+                "NEURIPS PDF",
+                f"https://papers.nips.cc/paper/{match.group('num')}-{match.group('slug')}.pdf",
+            )
+
+    if _looks_like_pdf(url):
+        return "PDF", url
+    return None
 
 
 def _details(summary: str, content: str, *, open: bool = False) -> str:
@@ -397,6 +575,24 @@ def _checklist(
     return [*base, "Not a duplicate of an existing entry under a different citekey", *dup]
 
 
+def _link_lines(url: str | None) -> list[str]:
+    """Markdown line(s) linking the paper itself, for the PR body.
+
+    Prefers a direct PDF derived from the stored landing page (:func:`_pdf_link`) —
+    labelled with its source, e.g. ``**ARXIV PDF:**`` — and, when that is a rewrite of
+    the stored URL, keeps the landing page one click away as ``**Link:**``. A stored
+    URL with no derivable PDF is shown as ``**Link:**``; no URL at all yields no line.
+    """
+    pdf = _pdf_link(url)
+    if pdf is not None:
+        pdf_label, pdf_url = pdf
+        lines = [f"**{pdf_label}:** [{pdf_url}]({pdf_url})"]
+        if pdf_url != url:
+            lines.append(f"**Link:** [{url}]({url})")
+        return lines
+    return [f"**Link:** [{url}]({url})"] if url else []
+
+
 def build_pr_body(
     store_entry: StoreEntry,
     pair: EmittedPair,
@@ -422,9 +618,13 @@ def build_pr_body(
     * ``duplicates`` — ``(citekey, score)`` candidates from the upstream similarity scan
       (the ``Possible-Duplicates:`` marker), surfaced as a prominent warning + a checklist
       item so a likely re-submission is caught before merge.
+
+    The header also carries the entry's link: a direct **PDF** link (with its source,
+    e.g. ``ARXIV PDF``) when one can be derived from the stored bib ``url`` — see
+    :func:`_pdf_link` — and otherwise the stored ``url`` itself as **Link**.
     """
     year = pair.bib_path.parent.name
-    title, item_type, year, authors = _item_meta(pair.bib_text, year=year)
+    title, item_type, year, authors, url = _item_meta(pair.bib_text, year=year)
     # itemType is authoritative in the sidecar, not the .bib: collapsing types
     # (preprint/presentation/patent/… → @misc) re-import as "document" through the
     # lossy bib projection, so read the true type off the sidecar and fall back to
@@ -452,6 +652,11 @@ def build_pr_body(
         f"**Groups:** {', '.join(groups) if groups else '—'} • "
         f"**Citekey:** `{citekey}`",
     ]
+
+    # A clickable link to the paper itself so a reviewer can open it straight from the
+    # PR (see :func:`_link_lines`); this is also what a body backfill refreshes.
+    if links := _link_lines(url):
+        lines += ["", *links]
 
     if duplicates:
         lines += ["", _duplicates_block(duplicates, dup_links)]

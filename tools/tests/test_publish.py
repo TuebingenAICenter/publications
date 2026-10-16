@@ -264,6 +264,182 @@ def test_pr_title_single_author_has_no_et_al():
 
 
 # --------------------------------------------------------------------------- #
+# PDF links in the PR body (derived from the stored bib `url`)
+# --------------------------------------------------------------------------- #
+def _entry_with_url(title, url):
+    """A single store entry whose canonical bib carries ``url``."""
+    item = JournalArticle(title=title, publicationTitle="Nature", date="2025", creators=[], url=url)
+    col = ZoteroCollection(name="bethge")
+    col.add(item)
+    (se,) = to_store_entries([item], [col])
+    return se
+
+
+def _body_for_url(url):
+    se = _entry_with_url("Some Paper", url)
+    return publish.build_pr_body(se, publish.emit.emit_pair(se))
+
+
+class TestPdfLink:
+    """`_pdf_link` derives a direct-PDF URL from the shapes the store actually holds."""
+
+    def test_arxiv_abs_landing_page_is_rewritten(self):
+        assert publish._pdf_link("https://arxiv.org/abs/2401.12345") == (
+            "ARXIV PDF",
+            "https://arxiv.org/pdf/2401.12345",
+        )
+
+    def test_arxiv_version_suffix_is_preserved(self):
+        assert publish._pdf_link("http://arxiv.org/abs/2607.05132v2") == (
+            "ARXIV PDF",
+            "https://arxiv.org/pdf/2607.05132v2",
+        )
+
+    def test_arxiv_pdf_url_is_recognized_as_already_pdf(self):
+        assert publish._pdf_link("https://arxiv.org/pdf/2210.12003.pdf") == (
+            "ARXIV PDF",
+            "https://arxiv.org/pdf/2210.12003",
+        )
+
+    def test_arxiv_html_copy_maps_to_pdf(self):
+        assert publish._pdf_link("https://arxiv.org/html/2607.05132v2") == (
+            "ARXIV PDF",
+            "https://arxiv.org/pdf/2607.05132v2",
+        )
+
+    def test_openreview_forum_becomes_pdf(self):
+        assert publish._pdf_link("https://openreview.net/forum?id=SUIOuV2y-Ce") == (
+            "OPENREVIEW PDF",
+            "https://openreview.net/pdf?id=SUIOuV2y-Ce",
+        )
+
+    def test_acl_anthology_landing_becomes_pdf(self):
+        assert publish._pdf_link("https://aclanthology.org/2023.acl-long.204") == (
+            "ACL ANTHOLOGY PDF",
+            "https://aclanthology.org/2023.acl-long.204.pdf",
+        )
+
+    def test_pmlr_html_becomes_pdf(self):
+        # PMLR PDFs live in a per-paper directory, NOT beside the .html.
+        assert publish._pdf_link("https://proceedings.mlr.press/v202/singh23a.html") == (
+            "PMLR PDF",
+            "https://proceedings.mlr.press/v202/singh23a/singh23a.pdf",
+        )
+
+    def test_pmlr_recent_volume_uses_github_assets(self):
+        # Newer volumes are served from the mlresearch GitHub assets, not mlr.press.
+        assert publish._pdf_link("https://proceedings.mlr.press/v270/zhao25d.html") == (
+            "PMLR PDF",
+            "https://raw.githubusercontent.com/mlresearch/v270/main/assets/zhao25d/zhao25d.pdf",
+        )
+
+    def test_neurips_abstract_page_becomes_pdf(self):
+        assert publish._pdf_link(
+            "https://papers.nips.cc/paper_files/paper/2023/hash/395371f778ebd4854b88521100af30ad-Abstract-Conference.html"
+        ) == (
+            "NEURIPS PDF",
+            "https://proceedings.neurips.cc/paper_files/paper/2023/file/395371f778ebd4854b88521100af30ad-Paper-Conference.pdf",
+        )
+
+    def test_neurips_2021_abstract_page_has_no_conference_suffix(self):
+        # 2021 abstracts end `-Abstract.html` and their PDFs `-Paper.pdf`.
+        assert publish._pdf_link(
+            "https://proceedings.neurips.cc/paper_files/paper/2021/hash/1e5eeb40a3fce716b244599862fd2200-Abstract.html"
+        ) == (
+            "NEURIPS PDF",
+            "https://proceedings.neurips.cc/paper_files/paper/2021/file/1e5eeb40a3fce716b244599862fd2200-Paper.pdf",
+        )
+
+    def test_neurips_legacy_abstract_page_becomes_pdf(self):
+        assert publish._pdf_link(
+            "https://proceedings.neurips.cc/paper/2019/hash/cfcce0621b49c983991ead4c3d4d3b6b-Abstract.html"
+        ) == (
+            "NEURIPS PDF",
+            "https://proceedings.neurips.cc/paper/2019/file/cfcce0621b49c983991ead4c3d4d3b6b-Paper.pdf",
+        )
+
+    def test_neurips_legacy_slug_page_becomes_pdf(self):
+        assert publish._pdf_link(
+            "https://papers.nips.cc/paper/9570-are-disentangled-representations-helpful-for-abstract-visual-reasoning"
+        ) == (
+            "NEURIPS PDF",
+            "https://papers.nips.cc/paper/9570-are-disentangled-representations-helpful-for-abstract-visual-reasoning.pdf",
+        )
+
+    def test_bibtex_escape_in_url_is_cleaned(self):
+        # A stored bib may carry `paper\_files` (backslash is .bib syntax, not the URL);
+        # the rendered/derived link must not contain it, or it would 404.
+        link = publish._pdf_link(
+            "http://papers.nips.cc/paper\\_files/paper/2024/hash/52f050499cf82fa8efb588e263f6f3a7-Abstract-Conference.html"
+        )
+        assert link == (
+            "NEURIPS PDF",
+            "https://proceedings.neurips.cc/paper_files/paper/2024/file/52f050499cf82fa8efb588e263f6f3a7-Paper-Conference.pdf",
+        )
+        assert "\\" not in link[1]
+
+    def test_plain_pdf_url_uses_the_generic_label(self):
+        assert publish._pdf_link("https://www.cvlibs.net/publications/Dong2023ICCV.pdf") == (
+            "PDF",
+            "https://www.cvlibs.net/publications/Dong2023ICCV.pdf",
+        )
+
+    def test_unknown_landing_page_is_not_guessed(self):
+        # A DOI / publisher / group page: no deterministic PDF address, so no claim.
+        assert publish._pdf_link("https://doi.org/10.7554/elife.56261") is None
+        assert publish._pdf_link("https://is.mpg.de/ei/publications/kofler23") is None
+        assert publish._pdf_link("https://bethgelab.org/publication/") is None
+
+    def test_no_url_or_empty_url(self):
+        assert publish._pdf_link(None) is None
+        assert publish._pdf_link("") is None
+
+
+def test_pr_body_shows_arxiv_pdf_and_keeps_landing_link():
+    body = _body_for_url("https://arxiv.org/abs/2512.20563")
+    assert "**ARXIV PDF:** [https://arxiv.org/pdf/2512.20563](https://arxiv.org/pdf/2512.20563)" in body
+    # the landing page stays one click away, since the PDF is a derived address
+    assert "**Link:** [https://arxiv.org/abs/2512.20563](https://arxiv.org/abs/2512.20563)" in body
+
+
+def test_pr_body_pdf_no_duplicate_link_when_url_is_already_pdf():
+    body = _body_for_url("https://www.cvlibs.net/publications/Dong2023ICCV.pdf")
+    assert "**PDF:** [https://www.cvlibs.net/publications/Dong2023ICCV.pdf]" in body
+    assert "**Link:**" not in body  # identical to the PDF link, shown once
+
+
+def test_pr_body_shows_plain_link_when_no_pdf_known():
+    body = _body_for_url("https://doi.org/10.7554/elife.56261")
+    assert "**Link:** [https://doi.org/10.7554/elife.56261](https://doi.org/10.7554/elife.56261)" in body
+    assert "PDF" not in body
+
+
+def test_pr_body_without_url_has_no_link_line():
+    se = _entries([("Bare", "2025", ["g"])])[0]
+    body = publish.build_pr_body(se, publish.emit.emit_pair(se))
+    assert "**Link:**" not in body and "**PDF:**" not in body
+
+
+def test_pr_body_escaped_url_renders_clean_link():
+    body = _body_for_url(
+        "http://papers.nips.cc/paper\\_files/paper/2024/hash/52f050499cf82fa8efb588e263f6f3a7-Abstract-Conference.html"
+    )
+    # The rendered link is cleaned; the embedded BibTeX block keeps the stored bytes
+    # verbatim (it is the source of truth and is not ours to rewrite).
+    assert "**NEURIPS PDF:** [https://proceedings.neurips.cc/paper_files/paper/2024/file/" in body
+    link_lines = [ln for ln in body.splitlines() if ln.startswith("**L") or ln.startswith("**N")]
+    assert link_lines and all("\\" not in ln for ln in link_lines)
+
+
+def test_pdf_link_also_appears_on_update_prs():
+    se = _entry_with_url("Some Paper", "https://arxiv.org/abs/2401.12345")
+    pub = FakePublisher().seed(se, changed=True)
+    publish.publish_entries(pub, [se])
+    _branch, _pair, _title, body = pub.created[0]
+    assert "**ARXIV PDF:**" in body
+
+
+# --------------------------------------------------------------------------- #
 # Renames (explicit `Replaces:` marker) and the pin guard
 # --------------------------------------------------------------------------- #
 def _article(title, date, *, citation_key=None, extra=None):
