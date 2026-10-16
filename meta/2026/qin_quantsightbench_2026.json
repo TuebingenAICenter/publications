@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Forecasting has become a natural benchmark for reasoning under uncertainty. Yet existing evaluations of large language models remain limited to judgmental tasks in simple formats, such as binary or multiple-choice questions. In practice, however, forecasting spans a far broader scope. Across domains such as economics, public health, and social demographics, decisions hinge on numerical estimates over continuous quantities, a capability that current benchmarks do not capture. Evaluating such estimates requires a format that makes uncertainty explicit and testable. We propose prediction intervals as a natural and rigorous interface for this purpose. They demand scale awareness, internal consistency across confidence levels, and calibration over a continuum of outcomes, making them a more suitable evaluation format than point estimates for numerical forecasting. To assess this capability, we introduce a new benchmark QuantSightBench, and evaluate frontier models under multiple settings, assessing both empirical coverage and interval sharpness. Our results show that none of the 11 evaluated frontier and open-weight models achieves the 90% coverage target, with the top performers Gemini 3.1 Pro (79.1%), Grok 4 (76.4%), and GPT-5.4 (75.3%) all falling at least 10 percentage points short. Calibration degrades sharply at extreme magnitudes, revealing systematic overconfidence across all evaluated models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2604.15859",
+    "extra": {
+      "Archive ID": "2604.15859",
+      "Repository": "arXiv",
+      "Scholar": "ZNtuJYoAAAAJ:K3LRdlH-MEoC",
+      "Venue": "arXiv preprint arXiv:2604.15859, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
