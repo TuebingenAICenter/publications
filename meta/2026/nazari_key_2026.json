@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Linear attention offers a computationally efficient yet expressive alternative to softmax attention. However, recent empirical results indicate that the hidden state of trained linear attention models often exhibits a low-rank structure, suggesting that these models underexploit their capacity in practice. To illuminate this phenomenon, we provide a theoretical analysis of the role of rank in linear attention, revealing that low effective rank can amplify query noise during readout from the associative memory. In addition to these theoretical insights, we conjecture that the low-rank states can be substantially reduced post-training with only minimal performance degradation, yielding faster and more memory-efficient models. To this end, we propose a novel hardware-aware approach that structurally prunes key and query matrices, reducing the state size while retaining compatibility with existing kernels. We adapt several existing pruning strategies to fit our framework and, building on our theoretical analysis, propose a novel structured pruning method based on a rank-revealing QR decomposition. Our empirical results, evaluated across models of varying sizes and on various downstream tasks, demonstrate the effectiveness of our state reduction framework.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.04852",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Citations@2026-07-13": "1",
+      "Code": "https://github.com/camail-official/LinearAttentionPruning",
+      "Scholar": "9LajlSsAAAAJ:ML0RJ9NH7IQC",
+      "Venue": "ICML Workshop on Resource-Adaptive Foundation Model Inference (ICML)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ICML Workshop on Resource-Adaptive Foundation Model Inference (ICML)"
+  }
+}
