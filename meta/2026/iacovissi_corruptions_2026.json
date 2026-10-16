@@ -11,10 +11,12 @@
     "extra": {
       "Archive ID": "2307.08643",
       "Citations@2026-06-01": "0",
+      "Citations@2026-10-01": "4",
       "OpenAlex": "W4384648532",
       "Repository": "arXiv",
-      "Scholar": "G4MBruQAAAAJ:H-nlc5mcmJQC"
+      "Scholar": "G4MBruQAAAAJ:H-nlc5mcmJQC",
+      "Venue": "Journal of Machine Learning Research 27 (72), 1-73, 2026"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
