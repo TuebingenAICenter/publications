@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The target representation defines the distribution an image generator must learn, yet it is often treated as an interchangeable interface. This assumption is particularly questionable for continuous masked generators, which combine contextual inference from visible tokens with conditional modeling of each missing token. We study raw pixels, SD-VAE latents and DINOv2 as well as MAE representation-autoencoder features within a unified masked autoregressive rectified-flow model. Under a shared ImageNet training budget, these spaces exhibit distinct optimization and inference regimes. DINOv2 converges fastest in both iterations and computation but benefits strongly from a wider local denoiser and direct context fusion. Pixels optimize substantially more slowly and require a different prediction, masking, and guidance configuration. MAE reconstructs images more faithfully and exhibits clear semantic clustering, yet produces generations substantially worse than DINOv2. The representations also respond differently to classifier-free guidance and occupy distinct precision-recall trade-offs. Together, our results show that compression, reconstruction fidelity, token dimensionality, and visible semantic clustering do not individually predict generative behavior. Instead, target representations redistribute difficulty across contextual modeling, per-token denoising, and inference-time distributional control.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.00626",
+    "extra": {
+      "Archive ID": "2608.00626",
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7203765494",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:rFyVMFCKTwsC",
+      "Venue": "arXiv preprint arXiv:2608.00626, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
