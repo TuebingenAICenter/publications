@@ -5,16 +5,21 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Offline reinforcement learning (RL) aims to learn optimal policies from static datasets without further environment interaction. However, defining a reward function that accurately reflects human intent is notoriously difficult. Preference-based RL addresses this by learning a reward model from human feedback, typically in the form of pairwise comparisons. In this work, we study the problem of preference elicitation in the offline setting. We propose a framework that actively selects pairs of trajectories to query from a human, aiming to minimize the uncertainty of the reward model while maximizing the performance of the resulting policy. We provide theoretical guarantees on the convergence of our approach and demonstrate its effectiveness on a range of offline RL benchmarks, showing that it can significantly improve policy performance compared to passive or random query selection strategies.",
+    "abstractNote": "Applying reinforcement learning (RL) to real-world problems is often made challenging by the inability to interact with the environment and the difficulty of designing reward functions. Offline RL addresses the first challenge by considering access to an offline dataset of environment interactions labeled by the reward function. In contrast, Preference-based RL does not assume access to the reward function and learns it from preferences, but typically requires an online interaction with the environment. We bridge the gap between these frameworks by exploring efficient methods for acquiring preference feedback in a fully offline setup. We propose Sim-OPRL, an offline preference-based reinforcement learning algorithm, which leverages a learned environment model to elicit preference feedback on simulated rollouts. Drawing on insights from both the offline RL and the preference-based RL literature, our algorithm employs a pessimistic approach for out-of-distribution data, and an optimistic approach for acquiring informative preferences about the optimal policy. We provide theoretical guarantees regarding the sample complexity of our approach, dependent on how well the offline data covers the optimal policy. Finally, we demonstrate the empirical performance of Sim-OPRL in various environments.",
     "archive": "arXiv",
     "archiveLocation": "2406.18450",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Archive ID": "2406.18450",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4400104922",
       "Repository": "arXiv",
-      "Scholar": "DZ-fHPgAAAAJ:NffKZMvbRDkC"
+      "Scholar": "DZ-fHPgAAAAJ:NffKZMvbRDkC",
+      "Venue": "arXiv preprint arXiv:2406.18450, 2024",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
