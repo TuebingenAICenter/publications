@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The human medial temporal lobe (MTL), a region implicated in memory and high-level cognition, contains neurons that respond selectively to stimuli belonging to specific categories, such as individual people, landmarks, or objects. However, these neurons have been largely studied via static, isolated presentations of stimuli. Therefore, it is unclear how neurons in the MTL respond to rich stimuli such as movies, and which dynamical stimulus features can be retrieved from neuronal population spiking activity. We studied single-unit responses from 2286 neurons recorded from the amygdala, hippocampus, entorhinal cortex, and parahippocampal cortex of 29 intracranially implanted patients during the presentation of an 83-minute movie. We found only a few individual neurons that exhibited a classic selective response.",
+    "extra": {
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7171799126",
+      "Scholar": "FKOqtF8AAAAJ:SNyOjmPOlygC",
+      "Venue": "Scientific Data 13 (1), 1105, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
