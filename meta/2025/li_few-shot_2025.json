@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a method for recovering the shape and radiance of a scene consisting of multiple people given solely a few images. Multi-human scenes are complex due to additional occlusion and clutter. For single-human settings, existing approaches using implicit neural representations have achieved impressive results that deliver accurate geometry and appearance. However, it remains challenging to extend these methods for estimating multiple humans from sparse views. We propose a neural implicit reconstruction method that addresses the inherent challenges of this task through the following contributions: First, we propose to use geometry constraints by exploiting pre-computed meshes using a human body model (SMPL). Specifically, we regularize the signed distances using the SMPL mesh and leverage bounding boxes for improved rendering. Second, we propose a ray regularization scheme to minimize rendering inconsistencies, and a saturation regularization for robust optimization in variable illumination. Extensive experiments on both real and synthetic datasets demonstrate the benefits of our approach and show state-of-the-art performance against existing neural reconstruction methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.07140",
+    "extra": {
+      "Archive ID": "2502.07140",
+      "arXiv": "2502.07140"
+    },
+    "itemType": "preprint"
+  }
+}
