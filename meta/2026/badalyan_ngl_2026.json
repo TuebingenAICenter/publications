@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Estimating sewing patterns from images is a practical approach for creating high-quality 3D garments, but it remains challenging due to the scarcity of paired real-world image and sewing-pattern data. Existing methods address this limitation by training vision-language models (VLMs) to learn low-level sewing-pattern representations from synthetic garments sampled from parametric garment models. However, they often struggle to generalize to in-the-wild images, fail to capture real-world correlations between garment parts, and are restricted to single-layer outfits. In contrast, we observe that VLMs are effective at describing garments in natural language, but mapping these descriptions into valid sewing patterns remains difficult. To bridge this gap, we propose NGL (Natural Garment Language), a novel domain-specific language that represents garments in terms aligned with VLMs' natural descriptive abilities. Leveraging NGL, we introduce a fully training-free pipeline that queries large VLMs to extract structured garment specifications and deterministically converts them into valid sewing patterns. We evaluate our method on the Dress4D, CloSe and a newly collected dataset of 253 in-the-wild fashion images. Our approach achieves state-of-the-art performance on standard geometry metrics and is preferred in both human and GPT-based perceptual evaluations compared to existing baselines. Furthermore, NGL recovers multi-layer outfits whereas competing methods focus mostly on single-layer garments, highlighting its strong generalization to real-world images even with occluded parts. These results demonstrate that an efficient garment representation is critical for sewing pattern estimation with VLMs. Our code and data will be released for research use.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.20700",
+    "callNumber": "arXiv:2602.20700",
+    "extra": {
+      "Archive ID": "2602.20700",
+      "Citations@2026-09-01": "1",
+      "Repository": "arXiv",
+      "Scholar": "6NjbexEAAAAJ:pKq9KLJfUZEC",
+      "Venue": "arXiv preprint arXiv:2602.20700, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
