@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large foundation models trained on extensive datasets demonstrate strong zero-shot capabilities in various domains. Knowledge distillation has become an established tool for transferring knowledge from foundation models to small student networks when data and model size are constrained. However, the efficacy of distillation is often hampered by limited training data coverage. This can result in a covariate shift between training and test data which in turn can lead the student to exploit spurious features or even shortcut learning. We address this problem by introducing a novel diffusion-based data augmentation strategy that generates images by maximizing the disagreement between the teacher and the student, effectively creating challenging samples that the student struggles with, thus mitigating the problem of covariate shift. Experiments demonstrate that, compared to state-of-the-art diffusion-based data augmentation baselines, our approach is best or second-best in sample mean accuracy and improves the worst group and mean group accuracy on CelebA-HQ, SpuCo Birds and BAR as well as the spurious score on Spurious ImageNet under covariate shift.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.02294",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W4416071088",
+      "Scholar": "0ZAb3tsAAAAJ:0aBXIfxlw9sC",
+      "Venue": "arXiv preprint arXiv:2506.02294, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.02294'>https://arxiv.org/abs/2506.02294</a><br><a href='https://doi.org/10.48550/arXiv.2506.02294'>https://doi.org/10.48550/arXiv.2506.02294</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}
