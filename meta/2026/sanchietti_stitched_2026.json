@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "While garments are essential for realistic digital humans, their topological variety makes them much harder to model than parametric bodies. Traditional tailoring relies on 2D sewing patterns, yet bridging these patterns to 3D geometry currently requires physical simulations. We present Stitched Embeddings, the first simulation-free framework to unify 3D garment reconstruction and sewing pattern inference within a single bidirectional latent space. By leveraging the geometric priors of a pretrained 3D foundation model, our approach overcomes the data scarcity typically associated with high-quality garment modeling. We propose to use the BoxMesh as a critical intermediate representation to align 2D panels into 3D configurations without the computational overhead of a simulator. This architecture achieves state-of-the-art accuracy in pattern reconstruction while significantly improving efficiency. Furthermore, our differentiable pipeline enables novel applications, including pattern recovery from meshes and 3D editing from 2D patterns. Finally, this work provides a scalable link between neural 3D vision and the physical garment manufacturing pipeline.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.00829",
+    "conferenceName": "European Conference on Computer Vision (ECCV)",
+    "extra": {
+      "Scholar": "OpXMNnMAAAAJ:HeT0ZceujKMC",
+      "Venue": "arXiv preprint arXiv:2607.00829, 2026",
+      "arXiv": "2607.00829"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+  }
+}
