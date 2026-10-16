@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Uncertainty quantification for image data is dominated by complex deep learning methods, yet the field lacks an interpretable, mathematically grounded baseline. We propose Bayesian scattering to fill this gap, serving as a first-step baseline akin to the role of Bayesian linear regression for tabular data. Our method couples the wavelet scattering transform-a deep, non-learned feature extractor-with a simple probabilistic head. Because scattering features are derived from geometric principles rather than learned, they avoid overfitting the training distribution. This helps provide sensible uncertainty estimates even under significant distribution shifts. We validate this on diverse tasks, including medical imaging under institution shift, wealth mapping under country-to-country shift, and Bayesian optimization of molecular properties. Our results suggest that Bayesian scattering is a solid baseline for complex uncertainty quantification methods.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2603.20908",
+    "extra": {
+      "Archive ID": "2603.20908",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7148549925",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:6ZxmRoH8BuwC",
+      "Venue": "arXiv preprint arXiv:2603.20908, 2026",
+      "publicationTitle": "Universit@tsbibliothek Tübingen"
+    },
+    "itemType": "preprint"
+  }
+}
