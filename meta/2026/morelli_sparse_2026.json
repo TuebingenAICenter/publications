@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large-scale pre-trained vision-language models like CLIP demonstrate remarkable zero-shot performance across diverse tasks. However, fine-tuning these models to improve downstream performance often degrades robustness against distribution shifts. Recent approaches have attempted to mitigate this trade-off, but often rely on computationally expensive text-guidance. We propose a novel method for robust fine-tuning, SAE-FT, which operates only on the model’s visual representations. SAE-FT regularizes changes to these representations by penalizing the addition and removal of semantically meaningful features identified by a Sparse Autoencoder trained on the pre-trained model. This constraint prevents catastrophic forgetting and makes the fine-tuning process interpretable, enabling direct analysis of semantic changes. SAE-FT is both mechanistically transparent and computationally efficient, matching or exceeding state-of-the-art performance on ImageNet and its associated distribution shift benchmarks.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.15961",
+    "callNumber": "arXiv:2605.15961",
+    "extra": {
+      "Archive ID": "2605.15961",
+      "Repository": "GitHub",
+      "Scholar": "kmXOOdsAAAAJ:5ugPr518TE4C",
+      "Venue": "arXiv preprint arXiv:2605.15961, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
