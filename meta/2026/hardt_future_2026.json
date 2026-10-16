@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "A century ago, economist Oskar Morgenstern called it one of the most difficult problems in the theory of prediction. Unlike forecasts in astronomy, predictions about social phenomena can influence the very events they aim to predict. This phenomenon, which Morgenstern called the \"prognostic problem,\" is central to the social sciences and has become increasingly relevant in the age of machine learning. In this conversation, we revisit Morgenstern's insights and explore their implications for the future of prediction in a world where algorithms are increasingly performative.",
+    "extra": {
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7168129564",
+      "Scholar": "adnTgaAAAAAJ:3vbIHxFL9FgC",
+      "Venue": "International Congress of Mathematicians 2026, 336-351, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
