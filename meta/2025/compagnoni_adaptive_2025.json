@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2411.15958",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-10-01": "36",
+      "Scholar": "xkuLyHoAAAAJ:blknAaTinKkC",
+      "Venue": "International Conference on Learning Representations 2025, 95500-95557, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
