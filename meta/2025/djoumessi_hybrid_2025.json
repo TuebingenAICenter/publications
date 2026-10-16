@@ -6,10 +6,16 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "conferenceName": "IMIMIC (Workshop)",
+    "abstractNote": "In many medical imaging tasks, convolutional neural networks (CNNs) efficiently extract local features hierarchically. More recently, vision transformers (ViTs) have gained popularity, using self-attention mechanisms to capture global dependencies, but lacking the inherent spatial localization of convolutions. Therefore, hybrid models combining CNNs and ViTs have been developed to combine the strengths of both architectures. However, such hybrid models are difficult to interpret, which hinders their application in medical imaging. In this work, we introduce an interpretable-by-design hybrid fully convolutional CNN-Transformer architecture for retinal disease detection. Unlike widely used post-hoc saliency methods for ViTs, our approach generates faithful and localized evidence maps that directly reflect the mode's decision process. We evaluated our method on two medical tasks focused on disease detection using color fundus images. Our model achieves state-of-the-art predictive performance compared to black-box and interpretable models and provides class-specific sparse evidence maps in a single forward pass.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2504.08481",
+    "conferenceName": "International Workshop on Interpretability of Machine Intelligence",
     "extra": {
       "Citations@2026-06-01": "9",
-      "Scholar": "lPQLk3QAAAAJ:Z5m8FVwuT1cC"
+      "Citations@2026-09-01": "6",
+      "OpenAlex": "W7128774491",
+      "Scholar": "lPQLk3QAAAAJ:j8SEvjWlNXcC",
+      "Venue": "arXiv e-prints, arXiv: 2504.08481, 2025"
     },
     "itemType": "conferencePaper",
     "notes": [
@@ -23,6 +29,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Workshop on Interpretability of Machine Intelligence"
   }
 }
