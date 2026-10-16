@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present the LIGO A♯ detector concept, an upgrade for the LIGO observatories based on room-temperature technology that aims to improve the sensitivity of the current A+ configuration by a factor of approximately 2.5 in strain, corresponding to a factor of ~15 in volume reach. This upgrade will enable the detection of binary black hole mergers out to redshifts of z ~ 10 and binary neutron star mergers out to z ~ 0.5, providing unprecedented opportunities for studying the population, evolution, and formation of compact objects, as well as testing general relativity in the strong-field regime.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.11673",
+    "extra": {
+      "Archive ID": "2608.11673",
+      "Scholar": "VRBv6mEAAAAJ:XiSMed-E-HIC",
+      "Venue": "arXiv preprint arXiv:2608.11673, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
