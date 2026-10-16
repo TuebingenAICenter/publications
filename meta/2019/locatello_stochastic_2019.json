@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a novel stochastic Frank-Wolfe (SFW) algorithm for composite convex minimization problems. Our algorithm uses a variance-reduced gradient estimator and a specific step-size strategy to achieve a convergence rate of O(1/k) for general convex functions and O(1/kˆ2) for strongly convex functions, where k is the number of iterations. We also provide a theoretical analysis of the algorithm's convergence properties and demonstrate its effectiveness on several machine learning problems.",
