@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Hessian matrix is an important quantity of interest when it comes to studying the loss landscape and optimization dynamics in deep learning, as well as designing measures of generalization, second-order learning algorithms, etc. Prior works have focused on empirical results or pursued a theoretical treatment under overly simplified settings. In this work, we derive the eigenvalues of the Hessian of linear networks with arbitrary widths and depths, and datasets with an arbitrary number of samples, features, and labels. Importantly, for classification tasks with MSE loss, we identify that the sharpness of the solution is directly related to the maximum proportion of samples belonging to any class. We empirically validate our predictions and systematically analyze the effects of shedding the impractical assumptions one at a time, as well as incorporating nonlinearities. We observe that our predictions are considerably robust in most cases, allowing us to extend our conclusions to more practical learning setups.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.13631",
+    "extra": {
+      "Archive ID": "2607.13631",
+      "Scholar": "xkuLyHoAAAAJ:K3LRdlH-MEoC",
+      "Venue": "arXiv preprint arXiv:2607.13631, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
