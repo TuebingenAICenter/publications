@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recent advances in reasoning models have shown remarkable progress in text-based domains, but transferring those capabilities to multimodal settings, e.g., to allow reasoning over audio-visual data, still remains a challenge, in part because of the limited availability of high-quality reasoning data in targeted multimodal combinations. To address this problem, we introduce AVRT, a novel framework that generates high-quality audio-visual reasoning traces from single-modality teacher models. We generate independent vision- and audio-reasoning traces via models specialized to reason over their respective modalities and merge the resulting traces with an LLM merger model. The resulting multimodal traces are used in a supervised fine-tuning (SFT) cold start to adapt the target model to audio-visual reasoning traces first, before training it in a second reinforcement learning stage on larger-scale data. Evaluated on seven audio-visual and audio benchmarks, our 3B and 7B parameter models achieve state-of-the-art results among models of comparable size including OmniBench and DailyOmni for audio-visual and MMAR for audio-only reasoning, showing that cross-modal training also transfers to single-modality tasks and establishing a new training pipeline for multimodal reasoning models.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "callNumber": "arXiv:2604.16617",
+    "extra": {
+      "Archive ID": "2604.16617",
+      "Citations@2026-07-13": "1",
+      "Repository": "arXiv",
+      "Scholar": "pxhCcH0AAAAJ:olpn-zPbct0C",
+      "Venue": "arXiv preprint arXiv:2604.16617, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
