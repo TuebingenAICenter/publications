@@ -5,9 +5,14 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Audio-Visual Speech Recognition (AVSR) combines lip-based video with audio and can improve performance in noise, but most methods are trained only on English data. One limitation is the lack of large-scale multilingual video data, which makes it hard to train models from scratch. In this work, we propose mWhisper-Flamingo for multilingual AVSR which combines the strengths of a pre-trained audio model (Whisper) and video model (AV-HuBERT). To enable better multi-modal integration and improve the noisy multilingual performance, we introduce decoder modality dropout where the model is trained both on paired audio-visual inputs and separate audio/visual inputs. mWhisper-Flamingo achieves state-of-the-art WER on MuAViC, an AVSR dataset of 9 languages. Audio-visual mWhisper-Flamingo consistently outperforms audio-only Whisper on all languages in noisy conditions.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.01547",
     "extra": {
       "Citations@2026-06-01": "5",
-      "Scholar": "pxhCcH0AAAAJ:5Ul4iDaHHb8C"
+      "Citations@2026-10-01": "7",
+      "Scholar": "pxhCcH0AAAAJ:5Ul4iDaHHb8C",
+      "Venue": "IEEE Signal Processing Letters 32, 2144-2148, 2025"
     },
     "itemType": "journalArticle"
   }
