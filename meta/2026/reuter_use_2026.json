@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Estimating causal quantities traditionally relies on bespoke estimators tailored to specific assumptions. Recently proposed Causal Foundation Models (CFMs) promise a more unified approach by amortising causal discovery and inference in a single step. However, in their current state, they do not allow for the incorporation of any domain knowledge, which can lead to suboptimal predictions. We bridge this gap by introducing methods to condition CFMs on causal information, such as the causal graph or more readily available ancestral information. When access to complete causal graph information is too strict a requirement, our approach also effectively leverages partial causal information. We systematically evaluate conditioning strategies and find that injecting learnable biases into the attention mechanism, together with a graph-convolutional encoder, is a highly effective method to utilise full and partial causal information. Our experiments show that this conditioning allows a general-purpose CFM to match the performance of specialised models trained on specific causal structures. Overall, our approach addresses a central hurdle on the path towards all-in-one causal foundation models: the capability to answer causal queries in a data-driven manner while effectively leveraging any amount of domain expertise.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2602.14972",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Additional authors": "Mark van der Wilk, Bernhard Schölkopf",
+      "Citations@2026-07-13": "3",
+      "Scholar": "DZ-fHPgAAAAJ:3kAsoqFNd14C",
+      "Venue": "arXiv preprint arXiv:2602.14972, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
