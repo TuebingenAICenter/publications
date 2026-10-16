@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Generative large vision-language models (LVLMs) have recently achieved impressive performance gains, and their user base is growing rapidly. However, the security of LVLMs, in particular in a long-context multi-turn setting, is largely underexplored. In this paper, we consider the realistic scenario in which an attacker uploads a manipulated image to the web/social media. A benign user downloads this image and uses it as input to the LVLM. Our novel stealthy Visual Memory Injection (vmi) attack is designed such that on normal prompts the LVLM exhibits nominal behavior, but once the user gives a triggering prompt, the LVLM outputs a specific prescribed target message to manipulate the user, e.g. for adversarial marketing or political persuasion. Compared to previous work that focused on single-turn attacks, vmi is effective even after a long multi-turn conversation with the user. We demonstrate our attack on several recent open-weight LVLMs. This article thereby shows that large-scale manipulation of users is feasible with perturbed images in multi-turn conversation settings, calling for better robustness of LVLMs against these attacks.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.15927",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "0ZAb3tsAAAAJ:hGdtkIFZdKAC",
+      "Venue": "International Conference on Machine Learning (ICML)"
+    },
+    "itemType": "conferencePaper"
+  }
+}
