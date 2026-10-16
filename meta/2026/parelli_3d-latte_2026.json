@@ -1,0 +1,27 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Despite the recent success of multi-view diffusion models for text/image-based 3D asset generation, instruction-based editing of 3D assets lacks surprisingly far behind the quality of generation models. The main reason is that recent approaches using 2D priors suffer from view-inconsistent editing signals. Going beyond 2D prior distillation methods and multi-view editing strategies, we propose a training-free editing method that operates within the latent space of a native 3D diffusion model, allowing us to directly manipulate 3D geometry. We guide the edit synthesis by blending 3D attention maps from the generation with the source object. Coupled with geometry-aware regularization guidance, a spectral modulation strategy in the Fourier domain and a refinement step for 3D enhancement, our method outperforms previous 3D editing methods enabling high-fidelity and precise edits across a wide range of shapes and semantic manipulations.",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-06-01": "5",
+      "Citations@2026-07-13": "5",
+      "Scholar": "SrVnrPcAAAAJ:sgsej9ZJWHMC",
+      "Venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2509.00269'>https://arxiv.org/abs/2509.00269</a><br><a href='https://mparelli.github.io/3d-latte/'>https://mparelli.github.io/3d-latte/</a><br><a href='https://dblp.org/rec/journals/corr/abs-2509-00269'>https://dblp.org/rec/journals/corr/abs-2509-00269</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
