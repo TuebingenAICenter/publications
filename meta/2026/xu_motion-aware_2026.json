@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Autoregressive video generation paradigms offer theoretical promise for long video synthesis, yet their practical deployment is hindered by the computational burden of sequential iterative denoising. While cache reuse strategies can accelerate generation by skipping redundant denoising steps, existing methods rely on coarse-grained chunk-level skipping that fails to capture fine-grained pixel dynamics. This oversight is critical: pixels with high motion require more denoising steps to prevent error accumulation, while static pixels tolerate aggressive skipping. We formalize this insight theoretically by linking cache errors to residual instability, and propose MotionCache, a motion-aware cache framework that exploits inter-frame differences as a lightweight proxy for pixel-level motion characteristics. MotionCache employs a coarse-to-fine strategy: an initial warm-up phase establishes semantic coherence, followed by motion-weighted cache reuse that dynamically adjusts update frequencies per token. Extensive experiments on state-of-the-art models like SkyReels-V2 and MAGI-1 demonstrate that MotionCache achieves significant speedups of 6.28x and 1.64x respectively, while effectively preserving generation quality (VBench: 1% and 0.01% respectively).",
+    "archive": "arXiv",
+    "archiveLocation": "2605.01725",
+    "extra": {
+      "Source": "group_webpage (liu)",
+      "arXiv": "2605.01725"
+    },
+    "itemType": "conferencePaper"
+  }
+}
