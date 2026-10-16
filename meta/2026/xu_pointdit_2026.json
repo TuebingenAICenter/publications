@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures or necessitate compressing geometry into latent spaces to leverage pre-trained latent diffusion models. In this work, we demonstrate that such architectural overhead is unnecessary. We introduce a minimalist pixel-space Diffusion Transformer built on a plain ViT, which operates directly on raw point map patches and is conditioned on image tokens from a pre-trained DINOv3. Unlike existing latent diffusion-based approaches, we train our diffusion backbone entirely from scratch, eliminating the need for point map tokenizers. We show that this streamlined approach yields results superior to complex latent-based diffusion models while remaining significantly simpler than hybrid alternatives. Notably, our model produces sharper geometric structures and achieves significantly better results on highly ambiguous regions, such as transparent objects.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.02515",
+    "callNumber": "arXiv:2607.02515",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "SrVnrPcAAAAJ:T8_be82Iz5gC",
+      "Venue": "arXiv preprint arXiv:2607.02515, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+  }
+}
