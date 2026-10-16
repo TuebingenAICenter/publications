@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "dax"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We present a method for synthesizing 3D abstractions of buildings from single images. Our approach leverages a procedural building model and a transformer-based architecture to invert the procedural parameters from an input image. By learning to map images to the latent space of a procedural generator, we can recover compact, editable, and semantically meaningful 3D representations. We demonstrate that our method produces high-quality 3D abstractions that are consistent with the input images and can be easily manipulated for downstream tasks.",
