@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Automated red-teaming of Large Language Models (LLMs) commonly relies on attack success rates (ASR) as a proxy for real-world harm, implicitly assuming that judge-detected violations correspond to actionable risk. In practice, safety judges are imperfect, and outputs that satisfy automated criteria for harm can vary widely in their operational usefulness. In this work, we investigate whether model failure modes can be reshaped so that, when defenses fail, they preferentially produce low-utility, non-actionable outputs rather than highly actionable harm. Inspired by honeypots in computer security, we construct honeypot responses that are frequently flagged as harmful by automated judges yet provide little real-world operational value, and treat them as hard negatives in the safety training pipeline. Our findings show that shaping how models fail under attack can improve overall safety by reducing both the real-world impact and the frequency of harmful failures, and serve as a practical complement to ASR-based evaluations.",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-09-01": "1",
+      "Scholar": "DZ-fHPgAAAAJ:F0NXhNG7aVsC",
+      "Venue": "ICLR 2026 Workshop on Principled Design for Trustworthy AI-Interpretability …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities (ICLR)"
+  }
+}
