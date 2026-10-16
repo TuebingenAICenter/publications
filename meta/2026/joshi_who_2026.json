@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Identifiability in representation learning is commonly evaluated using standard metrics (e.g., MCC, DCI, R^2) on synthetic benchmarks with known ground-truth factors. These metrics are assumed to reflect recovery up to the equivalence class guaranteed by identifiability theory. We show that this assumption holds only under specific structural conditions: each metric implicitly encodes assumptions about both the data-generating process (DGP) and the encoder. When these assumptions are violated, metrics become misspecified and can produce systematic false positives and false negatives. Such failures occur both within classical identifiability regimes and in post-hoc settings where identifiability is most needed. We introduce a taxonomy separating DGP assumptions from encoder geometry, use it to characterise the validity domains of existing metrics, and release an evaluation suite for reproducible stress testing and comparison.",
+    "archive": "arXiv",
+    "archiveLocation": "2602.24278",
+    "conferenceName": "Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7133267764",
+      "Scholar": "v-JL-hsAAAAJ:BrmTIyaxlBUC",
+      "Venue": "UAI 2026, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Uncertainty in Artificial Intelligence (UAI)"
+  }
+}
