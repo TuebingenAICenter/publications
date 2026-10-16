@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "abebe",
+      "mendler-duenner"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Predictions in digital platforms must adapt over time as individuals update their beliefs through social interactions. At the same time, changing predictions alter the content people are exposed to and, consequently, the very beliefs they aim to forecast. This recursive coupling between predictions and individuals complicates the analysis of the long-term societal impact of predictive systems. In this work, we propose a minimal model where predictions and opinions co-evolve, combining insights from network science with concepts from performative prediction. In our model a platform's predictions influence individual opinions, which then evolve through peer interactions and form the training data for future platform model updates. We demonstrate that this co-evolution induces a novel equilibrium that qualitatively differs from standard network equilibria. In particular, we show how standard predictive objectives can drive networks toward consensus even under conditions where classical opinion-dynamics models lead to disagreement. This emerges because predictive systems dynamically adapt to changing opinions, and learning objectives create spillover effects among individuals beyond the topology of the network. We further analyze systematic deviations from standard prediction and demonstrate amplified effects of targeted platform interventions on equilibrium outcomes, compared to classical network intervention analyses. Together, our results illustrate performativity as an important, yet so far neglected, qualifying factor in social networks.",
+    "archive": "arXiv",
+    "archiveLocation": "2603.12137",
+    "extra": {
+      "Archive ID": "2603.12137",
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7135429269",
+      "Repository": "arXiv",
+      "Scholar": "sDHHglIAAAAJ:P7Ujq4OLJYoC",
+      "Venue": "arXiv preprint arXiv:2603.12137, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
