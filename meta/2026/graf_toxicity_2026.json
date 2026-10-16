@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Drug-induced toxicity is a leading cause of preclinical and early-clinical failure, making early detection critical. Histopathology is the gold standard for toxicity assessment but relies on expert pathologists, creating a bottleneck for large-scale screening. We introduce an AI-based anomaly detection framework for whole-slide images (WSIs) of rodent liver that identifies healthy tissue and known pathologies (anomalies) and flags samples without training data as out-of-distribution (OOD). We evaluate OOD detection on two held-out categories: apoptosis (single-cell, near-OOD) and staining/processing artifacts (heterogeneous, far-OOD). We build a novel pixelwise-annotated dataset and fine-tune a pre-trained Vision Transformer (DINOv2) via Low-Rank Adaptation (LoRA) for segmentation, then use the Mahalanobis distance for OOD detection with class-specific thresholds. Optimizing the false positive rate subject to a predefined constraint on the false negative rate yields only 0.16% of pathological tissue classified as healthy and 0.35% of healthy tissue classified as pathological. Our false negative rate does not penalise cross-type errors, reflecting the safety-first objective of never overlooking a lesion; under the stricter correct-class criterion our method assigns 93.93% of ID and 89.38% of OOD findings to their own class. The study demonstrates technical feasibility of pixel-level anomaly detection for mouse liver histopathology, indicating possible applications in improving preclinical workflows and drug development efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "extra": {
+      "Archive ID": "2602.02124",
+      "Scholar": "0ZAb3tsAAAAJ:mel-f30kHHgC",
+      "Venue": "arXiv preprint arXiv:2602.02124, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
