@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Applying a matrix function to a vector is a common operation in large-scale scientific computing, such as Bayesian inference. When the matrix is symmetric positive definite and the function is its inverse, the Lanczos algorithm gives a matrix-free approximation from matrix-vector products alone. Stopping after a fixed number of steps keeps the approximation on the explored Krylov subspace but assigns nothing to its orthogonal complement, which holds the smallest eigenvalues and therefore the largest contributions to the inverse. This truncation is usually treated as a silent numerical error rather than as measurable uncertainty. We show that a single Lanczos run yields both a matrix-free approximation of the inverse and a Gaussian distribution over the exact result, whose covariance measures what the truncation discarded and concentrates as the number of steps grows. The covariance restores the complement in two parts: a rank-one coupling at the truncation boundary, given exactly by the Lanczos residual, and an isotropic term on the remaining bulk, whose size we estimate by Projected Stochastic Lanczos Quadrature, reusing one Krylov basis across all probes. We prove consistency, with bias decaying exponentially in the quadrature depth and variance at the Monte Carlo rate",
+    "archive": "arXiv",
+    "archiveLocation": "2609.10080",
+    "extra": {
+      "Archive ID": "2609.10080",
+      "Scholar": "UeG5w08AAAAJ:QYdC8u9Cj1oC",
+      "Venue": "arXiv preprint arXiv:2609.10080, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
