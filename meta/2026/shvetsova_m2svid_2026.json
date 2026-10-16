@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We tackle the problem of monocular-to-stereo video conversion and propose a novel architecture for inpainting and refinement of the warped right view obtained by depth-based reprojection of the input left view. We extend the Stable Video Diffusion (SVD) model to utilize the input left video, the warped right video, and the disocclusion masks as conditioning input to generate a high-quality right camera view. In order to effectively exploit information from neighboring frames for inpainting, we modify the attention layers in SVD to compute full attention for discoccluded pixels. Our model is trained to generate the right view video in an end-to-end manner without iterative diffusion steps by minimizing image space losses to ensure high-quality generation. Our approach outperforms previous state-of-the-art methods, being ranked best 2.6x more often than the second-place method in a user study, while being 6x faster.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2505.16565",
+    "conferenceName": "International Conference on 3D Vision (3DV)",
+    "extra": {
+      "Citations@2026-06-01": "7",
+      "Citations@2026-07-13": "9",
+      "Scholar": "pxhCcH0AAAAJ:q3oQSFYPqjQC",
+      "Venue": "2026 International Conference on 3D Vision (3DV), 145-155, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on 3D Vision (3DV)"
+  }
+}
