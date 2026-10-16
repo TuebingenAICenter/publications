@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modelling how a disease progresses over time requires longitudinal imaging cohorts, which are scarce and small, whereas cross-sectional data – one image per participant – is abundant. Self-supervised pre-training on such data offers a way to bridge this gap, but it is unclear which strategy best supports progression modelling, or how that answer depends on the amount of labelled longitudinal data. We study this for age-related macular degeneration (AMD), pre-training encoders on the large cross-sectional NAKO cohort and predicting time to late AMD on the longitudinal AREDS dataset. We compare in-house self-supervised encoders against a general-purpose (DINOv2) and a domain-specific (RETFound) foundation model, across contrastive, masked-autoencoding, and self-distillation objectives, under frozen and fine-tuned protocols, and across labelled training sets from 100 to 32,250 examples. Which model performs best depends on how the encoder is used. When the encoder is frozen and labels are few – the regime typical of longitudinal cohorts – pre-trained representations reach clinically reasonable discrimination from a few hundred labelled samples, while models trained from scratch do not; this advantage fades under fine-tuning. Transfer is governed by the self-supervision objective rather than corpus scale or domain match, so that an encoder pre-trained on a modest cross-sectional cohort matches or exceeds a far larger in-domain foundation model. Together, these results offer a practical recipe for building progression models where longitudinal data is scarce: a frozen self-supervised encoder with a lightweight survival head.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "extra": {
+      "Archive ID": "2609.12834",
+      "Repository": "arXiv",
+      "Scholar": "lPQLk3QAAAAJ:lmc2jWPfTJgC",
+      "Venue": "arXiv preprint arXiv:2609.12834, 2026",
+      "arXiv": "2609.12834"
+    },
+    "itemType": "preprint"
+  }
+}
