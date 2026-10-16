@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this paper we show how to exploit interventional data to acquire the joint conditional distribution of all the variables using the Maximum Entropy principle. To this end, we extend the Causal Maximum Entropy method to make use of interventional data in addition to observational data. Using Lagrange duality, we prove that the solution to the Causal Maximum Entropy problem with interventional constraints lies in the exponential family, as in the Maximum Entropy solution. Our method allows us to perform two tasks of interest when marginal interventional distributions are provided for any subset of the variables. First, we show how to perform causal feature selection from a mixture of observational and single-variable interventional data, and, second, how to infer joint interventional distributions. For the former task, we show on synthetically generated data, that our proposed method outperforms the state-of-the-art method on merging datasets, and yields comparable results to the KCI-test which requires access to joint observations of all variables.",
+    "archive": "arXiv",
+    "archiveLocation": "2409.01794",
+    "conferenceName": "Conference on Causal Learning and Reasoning (CLAR)",
+    "extra": {
+      "Citations@2026-07-13": "1",
+      "Scholar": "DZ-fHPgAAAAJ:w6WSaVXYMYwC",
+      "Venue": "arXiv preprint arXiv:2409.01794, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the Fifth Conference on Causal Learning and Reasoning"
+  }
+}
