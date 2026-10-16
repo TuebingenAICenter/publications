@@ -12,13 +12,13 @@
     "extra": {
       "Archive ID": "2312.14886",
       "Citations@2026-06-01": "0",
-      "Journal Abbreviation": "Anal. Appl.",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4417067719",
-      "Pages": "1-29",
       "Repository": "arXiv",
-      "Scholar": "UeG5w08AAAAJ:vbGhcppDl1QC"
+      "Scholar": "UeG5w08AAAAJ:vbGhcppDl1QC",
+      "Venue": "Analysis and Applications, 1-29, 2026"
     },
-    "itemType": "document",
+    "itemType": "journalArticle",
     "libraryCatalog": "arXiv",
     "notes": [
       {
