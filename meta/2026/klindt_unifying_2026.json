@@ -1,0 +1,11 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Understanding how information is represented in neural networks is a fundamental challenge in both neuroscience and artificial intelligence. Despite their nonlinear computations, ample evidence suggests that neural networks encode features in superposition, meaning that systems linearly represent more concepts than they have neurons. This observation opens the door to extracting interpretable representations from otherwise opaque networks, but a principled account of why superposition arises and how it can be exploited has been lacking. Here we synthesize insights from identifiability theory, compressed sensing and quantitative interpretability research to propose a unified perspective on this phenomenon. Our synthesis yields a three-step framework: identifiability theory establishes that neural networks trained for classification recover latent features up to linear mixing, compressed sensing provides guarantees for disentangling these features via sparse coding, and interpretability metrics grounded in behavioural tasks assess whether the extracted features align with human-interpretable concepts. By bridging theoretical neuroscience, representation learning and interpretability research, our framework connects longstanding questions about neural coding in biological systems with modern efforts in artificial intelligence transparency, and highlights open problems at their intersection.",
+    "itemType": "journalArticle"
+  }
+}
