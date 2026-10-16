@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "abebe",
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models are increasingly deployed as automated judges to evaluate the strength of arguments. As this role expands, their legitimacy depends on consistency, transparency, and the ability to separate argumentative structure from rhetorical appeal. However, we show that holistic judging - a common LLM-as-a-Judge practice where a model provides a global verdict on a debate - suffers from substantial inter-model disagreement. We argue that this instability arises from collapsing a debate's complex interaction structure into a single opaque score. To address this, we propose GRASP (Gradual Ranking with Attacks and Support Propagation), a deterministic framework that aggregates stable local interaction judgments into a global ranking via a convergent attack--defense propagation operator. We show that local interaction judgments are more reproducible than holistic rankings in LLM-as-a-Judge evaluations, allowing GRASP to produce more consistent global rankings. We further show that GRASP scores do not correlate with human \"convincingness\" labels, highlighting a vital sociotechnical distinction: GRASP does not measure persuasion, factuality, or rhetorical appeal, but structural sufficiency - a defense-aware notion of argument robustness over the explicit interaction graph. Overall, GRASP offers a transparent and auditable alternative to holistic LLM judging.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.19141",
+    "callNumber": "arXiv:2605.19141",
+    "extra": {
+      "Archive ID": "2605.19141",
+      "Repository": "arXiv",
+      "Scholar": "sDHHglIAAAAJ:nVrZBo8bIpAC",
+      "Venue": "arXiv preprint arXiv:2605.19141, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
