@@ -5,17 +5,23 @@
     ]
   },
   "zotero": {
-    "abstractNote": "Foundation models have demonstrated remarkable capabilities in learning representations that are useful for a wide range of downstream tasks. However, these representations are often opaque, making it difficult to understand the concepts they capture. Causal representation learning, on the other hand, aims to learn representations that correspond to the underlying causal factors of the data-generating process. In this paper, we propose a framework that unifies these two paradigms. We show that by leveraging the causal structure of the data, we can learn representations that are not only useful for downstream tasks but also interpretable in terms of causal concepts. We demonstrate the effectiveness of our approach on a variety of tasks, including image classification, object detection, and causal discovery.",
+    "abstractNote": "To build intelligent machine learning systems, there are two broad approaches. One approach is to build inherently interpretable models, as endeavored by the growing field of causal representation learning. The other approach is to build highly-performant foundation models and then invest efforts into understanding how they work. In this work, we relate these two approaches and study how to learn human-interpretable concepts from data. Weaving together ideas from both fields, we formally define a notion of concepts and show that they can be provably recovered from diverse data. Experiments on synthetic data and large language models show the utility of our unified approach.",
     "archive": "arXiv",
     "archiveLocation": "2402.09236",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Archive ID": "2402.09236",
       "Citations@2026-06-01": "2",
+      "Citations@2026-07-13": "2",
+      "Note": "Published as 'From Causal to Concept-Based Representation Learning' in NeurIPS 2024.",
       "OpenAlex": "W4391835954",
       "Scholar": "DZ-fHPgAAAAJ:o2RX7q-SfW0C",
-      "arXiv": "2402.09236"
+      "Venue": "arXiv preprint arXiv:2402.09236, 2024",
+      "arXiv": "2402.09236",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
