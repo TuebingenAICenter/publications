@@ -3,7 +3,8 @@
     "groups": [
       "akata",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Deep learning has achieved remarkable success in various computer vision tasks, typically relying on large-scale labeled datasets. However, the acquisition of high-quality labels is often expensive and time-consuming. To address this, semi-supervised and unsupervised learning have emerged as promising paradigms to leverage unlabeled data. In this survey, we provide a comprehensive review of recent advances in semi-supervised and unsupervised deep visual learning. We categorize existing methods based on their learning objectives and underlying mechanisms, and discuss their strengths and limitations. Furthermore, we highlight key challenges and potential future research directions in this rapidly evolving field.",
