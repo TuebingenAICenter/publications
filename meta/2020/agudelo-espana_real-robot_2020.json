@@ -3,7 +3,8 @@
     "groups": [
       "martius",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We present a dataset of real-robot trajectories for the purpose of benchmarking the transferability of learned dynamics models. The dataset consists of trajectories from a 7-DOF manipulator (KUKA LBR iiwa) performing reaching tasks under different conditions, such as varying payloads and friction settings. We provide the data in a standardized format and include baseline results for several state-of-the-art dynamics learning methods. Our goal is to facilitate research in transfer learning and robust control by providing a common benchmark for evaluating how well learned models generalize to unseen dynamics.",
