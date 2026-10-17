@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a new approach to search over the space of molecule synthesis directed acyclic graphs (DAGs). Our approach, which we call DAG-DQN, uses a deep Q-network to learn a policy for building synthesis DAGs. The state space is defined by the set of molecules currently available, and the action space consists of applying a reaction to a subset of these molecules. We show that DAG-DQN can be used to find synthesis DAGs for molecules that are difficult to synthesize, and that it outperforms existing methods on a range of benchmarks.",
