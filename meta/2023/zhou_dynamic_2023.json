@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "wu"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "How do humans learn and remember in a world that is both dynamic and structured? While traditional models of learning and memory often treat these processes as separate, recent work suggests they are deeply intertwined. Here, we propose a framework that integrates these two perspectives, suggesting that learning and memory are dynamic processes that rely on the structure of the environment. We test this framework using a series of behavioral experiments and computational models, showing that it can account for a wide range of phenomena in human learning and memory.",
