@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "wu"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Social learning is a powerful tool for navigating uncertain environments, but it is also prone to biases. One such bias is the tendency to over-rely on social information, even when it is unreliable. In this paper, we investigate whether people can learn to discount unreliable social information. We present a behavioral experiment where participants perform a multi-armed bandit task and can choose to observe the choices of others. We find that participants are sensitive to the reliability of social information and adjust their reliance on it accordingly. We model this behavior using a Bayesian framework, which suggests that people treat social information as a noisy signal and update their beliefs about its reliability over time. Our results provide a mechanistic account of how people navigate the trade-off between social and individual learning.",
