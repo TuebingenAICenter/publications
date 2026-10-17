@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a framework for causal modeling based on stationary diffusion processes. By leveraging the connection between stochastic differential equations and causal mechanisms, we show that stationary diffusions can represent a wide class of causal models. We demonstrate that our approach allows for flexible causal discovery and inference, and we provide theoretical guarantees for the identifiability of the causal structure. Our experiments on synthetic and real-world data show that our method outperforms existing approaches in terms of accuracy and robustness.",
