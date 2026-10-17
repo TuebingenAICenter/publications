@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "conferenceName": "7th Annual Conference on Robot Learning (CoRL)",
