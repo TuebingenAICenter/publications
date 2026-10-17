@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Trajectory optimization is a fundamental tool for robot control. However, its performance is often limited by the accuracy of the underlying dynamics model. While robust control methods can account for model uncertainty, they often lead to overly conservative behavior. In this paper, we propose a distributionally robust trajectory optimization framework that optimizes for the worst-case performance within a set of dynamics models defined by a relative-entropy constraint. This approach allows us to systematically trade off performance and robustness. We derive a trust-region-based optimization algorithm that iteratively updates the trajectory and the uncertainty set. We demonstrate the effectiveness of our approach in simulation and on a real robot, showing that it achieves superior performance compared to standard robust control methods.",
