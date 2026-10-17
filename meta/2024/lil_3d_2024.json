@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "black"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
