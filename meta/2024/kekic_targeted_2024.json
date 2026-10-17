@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Causal models are often too complex to be useful for downstream tasks. We propose a framework for targeted reduction of causal models, which allows us to simplify a causal model while preserving its causal properties relevant to a specific task. Our approach is based on the idea of causal abstraction, where we map a high-dimensional causal model to a lower-dimensional one. We provide theoretical guarantees for our method and demonstrate its effectiveness on several synthetic and real-world datasets.",
