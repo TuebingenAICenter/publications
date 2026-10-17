@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "We consider the problem of learning the effect of interventions in complex systems at equilibrium. While standard causal discovery methods often assume that interventions are hard (i.e., they fix a variable to a constant value), many real-world interventions are soft, meaning they modify the mechanism of a variable without fixing it. We propose a framework to learn soft interventions in equilibrium systems, based on the assumption that the system is governed by a set of differential equations. We show that under certain conditions, the effect of soft interventions can be identified from observational data and a limited number of interventional experiments. We demonstrate the effectiveness of our approach on synthetic and real-world data.",
