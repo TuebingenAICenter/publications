@@ -3,7 +3,8 @@
     "groups": [
       "macke",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Amortized Bayesian inference (ABI) has become a popular tool for performing inference in complex simulation-based models. However, ABI methods are typically trained to minimize the average error over a prior distribution, which does not guarantee robustness to adversarial perturbations of the observations. In this paper, we investigate the adversarial robustness of ABI. We show that standard ABI methods are vulnerable to adversarial attacks, where small, imperceptible perturbations to the observation can lead to drastically incorrect posterior estimates. We propose a robust training framework for ABI based on adversarial training, which significantly improves the robustness of the posterior estimates to adversarial attacks. We demonstrate the effectiveness of our approach on several benchmark problems, including a high-dimensional simulation-based model.",
