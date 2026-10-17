@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Learning complex robotic manipulation skills requires the ability to generalize across different task contexts. While reinforcement learning has shown great potential, it often struggles with high-dimensional action spaces and the need for sample efficiency. In this paper, we propose Contextual Latent-Movements Off-Policy Optimization (CL-MOPO), a framework that combines latent space movement primitives with off-policy reinforcement learning. By learning a latent representation of movement primitives, we reduce the dimensionality of the action space, while the off-policy optimization allows for efficient learning from previously collected data. We evaluate our approach on a set of simulated robotic manipulation tasks and demonstrate that it outperforms state-of-the-art methods in terms of sample efficiency and generalization performance.",
