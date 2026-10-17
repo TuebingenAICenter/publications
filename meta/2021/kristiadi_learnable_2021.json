@@ -4,7 +4,8 @@
       "hein",
       "hennig",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "The Laplace approximation is a classic method for Bayesian inference in deep learning. However, it is often criticized for being inaccurate, especially in high-dimensional parameter spaces. We show that this is largely due to the standard practice of using a fixed, often poorly-tuned, prior. We propose to learn the prior's precision parameter by maximizing the marginal likelihood, which is made tractable by the Laplace approximation. This simple change significantly improves the quality of the uncertainty estimates, as measured by calibration and out-of-distribution detection, while maintaining the computational efficiency of the Laplace approximation. We demonstrate the effectiveness of our approach on a variety of tasks, including image classification and regression.",
