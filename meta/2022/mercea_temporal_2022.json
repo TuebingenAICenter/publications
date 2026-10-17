@@ -3,7 +3,8 @@
     "groups": [
       "akata",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "conferenceName": "17th European Conference on Computer Vision",
