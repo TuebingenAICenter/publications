@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "samadi"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We study the problem of learning a predictor that complements a human decision-maker. In this setting, a model can either predict the label itself or defer to a human. We provide a theoretical framework for sample-efficient learning in this setting. We show that the sample complexity of learning a deferral model is related to the complexity of learning the predictor and the human's accuracy. We also provide an algorithm for learning a deferral model that is sample-efficient and achieves a low regret. We validate our theoretical findings with experiments on synthetic and real-world datasets.",
