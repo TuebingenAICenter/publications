@@ -3,7 +3,8 @@
     "groups": [
       "hennig",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Bayesian neural networks (BNNs) are often trained using variational inference (VI) because it is computationally efficient. However, VI typically underestimates the uncertainty of the posterior distribution, which can lead to poor predictive performance. In this paper, we propose a simple and effective method to refine the posterior distribution of BNNs. Our method, which we call posterior refinement, uses a small number of additional samples to improve the quality of the variational posterior. We show that posterior refinement significantly improves the sample efficiency of BNNs on a variety of tasks, including regression and classification. We also show that our method is complementary to existing VI methods and can be easily integrated into existing pipelines.",
