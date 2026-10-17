@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Autoencoders are powerful tools for learning representations of data. However, understanding what information is encoded in the latent space remains a challenge. We propose a framework to explore the latent space of autoencoders using interventional assays. By performing interventions on the latent variables and observing the effects on the reconstructed data, we can identify the causal structure of the latent space. We demonstrate the effectiveness of our approach on several datasets and show that it can be used to discover disentangled representations and to improve the interpretability of autoencoders.",
