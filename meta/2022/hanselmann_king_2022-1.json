@@ -3,7 +3,7 @@
     "groups": [
       "geiger"
     ],
-    "mentions_ai_center": false
+    "mentions_ai_center": true
   },
   "zotero": {
     "extra": {
