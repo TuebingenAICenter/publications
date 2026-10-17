@@ -3,7 +3,8 @@
     "groups": [
       "samadi",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a novel method for generating synthetic data under differential privacy. Our approach relies on approximating the data distribution using a truncated expansion of Hermite polynomials. This allows us to capture complex dependencies in the data while maintaining a low-dimensional representation, which is crucial for privacy. We provide theoretical guarantees on the privacy loss and the approximation error. Our empirical results demonstrate that our method outperforms existing state-of-the-art approaches on several benchmark datasets, especially in high-dimensional settings.",
