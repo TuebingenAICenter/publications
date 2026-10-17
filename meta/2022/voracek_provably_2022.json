@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "hein"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Nearest Prototype Classifiers (NPCs) are a simple and interpretable alternative to deep neural networks. While they are known to be robust to adversarial attacks in theory, their empirical robustness is often limited by the choice of the metric and the prototype selection. In this paper, we propose a novel training procedure for NPCs that guarantees adversarial robustness for a given perturbation budget. We show that our method leads to state-of-the-art certified robustness on several datasets, while maintaining high clean accuracy. Furthermore, we demonstrate that our approach is scalable to large datasets and high-dimensional inputs, making it a viable alternative to robust deep learning models.",
