@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "luxburg"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Causal learning from observational data is a fundamental problem in machine learning. A common approach is to use structural causal models (SCMs) and to estimate the causal structure from data. However, in many real-world scenarios, the number of variables is large, and the number of samples is small, making the estimation of the causal structure difficult. In this paper, we propose a new approach to causal learning that combines interpolation and regularization. We show that this approach can be used to learn causal structures from observational data even in the high-dimensional setting. We provide theoretical guarantees for our approach and demonstrate its effectiveness on synthetic and real-world datasets.",
