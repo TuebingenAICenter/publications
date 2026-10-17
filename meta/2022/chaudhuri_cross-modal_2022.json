@@ -3,7 +3,8 @@
     "groups": [
       "akata",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "conferenceName": "33rd British Machine Vision Conference (BMVC)",
