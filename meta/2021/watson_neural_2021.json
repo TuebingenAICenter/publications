@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a novel Bayesian neural network architecture, the Neural Linear Model with Functional Gaussian Process Priors (NLM-FGPP). By placing a functional Gaussian process prior over the last layer of a neural network, we obtain a model that is both flexible and tractable. We show that the NLM-FGPP can be trained efficiently using variational inference and that it outperforms standard Bayesian neural networks on a variety of regression tasks.",
