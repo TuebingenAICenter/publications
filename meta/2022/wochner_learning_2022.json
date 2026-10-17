@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Anthropomorphic robots are often controlled by electric motors, which differ significantly from biological muscles in their force-generation properties. Muscles are nonlinear, force-velocity dependent, and have intrinsic dynamics. In this paper, we investigate whether these biological properties can be beneficial for robot control. We compare a muscle-like actuator model with a standard electric motor model in a reinforcement learning setting. We find that the muscle-like actuator model leads to higher data-efficiency and robustness in anthropomorphic tasks. Our results suggest that incorporating biological properties into robot control can be a promising direction for future research.",
