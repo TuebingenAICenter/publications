@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "dax"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We used two complementary approaches to search for the effects of ultralight bosons in GW observations from the LIGO-Virgo-KAGRA (LVK) collaboration.",
