@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Hyperbolic spaces provide a natural geometry for representing hierarchical and tree-structured data due to their exponential volume growth. To leverage these benefits, neural networks require intrinsic and efficient components that operate directly in hyperbolic space. In this work, we lift two core components of neural networks, Multinomial Logistic Regression (MLR) and Fully Connected (FC) layers, into hyperbolic space via Busemann functions, resulting in Busemann MLR (BMLR) and Busemann FC (BFC) layers with a unified mathematical interpretation. BMLR provides compact parameters, a point-to-horosphere distance interpretation, batch-efficient computation, and a Euclidean limit, while BFC generalizes FC and activation layers with comparable complexity. Experiments on image classification, genome sequence learning, node classification, and link prediction demonstrate improvements in effectiveness and efficiency over prior hyperbolic layers.",
