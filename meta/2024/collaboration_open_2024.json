@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We introduce the Open X-Embodiment dataset, a collection of 22 robot embodiment datasets, and RT-X, a family of models trained on this data. We demonstrate that RT-X models, which are trained on diverse robot data, exhibit improved performance and generalization compared to models trained on single-robot data.",
