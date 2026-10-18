@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a framework for causal modeling based on stationary diffusion processes. By leveraging the properties of stationary diffusions, we can model causal relationships in continuous time and space, allowing for the representation of complex, non-linear causal mechanisms. We demonstrate the effectiveness of our approach on synthetic and real-world datasets, showing that it can recover causal structures and perform accurate interventional inference.",
