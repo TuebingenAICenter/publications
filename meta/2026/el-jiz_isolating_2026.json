@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "bethge"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "By precisely quantifying both the benefits and drawbacks of temporal processing, our work provides the community with clear, actionable insights into when and why temporal information should be modeled for more robust and accurate video saliency prediction. An in-depth analysis revealing our model's sensitivities to complex temporal dynamics, including hand-object interactions and varied camera motions, which allows us to isolate the specific contributions of temporal cues.",
