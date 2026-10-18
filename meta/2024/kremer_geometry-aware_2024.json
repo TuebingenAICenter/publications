@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Instrumental variable (IV) regression is a standard tool for causal inference in the presence of unobserved confounders. Most existing methods rely on linear assumptions or require strong parametric models. We propose a novel approach to IV regression that leverages the geometry of the data to learn the structural relationship between variables. By incorporating geometric constraints, our method is more robust to misspecification and performs well in high-dimensional settings. We provide theoretical guarantees for our estimator and demonstrate its effectiveness on synthetic and real-world datasets.",
