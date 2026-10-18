@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We identify recent advances and key open challenges that must be overcome to enable widespread adoption and new use cases for legged robots.",
