@@ -6,8 +6,8 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Large reasoning models (LRMs) are increasingly deployed to solve complex tasks by generating extensive chain-of-thought (CoT) reasoning traces. While these traces are often treated as internal, intermediate computations, we demonstrate that they are highly vulnerable to extraction. We introduce a novel attack, the 'Thought-Extraction Attack', which leverages the model's own reasoning process to leak private information contained in the prompt or the system instructions. We show that even when the model is instructed to keep information private, the reasoning process often inadvertently reveals it. We evaluate our attack on several state-of-the-art LRMs and find that they are consistently susceptible to leaking sensitive information. Our findings highlight a critical privacy vulnerability in current reasoning models and underscore the need for robust privacy-preserving mechanisms in the design and deployment of LRMs.",
-    "archive": "arXiv",
+    "abstractNote": "We study privacy leakage in the reasoning traces of large reasoning models used as personal agents which handle sensitive user data. Unlike final outputs, reasoning traces are often assumed to be internal and safe. We challenge this assumption by showing that reasoning traces frequently contain sensitive user data, which can be extracted via prompt injections or accidentally leak into outputs. Through probing and agentic evaluations, we demonstrate that test-time compute approaches, particularly increased reasoning steps, amplify such leakage. While increasing the budget of those test-time compute approaches makes models more cautious in their final answers, it also leads them to reason more verbosely and leak more in their own thinking. This reveals a core tension: reasoning improves utility but enlarges the privacy attack surface. We argue that safety efforts must extend to the model's internal thinking, not just its outputs.",
+    "archive": "ACL Anthology",
     "archiveLocation": "2506.15674",
     "attachments": [
       {
@@ -19,12 +19,14 @@
         "url": "https://arxiv.org/pdf/2506.15674"
       }
     ],
-    "conferenceName": "EMNLP",
+    "conferenceName": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "extra": {
       "Citations@2026-06-01": "11",
+      "Citations@2026-07-13": "16",
       "Code": "https://github.com/parameterlab/leaky_thoughts",
       "Dataset": "https://huggingface.co/datasets/parameterlab/leaky_thoughts",
-      "Scholar": "kmXOOdsAAAAJ:f2IySw72cVMC"
+      "Scholar": "kmXOOdsAAAAJ:f2IySw72cVMC",
+      "Venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025"
     },
     "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
@@ -35,6 +37,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)"
+    "proceedingsTitle": "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
   }
 }
