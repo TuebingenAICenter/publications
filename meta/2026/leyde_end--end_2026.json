@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "dax"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "The population of compact binaries encodes information about their astrophysical origins and the expansion of the universe. Hierarchical Bayesian methods infer these properties by combining single-event posteriors. As catalogs grow, however, this approach becomes computationally expensive and is subject to increasing Monte Carlo uncertainty. We introduce Dingo-Pop, a simulation-based framework that infers population posteriors directly from gravitational-wave strain data. The data for each event are embedded into low-dimensional tokens and combined using a transformer trained on simulated catalogs subject to selection effects. This enables (i) population inference without per-event Monte Carlo sampling noise, (ii) amortization across variable catalog sizes using a single network, and (iii) end-to-end inference in about one second. We train a network for catalog sizes of 25 to 1000 events, and obtain well-calibrated posteriors consistent with traditional methods. By avoiding per-event analyses that can take hours to days, Dingo-Pop enables new classes of large-scale injection studies; as an application, we examine how spectral-siren Hubble constant uncertainties change with catalog size.",
