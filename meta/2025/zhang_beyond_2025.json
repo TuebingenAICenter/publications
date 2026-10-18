@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "This document presents a study on mitigating data contamination in the evaluation of large language models (LLMs) by employing a reasoning-driven synthesis approach. The authors synthesized 1,643 multi-step reasoning questions from 20,277 arXiv papers, demonstrating that their method effectively resists contamination and maintains performance stability across various model families. They advocate for a shift towards reasoning-driven benchmarks that prioritize genuine problem-solving abilities over memorization, and provide open-source resources for reproducibility.",
