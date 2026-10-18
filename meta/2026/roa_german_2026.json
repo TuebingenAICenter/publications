@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "berens"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "The German National Cohort (NAKO) is a large-scale, prospective, population-based cohort study in Germany. We describe the ophthalmological assessment performed in the NAKO baseline examination, including visual acuity, intraocular pressure, and fundus photography. We provide a baseline profile of the study population and discuss the potential for AI-based eye research using the NAKO data.",
