@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "wu"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "How do people generalize from observed data to unobserved states? We propose that human function learning can be modeled as a diffusion process on a graph. This framework assumes that people represent the structure of the environment as a graph and generalize by diffusing information from observed nodes to unobserved nodes. We test this model against human behavior in a function learning task on graphs, finding that it outperforms several alternative models of generalization. Our results suggest that human function learning is constrained by the underlying structure of the environment, and that this structure is represented as a graph.",
