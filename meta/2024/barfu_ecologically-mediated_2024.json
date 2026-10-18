@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "bethge"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Collective, cooperative action is critical to sustaining the commons safely away from dangerous tipping elements. Previous work has found a variety of mechanisms for the emergence of cooperation through social interactions. Yet, they cannot always work. Here, we present a theory of ecologically-mediated collective action in commons with tipping elements. We show that even without any direct social interactions, commons with tipping elements can result in a plurality of social incentive regimes, some beneficial for collective conservation, others detrimental. We underpin all incentive regimes with dynamic and boundedly rational collective reinforcement learning. We highlight how our theory can be applied to an ecologically-mediated governance of the commons. Our theory predicts the existence of social tipping points at which collective cooperation becomes self-enforcing and self-sustaining, enabled only by the actors' environmental embeddedness.",
