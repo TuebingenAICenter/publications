@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "samadi"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Despite the essential need for comprehensive considerations in responsible AI, factors like robustness, fairness, and causality are often studied in isolation. Adversarial perturbation, used to identify vulnerabilities in models, and individual fairness, aiming for equitable treatment of similar individuals, despite initial differences, both depend on metrics to generate comparable input data instances. Previous attempts to define such joint metrics often lack general assumptions about data or structural causal models and were unable to reflect counterfactual proximity. To address this, our paper introduces a causal fair metric formulated based on causal structures encompassing sensitive attributes and protected causal perturbation. To enhance the practicality of our metric, we propose metric learning as a method for metric estimation and deployment in real-world problems in the absence of structural causal models. We also demonstrate the application of our novel metric in classifiers. Empirical evaluation of real-world and synthetic datasets illustrates the effectiveness of our proposed metric in achieving an accurate classifier with fairness, resilience to adversarial perturbations, and a nuanced understanding of causal relationships.",
