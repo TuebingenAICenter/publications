@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "dax"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "On 2023 November 23, the two LIGO observatories both detected GW231123, a gravitational-wave signal consistent with the merger of two black holes with masses 137-18+23 M⊙ and 101-50+22 M⊙. The total mass of the system is 190–265 M⊙. Both black holes exhibit high spins.",
