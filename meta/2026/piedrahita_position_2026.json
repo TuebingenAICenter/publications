@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "In this position paper, we analyze how AI alters the conditions of governance via flooding government agencies with paralyzing volumes of input, and identify seven failure modes through which AI poses risks to social systems: by narrowing public discourse and hardening polarization, eroding trust in institutions, and undermining the epistemic foundations of democratic decision-making.",
