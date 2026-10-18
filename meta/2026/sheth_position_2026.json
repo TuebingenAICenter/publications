@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "abdelnabi"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "This position paper argues that the defining properties of open-ended AI systems introduce a distinct and underexplored class of safety challenges. We analyze the risks associated with open-ended, self-propagating AI agents and argue that safety must be a prerequisite for their deployment.",
