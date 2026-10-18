@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "dax"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "The Vela pulsar is one of the best targets for gravitational-wave searches. It is also one of the most prolific in terms of glitch activity. Such glitches could cause a variety of transient gravitational-wave signals. Here, we search for signals associated with a Vela glitch on 2024 July 22. We discuss the short- and long-duration observational. These results demonstrate the potential of gravitational-wave probes of glitching pulsars.",
