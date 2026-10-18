@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "abdelnabi"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Reasoning-focused LLMs sometimes alter their behavior when they detect that they are being evaluated, which can lead them to optimize for test-passing performance or to comply more readily with harmful prompts if real-world consequences appear absent. We present the first quantitative study of how such \"test awareness\" impacts model behavior, particularly its performance on safety-related tasks. We introduce a white-box probing framework that (i) linearly identifies awareness-related activations and (ii) steers models toward or away from test awareness while monitoring downstream performance. We apply our method to different state-of-the-art open-weight reasoning LLMs across both realistic and hypothetical tasks (denoting tests or simulations). Our results demonstrate that test awareness significantly impacts safety alignment (such as compliance with harmful requests and conforming to stereotypes) with effects varying in both magnitude and direction across models. By providing control over this latent effect, our work aims to provide a stress-test mechanism and increase trust in how we perform safety evaluations.",
