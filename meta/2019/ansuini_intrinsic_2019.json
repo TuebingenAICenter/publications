@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "macke"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Deep neural networks have achieved remarkable success in many machine learning tasks. However, the nature of the representations they learn remains poorly understood. Here, we study the intrinsic dimension (ID) of the data representations in deep neural networks. We use a local intrinsic dimension estimator to analyze the ID of the representations of several state-of-the-art deep networks trained on image classification tasks. We find that the ID of the representations is much lower than the number of units in the layers, and that it decreases along the hierarchy of layers. We also find that the ID of the representations is correlated with the performance of the network, and that it can be used to predict the generalization error. Our results suggest that deep networks learn low-dimensional representations of the data, and that the dimensionality of these representations is a key factor in their performance.",
