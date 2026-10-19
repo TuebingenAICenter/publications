@@ -6,10 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "AAAI Conference on Artificial Intelligence",
+    "conferenceName": "AAAI",
     "extra": {
       "Citations@2026-06-01": "2",
       "Scholar": "s8xc2K4AAAAJ:_FxGoFyzp5QC"
-    },
-    "itemType": "journalArticle"
+    }
   }
 }
