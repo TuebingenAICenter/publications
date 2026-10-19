@@ -6,34 +6,35 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "attachments": [
+    "itemType": "conferencePaper",
+    "notes": [
       {
-        "accessDate": "2025-06-27 07:59:03",
-        "linkMode": "3",
-        "mimeType": "application/pdf",
-        "path": null,
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2402.17457v2"
+        "note": "<p>”num_citations”: ”2025-05-31”: 19</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 19</p>",
+        "tags": null,
+        "relations": null
       }
     ],
+    "attachments": [
+      {
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2402.17457v2",
+        "accessDate": "2025-06-27 07:59:03",
+        "mimeType": "application/pdf",
+        "linkMode": "3",
+        "path": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems",
     "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4415795894",
       "Scholar": "xkuLyHoAAAAJ:JV2RwH3_ST0C"
-    },
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 19</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 19</p>",
-        "relations": null,
-        "tags": null
-      }
-    ]
+    }
   }
 }
