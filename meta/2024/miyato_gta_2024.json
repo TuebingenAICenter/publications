@@ -6,30 +6,30 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 15</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": "Full Text PDF",
-        "url": "https://openreview.net/pdf?id=uJVHygNeSZ",
         "accessDate": "2025-06-17 19:44:23",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=uJVHygNeSZ"
       }
     ],
-    "proceedingsTitle": "International Conference on Learning Representations",
     "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4387725218",
       "Scholar": "SrVnrPcAAAAJ:ifOnle78iJkC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 15</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }

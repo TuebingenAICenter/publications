@@ -6,45 +6,45 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "attachments": [
+      {
+        "accessDate": "2025-06-27 08:01:41",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2408.09162v1"
+      }
+    ],
+    "conferenceName": "ICLR",
     "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 2</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<div data-schema-version=\"9\"><p>Preprint Title: Zero-Shot Object-Centric Representation Learning</p>\n</div>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<p>Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       }
     ],
-    "attachments": [
-      {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2408.09162v1",
-        "accessDate": "2025-06-27 08:01:41",
-        "mimeType": "application/pdf",
-        "linkMode": "3",
-        "path": null
-      }
-    ],
-    "proceedingsTitle": "International Conference on Learning Representations",
-    "conferenceName": "ICLR"
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }

@@ -6,20 +6,20 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p><a href='https://arxiv.org/abs/2510.11653'>https://arxiv.org/abs/2510.11653</a><br><a href='https://huggingface.co/papers/2510.11653'>https://huggingface.co/papers/2510.11653</a><br></p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
-    "proceedingsTitle": "International Conference on Learning Representations",
     "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4417104319",
       "Scholar": "v-JL-hsAAAAJ:geHnlv5EZngC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2510.11653'>https://arxiv.org/abs/2510.11653</a><br><a href='https://huggingface.co/papers/2510.11653'>https://huggingface.co/papers/2510.11653</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }
