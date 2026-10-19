@@ -6,12 +6,12 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems",
     "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "2",
       "Scholar": "pxhCcH0AAAAJ:UxriW0iASnsC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

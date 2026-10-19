@@ -6,11 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems",
     "conferenceName": "NeurIPS",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

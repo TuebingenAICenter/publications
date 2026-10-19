@@ -6,24 +6,24 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems",
     "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "13",
       "Scholar": "v-JL-hsAAAAJ:D03iK_w7-QYC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

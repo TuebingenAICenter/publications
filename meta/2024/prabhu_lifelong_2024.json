@@ -6,33 +6,33 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "conferenceName": "NeurIPS",
+    "extra": {
+      "Publisher": "University of Tübingen"
+    },
     "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<p>Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       },
       {
         "note": "<p>Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems",
-    "conferenceName": "NeurIPS",
-    "extra": {
-      "Publisher": "University of Tübingen"
-    }
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

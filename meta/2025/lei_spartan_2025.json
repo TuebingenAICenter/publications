@@ -6,10 +6,8 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2411.06890",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems",
     "conferenceName": "NeurIPS",
     "extra": {
       "Archive ID": "2411.06890",
@@ -17,6 +15,8 @@
       "OpenAlex": "W4404402378",
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:XRth-JKzQvcC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
