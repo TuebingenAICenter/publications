@@ -6,11 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Conference on Robot Learning",
     "conferenceName": "CoRL",
     "extra": {
       "Source": "group_webpage (martius)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Robot Learning"
   }
 }
