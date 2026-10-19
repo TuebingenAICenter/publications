@@ -6,10 +6,12 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Empirical Methods in Natural Language Processing",
+    "conferenceName": "EMNLP",
     "extra": {
       "Citations@2026-06-01": "98",
       "Scholar": "DZ-fHPgAAAAJ:6Ci8mJGgXzgC"
-    },
-    "itemType": "journalArticle"
+    }
   }
 }
