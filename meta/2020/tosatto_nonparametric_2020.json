@@ -6,13 +6,13 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "International Conference on Artificial Intelligence and Statistics",
     "conferenceName": "AISTATS",
-    "seriesTitle": "Proceedings of Machine Learning Research",
     "extra": {
       "Editors": "Silvia Chiappa and Roberto Calandra",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Artificial Intelligence and Statistics",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
