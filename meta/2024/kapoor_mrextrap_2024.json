@@ -6,21 +6,20 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "extra": {
-      "Publisher": "University of Tübingen"
-    },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
+        "tags": null,
+        "relations": null
       },
       {
         "note": "<p>Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
+        "tags": null,
+        "relations": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Medical Imaging with Deep Learning",
+    "conferenceName": "MIDL"
   }
 }
