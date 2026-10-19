@@ -6,31 +6,31 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "attachments": [
       {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2403.11237v2",
         "accessDate": "2025-06-17 16:42:22",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.11237v2"
       },
       {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2403.11237v2",
         "accessDate": "2025-06-17 16:42:22",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.11237v2"
       }
     ],
-    "proceedingsTitle": "International Conference on 3D Vision",
     "conferenceName": "3DV",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4413558601",
       "Scholar": "OpXMNnMAAAAJ:LI9QrySNdTsC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on 3D Vision"
   }
 }
