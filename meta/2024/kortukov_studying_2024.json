@@ -6,34 +6,34 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2404.16032v2",
         "accessDate": "2025-06-27 08:02:00",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2404.16032v2"
       }
     ],
-    "proceedingsTitle": "Conference on Language Modeling",
     "conferenceName": "COLM",
     "extra": {
       "Citations@2026-06-01": "27",
       "Scholar": "kmXOOdsAAAAJ:SeFeTyx0c_EC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 9</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Conference on Language Modeling"
   }
 }
