@@ -6,34 +6,35 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "tags": null,
+        "relations": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4391732473",
       "Scholar": "b-JF-UIAAAAJ:ML0RJ9NH7IQC"
-    },
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
-      }
-    ]
+    }
   }
 }
