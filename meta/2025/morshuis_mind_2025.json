@@ -6,14 +6,14 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
     "conferenceName": "MICCAI",
     "extra": {
       "Book Title": "Lecture notes in computer science",
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4414371023",
       "Scholar": "0ZAb3tsAAAAJ:isU91gLudPYC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention"
   }
 }

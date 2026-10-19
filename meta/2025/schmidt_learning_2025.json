@@ -6,30 +6,30 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p><a href='https://papers.miccai.org/miccai-2025/0484-Paper1277.html'>https://papers.miccai.org/miccai-2025/0484-Paper1277.html</a><br><a href='https://doi.org/10.1007/978-3-032-04971-1_27'>https://doi.org/10.1007/978-3-032-04971-1_27</a><br><a href='https://arxiv.org/abs/2503.10440'>https://arxiv.org/abs/2503.10440</a><br></p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": null,
-        "url": "https://arxiv.org/pdf/2503.10440",
         "accessDate": null,
-        "mimeType": null,
         "linkMode": "3",
-        "path": null
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2503.10440"
       }
     ],
-    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
     "conferenceName": "MICCAI",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416039569",
       "Scholar": "lPQLk3QAAAAJ:-_dYPAW6P2MC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://papers.miccai.org/miccai-2025/0484-Paper1277.html'>https://papers.miccai.org/miccai-2025/0484-Paper1277.html</a><br><a href='https://doi.org/10.1007/978-3-032-04971-1_27'>https://doi.org/10.1007/978-3-032-04971-1_27</a><br><a href='https://arxiv.org/abs/2503.10440'>https://arxiv.org/abs/2503.10440</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention"
   }
 }
