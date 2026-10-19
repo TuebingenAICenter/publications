@@ -6,13 +6,13 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "ACM Conference on Fairness, Accountability, and Transparency",
     "conferenceName": "FAccT",
     "extra": {
       "Citations@2026-06-01": "137",
       "OpenAlex": "W2888078780",
       "Scholar": "adnTgaAAAAAJ:-nhnvRiOwuoC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ACM Conference on Fairness, Accountability, and Transparency"
   }
 }

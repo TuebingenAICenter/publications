@@ -7,11 +7,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "ACM Conference on Fairness, Accountability, and Transparency",
     "conferenceName": "FAccT",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ACM Conference on Fairness, Accountability, and Transparency"
   }
 }
