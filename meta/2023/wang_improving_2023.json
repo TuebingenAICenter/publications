@@ -6,11 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "7th Annual Conference on Robot Learning (CoRL)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Robot Learning",
+    "conferenceName": "CoRL",
     "extra": {
       "Source": "group_webpage (martius)"
-    },
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "7th Annual Conference on Robot Learning (CoRL)"
+    }
   }
 }
