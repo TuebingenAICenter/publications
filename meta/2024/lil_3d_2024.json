@@ -6,11 +6,11 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
     "conferenceName": "CVPR",
     "extra": {
       "Source": "group_webpage (black)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

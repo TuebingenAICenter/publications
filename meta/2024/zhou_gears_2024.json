@@ -6,33 +6,33 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "abstractNote": "Synthesizing realistic hand-object interactions is a challenging task due to the complex contact patterns and the high degrees of freedom of the human hand. Existing methods often struggle to generate precise contact and physically plausible motions, especially when dealing with diverse objects. In this paper, we propose GEARS, a novel framework for local geometry-aware hand-object interaction synthesis. Our key insight is that local geometry, specifically the local surface normals and distances, provides a strong prior for contact and interaction. We introduce a geometry-aware representation that encodes the local interaction context, enabling the model to learn fine-grained contact patterns. Furthermore, we propose a novel interaction synthesis module that leverages this representation to generate physically plausible hand motions. Extensive experiments on standard benchmarks demonstrate that GEARS significantly outperforms existing state-of-the-art methods in terms of contact accuracy, motion realism, and physical plausibility.",
     "archive": "arXiv",
     "archiveLocation": "2404.01758",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 12</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": "Submitted Version",
-        "url": "https://arxiv.org/pdf/2404.01758",
         "accessDate": "2025-06-17 16:42:38",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Submitted Version",
+        "url": "https://arxiv.org/pdf/2404.01758"
       }
     ],
-    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
     "conferenceName": "CVPR",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4393929770",
       "Scholar": "OpXMNnMAAAAJ:0KyAp5RtaNEC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 12</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }
