@@ -6,11 +6,13 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Learning Theory",
+    "conferenceName": "COLT",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W2966415114",
       "Scholar": "adnTgaAAAAAJ:SGW5VrABaM0C"
-    },
-    "itemType": "journalArticle"
+    }
   }
 }
