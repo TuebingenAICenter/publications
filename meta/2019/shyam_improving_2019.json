@@ -6,11 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "conferenceName": "IROS",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    },
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+    }
   }
 }
