@@ -6,19 +6,20 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "tags": null,
+        "relations": null
+      }
+    ],
+    "proceedingsTitle": "Conference on Language Modeling",
     "conferenceName": "COLM",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416512822",
       "Scholar": "DZ-fHPgAAAAJ:IEFOukzuKpAC"
-    },
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>Publisher: MPI-IS</p>",
-        "relations": null,
-        "tags": null
-      }
-    ]
+    }
   }
 }
