@@ -6,12 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Robotics: Science and Systems",
     "conferenceName": "RSS",
     "extra": {
       "Editors": "Dylan A. Shell and Marc Toussaint and M. Ani Hsieh",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Robotics: Science and Systems"
   }
 }
