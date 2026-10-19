@@ -11,6 +11,8 @@
       "Code": "https://github.com/felixVogel02/VideoGEM",
       "Scholar": "pxhCcH0AAAAJ:eJXPG6dFmWUC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

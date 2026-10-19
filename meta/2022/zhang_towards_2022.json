@@ -16,6 +16,8 @@
       "Repository": "arXiv",
       "Scholar": "DZ-fHPgAAAAJ:ODSaxuuKfFwC"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

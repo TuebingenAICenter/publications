@@ -13,6 +13,8 @@
       "Scholar": "6NjbexEAAAAJ:XfMaBeGYgSgC",
       "aword_paper": "Highlight"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

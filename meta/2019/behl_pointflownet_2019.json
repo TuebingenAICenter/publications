@@ -12,6 +12,8 @@
       "OpenAlex": "W2907846557",
       "Scholar": "SrVnrPcAAAAJ:KWzIFqRkAKkC"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

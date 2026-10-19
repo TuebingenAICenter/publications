@@ -13,6 +13,8 @@
       "Project page": "https://rich.is.tue.mpg.de/",
       "Scholar": "6NjbexEAAAAJ:hL4nnw0dEwcC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

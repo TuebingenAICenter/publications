@@ -11,6 +11,8 @@
       "Citations@2026-06-01": "16",
       "Scholar": "pxhCcH0AAAAJ:mvPsJ3kp5DgC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

@@ -16,6 +16,8 @@
       "Scholar": "6NjbexEAAAAJ:VoowTMkWmDwC",
       "Video": "https://youtu.be/hZd6AYin2DE"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }
