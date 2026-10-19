@@ -7,10 +7,13 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "itemType": "conferencePaper",
     "abstractNote": "Simulation-based inference (SBI) allows for Bayesian inference in models where the likelihood is intractable but simulation is possible. Recent approaches to SBI have focused on learning the posterior distribution using neural density estimators. However, these methods often struggle with high-dimensional data or complex posterior geometries. In this paper, we propose a new framework for SBI based on variational inference. We introduce a novel objective function that allows for the direct optimization of the variational posterior, bypassing the need for explicit density estimation. We demonstrate the effectiveness of our approach on a range of synthetic and real-world benchmarks, showing that it achieves state-of-the-art performance in terms of both accuracy and computational efficiency.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2203.04176",
-    "conferenceName": "International Conference on Learning Representations (ICLR 2022)",
+    "libraryCatalog": "OpenReview",
+    "proceedingsTitle": "International Conference on Learning Representations",
+    "conferenceName": "ICLR",
     "extra": {
       "Archive ID": "2203.04176",
       "Citations@2026-06-01": "10",
@@ -19,9 +22,6 @@
       "Repository": "arXiv",
       "Scholar": "FKOqtF8AAAAJ:zGWyAL6qfKUC",
       "Source": "group_webpage (schoelkopf)"
-    },
-    "itemType": "conferencePaper",
-    "libraryCatalog": "OpenReview",
-    "proceedingsTitle": "International Conference on Learning Representations (ICLR 2022)"
+    }
   }
 }
