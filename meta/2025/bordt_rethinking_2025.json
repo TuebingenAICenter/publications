@@ -6,46 +6,46 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "abstractNote": "In this work, we address recent criticisms of explainable machine learning (XAI) and propose to rethink XAI as applied statistics. We argue that most XAI methods are based on the same fundamental principles as statistical inference, and that XAI would benefit from adopting the rigorous framework of applied statistics. This perspective allows us to clearly distinguish between the different goals of XAI, such as model understanding, data understanding, and decision support. It also provides a roadmap for addressing the key challenges in XAI, including the need for better evaluation, the importance of uncertainty quantification, and the integration of domain knowledge.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2402.02870",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<div data-schema-version=\"9\"><p>Preprint title: Statistics without Interpretation: A Sober Look at Explainable Machine Learning</p>\n</div>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2402.02870v5",
         "accessDate": "2025-06-27 08:01:54",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2402.02870v5"
       },
       {
-        "title": null,
-        "url": "https://arxiv.org/pdf/2402.02870",
         "accessDate": null,
-        "mimeType": null,
         "linkMode": "3",
-        "path": null
+        "mimeType": null,
+        "path": null,
+        "title": null,
+        "url": "https://arxiv.org/pdf/2402.02870"
       }
     ],
-    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
-    "seriesTitle": "Proceedings of Machine Learning Research",
     "extra": {
       "Citations@2026-06-01": "1",
       "Scholar": "mMifMdoAAAAJ:uDGL6kOW6j0C"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 4</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<div data-schema-version=\"9\"><p>Preprint title: Statistics without Interpretation: A Sober Look at Explainable Machine Learning</p>\n</div>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

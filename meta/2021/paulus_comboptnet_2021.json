@@ -6,11 +6,9 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "abstractNote": "Bridging logical and algorithmic reasoning with modern machine learning techniques is a fundamental challenge with potentially transformative impact. On the algorithmic side, many NP-hard problems can be expressed as integer programs, in which the constraints play the role of their “combinatorial specification.” In this work, we aim to integrate integer programming solvers into neural network architectures as layers capable of learning both the cost terms and the constraints. The resulting end-to-end trainable architectures jointly extract features from raw data and solve a suitable (learned) combinatorial problem with state-of-the-art integer programming solvers. We demonstrate the potential of such layers with an extensive performance analysis on synthetic data and with a demonstration on a competitive computer vision keypoint matching benchmark.",
     "archive": "arXiv",
     "archiveLocation": "2105.02343",
-    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
     "extra": {
       "Archive ID": "2105.02343",
@@ -18,6 +16,8 @@
       "OpenAlex": "W3159096064",
       "Scholar": "b-JF-UIAAAAJ:geHnlv5EZngC",
       "Unverified pages": "8443--8453"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

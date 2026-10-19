@@ -6,15 +6,15 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "abstractNote": "We propose the Kernel Method of Moments (KMM), a framework for estimation and inference in models defined by conditional moment restrictions. KMM generalizes the Generalized Method of Moments (GMM) by using a continuum of moment conditions indexed by a reproducing kernel Hilbert space. This allows for the use of non-parametric instruments and provides a flexible way to incorporate prior knowledge. We show that KMM is consistent and asymptotically normal, and we provide a computationally efficient implementation. We demonstrate the effectiveness of KMM on a variety of tasks, including causal inference, instrumental variable regression, and density ratio estimation.",
-    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4377131264",
       "Scholar": "DZ-fHPgAAAAJ:zagfVoY6O0MC",
       "Unverified pages": "17745--17783"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

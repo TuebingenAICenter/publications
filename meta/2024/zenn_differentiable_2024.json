@@ -6,43 +6,43 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": "Full Text PDF",
-        "url": "https://openreview.net/pdf?id=rvaN2P1rvC",
         "accessDate": "2025-06-17 19:43:05",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=rvaN2P1rvC"
       },
       {
-        "title": "Full Text PDF",
-        "url": "https://openreview.net/pdf?id=rvaN2P1rvC",
         "accessDate": "2025-06-17 19:43:05",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Full Text PDF",
+        "url": "https://openreview.net/pdf?id=rvaN2P1rvC"
       }
     ],
-    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4398886574",
       "Scholar": "LwvdNAgAAAAJ:HDshCWvjkbEC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

@@ -6,35 +6,35 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 40</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 40</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
-    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4391506285",
       "Scholar": "UeG5w08AAAAJ:HbR8gkJAVGIC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 40</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 40</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

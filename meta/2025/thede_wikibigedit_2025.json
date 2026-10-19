@@ -6,15 +6,15 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "conferenceName": "ICML",
     "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 3</p>",
-        "tags": null,
-        "relations": null
+        "relations": null,
+        "tags": null
       }
     ],
-    "proceedingsTitle": "International Conference on Machine Learning",
-    "conferenceName": "ICML"
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
