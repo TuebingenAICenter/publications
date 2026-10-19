@@ -6,11 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision",
     "conferenceName": "ICCV",
     "extra": {
       "Source": "group_webpage (martius)"
-    },
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Proceedings 2021 IEEE/CVF INTERNATIONAL CONFERENCE ON COMPUTER VISION (ICCV 2021)"
+    }
   }
 }
