@@ -6,73 +6,74 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "attachments": [
+    "itemType": "conferencePaper",
+    "notes": [
       {
-        "accessDate": "2025-06-17 19:47:41",
-        "linkMode": "3",
-        "mimeType": "application/pdf",
-        "path": null,
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2401.17731v2"
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "tags": null,
+        "relations": null
       },
       {
-        "accessDate": "2025-06-17 19:47:41",
-        "linkMode": "3",
-        "mimeType": "application/pdf",
-        "path": null,
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2401.17731v2"
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "tags": null,
+        "relations": null
       }
     ],
+    "attachments": [
+      {
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2401.17731v2",
+        "accessDate": "2025-06-17 19:47:41",
+        "mimeType": "application/pdf",
+        "linkMode": "3",
+        "path": null
+      },
+      {
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2401.17731v2",
+        "accessDate": "2025-06-17 19:47:41",
+        "mimeType": "application/pdf",
+        "linkMode": "3",
+        "path": null
+      }
+    ],
+    "proceedingsTitle": "Learning for Dynamics and Control",
+    "conferenceName": "L4DC",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4391462834",
       "Publication Title": "arXiv (Cornell University)",
-      "Publisher": "University of Tübingen",
       "Scholar": "UeG5w08AAAAJ:PoWvk5oyLR8C"
-    },
-    "itemType": "journalArticle",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publisher: University of Tübingen</p>",
-        "relations": null,
-        "tags": null
-      }
-    ]
+    }
   }
 }
