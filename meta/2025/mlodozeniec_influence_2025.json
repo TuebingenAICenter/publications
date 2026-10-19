@@ -6,14 +6,14 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "itemType": "conferencePaper",
     "archive": "arXiv",
     "archiveLocation": "2410.13850",
-    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "proceedingsTitle": "International Conference on Learning Representations",
+    "conferenceName": "ICLR",
     "extra": {
       "Source": "group_webpage (schoelkopf)",
       "arXiv": "2410.13850"
-    },
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+    }
   }
 }
