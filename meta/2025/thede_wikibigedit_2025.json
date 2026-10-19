@@ -10,9 +10,11 @@
     "notes": [
       {
         "note": "<p>num_citations: 2025-07-31 : 3</p>",
-        "relations": null,
-        "tags": null
+        "tags": null,
+        "relations": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning",
+    "conferenceName": "ICML"
   }
 }

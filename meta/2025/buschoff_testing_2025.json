@@ -6,10 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning",
     "conferenceName": "ICML",
     "extra": {
       "Publisher": "University of Tübingen"
-    },
-    "itemType": "conferencePaper"
+    }
   }
 }

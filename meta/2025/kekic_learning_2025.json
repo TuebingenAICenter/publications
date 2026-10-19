@@ -6,47 +6,47 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "attachments": [
+    "itemType": "conferencePaper",
+    "notes": [
       {
-        "accessDate": null,
-        "linkMode": "3",
-        "mimeType": null,
-        "path": null,
-        "title": null,
-        "url": "https://arxiv.org/pdf/2506.04945?"
+        "note": "<p>Publisher: MPI-IS</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "tags": null,
+        "relations": null
+      },
+      {
+        "note": "<p>Publisher: MPI-IS</p>",
+        "tags": null,
+        "relations": null
       }
     ],
-    "conferenceName": "International Conference on Machine Learning",
+    "attachments": [
+      {
+        "title": null,
+        "url": "https://arxiv.org/pdf/2506.04945?",
+        "accessDate": null,
+        "mimeType": null,
+        "linkMode": "3",
+        "path": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning",
+    "conferenceName": "ICML",
+    "seriesTitle": "Proceedings of Machine Learning Research",
     "extra": {
       "Citations@2026-06-01": "0",
       "Journal Abbreviation": "NeurIPS Workshop",
       "OpenAlex": "W4416135598",
       "Scholar": "DZ-fHPgAAAAJ:GqNTHwZWsfMC"
-    },
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>Publisher: MPI-IS</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publisher: MPI-IS</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publisher: MPI-IS</p>",
-        "relations": null,
-        "tags": null
-      },
-      {
-        "note": "<p>Publisher: MPI-IS</p>",
-        "relations": null,
-        "tags": null
-      }
-    ],
-    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning (ICML)",
-    "seriesTitle": "Proceedings of Machine Learning Research"
+    }
   }
 }
