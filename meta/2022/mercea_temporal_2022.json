@@ -7,16 +7,16 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "European Conference on Computer Vision",
     "conferenceName": "ECCV",
-    "seriesTitle": "Lecture Notes in Computer Science",
     "extra": {
       "Citations@2026-06-01": "2",
       "Editors": "Shai Avidan and Gabriel J. Brostow and Moustapha Cissé and Giovanni Maria Farinella and Tal Hassner",
       "OpenAlex": "W4286588192",
       "Scholar": "jQl9RtkAAAAJ:NJ774b8OgUMC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision",
+    "seriesTitle": "Lecture Notes in Computer Science"
   }
 }

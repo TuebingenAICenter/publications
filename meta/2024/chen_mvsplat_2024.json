@@ -6,48 +6,24 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "notes": [
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 178</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>”num_citations”: ”2025-05-31”: 178</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
-      },
-      {
-        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
-        "tags": null,
-        "relations": null
-      }
-    ],
     "attachments": [
       {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2403.14627v2",
         "accessDate": "2025-06-17 19:38:50",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.14627v2"
       },
       {
-        "title": "Preprint PDF",
-        "url": "http://arxiv.org/pdf/2403.14627v2",
         "accessDate": "2025-06-17 19:38:50",
-        "mimeType": "application/pdf",
         "linkMode": "3",
-        "path": null
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2403.14627v2"
       }
     ],
-    "proceedingsTitle": "European Conference on Computer Vision",
     "conferenceName": "ECCV",
     "extra": {
       "Book Title": "Lecture notes in computer science",
@@ -55,6 +31,30 @@
       "OpenAlex": "W4403761012",
       "Publication Title": "arXiv (Cornell University)",
       "Scholar": "SrVnrPcAAAAJ:3A3nxV7CjKIC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 178</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 178</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }

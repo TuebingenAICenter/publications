@@ -6,12 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "European Conference on Computer Vision",
     "conferenceName": "ECCV",
     "extra": {
       "Citations@2026-06-01": "7",
       "Scholar": "6NjbexEAAAAJ:IEPzPICaOQQC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
