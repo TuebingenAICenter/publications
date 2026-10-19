@@ -6,10 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Causal Learning and Reasoning",
+    "conferenceName": "CLeaR",
     "extra": {
       "Citations@2026-06-01": "10",
       "Scholar": "DZ-fHPgAAAAJ:E-FTLu6SJcgC"
-    },
-    "itemType": "journalArticle"
+    }
   }
 }
