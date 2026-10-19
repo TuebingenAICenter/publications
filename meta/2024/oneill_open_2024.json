@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE International Conference on Robotics and Automation",
+    "conferenceName": "ICRA",
     "extra": {
       "Citations@2026-06-01": "118",
       "OpenAlex": "W4401415287",
       "Scholar": "DZ-fHPgAAAAJ:8ETf1LOvnQIC"
-    },
-    "itemType": "journalArticle"
+    }
   }
 }
