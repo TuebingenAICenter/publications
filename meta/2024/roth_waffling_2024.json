@@ -6,8 +6,6 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision",
     "conferenceName": "ICCV",
     "extra": {
       "Citations@2026-06-01": "0",
@@ -15,6 +13,8 @@
       "OpenAlex": "W4380551062",
       "Scholar": "jQl9RtkAAAAJ:vbGhcppDl1QC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision"
   }
 }
