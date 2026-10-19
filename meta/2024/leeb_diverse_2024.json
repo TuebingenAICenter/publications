@@ -6,13 +6,13 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "conferenceName": "NAACL",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4393335967",
       "Scholar": "DZ-fHPgAAAAJ:l5GUYxY__HEC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference of the North American Chapter of the Association for Computational Linguistics"
   }
 }
