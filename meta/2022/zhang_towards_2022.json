@@ -9,6 +9,7 @@
     "abstractNote": "Domain generalization (DG) aims to learn a model that generalizes to unseen target domains by exploiting data from multiple source domains. A common strategy is to learn disentangled representations that separate domain-invariant features from domain-specific ones. However, existing methods often lack a principled way to achieve this separation, leading to suboptimal performance. In this paper, we propose a principled framework for disentanglement in DG. We show that under certain conditions, the domain-invariant features can be identified by maximizing the mutual information between the representation and the label, while minimizing the mutual information between the representation and the domain index. We further propose a practical algorithm, named Disentangled Domain Generalization (DDG), to implement this framework. Extensive experiments on several benchmark datasets demonstrate that our method achieves state-of-the-art performance, outperforming existing DG methods by a significant margin.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2111.13839",
+    "conferenceName": "CVPR",
     "extra": {
       "Archive ID": "2111.13839",
       "Citations@2026-06-01": "4",
@@ -17,7 +18,6 @@
       "Scholar": "DZ-fHPgAAAAJ:ODSaxuuKfFwC"
     },
     "itemType": "conferencePaper",
-    "conferenceName": "CVPR",
     "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }
