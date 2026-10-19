@@ -5,10 +5,12 @@
     ]
   },
   "zotero": {
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ACM Conference on Human Factors in Computing Systems",
+    "conferenceName": "CHI",
     "extra": {
       "Citations@2026-06-01": "5",
       "Scholar": "DZ-fHPgAAAAJ:MQKg-S6vjYgC"
-    },
-    "itemType": "journalArticle"
+    }
   }
 }
