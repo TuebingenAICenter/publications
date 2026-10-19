@@ -6,12 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
     "conferenceName": "ECML-PKDD",
-    "seriesTitle": "Lecture Notes in Computer Science",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+    "seriesTitle": "Lecture Notes in Computer Science"
   }
 }
