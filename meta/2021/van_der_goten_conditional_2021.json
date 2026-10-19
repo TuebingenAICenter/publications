@@ -7,8 +7,6 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "British Machine Vision Conference",
     "conferenceName": "BMVC",
     "extra": {
       "Citations@2026-06-01": "1",
@@ -16,6 +14,8 @@
       "OpenAlex": "W3207364974",
       "Scholar": "jQl9RtkAAAAJ:eq2jaN3J8jMC",
       "Source": "group_webpage (schoelkopf)"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "British Machine Vision Conference"
   }
 }
