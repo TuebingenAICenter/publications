@@ -5,13 +5,13 @@
     ]
   },
   "zotero": {
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Conference on Cognitive Computational Neuroscience",
     "conferenceName": "CCN",
     "extra": {
       "Citations@2026-06-01": "28",
       "OpenAlex": "W2970101294",
       "Scholar": "0z0fNxUAAAAJ:OzeSX8-yOCQC"
-    }
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Cognitive Computational Neuroscience"
   }
 }
