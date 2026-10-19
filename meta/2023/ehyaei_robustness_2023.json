@@ -7,11 +7,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ACM Conference on Fairness, Accountability, and Transparency",
+    "conferenceName": "FAccT",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
-    },
-    "itemType": "conferencePaper",
-    "proceedingsTitle": "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+    }
   }
 }
