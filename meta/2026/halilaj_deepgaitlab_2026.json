@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Here, we present DeepGaitLab, an open-source framework that yields accurate three-dimensional (3D) kinematics while operating flexibly across a range of camera configurations and environments. DeepGaitLab is an open-source framework for accurate 3D human motion tracking. It works with few cameras, requires no calibration, and is powered by synthetic data.",
+    "extra": {
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7170579414",
+      "Scholar": "6NjbexEAAAAJ:2Km5FFimHwEC"
+    },
+    "itemType": "journalArticle"
+  }
+}
