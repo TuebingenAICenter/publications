@@ -2,14 +2,17 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "EMNLP",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4400142000",
       "Scholar": "DZ-fHPgAAAAJ:BpgDKjSh8RsC"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Empirical Methods in Natural Language Processing"
   }
 }
