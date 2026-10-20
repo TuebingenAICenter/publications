@@ -27,7 +27,7 @@
         "url": "https://openreview.net/pdf?id=WLPhywf1si"
       }
     ],
-    "conferenceName": "International Conference on Machine Learning",
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "6",
       "OpenAlex": "W4391988308",
@@ -42,6 +42,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning"
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

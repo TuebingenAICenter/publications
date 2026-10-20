@@ -17,7 +17,7 @@
         "url": "https://arxiv.org/pdf/2312.05210"
       }
     ],
-    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "conferenceName": "CVPR",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4389600438",
@@ -31,6 +31,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }
