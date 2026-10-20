@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Artificial Intelligence (AI) can solve complex scientific problems beyond human capabilities, but the resulting solutions offer little insight into the underlying physical principles. One prominent example is quantum physics, where computers can discover experiments for the generation of specific quantum states, but it is unclear how finding general design concepts can be automated. Here, we address this challenge by training a transformer-based language model to create human-readable Python code, which solves an entire class of problems in a single pass. This strategy, which we call meta-design, enables scientists to gain a deeper understanding and extrapolate to larger experiments without additional optimization. To demonstrate the effectiveness of our approach, we uncover previously unknown experimental generalizations of important quantum states, e.g. from condensed matter physics. The underlying methodology of meta-design can naturally be extended to fields such as materials science or engineering.",
+    "extra": {
+      "Citations@2026-10-20": "3",
+      "OpenAlex": "W4399424712",
+      "Scholar": "jzG7GC8AAAAJ:YlPif8NxrbYC",
+      "Venue": "Nature Machine Intelligence 8, 148, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
