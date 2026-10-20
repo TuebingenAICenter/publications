@@ -12,9 +12,10 @@
     "extra": {
       "Archive ID": "2605.31503",
       "Scholar": "kmXOOdsAAAAJ:t6usbXjVLHcC",
-      "Venue": "International Conference on Machine Learning (ICML)",
       "arXiv": "2605.31503"
     },
-    "itemType": "preprint"
+    "itemType": "conferencePaper",
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
