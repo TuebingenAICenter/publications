@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Structural brain alterations associated with depression and anxiety are subtle, heterogeneous, and difficult to characterize. We applied autoencoder-based normative modeling to T1-weighted MRI data from the UK Biobank (N=38,454) to map individual-level deviations in brain structure. We identified a shared pattern of structural deviations associated with both depression and anxiety, which was robustly replicated in an independent cohort (N=1,154). These deviations were linked to specific genetic and environmental factors, suggesting a common biological substrate for these disorders. Our findings demonstrate that structural brain deviations reflect meaningful, continuous variation in affective and behavioral symptoms.",
+    "extra": {
+      "Citations@2026-10-20": "1",
+      "Scholar": "5cZa3SIAAAAJ:5ugPr518TE4C",
+      "Venue": "medRxiv, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}
