@@ -12,6 +12,8 @@
       "Publication Title": "European Conference on Computer Vision, 292-309, 2024",
       "Scholar": "6NjbexEAAAAJ:vK1Ni-xiviEC"
     },
-    "itemType": "bookSection"
+    "itemType": "conferencePaper",
+    "conferenceName": "ECCV",
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
