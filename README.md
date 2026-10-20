@@ -4,6 +4,7 @@ The Tübingen AI Center's publication **ground-truth store** — the institute's
 publications held as canonical data, plus the tooling to submit and view them. Source of
 truth is **one BibTeX file per publication** (`entries/<year>/<citekey>.bib`) with a
 **per-entry JSON sidecar** (`meta/<year>/<citekey>.json`) for what BibTeX can't carry.
+This content is used to populate [tuebingen.ai/research](https://tuebingen.ai/research).
 
 Its only job is to **[keep the data in the correct form](#the-store-contract-s1s5)** — it
 does *not* deduplicate, scrape, or enrich. That curation is supported by separate tooling

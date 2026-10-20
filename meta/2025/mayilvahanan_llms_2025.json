@@ -20,6 +20,7 @@
         "url": "https://arxiv.org/pdf/2502.12120"
       }
     ],
+    "conferenceName": "ICML",
     "extra": {
       "Archive ID": "2502.12120",
       "Citations@2026-06-01": "0",
@@ -29,7 +30,7 @@
       "Scholar": "v-JL-hsAAAAJ:Tiz5es2fbqcC",
       "arXiv": "2502.12120"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {
@@ -47,6 +48,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
