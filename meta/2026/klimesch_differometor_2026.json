@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Differometor is a differentiable frequency domain interferometer simulator. You can use it to: Run high-speed interferometer optimizations with hundreds of parameters, Simulate plane waves in quasi-static, user-specified interferometer configurations, Calculate light field modulations, quantum noise and optomechanical effects. Differometor is implemented in Python using the JAX framework and closely follows the design of the established Finesse simulator.",
+    "archive": "GitHub",
+    "archiveLocation": "https://github.com/artificial-scientist-lab/Differometor",
+    "extra": {
+      "Citations@2026-10-20": "2",
+      "Repository": "GitHub",
+      "Scholar": "jzG7GC8AAAAJ:hGdtkIFZdKAC",
+      "Venue": "GitHub, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
