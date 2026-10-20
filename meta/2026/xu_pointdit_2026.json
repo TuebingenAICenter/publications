@@ -10,13 +10,12 @@
     "archive": "arXiv",
     "archiveLocation": "2607.02515",
     "callNumber": "arXiv:2607.02515",
-    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "conferenceName": "ICML",
     "extra": {
-      "Scholar": "SrVnrPcAAAAJ:T8_be82Iz5gC",
-      "Venue": "arXiv preprint arXiv:2607.02515, 2026"
+      "Scholar": "SrVnrPcAAAAJ:T8_be82Iz5gC"
     },
     "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
-    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
