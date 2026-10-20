@@ -2,13 +2,16 @@
   "custom": {
     "groups": [
       "black"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "ECCV",
     "extra": {
       "Citations@2026-06-01": "7",
       "Scholar": "6NjbexEAAAAJ:IEPzPICaOQQC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
