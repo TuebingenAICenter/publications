@@ -16,11 +16,9 @@
       "OpenAlex": "W4417529360",
       "Publication Title": "arXiv (Cornell University)",
       "Repository": "arXiv",
-      "Scholar": "v-JL-hsAAAAJ:8AbLer7MMksC",
-      "Venue": "ICML 2026, 2025",
-      "publicationTitle": "arXiv (Cornell University)"
+      "Scholar": "v-JL-hsAAAAJ:8AbLer7MMksC"
     },
-    "itemType": "preprint",
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {
@@ -28,6 +26,8 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
