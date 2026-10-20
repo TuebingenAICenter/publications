@@ -19,10 +19,13 @@
         "url": "https://arxiv.org/pdf/2506.11097"
       }
     ],
-    "conferenceName": "NeurIPS",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "5",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7138828830",
       "Scholar": "kmXOOdsAAAAJ:pyW8ca7W8N0C",
+      "Venue": "Advances in Neural Information Processing Systems 38, 2026",
       "arXiv": "2506.11097"
     },
     "itemType": "conferencePaper",
@@ -33,6 +36,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
