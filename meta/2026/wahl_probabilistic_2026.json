@@ -13,10 +13,11 @@
       "Archive ID": "2602.18266",
       "Citations@2026-07-13": "2",
       "Repository": "arXiv",
-      "Scholar": "FKOqtF8AAAAJ:W8gSVh4kTHQC",
-      "Venue": "arXiv preprint arXiv:2602.18266, 2026"
+      "Scholar": "FKOqtF8AAAAJ:W8gSVh4kTHQC"
     },
-    "itemType": "preprint",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
