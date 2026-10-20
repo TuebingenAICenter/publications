@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "luxburg"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "extra": {
