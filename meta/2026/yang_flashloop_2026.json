@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Looped transformers save on parameters by reusing the same weights for multiple computational steps, or \"loops.\" However, this weight sharing introduces sequential dependencies that increase inference latency and memory usage during the forward pass. In this paper, we introduce FlashLoop, a technique that enables fast and memory-efficient inference for looped transformers. By leveraging lazy updates, FlashLoop decouples the computation of the loop iterations, allowing for parallel execution and reduced memory footprint. Our experiments demonstrate that FlashLoop achieves the high accuracy of a traditional looped model but with significantly lower latency and memory cost.",
+    "extra": {
+      "Citations@2026-10-20": "2",
+      "Scholar": "73IbXtsAAAAJ:XD-gHx7UXLsC",
+      "Venue": "arXiv preprint arXiv:2609.29812, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
