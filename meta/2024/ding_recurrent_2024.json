@@ -5,8 +5,8 @@
     ]
   },
   "zotero": {
-    "itemType": "conferencePaper",
     "conferenceName": "ICML",
+    "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
