@@ -12,6 +12,8 @@
       "Source": "group_webpage (liu)",
       "arXiv": "2605.01725"
     },
-    "itemType": "conferencePaper"
+    "itemType": "conferencePaper",
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
