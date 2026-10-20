@@ -1,0 +1,42 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "With the advent of large multimodal language models, science is now at a threshold of an AI-based technological transformation. An emerging ecosystem of models and tools aims to support researchers throughout the scientific lifecycle, including (1) searching for relevant literature, (2) generating research ideas and conducting experiments, (3) producing text-based content, (4) creating multimodal artifacts such as figures and diagrams, and (5) evaluating scientific work, as in peer review. In this survey, we provide a curated overview of literature representative of the core techniques, evaluation practices, and emerging trends in AI-assisted scientific discovery. Across the five tasks outlined above, we discuss datasets, methods, results, evaluation strategies, limitations, and ethical concerns, including risks to research integrity through the misuse of generative models. We aim for this survey to serve both as an accessible, structured orientation for newcomers to the field, as well as a catalyst for new AI-based initiatives and their integration into future ``AI4Science'' systems.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.05151",
+    "extra": {
+      "Archive ID": "2502.05151",
+      "Citations@2026-06-01": "4",
+      "Citations@2026-10-20": "10",
+      "OpenAlex": "W4407310674",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:sbeIDTyQOFgC",
+      "Source": "group_webpage (geiger)",
+      "Venue": "ACM Computing Surveys, 2025",
+      "arXiv": "2501.00000"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.05151'>https://arxiv.org/abs/2502.05151</a><br><a href='https://doi.org/10.48550/arXiv.2502.05151'>https://doi.org/10.48550/arXiv.2502.05151</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-05151.html'>https://dblp.org/rec/journals/corr/abs-2502-05151.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 16</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 6</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
