@@ -16,7 +16,7 @@
         "url": "https://arxiv.org/pdf/2506.04945?"
       }
     ],
-    "conferenceName": "International Conference on Machine Learning",
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "0",
       "Journal Abbreviation": "NeurIPS Workshop",
@@ -46,7 +46,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning (ICML)",
+    "proceedingsTitle": "International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
