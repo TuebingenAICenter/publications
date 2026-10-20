@@ -13,10 +13,12 @@
     "extra": {
       "Archive ID": "2312.04466",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "28",
       "Eprint": "2312.04466",
-      "OpenAlex": "W4389500077",
-      "Scholar": "6NjbexEAAAAJ:STWYWLtSq6gC",
-      "Unverified pages": "1942-1953"
+      "OpenAlex": "W4402704505",
+      "Scholar": "6NjbexEAAAAJ:q736b1r0g6UC",
+      "Unverified pages": "1942-1953",
+      "Venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024"
     },
     "itemType": "conferencePaper",
     "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
