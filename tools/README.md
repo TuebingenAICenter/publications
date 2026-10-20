@@ -397,3 +397,13 @@ The recurring run is a cron in the scraper repo, before `pubstore-publish`:
 `pubstore-blacklist --repo TuebingenAICenter/publications --out blacklist.rdf --since-year YYYY`,
 then the scraper feeds `blacklist.rdf` to `new_publications` (the `--blacklist-rdf` wiring is
 a separate follow-up). It also runs locally/manually with a `--token`.
+
+### Conference acronyms
+
+Store the full, year-independent proceedings name in `booktitle` and the acronym
+in `shortbooktitle` (for example `{CVPR}`). Keep the year in `year`.
+`shortbooktitle` is a BibTeX extension; styles that do not recognize it can use
+`booktitle`. The store exporter preserves it during normalization, Zotero/RDF
+round-trips and compiled all/group BibTeX exports. Zotero represents it in Extra
+as `Shortbooktitle`; it is removed from the JSON spill when emitted in BibTeX.
+The paper's `shorttitle` is unrelated and must not be overwritten.
