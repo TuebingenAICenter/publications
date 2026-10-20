@@ -6,6 +6,7 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "ECCV",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4404725101",
@@ -13,7 +14,6 @@
       "Scholar": "6NjbexEAAAAJ:vK1Ni-xiviEC"
     },
     "itemType": "conferencePaper",
-    "conferenceName": "ECCV",
     "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
