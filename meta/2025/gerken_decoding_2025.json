@@ -5,15 +5,18 @@
     ]
   },
   "zotero": {
-    "abstractNote": "The human medial temporal lobe (MTL) is crucial for memory formation, yet the nature of the information represented by neuronal populations in this region remains debated. Here, we show that neuronal population activity in the human MTL contains rich information about the content of complex, naturalistic stimuli. We recorded single-unit activity from the MTL of neurosurgical patients while they watched movie clips. Using a deep learning-based decoding framework, we demonstrate that we can decode movie content from the population activity of MTL neurons with high accuracy. Our results suggest that the human MTL represents complex, naturalistic information in a distributed manner, providing a neural basis for the encoding of episodic memories.",
+    "abstractNote": "The human medial temporal lobe (MTL), a region implicated in memory and high-level cognition, contains neurons that respond selectively to stimuli belonging to specific categories, such as individual people, landmarks, or objects. However, these neurons have been largely studied via static, isolated presentations of stimuli. Therefore, it is unclear how neurons in the MTL respond to rich stimuli such as movies, and which dynamical stimulus features can be retrieved from neuronal population spiking activity. We studied single-unit responses from 2286 neurons recorded from the amygdala, hippocampus, entorhinal cortex, and parahippocampal cortex of 29 intracranially implanted patients during the presentation of an 83-minute movie. We found only a few individual neurons that exhibited a classic selective response to semantic features. However, we successfully decoded the presence of specific characters and locations from the population activity. Our results demonstrate an approach for reliably decoding movie features in the human MTL, and suggest that the brain uses a population code to represent dynamic naturalistic information.",
     "archive": "bioRxiv",
     "archiveLocation": "10.1101/2024.06.13.598791",
     "extra": {
       "Archive ID": "10.1101/2024.06.13.598791",
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4413157135",
-      "Scholar": "FKOqtF8AAAAJ:vefPE_iVbj4C"
+      "Scholar": "FKOqtF8AAAAJ:vefPE_iVbj4C",
+      "Venue": "bioRxiv, 2024.06. 13.598791, 2024",
+      "publicationTitle": "eLife"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
