@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Safety fine-tuning often relies on supervised fine-tuning (SFT) on curated datasets of refusals. While effective, this approach can lead to 'over-refusal' or 'robotic' behavior, where models refuse benign requests or use repetitive, unnatural phrasing. In this work, we propose a novel approach to safety fine-tuning that leverages harmfulness probes—classifiers trained on model activations to detect harmful content. We show that fine-tuning models to minimize the probability of harmful activations, as predicted by these probes, leads to more natural and robust refusals. Our method, which we call Probe-based Fine-tuning (PFT), achieves state-of-the-art performance on standard safety benchmarks while maintaining high utility on benign tasks.",
+    "archive": "OpenReview",
+    "archiveLocation": "https://openreview.net/forum?id=MNyRHndSzH",
+    "conferenceName": "Mechanistic Interpretability Workshop at the International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:B3FOqHPlNUQC",
+      "Venue": "ICML 2026 Mechanistic Interpretability Workshop, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Mechanistic Interpretability Workshop at the International Conference on Machine Learning (ICML)"
+  }
+}
