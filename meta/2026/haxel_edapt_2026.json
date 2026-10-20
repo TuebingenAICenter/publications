@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We tested EDAPT across nine datasets covering three BCI tasks, and found that it consistently improved accuracy over conventional, static. EDAPT provides a practical pathway toward calibration-free BCIs, reducing finetuning, with unsupervised domain adaptation providing further.",
+    "archive": "PubMed",
+    "archiveLocation": "PMID: 41875491",
+    "extra": {
+      "Archive ID": "2508.10474",
+      "Citations@2026-06-01": "4",
+      "Citations@2026-07-13": "5",
+      "Repository": "arXiv",
+      "Scholar": "FKOqtF8AAAAJ:0d9pApVQ-n0C",
+      "Venue": "Journal of Neural Engineering 23 (2), 026025, 2026"
+    },
+    "itemType": "journalArticle",
+    "libraryCatalog": "PubMed",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2508.10474'>https://arxiv.org/abs/2508.10474</a><br><a href='https://www.emergentmind.com/papers/2508.10474'>https://www.emergentmind.com/papers/2508.10474</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
