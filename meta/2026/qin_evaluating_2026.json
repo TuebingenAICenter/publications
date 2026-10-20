@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko",
+      "geiping",
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Language model evaluations for judgmental forecasting currently test multiple-choice or short-answer predictions to fully specified questions.",
+    "conferenceName": "International Conference on Machine Learning AI Forecasting Workshop (ICML)",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:geHnlv5EZngC",
+      "Venue": "ICML 2026 AI Forecasting Workshop, 2026"
+    },
+    "itemType": "conferencePaper"
+  }
+}
