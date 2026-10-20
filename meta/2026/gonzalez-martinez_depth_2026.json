@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Residual connections propagate information through a network by additively accumulating layer outputs. Recently proposed alternatives, such as Manifold-Constrained Hyper-Connections (mHC) and Attention Residuals (AttnRes), instead use more expressive depth aggregation mechanisms that improve language modeling performance at scale. In this work, we consider the mixing of representations over depth as a problem of storing and retrieving information across layers. Formalizing this perspective, we introduce Depth Memory (DM), a unified framework that describes the standard pre-layer-norm (PreLN) transformer, mHC, and AttnRes in terms of streams that carry representations through the network. One such stream, for example, could be an explicit memory stream that is queried to enrich the input to every layer, and whose output is subsequently written back into the memory for use by later layers. For AttnRes, this memory stream is a growing cache of explicit layer representations. For mHC, it is an expanded residual stream. Building on this view, we propose Linear Depth Memory (LDM), which formulates information retrieval across depth as a regression problem solved using recursive least squares. The resulting architecture propagates three streams across depth: the standard residual stream, a linear associative memory stream, and an inverse covariance stream. For high-throughput training and inference, we propose a hardware-aware implementation of LDM that reduces peak activation memory and memory traffic. LDM consistently achieves the lowest perplexities among PreLN, mHC and AttnRes baselines at the 400M and 1.5B parameter scales, alongside competitive zero-shot accuracy.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2610.18809",
+    "extra": {
+      "Archive ID": "2610.18809",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7221823015",
+      "Scholar": "9LajlSsAAAAJ:PoWvk5oyLR8C",
+      "Venue": "arXiv preprint arXiv:2610.18809, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
