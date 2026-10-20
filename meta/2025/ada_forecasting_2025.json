@@ -9,7 +9,7 @@
   "zotero": {
     "archive": "arXiv",
     "archiveLocation": "arXiv:2512.01987",
-    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416969241",
@@ -25,6 +25,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
