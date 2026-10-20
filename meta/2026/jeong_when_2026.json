@@ -11,10 +11,11 @@
     "archiveLocation": "2605.00273",
     "extra": {
       "Archive ID": "2605.00273",
-      "Scholar": "kmXOOdsAAAAJ:1qzjygNMrQYC",
-      "Venue": "arXiv preprint arXiv:2605.00273, 2026"
+      "Scholar": "kmXOOdsAAAAJ:1qzjygNMrQYC"
     },
-    "itemType": "preprint",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

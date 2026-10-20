@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "The evaluation of generated images is a challenging task, especially for abstract art where no ground truth exists. We propose a novel method to assess the aesthetic quality of generated abstract images based on their correlation structure. We show that the correlation structure of pixel intensities in images can capture aesthetic properties that are consistent with human perception. We demonstrate the effectiveness of our method on a dataset of generated abstract images and show that it outperforms existing methods in predicting human aesthetic ratings.",
