@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Radar attenuation rates are essential for interpreting radar data to infer basal properties, subglacial water, and the thermal state of ice sheets. Current methods for estimating attenuation from radar measurements typically provide only depth-averaged values and rely on simplifying assumptions, such as spatially constant reflectivity along the bed or internal reflection horizons. These methods often yield inconsistent results, hindering accurate interpretation. We present a novel approach using simulation-based inference (SBI) to estimate depth-resolved radar attenuation rates and englacial temperatures. By leveraging a physical model of radar wave propagation and ice thermodynamics, our method accounts for the depth-dependence of attenuation and temperature, providing a more robust and physically consistent framework. We demonstrate the performance of our approach on synthetic data and apply it to radar measurements from the Antarctic Ice Sheet, showing that it effectively resolves depth-dependent variations in attenuation and temperature that were previously inaccessible.",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7155372307",
+      "Scholar": "FKOqtF8AAAAJ:Iq19BMNozs4C",
+      "publicationTitle": "Universit@tsbibliothek Tubingen"
+    },
+    "itemType": "document"
+  }
+}
