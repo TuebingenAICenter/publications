@@ -20,7 +20,7 @@
         "url": "https://arxiv.org/pdf/2502.12120"
       }
     ],
-    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "conferenceName": "ICML",
     "extra": {
       "Archive ID": "2502.12120",
       "Citations@2026-06-01": "0",
@@ -28,9 +28,7 @@
       "OpenAlex": "W4407759068",
       "Repository": "arXiv",
       "Scholar": "0z0fNxUAAAAJ:x21FZCSn4ZoC",
-      "Venue": "ICML 2025, 2025",
-      "arXiv": "2502.12120",
-      "publicationTitle": "arXiv (Cornell University)"
+      "arXiv": "2502.12120"
     },
     "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
@@ -51,7 +49,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "proceedingsTitle": "International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
