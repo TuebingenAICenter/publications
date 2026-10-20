@@ -27,13 +27,14 @@
         "url": "https://aclanthology.org/2024.emnlp-main.1108.pdf"
       }
     ],
+    "conferenceName": "EMNLP",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4403346559",
       "Publisher": "University of T&uuml;bingen",
       "Scholar": "0z0fNxUAAAAJ:ymY9cBF3mdcC"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 2</p>",
@@ -55,6 +56,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Conference on Empirical Methods in Natural Language Processing"
   }
 }
