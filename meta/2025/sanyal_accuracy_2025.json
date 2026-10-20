@@ -20,7 +20,7 @@
         "url": "https://arxiv.org/pdf/2411.15958"
       }
     ],
-    "conferenceName": "28th International Conference on Artificial Intelligence and Statistics",
+    "conferenceName": "AISTATS",
     "extra": {
       "Citations@2026-06-01": "3",
       "OpenAlex": "W4400163273",
@@ -40,7 +40,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics",
+    "proceedingsTitle": "International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
