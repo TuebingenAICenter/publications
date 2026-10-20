@@ -13,6 +13,8 @@
       "Source": "group_webpage (pons-moll)",
       "arXiv": "2409.18127"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "CVPR",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }
