@@ -7,11 +7,13 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416045939",
       "Scholar": "ZNtuJYoAAAAJ:ns9cj8rnVeAC"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
