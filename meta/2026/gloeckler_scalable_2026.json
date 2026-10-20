@@ -15,11 +15,11 @@
       "Citations@2026-07-13": "0",
       "OpenAlex": "W7139148329",
       "Repository": "arXiv",
-      "Scholar": "FKOqtF8AAAAJ:HkunuPqSaCsC",
-      "Venue": "arXiv preprint arXiv:2603.15292, 2026",
-      "publicationTitle": "arXiv (Cornell University)"
+      "Scholar": "FKOqtF8AAAAJ:HkunuPqSaCsC"
     },
-    "itemType": "preprint",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
