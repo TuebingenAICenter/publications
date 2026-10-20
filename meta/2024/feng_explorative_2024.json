@@ -10,10 +10,13 @@
     "conferenceName": "ECCV",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4393135112",
-      "Scholar": "6NjbexEAAAAJ:haVc-jTD6xgC"
+      "Scholar": "6NjbexEAAAAJ:haVc-jTD6xgC",
+      "publicationTitle": "arXiv (Cornell University)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "European Conference on Computer Vision"
+    "proceedingsTitle": "European Conference on Computer Vision",
+    "seriesTitle": "Lecture Notes in Computer Science (LNCS)"
   }
 }
