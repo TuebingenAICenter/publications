@@ -6,10 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "7",
       "Scholar": "pxhCcH0AAAAJ:9vf0nzSNQJEC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }
