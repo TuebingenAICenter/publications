@@ -20,7 +20,7 @@
         "url": "https://arxiv.org/pdf/2505.22573?"
       }
     ],
-    "conferenceName": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416338493",
@@ -36,6 +36,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
