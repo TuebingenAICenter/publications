@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Voltage-gated ion channels do not distribute evenly in the plasma membrane of a neuron; they localize to distinct domains where they govern the excitability and computational properties of the cell. However, the functional consequences of this spatial heterogeneity remain poorly understood. Here, we show that the spatial distribution of ion channels is a critical determinant of single-neuron computations. We develop a framework for simulating neurons with spatially heterogeneous ion channel densities and use it to show that the spatial arrangement of channels can enable neurons to perform complex computations, such as direction selectivity and coincidence detection, that are not possible with uniform channel distributions. Our results suggest that the spatial organization of ion channels is a key feature of neuronal architecture that shapes the computational capacity of the brain.",
+    "extra": {
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7221134272",
+      "Scholar": "FKOqtF8AAAAJ:YXeC4bxG7-IC",
+      "Venue": "Proceedings of the National Academy of Sciences 123 (40), e2610600123, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
