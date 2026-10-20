@@ -19,7 +19,7 @@
         "url": "https://arxiv.org/pdf/2506.07673?"
       }
     ],
-    "conferenceName": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4417134733",
@@ -33,6 +33,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
