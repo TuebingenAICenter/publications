@@ -2,15 +2,16 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "Machine Learning and Knowledge Discovery in Databases (ECML/PKDD)",
+    "conferenceName": "ECML-PKDD",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Machine Learning and Knowledge Discovery in Databases (ECML/PKDD)",
+    "proceedingsTitle": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
     "seriesTitle": "Lecture Notes in Computer Science"
   }
 }
