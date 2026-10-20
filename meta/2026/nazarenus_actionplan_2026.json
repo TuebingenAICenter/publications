@@ -10,6 +10,7 @@
     "archive": "arXiv",
     "archiveLocation": "cs.CV",
     "callNumber": "arXiv:2603.13500",
+    "conferenceName": "ECCV",
     "extra": {
       "Archive ID": "2603.13500",
       "Citations@2026-07-13": "2",
@@ -18,7 +19,6 @@
       "Venue": "arXiv preprint arXiv:2603.13500, 2026"
     },
     "itemType": "conferencePaper",
-    "conferenceName": "ECCV",
     "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
