@@ -19,7 +19,7 @@
         "url": "http://arxiv.org/pdf/2407.07890v3"
       }
     ],
-    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR 2025)",
+    "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4400601293",
@@ -38,6 +38,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR 2025)"
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }
