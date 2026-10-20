@@ -6,12 +6,12 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "Advances in Neural Information Processing Systems 37",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Editors": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
