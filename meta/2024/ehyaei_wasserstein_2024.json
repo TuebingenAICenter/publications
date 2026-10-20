@@ -17,13 +17,13 @@
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4ae5cdacb9152d95661bc3c620b75aba-Paper-Conference.pdf"
       }
     ],
-    "conferenceName": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4415338498",
       "Scholar": "s8xc2K4AAAAJ:_kc_bZDykSQC"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
