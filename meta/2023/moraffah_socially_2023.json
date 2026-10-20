@@ -6,11 +6,11 @@
     "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "conferenceName": "KDD",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+    "proceedingsTitle": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
   }
 }
