@@ -3,7 +3,8 @@
     "groups": [
       "hardt",
       "mendler-duenner"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "We study the potential for collective action by individuals whose data is used to train machine learning models. We model the interaction between a learner and a population of individuals as a game. Individuals can choose to withhold their data or provide it to the learner. We show that when individuals act collectively, they can force the learner to adopt a model that is more favorable to them, even if the learner is not inherently inclined to do so. We characterize the conditions under which such collective action is effective and discuss the implications for the design of machine learning systems.",
