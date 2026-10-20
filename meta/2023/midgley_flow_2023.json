@@ -2,16 +2,19 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "archive": "arXiv",
     "archiveLocation": "arXiv:2208.01893",
+    "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "14",
       "OpenAlex": "W4290064682",
       "Scholar": "DZ-fHPgAAAAJ:9VGdZOWur-cC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }
