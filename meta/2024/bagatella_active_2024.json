@@ -19,7 +19,7 @@
         "url": "https://arxiv.org/pdf/2410.05026"
       }
     ],
-    "conferenceName": "ICLR",
+    "conferenceName": "ICML",
     "itemType": "conferencePaper",
     "notes": [
       {
@@ -47,6 +47,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }
