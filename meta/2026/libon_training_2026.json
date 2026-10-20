@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "geiping"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Rather than explicitly refusing, these models turn harmful compliance into soft refusals, sycophantic pivots, and pseudo-compliance. Harmfulness nonetheless persists in the model's internal representations, which we can detect using linear probes. In this work, we show that we can train models to be harmless by directly intervening on these internal representations during training, without requiring explicit refusals or instruction-following data.",
