@@ -8,7 +8,8 @@
   "zotero": {
     "conferenceName": "ECCV",
     "extra": {
-      "Code/Data": "https://dynhair.is.tue.mpg.de/"
+      "Code/Data": "https://dynhair.is.tue.mpg.de/",
+      "Shortbooktitle": "ECCV"
     },
     "itemType": "conferencePaper",
     "proceedingsTitle": "European Conference on Computer Vision"
