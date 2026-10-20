@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "conferenceName": "3rd Robot Learning Workshop at the 34th Conference on Neural Information Processing Systems (NeurIPS)",
