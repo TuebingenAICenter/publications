@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large Language Models (LLMs) are rapidly advancing across diverse domains, yet their application in theoretical physics remains inadequate. While current models show competence in mathematical reasoning and code generation, we identify critical gaps in physical intuition, constraint satisfaction, and reliable reasoning that cannot be addressed through prompting alone. Physics demands approximation judgment, symmetry exploitation, and physical grounding that require AI agents specifically trained on physics reasoning patterns and equipped with physics-aware verification tools. We argue that LLM would require such domain-specialized training and tooling to be useful in real-world for physics research. We envision physics-specialized AI agents that seamlessly handle multimodal data, propose physically consistent hypotheses, and autonomously verify theoretical results. Realizing this vision requires developing physics-specific training datasets, reward signals that capture physical reasoning quality, and verification frameworks encoding fundamental principles. We call for collaborative efforts between physics and AI communities to build the specialized infrastructure necessary for AI-driven scientific discovery.",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Note": "*equal supervision",
+      "Scholar": "DZ-fHPgAAAAJ:CSZcM7QoFmMC",
+      "Venue": "Forty-third International Conference on Machine Learning Position Paper Track, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the International Conference on Machine Learning",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}
