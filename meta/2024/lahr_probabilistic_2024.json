@@ -24,14 +24,14 @@
         "url": "http://arxiv.org/pdf/2401.17731v2"
       }
     ],
+    "conferenceName": "L4DC",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4391462834",
       "Publication Title": "arXiv (Cornell University)",
-      "Publisher": "University of Tübingen",
       "Scholar": "UeG5w08AAAAJ:PoWvk5oyLR8C"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
@@ -73,6 +73,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Learning for Dynamics and Control"
   }
 }

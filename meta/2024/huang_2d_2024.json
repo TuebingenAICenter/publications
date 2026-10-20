@@ -33,12 +33,13 @@
         "url": "https://dl.acm.org/doi/pdf/10.1145/3641519.3657428"
       }
     ],
+    "conferenceName": "SIGGRAPH",
     "extra": {
       "Citations@2026-06-01": "438",
       "OpenAlex": "W4393248012",
       "Scholar": "SrVnrPcAAAAJ:XDrR66g3YHsC"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 470</p>",
@@ -50,6 +51,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "ACM SIGGRAPH Conference Papers"
   }
 }
