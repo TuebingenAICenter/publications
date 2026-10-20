@@ -15,6 +15,8 @@
       "Scholar": "6NjbexEAAAAJ:R4LAE1HziJcC",
       "Venue": "arXiv preprint arXiv:2603.15975, 2026"
     },
-    "itemType": "preprint"
+    "itemType": "conferencePaper",
+    "conferenceName": "ECCV",
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
