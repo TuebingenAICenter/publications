@@ -1,0 +1,12 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "itemType": "conferencePaper",
+    "conferenceName": "ICML",
+    "proceedingsTitle": "International Conference on Machine Learning"
+  }
+}
