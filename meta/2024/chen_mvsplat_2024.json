@@ -24,15 +24,15 @@
         "url": "http://arxiv.org/pdf/2403.14627v2"
       }
     ],
+    "conferenceName": "ECCV",
     "extra": {
       "Book Title": "Lecture notes in computer science",
       "Citations@2026-06-01": "130",
       "OpenAlex": "W4403761012",
       "Publication Title": "arXiv (Cornell University)",
-      "Publisher": "University of Tübingen",
       "Scholar": "SrVnrPcAAAAJ:3A3nxV7CjKIC"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 178</p>",
@@ -54,6 +54,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }
