@@ -3,7 +3,8 @@
     "groups": [
       "hennig",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a new perspective on probabilistic numerical methods for ordinary differential equations (ODEs). We show that a large class of existing probabilistic ODE solvers can be interpreted as nonlinear Bayesian filtering problems. This interpretation allows us to leverage the extensive literature on Bayesian filtering to derive new solvers, analyze existing ones, and provide a unified framework for probabilistic numerical integration. We demonstrate the utility of this perspective by deriving a new class of solvers based on the extended Kalman filter and the unscented Kalman filter, and by providing a rigorous convergence analysis for a class of linear ODE solvers.",
