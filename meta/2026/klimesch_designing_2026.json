@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Progress in physics has long been driven by ingenious experiments conceived by human experts. Recently, design methods driven by artificial intelligence (AI) have begun to move beyond tuning a handful of parameters to proposing entirely new experimental layouts. The discovered configurations often challenge established design conventions while matching or even exceeding the performance of human-designed set-ups. We frame experimental design as a search for optima over a vast space of hardware configurations subject to practical constraints and organize this Review around four guiding questions: how can we (1) engineer expressive search spaces; (2) build fast and reliable simulators; (3) translate scientific goals into computable objective functions; and (4) develop AI-based exploration methods that can navigate both discrete and continuous design choices. These questions place AI-driven design on a scale from parameter tuning to de novo discovery, and highlight the trade-offs between computational tractability, experimental feasibility, interpretability and solution reliability. Looking ahead, simulators spanning several physics domains, combined with large suites of experimental objectives, could discover unorthodox experimental concepts that are difficult to arrive at with human intuition alone. Ultimately, AI-designed experiments might thereby open new ways to explore the Universe.",
+    "extra": {
+      "Citations@2026-10-20": "1",
+      "OpenAlex": "W7205709277",
+      "Scholar": "jzG7GC8AAAAJ:SxCCDk4iOpsC",
+      "Venue": "Nature 657 (8130), 47-58, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
