@@ -16,7 +16,7 @@
         "url": "https://arxiv.org/pdf/2503.10440"
       }
     ],
-    "conferenceName": "MICCAI 2025",
+    "conferenceName": "MICCAI",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416039569",
@@ -30,6 +30,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2025"
+    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention"
   }
 }
