@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multimodal language modeling has enabled breakthroughs for representation learning, yet remains unexplored in the realm of functional brain data for clinical phenotyping. This paper pioneers EEG-language models (ELMs) trained on clinical reports and 15000 EEGs. We propose to combine multimodal alignment in this novel domain with timeseries cropping and text segmentation, enabling an extension based on multiple instance learning to alleviate misalignment between irrelevant EEG or text segments. Our multimodal models significantly improve over EEG-only models across four clinical evaluations and for the first time enable zero-shot classification as well as retrieval of both neural signals and reports. In sum, these results highlight the potential of ELMs, representing significant progress for clinical applications.",
+    "archive": "arXiv",
+    "archiveLocation": "2409.07480",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-10-20": "9",
+      "Scholar": "5cZa3SIAAAAJ:ye4kPcJQO24C",
+      "Venue": "arXiv preprint arXiv:2409.07480, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning"
+  }
+}
