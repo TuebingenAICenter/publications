@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "DECODE-Plex is presented, a deep-learning-based framework to localize dense single molecules with overlapping point spread functions simultaneously in multiple channels.",
+    "extra": {
+      "Citations@2026-09-01": "0",
+      "OpenAlex": "W7171399409",
+      "Scholar": "FKOqtF8AAAAJ:0BSZZHtHo6cC",
+      "Venue": "bioRxiv, 2026.07. 24.740199, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
