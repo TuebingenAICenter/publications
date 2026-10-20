@@ -5,9 +5,11 @@
     ]
   },
   "zotero": {
+    "conferenceName": "CLeaR",
     "extra": {
       "Scholar": "DZ-fHPgAAAAJ:K35e6KM2uOgC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Causal Learning and Reasoning"
   }
 }
