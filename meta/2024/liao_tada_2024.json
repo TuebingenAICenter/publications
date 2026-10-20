@@ -25,7 +25,7 @@
         "url": "https://arxiv.org/pdf/2308.10899"
       }
     ],
-    "conferenceName": "International Conference on 3D Vision (3DV 2024)",
+    "conferenceName": "3DV",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4386081935",
@@ -54,6 +54,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "International Conference on 3D Vision (3DV 2024)"
+    "proceedingsTitle": "International Conference on 3D Vision"
   }
 }
