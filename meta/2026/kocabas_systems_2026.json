@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Systems and methods are provided for estimating subject pose and shape. In some examples, the method includes generating, by an image encoder, a structured representation for an image; mapping, by a prompt encoder, a plurality of types of prompts associated with the image to a plurality of prompt tokens; and estimating, by using a transformer-based computing model, a set of subject parameters based at least in part on the structured representation and the plurality of prompt tokens. In some examples, the plurality of types of prompts includes a first type of prompts having a first modality and a second type of prompts having a second modality different from the first modality.",
+    "extra": {
+      "Application Number": "US19/438926",
+      "Assignee": "MESHCAPADE GMBH",
+      "Country": "United States",
+      "Filing Date": "2026-01-02",
+      "Issuing Authority": "United States Patent and Trademark Office",
+      "Legal Status": "Pending",
+      "Patent Number": "US20260187831A1",
+      "Priority Date": "2025-01-02",
+      "Priority Numbers": "63/741,288",
+      "Scholar": "6NjbexEAAAAJ:cwugQcE3IssC",
+      "Venue": "US Patent App. 19/438,926, 2026"
+    },
+    "itemType": "patent"
+  }
+}
