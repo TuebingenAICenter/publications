@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ECCV",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision"
+  }
+}
