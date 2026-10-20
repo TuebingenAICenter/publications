@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Interactions between quantum systems enable quantum gates, the building blocks of quantum information processing. In photonics, direct photon-photon interactions are too weak to be practically useful, so effective interactions are engineered with linear optics and measurement. A central challenge is to realize such interactions non-locally, i.e., between photons that remain spatially separated. We present experimental proposals for several essential non-local multiphoton quantum gates that act on spatially separated photons, in both qubit and high‑dimensional qudit systems. All solutions were discovered by the AI-driven discovery system called PyTheus. Rather than using pre-shared entanglement or Bell state measurements, our gates use as a resource quantum indistinguishability by path identity – a technique that exploits coherent superpositions of the photon-pair origins. While analyzing these solutions, we uncovered a new mechanism that mimics much of the properties of quantum teleportation, without shared entanglement or Bell-state measurements. Technically, our results establish path indistinguishability as a practical resource for distributed quantum information processing; conceptually, they demonstrate how automated discovery systems can contribute new ideas and techniques in physics.",
+    "extra": {
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W4416027176",
+      "Scholar": "jzG7GC8AAAAJ:-6RzNnnwWf8C",
+      "Venue": "Physical Review Research 8 (2), L022031, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
