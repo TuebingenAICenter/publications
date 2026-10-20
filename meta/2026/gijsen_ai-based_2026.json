@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Machine learning models are increasingly applied to neuroimaging data to predict psychiatric outcomes in youth. However, the extent to which neuroimaging features provide predictive value beyond demographic and clinical confounds remains unclear. In this study, we evaluated the predictive performance of structural neuroimaging features for psychiatric outcomes in a large-scale longitudinal cohort of youth. We found that while models incorporating neuroimaging features achieved above-chance performance, their predictive accuracy was largely driven by demographic and clinical confounds, with neuroimaging features providing minimal incremental gains. These findings highlight the importance of rigorous benchmarking against simple baseline models in psychiatric neuroimaging research.",
+    "archive": "bioRxiv",
+    "extra": {
+      "Archive ID": "10.1101/2026.05.22.727174",
+      "Repository": "bioRxiv",
+      "Scholar": "5cZa3SIAAAAJ:_B80troHkn4C",
+      "Venue": "bioRxiv, 2026.05. 22.727174, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
