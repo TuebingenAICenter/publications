@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this position paper, we argue that LLM for Science should mirror such cooperative dynamics through Multi-Agent Systems (MAS) instead of pursuing a single, monolithic model.",
+    "conferenceName": "Workshop on Foundation Models for Science: Real-World Impact and Science-First Design (ICLR)",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7131077537",
+      "Scholar": "DZ-fHPgAAAAJ:2IrBy7oA4F0C",
+      "Venue": "ICLR 2026 Workshop on Foundation Models for Science: Real-World Impact and …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Workshop on Foundation Models for Science: Real-World Impact and Science-First Design (ICLR)"
+  }
+}
