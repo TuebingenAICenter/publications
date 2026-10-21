@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Video saliency prediction attempts to capture more natural human visual behaviour than static image saliency, and is inherently harder to model due to the additional temporal dimension. Video saliency benchmarks rest on an implicit premise that predicting gaze on video requires utilizing temporal activity distributed across frames. Prior work has challenged this premise, showing that a deliberately static baseline recovers a significant fraction of the explainable gaze information on LEDOV, a popular video saliency dataset, without integrating temporal context, and that video saliency models fail in the same places as this static baseline. We first verify that this diagnosis still stands: under a more capable gold standard than the original analysis used, and an updated panel of recent architectures, the strongest temporal architecture in the panel still does not seem to substantially improve over a fine-tuned static baseline. However, it remains unclear whether the marginal gain reflects limitations of current temporal architectures or a lack of genuinely temporal patterns in the benchmark itself. We introduce SalTempto, a new video saliency benchmark with greater dynamism: 224 one-minute clips of highly dynamic content, sourced from the HACS-Segments action dataset so that each clip contains an event together with its lead-up and aftermath, with gaze recordings from up to 16 subjects and a training split for adapting pretrained models. On SalTempto, the same fine-tuned static baseline recovers only about 13% of the headroom above the centerbias, against more than half on LEDOV. The strongest fine-tuned temporal architecture shows a substantial gain in performance over the static baseline, indicating that it does capture meaningfully more temporal information, which LEDOV fails to measure. Yet, even this SoTA model still leaves nearly half of SalTempto’s headroom unexplained, indicating that there is still a lot of room for improvement in the field of video saliency. In addition, manual examination of SalTempto recordings allows us to describe three human visual tendencies that models tend to miss: object permanence despite occlusion, scene inertia, and anticipatory saccades. SalTempto releases with raw visual recordings and training and evaluation videos.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.CV",
+    "callNumber": "arXiv:2610.03276",
+    "extra": {
+      "Archive ID": "2610.03276",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7220477362",
+      "Repository": "Hugging Face",
+      "Scholar": "0z0fNxUAAAAJ:SpPTWFSNUtQC",
+      "Venue": "arXiv preprint arXiv:2610.03276, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
