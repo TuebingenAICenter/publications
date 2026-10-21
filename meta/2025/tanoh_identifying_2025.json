@@ -20,7 +20,7 @@
         "url": "https://arxiv.org/pdf/2506.20233"
       }
     ],
-    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "Event Place": "San Diego Convention Center and Mexico City",
@@ -36,6 +36,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

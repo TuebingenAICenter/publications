@@ -27,12 +27,13 @@
         "url": "http://arxiv.org/pdf/2402.11655v2"
       }
     ],
+    "conferenceName": "ACL",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4402671677",
       "Scholar": "DZ-fHPgAAAAJ:h4G4d0_olBQC"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 18</p>",
@@ -44,6 +45,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Annual Meeting of the Association for Computational Linguistics"
   }
 }
