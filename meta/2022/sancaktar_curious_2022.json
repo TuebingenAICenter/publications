@@ -17,7 +17,9 @@
       "Repository": "arXiv",
       "Scholar": "b-JF-UIAAAAJ:dTyEYWd-f8wC"
     },
-    "itemType": "document",
-    "libraryCatalog": "OpenReview"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "OpenReview",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
