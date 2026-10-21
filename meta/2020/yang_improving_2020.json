@@ -13,6 +13,8 @@
       "Scholar": "LwvdNAgAAAAJ:8k81kl-MbHgC",
       "Volume": "33"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
