@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "groups": [
+      "akata"
+    ],
+    "mentions_ai_center": false
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}
