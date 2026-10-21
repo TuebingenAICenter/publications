@@ -1,8 +1,7 @@
 {
   "custom": {
     "groups": [
-      "martius",
-      "schoelkopf"
+      "martius"
     ],
     "mentions_ai_center": true
   },
