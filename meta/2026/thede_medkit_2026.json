@@ -15,9 +15,11 @@
       "OpenAlex": "W7215106819",
       "Repository": "GitHub",
       "Scholar": "0z0fNxUAAAAJ:X4-KO54GjGYC",
-      "Venue": "arXiv preprint arXiv:2609.38543, 2026"
+      "Venue": "NeurIPS 2026, 2026"
     },
-    "itemType": "preprint",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
