@@ -8,6 +8,7 @@
     "abstractNote": "The Panoptic Quality (PQ) metric is the standard for jointly evaluating instance and semantic segmentation. However, its original definition relies on a One-to-One matching between predicted and ground truth segments, which limits its applicability in scenarios where segments are fragmented or hierarchical, such as in part-aware segmentation. In this work, we redefine instance matching by introducing a unified framework that generalizes the matching process. We propose a flexible matching strategy that accommodates One-to-One, Many-to-One, One-to-Many, and Many-to-Many correspondences, and introduce a novel Voronoi-based matching approach. Our framework enables a more robust and comprehensive evaluation of panoptic segmentation models, particularly in complex, part-aware tasks. We demonstrate the effectiveness of our approach through extensive experiments on various datasets and show that our proposed metrics provide a more nuanced understanding of model performance compared to the standard PQ.",
     "archive": "arXiv",
     "archiveLocation": "2605.31094",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Archive ID": "2605.31094",
       "Citations@2026-10-20": "1",
@@ -17,7 +18,6 @@
     },
     "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
-    "conferenceName": "NeurIPS",
     "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
