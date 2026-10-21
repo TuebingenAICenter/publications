@@ -11,18 +11,19 @@
     "archive": "arXiv",
     "archiveLocation": "2604.06333",
     "callNumber": "arXiv:2604.06333",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Archive ID": "2604.06333",
       "Citations@2026-07-13": "0",
       "OpenAlex": "W7153671899",
       "Repository": "arXiv",
       "Scholar": "b-JF-UIAAAAJ:GtLg2Ama23sC",
+      "Shortbooktitle": "NeurIPS",
       "Venue": "NeurIPS 2026, 2026",
       "publicationTitle": "arXiv (Cornell University)"
     },
     "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
-    "conferenceName": "NeurIPS",
     "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
