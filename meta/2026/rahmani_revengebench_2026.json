@@ -13,8 +13,10 @@
       "Archive ID": "2606.26094",
       "Repository": "arXiv",
       "Scholar": "0z0fNxUAAAAJ:0sTkTiv_uMkC",
-      "Venue": "arXiv preprint arXiv:2606.26094, 2026"
+      "Venue": "NeurIPS 2026, 2026"
     },
-    "itemType": "preprint"
+    "itemType": "conferencePaper",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
