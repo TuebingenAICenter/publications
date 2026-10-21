@@ -1,7 +1,6 @@
 {
   "custom": {
     "groups": [
-      "hardt",
       "mendler-duenner"
     ],
     "mentions_ai_center": true
@@ -22,7 +21,9 @@
       "Source": "group_webpage (hardt)",
       "Volume": "36"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
