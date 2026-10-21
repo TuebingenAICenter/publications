@@ -16,7 +16,9 @@
       "Repository": "GitHub",
       "Scholar": "0z0fNxUAAAAJ:z8nqeaKD1nsC"
     },
-    "itemType": "document",
-    "libraryCatalog": "NeurIPS Proceedings"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "NeurIPS Proceedings",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
