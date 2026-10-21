@@ -3,7 +3,8 @@
     "groups": [
       "martius",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Haptic representation learning is a difficult task in robotics because information can be gathered only by actively exploring the environment over time, and because different actions elicit different object properties. We propose a Sequential Group VAE that leverages object persistence to learn and update latent general representations of multimodal haptic data. As a robot performs sequences of exploratory procedures on an object, the model accumulates data and learns to distinguish between general object properties, such as size and mass, and trial-to-trial variations, such as initial object position. We demonstrate that after very few observations, the general latent representations are sufficiently refined to accurately encode many haptic object properties.",
