@@ -19,7 +19,7 @@
         "url": "https://arxiv.org/pdf/2506.20233"
       }
     ],
-    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "Citations@2026-09-01": "0",
@@ -27,7 +27,7 @@
       "OpenAlex": "W4414624896",
       "Scholar": "FKOqtF8AAAAJ:-TLX1-BxFiYC",
       "Source": "group_webpage (schoelkopf)",
-      "Venue": "Thirty-Ninth Conference on Neural Information Processing Systems (NeurIPS), 2025"
+      "Venue": "NeurIPS 2025, 2025"
     },
     "itemType": "conferencePaper",
     "notes": [
@@ -37,6 +37,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
