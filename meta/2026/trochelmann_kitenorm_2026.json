@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto",
+      "liu"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "NeurIPS",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+  }
+}
