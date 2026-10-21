@@ -12,6 +12,8 @@
       "OpenAlex": "W4297806505",
       "Scholar": "adnTgaAAAAAJ:8Xgff_V0N9gC"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
