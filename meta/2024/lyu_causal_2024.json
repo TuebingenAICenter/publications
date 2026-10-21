@@ -5,10 +5,16 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Sentiment analysis (SA) aims to identify the sentiment expressed in a text, such as a product review. Given a review and the sentiment associated with it, this paper formulates SA as a combination of two tasks: (1) a causal discovery task that distinguishes whether a review “primes” the sentiment (Causal Hypothesis C1), or the sentiment “primes” the review (Causal Hypothesis C2); and (2) the traditional prediction task to model the sentiment using the review as input. Using the peak-end rule in psychology, we classify a sample as C1 if its overall sentiment score approximates an average of all the sentence-level sentiments in the review, and C2 if the overall sentiment score approximates an average of the peak and end sentiments. For the prediction task, we use the discovered causal mechanisms behind the samples to improve the performance of LLMs by proposing causal prompts that give the models an inductive bias of the underlying causal graph, leading to substantial improvements by up to 32.13 F1 points on zero-shot five-class SA.",
+    "archive": "arXiv",
+    "archiveLocation": "2404.11055",
     "extra": {
       "Citations@2026-06-01": "4",
-      "Scholar": "DZ-fHPgAAAAJ:Vz0tdIHChhsC"
+      "Citations@2026-10-20": "4",
+      "Scholar": "DZ-fHPgAAAAJ:Vz0tdIHChhsC",
+      "Venue": "arXiv preprint arXiv:2404.11055, 2024"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv"
   }
 }
