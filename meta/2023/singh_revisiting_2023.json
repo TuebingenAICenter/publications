@@ -17,7 +17,9 @@
       "Scholar": "0ZAb3tsAAAAJ:IaI1MmNe2tcC",
       "arXiv": "2303.01870"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
