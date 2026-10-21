@@ -14,9 +14,11 @@
       "Citations@2026-07-13": "1",
       "Repository": "arXiv",
       "Scholar": "xkuLyHoAAAAJ:_xSYboBqXhAC",
-      "Venue": "arXiv preprint arXiv:2602.12021, 2026"
+      "Venue": "NeurIPS 2026, 2026"
     },
-    "itemType": "preprint",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
