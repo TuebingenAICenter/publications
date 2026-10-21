@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "ritter"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "conferenceName": "ICML",
