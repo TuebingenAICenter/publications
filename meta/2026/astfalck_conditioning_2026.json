@@ -15,10 +15,12 @@
       "OpenAlex": "W7162992268",
       "Repository": "arXiv",
       "Scholar": "UeG5w08AAAAJ:IRz6iEL74y4C",
-      "Venue": "arXiv preprint arXiv:2605.21041, 2026",
+      "Venue": "NeurIPS 2026, 2026",
       "publicationTitle": "Universit@tsbibliothek Tübingen"
     },
-    "itemType": "preprint",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "conferenceName": "NeurIPS",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
