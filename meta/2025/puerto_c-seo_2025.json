@@ -22,7 +22,9 @@
     "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "5",
+      "OpenAlex": "W7138828830",
       "Scholar": "kmXOOdsAAAAJ:pyW8ca7W8N0C",
+      "Venue": "NeurIPS 2025, 2025",
       "arXiv": "2506.11097"
     },
     "itemType": "conferencePaper",
@@ -33,6 +35,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
