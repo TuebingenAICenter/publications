@@ -5,9 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Background: Large language models (LLMs) like ChatGPT have shown potential in medical examinations. This study evaluates the performance of ChatGPT-3.5 and ChatGPT-4 on the German board examination for ophthalmology. Methods: We used 100 multiple-choice questions from the German board examination for ophthalmology. ChatGPT-3.5 and ChatGPT-4 were tested on these questions. Results: ChatGPT-4 achieved a significantly higher score than ChatGPT-3.5. Both models showed limitations in clinical reasoning and image-based questions. Conclusion: While ChatGPT-4 demonstrates promising performance, it is not yet a substitute for human expertise in ophthalmology board examinations.",
     "extra": {
       "Citations@2026-06-01": "7",
-      "Scholar": "lPQLk3QAAAAJ:ZuybSZzF8UAC"
+      "Citations@2026-10-20": "12",
+      "Scholar": "lPQLk3QAAAAJ:ZuybSZzF8UAC",
+      "Venue": "Die Ophthalmologie, 2024"
     },
     "itemType": "journalArticle"
   }
