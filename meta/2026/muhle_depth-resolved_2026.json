@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Projecting the response of the Antarctic Ice Sheet to a warming climate requires knowledge of englacial temperatures, which exert strong control on ice rheology and hence ice dynamics. Direct temperature measurements from deep boreholes only provide point estimates and are logistically expensive, making indirect measuring techniques essential to map englacial temperatures over large scales. Here, radar-based methods play a pivotal role as radar attenuation rates serve as a proxy for englacial temperatures. Existing approaches, however, only yield depth-averaged attenuation estimates, leaving the vertical temperature structure unresolved. Here, we present a method to infer depth-resolved attenuation rates and englacial temperatures from airborne radar data. Building on our recently proposed Bayesian machine learning framework developed for ground-based impulse radar systems, we extend the approach to continuous wave, airborne radar systems. We validate the method using 180- 210 MHz wideband radar data acquired over ice core sites with available borehole temperature profiles. We then apply the method to produce the first map of depth-resolved englacial temperatures from available 180-210 MHz radar data. This dataset offers new observational constraints on the physical and rheological conditions of the ice sheet, providing critical inputs for subglacial hydrology and ice flow models.",
+    "archive": "EPIC (AWI)",
+    "archiveLocation": "60984",
+    "conferenceName": "European Geosciences Union General Assembly (EGU)",
+    "extra": {
+      "Item Type": "Conference (Lecture)",
+      "Scholar": "FKOqtF8AAAAJ:6MVT8mER-OMC"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Geosciences Union General Assembly (EGU)"
+  }
+}
