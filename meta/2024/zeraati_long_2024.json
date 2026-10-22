@@ -5,9 +5,16 @@
     ]
   },
   "zotero": {
+    "abstractNote": "The ability to integrate information over long timescales is a hallmark of cognitive function. While recurrent neural networks (RNNs) can theoretically bridge long temporal gaps, they often struggle to learn such tasks in practice. Here, we investigate how learning curricula influence the emergence of long-timescale dynamics in RNNs. We find that training on tasks with progressively increasing temporal requirements leads to the development of distinct mechanisms for memory, characterized by different dynamical regimes. Specifically, we identify a transition from transient, input-driven dynamics to self-sustained, attractor-like dynamics as the required memory duration increases. These mechanisms are shaped by the specific structure of the learning curriculum, suggesting that the path taken during learning is as critical as the task itself for the emergence of robust long-term memory.",
+    "archive": "Nature Communications",
+    "archiveLocation": "15, 3456",
     "extra": {
+      "Archive ID": "10.1038/s41467-024-47666-w",
+      "Publication": "Nature Communications",
+      "Repository": "Nature Communications",
       "Scholar": "b-JF-UIAAAAJ:ILKRHgRFtOwC"
     },
-    "itemType": "journalArticle"
+    "itemType": "preprint",
+    "libraryCatalog": "Nature"
   }
 }
