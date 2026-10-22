@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "rusch"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Looped reasoning with dynamic depth can be viewed as relaxation toward solution attractors in a learned dynamical landscape. In practice, however, latent trajectories often oscillate, cycle, or drift rather than cleanly converge to stable fixed points. How these non-stationary dynamics contribute to reasoning and constrain convergence remains unclear. We show that slowly decaying oscillatory modes can impose their convergence rate on coupled latent dynamics, creating a bottleneck. Yet damping these modes indiscriminately can disrupt the reasoning computation they support. This tension motivates an architectural approach: introducing rotational degrees of freedom along which symmetry-generated rotational motion leaves the reasoning-relevant quotient dynamics unchanged by construction. We propose QRR (Quotient Recurrent Reasoner), a gauge-equivariant recurrent architecture with an exact per-token phase-rotation symmetry. Motion along these symmetry directions leaves the quotient representation unchanged and is dynamically decoupled from reasoning-relevant dynamics. Empirically, QRR achieves stable and faster convergence to solution roots in quotient space, without forming a dominant slow oscillatory bottleneck, while matching or surpassing recent recurrent reasoning models on Sudoku, Maze, and Mini-ARC.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.18174",
+    "callNumber": "arXiv:2610.18174",
+    "extra": {
+      "Archive ID": "2610.18174",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7221774447",
+      "Repository": "GitHub",
+      "Scholar": "9LajlSsAAAAJ:SpbeaW3--B0C",
+      "Venue": "arXiv preprint arXiv:2610.18174, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
