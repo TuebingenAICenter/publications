@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Scientific impact prediction is a fundamental task in bibliometrics, with significant implications for research funding, academic hiring, and policy making. Existing methods often rely on citation counts or simple graph-based features, which fail to capture the rich, heterogeneous information inherent in scientific literature, such as textual content, author collaborations, and research topics. In this paper, we propose LLM4Impact, a novel framework that leverages Large Language Models (LLMs) to integrate heterogeneous information for scientific impact prediction. Our approach represents scientific papers as nodes in a heterogeneous graph, where edges represent various relationships such as co-authorship, citation, and topical similarity. We employ a pre-trained LLM to encode the textual content of papers and integrate this information into the graph structure. We then use a graph neural network to learn representations of papers that capture both textual and structural information. Experimental results on a large-scale dataset demonstrate that LLM4Impact significantly outperforms state-of-the-art methods in predicting scientific impact, as measured by citation counts and other metrics. Our findings highlight the potential of LLMs in enhancing the predictive power of bibliometric models by effectively incorporating diverse sources of information.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.10138",
+    "extra": {
+      "Archive ID": "2610.10138",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7220958701",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:ShjGdcaqzI0C",
+      "Venue": "arXiv preprint arXiv:2610.10138, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
