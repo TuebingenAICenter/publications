@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep Learning (DL) has emerged as a powerful tool in neuroimaging research. DL models predicting brain pathologies, psychological behaviors, and cognitive traits from neuroimaging data have the potential to discover the neurobiological basis of these phenotypes. However, these models can be biased from information related to age, sex, or spurious imaging artifacts encoded in the neuroimaging data. In this study, we introduce a lightweight and easy-to-use framework called ‘DeepRepViz’ designed to detect such potential confounders in DL model predictions and enhance the transparency of predictive DL models. DeepRepViz comprises two components - an online visualization tool (available at https://deep-rep-viz.vercel.app/) and a metric called the ‘Con-score’. The tool enables researchers to visualize the final latent representation of their DL model and qualitatively inspect it for biases. The Con-score, or the `concept encoding’ score, quantifies the extent to which potential confounders like sex or age are encoded in the final latent representation and influences the model predictions. We illustrate the rationale of the Con-score formulation using a simulation experiment. Next, we demonstrate the utility of the DeepRepViz framework by applying it to three typical neuroimaging-based prediction tasks (n=12000). These include (a) distinguishing chronic alcohol users from controls, (b) classifying sex, and (c) predicting the speed of completing a cognitive task known as ‘trail making’. In the DL model predicting chronic alcohol users, DeepRepViz uncovers a strong influence of sex on the predictions (Con-score=0.35). In the model predicting cognitive task performance, DeepRepViz reveals that age plays a major role (Con-score=0.3). Thus, the DeepRepViz framework enables neuroimaging researchers to systematically examine their model and identify potential biases, thereby improving the transparency of predictive DL models in neuroimaging studies.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2309.15551",
+    "conferenceName": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+    "extra": {
+      "Citations@2026-10-20": "2",
+      "Scholar": "5cZa3SIAAAAJ:B3FOqHPlNUQC",
+      "Venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+  }
+}
