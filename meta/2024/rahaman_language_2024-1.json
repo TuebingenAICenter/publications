@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This work addresses the buyer's inspection paradox for information markets. The paradox is that buyers need to access information to determine its value, but once they have accessed it, they no longer need to purchase it. We show that language models can be used to reduce this asymmetry by acting as a trusted intermediary that can verify the value of information without revealing it to the buyer.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.14443",
+    "conferenceName": "Conference on Language Modeling (COLM)",
+    "extra": {
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W4393119110",
+      "Scholar": "DZ-fHPgAAAAJ:HnLqbUOjpDMC",
+      "Source": "group_webpage (schoelkopf)",
+      "Venue": "arXiv preprint arXiv:2403.14443, 2024",
+      "arXiv": "2403.14443"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Language Modeling (COLM)"
+  }
+}
