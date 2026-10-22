@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Model merging leverages multiple finetuned expert models to construct a multi-task model with low cost, and is gaining increasing attention. However, as a number of expert models grow, the memory cost for storing and merging these models becomes a bottleneck. In this paper, we propose G-Merging, a novel approach that merges models within O(1) memory cost via a gossip approach. Specifically, G-Merging treats each model as a node in a graph and performs gossip-based communication to aggregate model parameters. By leveraging the properties of gossip algorithms, G-Merging achieves efficient model merging without the need for centralized storage or high memory overhead. We provide theoretical analysis on the convergence of G-Merging and demonstrate its effectiveness through extensive experiments on various benchmarks.",
+    "extra": {
+      "Scholar": "73IbXtsAAAAJ:0KyAp5RtaNEC",
+      "Venue": "IEEE Transactions on Parallel and Distributed Systems, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
