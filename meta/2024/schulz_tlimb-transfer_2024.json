@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Biomedical image analysis plays a pivotal role in advancing our understanding of the human body’s functioning across different scales, usually based on deep learning-based methods. However, deep learning methods are notoriously data hungry, which poses a problem in fields where data is difficult to obtain such as in neuroscience. Transfer learning (TL) has become a popular and successful approach to cope with this issue, but is difficult to apply in practise due the many parameters it requires to set properly. Here, we present TLIMB, a novel python-based framework for easy development of optimized and scalable TL-based image analysis pipelines in the neurosciences. TLIMB allows for an intuitive configuration of source / target data sets, specific TL-approach and deep learning-architecture, and hyperparameter optimization method for a given data analysis pipeline and compiles these into a nextflow workflow for seamless execution over different infrastructures, ranging from multicore servers to large compute clusters. Our evaluation using a pipeline for analysing 10.000 MRI images of the human brain from the UK Biobank shows that TLIMB is easy to use, incurs negligible overhead and can scale across different cluster sizes.",
+    "archive": "MDC Repository",
+    "archiveLocation": "https://edoc.mdc-berlin.de/id/eprint/24248/",
+    "conferenceName": "DARLI-AP",
+    "extra": {
+      "Keywords": "Framework, Transfer Learning, Biomedical Image Analysis, Nextflow",
+      "Scholar": "5cZa3SIAAAAJ:4OULZ7Gr8RgC",
+      "Venue": "CEUR Workshop Proceedings, 1-6, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "CEUR Workshop Proceedings"
+  }
+}
