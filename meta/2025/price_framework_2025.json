@@ -1,0 +1,11 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "An automatic, quick, accurate and scalable method for animal behaviour inference using only videos of animals offers unprecedented opportunities to understand complex biological phenomena and answer challenging ecological questions. The advent of sophisticated machine learning techniques now allows the development and implementation of such a method. However, apart from developing a network model that infers animal behaviour from video inputs, the key challenge is to obtain sufficient labelled (annotated) data to successfully train that network—a laborious task that needs to be repeated for every species and/or animal system. In this work, we propose solutions for both problems, (i) a novel methodology for rapidly generating large amounts of annotated data of animals from videos and (ii) using it to reliably train deep neural network models to infer the different behavioural states of every animal in each frame of the video. Our method's workflow is bootstrapped with a relatively small amount of manually labelled video frames. We develop and implement this novel method by building upon the open‐source tool Smarter‐Labelme, leveraging deep convolutional neural networks for visual detection and tracking in combination with our behaviour inference model to quickly produce large amounts of reliable training data. We demonstrate the effectiveness of our method on aerial videos of plains and Grévy's Zebras (Equus quagga and Equus grevyi). We fully open‐source the code (source code available at: https://github.com/robot‐perception‐group/Animal‐Behaviour‐Inference‐Framework and archived at https://doi.org/10.5281/zenodo.15834944; Price et al., 2025) of our method as well as provide large amounts of accurately annotated video datasets (data available at: https://doi.org/10.18419/DARUS‐5162; Ahmad, 2025; alternative link to data: https://keeper.mpdl.mpg.de/d/a9822e000aff4b5391e1/) of zebra behaviour using our method. A video abstract of this paper is available at: https://youtu.be/Zu‐t0JJsz5o.",
+    "itemType": "journalArticle"
+  }
+}
