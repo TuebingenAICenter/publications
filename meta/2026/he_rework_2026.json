@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "conferenceName": "COLM 2026 Workshop on Efficient Reasoning",
+    "extra": {
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7212110742",
+      "Scholar": "SrVnrPcAAAAJ:cB__R-XWw9UC",
+      "Venue": "COLM 2026 Workshop on Efficient Reasoning"
+    },
+    "itemType": "conferencePaper"
+  }
+}
