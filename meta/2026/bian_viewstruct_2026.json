@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Interacting with unfamiliar objects requires understanding how their parts connect and move. We introduce ViewStruct, a framework for jointly predicting connectivity and articulation in objects and scenes. Given an RGB image with aligned part segmentation and depth, optionally supplemented by images or video, ViewStruct predicts rigid-body groupings, attachments, and joint parameters. Its view-grounded representation links predictions to observed regions and expresses joint geometry in a gravity-aligned, view-relative frame, without requiring category-specific canonical orientations. A pretrained vision–language model is adapted to predict structure in seconds, without requiring observed articulation motion or per-instance optimisation. Experiments demonstrate improved structural prediction over evaluated baselines and transfer to unseen categories, asset sources, and real-world human-interaction videos, despite task-specific training exclusively on synthetic data. Simulated manipulation experiments further demonstrate the utility of predicted joints for generating robot motion trajectories.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.16793",
+    "callNumber": "arXiv:2610.16793",
+    "extra": {
+      "Archive ID": "2610.16793",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7221769042",
+      "Repository": "arXiv",
+      "Scholar": "SrVnrPcAAAAJ:oYLFIHfuHKwC",
+      "Venue": "arXiv preprint arXiv:2610.16793, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
