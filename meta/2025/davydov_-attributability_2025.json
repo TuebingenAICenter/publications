@@ -7,10 +7,22 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Generation novelty is a key indicator of an LLM's ability to generalize, yet measuring it against full pretraining corpora is computationally challenging. Existing evaluations often rely on lexical overlap, failing to detect paraphrased text, or do not consider the full pretraining corpus. We frame novelty as a semantic retrieval problem. This framing enables us to address novelty with modern embedding and indexing pipelines, allowing for efficient analysis at pre-training scale. Specifically, we propose a three-stage framework that retrieves semantically similar samples, reranks them at varying subsequence lengths, and calibrates scores using a human novelty reference for interpretability. We apply this framework to the SmolLM model family and report three key findings: (1) models draw on pre-training data across much longer sequences than previously reported; (2) some task domains systematically promote or suppress generation novelty; and (3) instruction tuning not only alters style but also increases novelty. These results highlight the value of semantic novelty analysis for studying generalization. To support reproducibility and further research, we release ~20 TB of corpus chunks and index artifacts at this https URL",
+    "archive": "arXiv",
+    "archiveLocation": "2510.27313",
     "extra": {
-      "Scholar": "kmXOOdsAAAAJ:xtRiw3GOFMkC"
+      "Archive ID": "2510.27313",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4415918765",
+      "Repository": "arXiv",
+      "Scholar": "kmXOOdsAAAAJ:dshw04ExmUIC",
+      "Venue": "arXiv preprint arXiv:2510.27313, 2025",
+      "arXiv": "2510.27313",
+      "publicationTitle": "LLM generation novelty through the lens of semantic similarity"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2510.27313'>https://arxiv.org/abs/2510.27313</a><br><a href='https://huggingface.co/papers/2510.27313'>https://huggingface.co/papers/2510.27313</a><br><a href='https://papers.cool/arxiv/2510.27313v2'>https://papers.cool/arxiv/2510.27313v2</a><br></p>",
