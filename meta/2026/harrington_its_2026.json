@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "koepke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contemporary text-to-image models exhibit a surprising degree of mode collapse, as can be seen when sampling several images given the same text prompt. Previous work has attempted to address this issue by steering the model using guidance mechanisms, or by generating a large pool of candidates and refining them. In this work, we take a different direction and aim for diversity in generations via noise optimization. Specifically, we show that a simple noise optimization objective can mitigate mode collapse while preserving the fidelity of the base model. We also analyze the frequency characteristics of the noise and show that alternative noise initializations with different frequency profiles can improve both optimization and search. Our experiments demonstrate that noise optimization yields superior results in terms of generation quality and diversity.",
+    "archive": "arXiv",
+    "archiveLocation": "2601.00090",
+    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "extra": {
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7118421194",
+      "Scholar": "q9zQhj8AAAAJ:L8Ckcad2t8MC",
+      "Venue": "arXiv preprint arXiv:2601.00090, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  }
+}
