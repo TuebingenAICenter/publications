@@ -1,0 +1,31 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The retina provides a unique opportunity to develop a complete and precise model of a computational module in the central nervous system. We argue that an open, collaborative modelling ecosystem is now essential to move the field from isolated studies toward a unified, quantitative understanding of retinal function. To this end, we introduce openretina, a collaborative project and software ecosystem designed to facilitate the development, sharing, and benchmarking of retinal models across diverse datasets and species. openretina provides a standardized framework for data handling, model training, and in silico experiments, enabling researchers to build upon existing work and compare models on a common ground. By fostering a community-driven approach, we aim to accelerate progress in retinal neuroscience and provide a blueprint for collaborative modelling in other areas of systems neuroscience.",
+    "extra": {
+      "Citations@2026-06-01": "1",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7169866467",
+      "Scholar": "0z0fNxUAAAAJ:v_tt_AnqfNMC",
+      "Venue": "bioRxiv, 2025.03. 07.642012, 2025"
+    },
+    "itemType": "journalArticle",
+    "notes": [
+      {
+        "note": "<p><a href='https://sciety.org/articles/activity/10.1101/2025.03.07.642012'>https://sciety.org/articles/activity/10.1101/2025.03.07.642012</a><br><a href='https://open-retina.org/'>https://open-retina.org/</a><br><a href='https://fededagos.me/publications/2025-03-11-openretina/'>https://fededagos.me/publications/2025-03-11-openretina/</a><br><a href='https://pypi.org/project/openretina/0.1.0/'>https://pypi.org/project/openretina/0.1.0/</a><br><a href='https://sciencecast.org/casts/wv2y01qgjmie'>https://sciencecast.org/casts/wv2y01qgjmie</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publisher: University of Tübingen</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
