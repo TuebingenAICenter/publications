@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Researchers at the Max Planck Institute for Intelligent Systems argue that a language model's errors are predictable beyond its own confidence mainly when the model is suboptimal, so routing systems that use separate performance predictors gain most on weaker models. Performance prediction only beats a simple baseline when the candidate model is suboptimal on the task.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.31428",
+    "callNumber": "arXiv:2610.31428",
+    "extra": {
+      "Archive ID": "2610.31428",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7223364241",
+      "Repository": "arXiv",
+      "Scholar": "adnTgaAAAAAJ:kO05sadLmrgC",
+      "Venue": "arXiv preprint arXiv:2610.31428, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
