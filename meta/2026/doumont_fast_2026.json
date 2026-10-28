@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Bayesian optimization (BO) is typically used only for problems where the underlying function is deemed \"expensive\" (e.g. in time or money), with the speed of the BO algorithm being of little importance. In the real world, however, problems span a continuous range of values, going from cheap to expensive. In this paper, we present BO algorithms through the lens of a speed-performance Pareto frontier: we compare BO against faster algorithms like CMA-ES, and highlight how certain regions of the Pareto frontier are currently empty. As a solution, we propose a new set of fast BO methods that exploit the linear structure in existing BO algorithms, for both continuous and combinatorial inputs (from ~10 to 6000+ dimensions). Our methods achieve performance similar to state-of-the-art BO, while being more than 10^2 to 10^3 times faster, opening the field of BO to an entirely new class of problems.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.29580",
+    "extra": {
+      "Archive ID": "2610.29580",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7223249908",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:mNrWkgRL2YcC",
+      "Venue": "arXiv preprint arXiv:2610.29580, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
