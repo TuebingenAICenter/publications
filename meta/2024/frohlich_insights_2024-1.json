@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We argue that insurance can act as an analogon for the social situatedness of machine learning systems, hence allowing machine learning scholars to take insights from the rich and interdisciplinary insurance literature. Tracing the interaction of uncertainty, fairness and responsibility in insurance provides a fresh perspective on fairness in machine learning. We link insurance fairness conceptions to their machine learning relatives, and use this bridge to problematize fairness as calibration. In this process, we bring to the forefront two themes that have been largely overlooked in the machine learning literature: responsibility and aggregate-individual tensions.",
+    "conferenceName": "Conference on Fairness, Accountability, and Transparency (FAccT)",
+    "extra": {
+      "Citations@2026-10-28": "7",
+      "OpenAlex": "W4399365109",
+      "Scholar": "G4MBruQAAAAJ:lQh10hhnIEIC",
+      "Venue": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and …, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Fairness, Accountability, and Transparency (FAccT)"
+  }
+}
