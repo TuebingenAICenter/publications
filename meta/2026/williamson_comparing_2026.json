@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "The authors discuss an important idea in statistics called the data processing inequality, which says that making data less clear cannot improve the performance of a learning algorithm. We extend this idea to constrained learning problems, where the learner is required to satisfy certain constraints on the learned model. We show that the data processing inequality holds for a wide class of constrained learning problems, and we use this to compare the relative difficulty of learning under different types of corruption.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2608.25745",
+    "extra": {
+      "Archive ID": "2608.25745",
+      "Citations@2026-09-01": "0",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7212160384",
+      "Scholar": "G4MBruQAAAAJ:7gg4mBK4JdgC",
+      "Venue": "arXiv preprint arXiv:2608.25745, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
