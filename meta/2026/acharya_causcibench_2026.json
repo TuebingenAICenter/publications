@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Identifying and estimating causal relationships from data is a crucial component of empirical research. While large language model-powered tools have shown potential for assisting research workflows, their ability to perform end-to-end causal inference remains underexplored. We introduce CauSciBench, a benchmark that puts LLM-powered tools to the test on causality- driven research questions. Unlike previous related benchmarks that focus on coding alone, CauSciBench enables evaluation across the full pipeline of causal inference: from method and variable selection to computation of causal effects and statistical interpretation in the context of real-world research problems. We evaluated 7 frontier models on over 300 queries derived from scientific publications, textbook problems, sem- inal datasets, and synthetic scenarios. Results show that models consistently perform worse on real datasets, with the key bottleneck being the selection of an appropriate causal inference method.",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7163157186",
+      "Scholar": "DZ-fHPgAAAAJ:SCyikjQ18VQC",
+      "Venue": "NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Proceedings of the 43rd International Conference on Machine Learning (ICML)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
+  }
+}
