@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "koepke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The use of synthetically generated data for training models is becoming a common practice. While generated data can augment the training data, repeated training on synthetic data raises concerns about distribution drift and degradation of performance due to contamination of the dataset. We investigate the consequences of this bootstrapping process through the lens of continual learning, drawing a connection to Generative Experience Replay (GER) methods. We present a statistical analysis showing that synthetic data introduces significant bias and variance into training objectives, weakening the reliability of maximum likelihood estimation. We provide empirical evidence showing that popular generative models collapse under repeated training with synthetic data. We quantify this degradation and show that state-of-the-art GER methods fail to maintain alignment in the latent space. Our findings raise critical concerns about the use of synthetic data in continual learning.",
+    "archive": "arXiv",
+    "archiveLocation": "2512.11867",
+    "conferenceName": "German Conference on Pattern Recognition (GCPR)",
+    "extra": {
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7117960874",
+      "Scholar": "q9zQhj8AAAAJ:7PzlFSSx8tAC",
+      "Venue": "DAGM German Conference on Pattern Recognition, 237-250, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "German Conference on Pattern Recognition (GCPR)"
+  }
+}
