@@ -2,13 +2,16 @@
   "custom": {
     "groups": [
       "liu"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "AAAI",
     "extra": {
       "Citations@2026-06-01": "30",
       "Scholar": "73IbXtsAAAAJ:35N4QoGY0k4C"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "AAAI Conference on Artificial Intelligence"
   }
 }
