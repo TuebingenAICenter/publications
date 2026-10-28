@@ -2,14 +2,15 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "Advances in Neural Information Processing Systems 37",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 37"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

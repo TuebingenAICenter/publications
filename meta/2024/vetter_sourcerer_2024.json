@@ -20,7 +20,7 @@
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/a1caa7bf30226ac9370889d00cbd74da-Paper-Conference.pdf"
       }
     ],
-    "conferenceName": "Advances in Neural Information Processing Systems 37 (NeurIPS 2024)",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "Editors": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
@@ -41,6 +41,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 37 (NeurIPS 2024)"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
