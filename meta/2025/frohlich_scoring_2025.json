@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "williamson"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "We move beyond law invariance and conduct a fundamental investigation of imprecise probabilities from a generalized frequentist viewpoint. Here, we challenge the assumption that a precise probability always suffices to capture the aggregate regularity of a data sequence, and show how imprecise probability naturally arises in the general case. To this end, we study imprecision under various data models. We furthermore propose a general framework for the evaluation of imprecise forecasts under such data models. Specifically, we develop viable notions of proper scoring rules and calibration for imprecise probabilities, generalizing their traditional correspondences.",
+    "archive": "TOBIAS-lib",
+    "archiveLocation": "http://hdl.handle.net/10900/171001",
+    "callNumber": "arXiv:2410.23001",
+    "extra": {
+      "Archive ID": "urn:nbn:de:bsz:21-dspace-1710018",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W4404342962",
+      "Part of the dissertation": "Imprecise Probabilities in Machine Learning: Structure and Semantics",
+      "Repository": "TOBIAS-lib",
+      "Scholar": "G4MBruQAAAAJ:m1aD9PlKDecC",
+      "Venue": "arXiv preprint arXiv:2410.23001, 2024"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "TOBIAS-lib"
+  }
+}
