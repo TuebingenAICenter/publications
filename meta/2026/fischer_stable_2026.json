@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Estimating unobserved forces in mechanistic systems is a central task of scientific machine learning. Approximate Gaussian filtering methods that synthesize mechanistic and empirical information have shown remarkable capacity in jointly identifying latent processes together with the system state in a single forward-backward pass. The resulting latent force ODE filter framework channels information from observational data specifically into the unknown parts of the system. This work addresses open questions about calibration and stability of the method. We show that the joint posterior over state and force is the reweighted conventional latent force posterior. This uncovers a crucial dependence of the stability of the method on the prior variance of the system state, which effectively controls the flow of information from observations to the latent force through the mechanistic system. From this insight, we construct an improved algorithm that provides stable and calibrated plug-and-play inference. We demonstrate the improved framework on several simulated experimental settings.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.33939",
+    "callNumber": "arXiv:2610.33939",
+    "extra": {
+      "Archive ID": "2610.33939",
+      "Citations@2026-11-01": "0",
+      "OpenAlex": "W7224137955",
+      "Repository": "GitHub",
+      "Scholar": "UeG5w08AAAAJ:cWzG1nlazyYC",
+      "Venue": "arXiv preprint arXiv:2610.33939, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
