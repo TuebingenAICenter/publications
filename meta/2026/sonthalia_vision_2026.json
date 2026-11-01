@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "joon"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Do vision models encode the transition 2→3 the same way whether it appears in handwritten digits or in hand gestures, and do they “understand” that clean→dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (LRH) answers this for language models: concept changes correspond to directions in (language) embedding space. In vision, the same concept can manifest in visually unrelated “regimes” that rarely co-occur: images of digits and hands do not share much in common in pixel space. To understand whether vision models still encode the underlying abstract concepts, we study 46 vision encoders across architectures, training objectives, and scales, on 10 concept families including numerosity, age, object identity, and MIT-States attributes. Within each regime, we find statistically significant concept directions near-universally across our tested models. However, two distinct regimes do not always share the same concept direction. Several models learn multiple linear structures for the same concept transition, split across regimes. We call this phenomenon “fragmented linearity”: strong local linearity coexisting with near-absent global linearity. Fragmentation is, however, not fixed: models with stronger local linearity progressively escape it (local-global linearity correlated with τ ∈ [0.38, 0.89] across all concepts), and where global linearity does emerge, concept directions can transfer as linear probes across regimes.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.35857",
+    "extra": {
+      "Archive ID": "arXiv:2610.35857",
+      "Scholar": "kmXOOdsAAAAJ:UHK10RUVsp4C",
+      "Venue": "arXiv preprint arXiv:2610.35857, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
