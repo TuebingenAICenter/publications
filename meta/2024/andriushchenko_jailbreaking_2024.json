@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models (LLMs) are typically aligned to be helpful and harmless. However, recent works have shown that these models can be jailbroken, i.e., prompted to produce harmful content. In this paper, we show that leading safety-aligned LLMs (including GPT-4, Claude 3, and Llama 3) are vulnerable to simple adaptive attacks. We propose a simple yet effective attack method that leverages the model's own reasoning capabilities to bypass safety filters. Our method, which we call \"Adaptive Jailbreak\", involves a two-step process: first, we prompt the model to generate a benign reasoning chain that leads to the harmful content; second, we use this reasoning chain to guide the model to produce the harmful output. We demonstrate that our attack is highly effective across a range of models and benchmarks, and we discuss potential defenses.",
+    "archive": "arXiv",
+    "archiveLocation": "2404.02151",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "551",
+      "Citations@2026-11-01": "722",
+      "Scholar": "ZNtuJYoAAAAJ:RHpTSmoSYBkC",
+      "Venue": "International Conference on Learning Representations (ICLR)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}
