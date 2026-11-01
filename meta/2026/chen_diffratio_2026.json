@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2502.08005",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-11-01": "0",
+      "OpenAlex": "W4407569633",
+      "Scholar": "DZ-fHPgAAAAJ:RBGOXS4gXTcC",
+      "Venue": "arXiv preprint arXiv:2502.08005, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
+  }
+}
