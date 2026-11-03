@@ -1,0 +1,45 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Predicting masked from visible parts of an image is a powerful self-supervised approach for visual representation learning. However, the common practice of masking random patches of pixels exhibits certain failure modes, which can prevent learning meaningful high-level features, as required for downstream tasks. We propose an alternative masking strategy that operates on a suitable transformation of the data rather than on the raw pixels. Specifically, we perform principal component analysis and then randomly mask a subset of components, which accounts for a fixed ratio of the data variance. The learning task then amounts to reconstructing the masked components from the visible ones. Compared to local patches of pixels, the principal components of images carry more global information. We thus posit that predicting masked from visible components involves more high-level features, allowing our masking strategy to extract more useful representations. This is corroborated by our empirical findings which demonstrate improved image classification performance for component over pixel masking. Our method thus constitutes a simple and robust data-driven alternative to traditional masked image modeling approaches.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2502.06314",
+    "extra": {
+      "Archive ID": "2502.06314",
+      "Citations@2026-06-01": "2",
+      "Citations@2026-11-03": "2",
+      "OpenAlex": "W4407358712",
+      "Repository": "GitHub",
+      "Scholar": "DZ-fHPgAAAAJ:SOSuX3g8JewC",
+      "Venue": "arXiv preprint arXiv:2502.06314, 2025"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "NeurIPS",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.06314'>https://arxiv.org/abs/2502.06314</a><br><a href='https://www.research-collection.ethz.ch/items/0880232f-adb1-4303-9a46-3a9841847cc7'>https://www.research-collection.ethz.ch/items/0880232f-adb1-4303-9a46-3a9841847cc7</a><br><a href='https://alicebizeul.github.io/'>https://alicebizeul.github.io/</a><br><a href='https://dblp.org/pid/259/0609.html'>https://dblp.org/pid/259/0609.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 0</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>Publication Title: arXiv (Cornell University) Publisher: MPI-IS</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
