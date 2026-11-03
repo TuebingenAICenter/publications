@@ -2,15 +2,19 @@
   "custom": {
     "groups": [
       "bamler"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
+    "abstractNote": "The field of deep generative modeling has grown rapidly in the last few years. With the availability of massive amounts of training data coupled with advances in scalable unsupervised learning paradigms, recent large-scale generative models show tremendous promise in synthesizing high-resolution images and text, as well as structured data such as videos and molecules. However, we argue that current large-scale generative AI models exhibit several fundamental shortcomings that hinder their widespread adoption across domains. In this work, our objective is to identify these issues and highlight key unresolved challenges in modern generative AI paradigms that should be addressed to further enhance their capabilities, versatility, and reliability. By identifying these challenges, we aim to provide researchers with insights for exploring fruitful research directions, thus fostering the development of more robust and accessible generative AI solutions.",
+    "archive": "arXiv",
+    "archiveLocation": "2403.00025",
     "extra": {
       "Citations@2026-06-01": "15",
+      "Citations@2026-11-03": "23",
       "OpenAlex": "W4392425499",
-      "Scholar": "LwvdNAgAAAAJ:qUcmZB5y_30C"
+      "Scholar": "LwvdNAgAAAAJ:qUcmZB5y_30C",
+      "Venue": "arXiv preprint arXiv:2403.00025, 2024"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper"
   }
 }
