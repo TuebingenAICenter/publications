@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "groups": [
+      "geiger"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "As ideation agents become more capable, evaluating them poses an increasing challenge. LLM-as-a-judge approaches are brittle and gameable, while human evaluation is expensive and hard to scale. To address this, we introduce HorizonBench, an evaluation methodology leveraging future scientific discoveries. HorizonBench uses published papers as ground truth for ideation quality. Specifically, ideation agents pretraining and context retrieval data are strictly constrained to pre-publication knowledge, and scored on how well their predicted ideas align with subsequently published work. Using HorizonBench, we conduct the first unified comparison of five published ideation agents across multiple frontier model backbones. We verify that our soft recall metric captures meaningful ideation quality aligned to human judgement via a user study with 51 domain experts. We then uncover a surprising finding: a naïve baseline that receives only the research goal as an input consistently matches or outperforms all existing agents that require retrieval or multi-step reasoning, highlighting the importance of the research goal for ideation. Based on this result, we develop OSCAR, an ideation agent that distils retrieved papers into insights and explicitly reinforces the research goal in each step of the pipeline. OSCAR outperforms all evaluated agents on HorizonBench.",
+    "conferenceName": "Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL)"
+  }
+}
