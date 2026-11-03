@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "mendler-duenner"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "On many learning platforms, the optimization criteria guiding model training reflect the priorities of the designer rather than those of the individuals they affect. Consequently, users may act strategically to obtain more favorable outcomes. While past work has studied strategic user behavior on learning platforms, the focus has largely been on individual strategic responses to a deployed model, without considering the behavior of other users. In contrast, look-ahead reasoning takes into account that user actions are coupled, and---at scale---impact future predictions. Within this framework, we first formalize level-k thinking, a concept from behavioral economics, where users aim to outsmart their peers by looking one step ahead. We show that, while convergence to an equilibrium is accelerated, the equilibrium remains the same, providing no benefit of higher-level reasoning for individuals in the long run. Then, we focus on collective reasoning, where users take coordinated actions by optimizing through their joint impact on the model. By contrasting collective with selfish behavior, we characterize the benefits and limits of coordination; a new notion of alignment between the learner's and the users' utilities emerges as a key concept. Look-ahead reasoning can be seen as a generalization of algorithmic collective action; we thus offer the first results characterizing the utility trade-offs of coordination when contesting algorithmic systems.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.14745",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
+    "extra": {
+      "Citations@2026-06-01": "2",
+      "Citations@2026-11-03": "3",
+      "Reporter": "NeurIPS 2025, 2025",
+      "Scholar": "UqtDdZUAAAAJ:RGFaLdJalmkC",
+      "Venue": "NeurIPS 2025, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2511.14745'>https://arxiv.org/abs/2511.14745</a><br><a href='https://neurips.cc/virtual/2025/poster/119768'>https://neurips.cc/virtual/2025/poster/119768</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
+  }
+}
