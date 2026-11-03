@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Introducimos Heads of Security (HoS), una defensa contra la inyección de indicaciones que impone la separación entre instrucciones y datos mediante un pequeño conjunto de compuertas de atención aprendidas por cabeza. HoS aprende cómo cada cabeza debe redistribuir la atención entre tokens de confianza y tokens no confiables, permitiendo que los modelos razonen sobre contenido no confiable sin seguir indicaciones inyectadas. Evaluamos HoS en Llama-3.3-70B-Instruct y GPT-OSS-20B. Lo comparamos con SecAlign++, una defensa de última generación basada en afinamiento, y con ASIDE, una defensa que, como la nuestra, incorpora la separación entre instrucciones y datos en la arquitectura del modelo. Demostramos que HoS ofrece mayor robustez frente a ataques adaptativos, mejor rendimiento en benchmarks estándar de utilidad y iguala el rendimiento superior en benchmarks estándar de inyección de indicaciones en entornos agénticos.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.37657",
+    "callNumber": "arXiv:2610.37657",
+    "extra": {
+      "Archive ID": "2610.37657",
+      "Citations@2026-11-03": "0",
+      "OpenAlex": "W7224122670",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:a3BOlSfXSfwC",
+      "Venue": "arXiv preprint arXiv:2610.37657, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
