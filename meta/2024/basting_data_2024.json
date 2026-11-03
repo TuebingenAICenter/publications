@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this work we investigate learning the internal scales distribution in scale-equivariant CNNs, allowing them to adapt to unknown data scale distributions.",
+    "extra": {
+      "Format": "dataset",
+      "Repository": "4TU.ResearchData",
+      "Scholar": "0z0fNxUAAAAJ:txeM2kYbVNMC",
+      "Venue": "4TU. ResearchData Data Set, 2024"
+    },
+    "itemType": "dataset"
+  }
+}
