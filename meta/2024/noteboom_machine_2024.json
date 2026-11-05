@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multiple sclerosis (MS) is a chronic inflammatory disease of the central nervous system characterized by unpredictable clinical progression. Predicting individual disease trajectories is crucial for personalized treatment strategies. In this study, we investigate the potential of machine learning models to predict clinical progression in MS patients based on structural MRI data and clinical information. Our results demonstrate that machine learning models can effectively identify patients at risk of disability progression, providing a foundation for more tailored clinical management.",
+    "extra": {
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W4401571764",
+      "Scholar": "5cZa3SIAAAAJ:XiSMed-E-HIC"
+    },
+    "itemType": "preprint"
+  }
+}
