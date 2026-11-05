@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "herbrich"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We live in a world that is experiencing an unprecedented boom of AI applications that increasingly penetrate all sectors of private and public life, from education, media, medicine, and mobility to the industrial and professional workspace. As this world is simultaneously grappling with climate change, the climate effects and environmental implications of the development and use of AI have become an important subject of public and academic debate. In this paper, we aim to provide guidance on the climate related regulation for data centers and AI specifically, and discuss how to operationalize these requirements. We also highlight challenges and room for improvement, and make a number of policy proposals to this end. In particular, we propose a specific interpretation of the AI Act to bring reporting on the previously unaddressed energy consumption from AI inferences back into the scope. We also find that the AI Act fails to address indirect greenhouse gas emissions from AI applications. Furthermore, for the purpose of energy consumption reporting, we compare levels of measurement within data centers and recommend measurement at the cumulative server level. We also argue for an interpretation of the AI Act that includes environmental concerns in the mandatory risk assessments (sustainability risk assessment, SIA), and provide guidance on its operationalization. The EU data center regulation proves to be a good first step but requires further development by including binding renewable energy and efficiency targets for data centers. Overall, we make twelve concrete policy proposals, in four main areas: Energy and Environmental Reporting Obligations; Legal and Regulatory Clarifications; Transparency and Accountability Mechanisms; and Future Far-Reaching Measures beyond Transparency",
+    "extra": {
+      "Citations@2026-10-20": "18",
+      "OpenAlex": "W4403345363",
+      "Scholar": "RuvHkikAAAAJ:PVgj2kMGcgYC",
+      "Venue": "Computer Law & Security Review 61, 106326, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
