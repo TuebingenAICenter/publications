@@ -2,13 +2,16 @@
   "custom": {
     "groups": [
       "dax"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
+    "abstractNote": "We present constraints on the cosmic expansion rate and tests of gravitational-wave (GW) propagation using the fourth Gravitational-Wave Transient Catalog (GWTC-4.0). By analyzing the population of compact binary coalescences detected by the LIGO-Virgo-KAGRA network, we infer the Hubble constant and investigate potential deviations from general relativity in the propagation of GWs over cosmological distances. Our results provide an independent measurement of the expansion history of the universe and place stringent bounds on modified gravity theories that predict frequency-dependent or distance-dependent GW propagation effects.",
     "extra": {
       "Citations@2026-06-01": "17",
-      "Scholar": "VRBv6mEAAAAJ:ns9cj8rnVeAC"
+      "Citations@2026-10-28": "12",
+      "OpenAlex": "W7172494905",
+      "Scholar": "VRBv6mEAAAAJ:ns9cj8rnVeAC",
+      "Venue": "arXiv preprint arXiv:2509.04348, 2025"
     },
     "itemType": "journalArticle"
   }
