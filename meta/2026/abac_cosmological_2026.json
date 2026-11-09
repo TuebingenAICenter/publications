@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present the results of searches for a stochastic gravitational-wave background (SGWB) using data from the first four observing runs (O1–O4a) of the Advanced LIGO, Advanced Virgo, and KAGRA detectors. We find no evidence for an isotropic SGWB and place upper limits on the energy density of the background. These results are used to constrain various cosmological and high-energy physics models, including first-order phase transitions, cosmic strings, domain walls, stiff equations of state, axion inflation, and parity-violating gravity. We also discuss the implications for the population of compact binary coalescences.",
+    "extra": {
+      "Citations@2026-06-01": "4",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W4415910184",
+      "Scholar": "VRBv6mEAAAAJ:35N4QoGY0k4C",
+      "Venue": "Physical Review X 16 (4), 041023, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
