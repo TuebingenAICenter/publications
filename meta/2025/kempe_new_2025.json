@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "kuehne"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "New Frontiers in Associative Memories - spanning theory, practice, and applications and focused on positioning associative memory as a core component of modern machine learning.",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Citations@2026-10-20": "3",
+      "Scholar": "pxhCcH0AAAAJ:4fKUyHm3Qg0C",
+      "Venue": "ICLR 2025 Workshop Proposals, 2024"
+    },
+    "itemType": "conferencePaper"
+  }
+}
