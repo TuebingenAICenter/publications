@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder that affects millions of people worldwide. Early detection is crucial for effective management and treatment. However, the development of robust diagnostic models is often hindered by data privacy concerns and the fragmentation of medical data across different institutions. Federated learning (FL) offers a promising solution by enabling collaborative model training without the need to share raw patient data. In this study, we propose a secure federated learning framework for AD detection. We evaluate our approach on a multi-site dataset and demonstrate that it achieves competitive performance compared to centralized training while ensuring data privacy. Our results highlight the potential of FL to facilitate large-scale medical research while adhering to strict privacy regulations.",
+    "extra": {
+      "Citations@2026-10-20": "79",
+      "Scholar": "5cZa3SIAAAAJ:u_35RYKgDlwC",
+      "Venue": "Frontiers in aging neuroscience 16, 1324032, 2024"
+    },
+    "itemType": "journalArticle"
+  }
+}
