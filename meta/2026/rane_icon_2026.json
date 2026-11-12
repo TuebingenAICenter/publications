@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep neural networks often exploit spurious associations, a failure known as shortcut learning. Before deployment, models should therefore be audited for reliance on concepts such as acquisition artifacts and patient demographics. Current methods, including linear probes and concept activation vectors, measure concept reliance by asking whether each concept is decodable from a layer. We show that this framing is misleading: decodability reflects not only concept reliance but also correlations among concepts and the outcome in the auditing dataset. We reframe shortcut auditing as a decomposition of the variance of intermediary representations with Independent Canonical cONcepts (ICON). ICON quantifies the share of a layer's variance explained by each concept conditional on all other concepts and the outcome, and also reports the variance left unexplained. Because ICON explanations are comparable across layers, their trajectories distinguish concepts that drive predictions from those that are merely encoded in the representations. In simulated data with ground truth, ICON recovers concept importance more accurately than seven baselines. In skin-cancer and neuroimaging applications, it separates learned shortcuts from merely correlated concepts, which we confirm with independent validation checks.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2608.26083",
+    "extra": {
+      "Archive ID": "2608.26083",
+      "Original title": "ICON Decomposition: Auditing deep neural networks for shortcuts by decomposing layer-wise representations using concepts",
+      "Scholar": "5cZa3SIAAAAJ:hkOj_22Ku90C",
+      "Venue": "arXiv preprint arXiv:2608.26083, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
