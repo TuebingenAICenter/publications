@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Cognitive-behavioral therapy (CBT) is the first-line treatment for obsessive-compulsive disorder (OCD), yet a significant number of patients do not achieve remission or substantial symptom relief. This study aims to enhance the prediction of CBT outcomes in OCD by integrating demographic, clinical, and neuroimaging data using machine learning (ML) models. We conduct a comprehensive analysis on a well-characterized clinical sample, employing a rigorous validation scheme to avoid data leakage, and comparing multiple ML algorithms to minimize bias. Out of four different ML models trained on demographic and clinical data, structural MRI, and resting-state MRI functional connectivity data, no model was able to predict CBT success significantly above chance level in the present sample. Although clinical and demographic data enabled 64%-66% accuracy for predicting remission, this did not reach statistical significance after permutation testing. Pre-treatment symptom severity emerged numerically as the most promising predictor of remission, aligning with previous studies, but did not pass the significance threshold in the present study. Despite efforts to identify neuroimaging predictors, neither functional nor structural MRI features significantly contributed to the prediction models. These findings suggest that robust, individualized brain-based predictions for mental health outcomes remain challenging with the available data and sample size.",
+    "extra": {
+      "Scholar": "5cZa3SIAAAAJ:ZuybSZzF8UAC",
+      "Venue": "Scientific Reports 16 (1), 24542, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}

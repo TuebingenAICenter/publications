@@ -1,9 +1,8 @@
 {
   "custom": {
     "groups": [
-      "hein",
       "hennig",
-      "schoelkopf"
+      "hein"
     ],
     "mentions_ai_center": true
   },

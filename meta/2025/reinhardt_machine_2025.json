@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this study, we applied machine learning to data from a population-based cohort to identify multimodal markers that distinguish smokers from never smokers at different stages of smoking behaviour. We integrated data from the social environment, personality traits, and structural brain imaging (prefrontal cortex) to predict smoking status. Our findings suggest that a multifactorial model, combining environmental and neurobiological factors, provides a more accurate classification of smoking behaviours than models based on single domains. These results highlight the potential of machine learning to inform nuanced risk stratification and personalized interventions for smoking cessation.",
+    "extra": {
+      "Citations@2026-10-20": "2",
+      "Scholar": "5cZa3SIAAAAJ:1qzjygNMrQYC",
+      "Venue": "Addiction biology 30 (8), e70056, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}

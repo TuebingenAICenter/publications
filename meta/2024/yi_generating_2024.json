@@ -11,11 +11,13 @@
     "extra": {
       "Book Title": "Lecture notes in computer science",
       "Citations@2026-06-01": "0",
-      "OpenAlex": "W4394906575",
-      "Scholar": "6NjbexEAAAAJ:6XuKD3u7GOoC",
+      "Citations@2026-07-13": "17",
+      "OpenAlex": "W4402951594",
+      "Scholar": "6NjbexEAAAAJ:2oMuTuaXnloC",
       "Unverified pages": "246-263"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "European Conference on Computer Vision"
+    "proceedingsTitle": "European Conference on Computer Vision",
+    "seriesTitle": "Lecture Notes in Computer Science"
   }
 }

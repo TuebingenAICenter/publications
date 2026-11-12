@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Convolutional Neural Networks (CNNs) are frequently and successfully used in medical prediction tasks. They are often used in combination with transfer learning, leading to improved performance when training data for the task are scarce. The resulting models are highly complex and typically do not provide any insight into their predictive mechanisms, motivating the field of “explainable” artificial intelligence (XAI).",
+    "archive": "PMC",
+    "archiveLocation": "PMC10925627",
+    "extra": {
+      "Citations@2026-10-20": "20",
+      "Scholar": "5cZa3SIAAAAJ:zA6iFVUQeVQC",
+      "Venue": "Frontiers in Artificial Intelligence 7, 1330919, 2024"
+    },
+    "itemType": "journalArticle"
+  }
+}
