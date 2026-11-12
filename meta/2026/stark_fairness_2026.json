@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce an evidence classification scheme that integrates sample size screening and stability checks directly into the auditing process.",
+    "conferenceName": "Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+    "extra": {
+      "Scholar": "5cZa3SIAAAAJ:eq2jaN3J8jMC",
+      "Venue": "MICCAI Workshop on Fairness of AI"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  }
+}
