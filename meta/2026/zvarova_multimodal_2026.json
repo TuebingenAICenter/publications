@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We analyzed data from patients with Parkinson's disease treated with subthalamic deep brain stimulation to develop and validate a neuroimaging-informed model. This work has shown that accurate electrode placement and individual stimulation parameters influence the outcomes of subthalamic deep brain stimulation in Parkinson's disease. The imaging-informed model explained the expected variance at the group level and demonstrated potential for guiding stimulation.",
+    "extra": {
+      "Citations@2026-10-20": "3",
+      "Scholar": "5cZa3SIAAAAJ:J-pR_7NvFogC",
+      "Venue": "Annals of Neurology, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
