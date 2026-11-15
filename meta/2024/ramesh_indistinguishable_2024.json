@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Synaptic plasticity is thought to be critical for building and maintaining brain circuits. Models of plasticity, or plasticity rules, are typically designed by hand, and evaluated based on their ability to elicit similar neuron or circuit properties to ground truth. While this approach has provided crucial insights into plasticity mechanisms, it is limited in its scope by human intuition and cannot identify all plasticity mechanisms that are consistent with the empirical data of interest. In other words, focusing on individual hand-crafted rules ignores the potential degeneracy of plasticity mechanisms that explain the same empirical data, and may thus lead to inaccurate experimental predictions. Here, we use an unsupervised, adversarial approach to infer plasticity rules directly from neural activity recordings. We show that even in a simple, idealised network model, many mechanistically different plasticity rules are equally compatible with empirical data. Our results suggest the need for a shift in the study of plasticity rules, considering as many degenerate plasticity mechanisms consistent with data as possible, before formulating experimental predictions.",
+    "archive": "eLife",
+    "archiveLocation": "https://elifesciences.org/reviewed-preprints/94411",
+    "extra": {
+      "Archive ID": "10.7554/eLife.94411.1",
+      "Citations@2026-06-01": "4",
+      "Citations@2026-09-01": "1",
+      "OpenAlex": "W4392749956",
+      "Repository": "bioRxiv",
+      "Scholar": "FKOqtF8AAAAJ:yeKNu01O_4gC",
+      "Venue": "bioRxiv, 2023.11. 01.565168, 2023"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "eLife"
+  }
+}
