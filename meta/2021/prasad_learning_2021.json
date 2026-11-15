@@ -2,15 +2,16 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "2021 IEEE International Conference on Robotics and Automation (ICRA)",
+    "conferenceName": "ICRA",
     "extra": {
       "Event Place": "Xi’an, China (Hybrid Event)",
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "2021 IEEE International Conference on Robotics and Automation (ICRA)"
+    "proceedingsTitle": "IEEE International Conference on Robotics and Automation"
   }
 }

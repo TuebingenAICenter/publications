@@ -25,7 +25,7 @@
         "url": "https://arxiv.org/abs/2312.14150"
       }
     ],
-    "conferenceName": "European Conference on Computer Vision",
+    "conferenceName": "ECCV",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W4390137328",
@@ -64,6 +64,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "European Conference on Computer Vision (ECCV)"
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }

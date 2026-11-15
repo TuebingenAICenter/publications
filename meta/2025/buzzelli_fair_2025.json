@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "gehler"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The ColorChecker dataset is the most widely used dataset for evaluating and benchmarking illuminant-estimation algorithms.",
+    "extra": {
+      "Citations@2026-07-13": "2",
+      "Scholar": "mlSE-YwAAAAJ:35r97b3x0nAC",
+      "Venue": "Journal of Physics: Conference Series 3128 (1), 012014, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Introduction: Psychotherapy is an effective treatment for mental disorders, but a significant proportion of patients do not respond to treatment. Identifying these non-respondent patients early is a major challenge in clinical practice. The research unit 5187 PREACT (Precision Psychotherapy for Non-Respondent Patients: From Signatures to Predictions to Clinical Utility) aims to develop and validate predictive models for treatment response in psychotherapy. Methods: This study protocol describes the design and methods of the research unit, which integrates clinical, neuroimaging, and digital phenotyping data to identify signatures of non-response. The research unit comprises several subprojects focusing on different aspects of psychotherapy, including cognitive-behavioral therapy and psychodynamic therapy. The study will involve a large-scale longitudinal assessment of patients with various mental disorders. Discussion: The findings of the PREACT research unit are expected to provide a basis for precision psychotherapy, enabling clinicians to tailor treatment to individual patient needs and improve outcomes for non-respondent patients.",
+    "extra": {
+      "Citations@2026-10-20": "4",
+      "Scholar": "5cZa3SIAAAAJ:LPZeul_q3PIC",
+      "Venue": "BMJ open 15 (2), e094110, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}

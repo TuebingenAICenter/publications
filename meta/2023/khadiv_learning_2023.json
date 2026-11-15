@@ -2,13 +2,16 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "L4DC",
     "extra": {
       "Citations@2026-06-01": "10",
       "Scholar": "DZ-fHPgAAAAJ:dHIvahb7IAIC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Learning for Dynamics and Control"
   }
 }

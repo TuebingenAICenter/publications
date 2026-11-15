@@ -27,6 +27,7 @@
         "url": "https://aclanthology.org/2024.acl-long.437.pdf"
       }
     ],
+    "conferenceName": "ACL",
     "extra": {
       "Citations@2026-06-01": "23",
       "Editors": "Lun-Wei Ku and Andre Martins and Vivek Srikumar",
@@ -34,7 +35,7 @@
       "Publisher": "MPI-IS",
       "Scholar": "DZ-fHPgAAAAJ:Mjvec00rDE4C"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 166</p>",
@@ -56,6 +57,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Annual Meeting of the Association for Computational Linguistics"
   }
 }

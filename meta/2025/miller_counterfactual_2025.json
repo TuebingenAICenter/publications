@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "archive": "arXiv",
@@ -17,7 +18,7 @@
         "url": "https://arxiv.org/pdf/2506.05188?"
       }
     ],
-    "conferenceName": "Annual Conference on Neural Information Processing Systems (NeurIPS)",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "Event Place": "San Diego Convention Center and Mexico City",
@@ -32,6 +33,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

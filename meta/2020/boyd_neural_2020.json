@@ -2,13 +2,16 @@
   "custom": {
     "groups": [
       "bamler"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "1",
       "Scholar": "LwvdNAgAAAAJ:mVmsd5A6BfQC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

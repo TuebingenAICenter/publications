@@ -18,7 +18,7 @@
         "url": "https://openreview.net/pdf?id=Ad87VjRqUw"
       }
     ],
-    "conferenceName": "Twelfth International Conference on Learning Representations",
+    "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "1",
       "OpenAlex": "W4387946929",
@@ -32,6 +32,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the Twelfth International Conference on Learning Representations (ICLR)"
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }

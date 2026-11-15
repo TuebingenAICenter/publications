@@ -25,7 +25,7 @@
         "url": "http://arxiv.org/pdf/2405.06336v1"
       }
     ],
-    "conferenceName": "International Conference on Robotics and Automation (ICRA)",
+    "conferenceName": "ICRA",
     "extra": {
       "Citations@2026-06-01": "4",
       "OpenAlex": "W4401416671",
@@ -65,6 +65,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "International Conference on Robotics and Automation (ICRA)"
+    "proceedingsTitle": "IEEE International Conference on Robotics and Automation"
   }
 }

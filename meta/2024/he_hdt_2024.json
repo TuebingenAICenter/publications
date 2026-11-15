@@ -25,7 +25,7 @@
         "url": "http://arxiv.org/pdf/2407.08330v1"
       }
     ],
-    "conferenceName": "Conference on Language Modeling (COLM)",
+    "conferenceName": "COLM",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4400611724",
@@ -65,6 +65,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Conference on Language Modeling (COLM)"
+    "proceedingsTitle": "Conference on Language Modeling"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We found that personalized ML approaches substantially outperformed population-based models. The best model, however, only marginally exceeded the benchmark,",
+    "archive": "PMC",
+    "archiveLocation": "PMC13145394",
+    "extra": {
+      "Citations@2026-10-20": "1",
+      "Scholar": "5cZa3SIAAAAJ:eMMeJKvmdy0C",
+      "Venue": "Neuroscience Applied, 107006, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
