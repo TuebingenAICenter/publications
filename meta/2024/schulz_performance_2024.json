@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This study examines the impact of sample size on predicting cognitive and mental health phenotypes from brain imaging via machine learning.",
+    "extra": {
+      "Citations@2026-10-20": "80",
+      "Scholar": "5cZa3SIAAAAJ:xtRiw3GOFMkC",
+      "Venue": "Cell reports 43 (1), 2024"
+    },
+    "itemType": "journalArticle"
+  }
+}

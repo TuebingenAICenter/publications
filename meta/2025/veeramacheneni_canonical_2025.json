@@ -2,13 +2,16 @@
   "custom": {
     "groups": [
       "kuehne"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "6",
       "Scholar": "pxhCcH0AAAAJ:V3AGJWp-ZtQC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Machine Learning"
   }
 }

@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "conferenceName": "IROS",
@@ -23,6 +24,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems"
   }
 }

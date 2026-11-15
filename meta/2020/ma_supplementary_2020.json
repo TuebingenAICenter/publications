@@ -5,11 +5,13 @@
     ]
   },
   "zotero": {
+    "conferenceName": "CVPR",
     "extra": {
       "Citations@2026-06-01": "363",
       "OpenAlex": "W3034757648",
       "Scholar": "OpXMNnMAAAAJ:EUQCXRtRnyEC"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }

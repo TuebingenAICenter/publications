@@ -19,7 +19,7 @@
         "url": "https://arxiv.org/pdf/2507.00006"
       }
     ],
-    "conferenceName": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "conferenceName": "ICCV",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W7160084382",
@@ -33,6 +33,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision"
   }
 }

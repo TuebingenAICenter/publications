@@ -24,12 +24,13 @@
         "url": "http://arxiv.org/pdf/2403.11237v2"
       }
     ],
-    "conferenceName": "3DV2025",
+    "conferenceName": "3DV",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4413558601",
       "Scholar": "OpXMNnMAAAAJ:LI9QrySNdTsC"
     },
-    "itemType": "conferencePaper"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on 3D Vision"
   }
 }
