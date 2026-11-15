@@ -16,7 +16,7 @@
         "url": "https://arxiv.org/pdf/2506.11938"
       }
     ],
-    "conferenceName": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "conferenceName": "EMNLP",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416035462",
@@ -31,6 +31,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+    "proceedingsTitle": "Conference on Empirical Methods in Natural Language Processing"
   }
 }

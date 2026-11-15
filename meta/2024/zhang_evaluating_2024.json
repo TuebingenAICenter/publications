@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "hein"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "extra": {

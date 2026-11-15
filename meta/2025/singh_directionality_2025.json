@@ -2,10 +2,11 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "conferenceName": "ICLR",
     "extra": {
       "Citations@2026-06-01": "5",
       "Scholar": "DZ-fHPgAAAAJ:F7Fv8X21nM8C"
@@ -28,6 +29,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }

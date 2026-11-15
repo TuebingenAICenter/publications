@@ -17,7 +17,7 @@
         "url": "https://arxiv.org/pdf/2504.17838"
       }
     ],
-    "conferenceName": "Conference on Robot Learning (CoRL)",
+    "conferenceName": "CoRL",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4416375268",
@@ -36,6 +36,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of The 9th Conference on Robot Learning (CoRL 2025)"
+    "proceedingsTitle": "Conference on Robot Learning"
   }
 }

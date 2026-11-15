@@ -17,7 +17,7 @@
         "url": "http://arxiv.org/pdf/2404.08679v2"
       }
     ],
-    "conferenceName": "28th International Conference on Artificial Intelligence and Statistics",
+    "conferenceName": "AISTATS",
     "extra": {
       "Citations@2026-06-01": "1",
       "Editors": "Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz",
@@ -38,7 +38,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics",
+    "proceedingsTitle": "International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

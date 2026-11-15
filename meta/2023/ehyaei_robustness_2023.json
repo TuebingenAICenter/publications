@@ -3,14 +3,15 @@
     "groups": [
       "samadi",
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+    "conferenceName": "FAccT",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+    "proceedingsTitle": "ACM Conference on Fairness, Accountability, and Transparency"
   }
 }

@@ -33,7 +33,9 @@ import json
 import re
 from pathlib import Path
 
-from zotero_rdf import BibtexParseError, from_bibtex, to_bibtex
+from zotero_rdf import BibtexParseError, from_bibtex
+
+from .bibtex import to_bibtex
 
 from . import sidecar
 

@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Counterfactual explanations are a popular tool for interpreting machine learning models. However, standard approaches often ignore the underlying causal structure of the data-generating process, leading to explanations that are physically impossible or causally inconsistent. In this work, we propose a novel framework for generating causally compliant counterfactuals based on the concept of backtracking counterfactuals. We leverage deep generative models to learn the structural causal model of the data and use it to perform backtracking, which allows us to find counterfactuals that are consistent with the causal mechanisms. We demonstrate the effectiveness of our approach on several synthetic and real-world datasets, showing that it produces more plausible and interpretable explanations than existing methods.",

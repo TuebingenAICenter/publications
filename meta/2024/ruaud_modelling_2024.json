@@ -25,7 +25,7 @@
         "url": "https://openreview.net/pdf?id=vBJZ93tvoE"
       }
     ],
-    "conferenceName": "41st International Conference on Machine Learning",
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "7",
       "Event Place": "Vienna, Austria",
@@ -44,7 +44,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "proceedingsTitle": "International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

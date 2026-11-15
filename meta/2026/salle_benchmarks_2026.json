@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi",
+      "andriushchenko",
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2610.31778",
+    "extra": {
+      "Archive ID": "2610.31778",
+      "Citations@2026-11-01": "0",
+      "OpenAlex": "W7223705248",
+      "Scholar": "ZNtuJYoAAAAJ:wbdj-CoPYUoC",
+      "Venue": "arXiv preprint arXiv:2610.31778, 2026"
+    },
+    "itemType": "preprint"
+  }
+}

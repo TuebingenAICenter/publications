@@ -25,6 +25,7 @@
         "url": "http://arxiv.org/pdf/2407.04699v2"
       }
     ],
+    "conferenceName": "ECCV",
     "extra": {
       "Book Title": "Lecture notes in computer science",
       "Citations@2026-06-01": "0",
@@ -33,7 +34,7 @@
       "Publisher": "University of T'ubingen",
       "Scholar": "SrVnrPcAAAAJ:0sTkTiv_uMkC"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 36</p>",
@@ -55,6 +56,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "European Conference on Computer Vision"
   }
 }

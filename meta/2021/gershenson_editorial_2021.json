@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Complexity and self-organization are two concepts that are deeply intertwined. While complexity is often associated with the difficulty of describing or predicting a system, self-organization refers to the emergence of order from local interactions. In this editorial, we introduce the Research Topic \"Complexity and Self-Organization,\" which brings together a collection of articles that explore these concepts from different perspectives, including robotics, artificial intelligence, and complex systems science.",

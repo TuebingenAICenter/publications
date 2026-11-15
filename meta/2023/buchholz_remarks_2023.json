@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Independent Component Analysis (ICA) is a fundamental problem in unsupervised learning. While it is well-known that ICA is generally not identifiable without further assumptions, recent work has shown that identifiability can be achieved in restricted function classes, such as those defined by neural networks. In this paper, we provide a systematic study of identifiability in such classes. We show that for a wide range of function classes, identifiability is equivalent to the injectivity of the mixing function on the support of the source distribution. We further provide conditions under which this injectivity holds, and discuss the implications for learning algorithms.",

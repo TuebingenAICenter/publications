@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We present a system for transferring dexterous manipulation policies from GPU-accelerated simulation to a real-world TriFinger robot. Our approach combines high-throughput parallel simulation with domain randomization and a robust control framework to bridge the reality gap. We demonstrate that policies trained in simulation can successfully perform complex manipulation tasks on the physical robot without any real-world fine-tuning.",

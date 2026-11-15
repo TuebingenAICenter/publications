@@ -27,7 +27,7 @@
         "url": "https://arxiv.org/pdf/2402.02870"
       }
     ],
-    "conferenceName": "International Conference on Machine Learning",
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "1",
       "Scholar": "mMifMdoAAAAJ:uDGL6kOW6j0C"
@@ -45,7 +45,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "proceedingsTitle": "International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

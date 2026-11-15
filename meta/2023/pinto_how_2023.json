@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Semi-private learning is a framework where a learner has access to a small amount of private data and a large amount of public data. While this setting is well-motivated, existing algorithms for semi-private learning often fail to fully leverage the public data, leading to suboptimal performance. In this work, we propose a new approach to semi-private learning that effectively utilizes public data to improve the privacy-utility trade-off. Our method is based on a novel combination of private empirical risk minimization and public data-driven regularization. We provide theoretical guarantees for our approach and demonstrate its effectiveness through extensive experiments on various datasets.",

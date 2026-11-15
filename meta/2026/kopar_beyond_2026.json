@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "This study examines the relationship between speech representations and the hierarchical structure of cognitive assessment in mild cognitive impairment. Utilizing 5,754 German neuropsychological assessment recordings, we evaluate six cognitive tasks across three score levels: task, domain, and global levels. We compare hand-crafted acoustic features with self-supervised learning (SSL) embeddings. Results show that although SSL representations generally outperform hand-crafted features at lower levels, this trend reverses for MCI classification. Furthermore, task-specific constraints influence performance: tasks with greater response freedom exhibit performance dilution as hierarchical levels increase, suggesting \"specialist\" representations, whereas the performance of highly structured tasks increases toward higher levels, suggesting \"generalist\" representations. These findings show links between task constraints and assessment hierarchy in automated clinical speech analysis.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2605.27189",
+    "extra": {
+      "Archive ID": "2605.27189",
+      "Citations@2026-10-20": "1",
+      "Repository": "arXiv",
+      "Scholar": "5cZa3SIAAAAJ:PELIpwtuRlgC",
+      "Venue": "arXiv preprint arXiv:2605.27189, 2026"
+    },
+    "itemType": "preprint"
+  }
+}

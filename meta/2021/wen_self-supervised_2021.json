@@ -2,14 +2,15 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
-    "conferenceName": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "conferenceName": "ICCV",
     "extra": {
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision (ICCV)"
+    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision"
   }
 }

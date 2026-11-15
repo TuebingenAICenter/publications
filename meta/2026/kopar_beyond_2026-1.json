@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Speech-based Alzheimer’s disease (AD) assessments increasingly rely on pretrained self-supervised learning (SSL) models that learn acoustic representations directly from raw audio, exposing the model to recording factors. We ask whether such factors are merely encoded in SSL representations or can systematically alter predictions. Using ADReSSo and three large SSL backbones, we apply controlled noise and reverberation interventions to participant-speech-only, non-speech, and full-recording audio. We combine layer-wise linear decoding, input- and representation-space interventions, and geometric alignment analysis to distinguish acoustic decodability from influence on AD prediction. Our results show that controlled acoustic interventions alter AD predictions across all three SSL backbones. Noise, despite showing no significant diagnostic-group difference in the original data, produces the strongest intervention effects. Importantly, these effects are systematically structured relative to the classifier’s decision direction, replicate on the held-out test set and reverse when the representation-space intervention direction is reversed. Together, these findings show that high predictive performance and the absence of a significant diagnostic-group difference in a measured acoustic factor are not sufficient for robustness. We argue that intervention-based robustness tests should become standard for trustworthy clinical speech models.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.01846",
+    "extra": {
+      "Archive ID": "2610.01846",
+      "Repository": "arXiv",
+      "Scholar": "5cZa3SIAAAAJ:W5xh706n7nkC",
+      "Venue": "arXiv preprint arXiv:2610.01846, 2026"
+    },
+    "itemType": "preprint"
+  }
+}

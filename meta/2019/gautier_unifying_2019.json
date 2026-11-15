@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "hein"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We provide a unifying Perron-Frobenius theorem for nonnegative tensors. Our approach is based on the study of multi-homogeneous maps and their spectral properties. We show that the Perron-Frobenius theorem for nonnegative tensors can be derived from the properties of these maps. We also provide a new characterization of the spectral radius of a nonnegative tensor and a new algorithm for its computation.",
