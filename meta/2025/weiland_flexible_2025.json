@@ -17,7 +17,7 @@
         "url": "https://arxiv.org/abs/2503.08343"
       }
     ],
-    "conferenceName": "The 28th International Conference on Artificial Intelligence and Statistics",
+    "conferenceName": "AISTATS",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4414578103",
@@ -31,7 +31,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of The 28th International Conference on Artificial Intelligence and Statistics",
+    "proceedingsTitle": "International Conference on Artificial Intelligence and Statistics",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

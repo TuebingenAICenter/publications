@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "berens"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "The use of proprietary data formats in medical research is a significant barrier to data sharing and reproducibility. We call for a shift towards open, standardized data formats to ensure that health data can be easily accessed, analyzed and reused by the scientific community.",

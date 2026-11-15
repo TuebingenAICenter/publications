@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose Spatially Structured Recurrent Modules (S2RMs), a novel architecture for processing visual information. S2RMs are composed of a set of recurrent modules that operate on local patches of an image. These modules are spatially arranged in a grid and communicate with their neighbors, allowing the model to learn spatial dependencies and capture long-range interactions. We demonstrate that S2RMs achieve state-of-the-art performance on several visual reasoning tasks and exhibit strong generalization capabilities to unseen spatial configurations.",

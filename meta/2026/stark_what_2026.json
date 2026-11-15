@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Deep learning classifiers applied to structural MRI achieve high performance detecting Alzheimer's disease, yet their failure modes are under-studied. In this work, we investigate persistent misclassifications—cases that are consistently misclassified across different model architectures and training runs. We analyze these cases to understand whether they represent inherent ambiguity in the data or systematic model biases.",
+    "conferenceName": "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+    "extra": {
+      "Scholar": "5cZa3SIAAAAJ:WqliGbK-hY8C",
+      "Series": "Lecture Notes in Computer Science",
+      "Venue": "medRxiv, 2026.07. 17.26358326, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+    "seriesTitle": "Lecture Notes in Computer Science"
+  }
+}

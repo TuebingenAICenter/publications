@@ -39,9 +39,9 @@ from zotero_rdf import (
     ZoteroCollection,
     ZoteroItem,
     from_bibtex,
-    to_bibtex,
 )
 
+from .bibtex import to_bibtex
 from .entry import split_entries, year_of
 
 MENTIONS_AI_CENTER_TAG = "mentionsAICenter"

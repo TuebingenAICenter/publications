@@ -28,7 +28,7 @@
         "url": "https://openreview.net/pdf?id=DL79HYCFFq"
       }
     ],
-    "conferenceName": "International Conference on Machine Learning",
+    "conferenceName": "ICML",
     "extra": {
       "Citations@2026-06-01": "5",
       "Editors": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
@@ -51,7 +51,7 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the 41st International Conference on Machine Learning",
+    "proceedingsTitle": "International Conference on Machine Learning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

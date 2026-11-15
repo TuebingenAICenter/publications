@@ -19,13 +19,14 @@
         "url": "https://arxiv.org/pdf/2311.13655"
       }
     ],
+    "conferenceName": "3DV",
     "extra": {
       "Citations@2026-06-01": "0",
       "OpenAlex": "W4389072050",
       "Publisher": "University of Tübingen",
       "Scholar": "OpXMNnMAAAAJ:ZfRJV9d4-WMC"
     },
-    "itemType": "journalArticle",
+    "itemType": "conferencePaper",
     "notes": [
       {
         "note": "<p>”num_citations”: ”2025-05-31”: 8</p>",
@@ -37,6 +38,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Conference on 3D Vision"
   }
 }

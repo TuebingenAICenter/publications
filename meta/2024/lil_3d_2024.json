@@ -2,14 +2,15 @@
   "custom": {
     "groups": [
       "black"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
-    "conferenceName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "conferenceName": "CVPR",
     "extra": {
       "Source": "group_webpage (black)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Proceedings 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    "proceedingsTitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   }
 }
