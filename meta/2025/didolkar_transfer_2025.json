@@ -20,7 +20,7 @@
         "url": "http://arxiv.org/pdf/2408.09162v1"
       }
     ],
-    "conferenceName": "The Thirteenth International Conference on Learning Representations (ICLR)",
+    "conferenceName": "ICLR",
     "extra": {
       "Archive ID": "2408.09162",
       "Citations@2026-06-01": "0",
@@ -56,6 +56,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "The Thirteenth International Conference on Learning Representations (ICLR)"
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }

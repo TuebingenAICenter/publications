@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "We propose a framework for kernel-based two-sample and independence testing for non-stationary random processes. By leveraging the theory of reproducing kernel Hilbert spaces (RKHS) of functions on time-series, we extend existing kernel tests to the non-stationary setting. We show that our tests are consistent and provide a theoretical analysis of their power. We demonstrate the effectiveness of our approach on synthetic and real-world data, including climate and financial time series.",

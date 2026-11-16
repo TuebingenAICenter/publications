@@ -17,7 +17,7 @@
         "url": "https://arxiv.org/abs/2504.14032"
       }
     ],
-    "conferenceName": "International Conference on Computer Vision (ICCV)",
+    "conferenceName": "ICCV",
     "extra": {
       "Citations@2026-06-01": "11",
       "Scholar": "SrVnrPcAAAAJ:0ngZmJvimKcC"
@@ -30,6 +30,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+    "proceedingsTitle": "IEEE/CVF International Conference on Computer Vision"
   }
 }

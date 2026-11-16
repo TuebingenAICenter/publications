@@ -21,7 +21,7 @@
         "url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/20/2025.10.20.683356.full.pdf"
       }
     ],
-    "conferenceName": "Advances in Neural Information Processing Systems 38",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Citations@2026-06-01": "0",
       "Event Place": "San Diego Convention Center and Mexico City",
@@ -38,6 +38,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems 38"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }

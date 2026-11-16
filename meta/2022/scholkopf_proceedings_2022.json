@@ -5,13 +5,13 @@
     ]
   },
   "zotero": {
-    "conferenceName": "Conference on Causal Learning and Reasoning",
+    "conferenceName": "CLeaR",
     "extra": {
       "Event Place": "Sequoia Conference Center, Eureka, CA, USA",
       "Source": "group_webpage (schoelkopf)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Proceedings of the First Conference on Causal Learning and Reasoning (CLeaR 2022)",
+    "proceedingsTitle": "Conference on Causal Learning and Reasoning",
     "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }

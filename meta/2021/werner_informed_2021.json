@@ -3,7 +3,8 @@
     "groups": [
       "hennig",
       "martius"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
     "abstractNote": "Symbolic regression aims to find a mathematical expression that fits a given dataset. While modern methods can handle large search spaces, they often struggle with noisy data and require large amounts of data to converge to the correct expression. We propose Informed Equation Learning (InformedEQL), a framework that incorporates domain knowledge into the symbolic regression process. InformedEQL allows for the inclusion of constraints on the structure of the learned equations, such as physical laws or known properties of the system. We demonstrate that InformedEQL can significantly improve the accuracy and interpretability of the learned models, especially in data-scarce or noisy regimes.",

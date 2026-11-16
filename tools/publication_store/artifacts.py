@@ -38,7 +38,9 @@ import sys
 import tempfile
 from pathlib import Path
 
-from zotero_rdf import BibtexParseError, export_to_rdf, from_bibtex, to_bibtex
+from zotero_rdf import BibtexParseError, export_to_rdf, from_bibtex
+
+from .bibtex import to_bibtex
 
 from . import entry, sidecar
 from .store import bib_paths, meta_path_for, meta_paths

@@ -9,7 +9,7 @@
     "abstractNote": "We present InfiniHuman, a generative model for creating realistic 3D humans with diverse appearances and precise geometric control. Previous 3D human generative models either lack realistic appearance or suffer from a lack of precise control. In this work, we address these limitations by modeling 3D humans with a latent 3D diffusion model on top of a canonical surface-aligned representation. To handle the diverse hairstyles and clothing (e.g. skirts, gowns, and coats) our method learns a localized, articulation-aware implicit representation which is aligned to the SMPL-X body surface. This alignment allows for precise control of 3D human generation with body shape and artist-defined poses. Compared to existing 3D human generative models, our method can generate highly diverse and realistic 3D humans. Our model also supports various downstream applications, including human animation, shape and pose-controlled generation, and text-to-3D human creation.",
     "archive": "arXiv",
     "archiveLocation": "2510.11650",
-    "conferenceName": "SIGGRAPH Asia 2025",
+    "conferenceName": "SIGGRAPH Asia",
     "extra": {
       "Citations@2026-06-01": "2",
       "OpenAlex": "W4417125861",
@@ -25,6 +25,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "SIGGRAPH Asia 2025 Conference Papers (SA '25)"
+    "proceedingsTitle": "ACM SIGGRAPH Asia Conference Papers"
   }
 }

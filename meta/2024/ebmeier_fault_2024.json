@@ -2,7 +2,8 @@
   "custom": {
     "groups": [
       "martius"
-    ]
+    ],
+    "mentions_ai_center": false
   },
   "zotero": {
     "abstractNote": "Solar thermal systems are essential for the transition to sustainable heating. However, their performance is often degraded by faults that remain undetected for long periods, leading to significant energy losses. We propose a novel approach for fault detection in solar thermal systems based on probabilistic reconstructions. Our method uses a deep generative model to learn the normal operating behavior of the system. By reconstructing the input data, the model provides a probabilistic measure of the reconstruction error, which serves as an anomaly score. We evaluate our approach on a real-world dataset from a solar thermal plant and demonstrate that it outperforms baseline methods in detecting various types of faults.",

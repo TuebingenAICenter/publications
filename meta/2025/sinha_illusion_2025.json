@@ -6,20 +6,23 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Does continued scaling of large language models (LLMs) yield diminishing returns? Real-world value often stems from the length of task an agent can complete. We start this work by observing the simple but counterintuitive fact that marginal gains in single-step accuracy can compound into exponential improvements in the length of a task a model can successfully complete. Then, we argue that failures of LLMs when simple tasks are made longer arise from mistakes in execution, rather than an inability to reason. We propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task. We find that larger models can correctly execute significantly more turns even when small models have 100% single-turn accuracy. We observe that the per-step accuracy of models degrades as the number of steps increases. This is not just due to long-context limitations – curiously, we observe a self-conditioning effect – models become more likely to make mistakes when the context contains their errors from prior turns. Self-conditioning does not reduce by just scaling the model size. In contrast, recent thinking models do not self-condition, and can also execute much longer tasks in a single turn. We conclude by benchmarking frontier thinking models on the length of task they can execute in a single turn. Overall, by focusing on the ability to execute, we hope to reconcile debates on how LLMs can solve complex reasoning problems yet fail at simple tasks when made longer, and highlight the massive benefits of scaling model size and sequential test-time compute for long-horizon tasks.",
+    "abstractNote": "Does continued scaling of large language models (LLMs) yield diminishing returns? In this work, we show that short-task benchmarks may give an illusion of slowing progress, as even marginal gains in single-step accuracy can compound into exponential improvements in the length of tasks a model can successfully complete. Then, we argue that failures of LLMs when simple tasks are made longer arise from mistakes in execution, rather than an inability to reason. So, we propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task. First, we find that larger models can correctly execute significantly more turns even when small models have near-perfect single-turn accuracy. We then observe that the per-step accuracy of models degrades as the number of steps increases. This is not just due to long-context limitations—curiously, we observe a self-conditioning effect—models become more likely to make mistakes when the context contains their errors from prior turns. Self-conditioning does not reduce by just scaling the model size. But, we find that thinking mitigates self-conditioning, and also enables execution of much longer tasks in a single turn. We conclude by benchmarking frontier thinking models on the length of tasks they can execute in a single turn. Overall, by focusing on the ability to execute, we hope to reconcile debates on how LLMs can solve complex reasoning problems yet fail at simple tasks when made longer, and highlight the massive benefits of scaling model size and sequential test-time compute for long-horizon tasks.",
     "archive": "arXiv",
     "archiveLocation": "2509.09677",
     "callNumber": "arXiv:2509.09677",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Archive ID": "2509.09677",
       "Citations@2026-06-01": "40",
-      "Conference Name": "NeurIPS (Workshop)",
+      "Citations@2026-10-28": "1",
+      "OpenAlex": "W4417071264",
       "Reporter": "arXiv preprint arXiv:2509.09677, 2025",
       "Repository": "arXiv",
       "Scholar": "206vNCEAAAAJ:ILKRHgRFtOwC",
+      "Venue": "International Conference on Learning Representations 2026, 35184-35211, 2026",
       "arxiv": "2509.09677 [cs]"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv",
     "notes": [
       {
@@ -27,6 +30,7 @@
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
