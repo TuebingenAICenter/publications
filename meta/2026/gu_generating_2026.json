@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The generation of novel and interesting scientific ideas is a cornerstone of scientific progress. Here, we present SciMuse, a system that generates personalized research ideas by combining a knowledge graph of 58 million scientific papers with a large language model. We evaluate the quality of these ideas through a large-scale study with more than 100 research group leaders who rated 4,400 AI-generated ideas. We find that the generated ideas are rated as highly interesting and novel, and that the system can be used to generate ideas that are both within and outside of the experts' own research areas. Our results demonstrate the potential of AI-assisted scientific idea generation and provide a framework for future research in this direction.",
+    "extra": {
+      "Citations@2026-11-23": "66",
+      "OpenAlex": "W4399116274",
+      "Scholar": "jzG7GC8AAAAJ:BmWJbWwHJAwC",
+      "Venue": "Proceedings of the National Academy of Sciences 123 (46), e2611349123, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
