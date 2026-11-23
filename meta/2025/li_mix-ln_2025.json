@@ -2,20 +2,22 @@
   "custom": {
     "groups": [
       "liu"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
-    "abstractNote": "Layer Normalization (LN) is a critical component in Transformer architectures. Existing variants, primarily Pre-LN and Post-LN, exhibit a fundamental trade-off: Pre-LN is stable for training but often underperforms in terms of final model quality, while Post-LN achieves better performance but suffers from training instability, especially in deeper models. In this paper, we propose Mix-LN, a novel normalization strategy that dynamically combines the benefits of both Pre-LN and Post-LN. By integrating a learnable mixing mechanism, Mix-LN allows the model to adaptively leverage the stability of Pre-LN in early layers and the superior performance of Post-LN in deeper layers. We provide theoretical insights into why this combination is effective and conduct extensive experiments across various tasks, including language modeling and vision tasks. Our results demonstrate that Mix-LN consistently outperforms both Pre-LN and Post-LN, enabling the training of significantly deeper models without sacrificing stability or performance.",
+    "abstractNote": "Layer Normalization (LN) is a critical component in modern Transformer architectures. While Pre-LN is widely adopted for its training stability, it often suffers from performance degradation in very deep models compared to Post-LN. Conversely, Post-LN offers better performance but is notoriously difficult to train. In this paper, we propose Mix-LN, a simple yet effective approach that combines the benefits of both Pre-LN and Post-LN. By strategically interleaving Pre-LN and Post-LN layers, Mix-LN stabilizes the training process while unleashing the potential of deeper layers. We demonstrate the effectiveness of Mix-LN across various model scales and tasks, showing consistent improvements over standard Pre-LN and Post-LN baselines.",
     "archive": "arXiv",
     "archiveLocation": "2412.13795",
-    "conferenceName": "ICLR",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "64",
+      "Citations@2026-11-23": "32",
+      "OpenAlex": "W4405626662",
       "Scholar": "73IbXtsAAAAJ:OU6Ihb5iCvQC",
+      "Venue": "ICLR 2025; arXiv preprint arXiv:2412.13795, 2025",
       "arXiv": "2412.13795"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "International Conference on Learning Representations"
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
