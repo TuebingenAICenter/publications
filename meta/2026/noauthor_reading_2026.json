@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Transformers rely on positional encodings to process sequential data, yet how these encodings interact with learned representations remains poorly understood. We introduce a framework to interpret positional coupling in Transformers by leveraging diffusion scores—gradients of the log-density of the model's internal representations. By analyzing the geometry of these scores, we show that positional information is not merely an additive bias but a structural constraint that shapes the manifold of hidden states. We demonstrate that our method can identify specific layers where positional information is integrated and quantify the degree of coupling between position and content. Our approach provides a post-hoc interpretability tool that requires no architectural modifications and is applicable to a wide range of pre-trained models.",
+    "archive": "OpenReview",
+    "conferenceName": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NeurIPS)"
+  }
+}
