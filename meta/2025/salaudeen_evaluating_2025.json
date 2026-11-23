@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We distinguish between two often-conflated uses of datasets: evaluating methods, which compares algorithms under controlled conditions, and evaluating models, which assesses the capabilities of a fixed model. Method evaluation emphasizes relative rankings and is robust to model-independent distortions, while model evaluation requires valid absolute scores but can be biased by contamination or task mismatch. Using simple formulations and synthetic experiments, we demonstrate how this conflation can reverse method rankings and misrepresent model capabilities, leading to misleading leaderboards and a flawed understanding of a models' true capabilities. We conclude with recommendations for designing and interpreting state-of-the-art evaluations, grounded in the critical distinction between methods and models.",
+    "conferenceName": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "extra": {
+      "Workshop": "Evaluating the Evolving LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Neural Information Processing Systems (NeurIPS)"
+  }
+}
