@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present Lodos, a lightweight, GPU-accelerated simulator designed for contact-rich interactions with detailed meshes. Lodos leverages a primal formulation of the exact frictional contact problem, enabling efficient and accurate simulation of complex rigid-body systems. By exploiting massive parallelism on the GPU, Lodos achieves high simulation throughput, making it suitable for large-scale reinforcement learning and robotics applications.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2611.08872",
+    "extra": {
+      "Archive ID": "2611.08872",
+      "Citations@2026-11-23": "1",
+      "OpenAlex": "W7225653579",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:IRz6iEL74y4C",
+      "Venue": "arXiv preprint arXiv:2611.08872, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
