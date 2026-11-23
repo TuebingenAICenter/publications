@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The autoPET challenge was organized to benchmark state-of-the-art algorithms for fully automated lesion segmentation in whole-body 18F-fluorodeoxyglucose (FDG) PET/CT imaging. The challenge provided a large-scale, multi-center dataset of 1,014 patients with various oncologic diseases. A total of 30 teams participated, submitting a wide range of deep learning-based approaches. The winning solutions achieved high segmentation performance, with Dice similarity coefficients of up to 0.75 for lesion segmentation. The results demonstrate the potential of deep learning for automated lesion segmentation in oncologic PET/CT and provide a baseline for future research in this field.",
+    "extra": {
+      "Citations@2026-06-01": "59",
+      "Citations@2026-10-20": "97",
+      "OpenAlex": "W4403889525",
+      "Scholar": "DZ-fHPgAAAAJ:L3-De8om2qsC"
+    },
+    "itemType": "journalArticle"
+  }
+}
