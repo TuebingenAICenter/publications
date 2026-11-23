@@ -5,7 +5,10 @@
     ]
   },
   "zotero": {
+    "abstractNote": "KI zeigt in vielen Bereichen der Medizin bereits eine hohe diagnostische Präzision. In der Psychiatrie bleibt sie jedoch hinter den Erwartungen zurück. Dies liegt vor allem an der hohen Symptomheterogenität, der mangelnden diagnostischen Reliabilität und der Komplexität psychiatrischer Erkrankungen. Dennoch bietet KI das Potenzial, die psychiatrische Diagnostik und Therapie durch die Integration multimodaler Daten und die Identifikation neuer Biomarker zu verbessern.",
     "extra": {
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7130381997",
       "Scholar": "5cZa3SIAAAAJ:wbdj-CoPYUoC",
       "Venue": "Nervenheilkunde 45 (03), 104-105, 2026"
     },
