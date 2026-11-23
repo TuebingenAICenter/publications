@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "ludwig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Standard weather forecast evaluations focus on the forecaster's perspective and on a statistical assessment comparing forecasts and observations. In practice, however, forecasts are used to make decisions, so it seems natural to take the decision-maker's perspective and quantify the value of a forecast by its ability to improve decision-making. Decision calibration provides a novel framework for evaluating probabilistic forecast performance at the decision level rather than the forecast level. We evaluate decision calibration to compare a Machine Learning and a classical numerical weather prediction model on various weather-dependent decision tasks, though the framework is applicable to any set of forecast models. We find that model performance at the forecast level does not reliably translate to performance in downstream decision-making: some performance differences only become apparent at the decision level, and even among seemingly similar decision tasks, model rankings can change. Our results confirm that typical forecast evaluations are insufficient for selecting the optimal forecast model for a specific decision task.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2512.14779",
+    "extra": {
+      "Archive ID": "2512.14779",
+      "Citations@2026-10-20": "2",
+      "Note": "The title was updated to match the official arXiv submission title.",
+      "Repository": "arXiv",
+      "Scholar": "by3EWqIAAAAJ:dTyEYWd-f8wC",
+      "Venue": "arXiv preprint arXiv:2512.14779, 2025"
+    },
+    "itemType": "preprint"
+  }
+}
