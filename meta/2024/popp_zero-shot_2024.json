@@ -2,15 +2,20 @@
   "custom": {
     "groups": [
       "hein"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
+    "abstractNote": "Multi-modal foundation models such as CLIP have showcased impressive zero-shot capabilities. However, their applicability in resource-constrained environments is limited due to their large number of parameters and high inference time. While existing approaches have scaled down the entire CLIP architecture, we focus on training smaller variants of the image encoder, which suffices for efficient zero-shot classification. The use of synthetic data has shown promise in distilling representations from larger teachers, resulting in strong few-shot and linear probe performance. However, we find that this approach surprisingly fails in true zero-shot settings when using contrastive losses. We identify the exploitation of spurious features as being responsible for poor generalization between synthetic and real data. However, by using the image feature-based L2 distillation loss, we mitigate these problems and train students that achieve zero-shot performance which on four domain-specific datasets is on-par with a ViT-B/32 teacher model trained on DataCompXL, while featuring up to 92% fewer parameters.",
+    "archive": "arXiv",
+    "archiveLocation": "2404.16637",
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-10-20": "0",
       "OpenAlex": "W4395687128",
-      "Scholar": "0ZAb3tsAAAAJ:An6A6Jpfc1oC"
+      "Scholar": "0ZAb3tsAAAAJ:An6A6Jpfc1oC",
+      "Venue": "arXiv preprint arXiv:2404.16637, 2024"
     },
-    "itemType": "document"
+    "itemType": "journalArticle",
+    "libraryCatalog": "arXiv"
   }
 }
