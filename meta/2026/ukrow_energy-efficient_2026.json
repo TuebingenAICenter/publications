@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "herbrich"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Generating (pseudo-)random variates lies at the core of probabilistic machine learning and prediction algorithms and yet remains a major bottleneck due to its high computational and energy cost. In this paper, we introduce a general and scalable sampling strategy that enables fast and energy-efficient random variate generation from arbitrary distributions. Our approach is based on compressed lookup tables (cLUT) combined with a fast index sampling scheme. Using only a handful of fast and energy-efficient compute operations on simple array structures, we achieve superior speed, energy efficiency, and precision at near-optimal entropy cost compared to state-of-the-art techniques. Microbenchmarking our approach with a C implementation shows up to 40% savings in time and 50% in energy compared to state-of-the-art approaches. Compared to commonly employed Python samplers, we achieve a 100x time improvement.",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Scholar": "RuvHkikAAAAJ:3NQIlFlcGxIC",
+      "Venue": "International Conference on Learning Representations 2026, 89395-89420, 2026"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
