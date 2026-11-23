@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "TabPFN 2.5 extends in-context learning to real business-scale data, delivering state-of-the-art accuracy on datasets up to 50 000 rows and 2 000 features. It introduces distillation for production, compressing the transformer into a compact MLP or tree ensemble, and broader scale capabilities for domains like risk, marketing-mix, and clinical analytics.",
+    "conferenceName": "NeurIPS Workshop: AI for Tabular Data",
+    "extra": {
+      "Citations@2026-10-28": "2",
+      "Scholar": "DZ-fHPgAAAAJ:rlEvZsTixIQC",
+      "Venue": "EurIPS 2025 Workshop: AI for Tabular Data, 2025"
+    },
+    "itemType": "conferencePaper"
+  }
+}
