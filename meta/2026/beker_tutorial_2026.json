@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Contact modeling is a cornerstone of robotics, enabling the simulation and control of robots interacting with their environment. Complementarity-based models have emerged as a powerful framework for representing contact, friction, and impact, providing a mathematically rigorous foundation for handling the non-smooth nature of these phenomena. This tutorial provides a comprehensive overview of complementarity-based contact models, covering their mathematical formulation, numerical solution methods, and their application in robotics. We discuss the transition from classical rigid-body dynamics to complementarity systems, detail the formulation of the Linear Complementarity Problem (LCP) and its extensions, and review state-of-the-art solvers. Finally, we highlight current challenges and future directions in the field.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2611.26600",
+    "extra": {
+      "Archive ID": "2611.26600",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:mlAyqtXpCwEC",
+      "Venue": "arXiv preprint arXiv:2611.26600, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
