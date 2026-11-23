@@ -5,12 +5,13 @@
     ]
   },
   "zotero": {
-    "abstractNote": "In this manuscript, we identified failure modes of common XAI methods in their application to neuroimaging data, provided evidence that these failures stem from the specific structure of neuroimaging data and the way XAI methods interact with it, and proposed a framework for domain-specific validation to ensure safe application.",
+    "abstractNote": "Explainable AI (XAI) methods are increasingly used in neuroimaging to interpret deep learning models. However, their reliability in this domain remains poorly understood. We demonstrate that common XAI methods often produce misleading explanations when applied to neuroimaging data, driven by systematic failures related to the high dimensionality and spatial structure of brain images. We show that these failures can lead to false scientific conclusions. To address this, we propose a framework for domain-specific validation of XAI methods and provide recommendations for their safe application in neuroimaging research.",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2508.02560",
     "extra": {
       "Archive ID": "2508.02560",
       "Citations@2026-10-20": "10",
+      "Citations@2026-11-23": "11",
       "Repository": "arXiv",
       "Scholar": "5cZa3SIAAAAJ:V3AGJWp-ZtQC",
       "Venue": "arXiv preprint arXiv:2508.02560, 2025"
