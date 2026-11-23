@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present a case study of an 8-week experiment where a team of autonomous agents, powered by large language models, operated an open-model organisation. We demonstrate that agents can successfully perform complex, multi-step tasks, coordinate with each other, and manage organisational resources without human intervention. Our findings suggest that autonomous agents are capable of running organisations effectively, provided they are given clear objectives and a well-defined operational framework.",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:bnK-pcrLprsC",
+      "Venue": "https://horizon-labs.ai/, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
