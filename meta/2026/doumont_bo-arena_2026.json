@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hennig"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this paper, we introduce BO-Arena: an actively maintained software package for simple, efficient and reliable benchmarking of high-dimensional Bayesian optimisation. Benchmarking practices in high-dimensional Bayesian optimisation often fail to ensure strong baselines and correct implementations, leading to a lack of reproducibility and comparability. BO-Arena addresses these issues by providing a standardised, extensible, and easy-to-use framework for evaluating Bayesian optimisation algorithms.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2611.10198",
+    "extra": {
+      "Archive ID": "2611.10198",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225725780",
+      "Repository": "arXiv",
+      "Scholar": "UeG5w08AAAAJ:DJbcl8HfkQkC",
+      "Venue": "arXiv preprint arXiv:2611.10198, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
