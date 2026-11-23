@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "berens",
+      "bethge"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Functional cell type clustering is a fundamental task in systems neuroscience. However, the high dimensionality of neural responses and the limited duration of recordings make it challenging to identify cell types reliably. Here, we propose a method to identify the most discriminative stimuli for functional cell type clustering. Our approach leverages a generative model of neural responses to identify stimuli that maximize the separation between cell types in the latent space. The resulting most discriminative stimuli can be used to assign functional cell types fast and on the fly, without the need to train complex predictive models. We demonstrate the effectiveness of our method on recordings from the mouse retina and visual cortex, showing that it outperforms standard clustering approaches in terms of both accuracy and computational efficiency.",
+    "archive": "arXiv",
+    "archiveLocation": "2401.05342",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "14",
+      "Citations@2026-11-23": "8",
+      "OpenAlex": "W4390832681",
+      "Scholar": "0z0fNxUAAAAJ:QVtou7C4vgoC",
+      "Venue": "arXiv preprint arXiv:2401.05342, 2023"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
