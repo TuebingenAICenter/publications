@@ -13,11 +13,13 @@
     "extra": {
       "Archive ID": "2404.09741",
       "Citations@2026-06-01": "0",
+      "Citations@2026-11-23": "2",
       "OpenAlex": "W4394896403",
       "Repository": "arXiv",
-      "Scholar": "G4MBruQAAAAJ:x9X1S-hd97YC"
+      "Scholar": "G4MBruQAAAAJ:x9X1S-hd97YC",
+      "Venue": "arXiv preprint arXiv:2404.09741, 2024"
     },
-    "itemType": "document",
+    "itemType": "preprint",
     "libraryCatalog": "arXiv"
   }
 }
