@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this paper, we introduce InfiLoop, a loop-native residual connection that learns which past computations to retain and how much to accept.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2610.11570",
+    "extra": {
+      "Archive ID": "2610.11570",
+      "Repository": "arXiv",
+      "Scholar": "73IbXtsAAAAJ:nrtMV_XWKgEC",
+      "Venue": "arXiv preprint arXiv:2610.11570, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
