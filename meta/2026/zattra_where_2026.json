@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Modern state-space models owe much of their computational efficiency to their linear, often diagonal, dynamics. Classical recurrent neural networks instead allow nonlinear state-to-state interactions, which can be beneficial when memory updates need to depend on the past context. In this paper, we ask whether state feedback through a simple gate regulating memory updates can enhance the expressivity of diagonal state-space models. To investigate this question, we compare gates that depend on the current input, the recurrent state, or both. We establish a strict expressivity separation: for scalar models, state gating solves induction-head tasks for arbitrary vocabulary size and sequence length, whereas input gating fails on a finite instance under standard stability assumptions on the state transition matrix. Experiments show that state gating retains its advantage on induction-head tasks in higher-dimensional models, whereas input gating performs better on selective copying tasks. Together, our results show that even a simple, diagonal form of state-feedback gating can unlock capabilities unavailable to input-controlled models, while input and state gating offer complementary strengths and achieve the strongest overall performance when combined.",
+    "archive": "arXiv",
+    "archiveLocation": "2611.11336",
+    "extra": {
+      "Archive ID": "2611.11336",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225697191",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:fQNAKQ3IYiAC",
+      "Venue": "arXiv preprint arXiv:2611.11336, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
