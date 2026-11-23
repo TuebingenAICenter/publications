@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "macke"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Simulation-based inference (SBI) has become a powerful tool for performing Bayesian inference in models where the likelihood is intractable but simulation is possible. However, SBI often requires a large number of simulations, which can be prohibitively expensive for complex scientific models. Multifidelity methods address this by combining a large number of cheap, low-fidelity simulations with a small number of expensive, high-fidelity simulations. In this work, we introduce a novel multifidelity SBI framework that leverages Gaussian process surrogates to learn the relationship between fidelities. We demonstrate that our approach significantly reduces the computational budget required for accurate posterior estimation compared to standard SBI methods, while maintaining high fidelity accuracy. We validate our method on several challenging benchmarks, including a complex climate model and a high-dimensional neuroscience simulator.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.08416",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Archive ID": "2502.08416",
+      "Source": "group_webpage (macke)",
+      "arXiv": "2502.08416"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
