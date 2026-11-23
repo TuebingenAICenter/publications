@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Single-cell RNA sequencing (scRNA-seq) has become a cornerstone experimental technique in tissue biology, with gene expression data for over 100 million cells now available in public repositories. These methods learn denoised, low-dimensional representations of single-cell transcriptomes that can then be used for clustering, visualization, and downstream analysis. We organize the space of models to get scRNA-seq embeddings into factor models, autoencoders/VAEs, contrastive learning, and transformer-based foundation models, and discuss benchmarks and open problems.",
+    "extra": {
+      "Source": "group_webpage (berens)"
+    },
+    "itemType": "journalArticle"
+  }
+}
