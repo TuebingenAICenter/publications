@@ -2,14 +2,19 @@
   "custom": {
     "groups": [
       "andriushchenko"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
-    "conferenceName": "ICLR",
+    "abstractNote": "Jailbreak attacks cause large language models (LLMs) to generate harmful, unethical, or otherwise objectionable content, despite safety alignment training. While many jailbreak attacks have been proposed, they often rely on complex, manually crafted prompts or computationally expensive optimization. In this work, we show that simple adaptive attacks are surprisingly effective at jailbreaking leading safety-aligned LLMs. We propose a simple yet powerful attack based on random search in the space of prompt templates, which we call TAP (Template-based Adaptive Prompting). We demonstrate that TAP can successfully jailbreak state-of-the-art models, including GPT-4 and Claude 3, with high success rates. Our results suggest that current safety alignment techniques are vulnerable to simple, adaptive strategies, and that more robust defenses are needed.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2404.02151",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "551",
-      "Scholar": "ZNtuJYoAAAAJ:RHpTSmoSYBkC"
+      "Citations@2026-11-23": "501",
+      "OpenAlex": "W4393946427",
+      "Scholar": "ZNtuJYoAAAAJ:RHpTSmoSYBkC",
+      "Venue": "ICLR 2025, 2025"
     },
     "itemType": "conferencePaper",
     "proceedingsTitle": "International Conference on Learning Representations"
