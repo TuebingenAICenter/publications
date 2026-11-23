@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Personal AI agents often act on underspecified instructions and use context such as previous conversations to decide how to proceed. This context may contain private preferences that influence the assigned task or the relation to other people. When asked by a third party to justify its choices, the agent might be conflicted between honesty, confidentiality and task completion. Prior work has studied these largely as separate problems. We study deception and leakage of private information together in a simulated company Slack workspace. There, four employees delegate a sprint staffing to their personal agents. From private messages, two of these agents learn that their employee avoids working with a particular colleague. Since the agents are asked to justify their task preferences and the true justification is confidential, the agent cannot simultaneously be honest, preserve confidentiality, and complete the staffing. We evaluate 9 open-weight and closed models. Of the 135 (out of 140) open-weight agents that pursue the avoidance preference, 107 either make false claims about task fit or logistics or cite a true consideration as if it were their actual reason. Confidentiality instructions reduce disclosure of the preference from 71% (none) to 29% (medium) to 1% (strong). However, the sprint staffing is often not completed anyway, since neither agent concedes. In their reasoning, agents engage in motivated reasoning by frequently acknowledging evidence against their claims and still concluding that the claims are not false. Our results indicate that agents can make false or misleading claims in a day-to-day task without being instructed to. This environment provides a testbed for deception monitors and studying how agents resolve value conflicts.",
+    "archive": "arXiv",
+    "archiveLocation": "2611.08312",
+    "extra": {
+      "Archive ID": "2611.08312",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225381862",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:NnTm98qLMbgC",
+      "Venue": "arXiv preprint arXiv:2611.08312, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
