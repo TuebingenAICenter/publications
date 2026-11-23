@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Standard identifiability theory assumes one-dimensional latent factors, but learned representations can encode latent information across multidimensional blocks whose internal coordinates are not uniquely determined. When such blocks are used to represent and intervene on higher-level concepts, it is unclear whether their causal meaning survives the transformations left unresolved by block-identifiability. We connect block-identifiability to constructive causal abstraction. We show that block-diagonal invertible transformations followed by compatible coordinate permutations form the maximal class that preserves every constructive causal abstraction built on those blocks. This guarantee assumes that the correspondence between blocks and concepts is updated with the representation. A small synthetic experiment with additive autoencoders shows that high-level interventions can be transferred between independently learned representations while approximately preserving their intended effects.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.LG",
+    "callNumber": "arXiv:2610.18155",
+    "extra": {
+      "Archive ID": "2610.18155",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7221755172",
+      "Repository": "arXiv",
+      "Scholar": "v-JL-hsAAAAJ:HE397vMXCloC",
+      "Venue": "arXiv preprint arXiv:2610.18155, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
