@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We introduce AgentHarm, a benchmark for measuring the harmfulness of LLM agents. AgentHarm includes 440 malicious tasks across 11 harm categories such as fraud and cybercrime. It measures potential misuse scenarios of LLMs and provides a standardized measure of harm potential, allowing for the comparison and evaluation of different LLMs.",
+    "archive": "arXiv",
+    "archiveLocation": "2410.09024",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "344",
+      "Citations@2026-11-01": "763",
+      "Scholar": "ZNtuJYoAAAAJ:NMxIlDl6LWMC",
+      "Venue": "International Conference on Learning Representations (ICLR)"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations"
+  }
+}
