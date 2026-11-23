@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "2610.32758",
+    "conferenceName": "Representations for the physical sciences (NEURIPS)",
+    "extra": {
+      "arXiv": "2610.32758"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Representations for the physical sciences"
+  }
+}
