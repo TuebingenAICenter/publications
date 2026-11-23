@@ -2,15 +2,24 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
+    "abstractNote": "Mechanistic interpretability aims to reverse-engineer the internal computations of neural networks. A major challenge is the dense nature of attention mechanisms, which often involve complex, distributed patterns that are difficult to interpret. We propose a post-training method to induce sparsity in the attention heads of pre-trained transformers. By applying a sparsity-inducing penalty during a short fine-tuning phase, we encourage attention heads to focus on a small subset of tokens, thereby simplifying the underlying circuits. We demonstrate that our method effectively sparsifies attention without significant performance degradation and facilitates the identification of interpretable circuits in language models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2512.05865",
+    "callNumber": "arXiv:2512.05865",
     "extra": {
+      "Archive ID": "2512.05865",
       "Citations@2026-06-01": "4",
-      "Scholar": "DZ-fHPgAAAAJ:Xr_kXds1DwcC"
+      "Citations@2026-10-20": "8",
+      "OpenAlex": "W4417144098",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:KR8-Jx_BTx0C",
+      "Venue": "arXiv e-prints, arXiv: 2512.05865, 2025"
     },
-    "itemType": "document",
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2512.05865'>https://arxiv.org/abs/2512.05865</a><br><a href='https://goatstack.ai/articles/2512.05865'>https://goatstack.ai/articles/2512.05865</a><br></p>",
