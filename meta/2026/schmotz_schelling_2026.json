@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We gave two independent agents the task to find each other and exchange a secret and did not tell them where to meet. Agents find each other and coordinate on the web in minutes. So Schelling coordination is already trivial for frontier LLMs. The main meeting point across different model families is ntfy.sh. Exotic meeting places include maps, web shops and open text canvases. Agents sometimes visit dead domains that an attacker could register. This can be used for stealing sensitive information from agents, as well as monitoring rogue agents.",
+    "extra": {
+      "Scholar": "ZNtuJYoAAAAJ:5ugPr518TE4C",
+      "Venue": "https://schelling-atlas.com/, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
