@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Large language models can recognize when they are being evaluated and change their behavior accordingly, undermining the reliability of safety benchmarks. Evaluation awareness (EA) is usually measured by having an LLM judge scan reasoning traces for explicit statements of recognition, but this signal is increasingly unreliable. Recent frontier-model system cards report a drop in verbalized rates between releases, which is indistinguishable from awareness that has gone unverbalized. Interpretability methods could detect such unverbalized evaluation awareness (UEA) in individual interactions, but lack instance-level ground truth. Asking the model alters the input, and dataset labels do not reveal whether it recognized a particular prompt as an evaluation. We address this gap with a model organism. Using synthetic document fine-tuning, SFT, and DPO, we train Qwen3.5-27B to emit a marker (a designated token) in its final response when it recognizes an evaluation, while suppressing the marker and verbalized awareness in its reasoning. The marker largely tracks the evaluation concept as it can be strongly modulated by evaluation framing in the system prompt. When not told whether it is being evaluated, the organism recognizes evaluations from test-question cues, mirroring what its base model often verbalizes. Using the marker as a label, we benchmark linear probes, the Jacobian Lens, and Activation Oracles, built on the base model and blind to the marker. None recovers the label reliably. These results suggest that current interpretability methods are not yet reliable UEA detectors, even when recognition relies on simple cues. Our model organism offers a testbed for improving them.",
+    "archive": "arXiv",
+    "archiveLocation": "2611.09945",
+    "extra": {
+      "Archive ID": "2611.09945",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225735224",
+      "Scholar": "QEiYbDYAAAAJ:vofGIMt6cyEC",
+      "Venue": "arXiv preprint arXiv:2611.09945, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
