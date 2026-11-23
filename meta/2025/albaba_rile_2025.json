@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Acquiring complex behaviors is essential for artificially intelligent agents, yet learning these behaviors in high-dimensional settings poses a significant challenge due to the vast search space. Traditional reinforcement learning (RL) requires extensive manual effort for reward function engineering. Inverse reinforcement learning (IRL) uncovers reward functions from expert demonstrations but relies on an iterative process that is often computationally expensive. Imitation learning (IL) provides a more efficient alternative by directly comparing an agent’s actions to expert demonstrations; however, in high-dimensional environments, such direct comparisons offer insufficient feedback for effective learning. We introduce RILe (Reinforced Imitation Learning), a framework that combines the strengths of imitation learning and inverse reinforcement learning to learn a dense reward function efficiently and achieve strong performance in high-dimensional tasks. RILe employs a novel trainer–student framework: the trainer learns an adaptive reward function, and the student uses this reward signal to imitate expert behaviors. By dynamically adjusting its guidance as the student evolves, the trainer provides nuanced feedback across different phases of learning. Our framework produces high-performing policies in high-dimensional tasks where direct imitation fails to replicate complex behaviors. We validate RILe in challenging robotic locomotion tasks, demonstrating that it significantly outperforms existing methods and achieves near-expert performance across multiple settings.",
+    "archive": "arXiv",
+    "archiveLocation": "2406.08472",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Citations@2026-10-28": "4",
+      "Presented at the 7th Robot Learning Workshop": "Towards Robots with Human-Level Abilities at ICLR 2025.",
+      "Scholar": "6NjbexEAAAAJ:YW75zINC-7AC",
+      "Venue": "arXiv preprint arXiv:2406.08472, 2024"
+    },
+    "itemType": "conferencePaper"
+  }
+}
