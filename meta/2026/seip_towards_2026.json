@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "hein"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The safety of LLM-based agents currently rests on alignment training and safety classifiers, neither of which can rule out that a sophisticated indirect prompt injection (IPI) goes through and causes significant harm. Recent work therefore builds agents with information-flow guarantees that rely on structured tool interfaces to interact with the environment. Computer Use Agents (CUAs) act visually on the computer screen, which does not provide a boundary between trusted first-party interfaces and untrusted, potentially attacker-authored content. Actions are equally ambiguous: a click may land on an application toolbar or a button controlled by an attacker. Treating the user as the source of trust and confirming each sensitive decision produces confirmation fatigue, with the risk of missing harmful actions. We introduce SA-CUA, a dual-LLM framework that generates a reliable trust boundary for CUAs by deriving conservative deterministic rules from the accessibility tree for unmasking trusted regions from the privileged LLM's screenshot, keeping trusted and untrusted content separated. Human interaction is only required for proper task specification in the beginning. During the task a robust endorsement channel allows values to pass from the untrusted to the trusted domain by verifying information via trusted channels. This allows the agent to autonomously handle tasks involving untrusted information. SA-CUA maintains much higher utility than CaMeL-CUA while keeping the attack success rate at zero.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.18508",
+    "extra": {
+      "Archive ID": "2610.18508",
+      "Scholar": "0ZAb3tsAAAAJ:4e5Qn2KL_jwC",
+      "Venue": "arXiv preprint arXiv:2610.18508, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
