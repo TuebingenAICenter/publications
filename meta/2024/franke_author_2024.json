@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this study, we systematically characterized how color is represented in the primary visual cortex (V1) of mice. Using large-scale neuronal recordings, we found that color-opponent response types are asymmetrically distributed across the mouse visual cortex, which supports superior color vision in the sky.",
+    "extra": {
+      "Article Number": "RP89996",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W4402278168",
+      "Scholar": "lPQLk3QAAAAJ:5ugPr518TE4C",
+      "Type": "journalArticle",
+      "Venue": "eLife 12, RP89996, 2024"
+    },
+    "itemType": "journalArticle"
+  }
+}
