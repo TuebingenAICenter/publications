@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "conferenceName": "ECCV",
+    "extra": {
+      "Code/Data": "https://dynhair.is.tue.mpg.de/"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "European Conference on Computer Vision"
+  }
+}
