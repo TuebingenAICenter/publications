@@ -2,19 +2,20 @@
   "custom": {
     "groups": [
       "liu"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
-    "abstractNote": "Large Language Model (LLM) pretraining is computationally expensive, primarily due to the massive number of iterations required for convergence. While existing techniques like learning rate schedulers and normalization layers help, they often struggle to maintain stable gradient flow throughout the training process, leading to suboptimal convergence rates. In this paper, we introduce Gradient-Preserving Activation Scaling (GPAS), a novel approach designed to accelerate the convergence of LLM pretraining by dynamically adjusting activation scales to preserve gradient magnitude. GPAS operates by monitoring the gradient variance across layers and applying a scaling factor that mitigates vanishing or exploding gradients without introducing significant computational overhead. We demonstrate the effectiveness of GPAS across various model architectures and scales, showing that it consistently achieves faster convergence and improved final performance compared to standard training baselines. Our extensive experiments on standard benchmarks confirm that GPAS is a robust and efficient solution for large-scale LLM training.",
+    "abstractNote": "Modern Large Language Models, such as the LLaMA, Qwen and DeepSeek series, predominantly adopt the Pre-LayerNorm (Pre-LN) Transformer architecture. While being stable during pretraining and scalable to large model sizes, Pre-LN suffers from an exponential growth in activation variance across layers, causing the shortcut to dominate over sub-layer outputs in the residual connection and limiting the learning capacity of deeper layers. To mitigate this issue, we propose Gradient-Preserving Activation Scaling (GPAS), a simple technique that can be used in combination with existing approaches. GPAS works by scaling down the intermediate activations while keeping their gradients unchanged. This leaves information in the activations intact, and avoids the gradient vanishing problem associated with gradient downscaling. Extensive experiments across various model sizes from 71M to 1B show that GPAS achieves consistent performance gains. Beyond enhancing Pre-LN Transformers, GPAS also shows promise in improving alternative architectures such as Sandwich-LN and DeepNorm, demonstrating its versatility and potential for improving training dynamics in a wide range of settings.",
     "archive": "arXiv",
     "archiveLocation": "2506.22049",
-    "conferenceName": "NeurIPS",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
+      "Citations@2026-10-20": "1",
       "Scholar": "73IbXtsAAAAJ:JoZmwDi-zQgC",
+      "Venue": "NeurIPS 2025; arXiv:2506.22049, 2025",
       "arXiv": "2506.22049"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
