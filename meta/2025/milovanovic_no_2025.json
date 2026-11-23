@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Pretrained large language models based on a variety of sequence modeling architectures (e.g. Transformers, Mamba, Hyena) are increasingly being applied beyond natural language processing (NLP). In genomics, they have shown potential to reveal intricate structures and dependencies within DNA sequences, particularly within non-coding regions. To guide a principled development of training methods and architectures in the genomics domain, in this work we examine the most common classes of sequence modeling architectures found in language models and further explore transfer-learning paradigms such as pretraining on large-scale external datasets as well as self pretraining (on the same data, using a reconstruction loss). In contrast to recent works, focusing specifically on finetuning large transformers, show that most recent recurrent models (Mamba) and implicit convolution based models (Hyena), that are increasingly used for genomic language models, do not offer an advantage over attention based Transformer models. To enable thorough and controlled comparisons, we adopt a fixed training pipeline and limit our experiments to relatively small-scale model -- an approach that still aligns well with the performance trends observed in recent studies.",
+    "conferenceName": "International Conference on Machine Learning (ICML)",
+    "extra": {
+      "Citations@2026-09-01": "1",
+      "Scholar": "xkuLyHoAAAAJ:3s1wT3WcHBgC",
+      "Venue": "ICML 2025 Generative AI and Biology (GenBio) Workshop, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "2nd Generative AI for Biology Workshop"
+  }
+}
