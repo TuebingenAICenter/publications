@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Physics simulators are essential in science and engineering, enabling the analysis, control, and design of complex systems. In experimental sciences, they are increasingly used to automate experimental design, often via combinatorial search and optimization. However, as the setups grow more complex, the computational cost of traditional, CPU-based simulators becomes a major limitation. Here, we show how neural surrogate models can significantly reduce reliance on such slow simulators while preserving accuracy. Taking the design of interferometric gravitational wave detectors as a representative example, we train a neural network to surrogate the gravitational wave physics simulator Finesse, which was developed by the LIGO community. Despite that small changes in physical parameters can change the output by orders of magnitudes, the model rapidly predicts the quality and feasibility of candidate designs, allowing an efficient exploration of large design spaces. Our algorithm loops between training the surrogate, inverse designing new experiments, and verifying their properties with the slow simulator for further training. Assisted by auto-differentiation and GPU parallelism, our method proposes high-quality experiments much faster than direct optimization. Solutions that our algorithm finds within hours outperform designs that take five days for the optimizer to reach. Though shown in the context of gravitational wave detectors, our framework is broadly applicable to other domains where simulator bottlenecks hinder optimization and discovery.",
+    "archive": "arXiv",
+    "archiveLocation": "2511.19364",
+    "extra": {
+      "Citations@2026-10-20": "1",
+      "Scholar": "jzG7GC8AAAAJ:__bU50VfleQC",
+      "Venue": "Machine Learning: Science and Technology 7 (5), 055010, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
