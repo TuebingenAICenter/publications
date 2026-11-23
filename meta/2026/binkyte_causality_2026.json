@@ -1,0 +1,52 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "As artificial intelligence (AI), including machine learning (ML) models and foundation models (FMs), are increasingly deployed in high-stakes domains, ensuring their trustworthiness has become a central challenge. However, the core trustworthy AI objectives, such as fairness, robustness, privacy, and explainability, are hard to achieve simultaneously, especially while preserving utility. This position paper argues that causality is necessary to understand and balance trade-offs in performance and multiple objectives of trustworthy AI. We ground our arguments in re-interpreting trustworthy AI trade-offs as incompatible invariance requirements under different changes to the data-generating process. We then illustrate this argument through case-study analyses from the literature and a stylized synthetic-data simulation, showing that causality provides a unifying framework for understanding how trade-offs in trustworthy AI arise and how they can be softened or resolved through selective invariance. This perspective applies to both classical ML models and large-scale FMs. Our paper discusses how causal assumptions may be applied explicitly or implicitly in modern large-scale systems. Finally, we outline open challenges and opportunities for using causality to build both trustworthy and high-performing AI.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.21123",
+    "attachments": [
+      {
+        "accessDate": "2025-06-17 16:12:45",
+        "linkMode": "3",
+        "mimeType": "application/pdf",
+        "path": null,
+        "title": "Preprint PDF",
+        "url": "http://arxiv.org/pdf/2502.21123v4"
+      }
+    ],
+    "extra": {
+      "Archive ID": "2502.21123",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W4416455388",
+      "Pages": "169543--169560",
+      "Repository": "PMLR",
+      "Scholar": "DZ-fHPgAAAAJ:urTNpwCjgKkC",
+      "Venue": "International Conference on Machine Learning (ICML)",
+      "Volume": "306"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "PMLR",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2502.21123'>https://arxiv.org/abs/2502.21123</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-21123.html'>https://dblp.org/rec/journals/corr/abs-2502-21123.html</a><br><a href='https://rutabinkyte.com/publications/43213-causality-is-key-to-understand-and-balance-multiple-goals-in-trustworthy-ml-and-foundation-models?_x_tr_sl=auto&_x_tr_tl=la'>https://rutabinkyte.com/publications/43213-causality-is-key-to-understand-and-balance-multiple-goals-in-trustworthy-ml-and-foundation-models?_x_tr_sl=auto&_x_tr_tl=la</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 2</p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>”num_citations”: ”2025-05-31”: 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
