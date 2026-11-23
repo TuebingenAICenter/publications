@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "On the one hand, reasoning may increase model agreement if models anchor on the same salient features or follow similar reasoning paths.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2610.41691",
+    "extra": {
+      "Archive ID": "2610.41691",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225090327",
+      "Repository": "arXiv",
+      "Scholar": "adnTgaAAAAAJ:4QKQTXcH0q8C",
+      "Venue": "arXiv preprint arXiv:2610.41691, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
