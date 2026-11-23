@@ -1,19 +1,23 @@
 {
   "custom": {
     "groups": [
+      "ludwig",
       "martius"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
-    "abstractNote": "Solar thermal systems are essential for the transition to sustainable heating. However, their performance is often degraded by faults that remain undetected for long periods, leading to significant energy losses. We propose a novel approach for fault detection in solar thermal systems based on probabilistic reconstructions. Our method uses a deep generative model to learn the normal operating behavior of the system. By reconstructing the input data, the model provides a probabilistic measure of the reconstruction error, which serves as an anomaly score. We evaluate our approach on a real-world dataset from a solar thermal plant and demonstrate that it outperforms baseline methods in detecting various types of faults.",
+    "abstractNote": "As heating is the largest factor of Greenhouse gases in the household sector, it should be the focus of our decarbonisation efforts. Solar Thermal Systems (STS), which provide heat based on solar energy, are a promising technology in this regard. However, STS are prone to faults due to improper installation, maintenance, or operation, often leading to a substantial reduction in efficiency, damage to the system, or even an increase in energy cost. As individual monitoring is economically prohibitive for small-scale systems, automated monitoring and fault detection should be used to address this issue. We propose a data-driven neural network approach for fault detection in small-scale STS, utilising probabilistic reconstructions from a long short-term memory (LSTM) based Variational Autoencoder (VAE). Key factors in our approach are generalising from faultless data to previously unseen systems and an anomaly score derived from an ensemble of reconstructions. We apply this to an operational dataset provided by our industry partner, which includes systems with different types of faults. Our results show that our model can detect faults in STS with comparable performance to the state-of-the-art expert-based system used by our industry partner. Furthermore, our model can detect previously undetected faults, specifically those resulting from unexpected behaviour in the control software or behaviours that were entirely unexpected and not considered in the expert-based system. Thus, a combination of our model and the expert-based system covers a broader range of faults than either system and is proposed for further use in the industry partner’s application. Additionally, other providers without a functioning expert-based system could build upon our work to get a minimal viable product for fault detection in STS, purely based on data from existing systems and without the need to install additional sensors or domain-specific knowledge.",
     "archive": "EGUsphere",
+    "conferenceName": "EGU General Assembly",
     "extra": {
       "Citations@2026-06-01": "0",
-      "Conference": "EGU General Assembly 2024",
+      "Citations@2026-11-01": "0",
+      "Conference": "EGU General Assembly",
       "OpenAlex": "W4416437083",
-      "Scholar": "by3EWqIAAAAJ:J-pR_7NvFogC"
+      "Scholar": "b-JF-UIAAAAJ:L7CI7m0gUJcC",
+      "Venue": "arXiv preprint arXiv:2511.10296, 2025"
     },
-    "itemType": "document"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "EGU General Assembly"
   }
 }
