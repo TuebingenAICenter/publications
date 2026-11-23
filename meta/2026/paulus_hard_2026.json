@@ -1,0 +1,29 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Contact forces pose a major challenge for gradient-based optimization of robot dynamics as they introduce jumps in the system’s velocities. Penalty-based simulators, such as MuJoCo, simplify gradient computation by softening the contact forces. However, realistically simulating hard contacts requires very stiff contact settings, which leads to incorrect gradients when using automatic differentiation. On the other hand, using non-stiff settings strongly increases the sim-to-real gap. We analyze the contact computation of penalty-based simulators to identify the causes of gradient errors. Then, we propose DiffMJX, which combines adaptive integration with MuJoCo XLA, to notably improve gradient quality in the presence of hard contacts. Finally, we address a key limitation of contact gradients: they vanish when objects do not touch. To overcome this, we introduce Contacts From Distance (CFD), a mechanism that enables the simulator to generate informative contact gradients even before objects are in contact. To preserve physical realism, we apply CFD only in the backward pass using a straight-through-trick, allowing us to compute useful gradients without modifying the forward simulation.",
+    "archive": "arXiv",
+    "archiveLocation": "2506.14186",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "3",
+      "Citations@2026-10-20": "3",
+      "Scholar": "b-JF-UIAAAAJ:0N-VGjzr574C",
+      "Venue": "arXiv e-prints, arXiv: 2506.14186, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.14186'>https://arxiv.org/abs/2506.14186</a><br><a href='https://dblp.org/rec/journals/corr/abs-2506-17994.html'>https://dblp.org/rec/journals/corr/abs-2506-17994.html</a><br><a href='https://paperswithcode.com/paper/hard-contacts-with-soft-gradients-refining'>https://paperswithcode.com/paper/hard-contacts-with-soft-gradients-refining</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
