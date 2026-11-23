@@ -2,14 +2,21 @@
   "custom": {
     "groups": [
       "andriushchenko"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
+    "abstractNote": "Refusal training is widely used to prevent LLMs from generating harmful, undesirable, or illegal outputs. In this work, we show that this training often fails to generalize to prompts written in the past tense. We demonstrate that by simply rephrasing harmful queries into the past tense, one can bypass the safety filters of many state-of-the-art LLMs, including Llama 3 and GPT-4o. We analyze this phenomenon and show that it stems from a lack of robustness in the refusal mechanism, which is highly sensitive to the grammatical tense of the input.",
+    "archive": "arXiv",
+    "archiveLocation": "2407.11969",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
     "extra": {
       "Citations@2026-06-01": "94",
-      "Scholar": "ZNtuJYoAAAAJ:maZDTaKrznsC"
+      "Citations@2026-11-23": "109",
+      "OpenAlex": "W4401657794",
+      "Scholar": "ZNtuJYoAAAAJ:maZDTaKrznsC",
+      "Venue": "ICLR 2025, 2025"
     },
-    "itemType": "journalArticle"
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
   }
 }
