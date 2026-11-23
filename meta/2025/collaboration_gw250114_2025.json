@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Using a very strong black-hole merger signal, the LIGO-Virgo-KAGRA Collaboration has shown Hawking's area law to hold with high credibility.",
+    "archive": "arXiv",
+    "archiveLocation": "2509.08054",
+    "extra": {
+      "Citations@2026-06-01": "186",
+      "Citations@2026-11-01": "100",
+      "OpenAlex": "W4414090563",
+      "Scholar": "VRBv6mEAAAAJ:dfsIfKJdRG4C",
+      "Venue": "Physical Review Letters 135, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}
