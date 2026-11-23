@@ -10,10 +10,13 @@
     "archiveLocation": "2610.01846",
     "extra": {
       "Archive ID": "2610.01846",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7216171108",
       "Repository": "arXiv",
       "Scholar": "5cZa3SIAAAAJ:W5xh706n7nkC",
       "Venue": "arXiv preprint arXiv:2610.01846, 2026"
     },
-    "itemType": "preprint"
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
   }
 }
