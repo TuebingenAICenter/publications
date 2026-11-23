@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "pons-moll"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Synthesizing physically grounded dexterous hand–object interactions is important for VR/AR, gaming, and robotics, yet remains challenging because subtle contact dynamics, diverse object geometries, and target trajectories must be jointly respected while maintaining natural grasps. Existing methods either track mocap trajectories with limited transfer to novel objects, or rely on hand-only generative priors that fail to capture coupled hand–object motion, sacrificing contact fidelity and sample efficiency. To tackle these challenges, we introduce PiHand, a Physically grounded Interaction-aware Hand motion synthesis framework. PiHand first trains expert policies that track mocap demonstrations in simulation, distills them into a unified hand–object interaction prior using a goal-conditioned VAE, and finally solve diverse dexterous manipulation tasks through bounded residual exploration in its latent space. With only a single reward and no complex curriculum training, this yields general tabletop manipulation policies that generalize to unseen objects and trajectories on GRAB and DexYCB. The same prior transfers to object catching and bimanual handover, two tasks that are rarely seen in its training data. Across all tasks, PiHand consistently outperforms baselines in all metrics.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.31299",
+    "callNumber": "arXiv:2610.31299",
+    "extra": {
+      "Archive ID": "2610.31299",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7223330365",
+      "Repository": "arXiv",
+      "Scholar": "OpXMNnMAAAAJ:fbc8zXXH2BUC",
+      "Venue": "arXiv preprint arXiv:2610.31299, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
