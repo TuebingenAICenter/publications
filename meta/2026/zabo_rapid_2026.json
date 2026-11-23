@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Automatic re‐identification of animals has significant potential to address pressing ecological and conservation challenges through improved population monitoring, individual health assessment and detailed behavioural analyses. Although numerous computer‐vision‐based solutions have been proposed and many achieve high accuracy, most remain unsuitable for real‐time analysis and deployment on low‐power edge devices (e.g. drones, camera traps). Here, we address both aspects and introduce an open‐source tool for Real‐time Animal Pattern re‐Identification on edge Devices (RAPID). RAPID processes over 40–60 cropped bounding box images per second on a standard PC or laptop and more than 10 images on an inexpensive off‐the‐shelf edge device. The algorithm operates efficiently in data‐ and compute‐limited environments, relying solely on CPU, leaving GPU resources available for other tasks, all while maintaining or even surpassing state‐of‐the‐art accuracy. Furthermore, each prediction is accompanied by a data‐driven confidence score, facilitating reliable downstream use. Our approach leverages SIFT (scale‐invariant feature transform) descriptors, which continue to demonstrate competitive robustness and accuracy against recent traditional and deep‐learning‐based methods. To overcome SIFT's main limitation—its high‐dimensional feature vectors and the associated computational cost—we integrate recent advances in vector similarity search beyond constructing a database of feature vectors rather than database images, thereby accelerating the query processing. The resulting pipeline is carefully designed to be intentionally minimalistic yet highly effective, retaining only the key components essential for accurate and fast re‐identification. We evaluate RAPID on six datasets: four publicly available animal re‐identification benchmark datasets and two new identity‐labelled datasets we release alongside this paper, namely ZebraStereoID, which contains multiview video footage of zebras, and JaguarID, a small camera trap dataset consisting of day‐ and night‐time videos. Our evaluation demonstrates strong generalisability for species, camera systems and environmental conditions. Additionally, we introduce a RAPID‐based tool, FalseTagFinder, for cleaning benchmark dataset labels, providing corrected labels for the StripeSpotter dataset as an example. Data, code and video abstract available at https://keeper.mpdl.mpg.de/d/228be8688e6146bd8221/?p=%2F&mode=list and https://www.youtube.com/watch?v=O6NWzLEivr8.",
+    "extra": {
+      "month_numeric": "6"
+    },
+    "itemType": "journalArticle"
+  }
+}
