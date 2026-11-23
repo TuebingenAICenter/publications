@@ -5,9 +5,12 @@
     ]
   },
   "zotero": {
+    "abstractNote": "Creating a multi-task model by merging models for distinct tasks has proven to be an economical and scalable approach. Recent research, like task arithmetic, demonstrates that a static solution for multi-task model fusion can be located within the vector space spanned by task vectors. However, the static nature of these methods limits their ability to adapt to the intricacies of individual instances, thereby hindering their performance in complex scenarios. To overcome this limitation, we propose a data-adaptive weight-ensembling approach that generates model weights in time. Specifically, we first feed the input samples into a hypernetwork to generate instance-specific weights for the primary model. Subsequently, we perform a functional call on the primary large model with the instance-specific weights. By generating model weights in time, the unified model gains increased flexibility and can resolve potential weight conflicts between tasks. Building upon this adaptability, our method necessitates solely the model checkpoints and unlabeled test samples using test-time adaptation training. We primarily conduct extensive experiments on vision Transformers and Flan-T5 models, demonstrating superior performance and satisfactory zero-shot transferability.",
     "extra": {
       "Citations@2026-06-01": "4",
-      "Scholar": "73IbXtsAAAAJ:tkaPQYYpVKoC"
+      "Citations@2026-07-13": "4",
+      "Scholar": "73IbXtsAAAAJ:tkaPQYYpVKoC",
+      "Venue": "International Journal of Computer Vision 133 (8), 5396-5412, 2025"
     },
     "itemType": "journalArticle"
   }
