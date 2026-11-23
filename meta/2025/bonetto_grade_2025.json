@@ -1,0 +1,11 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Photorealistic synthetic data and novel rendering techniques significantly advanced computer vision research. However, datasets focused on computer vision applications cannot be easily applied to robotics because they typically lack physics-related information. This, combined with the difficulties of realistically simulating dynamic worlds and the insufficient photorealism, flexibility, and control options of common robotics simulation frameworks, hinders progress in (visual-)perception research for autonomous robotics. For instance, most Visual Simultaneous Localization and Mapping methods are passive, developed under a (semi-)static environment assumption, and evaluated on just a limited number of pre-recorded datasets. To address these challenges, we present a highly customizable framework built upon NVIDIA Isaac Sim for Generating Realistic and Dynamic Environments—GRADE. GRADE leverages Isaac’s rendering capabilities, physics engine, and low-level APIs to populate and manage realistic simulations, generate synthetic data, and evaluate online and offline robotics approaches, including Active SLAM and heterogeneous multi-robot scenarios. Within GRADE, we introduce a novel experiment repetition approach that allows environmental and scenario variations of previous simulations within physics-enabled environments, enabling flexible and continuous testing, development, and data generation. We then use GRADE to collect a high-fidelity and richly annotated synthetic video dataset of indoor dynamic environments. With that, we train detection and segmentation models for humans and successfully address the syn-to-real gap. We then benchmark state-of-the-art dynamic V-SLAM algorithms, revealing their limitations in tracking times and generalization capabilities, and evidencing that top-performing deep learning models do not necessarily lead to the best SLAM performance. Code and data are provided as open-source at https://grade.is.tue.mpg.de.",
+    "itemType": "journalArticle"
+  }
+}
