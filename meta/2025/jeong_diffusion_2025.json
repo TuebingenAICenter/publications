@@ -6,9 +6,9 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Diffusion models have recently emerged as powerful generative tools, but their potential as discriminative classifiers remains underexplored. In this work, we investigate the compositional reasoning capabilities of diffusion classifiers—classifiers derived from pre-trained diffusion models. We find that diffusion classifiers exhibit strong compositional understanding, often outperforming standard discriminative models on compositional benchmarks. However, this performance is highly sensitive to the choice of conditioning and the sampling process. We identify key conditions under which diffusion classifiers excel and where they struggle, providing insights into the interplay between generative modeling and compositional classification. Our findings suggest that while diffusion models are promising for compositional tasks, careful design of the classification pipeline is essential to fully leverage their capabilities.",
+    "abstractNote": "Understanding visual scenes is fundamental to human intelligence. While discriminative models have significantly advanced computer vision, they often struggle with compositional understanding. In contrast, recent generative text-to-image diffusion models excel at synthesizing complex scenes, suggesting inherent compositional capabilities.Building on this, zero-shot diffusion classifiers have been proposed to repurpose diffusion models for discriminative tasks. While prior work offered promising results in discriminative compositional scenarios, these results remain preliminary due to a small number of benchmarks and a relatively shallow analysis of conditions under which the models succeed. To address this, we present a comprehensive study of the discriminative capabilities of diffusion classifiers on a wide range of compositional tasks. Specifically, our study covers three diffusion models (SD 1.5, 2.0, and, for the first time, 3-m) spanning 10 datasets and over 30 tasks. Further, we shed light on the role that target dataset domains play in respective performance; to isolate the domain effects, we introduce a new diagnostic benchmark \\textsc{Self-Bench} comprised of images created by diffusion models themselves. Finally, we explore the importance of timestep weighting and uncover a relationship between domain gap and timestep sensitivity, particularly for SD3-m.To sum up, diffusion classifiers understand compositionality, but conditions apply! Code and dataset are available at https://github.com/eugene6923/Diffusion-Classifiers-Compositionality",
     "archive": "arXiv",
-    "archiveLocation": "arXiv:2505.17955",
+    "archiveLocation": "2505.17955",
     "attachments": [
       {
         "accessDate": null,
@@ -19,12 +19,15 @@
         "url": "https://generative-vision.github.io/workshop-CVPR-25/papers/3.pdf"
       }
     ],
-    "conferenceName": "NeurIPS",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "4",
-      "Scholar": "kmXOOdsAAAAJ:yD5IFk8b50cC"
+      "Citations@2026-10-20": "7",
+      "Scholar": "kmXOOdsAAAAJ:yD5IFk8b50cC",
+      "Venue": "NeurIPS 2025, 2025"
     },
     "itemType": "conferencePaper",
+    "libraryCatalog": "NeurIPS",
     "notes": [
       {
         "note": "<p><a href='https://openreview.net/forum?id=c2F2dUx01R'>https://openreview.net/forum?id=c2F2dUx01R</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/121551'>https://neurips.cc/virtual/2025/loc/san-diego/poster/121551</a><br><a href='https://arxiv.org/abs/2505.17955'>https://arxiv.org/abs/2505.17955</a><br></p>",
@@ -37,6 +40,6 @@
         "tags": null
       }
     ],
-    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
