@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "koepke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "We present LAION-Audio-XL, a web-scale corpus of 1.1 billion audio-text pairs, and use it to study the scaling behavior of contrastive audio-language models. We investigate the impact of model size, dataset size, and training duration on performance, and propose a novel audio encoder architecture, NaFlex, which is designed for efficient scaling. Our results demonstrate that scaling both the model and the dataset leads to significant improvements in audio-text retrieval and audio captioning tasks.",
+    "archive": "arXiv",
+    "archiveLocation": "2611.11592",
+    "extra": {
+      "Archive ID": "2611.11592",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225746411",
+      "Repository": "arXiv",
+      "Scholar": "q9zQhj8AAAAJ:BqipwSGYUEgC",
+      "Venue": "arXiv preprint arXiv:2611.11592, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
