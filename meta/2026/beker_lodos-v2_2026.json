@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "martius"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2611.08868",
+    "callNumber": "arXiv:2611.08868",
+    "extra": {
+      "Archive ID": "2611.08868",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225650590",
+      "Repository": "arXiv",
+      "Scholar": "b-JF-UIAAAAJ:_5tno0g5mFcC",
+      "Venue": "arXiv preprint arXiv:2611.08868, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
