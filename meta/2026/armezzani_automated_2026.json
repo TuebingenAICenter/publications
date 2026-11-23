@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In this work, we use AI techniques to discover heralded linear-optical schemes for path-entangled states and show that the resulting solutions can be elevated.",
+    "archive": "arXiv",
+    "archiveLocation": "2607.25501",
+    "extra": {
+      "Archive ID": "2607.25501",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7171718939",
+      "Repository": "arXiv",
+      "Scholar": "jzG7GC8AAAAJ:RtRctb2lSbAC",
+      "Venue": "arXiv preprint arXiv:2607.25501, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
