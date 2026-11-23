@@ -1,0 +1,14 @@
+{
+  "custom": {
+    "groups": [
+      "black"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Multi-rotor UAVs suffer from a restricted range and flight duration due to limited battery capacity. Autonomous landing on a 2D moving platform offers the possibility to replenish batteries and offload data, thus increasing the utility of the vehicle. Classical approaches rely on accurate, complex and difficult-to-derive models of the vehicle and the environment. Reinforcement learning (RL) provides an attractive alternative due to its ability to learn a suitable control policy exclusively from data during a training procedure. However, current methods require several hours to train, have limited success rates and depend on hyperparameters that need to be tuned by trial-and-error. We address all these issues in this work. First, we decompose the landing procedure into a sequence of simpler, but similar learning tasks. This is enabled by applying two instances of the same RL based controller trained for 1D motion for controlling the multi-rotor’s movement in both the longitudinal and the lateral directions. Second, we introduce a powerful state space discretization technique that is based on i) kinematic modeling of the moving platform to derive information about the state space topology and ii) structuring the training as a sequential curriculum using transfer learning. Third, we leverage the kinematics model of the moving platform to also derive interpretable hyperparameters for the training process that ensure sufficient maneuverability of the multi-rotor vehicle. The training is performed using the tabular RL method Double Q-Learning. Through extensive simulations we show that the presented method significantly increases the rate of successful landings, while requiring less training time compared to other deep RL approaches. Furthermore, for two comparison scenarios it achieves comparable performance than a cascaded PI controller. Finally, we deploy and demonstrate our algorithm on real hardware. For all evaluation scenarios we provide statistics on the agent’s performance. Source code is openly available at https://github.com/robot-perception-group/rl_multi_rotor_landing.",
+    "extra": {
+      "Source code": "https://github.com/robot-perception-group/rl_multi_rotor_landing"
+    },
+    "itemType": "journalArticle"
+  }
+}
