@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "On 2023 November 23 the two LIGO observatories both detected GW231123, a gravitational-wave signal consistent with the merger of two black holes with masses 137+23-18 M⊙ and 101+22-50 M⊙ (90% credible intervals), at luminosity distance 0.7-4.1 Gpc and redshift of 0.40+0.27-0.25, and a network signal-to-noise ratio of ∼20.7. Both black holes exhibit high spins, 0.9+0.10-0.19 and 0.80+0.20-0.52 respectively. A massive black hole remnant is supported by an independent ringdown analysis. Some properties of GW231123 are subject to large systematic uncertainties, as indicated by differences in inferred parameters between signal models. The primary black hole lies within or above the theorized mass gap where black holes between 60-130 M⊙ should be rare due to pair instability mechanisms, while the secondary spans the gap. The observation of GW231123 therefore suggests the formation of black holes from channels beyond standard stellar collapse, and that intermediate-mass black holes of mass ∼200 M⊙ form through gravitational-wave driven mergers.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.08219",
+    "extra": {
+      "Citations@2026-06-01": "130",
+      "Citations@2026-10-20": "17",
+      "OpenAlex": "W7212056065",
+      "Scholar": "VRBv6mEAAAAJ:M3NEmzRMIkIC",
+      "Venue": "The Astrophysical Journal Letters 993 (1), L25, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}
