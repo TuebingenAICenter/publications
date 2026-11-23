@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "hardt"
+    ]
+  },
+  "zotero": {
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2610.40831",
+    "extra": {
+      "Archive ID": "2610.40831",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7225078385",
+      "Repository": "arXiv",
+      "Scholar": "adnTgaAAAAAJ:AFXcoJnoRH0C",
+      "Venue": "arXiv preprint arXiv:2610.40831, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
