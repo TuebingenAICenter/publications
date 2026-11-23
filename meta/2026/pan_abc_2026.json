@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recent progress in reinforcement learning with verifiable rewards (RLVR) has highlighted the effectiveness of simple critic-free policy-gradient methods such as Group Relative Policy Optimization (GRPO). In contrast, actor-critic methods rely on learned value functions whose approximation error can introduce bias through commonly used advantage estimators such as temporal-difference error. Motivated by this observation, we revisit trajectory-level control variates through an advantage-value formulation, which we call Advantage-Based Control Variates (ABC). This formulation reveals that the covariance structure is closely related to the return decomposition used in Direct Advantage Estimation (DAE). Finally, we combine ABC with DAE into a single actor-critic algorithm and evaluate it in an offline-to-online RLVR setting, where the critic is first trained on previously collected trajectories and adapted during online learning. On mathematical reasoning tasks, ABC achieves performance competitive with GRPO using substantially fewer online optimization steps.",
+    "archive": "arXiv",
+    "archiveLocation": "2609.36058",
+    "extra": {
+      "Archive ID": "2609.36058",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7214968521",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:cmOl4sOE6EwC",
+      "Venue": "arXiv preprint arXiv:2609.36058, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
