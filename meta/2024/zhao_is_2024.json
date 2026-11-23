@@ -1,0 +1,20 @@
+{
+  "custom": {
+    "groups": [
+      "andriushchenko"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In-context learning (ICL) allows LLMs to learn from examples without changing their weights, which is a particularly promising capability for long-context LLMs that can potentially learn from many examples. Recently, Lin et al. (2024) proposed URIAL, a method using only three in-context examples to align base LLMs, achieving non-trivial instruction following performance. In this work, we show that, while effective, ICL alignment with URIAL still underperforms compared to instruction fine-tuning on established benchmarks such as MT-Bench and AlpacaEval 2.0 (LC), especially with more capable base LMs. Unlike for tasks such as classification, translation, or summarization, adding more ICL demonstrations for long-context LLMs does not systematically improve instruction following performance. To address this limitation, we derive a greedy selection approach for ICL examples that noticeably improves performance, yet without bridging the gap to instruction fine-tuning. Finally, we provide a series of ablation studies to better understand the reasons behind the remaining gap, and we show how some aspects of ICL depart from the existing knowledge and are specific to the instruction tuning setting. Overall, our work advances the understanding of ICL as an alignment technique.",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Citations@2026-06-01": "43",
+      "Citations@2026-10-20": "51",
+      "Code": "https://github.com/tml-epfl/icl-alignment",
+      "Scholar": "ZNtuJYoAAAAJ:isC4tDSrTZIC",
+      "Venue": "ICLR 2025, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
