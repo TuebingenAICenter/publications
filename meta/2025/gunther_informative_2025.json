@@ -6,15 +6,20 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "Post-hoc explanation methods are widely used to interpret complex machine learning models. However, it is often unclear whether these explanations are faithful to the underlying model or if they are merely artifacts of the explanation method itself. In this paper, we provide a theoretical framework to study the informativeness of post-hoc explanations. We show that for a wide class of explanation methods, informative explanations—defined as explanations that allow for a reconstruction of the model's predictions—only exist if the underlying model is 'simple' in a specific sense. Our results suggest that for complex models, post-hoc explanations may be inherently limited in their ability to provide meaningful insights, potentially leading to a false sense of interpretability.",
+    "abstractNote": "Many researchers have suggested that local post-hoc explanation algorithms can be used to gain insights into the behavior of complex machine learning models. However, theoretical guarantees about such algorithms only exist for simple decision functions, and it is unclear whether and under which assumptions similar results might exist for complex models. In this paper, we introduce a general, learning-theory-based framework for what it means for an explanation to provide information about a decision function. We call an explanation informative if it serves to reduce the complexity of the space of plausible decision functions. With this approach, we show that many popular explanation algorithms are not informative when applied to complex decision functions, providing a rigorous mathematical rejection of the idea that it should be possible to explain any model. We then derive conditions under which different explanation algorithms become informative. These are often stronger than what one might expect. For example, gradient explanations and counterfactual explanations are non-informative with respect to the space of differentiable functions, and SHAP and anchor explanations are not informative with respect to the space of decision trees. Based on these results, we discuss how explanation algorithms can be modified to become informative. While the proposed analysis of explanation algorithms is mathematical, we argue that it holds strong implications for the practical applicability of these algorithms, particularly for auditing, regulation, and high-risk applications of AI.",
     "archive": "arXiv",
+    "archiveLocation": "2508.11441",
+    "callNumber": "arXiv:2508.11441",
     "extra": {
       "Archive ID": "2508.11441",
       "Citations@2026-06-01": "2",
+      "Citations@2026-07-13": "3",
       "Repository": "arXiv",
-      "Scholar": "mMifMdoAAAAJ:QD3KBmkZPeQC"
+      "Scholar": "mMifMdoAAAAJ:QD3KBmkZPeQC",
+      "Venue": "arXiv preprint arXiv:2508.11441, 2025"
     },
-    "itemType": "document",
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2508.11441'>https://arxiv.org/abs/2508.11441</a><br><a href='https://doi.org/10.48550/arXiv.2508.11441'>https://doi.org/10.48550/arXiv.2508.11441</a><br><a href='https://dblp.org/rec/journals/corr/abs-2508-11441'>https://dblp.org/rec/journals/corr/abs-2508-11441</a><br><a href='https://www.tml.cs.uni-tuebingen.de/team/luxburg/publications/index.php'>https://www.tml.cs.uni-tuebingen.de/team/luxburg/publications/index.php</a><br></p>",
