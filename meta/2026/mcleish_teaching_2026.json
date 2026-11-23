@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Converting pretrained non-recurrent language models to depth-recurrent models improves performance at a given compute budget using a curriculum of recurrences. Recent advances in depth-recurrent language models show that recurrence can decouple train-time compute and parameter count from test-time compute. In this work, we study how to convert existing pretrained non-recurrent language models into depth-recurrent models. We find that using a curriculum of recurrences to increase the effective depth of the model over the course of training preserves performance while reducing total computational cost. In our experiments, on mathematics, we observe that converting pretrained models to recurrent ones results in better performance at a given compute budget than simply post-training the original non-recurrent language model.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2511.07384",
+    "conferenceName": "Conference on Language Modeling (COLM)",
+    "extra": {
+      "Citations@2026-06-01": "13",
+      "Citations@2026-11-01": "49",
+      "Reporter": "arXiv preprint arXiv:2511.07384, 2025",
+      "Scholar": "206vNCEAAAAJ:WZBGuue-350C",
+      "Venue": "arXiv preprint arXiv:2511.07384, 2025"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://openreview.net/forum?id=Oq3Xblt0x1'>https://openreview.net/forum?id=Oq3Xblt0x1</a><br><a href='https://neurips.cc/virtual/2025/loc/san-diego/126665'>https://neurips.cc/virtual/2025/loc/san-diego/126665</a><br><a href='https://arxiv.org/abs/2511.07384'>https://arxiv.org/abs/2511.07384</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Conference on Language Modeling (COLM)"
+  }
+}
