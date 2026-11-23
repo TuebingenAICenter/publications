@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Causal foundation models (CFMs) amortise causal inference over priors of synthetic structural causal models (SCMs), predicting the effect of an experiment on a specific variable. However, observational data alone may leave multiple causal models compatible with available evidence, while experimental data with interventions on exactly the variable of interest might be unavailable. This work studies CFMs as a method to combine finite observational and surrogate-interventional datasets in order to predict a target conditional interventional distribution (CID) more accurately than with observational data alone. We first formalise the conceptual benefits of surrogate experiments. Building on this analysis, we introduce Foundation Models for Causal Inference from Diverse Experimental Regimes (CIDER-FM), a causal foundation model that uses an intervention-aware representation and hierarchical three-axis attention to exchange information across variables, samples, and experimental regimes. We evaluate CIDER-FM against a wide range of baselines across diverse synthetic graph and mechanism families, as well as on both simulated and real-world data from Causal Chambers. Our results demonstrate strong CID prediction performance and show that incorporating experimental context can improve predictions over observational data alone.",
+    "archive": "arXiv",
+    "archiveLocation": "2609.39523",
+    "callNumber": "arXiv:2609.39523",
+    "extra": {
+      "Archive ID": "2609.39523",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7215131644",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:D0uTvBo9NXEC",
+      "Venue": "arXiv preprint arXiv:2609.39523, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
