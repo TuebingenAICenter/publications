@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "dax"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "The Gravitational-Wave Transient Catalog (GWTC) is a collection of short-duration (transient) gravitational-wave signals identified by the LIGO-Virgo-KAGRA Collaboration.",
+    "extra": {
+      "Citations@2026-06-01": "33",
+      "Citations@2026-10-28": "24",
+      "LIGO Document": "P2500701-v8",
+      "OpenAlex": "W4417256931",
+      "Scholar": "VRBv6mEAAAAJ:738O_yMBCRsC",
+      "Venue": "The Astrophysical Journal Letters 1004 (2), L21, 2026"
+    },
+    "itemType": "journalArticle"
+  }
+}
