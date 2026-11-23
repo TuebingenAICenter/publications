@@ -1,0 +1,26 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "While open-ended (OE) AI offers significant potential, it poses unique and substantial risks that must be addressed for a safe and responsible deployment. Its inherent properties—such as continuous learning, self-modification, and long-term autonomy—create a dynamic environment where traditional safety measures may prove insufficient. In this position paper, we argue that the defining properties of OE AI systems introduce a distinct and underexplored class of safety challenges. We outline these challenges and propose a research agenda to ensure that safety is integrated into the development lifecycle of OE AI, rather than treated as an afterthought.",
+    "archive": "OpenReview",
+    "archiveLocation": "2502.04512",
+    "conferenceName": "International Conference on Learning Representations (ICLR)",
+    "extra": {
+      "Archive ID": "2502.04512",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7165790837",
+      "Repository": "arXiv",
+      "Scholar": "QEiYbDYAAAAJ:q0uBw5dMOAkC",
+      "Venue": "ICML, 2026"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "International Conference on Learning Representations (ICLR)"
+  }
+}
