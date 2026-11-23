@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "herbrich"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Prior information for real-world physical quantities is most elegantly expressed via partial differential equations (PDEs). In this paper, we propose a novel way to solve PDEs using probabilistic inference on a factor graph. In general, factor graphs provide a natural way to encode prior knowledge into a model as explicit factors; here, this knowledge is provided by a governing PDE, which narrows the solution space, while observed data further shape the posterior over the parameters. The approximate parameter posterior is inferred using message passing based on moment matching, without posterior sampling or global gradient-based optimization. We demonstrate our approach on the first-order advection and the second-order semi-linear Fisher-KPP equations, where it achieves predictive accuracy comparable to a standard baseline while providing structured predictive uncertainty. Moreover, the inferred posterior marginal means and uncertainty structure match more closely those obtained using Hamiltonian Monte Carlo than the evaluated mean-field variational inference baseline, while requiring up to 10x less training time in our experiments, with inference speed comparable to variational inference.",
+    "archive": "arXiv",
+    "archiveLocation": "2609.32956",
+    "extra": {
+      "Archive ID": "2609.32956",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7214703778",
+      "Scholar": "RuvHkikAAAAJ:6_hjMsCP8ZoC",
+      "Venue": "arXiv preprint arXiv:2609.32956, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
