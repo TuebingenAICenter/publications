@@ -10,11 +10,14 @@
     "archiveLocation": "2610.20288",
     "extra": {
       "Archive ID": "2610.20288",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7222361793",
       "Repository": "arXiv",
       "Scholar": "5cZa3SIAAAAJ:kzcrU_BdoSEC",
-      "Venue": "arXiv preprint arXiv:2610.20288, 2026"
+      "Venue": "arXiv preprint arXiv:2610.20288, 2026",
+      "Workshop": "AI Data Readiness for Scientific Discovery"
     },
-    "itemType": "preprint",
+    "itemType": "conferencePaper",
     "libraryCatalog": "arXiv"
   }
 }
