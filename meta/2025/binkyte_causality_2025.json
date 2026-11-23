@@ -2,10 +2,12 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
+    "abstractNote": "Ensuring trustworthiness in machine learning (ML) systems is crucial as they become increasingly embedded in high-stakes domains. This paper advocates for integrating causal methods into machine learning to navigate the trade-offs among key principles of trustworthy ML, including fairness, privacy, robustness, accuracy, and explainability. While these objectives should ideally be satisfied simultaneously, they are often addressed in isolation, leading to conflicts and suboptimal solutions. Drawing on existing applications of causality in ML that successfully align goals such as fairness and accuracy or privacy and robustness, this paper argues that a causal approach is essential for balancing multiple competing objectives in both trustworthy ML and foundation models. Beyond highlighting these trade-offs, we examine how causality can be practically integrated into ML and foundation models, offering solutions to enhance their reliability and interpretability. Finally, we discuss the challenges, limitations, and opportunities in adopting causal frameworks, paving the way for more accountable and ethically sound AI systems.",
+    "archive": "arXiv",
+    "archiveLocation": "2502.21123",
     "attachments": [
       {
         "accessDate": "2025-06-17 16:12:45",
@@ -18,10 +20,13 @@
     ],
     "extra": {
       "Citations@2026-06-01": "0",
+      "Citations@2026-11-03": "0",
       "OpenAlex": "W4416455388",
-      "Scholar": "DZ-fHPgAAAAJ:urTNpwCjgKkC"
+      "Scholar": "DZ-fHPgAAAAJ:urTNpwCjgKkC",
+      "Venue": "arXiv preprint arXiv:2502.21123, 2025"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://arxiv.org/abs/2502.21123'>https://arxiv.org/abs/2502.21123</a><br><a href='https://dblp.org/rec/journals/corr/abs-2502-21123.html'>https://dblp.org/rec/journals/corr/abs-2502-21123.html</a><br><a href='https://rutabinkyte.com/publications/43213-causality-is-key-to-understand-and-balance-multiple-goals-in-trustworthy-ml-and-foundation-models?_x_tr_sl=auto&_x_tr_tl=la'>https://rutabinkyte.com/publications/43213-causality-is-key-to-understand-and-balance-multiple-goals-in-trustworthy-ml-and-foundation-models?_x_tr_sl=auto&_x_tr_tl=la</a><br></p>",
