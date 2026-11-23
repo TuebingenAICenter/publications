@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "geiger",
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Feed-forward 3D reconstruction models have recently achieved impressive results in terms of speed and quality. However, it remains unclear what internal representations these models learn and how they relate to the underlying 3D geometry. In this work, we propose a framework for probing feed-forward 3D reconstruction models through controlled representation intervention. By systematically manipulating the latent representations of these models, we analyze their sensitivity to different geometric features and their ability to generalize across domains. Our experiments reveal that feed-forward models often rely on specific, localized features for reconstruction, and that their performance can be significantly improved by enforcing geometric consistency during training. We demonstrate the effectiveness of our approach on several state-of-the-art feed-forward 3D reconstruction models, showing that our interventions lead to more robust and interpretable representations.",
+    "extra": {
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7212112355",
+      "Scholar": "SrVnrPcAAAAJ:wGzT3bKASkAC"
+    },
+    "itemType": "preprint"
+  }
+}
