@@ -2,18 +2,20 @@
   "custom": {
     "groups": [
       "schoelkopf"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
-    "abstractNote": "We propose a framework for machine learning that is fully covariant with respect to the action of a group. In our framework, the input data, the output predictions, and the internal representations are all elements of vector spaces that carry representations of a group G. A model is then a G-equivariant map between these spaces. We show that this framework encompasses many existing approaches, such as convolutional neural networks and graph neural networks, and allows for the construction of new models that are covariant with respect to more general groups, such as the Lorentz group or the group of rigid motions. We also provide a general construction for such maps using the theory of group representations and the Peter-Weyl theorem.",
-    "archive": "OpenReview",
+    "abstractNote": "Any representation of data involves arbitrary investigator choices. Because those choices are external to the data-generating process, each choice leads to an exact symmetry, corresponding to the group of transformations that takes one possible representation to another. These are the passive symmetries; they include coordinate freedom, gauge symmetry, and units covariance, all of which have led to important results in physics. In machine learning, the most visible passive symmetry is the relabeling or permutation symmetry of graphs. Our goal is to understand the implications for machine learning of the many passive symmetries in play. We discuss dos and don'ts for machine learning practice if passive symmetries are to be respected. We discuss links to causal modeling, and argue that the implementation of passive symmetries is particularly valuable when the goal of the learning problem is to generalize out of sample. This paper is conceptual: It translates among the languages of physics, mathematics, and machine-learning. We believe that consideration and implementation of passive symmetries might help machine learning in the same ways that it transformed physics in the twentieth century.",
+    "archive": "arXiv",
+    "archiveLocation": "2301.13724",
     "extra": {
       "Archive ID": "gllUnpYuXg",
       "Citations@2026-06-01": "9",
+      "Citations@2026-11-23": "23",
       "OpenAlex": "W4318908230",
-      "Scholar": "DZ-fHPgAAAAJ:uldgAVOX3EkC"
+      "Scholar": "DZ-fHPgAAAAJ:uldgAVOX3EkC",
+      "Venue": "arXiv preprint arXiv:2301.13724, 2023"
     },
-    "itemType": "document"
+    "itemType": "journalArticle"
   }
 }
