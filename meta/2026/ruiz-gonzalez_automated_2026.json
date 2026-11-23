@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "krenn"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Entangled photons are widely used in quantum technologies. Many photonic experiments generate them with probabilistic photon-pair sources that can be modeled as squeeze operators. In practice, these sources are usually treated in the low-gain (perturbative) regime, keeping only the leading single-pair term and neglecting higher-order multi-pair emission events. In pursuit of fidelity, the probability of successful entanglement generation can become extremely small, a tradeoff often ignored. Here we develop an automated design algorithm for quantum experiments to optimize both fidelity and success probability while accounting for higher-order multi-pair emissions. Our discovery algorithm explores different design topologies subject to varying hardware constraints. It optimizes the source parameters to reduce undesired higher-order terms or even benefit from them. The experiments presented outperform previous proposals for widely used states, including heralded Bell states, W states, and NOON states, paving the way for more efficient photonic technologies.",
+    "archive": "arXiv",
+    "archiveLocation": "2605.02721",
+    "callNumber": "arXiv:2605.02721",
+    "extra": {
+      "Archive ID": "2605.02721",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7160317459",
+      "Repository": "arXiv",
+      "Scholar": "jzG7GC8AAAAJ:NxmKEeNBbOMC",
+      "Venue": "arXiv preprint arXiv:2605.02721, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
