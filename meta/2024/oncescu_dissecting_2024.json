@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "koepke"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Text-to-audio retrieval models have shown impressive performance on standard benchmarks. However, it remains unclear whether these models truly understand the temporal structure of audio or if they rely on simple keyword matching. In this work, we dissect the temporal understanding of state-of-the-art text-to-audio retrieval models. We propose a set of diagnostic tasks that specifically test the model's ability to distinguish between audio clips that contain the same events in different temporal orders, or clips where events are present but temporally misaligned with the text. Our analysis reveals that current models struggle significantly with these tasks, indicating a lack of robust temporal reasoning. We further investigate the impact of different training objectives and data augmentation strategies on temporal understanding, providing insights for future research in this direction.",
+    "conferenceName": "ACM International Conference on Multimedia (ACMMM)",
+    "extra": {
+      "Citations@2026-10-28": "3",
+      "OpenAlex": "W4403791371",
+      "Scholar": "q9zQhj8AAAAJ:4DMP91E08xMC",
+      "Venue": "Proceedings of the 32nd ACM International Conference on Multimedia, 9535-9543, 2024"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "ACM International Conference on Multimedia (ACMMM)"
+  }
+}
