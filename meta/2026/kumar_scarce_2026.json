@@ -1,0 +1,24 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi",
+      "abebe"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "As autonomous agents become widely deployed, coordinating access to shared computing resources and services will become increasingly important. Recent incidents have already revealed unplanned coordination between agents, highlighting the safety implications of these interactions. Yet prior studies of agent negotiation often use stylized games and simulated bargaining, leaving open how these behaviors develop during sustained, long-horizon tasks. We propose SCARCE (Shared Compute ARena for Coding agEnts), a framework in which agents solve sequences of coding tasks under individual deadlines while negotiating access to a shared execution resource. This negotiation determines when and for how long they can inspect programs, compile code, and run tests. We find that agents spontaneously develop informal institutions: persistent rules and commitments grounded in reputation, reciprocity, and precedent. These arrangements, which we call institutional behaviors, carry across tasks and influence resource allocation, with agents sometimes foregoing immediate advantages to honor earlier agreements. We develop a 21-category taxonomy of negotiation strategies and emergent norms and use it to analyze eight models and audit more than 1,500 trajectories across different environmental settings. Among the models tested, newer frontier models exhibit more institutional behaviors than older or lightweight models. Alongside cooperation, we observe exclusionary coalitions and rare divide-and-conquer strategies. SCARCE provides a controlled setting for proactively and systematically auditing how these relationships emerge, shape access to resources, and affect the safety and coordination of multi-agent systems.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.MA",
+    "callNumber": "arXiv:2610.21029",
+    "extra": {
+      "Archive ID": "2610.21029",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7222568836",
+      "Repository": "arXiv",
+      "Scholar": "sDHHglIAAAAJ:wMgC3FpKEyYC",
+      "Venue": "arXiv preprint arXiv:2610.21029, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
