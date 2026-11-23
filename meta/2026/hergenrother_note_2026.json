@@ -1,0 +1,22 @@
+{
+  "custom": {
+    "groups": [
+      "orvieto"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Adapting foundation models to a new task within or beyond the training domain is the de facto standard for building specialized machine learning models. Recently, Visual Prompting (VP) has emerged as a promising technique for efficient knowledge transfer. As new foundation model families~(like Mamba) get introduced and VP pipelines such as AutoVP reach greater maturity, we find a growing need for a systematic evaluation of current approaches. In this work, we assess the performance of the latest models, comparing them to earlier architectures and alternative fine-tuning methods, to better understand the progress, challenges and opportunities in the field of efficient fine-tuning under resource limitations. Towards this goal, this paper provides a concise empirical overview of the interactions among foundation model families (Attention-, Convolution-, and Mamba-based) and transfer paradigms: VP, Linear Probing (LP), Full Fine-tuning (FFT) and Low Rank Adaptation (LoRA). Our work builds up on previous findings by broadening the selection of evaluated models and techniques while tuning hyperparameters. In the interest of delivering practical guidelines for the user, we also explore application of prevalent regularization techniques to boost performance in the context of VP.",
+    "archive": "arXiv",
+    "archiveLocation": "2610.37510",
+    "extra": {
+      "Archive ID": "2610.37510",
+      "Citations@2026-11-03": "0",
+      "OpenAlex": "W7224129667",
+      "Repository": "arXiv",
+      "Scholar": "xkuLyHoAAAAJ:LPZeul_q3PIC",
+      "Venue": "arXiv preprint arXiv:2610.37510, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
