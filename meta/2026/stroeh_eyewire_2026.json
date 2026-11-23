@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "berens"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Here, we describe Eyewire II, a large-scale EM dataset covering nearly 1 mm ² of the adult mouse retina -- roughly 10-100 times larger than previous retinal EM datasets. This resource enables the systematic reconstruction of retinal circuits at an unprecedented scale, facilitating the identification of cell types and the mapping of synaptic connectivity across the entire retinal mosaic.",
+    "extra": {
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W7163080714",
+      "Scholar": "lPQLk3QAAAAJ:KUbvn5osdkgC",
+      "Venue": "bioRxiv, 2026.05. 28.727403, 2026",
+      "publicationTitle": "bioRxiv (Cold Spring Harbor Laboratory)"
+    },
+    "itemType": "preprint"
+  }
+}
