@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Alcohol use is linked to distributed structural brain alterations, but population-level alcohol-related neurobiology remains difficult to quantify. We tested whether deep learning-derived MRI representations capture reproducible variation in alcohol consumption severity and converge with clinical and biological markers. Representations were extracted from gray-matter volume maps in the German National Cohort (NAKO; N ≈ 28,000). Ridge-regression scores were derived from structural MRI to estimate alcohol consumption severity, measured with the Alcohol Use Disorders Identification Test-Consumption (AUDIT-C). Models were trained in NAKO, externally validated in UK Biobank (N ≈ 25,000), evaluate..",
+    "extra": {
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W7236612875",
+      "Scholar": "5cZa3SIAAAAJ:ZfRJV9d4-WMC",
+      "Venue": "Translational Psychiatry (TRANSL PSYCHIAT)"
+    },
+    "itemType": "journalArticle"
+  }
+}
