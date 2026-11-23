@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "geiping"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-consistency boosts inference-time performance by sampling multiple reasoning traces in parallel and voting. However, in constrained domains like math and code, this strategy is compute-inefficient because it samples with replacement, repeatedly revisiting the same high-probability prefixes and duplicate completions. We propose Distinct Leaf Enumeration (DLE), a deterministic decoding method that treats truncated sampling as traversal of a pruned decoding tree and systematically enumerates distinct leaves instead of sampling with replacement. This strategy improves inference efficiency in two ways. Algorithmically, it increases coverage of the truncated search space under a fixed budget by exploring previously unvisited high-probability branches. Systemically, it reuses shared prefixes and reduces redundant token generation. Empirically, DLE explores higher-quality reasoning traces than stochastic self-consistency, yielding better performance on math, coding, and general reasoning tasks.",
+    "archive": "arXiv",
+    "extra": {
+      "Archive ID": "2604.20500",
+      "Citations@2026-07-13": "2",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:FPJr55Dyh1AC",
+      "Venue": "arXiv preprint arXiv:2604.20500, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
