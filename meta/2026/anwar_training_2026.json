@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "abdelnabi"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Evaluation awareness (EA) can cause large language models (LLMs) to behave differently during audits than in deployment, yet measuring and accounting for EA remains challenging. We introduce verbalization training (VT), a method for making LLMs less reticent about verbalizing evaluation awareness while avoiding to supervise the latent belief itself. VT uses a model's spontaneous verbalizations as evidence that awareness is present and truncates each rollout immediately before the verbalization, producing training prefixes at which the model is presumed to be aware. The model is then trained with an RL objective designed to increase verbalization in a calibrated way. Across Qwen3.6-35B-A3B, Kimi K2.6, and Inkling, VT increases verbalized EA by 2.4-2.9 times and transfers to held-out agentic settings, while measured latent EA and behavior remain largely stable. In a causal experiment, we independently implant meta-knowledge about evaluations through synthetic-document fine-tuning and show that VT-induced verbalizations reflect the richer knowledge acquired by the model.",
+    "archive": "arXiv",
+    "archiveLocation": "2609.36316",
+    "extra": {
+      "Archive ID": "2609.36316",
+      "Citations@2026-10-20": "0",
+      "OpenAlex": "W7214972024",
+      "Scholar": "QEiYbDYAAAAJ:feST4K8J0scC",
+      "Venue": "arXiv preprint arXiv:2609.36316, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
