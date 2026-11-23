@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "groups": [
+      "bethge"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "In spite of the wide-spread belief that \"beauty is in the eye of the beholder,\" both empirical aesthetics and the emerging field of computational aesthetics have largely focused on predicting a shared, population-level notion of aesthetic preference. Empirical work has established that individual differences in preference are most pronounced for artistic images, yet no dataset existed for personalized aesthetic assessment of artworks. Additionally, personalized reward modelling for the rapidly growing domain of AI-generated images remained almost entirely unexplored. The present thesis addresses both gaps by introducing two curated datasets: LAPIS (Leuven Art Personalized Image Set), comprising 11,723 artworks each rated by an average of 24 annotators and enriched with rich image and personal attributes, and PAMELA (Personalized Aesthetic Model & Large-scale Appraisals), comprising approximately 70,000 ratings from 200 users across 5,077 AI-generated images spanning art, fashion, graphic design, and cinematic photography. Alongside these resources, the thesis proposes the PAMELA predictor, a user-conditioned reward model trained jointly on PAMELA, LAPIS, and the photographic PARA dataset, which combines visual and textual embeddings with learned user representations to predict individual aesthetic preference. The predictor outperforms existing generic reward models on both user-level and population-level metrics, and when integrated into a prompt-optimisation pipeline it steers a text-to-image model toward the individual taste of a target user. A controlled pairwise preference study confirms that users prefer images optimised for their own taste, while optimisation with generic reward models is found to degrade perceptual quality. Together, these contributions provide an empirical and computational foundation for studying and modelling individual aesthetic variation across photographs, artworks, and AI-generated images.",
+    "extra": {
+      "Scholar": "0z0fNxUAAAAJ:GYcXSSpN504C"
+    },
+    "itemType": "thesis",
+    "libraryCatalog": "Lirias"
+  }
+}
