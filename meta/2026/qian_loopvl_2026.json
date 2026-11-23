@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "liu"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "LoopVL est un modèle de vision-langage récurrent qui intègre pleinement le Transformer récurrent dans les modèles de vision-langage.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2609.38426",
+    "extra": {
+      "Archive ID": "2609.38426",
+      "Citations@2026-11-23": "5",
+      "Scholar": "73IbXtsAAAAJ:EkHepimYqZsC",
+      "Venue": "arXiv preprint arXiv:2609.38426, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
