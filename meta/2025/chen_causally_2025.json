@@ -1,0 +1,23 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Generated texts from large language models (LLMs) have been shown to exhibit a variety of harmful, human-like biases against various demographics. These findings motivate research efforts aiming to understand and measure such effects. This paper introduces a causal formulation for bias measurement in generative language models. Based on this theoretical foundation, we outline a list of desiderata for designing robust bias benchmarks. We then propose a benchmark called OccuGender, with a bias-measuring procedure to investigate occupational gender bias. We test several state-of-the-art open-source LLMs on OccuGender, including Llama, Mistral, and their instruction-tuned versions. The results show that these models exhibit substantial occupational gender bias. Lastly, we discuss prompting strategies for bias mitigation and an extension of our causal formulation to illustrate the generalizability of our framework.",
+    "archive": "ACL Anthology",
+    "archiveLocation": "2025.findings-naacl.281",
+    "conferenceName": "Findings of the Association for Computational Linguistics: NAACL",
+    "extra": {
+      "Citations@2026-10-20": "4",
+      "Note": "Published as \"Causally Testing Gender Bias in LLMs: A Case Study on Occupational Bias\" in Findings of the Association for Computational Linguistics: NAACL 2025.",
+      "Scholar": "DZ-fHPgAAAAJ:a6UwSCtpZGAC",
+      "Source": "group_webpage (schoelkopf)",
+      "Venue": "arXiv e-prints, 2024"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "proceedingsTitle": "Findings of the Association for Computational Linguistics: NAACL"
+  }
+}
