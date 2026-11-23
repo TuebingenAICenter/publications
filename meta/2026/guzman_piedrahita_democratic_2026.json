@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "As Large Language Models (LLMs) become increasingly integrated into everyday life and information ecosystems, concerns about their implicit biases continue to persist. While prior work has primarily examined socio-demographic and left--right political dimensions, little attention has been paid to how LLMs align with broader geopolitical value systems, particularly the democracy--authoritarianism spectrum. In this paper, we propose a novel methodology to assess such alignment, combining (1) the F-scale, a psychometric tool for measuring authoritarian tendencies, (2) FavScore, a newly introduced metric for evaluating model favorability toward world leaders, and (3) role-model probing to assess which figures are cited as general role-models by LLMs. We find that LLMs generally favor democratic values and leaders, but exhibit increased favorability toward authoritarian figures when prompted in Mandarin. Further, models are found to often cite authoritarian figures as role models, even outside explicit political contexts. These results shed light on ways LLMs may reflect and potentially reinforce global political ideologies, highlighting the importance of evaluating bias beyond conventional socio-political axes. Our code is available at: [this https URL].",
+    "archive": "ACL Anthology",
+    "archiveLocation": "10.18653/v1/2026.eacl-long.27",
+    "conferenceName": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "Citations@2026-07-13": "0",
+      "OpenAlex": "W4415112542",
+      "Scholar": "DZ-fHPgAAAAJ:86o5xOGsEc8C",
+      "Venue": "Proceedings of the 19th Conference of the European Chapter of the …, 2026",
+      "publicationTitle": "arXiv (Cornell University)"
+    },
+    "itemType": "conferencePaper",
+    "libraryCatalog": "ACL Anthology",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2506.12758'>https://arxiv.org/abs/2506.12758</a><br><a href='https://dblp.dagstuhl.de/rec/journals/corr/abs-2506-12758.html'>https://dblp.dagstuhl.de/rec/journals/corr/abs-2506-12758.html</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+  }
+}
