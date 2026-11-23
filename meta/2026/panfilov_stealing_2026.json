@@ -13,9 +13,13 @@
     "extra": {
       "Archive ID": "2608.09867",
       "Citations@2026-09-01": "1",
-      "Scholar": "ZNtuJYoAAAAJ:eflP2zaiRacC",
+      "Citations@2026-11-01": "0",
+      "OpenAlex": "W7202180676",
+      "Repository": "arXiv",
+      "Scholar": "206vNCEAAAAJ:HeT0ZceujKMC",
       "Venue": "arXiv preprint arXiv:2608.09867, 2026"
     },
-    "itemType": "preprint"
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
   }
 }
