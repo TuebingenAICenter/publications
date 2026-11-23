@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Recently, deep neural networks on manifold-valued representations have garnered significant attention across various machine learning applications. One recent focus is the generalization of Euclidean fully connected (FC) and convolutional layers to non-Euclidean geometries. However, previous approaches typically focus on a few selected manifolds and rely on specific properties of the target manifold. In contrast, this work proposes a framework for constructing FC and convolutional layers over computationally tractable Riemannian spaces. This framework incorporates several previous FC layers across different geometries as special cases and is instantiated on ten representative manifolds, including three hyperbolic models, five geometries of the symmetric positive definite (SPD) manifold, and two Grassmannian perspectives. Experiments on different manifolds demonstrate the effectiveness and applicability of our approach. Code can be found at https://github.com/GitZH-Chen/RieTrans.",
+    "archive": "arXiv",
+    "archiveLocation": "cs.AI",
+    "callNumber": "arXiv:2609.35436",
+    "extra": {
+      "Archive ID": "2609.35436",
+      "Repository": "arXiv",
+      "Scholar": "DZ-fHPgAAAAJ:n2-E7RgC0qoC",
+      "Venue": "arXiv preprint arXiv:2609.35436, 2026"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv"
+  }
+}
