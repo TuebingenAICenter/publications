@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "groups": [
+      "schoelkopf"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Large language model (LLM) routing has emerged as a crucial strategy for balancing computational costs with performance by dynamically assigning queries to the most appropriate model based on query complexity. Despite recent advances showing that preference-data-based routers can outperform traditional methods, current evaluation benchmarks remain limited---they largely focus on general model capabilities while overlooking task-specific behaviors and critical concerns such as privacy, safety, and potential backdoor vulnerabilities introduced through preference data. In response, we propose the DSC benchmark: Diverse, simple, and categorized, an evaluation framework that categorizes router performance across a broad spectrum of query types---including coding, translation, mathematics, human instructions, general knowledge, and LLM jailbreaking---and integrates privacy and safety assessments to reveal hidden risks. Our experiments on three preference-based routers and two commercial counterparts demonstrate that while these systems improve efficiency, they often make suboptimal, category-driven decisions; for instance, a BERT-based router directs all coding and mathematics queries to the most powerful LLM---even when simpler models would suffice---while routing jailbreaking attempts to weaker models, thereby elevating safety risks.",
+    "conferenceName": "European Chapter of the Association for Computational Linguistics (EACL)",
+    "extra": {
+      "Citations@2026-06-01": "8",
+      "Citations@2026-07-13": "10",
+      "Scholar": "DZ-fHPgAAAAJ:R_yaT-ZWpE0C",
+      "Venue": "Proceedings of the 19th Conference of the European Chapter of the …, 2026"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2504.07113'>https://arxiv.org/abs/2504.07113</a><br><a href='https://paperswithcode.com/paper/how-robust-are-router-llms-analysis-of-the'>https://paperswithcode.com/paper/how-robust-are-router-llms-analysis-of-the</a><br><a href='https://huggingface.co/papers/2504.07113'>https://huggingface.co/papers/2504.07113</a><br></p>",
+        "relations": null,
+        "tags": null
+      },
+      {
+        "note": "<p>num_citations: 2025-07-31 : 1</p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  }
+}
