@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "bamler"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Function-space variational inference (FSVI) in Bayesian neural networks (BNNs) aims to approximate the posterior distribution over functions rather than weights. However, existing FSVI methods often suffer from ill-defined objectives or require restrictive assumptions on the function-space prior. We propose a novel FSVI framework based on a regularized KL-divergence that is well-defined for a wide class of BNNs. Our approach provides a principled way to incorporate function-space priors and leads to improved predictive uncertainty estimates.",
+    "conferenceName": "Conference on Uncertainty in Artificial Intelligence (UAI)",
+    "extra": {
+      "Citations@2026-11-23": "6",
+      "Scholar": "LwvdNAgAAAAJ:bEWYMUwI8FkC",
+      "Venue": "The 41st Conference on Uncertainty in Artificial Intelligence, 2025"
+    },
+    "itemType": "conferencePaper",
+    "proceedingsTitle": "Conference on Uncertainty in Artificial Intelligence (UAI)"
+  }
+}
