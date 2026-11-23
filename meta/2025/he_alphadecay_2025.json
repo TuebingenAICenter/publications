@@ -2,20 +2,21 @@
   "custom": {
     "groups": [
       "liu"
-    ],
-    "mentions_ai_center": false
+    ]
   },
   "zotero": {
-    "abstractNote": "Large Language Models (LLMs) often exhibit a heavy-tailed distribution in their weight magnitudes, where a small fraction of weights possess significantly larger values than the rest. While these large weights are crucial for model performance, they are often prone to overfitting and can lead to instability during training. In this paper, we propose AlphaDecay, a novel module-wise weight decay strategy designed to balance the heavy-tailed distribution of weights in LLMs. AlphaDecay dynamically adjusts the weight decay strength for each module based on the distribution of its weights, effectively regularizing the large weights while preserving the smaller ones. We demonstrate the effectiveness of AlphaDecay across various LLM architectures and tasks, showing that it consistently improves model performance and stability compared to standard weight decay methods.",
+    "abstractNote": "Weight decay is a standard regularization technique for training large language models (LLMs). While it is common to assign a uniform decay rate to every layer, this approach overlooks the structural diversity of LLMs and the varying spectral properties across modules. In this paper, we introduce AlphaDecay, a simple yet effective method that adaptively assigns different weight decay strengths to each module of an LLM. Our approach is guided by Heavy-Tailed Self-Regularization (HT-SR) theory, which analyzes the empirical spectral density (ESD) of weight correlation matrices to quantify “heavy-tailedness.” Modules exhibiting more pronounced heavy-tailed ESDs, reflecting stronger feature learning, are assigned weaker decay, while modules with lighter-tailed spectra receive stronger decay. Our method leverages tailored weight decay assignments to balance the module-wise differences in spectral properties, leading to improved performance. Extensive pre-training tasks with various model sizes from 60M to 1B demonstrate that AlphaDecay achieves better perplexity and generalization than conventional uniform decay and other adaptive decay baselines.",
     "archive": "arXiv",
-    "archiveLocation": "2506.14562",
-    "conferenceName": "NeurIPS",
+    "archiveLocation": "arXiv:2506.14562",
+    "conferenceName": "Advances in Neural Information Processing Systems (NEURIPS)",
     "extra": {
       "Citations@2026-06-01": "7",
+      "Citations@2026-10-20": "13",
       "Scholar": "73IbXtsAAAAJ:Mojj43d5GZwC",
+      "Venue": "NeurIPS 2025; arXiv:2506.14562, 2025",
       "arXiv": "2506.14562"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "Advances in Neural Information Processing Systems"
+    "proceedingsTitle": "Advances in Neural Information Processing Systems (NEURIPS)"
   }
 }
