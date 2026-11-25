@@ -1,0 +1,16 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Predicted brain age refers to a biomarker of structural brain health derived from machine learning analysis of T1-weighted brain magnetic resonance (MR) images. A range of machine learning models have been applied to this task, with convolutional neural networks (CNNs) being the current standard. Recent advances in deep learning have introduced transformers, which are conceptually distinct from CNNs, and appear to set new benchmarks in various domains of computer vision. Here, we investigate whether transformers and CNNs learn different concepts of brain age. We trained both architectures on T1-weighted MR images from the UK Biobank to predict chronological age. We then compared the models in terms of their predictive performance, their sensitivity to brain atrophy, and the spatial distribution of their predictions. Reassuringly, we observed no substantial differences in the structure of brain age predictions across the model architectures. Our findings suggest that both architectures converge on similar representations of brain age, despite their different inductive biases.",
+    "extra": {
+      "Citations@2026-10-20": "13",
+      "Scholar": "5cZa3SIAAAAJ:_xSYboBqXhAC",
+      "Venue": "Human Brain Mapping 46 (8), e70243, 2025"
+    },
+    "itemType": "journalArticle"
+  }
+}

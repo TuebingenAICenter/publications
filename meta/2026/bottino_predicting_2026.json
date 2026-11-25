@@ -1,0 +1,21 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Alcohol use disorder (AUD) is a major public health concern, yet the neural mechanisms underlying alcohol consumption remain poorly understood. Resting-state functional connectivity (rsFC) has shown promise in predicting individual differences in behavior, but its utility in predicting alcohol consumption is limited by small sample sizes and heterogeneity. Here, we investigate the potential of meta-matching, a transfer learning approach, to improve the prediction of alcohol consumption from rsFC. We evaluate feature relevance and the predictive performance of kernel ridge regression models across multiple datasets. Our results highlight the importance of specific brain networks, including the dorsal attention network, anterior cingulate cortex, precuneus, and striatum, in predicting alcohol consumption. We demonstrate that meta-matching can enhance predictive accuracy, suggesting that leveraging information from related tasks or populations can improve the robustness of neuroimaging-based predictions.",
+    "archive": "bioRxiv",
+    "archiveLocation": "10.64898/2026.10.19.759632",
+    "extra": {
+      "Archive ID": "10.64898/2026.10.19.759632",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7223464201",
+      "Repository": "bioRxiv",
+      "Scholar": "5cZa3SIAAAAJ:NJ774b8OgUMC",
+      "Venue": "bioRxiv, 2026.10. 19.759632, 2026"
+    },
+    "itemType": "preprint"
+  }
+}

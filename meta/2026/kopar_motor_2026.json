@@ -1,0 +1,18 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Self-supervised learning (SSL) speech representations achieve strong performance for Parkinson's disease (PD) detection within individual corpora. However, it remains unclear whether these models capture disease-related characteristics or exploit dataset-specific confounds, particularly since most SSL backbones are pretrained exclusively on healthy speech. To investigate this question, we perform a layer-wise analysis of nine SSL speech backbones using a low-capacity logistic regression probe across three languages. We structure the evaluation as multiple scenarios that progressively introduce distribution shifts in participant identity, recording conditions, language, and pathology. Our results reveal two key findings. First, layer selection is highly corpus-dependent: the optimal representation layer is determined primarily by the source dataset rather than by the SSL architecture itself. Second, the transferred discriminative signal lacks pathological specificity: classifiers trained to detect PD assign similarly high probabilities to both PD and dementia speech in the target corpus. These results highlight critical limitations that must be addressed before speech-based pathology recognition models can be reliably deployed in clinical settings.",
+    "archive": "arXiv",
+    "archiveLocation": "2608.13425",
+    "extra": {
+      "Archive ID": "2608.13425",
+      "Scholar": "5cZa3SIAAAAJ:PR6Y55bgFSsC",
+      "Venue": "arXiv preprint arXiv:2608.13425, 2026"
+    },
+    "itemType": "preprint"
+  }
+}

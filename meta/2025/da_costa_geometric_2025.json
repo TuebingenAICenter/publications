@@ -6,19 +6,27 @@
     "mentions_ai_center": true
   },
   "zotero": {
+    "abstractNote": "Approximating complex probability distributions, such as Bayesian posterior distributions, is of central interest in many applications. We study the expressivity of geometric Gaussian approximations. These consist of approximations by Gaussian pushforwards through diffeomorphisms or Riemannian exponential maps. We first review these two different kinds of geometric Gaussian approximations. Then we explore their relationship to one another. We further provide a constructive proof that such geometric Gaussian approximations are universal, in that they can capture any probability distribution. Finally, we discuss whether, given a family of probability distributions, a common diffeomorphism can be found to obtain uniformly high-quality geometric Gaussian approximations for that family.",
+    "archive": "arXiv",
+    "archiveLocation": "2507.00616",
+    "conferenceName": "Geometric Science of Information (GSI)",
     "extra": {
       "Citations@2026-06-01": "0",
-      "Conference Name": "GSI",
+      "Citations@2026-07-13": "0",
       "OpenAlex": "W4416469033",
-      "Scholar": "UeG5w08AAAAJ:FAceZFleit8C"
+      "Scholar": "UeG5w08AAAAJ:FAceZFleit8C",
+      "Venue": "International Conference on Geometric Science of Information, 125-132, 2025",
+      "publicationTitle": "arXiv (Cornell University)"
     },
-    "itemType": "document",
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
     "notes": [
       {
         "note": "<p><a href='https://dblp.org/rec/conf/gsi/CostaMH25'>https://dblp.org/rec/conf/gsi/CostaMH25</a><br><a href='https://jglobal.jst.go.jp/en/public/202502238627798130'>https://jglobal.jst.go.jp/en/public/202502238627798130</a><br></p>",
         "relations": null,
         "tags": null
       }
-    ]
+    ],
+    "proceedingsTitle": "Geometric Science of Information (GSI)"
   }
 }
