@@ -12,12 +12,15 @@
     "conferenceName": "International Conference on Machine Learning (ICML)",
     "extra": {
       "Citations@2026-07-13": "0",
-      "OpenAlex": "W7164233468",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7163987990",
       "Scholar": "adnTgaAAAAAJ:nWoA1JPTheMC",
       "Venue": "arXiv preprint arXiv:2606.09409, 2026",
       "publicationTitle": "arXiv (Cornell University)"
     },
     "itemType": "conferencePaper",
-    "proceedingsTitle": "International Conference on Machine Learning (ICML)"
+    "libraryCatalog": "PMLR",
+    "proceedingsTitle": "International Conference on Machine Learning (ICML)",
+    "seriesTitle": "Proceedings of Machine Learning Research"
   }
 }
