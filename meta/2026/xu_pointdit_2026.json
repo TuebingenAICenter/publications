@@ -6,12 +6,15 @@
     "mentions_ai_center": true
   },
   "zotero": {
-    "abstractNote": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures or necessitate compressing geometry into latent spaces to leverage pre-trained latent diffusion models. In this work, we demonstrate that such architectural overhead is unnecessary. We introduce a minimalist pixel-space Diffusion Transformer built on a plain ViT, which operates directly on raw point map patches and is conditioned on image tokens from a pre-trained DINOv3. Unlike existing latent diffusion-based approaches, we train our diffusion backbone entirely from scratch, eliminating the need for point map tokenizers. We show that this streamlined approach yields results superior to complex latent-based diffusion models while remaining significantly simpler than hybrid alternatives. Notably, our model produces sharper geometric structures and achieves significantly better results on highly ambiguous regions, such as transparent objects.",
+    "abstractNote": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain ViT, that operates directly on raw 3D point map patches and is conditioned on image tokens from a pre-trained DINOv3. Unlike existing latent diffusion approaches, we train our diffusion backbone entirely from scratch, eliminating the need for point map tokenizers. Despite its simplicity, our approach surpasses complex latent-based diffusion models while remaining significantly simpler than hybrid alternatives. Notably, it produces sharper geometric structure and is more robust in highly ambiguous regions, such as transparent objects.",
     "archive": "arXiv",
     "archiveLocation": "2607.02515",
     "callNumber": "arXiv:2607.02515",
     "conferenceName": "International Conference on Machine Learning (ICML)",
     "extra": {
+      "Authors": "H. Xu, R. Wu, P. Henzler, N. Kalischek, M. Oechsle, F. Manhardt, M. Pollefeys, A. Geiger, F. Tombari and M. Niemeyer",
+      "Citations@2026-10-28": "0",
+      "OpenAlex": "W7168400611",
       "Scholar": "SrVnrPcAAAAJ:T8_be82Iz5gC",
       "Venue": "arXiv preprint arXiv:2607.02515, 2026"
     },
