@@ -10,6 +10,7 @@
     "archive": "arXiv",
     "archiveLocation": "arXiv:2111.01714",
     "callNumber": "arXiv:2111.01714",
+    "conferenceName": "NeurIPS",
     "extra": {
       "Archive ID": "2111.01714",
       "Citations@2026-06-01": "2",
@@ -17,7 +18,8 @@
       "Repository": "arXiv",
       "Scholar": "0ZAb3tsAAAAJ:yqoGN6RLRZoC"
     },
-    "itemType": "document",
-    "libraryCatalog": "arXiv"
+    "itemType": "conferencePaper",
+    "libraryCatalog": "arXiv",
+    "proceedingsTitle": "Advances in Neural Information Processing Systems"
   }
 }
