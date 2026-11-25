@@ -1,0 +1,19 @@
+{
+  "custom": {
+    "groups": [
+      "ritter"
+    ]
+  },
+  "zotero": {
+    "abstractNote": "Uncertainty quantification is a cornerstone of reliable machine learning. While many methods exist to estimate uncertainty, they often rely on proxies such as predictive variance or entropy, which may not capture the true underlying risk. In this work, we propose a unified risk view of uncertainty based on the posterior risk. We show that this perspective allows for a principled approach to disentangle different sources of uncertainty, such as aleatoric and epistemic uncertainty. Furthermore, we demonstrate that the posterior risk provides a robust metric for evaluating uncertainty estimation methods, overcoming the limitations of proxy-based evaluation. We provide theoretical insights and empirical evidence across various tasks, showing that our approach leads to more reliable uncertainty estimates and better-calibrated models.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2608.05995",
+    "extra": {
+      "Archive ID": "2608.05995",
+      "Repository": "arXiv",
+      "Scholar": "5cZa3SIAAAAJ:VL0QpB8kHFEC",
+      "Venue": "arXiv preprint arXiv:2608.05995, 2026"
+    },
+    "itemType": "preprint"
+  }
+}
