@@ -2,10 +2,25 @@
   "custom": {
     "groups": [
       "bethge"
-    ]
+    ],
+    "mentions_ai_center": true
   },
   "zotero": {
-    "conferenceName": "International Conference on Learning Representations (ICLR)",
-    "itemType": "conferencePaper"
+    "conferenceName": "ICLR",
+    "extra": {
+      "Citations@2026-06-01": "0",
+      "OpenAlex": "W4415966304",
+      "Reporter": "arXiv (Cornell University)",
+      "Scholar": "0z0fNxUAAAAJ:ifOnle78iJkC"
+    },
+    "itemType": "conferencePaper",
+    "notes": [
+      {
+        "note": "<p><a href='https://neurips.cc/virtual/2025/123852'>https://neurips.cc/virtual/2025/123852</a><br><a href='https://arxiv.org/abs/2510.17776'>https://arxiv.org/abs/2510.17776</a><br><a href='https://post-forget.github.io/'>https://post-forget.github.io/</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ],
+    "proceedingsTitle": "International Conference on Learning Representations"
   }
 }
