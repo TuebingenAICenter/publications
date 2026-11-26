@@ -1,0 +1,30 @@
+{
+  "custom": {
+    "groups": [
+      "brendel"
+    ],
+    "mentions_ai_center": true
+  },
+  "zotero": {
+    "abstractNote": "Independent Component Analysis (ICA) uses a measure of non-Gaussianity to identify latent sources from data and estimate their mixing coefficients (Shimizu et al., 2006). Meanwhile, higher-order Orthogonal Machine Learning (OML) exploits non-Gaussian treatment noise to provide more accurate estimates of treatment effects in the presence of confounding nuisance effects (Mackey et al., 2018). Remarkably, we find that the two approaches rely on the same moment conditions for consistent estimation. We then seize upon this connection to show how ICA can be effectively used for treatment effect estimation. Specifically, we prove that linear ICA can consistently estimate multiple treatment effects, even in the presence of Gaussian confounders, and identify regimes in which ICA is provably more sample-efficient than OML for treatment effect estimation. Our synthetic demand estimation experiments confirm this theory and demonstrate that linear ICA can accurately estimate treatment effects even in the presence of nonlinear nuisance.",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2507.16467",
+    "extra": {
+      "Archive ID": "2507.16467",
+      "Citations@2026-06-01": "0",
+      "Citations@2026-11-23": "0",
+      "OpenAlex": "W4414421775",
+      "Scholar": "v-JL-hsAAAAJ:sSrBHYA8nusC",
+      "Venue": "arXiv preprint arXiv:2507.16467, 2025"
+    },
+    "itemType": "preprint",
+    "libraryCatalog": "arXiv",
+    "notes": [
+      {
+        "note": "<p><a href='https://arxiv.org/abs/2507.16467'>https://arxiv.org/abs/2507.16467</a><br><a href='https://mcml.ai/events/2025-08-12-workshop-causal-ml/'>https://mcml.ai/events/2025-08-12-workshop-causal-ml/</a><br><a href='https://dblp.org/rec/journals/corr/abs-2507-16467'>https://dblp.org/rec/journals/corr/abs-2507-16467</a><br></p>",
+        "relations": null,
+        "tags": null
+      }
+    ]
+  }
+}
